@@ -731,3 +731,31 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 .card .emo{font-size:40px}
 .done .mc-wrap{margin-bottom:4px}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* profiles + study group */
+.pf{display:flex;flex-direction:column;gap:10px;width:100%;text-align:left}
+.pf-l{display:flex;flex-direction:column;gap:4px;font-size:14px;font-weight:650}
+.pf-l input{min-height:48px;font-size:16px;border-radius:14px}
+.pf-n{font-size:13px;margin:0;opacity:.85}
+.mc-cele.intro .pf-l input{background:rgba(255,255,255,.95);color:#16201B;border:0}
+.board{display:flex;flex-direction:column;background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--sh-1);overflow:hidden}
+.bd-row{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.bd-row:last-child{border-bottom:0}
+.bd-row.me{background:var(--accent-soft)}
+.bd-pos{width:22px;font-weight:800;font-size:17px;color:var(--muted);text-align:center;flex:none}
+.bd-row:first-child .bd-pos{color:var(--t2)}
+.bd-mc{flex:none}
+.bd-n{display:flex;flex-direction:column;flex:1;min-width:0;line-height:1.35}
+.bd-n b{font-size:16px}
+.bd-st{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex:none}
+.bd-x,.bd-f{display:inline-flex;align-items:center;gap:3px;font-weight:800;font-size:15px}
+.bd-x .i{width:16px;height:16px;fill:var(--xp);stroke:var(--xp-ink);stroke-width:1.5}
+.bd-f .i{width:16px;height:16px;fill:url(#flameG);stroke:none}
+.bd-f.cold{color:var(--muted)}.bd-f.cold .i{fill:var(--line2)}
+.inv{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.fr-mini{border:0;text-align:left;gap:8px}
+.fr-r{display:flex;align-items:center;gap:8px;font-size:15px}
+.fr-r>.num:first-child{width:16px;color:var(--muted);font-weight:800}
+.fr-r b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fr-r.me b{color:var(--accent)}
+.fr-mc svg{display:block}

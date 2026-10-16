@@ -738,9 +738,37 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 .done .mc-wrap{margin-bottom:4px}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
+/* profiles + study group */
+.pf{display:flex;flex-direction:column;gap:10px;width:100%;text-align:left}
+.pf-l{display:flex;flex-direction:column;gap:4px;font-size:14px;font-weight:650}
+.pf-l input{min-height:48px;font-size:16px;border-radius:14px}
+.pf-n{font-size:13px;margin:0;opacity:.85}
+.mc-cele.intro .pf-l input{background:rgba(255,255,255,.95);color:#16201B;border:0}
+.board{display:flex;flex-direction:column;background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--sh-1);overflow:hidden}
+.bd-row{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.bd-row:last-child{border-bottom:0}
+.bd-row.me{background:var(--accent-soft)}
+.bd-pos{width:22px;font-weight:800;font-size:17px;color:var(--muted);text-align:center;flex:none}
+.bd-row:first-child .bd-pos{color:var(--t2)}
+.bd-mc{flex:none}
+.bd-n{display:flex;flex-direction:column;flex:1;min-width:0;line-height:1.35}
+.bd-n b{font-size:16px}
+.bd-st{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex:none}
+.bd-x,.bd-f{display:inline-flex;align-items:center;gap:3px;font-weight:800;font-size:15px}
+.bd-x .i{width:16px;height:16px;fill:var(--xp);stroke:var(--xp-ink);stroke-width:1.5}
+.bd-f .i{width:16px;height:16px;fill:url(#flameG);stroke:none}
+.bd-f.cold{color:var(--muted)}.bd-f.cold .i{fill:var(--line2)}
+.inv{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+.fr-mini{border:0;text-align:left;gap:8px}
+.fr-r{display:flex;align-items:center;gap:8px;font-size:15px}
+.fr-r>.num:first-child{width:16px;color:var(--muted);font-weight:800}
+.fr-r b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fr-r.me b{color:var(--accent)}
+.fr-mc svg{display:block}
+
 </style>
 </head><body>
-<svg hidden xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="i-house" viewBox="0 0 24 24"><svg class="lucide lucide-house" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><svg class="lucide lucide-layers" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/> <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><svg class="lucide lucide-target" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <circle cx="12" cy="12" r="6"/> <circle cx="12" cy="12" r="2"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><svg class="lucide lucide-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="11" cy="11" r="8"/> <path d="m21 21-4.3-4.3"/></symbol><symbol id="i-user-round" viewBox="0 0 24 24"><svg class="lucide lucide-user-round" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="8" r="5"/> <path d="M20 21a8 8 0 0 0-16 0"/></symbol><symbol id="i-headphones" viewBox="0 0 24 24"><svg class="lucide lucide-headphones" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol><symbol id="i-mic" viewBox="0 0 24 24"><svg class="lucide lucide-mic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/> <path d="M19 10v2a7 7 0 0 1-14 0v-2"/> <line x1="12" x2="12" y1="19" y2="22"/></symbol><symbol id="i-book-open" viewBox="0 0 24 24"><svg class="lucide lucide-book-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14"/> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol><symbol id="i-pen-line" viewBox="0 0 24 24"><svg class="lucide lucide-pen-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 20h9"/> <path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol><symbol id="i-puzzle" viewBox="0 0 24 24"><svg class="lucide lucide-puzzle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"/></symbol><symbol id="i-clipboard-check" viewBox="0 0 24 24"><svg class="lucide lucide-clipboard-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/> <path d="m9 14 2 2 4-4"/></symbol><symbol id="i-book-a" viewBox="0 0 24 24"><svg class="lucide lucide-book-a" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/> <path d="m8 13 4-7 4 7"/> <path d="M9.1 11h5.7"/></symbol><symbol id="i-type" viewBox="0 0 24 24"><svg class="lucide lucide-type" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polyline points="4 7 4 4 20 4 20 7"/> <line x1="9" x2="15" y1="20" y2="20"/> <line x1="12" x2="12" y1="4" y2="20"/></symbol><symbol id="i-audio-waveform" viewBox="0 0 24 24"><svg class="lucide lucide-audio-waveform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2"/></symbol><symbol id="i-shapes" viewBox="0 0 24 24"><svg class="lucide lucide-shapes" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"/> <rect x="3" y="14" width="7" height="7" rx="1"/> <circle cx="17.5" cy="17.5" r="3.5"/></symbol><symbol id="i-landmark" viewBox="0 0 24 24"><svg class="lucide lucide-landmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="3" x2="21" y1="22" y2="22"/> <line x1="6" x2="6" y1="18" y2="11"/> <line x1="10" x2="10" y1="18" y2="11"/> <line x1="14" x2="14" y1="18" y2="11"/> <line x1="18" x2="18" y1="18" y2="11"/> <polygon points="12 2 20 7 4 7"/></symbol><symbol id="i-play" viewBox="0 0 24 24"><svg class="lucide lucide-play" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polygon points="6 3 20 12 6 21 6 3"/></symbol><symbol id="i-square" viewBox="0 0 24 24"><svg class="lucide lucide-square" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="18" x="3" y="3" rx="2"/></symbol><symbol id="i-volume-2" viewBox="0 0 24 24"><svg class="lucide lucide-volume-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/> <path d="M16 9a5 5 0 0 1 0 6"/> <path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><svg class="lucide lucide-x" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M18 6 6 18"/> <path d="m6 6 12 12"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><svg class="lucide lucide-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 6 9 17l-5-5"/></symbol><symbol id="i-flame" viewBox="0 0 24 24"><svg class="lucide lucide-flame" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol><symbol id="i-zap" viewBox="0 0 24 24"><svg class="lucide lucide-zap" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><svg class="lucide lucide-award" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/> <circle cx="12" cy="8" r="6"/></symbol><symbol id="i-a-large-small" viewBox="0 0 24 24"><svg class="lucide lucide-a-large-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M21 14h-5"/> <path d="M16 16v-3.5a2.5 2.5 0 0 1 5 0V16"/> <path d="M4.5 13h6"/> <path d="m3 16 4.5-9 4.5 9"/></symbol><symbol id="i-notebook-pen" viewBox="0 0 24 24"><svg class="lucide lucide-notebook-pen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/> <path d="M2 6h4"/> <path d="M2 10h4"/> <path d="M2 14h4"/> <path d="M2 18h4"/> <path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></symbol><symbol id="i-gamepad-2" viewBox="0 0 24 24"><svg class="lucide lucide-gamepad-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="6" x2="10" y1="11" y2="11"/> <line x1="8" x2="8" y1="9" y2="13"/> <line x1="15" x2="15.01" y1="12" y2="12"/> <line x1="18" x2="18.01" y1="10" y2="10"/> <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol><symbol id="i-settings" viewBox="0 0 24 24"><svg class="lucide lucide-settings" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/> <circle cx="12" cy="12" r="3"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m9 18 6-6-6-6"/></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15 18-6-6 6-6"/></symbol><symbol id="i-lightbulb" viewBox="0 0 24 24"><svg class="lucide lucide-lightbulb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/> <path d="M9 18h6"/> <path d="M10 22h4"/></symbol><symbol id="i-snail" viewBox="0 0 24 24"><svg class="lucide lucide-snail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a6 6 0 1 0 12 0 4 4 0 1 0-8 0 2 2 0 0 0 4 0"/> <circle cx="10" cy="13" r="8"/> <path d="M2 21h12c4.4 0 8-3.6 8-8V7a2 2 0 1 0-4 0v6"/> <path d="M18 3 19.1 5.2"/> <path d="M22 3 20.9 5.2"/></symbol><symbol id="i-rotate-ccw" viewBox="0 0 24 24"><svg class="lucide lucide-rotate-ccw" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/> <path d="M3 3v5h5"/></symbol><symbol id="i-cloud" viewBox="0 0 24 24"><svg class="lucide lucide-cloud" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><svg class="lucide lucide-sparkles" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/> <path d="M20 3v4"/> <path d="M22 5h-4"/> <path d="M4 17v2"/> <path d="M5 18H3"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24"><svg class="lucide lucide-trophy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/> <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/> <path d="M4 22h16"/> <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/> <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/> <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol><symbol id="i-calendar-check" viewBox="0 0 24 24"><svg class="lucide lucide-calendar-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 2v4"/> <path d="M16 2v4"/> <rect width="18" height="18" x="3" y="4" rx="2"/> <path d="M3 10h18"/> <path d="m9 16 2 2 4-4"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><svg class="lucide lucide-clock" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <polyline points="12 6 12 12 16 14"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><svg class="lucide lucide-repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m17 2 4 4-4 4"/> <path d="M3 11v-1a4 4 0 0 1 4-4h14"/> <path d="m7 22-4-4 4-4"/> <path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol><symbol id="i-languages" viewBox="0 0 24 24"><svg class="lucide lucide-languages" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m5 8 6 6"/> <path d="m4 14 6-6 2-3"/> <path d="M2 5h12"/> <path d="M7 2h1"/> <path d="m22 22-5-10-5 10"/> <path d="M14 18h6"/></symbol></svg>
+<svg hidden xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="i-house" viewBox="0 0 24 24"><svg class="lucide lucide-house" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><svg class="lucide lucide-layers" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/> <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><svg class="lucide lucide-target" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <circle cx="12" cy="12" r="6"/> <circle cx="12" cy="12" r="2"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><svg class="lucide lucide-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="11" cy="11" r="8"/> <path d="m21 21-4.3-4.3"/></symbol><symbol id="i-user-round" viewBox="0 0 24 24"><svg class="lucide lucide-user-round" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="8" r="5"/> <path d="M20 21a8 8 0 0 0-16 0"/></symbol><symbol id="i-headphones" viewBox="0 0 24 24"><svg class="lucide lucide-headphones" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol><symbol id="i-mic" viewBox="0 0 24 24"><svg class="lucide lucide-mic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/> <path d="M19 10v2a7 7 0 0 1-14 0v-2"/> <line x1="12" x2="12" y1="19" y2="22"/></symbol><symbol id="i-book-open" viewBox="0 0 24 24"><svg class="lucide lucide-book-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14"/> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol><symbol id="i-pen-line" viewBox="0 0 24 24"><svg class="lucide lucide-pen-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 20h9"/> <path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol><symbol id="i-puzzle" viewBox="0 0 24 24"><svg class="lucide lucide-puzzle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"/></symbol><symbol id="i-clipboard-check" viewBox="0 0 24 24"><svg class="lucide lucide-clipboard-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/> <path d="m9 14 2 2 4-4"/></symbol><symbol id="i-book-a" viewBox="0 0 24 24"><svg class="lucide lucide-book-a" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/> <path d="m8 13 4-7 4 7"/> <path d="M9.1 11h5.7"/></symbol><symbol id="i-type" viewBox="0 0 24 24"><svg class="lucide lucide-type" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polyline points="4 7 4 4 20 4 20 7"/> <line x1="9" x2="15" y1="20" y2="20"/> <line x1="12" x2="12" y1="4" y2="20"/></symbol><symbol id="i-audio-waveform" viewBox="0 0 24 24"><svg class="lucide lucide-audio-waveform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2"/></symbol><symbol id="i-shapes" viewBox="0 0 24 24"><svg class="lucide lucide-shapes" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"/> <rect x="3" y="14" width="7" height="7" rx="1"/> <circle cx="17.5" cy="17.5" r="3.5"/></symbol><symbol id="i-landmark" viewBox="0 0 24 24"><svg class="lucide lucide-landmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="3" x2="21" y1="22" y2="22"/> <line x1="6" x2="6" y1="18" y2="11"/> <line x1="10" x2="10" y1="18" y2="11"/> <line x1="14" x2="14" y1="18" y2="11"/> <line x1="18" x2="18" y1="18" y2="11"/> <polygon points="12 2 20 7 4 7"/></symbol><symbol id="i-play" viewBox="0 0 24 24"><svg class="lucide lucide-play" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polygon points="6 3 20 12 6 21 6 3"/></symbol><symbol id="i-square" viewBox="0 0 24 24"><svg class="lucide lucide-square" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="18" x="3" y="3" rx="2"/></symbol><symbol id="i-volume-2" viewBox="0 0 24 24"><svg class="lucide lucide-volume-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/> <path d="M16 9a5 5 0 0 1 0 6"/> <path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><svg class="lucide lucide-x" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M18 6 6 18"/> <path d="m6 6 12 12"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><svg class="lucide lucide-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 6 9 17l-5-5"/></symbol><symbol id="i-flame" viewBox="0 0 24 24"><svg class="lucide lucide-flame" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol><symbol id="i-zap" viewBox="0 0 24 24"><svg class="lucide lucide-zap" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><svg class="lucide lucide-award" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/> <circle cx="12" cy="8" r="6"/></symbol><symbol id="i-a-large-small" viewBox="0 0 24 24"><svg class="lucide lucide-a-large-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M21 14h-5"/> <path d="M16 16v-3.5a2.5 2.5 0 0 1 5 0V16"/> <path d="M4.5 13h6"/> <path d="m3 16 4.5-9 4.5 9"/></symbol><symbol id="i-notebook-pen" viewBox="0 0 24 24"><svg class="lucide lucide-notebook-pen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/> <path d="M2 6h4"/> <path d="M2 10h4"/> <path d="M2 14h4"/> <path d="M2 18h4"/> <path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></symbol><symbol id="i-gamepad-2" viewBox="0 0 24 24"><svg class="lucide lucide-gamepad-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="6" x2="10" y1="11" y2="11"/> <line x1="8" x2="8" y1="9" y2="13"/> <line x1="15" x2="15.01" y1="12" y2="12"/> <line x1="18" x2="18.01" y1="10" y2="10"/> <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol><symbol id="i-settings" viewBox="0 0 24 24"><svg class="lucide lucide-settings" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/> <circle cx="12" cy="12" r="3"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m9 18 6-6-6-6"/></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15 18-6-6 6-6"/></symbol><symbol id="i-lightbulb" viewBox="0 0 24 24"><svg class="lucide lucide-lightbulb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/> <path d="M9 18h6"/> <path d="M10 22h4"/></symbol><symbol id="i-snail" viewBox="0 0 24 24"><svg class="lucide lucide-snail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a6 6 0 1 0 12 0 4 4 0 1 0-8 0 2 2 0 0 0 4 0"/> <circle cx="10" cy="13" r="8"/> <path d="M2 21h12c4.4 0 8-3.6 8-8V7a2 2 0 1 0-4 0v6"/> <path d="M18 3 19.1 5.2"/> <path d="M22 3 20.9 5.2"/></symbol><symbol id="i-rotate-ccw" viewBox="0 0 24 24"><svg class="lucide lucide-rotate-ccw" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/> <path d="M3 3v5h5"/></symbol><symbol id="i-cloud" viewBox="0 0 24 24"><svg class="lucide lucide-cloud" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><svg class="lucide lucide-sparkles" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/> <path d="M20 3v4"/> <path d="M22 5h-4"/> <path d="M4 17v2"/> <path d="M5 18H3"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24"><svg class="lucide lucide-trophy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/> <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/> <path d="M4 22h16"/> <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/> <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/> <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol><symbol id="i-calendar-check" viewBox="0 0 24 24"><svg class="lucide lucide-calendar-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 2v4"/> <path d="M16 2v4"/> <rect width="18" height="18" x="3" y="4" rx="2"/> <path d="M3 10h18"/> <path d="m9 16 2 2 4-4"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><svg class="lucide lucide-clock" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <polyline points="12 6 12 12 16 14"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><svg class="lucide lucide-repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m17 2 4 4-4 4"/> <path d="M3 11v-1a4 4 0 0 1 4-4h14"/> <path d="m7 22-4-4 4-4"/> <path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol><symbol id="i-languages" viewBox="0 0 24 24"><svg class="lucide lucide-languages" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m5 8 6 6"/> <path d="m4 14 6-6 2-3"/> <path d="M2 5h12"/> <path d="M7 2h1"/> <path d="m22 22-5-10-5 10"/> <path d="M14 18h6"/></symbol><symbol id="i-users" viewBox="0 0 24 24"><svg class="lucide lucide-users" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/> <circle cx="9" cy="7" r="4"/> <path d="M22 21v-2a4 4 0 0 0-3-3.87"/> <path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol></svg>
 <div class="app">
   <aside class="side" aria-label="Điều hướng chính">
     <div class="brand" id="brand"><span class="brand-mc" id="brandMc"></span><div class="brand-t"><b>Stalong</b><span><span class="han">思龙</span> Stalis's Hànyǔ</span></div></div>
@@ -824,10 +852,15 @@ function wordsAt(levels){return W.filter(w=>levels.includes(w.lv)).concat(P.cust
 
 /* ================= progress state ================= */
 const DEFAULT={v:1,upd:0,settings:{lv:[1],newPerDay:10,py:true,color:true,hv:true,mode:'hz',voiceRate:0.75,voice:''},srs:{},hist:{},gram:{},tests:[],custom:[]};
-let P=Object.assign(structuredClone(DEFAULT),store.get('hanyu-p',{}));
+/* profiles: each learner on a device has a name, a slug (storage + sync key) and an optional PIN */
+const slugOf=n=>viFold(n).trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,30);
+let WHO=store.get('hanyu-who',null);
+if(!WHO&&(store.get('hanyu-p',{}).upd||0)>0){WHO={name:'Stalis',slug:'stalis'};store.set('hanyu-who',WHO);}
+const PKEY=()=>!WHO||WHO.slug==='stalis'?'hanyu-p':'hanyu-p:'+WHO.slug;
+let P=Object.assign(structuredClone(DEFAULT),store.get(PKEY(),{}));
 P.settings=Object.assign({},DEFAULT.settings,P.settings||{});
 let dirty=new Set();
-function touch(part){P.upd=Date.now();dirty.add(part);store.set('hanyu-p',P);scheduleSync();}
+function touch(part){P.upd=Date.now();dirty.add(part);store.set(PKEY(),P);scheduleSync();}
 function card(h){return P.srs[h];}
 
 /* SRS (SM-2 style) */
@@ -902,10 +935,12 @@ async function api(path,{method='POST',body}={}){
   for(let i=0;i<3;i++){
     if(!getKey()){const ok=await askPassword(false);if(!ok)throw {code:'not_granted'};}
     let r;
-    try{r=await fetch(path,{method,headers:{'content-type':'application/json','x-app-key':getKey()},body:body?JSON.stringify(body):undefined});}
+    const hd={'content-type':'application/json','x-app-key':getKey()};if(WHO){hd['x-user']=WHO.slug;if(WHO.pin)hd['x-user-pin']=WHO.pin;}
+    try{r=await fetch(path,{method,headers:hd,body:body?JSON.stringify(body):undefined});}
     catch(e){throw {code:'network'};}
     if(r.status===401){setKey('');const ok=await askPassword(true);if(!ok)throw {code:'not_granted'};continue;}
     if(r.status===429)throw {code:'rate_limited'};
+    if(r.status===403||(r.status===400&&path.includes('sync'))){const ok=await askPin(r.status===403&&WHO&&WHO.pin);if(!ok)throw {code:'not_granted'};continue;}
     const j=await r.json().catch(()=>({}));
     if(!r.ok)throw {code:j.error||'upstream'};
     return j;
@@ -938,7 +973,7 @@ function makeWebAI(){
 
 /* ---- sync ---- */
 function docRef(name){return DB.doc('data/users/'+UID+'/'+name);}
-function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set('hanyu-p',P);applySettings();route(true);}
+function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
 async function pullRemote(){
   try{
     if(SYNC==='web'){
@@ -951,7 +986,7 @@ async function pullRemote(){
       const m=main.data();
       if((m.upd||0)>(P.upd||0)){
         const srs={};
-        for(const part of ['srs1','srs2','srs3','srs4','srs5','srs6','srs0']){const s=await docRef(part).get();if(s.exists)Object.assign(srs,s.data().cards||{});}
+        for(const part of ['srs1','srs2','srs3','srs4','srs5','srs6','srs7','srs0']){const s=await docRef(part).get();if(s.exists)Object.assign(srs,s.data().cards||{});}
         adopt(Object.assign({},m,{srs}));syncState='on';return;
       }
     }
@@ -963,12 +998,12 @@ function scheduleSync(){if(!SYNC||syncState==='off')return;clearTimeout(syncTime
 async function pushRemote(){
   if(!SYNC||!dirty.size)return; const parts=[...dirty]; dirty.clear();
   try{
-    if(SYNC==='web'){await api('api/sync',{method:'PUT',body:{data:P}});}
+    if(SYNC==='web'){await api('api/sync',{method:'PUT',body:{data:P,summary:typeof uiSummary==='function'?uiSummary():null}});}
     else{
       if(parts.includes('main')||parts.includes('srs')){const {srs,...main}=P; await docRef('main').set(JSON.parse(JSON.stringify(main)));}
       if(parts.includes('srs')){
         const by={};for(const [h,c] of Object.entries(P.srs)){const w=WI.get(h);const L=w?w.lv:0;(by[L]=by[L]||{})[h]=c;}
-        for(const L of [0,1,2,3,4,5,6]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
+        for(const L of [0,1,2,3,4,5,6,7]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
       }
     }
     syncState='on';
@@ -2244,7 +2279,7 @@ VIEWS.culture=async el=>{
   const all=await culLoad(); const upto=Math.min(all.length,culIndex()+1+ (P.culExtra||0));
   const list=all.slice(0,upto).reverse(); const cats=[...new Set(all.map(x=>x.cat))];
   el.innerHTML=`<div class="view"><div class="spread"><h2>Văn hóa Trung Quốc</h2><span class="note">Đã mở ${upto}/${all.length} chuyện</span></div>
-   <p class="note">Mỗi ngày mở thêm một chuyện. Muốn đọc thêm thì bấm "Mở thêm 1 chuyện" sau khi xong việc hôm nay.</p>
+   <p class="note">Mỗi ngày mở thêm một chuyện. Muốn đọc thêm thì bấm "Mở thêm 1 chuyện" sau khi xong nhiệm vụ hôm nay.</p>
    <div class="row"><button class="btn sm" id="culMore" ${plDay().xp>=plGoalXP()?'':'disabled'}>Mở thêm 1 chuyện</button><span class="small muted">${plDay().xp>=plGoalXP()?'':'Đạt mục tiêu XP hôm nay để mở thêm.'}</span></div>
    <div class="cul-list">${list.map(x=>`<details class="g"><summary><span class="pill">${esc(x.cat)}</span><span class="t">${esc(x.title)}</span><span class="han">${esc(x.zh)}</span>${P.cul&&P.cul[x.id]?'<span class="check on">✓</span>':''}</summary><div class="body" data-cid="${x.id}"></div></details>`).join('')}</div></div>`;
   $$('.cul-list details',el).forEach(d=>d.addEventListener('toggle',()=>{if(!d.open)return;const b=$('.body',d);if(b.dataset.r)return;b.dataset.r=1;const x=all.find(y=>y.id===b.dataset.cid);
@@ -3098,13 +3133,13 @@ const UI_GROUPS=[
   {k:'review',label:'Ôn tập',icon:'layers',views:['study','mistakes','games']},
   {k:'practice',label:'Luyện',icon:'target',views:['listen','speak','read','write','grammar','test']},
   {k:'lookup',label:'Tra cứu',icon:'search',views:['dict','pinyin','tones','radicals','culture']},
-  {k:'me',label:'Tôi',icon:'user-round',views:['progress','settings']},
+  {k:'me',label:'Tôi',icon:'user-round',views:['progress','friends','settings']},
 ];
 const UI_ALIAS={talk:'speak',pitch:'tones',placement:'progress'};
 const UI_V={home:['Hôm nay','house'],study:['Thẻ từ','repeat'],mistakes:['Sổ lỗi sai','notebook-pen'],games:['Trò chơi','gamepad-2'],
   listen:['Nghe','headphones'],speak:['Nói','mic'],read:['Đọc','book-open'],write:['Viết','pen-line'],grammar:['Ngữ pháp','puzzle'],test:['Thi thử','clipboard-check'],
   dict:['Từ điển','book-a'],pinyin:['Pinyin','type'],tones:['Thanh điệu','audio-waveform'],radicals:['Bộ thủ','shapes'],culture:['Văn hóa','landmark'],
-  progress:['Tiến độ','trophy'],settings:['Cài đặt','settings']};
+  progress:['Tiến độ','trophy'],friends:['Bạn học','users'],settings:['Cài đặt','settings']};
 const uiGroupOf=v=>{v=UI_ALIAS[v]||v;return UI_GROUPS.find(g=>g.views.includes(v))||UI_GROUPS[0];};
 const UI_LAST=store.get('hanyu-lastv',{});
 const uiReduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -3120,7 +3155,7 @@ function uiInit(){
   $$('#bnav [data-g]').forEach(b=>b.onclick=()=>uiGoGroup(b.dataset.g));
   document.addEventListener('pointerdown',e=>{UI_PT={x:e.clientX,y:e.clientY};},{capture:true,passive:true});
   document.addEventListener('click',uiOptFx);
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('.mc-cele');if(m)m.remove();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('.mc-cele');if(m&&!m.classList.contains('locked'))m.remove();}});
 }
 let UI_PT=null;
 function uiGoGroup(k){const g=UI_GROUPS.find(x=>x.k===k);const v=UI_LAST[k]&&g.views.includes(UI_LAST[k])?UI_LAST[k]:g.views[0];go(v);}
@@ -3173,12 +3208,12 @@ function uiHome(el){
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
   const firstTime=Object.keys(P.srs).length<20&&!P.placed;
   el.innerHTML=`<div class="view home2">
-   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, Stalis</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Tiểu Long tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} việc. Cố thêm chút nữa nhé.`:'Mỗi ngày 30 phút, mình học cùng nhau nhé.'}</p></div></div>
+   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Tiểu Long tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Cố thêm chút nữa nhé.`:'Mỗi ngày 30 phút, mình học cùng nhau nhé.'}</p></div></div>
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
      <section class="sess" aria-label="Buổi học hôm nay">
-      <div class="sess-top"><div><div class="sess-k">Buổi học hôm nay</div><div class="sess-x"><b class="num">${d.xp||0}</b> / ${goal} XP</div><div class="sess-s">${doneN}/${tasks.length} việc, khoảng ${plCfg().minutes} phút</div></div>${uiRing((d.xp||0)/goal,76)}</div>
+      <div class="sess-top"><div><div class="sess-k">Buổi học hôm nay</div><div class="sess-x"><b class="num">${d.xp||0}</b> / ${goal} XP</div><div class="sess-s">${doneN}/${tasks.length} nhiệm vụ, khoảng ${plCfg().minutes} phút</div></div>${uiRing((d.xp||0)/goal,76)}</div>
       <ol class="path">${tasks.map(t=>`<li class="${t.done?'on':''} ${t===next?'cur':''}"><i></i><span>${UI_SHORT[t.k]||t.t}</span></li>`).join('')}</ol>
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
@@ -3197,6 +3232,7 @@ function uiHome(el){
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.h);
   culLoad().then(all=>{const t=$('#hmCulT');if(!t||!all.length)return;const x=all[culIndex()%all.length];t.innerHTML=`${esc(x.title)} <span class="han muted">${esc(x.zh)}</span>`;if(P.cul&&P.cul[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));});
   $('#hmCul').onclick=()=>{const m=modal(culCardHTML());culBind();};
+  uiFriendsCard();
 }
 VIEWS.home=uiHome;
 
@@ -3259,6 +3295,7 @@ VIEWS.settings=el=>{
   const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần nhập mật khẩu':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
   const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần mật khẩu)':'Chỉ lưu trên máy này';
   el.innerHTML=`<div class="view set">
+   <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0">Mục tiêu <b>HSK ${lvN(c.target)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
      <div class="row"><button class="btn sm" id="stPlan">Đổi lộ trình</button><button class="btn sm" data-go="placement">Xếp lớp lại</button></div></div>
    <div class="panel"><h3>Cấp đang học</h3>${c.auto?'<p class="note">Đang tự đặt theo lộ trình. Tắt "Tự đặt" trong Đổi lộ trình để chọn tay.</p>':''}
@@ -3274,7 +3311,7 @@ VIEWS.settings=el=>{
      <p class="note">Stalong 思龙, Stalis's Hànyǔ. Âm thanh từ: audio-cmn (CC BY-SA). Nét chữ: hanzi-writer-data. Từ vựng HSK 3.0.</p></div>
   </div>`;
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
-  $('#stPlan').onclick=plSettings;
+  $('#stPlan').onclick=plSettings;$('#stWho').onclick=switchProfile;
   $('#stNew').onchange=e=>{P.settings.newPerDay=Math.max(0,Math.min(60,+e.target.value||0));c.auto=false;touch('main');};
   uiToggles(el);
   const k=$('#stKey');if(k)k.onclick=async()=>{const ok=await askPassword(false);if(ok){await initPlatform();VIEWS.settings(el);}};
@@ -3319,7 +3356,7 @@ function uiCele(html,cls){
   const old=$('.mc-cele');if(old)old.remove();
   const bg=document.createElement('div');bg.className='mc-cele '+(cls||'');bg.setAttribute('role','dialog');bg.setAttribute('aria-modal','true');
   bg.innerHTML=`<div class="cele-in">${html}</div>`;document.body.appendChild(bg);
-  const close=()=>bg.remove();$$('[data-close]',bg).forEach(b=>b.onclick=close);bg.addEventListener('click',e=>{if(e.target===bg)close();});
+  const close=()=>bg.remove();$$('[data-close]',bg).forEach(b=>b.onclick=close);bg.addEventListener('click',e=>{if(e.target===bg&&!bg.classList.contains('locked'))close();});
   setTimeout(()=>{const b=$('[data-close]',bg);b&&b.focus();},50);
   return {el:bg,close};
 }
@@ -3345,17 +3382,20 @@ window.__voiceBanner=()=>{
 
 /* ---------- intro / onboarding ---------- */
 function uiIntro(force){
-  if(!force&&store.get('hanyu-intro',0))return;
-  const fresh=Object.keys(P.srs).length<5;
+  if(!force&&store.get('hanyu-intro',0)&&WHO)return;
+  const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào Stalis, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, chỗ cả nhóm cùng học tiếng Trung. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}, mình là Tiểu Long 小龙</h2><p>${WHO&&WHO.slug==='stalis'?'Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.':'Rất vui được học cùng bạn trên <b>Stalong 思龙</b>.'}</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
       <div class="hats">${[0,1,3,5,7].map(i=>mascotSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',100)}</div><h2>Mỗi ngày học bao lâu?</h2><div class="row" style="justify-content:center">${[15,30,45,60].map(n=>`<button class="chip big" data-mn="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
       <h2 style="margin-top:12px">Bạn đã học tiếng Trung chưa?</h2><div class="in-opts"><button class="btn" data-lv="new">Mới bắt đầu</button><button class="btn" data-lv="some">Đã học một ít (xếp lớp 10 phút)</button></div>`;},
   ];
-  let i=0; const m=uiCele('','intro');const box=$('.cele-in',m.el);
+  let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
   const draw=()=>{box.innerHTML=steps[i]();
-    const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===0){i=1;draw();}else{store.set('hanyu-intro',1);m.close();}};
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
+      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+    const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('hanyu-intro',1);m.close();}};
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-lv]',box).forEach(b=>b.onclick=()=>{store.set('hanyu-intro',1);m.close();if(b.dataset.lv==='some')go('placement');else{const c=plCfg();c.target=Math.max(c.target,4);plApply();touch('main');go('study');}});};
   draw();
@@ -3377,6 +3417,101 @@ drawCard=function(){
     $$('[data-r]',r).forEach(b=>{if(!$('.i',b))b.insertAdjacentHTML('afterbegin',b.dataset.r==='0'?ic('rotate-ccw'):ic('check'));});}
 };
 {const _m=VIEWS.mistakes;VIEWS.mistakes=el=>{_m(el);const e=$('.empty',el);if(e)e.outerHTML=mcSay('ok','Chưa có lỗi nào. Câu nào bạn trả lời sai sẽ được lưu ở đây để ôn lại.',72);};}
+
+/* ================= PROFILES + STUDY GROUP (Bạn học) =================
+   Each learner: name + slug + personal PIN (web sync). Group password (APP_PASSWORD) is shared.
+   Board: api/board returns everyone's weekly XP, streak and rank. */
+function uiName(){return WHO&&WHO.name?WHO.name:'bạn';}
+function uiMonday(){const t=today();return ymd(t-((new Date(t).getDay()+6)%7)*DAY);}
+function uiSummary(){
+  let wxp=0;const mon=today()-((new Date(today()).getDay()+6)%7)*DAY;
+  for(let d=mon;d<=today();d+=DAY){const x=(P.day||{})[ymd(d)];if(x)wxp+=x.xp||0;}
+  return {name:uiName(),wxp,xp:plXPTotal(),streak:streak(),rank:mcRankIdx(),known:Object.keys(P.srs).filter(known).length,today:plDay().xp||0,week:uiMonday()};
+}
+function askPin(wrong){
+  return new Promise(res=>{
+    const m=modal(`<h2>Mã PIN của ${esc(uiName())}</h2>
+      <p class="note">${wrong?'Mã PIN chưa đúng. Nhập lại nhé.':'Mỗi người học có một mã PIN riêng để giữ tiến độ của mình, không ai ghi đè được. Lần đầu nhập là lúc đặt PIN (4 đến 6 số), nhớ nó để dùng trên máy khác.'}</p>
+      <form id="pnF" class="row"><input type="password" inputmode="numeric" id="pnI" autocomplete="off" placeholder="Mã PIN" maxlength="6" style="flex:1 1 160px"><button class="btn primary" type="submit">Xong</button></form>`);
+    let done=false;const fin=v=>{if(done)return;done=true;res(v);};
+    $('#pnF',m.el).onsubmit=e=>{e.preventDefault();const v=$('#pnI',m.el).value.trim();if(v.length<4){toast('PIN cần 4 đến 6 số.');return;}
+      if(!WHO)WHO={name:'Stalis',slug:'stalis'};WHO.pin=v;store.set('hanyu-who',WHO);m.close();fin(true);};
+    const obs=new MutationObserver(()=>{if(!document.body.contains(m.el)){obs.disconnect();fin(false);}});obs.observe(document.body,{childList:true});
+    setTimeout(()=>$('#pnI',m.el).focus(),50);
+  });
+}
+/* switch or create a learner on this device */
+async function setProfile(name,pin){
+  const slug=slugOf(name); if(!slug)return false;
+  const first=!WHO;
+  if(!first&&WHO.slug!==slug){clearTimeout(syncTimer);if(dirty.size){try{await pushRemote();}catch(e){}}}
+  WHO={name:name.trim().slice(0,30),slug,pin:pin||''}; store.set('hanyu-who',WHO);
+  const saved=store.get(PKEY(),null);
+  if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
+  else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
+  queue=[];dirty=new Set();applySettings();
+  if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
+  route();return true;
+}
+function profileForm(fresh){
+  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Thy" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
+    <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
+    <p class="pf-n">Dùng tên và PIN này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+}
+function switchProfile(){
+  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}m.close();await setProfile(n,p);toast('Chào '+n+'!');};
+}
+
+/* ---------- Bạn học view ---------- */
+let BOARD=null, BOARD_AT=0;
+async function boardLoad(force){
+  if(!WEB||!WEB.sync||!getKey())return null;
+  if(!force&&BOARD&&Date.now()-BOARD_AT<60000)return BOARD;
+  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_AT=Date.now();}catch(e){return BOARD;}
+  return BOARD;
+}
+function boardRows(list){
+  const mon=uiMonday();
+  return list.map(x=>Object.assign({},x,{wxp:x.week===mon?x.wxp:0,today:x.week===mon&&ymd(x.upd||0)===ymd(Date.now())?x.today:0}))
+    .sort((a,b)=>b.wxp-a.wxp||b.streak-a.streak);
+}
+VIEWS.friends=async el=>{
+  const link=location.origin&&location.protocol.startsWith('http')&&!IN_ARTIFACT?location.origin:'https://hanyu-ecru.vercel.app';
+  const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
+  if(IN_ARTIFACT||!WEB||!WEB.sync){
+    el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học chạy trên bản web. Mở Stalong trên web để học cùng nhau nhé.',64)}${invite}</div>`;bindInv();return;}
+  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Nhập mật khẩu nhóm để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>${invite}</div>`;
+    $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
+  el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
+  const list=boardRows((await boardLoad(true))||[]);
+  const me=WHO?WHO.slug:'';
+  el.innerHTML=`<div class="view">
+    <div class="spread"><h2>Tuần này</h2><span class="note">Xếp theo XP từ thứ Hai</span></div>
+    ${list.length?`<div class="board">${list.map((x,i)=>`<div class="bd-row ${x.slug===me?'me':''}"><span class="bd-pos num">${i+1}</span><span class="bd-mc">${mascotSVG(x.today?'hi':'zzz',48,x.rank||0)}</span>
+      <span class="bd-n"><b>${esc(x.name)}${x.slug===me?' <span class="pill ai">bạn</span>':''}</b><span class="small muted">${PL_RANKS[x.rank||0][2]} <span class="han">${PL_RANKS[x.rank||0][1]}</span>, ${x.known||0} từ đã thuộc</span></span>
+      <span class="bd-st"><span class="bd-x num">${ic('zap')}${x.wxp}</span><span class="bd-f num ${x.streak?'':'cold'}">${ic('flame')}${x.streak}</span></span></div>`).join('')}</div>`
+      :mcSay('zzz','Chưa ai lên bảng. Học xong một bài là tên bạn sẽ hiện ở đây.',64)}
+    ${list.length===1?mcSay('idea','Một mình thì hơi buồn. Rủ thêm người cùng học cho vui nhé.',56):''}
+    ${invite}</div>`;
+  bindInv();
+  function bindInv(){
+    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Học tiếng Trung cùng mình trên Stalong 思龙 nhé: ${link}\nMở link, nhập tên và đặt mã PIN riêng. Mật khẩu nhóm mình gửi riêng.`;
+      (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Đã sao chép lời mời.')).catch(()=>toast(t,6000));};
+    const s=$('#frSw');if(s)s.onclick=switchProfile;
+  }
+};
+/* small board card on Today */
+async function uiFriendsCard(){
+  const side=$('.hm-side');if(!side)return;
+  const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
+  const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
+  if($('#hmFr'))return;
+  side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${mascotSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
+  $('#hmFr').onclick=()=>go('friends');
+}
 
 /* ================= boot ================= */
 async function boot(){

@@ -66,3 +66,10 @@ Deploy lại. Câu và bài đọc sẽ dùng giọng zh-CN-XiaoxiaoNeural (nữ
 ## Nguồn dữ liệu bổ sung
 
 - Tách chữ: [cjkvi-ids](https://github.com/cjkvi/cjkvi-ids) (dựa trên CHISE IDS, GPL v2)
+
+## Học cùng nhóm
+
+- Mỗi người mở web, nhập tên và đặt mã PIN riêng (4-6 số). Tiến độ lưu riêng theo tên: `hanyu:p:<tên>` trong Redis (riêng Stalis giữ khóa cũ `hanyu:progress`), PIN lưu dạng băm ở `hanyu:pin:<tên>`.
+- Mật khẩu nhóm vẫn là `APP_PASSWORD`, dùng chung để mở đồng bộ và trợ lý AI.
+- Bảng "Bạn học" (Tôi -> Bạn học) lấy từ `api/board`: XP tuần, chuỗi ngày, danh hiệu của từng người.
+- Máy dùng chung: Tôi -> Cài đặt -> Đổi người học.

@@ -61,10 +61,15 @@ function wordsAt(levels){return W.filter(w=>levels.includes(w.lv)).concat(P.cust
 
 /* ================= progress state ================= */
 const DEFAULT={v:1,upd:0,settings:{lv:[1],newPerDay:10,py:true,color:true,hv:true,mode:'hz',voiceRate:0.75,voice:''},srs:{},hist:{},gram:{},tests:[],custom:[]};
-let P=Object.assign(structuredClone(DEFAULT),store.get('hanyu-p',{}));
+/* profiles: each learner on a device has a name, a slug (storage + sync key) and an optional PIN */
+const slugOf=n=>viFold(n).trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,30);
+let WHO=store.get('hanyu-who',null);
+if(!WHO&&(store.get('hanyu-p',{}).upd||0)>0){WHO={name:'Stalis',slug:'stalis'};store.set('hanyu-who',WHO);}
+const PKEY=()=>!WHO||WHO.slug==='stalis'?'hanyu-p':'hanyu-p:'+WHO.slug;
+let P=Object.assign(structuredClone(DEFAULT),store.get(PKEY(),{}));
 P.settings=Object.assign({},DEFAULT.settings,P.settings||{});
 let dirty=new Set();
-function touch(part){P.upd=Date.now();dirty.add(part);store.set('hanyu-p',P);scheduleSync();}
+function touch(part){P.upd=Date.now();dirty.add(part);store.set(PKEY(),P);scheduleSync();}
 function card(h){return P.srs[h];}
 
 /* SRS (SM-2 style) */
@@ -139,10 +144,12 @@ async function api(path,{method='POST',body}={}){
   for(let i=0;i<3;i++){
     if(!getKey()){const ok=await askPassword(false);if(!ok)throw {code:'not_granted'};}
     let r;
-    try{r=await fetch(path,{method,headers:{'content-type':'application/json','x-app-key':getKey()},body:body?JSON.stringify(body):undefined});}
+    const hd={'content-type':'application/json','x-app-key':getKey()};if(WHO){hd['x-user']=WHO.slug;if(WHO.pin)hd['x-user-pin']=WHO.pin;}
+    try{r=await fetch(path,{method,headers:hd,body:body?JSON.stringify(body):undefined});}
     catch(e){throw {code:'network'};}
     if(r.status===401){setKey('');const ok=await askPassword(true);if(!ok)throw {code:'not_granted'};continue;}
     if(r.status===429)throw {code:'rate_limited'};
+    if(r.status===403||(r.status===400&&path.includes('sync'))){const ok=await askPin(r.status===403&&WHO&&WHO.pin);if(!ok)throw {code:'not_granted'};continue;}
     const j=await r.json().catch(()=>({}));
     if(!r.ok)throw {code:j.error||'upstream'};
     return j;
@@ -175,7 +182,7 @@ function makeWebAI(){
 
 /* ---- sync ---- */
 function docRef(name){return DB.doc('data/users/'+UID+'/'+name);}
-function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set('hanyu-p',P);applySettings();route(true);}
+function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
 async function pullRemote(){
   try{
     if(SYNC==='web'){
@@ -188,7 +195,7 @@ async function pullRemote(){
       const m=main.data();
       if((m.upd||0)>(P.upd||0)){
         const srs={};
-        for(const part of ['srs1','srs2','srs3','srs4','srs5','srs6','srs0']){const s=await docRef(part).get();if(s.exists)Object.assign(srs,s.data().cards||{});}
+        for(const part of ['srs1','srs2','srs3','srs4','srs5','srs6','srs7','srs0']){const s=await docRef(part).get();if(s.exists)Object.assign(srs,s.data().cards||{});}
         adopt(Object.assign({},m,{srs}));syncState='on';return;
       }
     }
@@ -200,12 +207,12 @@ function scheduleSync(){if(!SYNC||syncState==='off')return;clearTimeout(syncTime
 async function pushRemote(){
   if(!SYNC||!dirty.size)return; const parts=[...dirty]; dirty.clear();
   try{
-    if(SYNC==='web'){await api('api/sync',{method:'PUT',body:{data:P}});}
+    if(SYNC==='web'){await api('api/sync',{method:'PUT',body:{data:P,summary:typeof uiSummary==='function'?uiSummary():null}});}
     else{
       if(parts.includes('main')||parts.includes('srs')){const {srs,...main}=P; await docRef('main').set(JSON.parse(JSON.stringify(main)));}
       if(parts.includes('srs')){
         const by={};for(const [h,c] of Object.entries(P.srs)){const w=WI.get(h);const L=w?w.lv:0;(by[L]=by[L]||{})[h]=c;}
-        for(const L of [0,1,2,3,4,5,6]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
+        for(const L of [0,1,2,3,4,5,6,7]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
       }
     }
     syncState='on';

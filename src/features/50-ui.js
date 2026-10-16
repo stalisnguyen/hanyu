@@ -5,13 +5,13 @@ const UI_GROUPS=[
   {k:'review',label:'Ôn tập',icon:'layers',views:['study','mistakes','games']},
   {k:'practice',label:'Luyện',icon:'target',views:['listen','speak','read','write','grammar','test']},
   {k:'lookup',label:'Tra cứu',icon:'search',views:['dict','pinyin','tones','radicals','culture']},
-  {k:'me',label:'Tôi',icon:'user-round',views:['progress','settings']},
+  {k:'me',label:'Tôi',icon:'user-round',views:['progress','friends','settings']},
 ];
 const UI_ALIAS={talk:'speak',pitch:'tones',placement:'progress'};
 const UI_V={home:['Hôm nay','house'],study:['Thẻ từ','repeat'],mistakes:['Sổ lỗi sai','notebook-pen'],games:['Trò chơi','gamepad-2'],
   listen:['Nghe','headphones'],speak:['Nói','mic'],read:['Đọc','book-open'],write:['Viết','pen-line'],grammar:['Ngữ pháp','puzzle'],test:['Thi thử','clipboard-check'],
   dict:['Từ điển','book-a'],pinyin:['Pinyin','type'],tones:['Thanh điệu','audio-waveform'],radicals:['Bộ thủ','shapes'],culture:['Văn hóa','landmark'],
-  progress:['Tiến độ','trophy'],settings:['Cài đặt','settings']};
+  progress:['Tiến độ','trophy'],friends:['Bạn học','users'],settings:['Cài đặt','settings']};
 const uiGroupOf=v=>{v=UI_ALIAS[v]||v;return UI_GROUPS.find(g=>g.views.includes(v))||UI_GROUPS[0];};
 const UI_LAST=store.get('hanyu-lastv',{});
 const uiReduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -27,7 +27,7 @@ function uiInit(){
   $$('#bnav [data-g]').forEach(b=>b.onclick=()=>uiGoGroup(b.dataset.g));
   document.addEventListener('pointerdown',e=>{UI_PT={x:e.clientX,y:e.clientY};},{capture:true,passive:true});
   document.addEventListener('click',uiOptFx);
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('.mc-cele');if(m)m.remove();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const m=$('.mc-cele');if(m&&!m.classList.contains('locked'))m.remove();}});
 }
 let UI_PT=null;
 function uiGoGroup(k){const g=UI_GROUPS.find(x=>x.k===k);const v=UI_LAST[k]&&g.views.includes(UI_LAST[k])?UI_LAST[k]:g.views[0];go(v);}
@@ -80,12 +80,12 @@ function uiHome(el){
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
   const firstTime=Object.keys(P.srs).length<20&&!P.placed;
   el.innerHTML=`<div class="view home2">
-   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, Stalis</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Tiểu Long tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} việc. Cố thêm chút nữa nhé.`:'Mỗi ngày 30 phút, mình học cùng nhau nhé.'}</p></div></div>
+   <div class="hm-hello">${mascot(doneN===tasks.length?'yay':'hi',64)}<div><h2 class="hm-greet">${uiGreet()}, ${esc(uiName())}</h2><p class="note">${doneN===tasks.length?'Hôm nay xong hết rồi. Tiểu Long tự hào lắm!':doneN?`Đã xong ${doneN}/${tasks.length} nhiệm vụ hôm nay. Cố thêm chút nữa nhé.`:'Mỗi ngày 30 phút, mình học cùng nhau nhé.'}</p></div></div>
    ${uiWeek()}
    <div class="hm-grid">
     <div class="hm-main">
      <section class="sess" aria-label="Buổi học hôm nay">
-      <div class="sess-top"><div><div class="sess-k">Buổi học hôm nay</div><div class="sess-x"><b class="num">${d.xp||0}</b> / ${goal} XP</div><div class="sess-s">${doneN}/${tasks.length} việc, khoảng ${plCfg().minutes} phút</div></div>${uiRing((d.xp||0)/goal,76)}</div>
+      <div class="sess-top"><div><div class="sess-k">Buổi học hôm nay</div><div class="sess-x"><b class="num">${d.xp||0}</b> / ${goal} XP</div><div class="sess-s">${doneN}/${tasks.length} nhiệm vụ, khoảng ${plCfg().minutes} phút</div></div>${uiRing((d.xp||0)/goal,76)}</div>
       <ol class="path">${tasks.map(t=>`<li class="${t.done?'on':''} ${t===next?'cur':''}"><i></i><span>${UI_SHORT[t.k]||t.t}</span></li>`).join('')}</ol>
       <button class="btn sess-go" id="hmGo">${esc(label)} ${ic('chevron-right')}</button>
      </section>
@@ -104,6 +104,7 @@ function uiHome(el){
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.h);
   culLoad().then(all=>{const t=$('#hmCulT');if(!t||!all.length)return;const x=all[culIndex()%all.length];t.innerHTML=`${esc(x.title)} <span class="han muted">${esc(x.zh)}</span>`;if(P.cul&&P.cul[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));});
   $('#hmCul').onclick=()=>{const m=modal(culCardHTML());culBind();};
+  uiFriendsCard();
 }
 VIEWS.home=uiHome;
 
@@ -166,6 +167,7 @@ VIEWS.settings=el=>{
   const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần nhập mật khẩu':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
   const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần mật khẩu)':'Chỉ lưu trên máy này';
   el.innerHTML=`<div class="view set">
+   <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0">Mục tiêu <b>HSK ${lvN(c.target)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
      <div class="row"><button class="btn sm" id="stPlan">Đổi lộ trình</button><button class="btn sm" data-go="placement">Xếp lớp lại</button></div></div>
    <div class="panel"><h3>Cấp đang học</h3>${c.auto?'<p class="note">Đang tự đặt theo lộ trình. Tắt "Tự đặt" trong Đổi lộ trình để chọn tay.</p>':''}
@@ -181,7 +183,7 @@ VIEWS.settings=el=>{
      <p class="note">Stalong 思龙, Stalis's Hànyǔ. Âm thanh từ: audio-cmn (CC BY-SA). Nét chữ: hanzi-writer-data. Từ vựng HSK 3.0.</p></div>
   </div>`;
   $$('[data-go]',el).forEach(b=>b.onclick=()=>go(b.dataset.go));
-  $('#stPlan').onclick=plSettings;
+  $('#stPlan').onclick=plSettings;$('#stWho').onclick=switchProfile;
   $('#stNew').onchange=e=>{P.settings.newPerDay=Math.max(0,Math.min(60,+e.target.value||0));c.auto=false;touch('main');};
   uiToggles(el);
   const k=$('#stKey');if(k)k.onclick=async()=>{const ok=await askPassword(false);if(ok){await initPlatform();VIEWS.settings(el);}};
@@ -226,7 +228,7 @@ function uiCele(html,cls){
   const old=$('.mc-cele');if(old)old.remove();
   const bg=document.createElement('div');bg.className='mc-cele '+(cls||'');bg.setAttribute('role','dialog');bg.setAttribute('aria-modal','true');
   bg.innerHTML=`<div class="cele-in">${html}</div>`;document.body.appendChild(bg);
-  const close=()=>bg.remove();$$('[data-close]',bg).forEach(b=>b.onclick=close);bg.addEventListener('click',e=>{if(e.target===bg)close();});
+  const close=()=>bg.remove();$$('[data-close]',bg).forEach(b=>b.onclick=close);bg.addEventListener('click',e=>{if(e.target===bg&&!bg.classList.contains('locked'))close();});
   setTimeout(()=>{const b=$('[data-close]',bg);b&&b.focus();},50);
   return {el:bg,close};
 }
@@ -252,17 +254,20 @@ window.__voiceBanner=()=>{
 
 /* ---------- intro / onboarding ---------- */
 function uiIntro(force){
-  if(!force&&store.get('hanyu-intro',0))return;
-  const fresh=Object.keys(P.srs).length<5;
+  if(!force&&store.get('hanyu-intro',0)&&WHO)return;
+  const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào Stalis, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, chỗ cả nhóm cùng học tiếng Trung. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}, mình là Tiểu Long 小龙</h2><p>${WHO&&WHO.slug==='stalis'?'Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.':'Rất vui được học cùng bạn trên <b>Stalong 思龙</b>.'}</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
       <div class="hats">${[0,1,3,5,7].map(i=>mascotSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',100)}</div><h2>Mỗi ngày học bao lâu?</h2><div class="row" style="justify-content:center">${[15,30,45,60].map(n=>`<button class="chip big" data-mn="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
       <h2 style="margin-top:12px">Bạn đã học tiếng Trung chưa?</h2><div class="in-opts"><button class="btn" data-lv="new">Mới bắt đầu</button><button class="btn" data-lv="some">Đã học một ít (xếp lớp 10 phút)</button></div>`;},
   ];
-  let i=0; const m=uiCele('','intro');const box=$('.cele-in',m.el);
+  let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
   const draw=()=>{box.innerHTML=steps[i]();
-    const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===0){i=1;draw();}else{store.set('hanyu-intro',1);m.close();}};
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
+      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+    const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('hanyu-intro',1);m.close();}};
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-lv]',box).forEach(b=>b.onclick=()=>{store.set('hanyu-intro',1);m.close();if(b.dataset.lv==='some')go('placement');else{const c=plCfg();c.target=Math.max(c.target,4);plApply();touch('main');go('study');}});};
   draw();

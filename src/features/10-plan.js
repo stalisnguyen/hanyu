@@ -172,7 +172,7 @@ VIEWS.culture=async el=>{
   const all=await culLoad(); const upto=Math.min(all.length,culIndex()+1+ (P.culExtra||0));
   const list=all.slice(0,upto).reverse(); const cats=[...new Set(all.map(x=>x.cat))];
   el.innerHTML=`<div class="view"><div class="spread"><h2>Văn hóa Trung Quốc</h2><span class="note">Đã mở ${upto}/${all.length} chuyện</span></div>
-   <p class="note">Mỗi ngày mở thêm một chuyện. Muốn đọc thêm thì bấm "Mở thêm 1 chuyện" sau khi xong việc hôm nay.</p>
+   <p class="note">Mỗi ngày mở thêm một chuyện. Muốn đọc thêm thì bấm "Mở thêm 1 chuyện" sau khi xong nhiệm vụ hôm nay.</p>
    <div class="row"><button class="btn sm" id="culMore" ${plDay().xp>=plGoalXP()?'':'disabled'}>Mở thêm 1 chuyện</button><span class="small muted">${plDay().xp>=plGoalXP()?'':'Đạt mục tiêu XP hôm nay để mở thêm.'}</span></div>
    <div class="cul-list">${list.map(x=>`<details class="g"><summary><span class="pill">${esc(x.cat)}</span><span class="t">${esc(x.title)}</span><span class="han">${esc(x.zh)}</span>${P.cul&&P.cul[x.id]?'<span class="check on">✓</span>':''}</summary><div class="body" data-cid="${x.id}"></div></details>`).join('')}</div></div>`;
   $$('.cul-list details',el).forEach(d=>d.addEventListener('toggle',()=>{if(!d.open)return;const b=$('.body',d);if(b.dataset.r)return;b.dataset.r=1;const x=all.find(y=>y.id===b.dataset.cid);

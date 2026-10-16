@@ -27,4 +27,11 @@ function kv() {
   };
 }
 
-module.exports = { checkKey, kv };
+// Learner profile from headers: slug is lowercase a-z, 0-9, dash (built client side from the name)
+function userOf(req) {
+  const slug = String(req.headers['x-user'] || '').toLowerCase();
+  if (!/^[a-z0-9-]{1,30}$/.test(slug)) return null;
+  return { slug, pin: String(req.headers['x-user-pin'] || '').slice(0, 20) };
+}
+
+module.exports = { checkKey, kv, userOf };
