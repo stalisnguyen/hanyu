@@ -249,6 +249,42 @@ textarea{resize:vertical;width:100%}
 
 @media (max-width:560px){.sync-t{display:none}.sync{padding:6px}.brand b{font-size:16px}.icon-btn{padding:4px 8px}}
 
+/* strokes */
+.steps{display:flex;flex-wrap:wrap;gap:6px}
+.step{width:76px;height:76px;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:3px;position:relative}
+.step svg{width:100%;height:100%;display:block}
+.step .num{position:absolute;left:4px;top:2px;font-size:10px;color:var(--muted)}
+.rule{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;align-items:start}
+.rn{width:22px;height:22px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:12px;font-weight:700}
+.rx{font-size:18px}
+.lnk{border:0;background:none;padding:0 2px;color:var(--accent);text-decoration:underline dotted;text-underline-offset:3px}
+.stypes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:520px){.stypes{grid-template-columns:minmax(0,1fr)}}
+.stype{display:grid;grid-template-columns:40px minmax(0,1fr);gap:8px;align-items:center}
+.sx{font-size:30px;text-align:center}
+/* pinyin */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.pk{font-size:26px;font-weight:700;color:var(--accent)}
+.pexs{display:flex;flex-wrap:wrap;gap:6px}
+.pex{border:1px solid var(--line);background:var(--sunk);border-radius:8px;padding:4px 9px;font-size:13.5px;text-align:left}
+.pex .han{font-size:17px}
+.ptable-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);max-height:70vh}
+.ptable{border-collapse:collapse;font-size:12.5px}
+.ptable th{position:sticky;top:0;background:var(--sunk);padding:5px 6px;font-weight:600;z-index:1}
+.ptable tbody th{left:0;z-index:2}
+.ptable td{border:1px solid var(--line);padding:0}
+.ptable td button{border:0;background:none;padding:5px 6px;width:100%;white-space:nowrap}
+.ptable td button:hover{background:var(--accent-soft)}
+/* radicals */
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px}
+.rcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 8px;display:flex;flex-direction:column;align-items:center;gap:1px;position:relative;text-align:center}
+.rcard:hover{border-color:var(--accent)}
+.rnum{position:absolute;top:5px;left:8px;font-size:10.5px;color:var(--muted)}
+.rch{font-size:38px;line-height:1.15}
+.rv{font-size:15px;color:var(--muted);min-height:18px}
+.rhv{font-weight:700;text-transform:capitalize}
+
 </style>
 <header class="top">
   <div class="top-in">
@@ -262,7 +298,9 @@ textarea{resize:vertical;width:100%}
       <button data-v="home" aria-selected="true">Tổng quan</button>
       <button data-v="study">Ôn từ</button>
       <button data-v="dict">Từ điển</button>
+      <button data-v="pinyin">Pinyin</button>
       <button data-v="write">Viết chữ</button>
+      <button data-v="radicals">Bộ thủ</button>
       <button data-v="grammar">Ngữ pháp</button>
       <button data-v="test">Thi thử</button>
       <button data-v="talk">Hội thoại</button>
@@ -368,61 +406,143 @@ function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.firs
 function newList(levels,limit){const out=[];for(const w of W){if(out.length>=limit)break;if(levels.includes(w.lv)&&!P.srs[w.h])out.push(w);}return out;}
 function streak(){let s=0,t=today();if(!P.hist[ymd(t)])t-=DAY;while(P.hist[ymd(t)]){s++;t-=DAY;}return s;}
 
-/* ================= platform: db / user / sample ================= */
-let DB=null, UID=null, AI=null, syncState='local';
+/* ================= platform =================
+   Two modes:
+   - inside a claude.ai artifact: window.claude.use('db'|'user'|'sample')
+   - standalone web (Vercel): /api/ai (Claude via the owner's API key) and /api/sync (Upstash Redis),
+     both locked by the app password the owner sets in Vercel. */
+let DB=null, UID=null, AI=null, syncState='local', SYNC=null, WEB=null;
+const getKey=()=>{try{return localStorage.getItem('hanyu-key')||'';}catch(e){return '';}};
+const setKey=v=>{try{v?localStorage.setItem('hanyu-key',v):localStorage.removeItem('hanyu-key');}catch(e){}};
 async function initPlatform(){
-  const C=window.claude; if(!C||typeof C.use!=='function'){renderSync();return;}
+  const C=window.claude;
+  if(C&&typeof C.use==='function'){
+    try{
+      const [db,user,sample]=await Promise.all([C.use('db').catch(()=>null),C.use('user').catch(()=>null),C.use('sample').catch(()=>null)]);
+      if(sample){AI=sample;refreshAIBits();}
+      if(db&&user){const id=await user.id();if(id){DB=db;UID=id;SYNC='db';await pullRemote();}}
+    }catch(e){console.warn(e);}
+    if(AI||SYNC){renderSync();return;}
+  }
+  // standalone web
   try{
-    const [db,user,sample]=await Promise.all([C.use('db').catch(()=>null),C.use('user').catch(()=>null),C.use('sample').catch(()=>null)]);
-    if(sample){AI=sample;document.body.classList.add('has-ai');refreshAIBits();}
-    if(db&&user){const id=await user.id();if(id){DB=db;UID=id;await pullRemote();}}
-  }catch(e){console.warn(e);}
+    const r=await fetch('api/status',{cache:'no-store'});
+    if(r.ok){WEB=await r.json();
+      if(WEB.ai){AI=makeWebAI();refreshAIBits();}
+      if(WEB.sync){SYNC='web'; if(getKey()) await pullRemote(); else syncState='off';}
+    }
+  }catch(e){}
   renderSync();
 }
+
+/* ---- password modal (web mode) ---- */
+function askPassword(wrong){
+  return new Promise(res=>{
+    const m=modal(`<h2>Mật khẩu ứng dụng</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Phần AI và đồng bộ dùng mật khẩu bạn đặt trong Vercel (biến APP_PASSWORD). Chỉ cần nhập một lần trên mỗi máy.'}</p>
+      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form>`);
+    let done=false;
+    const fin=v=>{if(done)return;done=true;res(v);};
+    $('#pwF',m.el).onsubmit=e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;setKey(v);m.close();fin(true);};
+    const obs=new MutationObserver(()=>{if(!document.body.contains(m.el)){obs.disconnect();fin(false);}});obs.observe(document.body,{childList:true});
+    setTimeout(()=>$('#pwI',m.el).focus(),50);
+  });
+}
+async function api(path,{method='POST',body}={}){
+  for(let i=0;i<3;i++){
+    if(!getKey()){const ok=await askPassword(false);if(!ok)throw {code:'not_granted'};}
+    let r;
+    try{r=await fetch(path,{method,headers:{'content-type':'application/json','x-app-key':getKey()},body:body?JSON.stringify(body):undefined});}
+    catch(e){throw {code:'network'};}
+    if(r.status===401){setKey('');const ok=await askPassword(true);if(!ok)throw {code:'not_granted'};continue;}
+    if(r.status===429)throw {code:'rate_limited'};
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok)throw {code:j.error||'upstream'};
+    return j;
+  }
+  throw {code:'not_granted'};
+}
+function parseJSON(text){
+  let t=String(text).trim().replace(/^```(?:json)?\s*/i,'').replace(/```\s*$/,'');
+  try{return JSON.parse(t);}catch(e){}
+  const a=Math.min(...['{','['].map(c=>{const k=t.indexOf(c);return k<0?1e9:k;})), b=Math.max(t.lastIndexOf('}'),t.lastIndexOf(']'));
+  if(a<1e9&&b>a)return JSON.parse(t.slice(a,b+1));
+  throw {code:'bad_json'};
+}
+function makeWebAI(){
+  const call=async(input,opts={})=>{
+    const messages=typeof input==='string'?[{role:'user',content:input}]:input;
+    if(opts.onText)opts.onText({text:'Claude đang viết...',delta:''});
+    const j=await api('api/ai',{body:{messages,tier:opts.modelTier||'default'}});
+    const text=String(j.text||'');
+    if(opts.onText)opts.onText({text,delta:text});
+    return {text,truncated:!!j.truncated};
+  };
+  call.json=async(input,opts={})=>{
+    const msg=typeof input==='string'?input+'\n\nChỉ trả về JSON hợp lệ, không thêm chữ nào khác, không bọc trong ```.':input;
+    const {text}=await call(msg,Object.assign({},opts,{onText:null}));
+    return parseJSON(text);
+  };
+  return call;
+}
+
+/* ---- sync ---- */
 function docRef(name){return DB.doc('data/users/'+UID+'/'+name);}
+function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set('hanyu-p',P);applySettings();route(true);}
 async function pullRemote(){
   try{
+    if(SYNC==='web'){
+      const j=await api('api/sync',{method:'GET'});
+      if(j.data&&(j.data.upd||0)>(P.upd||0)){adopt(j.data);syncState='on';return;}
+      syncState='on';dirty.add('main');await pushRemote();return;
+    }
     const main=await docRef('main').get();
     if(main.exists){
       const m=main.data();
       if((m.upd||0)>(P.upd||0)){
         const srs={};
         for(const part of ['srs1','srs2','srs3','srs4','srs5','srs6','srs0']){const s=await docRef(part).get();if(s.exists)Object.assign(srs,s.data().cards||{});}
-        P=Object.assign(structuredClone(DEFAULT),m,{srs});P.settings=Object.assign({},DEFAULT.settings,m.settings||{});
-        store.set('hanyu-p',P); applySettings(); route(true);
-        syncState='on'; return;
+        adopt(Object.assign({},m,{srs}));syncState='on';return;
       }
     }
     syncState='on'; dirty.add('main');dirty.add('srs'); await pushRemote();
-  }catch(e){console.warn('sync pull',e);syncState='err';}
+  }catch(e){console.warn('sync pull',e);syncState=e&&e.code==='not_granted'?'off':'err';}
 }
 let syncTimer=null;
-function scheduleSync(){if(!DB)return;clearTimeout(syncTimer);syncTimer=setTimeout(pushRemote,2500);}
+function scheduleSync(){if(!SYNC||syncState==='off')return;clearTimeout(syncTimer);syncTimer=setTimeout(pushRemote,2500);}
 async function pushRemote(){
-  if(!DB||!dirty.size)return; const parts=[...dirty]; dirty.clear();
+  if(!SYNC||!dirty.size)return; const parts=[...dirty]; dirty.clear();
   try{
-    if(parts.includes('main')||parts.includes('srs')){
-      const {srs,...main}=P; await docRef('main').set(JSON.parse(JSON.stringify(main)));
-    }
-    if(parts.includes('srs')){
-      const by={};for(const [h,c] of Object.entries(P.srs)){const w=WI.get(h);const L=w?w.lv:0;(by[L]=by[L]||{})[h]=c;}
-      for(const L of [0,1,2,3,4,5,6]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
+    if(SYNC==='web'){await api('api/sync',{method:'PUT',body:{data:P}});}
+    else{
+      if(parts.includes('main')||parts.includes('srs')){const {srs,...main}=P; await docRef('main').set(JSON.parse(JSON.stringify(main)));}
+      if(parts.includes('srs')){
+        const by={};for(const [h,c] of Object.entries(P.srs)){const w=WI.get(h);const L=w?w.lv:0;(by[L]=by[L]||{})[h]=c;}
+        for(const L of [0,1,2,3,4,5,6]){if(by[L])await docRef('srs'+L).set({cards:by[L]});}
+      }
     }
     syncState='on';
-  }catch(e){console.warn('sync push',e);parts.forEach(p=>dirty.add(p));syncState='err';}
+  }catch(e){if(e&&e.code==='stale'){await pullRemote();renderSync();return;}console.warn('sync push',e);parts.forEach(p=>dirty.add(p));syncState=e&&e.code==='not_granted'?'off':'err';}
   renderSync();
 }
 function renderSync(){
   const el=$('#sync');if(!el)return;
   el.className='sync'+(syncState==='on'?' on':'');
-  const t=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':'Lưu trên máy này';el.title=t;el.innerHTML='<i></i><span class="sync-t">'+t+'</span>';
+  const t=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Bấm để bật đồng bộ':'Lưu trên máy này';
+  el.title=t;el.innerHTML='<i></i><span class="sync-t">'+t+'</span>';
+  el.style.cursor=syncState==='off'||syncState==='err'?'pointer':'';
+  el.onclick=(syncState==='off'||syncState==='err')?async()=>{await pullRemote();renderSync();}:null;
 }
-async function ask(prompt,opts={}){ if(!AI)throw new Error('no-ai'); return AI(prompt,opts); }
-async function askJSON(prompt,opts={}){ if(!AI)throw new Error('no-ai'); return AI.json(prompt,opts); }
+async function ask(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI(prompt,opts); }
+async function askJSON(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI.json(prompt,opts); }
 function aiError(e){
   const c=e&&e.code;
-  if(c==='not_granted')return 'Bạn chưa cho phép trang dùng Claude. Mở menu Permissions của artifact để bật lại.';
+  if(c==='not_granted')return WEB?'Cần nhập mật khẩu ứng dụng để dùng phần này.':'Bạn chưa cho phép trang dùng Claude. Mở menu Permissions của artifact để bật lại.';
   if(c==='rate_limited')return 'Đang gửi quá nhiều yêu cầu. Đợi một lúc rồi thử lại.';
+  if(c==='no_key')return 'Chưa có API key Anthropic trong Vercel (biến ANTHROPIC_API_KEY).';
+  if(c==='no_password')return 'Chưa đặt mật khẩu ứng dụng trong Vercel (biến APP_PASSWORD).';
+  if(c==='billing')return 'Tài khoản API Anthropic hết credit. Nạp thêm ở console.anthropic.com.';
+  if(c==='bad_json')return 'Claude trả kết quả sai định dạng. Bấm thử lại.';
   return 'Claude chưa trả lời được. Thử lại sau ít phút.';
 }
 function refreshAIBits(){$$('.need-ai').forEach(el=>el.hidden=!AI);$$('.no-ai').forEach(el=>el.hidden=!!AI);}
@@ -446,7 +566,7 @@ async function sayLines(lines){stopSay();for(const [sp,t] of lines){await say(t,
 document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();stopSay();say(b.dataset.say);}});
 
 /* ================= routing ================= */
-const VIEWS={home:renderHome,study:renderStudy,dict:renderDict,write:renderWrite,grammar:renderGrammar,test:renderTest,talk:renderTalk,tones:renderTones};
+const VIEWS={home:renderHome,study:renderStudy,dict:renderDict,write:renderWrite,radicals:renderRadicals,pinyin:renderPinyin,grammar:renderGrammar,test:renderTest,talk:renderTalk,tones:renderTones};
 let current='home';
 function go(v){current=v;try{history.replaceState(null,'','#'+v);}catch(e){}route();window.scrollTo(0,0);}
 function route(soft){
@@ -639,7 +759,7 @@ function openWord(h){
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào ôn tập</button>'}<button class="btn sm" id="wdWrite">Luyện viết</button>
      <button class="btn sm need-ai" id="wdIll">Vẽ minh họa</button><button class="btn sm need-ai" id="wdMore">Claude giải thích thêm</button></div>
    <div id="wdIllOut"></div><div id="wdAiOut"></div>
-   <p class="note no-ai">Phần vẽ minh họa và giải thích thêm chạy khi mở trang trong Claude.</p>`);
+   <p class="note no-ai">Phần vẽ minh họa và giải thích thêm cần bật AI (thêm API key trong Vercel).</p>`);
   refreshAIBits();
   const sbox=$('#wdStrokes',m.el);
   [...w.h].forEach(ch=>{const d=document.createElement('div');d.className='box';d.title='Bấm để xem lại';sbox.appendChild(d);
@@ -686,15 +806,18 @@ async function makeWriter(el,ch,{size=300,anim=false,quiz=false,outline=true}={}
 let writeTarget=null;
 function renderWrite(el){
   const pool=()=>{const lv=P.settings.lv;const learning=W.filter(w=>lv.includes(w.lv)&&seen(w.h));return learning.length?learning:W.filter(w=>lv.includes(w.lv)).slice(0,60);};
-  let w=writeTarget?WI.get(writeTarget):pick(pool()); writeTarget=null;
+  let w=writeTarget?(WI.get(writeTarget)||{h:writeTarget,p:pyChars(writeTarget).map(o=>o.p||''),hv:'',vi:'',em:''}):pick(pool()); writeTarget=null;
   let chars=[...w.h], ci=0, writer=null, mistakes=0, mode='quiz';
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện viết chữ</h2><div class="row"><input type="search" id="wq" placeholder="Nhập từ để luyện" style="width:180px"><button class="btn sm" id="wGo">Luyện</button><button class="btn sm" id="wRand">Từ khác</button></div></div>
    <div class="write-wrap"><div><div class="wpad" id="wpad"><svg class="grid" viewBox="0 0 100 100" preserveAspectRatio="none"><g stroke="var(--line)" stroke-width=".4" stroke-dasharray="2 2"><line x1="0" y1="0" x2="100" y2="100"/><line x1="100" y1="0" x2="0" y2="100"/><line x1="50" y1="0" x2="50" y2="100"/><line x1="0" y1="50" x2="100" y2="50"/></g></svg><div class="hw" id="hw"></div></div></div>
-   <div class="panel" id="wInfo"></div></div></div>`;
+   <div class="panel" id="wInfo"></div></div>
+   <div class="panel"><div class="spread"><h3>Từng nét của chữ <span class="han" id="wStepCh"></span></h3><span class="note" id="wStepN"></span></div><div class="steps" id="wSteps"></div><p class="note">Nét đỏ là nét viết ở bước đó, số là thứ tự nét. Bấm một ô để xem lại hoạt hình.</p></div>
+   ${strokeRulesHTML()}</div>`;
   const size=Math.min(320,Math.floor(window.innerWidth*.86));
   async function load(){
     const ch=chars[ci]; mistakes=0;
     writer=await makeWriter($('#hw'),ch,{size,quiz:mode==='quiz',outline:mode!=='blind'});
+    drawSteps(ch,$('#wSteps'),$('#wStepCh'),$('#wStepN'),()=>writer&&writer.animateCharacter());
     drawInfo();
     if(!writer){$('#hw').innerHTML=`<p class="note" style="padding:20px">Chưa có dữ liệu nét cho chữ ${esc(ch)}.</p>`;return;}
     if(mode==='watch'){writer.animateCharacter();}
@@ -773,7 +896,7 @@ async function renderTest(el){
    <div class="grid3">${T.tests.map(t=>{const n=t.sections.reduce((a,s)=>a+s.parts.reduce((b,p)=>b+p.items.length,0),0);const best=P.tests.filter(x=>x.id===t.id).reduce((m,x)=>Math.max(m,x.pct),-1);
      return `<div class="panel tcard"><span class="label">HSK ${tlv}</span><h3>${esc(t.title)}</h3><span class="note">${n} câu, ${t.minutes} phút. ${t.sections.map(s=>esc(s.title)).join(', ')}.</span>${best>=0?`<span class="small">Điểm cao nhất: <b>${best}%</b></span>`:''}<button class="btn primary sm" data-t="${t.id}" style="align-self:flex-start">Làm bài</button></div>`;}).join('')}
      <div class="panel tcard need-ai"><span class="label">Claude soạn</span><h3>Đề mới không trùng</h3><span class="note">Mỗi lần bấm là một đề rút gọn mới theo đúng cấp độ, khoảng 15 câu.</span><button class="btn sm" id="tAi" style="align-self:flex-start">Soạn đề mới</button></div>
-     <div class="panel tcard no-ai"><span class="label">Claude soạn</span><h3>Đề mới không trùng</h3><span class="note">Mở trang trong Claude để Claude soạn đề mới mỗi lần.</span></div>
+     <div class="panel tcard no-ai"><span class="label">Claude soạn</span><h3>Đề mới không trùng</h3><span class="note">Cần bật AI (thêm API key trong Vercel) để Claude soạn đề mới.</span></div>
    </div>
    <div class="panel"><h3>Lịch sử làm bài HSK ${tlv}</h3>${hist.length?hist.map(h=>`<div class="spread small"><span>${esc(h.title)}</span><span class="num">${new Date(h.date).toLocaleDateString('vi-VN')} - <b>${h.pct}%</b> ${h.pct>=60?'<span class="pill ai">Đạt</span>':'<span class="pill">Chưa đạt</span>'}</span></div>`).join(''):'<p class="note">Chưa làm đề nào ở cấp này.</p>'}
    <p class="note">Mức đạt tham khảo: 60% tổng điểm. Phần nghe dùng giọng đọc của trình duyệt, mỗi bài được nghe tối đa 2 lần như khi thi thật.</p></div></div>`;
@@ -891,7 +1014,7 @@ let chat={scen:SCEN[0],lv:null,msgs:[],busy:false,showVi:false};
 function renderTalk(el){
   if(!chat.lv)chat.lv=Math.max(...P.settings.lv);
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện hội thoại</h2>${levelChips([chat.lv],s=>{chat.lv=s[0];renderTalk(el);},{multi:false,id:'clv'})}</div>
-   <div class="no-ai empty">Phần hội thoại cần Claude. Mở trang này trong Claude (bản artifact) để luyện nói chuyện, được sửa lỗi và gợi ý câu trả lời. Bản web này vẫn dùng được thẻ từ, từ điển, viết chữ, ngữ pháp và thi thử.</div>
+   <div class="no-ai empty">Phần hội thoại cần bật AI: thêm ANTHROPIC_API_KEY và APP_PASSWORD trong Vercel rồi deploy lại. Các phần khác vẫn dùng bình thường.</div>
    <div class="chat need-ai"><div class="scen">${SCEN.map(s=>`<button data-s="${s.id}" aria-pressed="${chat.scen.id===s.id}"><span class="e">${s.e}</span><span><b>${esc(s.t)}</b><br><span class="small muted">${esc(s.d)}</span></span></button>`).join('')}</div>
     <div class="convo"><div class="spread" style="padding:10px 14px;border-bottom:1px solid var(--line)"><b>${chat.scen.e} ${esc(chat.scen.t)}</b><div class="row"><button class="icon-btn" id="cVi" aria-pressed="${chat.showVi}">Hiện nghĩa</button><button class="icon-btn" id="cReset">Bắt đầu lại</button></div></div>
      <div class="msgs" id="msgs"></div>
@@ -943,6 +1066,101 @@ function setupMic(){
       rec.start();b.textContent='⏹';
     }catch(e){b.hidden=true;}
   };
+}
+
+
+/* ================= STROKES: step diagrams + rules ================= */
+async function drawSteps(ch,box,chEl,nEl,onClick){
+  if(!box)return; if(chEl)chEl.textContent=ch;
+  const d=await strokeData(ch);
+  if(!d){box.innerHTML='<p class="note">Chưa có dữ liệu nét cho chữ này.</p>';if(nEl)nEl.textContent='';return;}
+  const n=d.strokes.length; if(nEl)nEl.textContent=n+' nét';
+  const num=(i)=>{const m=d.medians[i]&&d.medians[i][0];return m?`<circle cx="${m[0]}" cy="${m[1]}" r="62" fill="var(--bad)"/><text x="${m[0]}" y="${m[1]}" font-size="80" font-family="Noto Sans,sans-serif" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central" transform="scale(1,-1) translate(0,${-2*m[1]})">${i+1}</text>`:'';};
+  box.innerHTML=d.strokes.map((_,k)=>`<button class="step" title="Bước ${k+1}"><svg viewBox="0 0 1024 1024"><g transform="translate(0,900) scale(1,-1)">${d.strokes.map((sp,i)=>`<path d="${sp}" fill="${i<k?'var(--ink)':i===k?'var(--bad)':'var(--line)'}"/>`).join('')}${num(k)}</g></svg><span class="num">${k+1}</span></button>`).join('');
+  $$('.step',box).forEach(b=>b.onclick=onClick);
+}
+const STROKE_TYPES=[
+ ['一','Ngang (横 héng)','Kéo từ trái sang phải.'],['丨','Sổ (竖 shù)','Kéo thẳng từ trên xuống.'],['丿','Phẩy (撇 piě)','Kéo chéo từ trên phải xuống dưới trái.'],
+ ['㇏','Mác (捺 nà)','Kéo chéo từ trên trái xuống dưới phải, cuối nét đè mạnh rồi thoát ra.'],['丶','Chấm (点 diǎn)','Chấm ngắn, thường chéo xuống bên phải.'],
+ ['㇀','Hất (提 tí)','Hất ngắn từ dưới trái lên trên phải.'],['𠃍','Gập (折 zhé)','Ngang rồi gập xuống sổ, viết liền một nét.'],['亅','Móc (钩 gōu)','Cuối nét móc ngược lên, ví dụ sổ móc.']];
+const STROKE_RULES=[
+ ['Ngang trước, sổ sau','十 干 丰','Gặp nét ngang cắt nét sổ thì viết ngang trước.'],
+ ['Phẩy trước, mác sau','人 八 文','Hai nét chéo tách sang hai bên: phẩy (trái) trước, mác (phải) sau.'],
+ ['Trên trước, dưới sau','三 京 草','Viết từ phía trên xuống phía dưới.'],
+ ['Trái trước, phải sau','你 好 明','Chữ có hai phần trái phải thì viết phần trái trước.'],
+ ['Ngoài trước, trong sau','月 同 问','Khung bao ba phía bên trên viết trước, phần bên trong viết sau.'],
+ ['Vào nhà rồi đóng cửa','国 回 四','Khung kín bốn phía: viết hai cạnh và nội dung bên trong, nét ngang đáy viết cuối cùng.'],
+ ['Giữa trước, hai bên sau','小 水 办','Khi phần giữa nổi bật hơn hai bên thì viết giữa trước.'],
+ ['Bao dưới viết sau cùng','这 近 建','Bộ 辶 hay 廴 bọc phía dưới bên trái viết sau phần bên trong.'],
+ ['Chấm nhỏ thường viết cuối','我 犬 戈','Chấm phía trên bên phải hay nằm trong chữ thường để cuối.']];
+function strokeRulesHTML(){
+  return `<div class="grid2"><div class="panel"><h3>Quy tắc thứ tự nét</h3>
+    ${STROKE_RULES.map((r,i)=>`<div class="rule"><span class="rn num">${i+1}</span><div><b>${r[0]}</b> <span class="han rx">${r[1].split(' ').map(c=>`<button class="lnk han" data-wch="${c}">${c}</button>`).join(' ')}</span><div class="note">${r[2]}</div></div></div>`).join('')}
+    <p class="note">Bấm vào chữ ví dụ để luyện ngay chữ đó.</p></div>
+   <div class="panel"><h3>Các nét cơ bản</h3><div class="stypes">${STROKE_TYPES.map(t=>`<div class="stype"><span class="han sx">${t[0]}</span><div><b>${t[1]}</b><div class="note">${t[2]}</div></div></div>`).join('')}</div></div></div>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-wch]');if(b){writeTarget=b.dataset.wch;if(!WI.get(writeTarget))WI.set(writeTarget,{h:writeTarget,p:pyChars(writeTarget).map(o=>o.p||''),hv:'',vi:'',em:'',ex:'',exp:'',exvi:'',cl:[],lv:0,tmp:1});go('write');}});
+
+/* ================= PINYIN ================= */
+let PY=null;
+async function renderPinyin(el){
+  el.innerHTML='<div class="view"><p class="note">Đang tải...</p></div>';
+  if(!PY)PY=await (await fetch('data/pinyin.json')).json();
+  const grp=(arr,key)=>{const g={};arr.forEach(x=>{(g[x.grp]=g[x.grp]||[]).push(x);});return g;};
+  const ex=list=>list.map(e=>`<button class="pex" data-say="${esc(e[0])}"><span class="han">${esc(e[0])}</span> <span class="py t${toneOf(e[1])}">${esc(e[1])}</span> <span class="muted">${esc(e[2])}</span></button>`).join('');
+  const block=(x,k)=>`<div class="pcard"><div class="spread"><span class="pk py">${esc(x[k])}</span><span class="muted small py">${esc(x.ipa||'')}</span></div><div class="small">${esc(x.vi)}</div><div class="pexs">${ex(x.ex||[])}</div></div>`;
+  const I=grp(PY.initials), F=grp(PY.finals);
+  const finals=[...new Set(PY.table.map(t=>t.f))], inits=['',...new Set(PY.table.map(t=>t.i).filter(Boolean))];
+  const cell={};PY.table.forEach(t=>{cell[t.i+'|'+t.f]=t;});
+  el.innerHTML=`<div class="view"><h2>Bảng chữ cái pinyin</h2>
+   <p class="note">Một âm tiết = thanh mẫu (phụ âm đầu) + vận mẫu (vần) + thanh điệu. Ví dụ: <span class="py">m + ā = mā</span>. Bấm vào chữ ví dụ để nghe.</p>
+   <div class="row">${['Thanh mẫu','Vận mẫu','Quy tắc viết','Bảng âm tiết'].map((t,i)=>`<button class="chip" data-ps="${i}" aria-pressed="${i===0}">${t}</button>`).join('')}<a class="chip" href="#tones" data-go2="tones">Thanh điệu</a></div>
+   <div data-pp="0" class="view">${Object.entries(I).map(([g,xs])=>`<h3>${esc(g)}</h3><div class="pgrid">${xs.map(x=>block(x,'i')).join('')}</div>`).join('')}</div>
+   <div data-pp="1" class="view" hidden>${Object.entries(F).map(([g,xs])=>`<h3>${esc(g)}</h3><div class="pgrid">${xs.map(x=>block(x,'f')).join('')}</div>`).join('')}</div>
+   <div data-pp="2" class="view" hidden>${PY.rules.map(r=>`<div class="panel"><h3>${esc(r.t)}</h3><div>${esc(r.d)}</div>${r.ex?`<div class="py small muted">${esc(r.ex)}</div>`:''}</div>`).join('')}</div>
+   <div data-pp="3" class="view" hidden><p class="note">Hàng là thanh mẫu, cột là vận mẫu. Bấm một ô để nghe một chữ có âm đó. Ô trống là tổ hợp không tồn tại trong tiếng phổ thông.</p>
+     <div class="ptable-wrap"><table class="ptable"><thead><tr><th></th>${finals.map(f=>`<th class="py">${esc(f)}</th>`).join('')}</tr></thead><tbody>${inits.map(i=>`<tr><th class="py">${i||'∅'}</th>${finals.map(f=>{const t=cell[i+'|'+f];return t?`<td><button class="py" data-say="${esc(t.c)}" title="${esc(t.c)}">${esc(t.s)}</button></td>`:'<td></td>';}).join('')}</tr>`).join('')}</tbody></table></div></div>
+  </div>`;
+  $$('[data-ps]',el).forEach(b=>b.onclick=()=>{$$('[data-ps]',el).forEach(x=>x.setAttribute('aria-pressed',x===b));$$('[data-pp]',el).forEach(p=>p.hidden=p.dataset.pp!==b.dataset.ps);});
+  $$('[data-go2]',el).forEach(a=>a.onclick=e=>{e.preventDefault();go(a.dataset.go2);});
+}
+
+/* ================= RADICALS ================= */
+let RAD=null, radTier='1', radQ='';
+async function renderRadicals(el){
+  el.innerHTML='<div class="view"><p class="note">Đang tải...</p></div>';
+  if(!RAD)RAD=await (await fetch('data/radicals.json')).json();
+  el.innerHTML=`<div class="view"><div class="spread"><h2>214 bộ thủ</h2><span class="note num" id="rCount"></span></div>
+   <p class="note">Bộ thủ là thành phần gợi nghĩa của chữ Hán. Nhận ra bộ thủ giúp đoán nghĩa và nhớ mặt chữ nhanh hơn. Ví dụ chữ có bộ 氵 (thủy) thường liên quan đến nước: 河 sông, 海 biển, 洗 rửa.</p>
+   <div class="dict-tools"><input type="search" id="rq" placeholder="Tìm theo chữ, Hán Việt hoặc nghĩa, ví dụ thủy, nước, 心" value="${esc(radQ)}">
+    <div class="row">${[['1','Hay gặp'],['2','Thường gặp'],['3','Ít gặp'],['all','Tất cả']].map(([k,t])=>`<button class="chip" data-rt="${k}" aria-pressed="${radTier===k}">${t}</button>`).join('')}</div>
+    <button class="btn sm" id="rQuiz">Kiểm tra 10 bộ</button></div>
+   <div class="rgrid" id="rg"></div></div>`;
+  const draw=()=>{
+    const q=viFold(radQ.trim());
+    const list=RAD.filter(x=>(radTier==='all'||String(x.f)===radTier)&&(!q||x.r===radQ.trim()||x.v.includes(radQ.trim())||viFold(x.hv).includes(q)||viFold(x.vi).includes(q)||x.ex.some(e=>e[0]===radQ.trim())));
+    $('#rCount').textContent=list.length+' bộ';
+    $('#rg').innerHTML=list.map(x=>`<button class="rcard" data-rn="${x.n}"><span class="rnum num">${x.n}</span><span class="rch han">${esc(x.r)}</span>${x.v.length?`<span class="rv han">${esc(x.v.join(' '))}</span>`:''}<span class="rhv">${esc(x.hv)}</span><span class="small muted">${esc(x.vi)}</span></button>`).join('')||'<div class="empty">Không có bộ nào khớp.</div>';
+    $$('#rg .rcard').forEach(b=>b.onclick=()=>openRadical(+b.dataset.rn));
+  };
+  let t;$('#rq').oninput=e=>{radQ=e.target.value;clearTimeout(t);t=setTimeout(draw,120);};
+  $$('[data-rt]',el).forEach(b=>b.onclick=()=>{radTier=b.dataset.rt;$$('[data-rt]',el).forEach(x=>x.setAttribute('aria-pressed',x===b));draw();});
+  $('#rQuiz').onclick=()=>{const pool=RAD.filter(x=>radTier==='all'||String(x.f)===radTier);const qs=shuffle(pool).slice(0,10);
+    runTest({id:'rad-'+Date.now(),title:'Kiểm tra bộ thủ',minutes:0,sections:[{type:'read',title:'Bộ thủ',parts:[{instr:'Chọn nghĩa đúng của bộ thủ',items:qs.map(x=>{const o=shuffle([x,...shuffle(RAD.filter(y=>y!==x&&y.vi!==x.vi)).slice(0,3)]);return {k:'fill',s:x.r+(x.v.length?' ('+x.v.join(' ')+')':''),o:o.map(y=>y.hv+' - '+y.vi),a:o.indexOf(x),w:'Bộ '+x.hv+' ('+x.vi+'). '+x.tip+' Ví dụ: '+x.ex.map(e=>e[0]).join(', ')};})}]}]},null);};
+  draw();
+}
+function openRadical(n){
+  const x=RAD.find(r=>r.n===n);if(!x)return;
+  const hsk=W.filter(w=>[...w.h].some(c=>x.ex.some(e=>e[0]===c))).slice(0,12);
+  const m=modal(`<div class="wd-head"><div class="h han">${esc(x.r)}</div><div style="display:flex;flex-direction:column;gap:2px"><div style="font-size:22px"><b>Bộ ${esc(x.hv)}</b> <span class="py">${esc(x.p)}</span></div><div>${esc(x.vi)}</div><div class="row"><span class="pill">Bộ số ${x.n}</span><span class="pill">${x.s} nét</span>${x.v.length?`<span class="pill">Dạng khác: <span class="han">${esc(x.v.join(' '))}</span></span>`:''}</div></div><button class="spk" data-say="${esc(x.r)}" aria-label="Nghe" style="margin-left:auto">${SPK}</button></div>
+    <div class="vn">${esc(x.tip)}</div>
+    <div><span class="label">Thứ tự nét</span><div class="steps" id="rSteps"></div></div>
+    <div><span class="label">Chữ có bộ này</span><div class="pexs" style="margin-top:6px">${x.ex.map(e=>`<button class="pex" data-say="${esc(e[0])}"><span class="han" style="font-size:22px">${esc(e[0])}</span> <span class="py t${toneOf(e[1])}">${esc(e[1])}</span> <span class="muted">${esc(e[2])}</span></button>`).join('')}</div></div>
+    ${hsk.length?`<div><span class="label">Từ HSK chứa các chữ này</span><div class="pexs" style="margin-top:6px">${hsk.map(w=>`<button class="pex" data-wd="${esc(w.h)}"><span class="han">${hanHTML(w)}</span> <span class="muted small">${esc(w.vi)}</span></button>`).join('')}</div></div>`:''}
+    <div class="row"><button class="btn sm" data-wch="${esc(x.r)}">Luyện viết bộ này</button></div>`);
+  drawSteps(x.r,$('#rSteps',m.el),null,null,()=>{});
+  $$('[data-wd]',m.el).forEach(b=>b.onclick=()=>{m.close();openWord(b.dataset.wd);});
+  $$('[data-wch]',m.el).forEach(b=>b.addEventListener('click',()=>m.close()));
 }
 
 /* ================= TONES ================= */
