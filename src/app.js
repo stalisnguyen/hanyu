@@ -125,6 +125,7 @@ async function initPlatform(){
     }
   }catch(e){}
   renderSync();
+  if(typeof uiSyncBanner==='function')uiSyncBanner();
 }
 
 /* ---- password modal (web mode) ---- */
@@ -183,11 +184,31 @@ function makeWebAI(){
 /* ---- sync ---- */
 function docRef(name){return DB.doc('data/users/'+UID+'/'+name);}
 function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
+/* merge two progress documents (this device + cloud) without losing either side */
+function mergeP(a,b){
+  const newer=(a.upd||0)>=(b.upd||0)?a:b, older=newer===a?b:a;
+  const m=JSON.parse(JSON.stringify(newer)), o=older;
+  const card=(x,y)=>!x?y:!y?x:((x.n||0)!==(y.n||0)?((x.n||0)>(y.n||0)?x:y):((x.due||0)>=(y.due||0)?x:y));
+  m.srs=m.srs||{};for(const [h,c] of Object.entries(o.srs||{}))m.srs[h]=card(m.srs[h],c);
+  m.hist=m.hist||{};for(const [k,v] of Object.entries(o.hist||{}))m.hist[k]=Math.max(m.hist[k]||0,v||0);
+  m.day=m.day||{};for(const [k,d] of Object.entries(o.day||{})){const t=m.day[k]=m.day[k]||{};for(const [f,v] of Object.entries(d||{}))if(typeof v==='number')t[f]=Math.max(t[f]||0,v);}
+  for(const f of ['gram','cul']){m[f]=Object.assign({},o[f]||{},m[f]||{});}
+  m.reads=m.reads||{};for(const [k,v] of Object.entries(o.reads||{}))m.reads[k]=Math.max(m.reads[k]||0,v||0);
+  m.mist=Object.assign({},o.mist||{},m.mist||{});
+  const seenT=new Set((m.tests||[]).map(t=>t.id+'|'+t.date));m.tests=(m.tests||[]).concat((o.tests||[]).filter(t=>!seenT.has(t.id+'|'+t.date))).sort((x,y)=>(x.date||0)-(y.date||0));
+  const seenC=new Set((m.custom||[]).map(w=>w.h));m.custom=(m.custom||[]).concat((o.custom||[]).filter(w=>!seenC.has(w.h)));
+  const seenR=new Set((m.reports||[]).map(r=>r.d));m.reports=(m.reports||[]).concat((o.reports||[]).filter(r=>!seenR.has(r.d)));
+  if(o.games){m.games=m.games||{};for(const f of ['best','plays']){m.games[f]=m.games[f]||{};for(const [k,v] of Object.entries(o.games[f]||{}))m.games[f][k]=Math.max(m.games[f][k]||0,v||0);}}
+  m.placed=m.placed||o.placed; m.culExtra=Math.max(m.culExtra||0,o.culExtra||0);
+  m.upd=Date.now(); return m;
+}
 async function pullRemote(){
   try{
     if(SYNC==='web'){
       const j=await api('api/sync',{method:'GET'});
-      if(j.data&&(j.data.upd||0)>(P.upd||0)){adopt(j.data);syncState='on';return;}
+      if(j.data){const local=Object.keys(P.srs||{}).length+Object.keys(P.hist||{}).length;
+        if(!local){adopt(j.data);syncState='on';return;}           // fresh device: take the cloud copy
+        adopt(mergeP(P,j.data));}                                  // both have progress: merge, never overwrite
       syncState='on';dirty.add('main');await pushRemote();return;
     }
     const main=await docRef('main').get();

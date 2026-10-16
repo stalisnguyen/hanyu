@@ -30,6 +30,7 @@ async function setProfile(name,pin){
   if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
   else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
   queue=[];dirty=new Set();applySettings();
+  if(WEB&&WEB.sync&&!getKey()){const ok=await askPassword(false);if(ok){await initPlatform();route();return true;}}
   if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
   route();return true;
 }
@@ -88,7 +89,15 @@ async function uiFriendsCard(){
   const side=$('.hm-side');if(!side)return;
   const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
   const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
-  if($('#hmFr'))return;
+  if(!side.isConnected||$('#hmFr'))return;
   side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${mascotSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
-  $('#hmFr').onclick=()=>go('friends');
+  const fr=$('#hmFr',side);if(fr)fr.onclick=()=>go('friends');
+}
+
+/* Today: remind to turn on sync when this device has no group password yet */
+function uiSyncBanner(){
+  if(!WEB||!WEB.sync||getKey()||current!=='home'||$('#syBan'))return;
+  const v=$('#view .view');if(!v)return;
+  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Nhập mật khẩu nhóm để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Nhập mật khẩu nhóm</button></div></div>`);
+  $('#syGo').onclick=async()=>{if(await askPassword(false)){await initPlatform();route();toast(syncState==='on'?'Đã đồng bộ.':'Chưa đồng bộ được, thử lại sau.');}};
 }

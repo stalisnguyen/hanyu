@@ -767,6 +767,8 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 .fr-mc svg{display:block}
 .rnav{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:4px 0 8px}
 .rnav .btn{min-width:0}
+.modal-bg{z-index:85}
+.toast{z-index:96}
 
 </style>
 </head><body>
@@ -918,6 +920,7 @@ async function initPlatform(){
     }
   }catch(e){}
   renderSync();
+  if(typeof uiSyncBanner==='function')uiSyncBanner();
 }
 
 /* ---- password modal (web mode) ---- */
@@ -976,11 +979,31 @@ function makeWebAI(){
 /* ---- sync ---- */
 function docRef(name){return DB.doc('data/users/'+UID+'/'+name);}
 function adopt(m){P=Object.assign(structuredClone(DEFAULT),m);P.settings=Object.assign({},DEFAULT.settings,m.settings||{});store.set(PKEY(),P);applySettings();route(true);}
+/* merge two progress documents (this device + cloud) without losing either side */
+function mergeP(a,b){
+  const newer=(a.upd||0)>=(b.upd||0)?a:b, older=newer===a?b:a;
+  const m=JSON.parse(JSON.stringify(newer)), o=older;
+  const card=(x,y)=>!x?y:!y?x:((x.n||0)!==(y.n||0)?((x.n||0)>(y.n||0)?x:y):((x.due||0)>=(y.due||0)?x:y));
+  m.srs=m.srs||{};for(const [h,c] of Object.entries(o.srs||{}))m.srs[h]=card(m.srs[h],c);
+  m.hist=m.hist||{};for(const [k,v] of Object.entries(o.hist||{}))m.hist[k]=Math.max(m.hist[k]||0,v||0);
+  m.day=m.day||{};for(const [k,d] of Object.entries(o.day||{})){const t=m.day[k]=m.day[k]||{};for(const [f,v] of Object.entries(d||{}))if(typeof v==='number')t[f]=Math.max(t[f]||0,v);}
+  for(const f of ['gram','cul']){m[f]=Object.assign({},o[f]||{},m[f]||{});}
+  m.reads=m.reads||{};for(const [k,v] of Object.entries(o.reads||{}))m.reads[k]=Math.max(m.reads[k]||0,v||0);
+  m.mist=Object.assign({},o.mist||{},m.mist||{});
+  const seenT=new Set((m.tests||[]).map(t=>t.id+'|'+t.date));m.tests=(m.tests||[]).concat((o.tests||[]).filter(t=>!seenT.has(t.id+'|'+t.date))).sort((x,y)=>(x.date||0)-(y.date||0));
+  const seenC=new Set((m.custom||[]).map(w=>w.h));m.custom=(m.custom||[]).concat((o.custom||[]).filter(w=>!seenC.has(w.h)));
+  const seenR=new Set((m.reports||[]).map(r=>r.d));m.reports=(m.reports||[]).concat((o.reports||[]).filter(r=>!seenR.has(r.d)));
+  if(o.games){m.games=m.games||{};for(const f of ['best','plays']){m.games[f]=m.games[f]||{};for(const [k,v] of Object.entries(o.games[f]||{}))m.games[f][k]=Math.max(m.games[f][k]||0,v||0);}}
+  m.placed=m.placed||o.placed; m.culExtra=Math.max(m.culExtra||0,o.culExtra||0);
+  m.upd=Date.now(); return m;
+}
 async function pullRemote(){
   try{
     if(SYNC==='web'){
       const j=await api('api/sync',{method:'GET'});
-      if(j.data&&(j.data.upd||0)>(P.upd||0)){adopt(j.data);syncState='on';return;}
+      if(j.data){const local=Object.keys(P.srs||{}).length+Object.keys(P.hist||{}).length;
+        if(!local){adopt(j.data);syncState='on';return;}           // fresh device: take the cloud copy
+        adopt(mergeP(P,j.data));}                                  // both have progress: merge, never overwrite
       syncState='on';dirty.add('main');await pushRemote();return;
     }
     const main=await docRef('main').get();
@@ -3243,7 +3266,7 @@ function uiHome(el){
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.h);
   culLoad().then(all=>{const t=$('#hmCulT');if(!t||!all.length)return;const x=all[culIndex()%all.length];t.innerHTML=`${esc(x.title)} <span class="han muted">${esc(x.zh)}</span>`;if(P.cul&&P.cul[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));});
   $('#hmCul').onclick=()=>{const m=modal(culCardHTML());culBind();};
-  uiFriendsCard();
+  uiFriendsCard();uiSyncBanner();
 }
 VIEWS.home=uiHome;
 
@@ -3461,6 +3484,7 @@ async function setProfile(name,pin){
   if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
   else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
   queue=[];dirty=new Set();applySettings();
+  if(WEB&&WEB.sync&&!getKey()){const ok=await askPassword(false);if(ok){await initPlatform();route();return true;}}
   if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
   route();return true;
 }
@@ -3519,9 +3543,17 @@ async function uiFriendsCard(){
   const side=$('.hm-side');if(!side)return;
   const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
   const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
-  if($('#hmFr'))return;
+  if(!side.isConnected||$('#hmFr'))return;
   side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${mascotSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
-  $('#hmFr').onclick=()=>go('friends');
+  const fr=$('#hmFr',side);if(fr)fr.onclick=()=>go('friends');
+}
+
+/* Today: remind to turn on sync when this device has no group password yet */
+function uiSyncBanner(){
+  if(!WEB||!WEB.sync||getKey()||current!=='home'||$('#syBan'))return;
+  const v=$('#view .view');if(!v)return;
+  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Nhập mật khẩu nhóm để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Nhập mật khẩu nhóm</button></div></div>`);
+  $('#syGo').onclick=async()=>{if(await askPassword(false)){await initPlatform();route();toast(syncState==='on'?'Đã đồng bộ.':'Chưa đồng bộ được, thử lại sau.');}};
 }
 
 /* ================= boot ================= */

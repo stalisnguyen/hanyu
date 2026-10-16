@@ -104,7 +104,7 @@ function uiHome(el){
   const b=$('#hWd');if(b)b.onclick=()=>openWord(wd.h);
   culLoad().then(all=>{const t=$('#hmCulT');if(!t||!all.length)return;const x=all[culIndex()%all.length];t.innerHTML=`${esc(x.title)} <span class="han muted">${esc(x.zh)}</span>`;if(P.cul&&P.cul[x.id])t.insertAdjacentHTML('beforeend',' '+ic('check','ok-i'));});
   $('#hmCul').onclick=()=>{const m=modal(culCardHTML());culBind();};
-  uiFriendsCard();
+  uiFriendsCard();uiSyncBanner();
 }
 VIEWS.home=uiHome;
 
