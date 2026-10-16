@@ -49,3 +49,15 @@ Thêm trong Vercel -> project hanyu -> Settings -> Environment Variables:
 - Đồng bộ: Vercel -> Storage -> thêm Upstash Redis (gói miễn phí) và kết nối với project; biến `KV_REST_API_URL`, `KV_REST_API_TOKEN` tự được thêm
 
 Sau đó deploy lại.
+
+## Giọng đọc tự nhiên cho câu và bài đọc (tùy chọn)
+
+Tạo tài nguyên Speech trên Azure (gói Free F0, 500.000 ký tự/tháng), rồi thêm trong Vercel:
+- `AZURE_SPEECH_KEY`: Key 1 của tài nguyên Speech
+- `AZURE_SPEECH_REGION`: vùng của tài nguyên, ví dụ `southeastasia`
+
+Deploy lại. Câu và bài đọc sẽ dùng giọng zh-CN-XiaoxiaoNeural (nữ) và zh-CN-YunxiNeural (nam).
+
+## Nguồn dữ liệu bổ sung
+
+- Tách chữ: [cjkvi-ids](https://github.com/cjkvi/cjkvi-ids) (dựa trên CHISE IDS, GPL v2)

@@ -252,7 +252,24 @@ function pickVoice(alt){
   if(!alt)return main;
   return voices.find(v=>v!==main&&!/cantonese|粤|hk|sinji/i.test(v.name+v.lang))||main;
 }
+const TTS_CACHE=new Map(); let ttsFail=0;
+async function cloudTTS(text,rate,alt){
+  if(!WEB||!WEB.tts||ttsFail>=3||!getKey())return false;
+  const key=(alt?'m':'f')+'|'+rate+'|'+text; let url=TTS_CACHE.get(key);
+  if(!url){
+    try{const r=await fetch('api/tts',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({text,rate:rate/0.85,voice:alt?'m':'f'})});
+      if(!r.ok){ttsFail++;return false;}
+      url=URL.createObjectURL(await r.blob());TTS_CACHE.set(key,url);if(TTS_CACHE.size>300){const k=TTS_CACHE.keys().next().value;URL.revokeObjectURL(TTS_CACHE.get(k));TTS_CACHE.delete(k);}
+    }catch(e){ttsFail++;return false;}
+  }
+  return playURL(url,0.85);
+}
 function say(text,{rate,alt=false}={}){
+  const rr=rate||P.settings.voiceRate;
+  if(WEB&&WEB.tts&&getKey()&&ttsFail<3){stopSay();return cloudTTS(text,rr,alt).then(ok=>ok?undefined:sayLocal(text,{rate:rr,alt}));}
+  return sayLocal(text,{rate:rr,alt});
+}
+function sayLocal(text,{rate,alt=false}={}){
   return new Promise(res=>{
     try{
       stopAudio();
@@ -303,7 +320,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(
 function fillVoiceSel(){const sel=$('#vSel');if(!sel)return;sel.innerHTML=voices.length?voices.map((v,i)=>`<option value="${esc(v.name)}" ${(P.settings.voice?v.name===P.settings.voice:i===0)?'selected':''}>${esc(v.name)} (${esc(v.lang)})${i===0?' - tốt nhất máy có':''}</option>`).join(''):'<option>Chưa có giọng tiếng Trung</option>';}
 function openVoice(){
   const m=modal(`<h2>Giọng đọc</h2>
-    <p class="note">Từ vựng và âm tiết dùng bản thu giọng người thật. Câu và bài đọc dùng giọng đọc có sẵn trên máy.</p>
+    <p class="note">Từ vựng và âm tiết dùng bản thu giọng người thật. ${WEB&&WEB.tts?'Câu và bài đọc dùng giọng neural Xiaoxiao/Yunxi của Azure (cần nhập mật khẩu ứng dụng một lần).':'Câu và bài đọc dùng giọng đọc có sẵn trên máy.'}</p>
     <label class="label" for="vRate">Tốc độ</label>
     <div class="row"><input type="range" id="vRate" min="0.5" max="1.1" step="0.05" value="${P.settings.voiceRate}" style="flex:1"><span class="num" id="vRateT"></span></div>
     <label class="label" for="vSel">Giọng cho câu và bài đọc</label>
@@ -324,7 +341,9 @@ function openVoice(){
 /* ================= routing ================= */
 const VIEWS={home:renderHome,study:renderStudy,dict:renderDict,listen:renderListen,speak:renderSpeak,read:renderRead,write:renderWrite,radicals:renderRadicals,pinyin:renderPinyin,grammar:renderGrammar,test:renderTest,talk:el=>{SP.sub='talk';current='speak';renderSpeak(el);},tones:renderTones};
 let current='home';
-function go(v){current=v;try{history.replaceState(null,'','#'+v);}catch(e){}route();window.scrollTo(0,0);}
+function go(v){if(v===current){route();return;}current=v;try{history.pushState(null,'','#'+v);}catch(e){}route();window.scrollTo(0,0);}
+window.addEventListener('popstate',()=>{const h=(location.hash||'').slice(1)||'home';if(VIEWS[h]&&h!==current){current=h;route();}});
+window.addEventListener('hashchange',()=>{const h=(location.hash||'').slice(1)||'home';if(VIEWS[h]&&h!==current){current=h;route();}});
 function route(soft){
   $$('nav.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===current));
   if(soft&&['test','talk','write'].includes(current))return;
@@ -438,7 +457,8 @@ function drawCard(){
 function flip(){if(!qcur||revealed)return;revealed=true;drawCard();sayWord(qcur.h);}
 function rate(r){
   if(!qcur||!revealed)return; const w=qcur;
-  const c=schedule(w.h,r); if(!c.first){c.first=Date.now();}
+  const wasNew=!P.srs[w.h]; const c=schedule(w.h,r); if(!c.first){c.first=Date.now();}
+  window.__award&&window.__award(wasNew?'new':'review',1); if(r===0)window.__mistake&&window.__mistake('word',w.h);
   queue.shift(); sessDone++;
   if(r===0){queue.splice(Math.min(queue.length,4),0,w);}
   qcur=null; nextCard();
@@ -630,8 +650,8 @@ async function renderGrammar(el){
       ${g.q?`<div class="gq"><span class="label">Luyện tập</span><div class="han" style="font-size:18px">${colorText(g.q.s)}</div><div class="opts">${g.q.o.map((o,i)=>`<button class="opt han" data-i="${i}">${esc(o)}</button>`).join('')}</div><div class="small gw" hidden></div></div>`:''}
       <div class="row"><button class="btn sm gdone">${P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm'}</button><button class="btn sm gorder">Luyện sắp xếp câu</button><button class="btn sm need-ai gask">Hỏi Claude thêm ví dụ</button></div><div class="gai"></div>`;
     refreshAIBits();
-    $$('.opt',b).forEach(o=>o.onclick=()=>{$$('.opt',b).forEach((x,i)=>{x.disabled=true;if(i===g.q.a)x.classList.add('right');});if(+o.dataset.i!==g.q.a)o.classList.add('wrong');const w=$('.gw',b);w.hidden=false;w.textContent=g.q.w;});
-    $('.gdone',b).onclick=()=>{P.gram[g.id]=P.gram[g.id]?0:1;if(!P.gram[g.id])delete P.gram[g.id];touch('main');const c=$('.check',d);c.classList.toggle('on',!!P.gram[g.id]);c.textContent=P.gram[g.id]?'✓':'';$('.gdone',b).textContent=P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm';};
+    $$('.opt',b).forEach(o=>o.onclick=()=>{$$('.opt',b).forEach((x,i)=>{x.disabled=true;if(i===g.q.a)x.classList.add('right');});if(+o.dataset.i!==g.q.a){o.classList.add('wrong');window.__mistake&&window.__mistake('q',{k:'fill',s:g.q.s,o:g.q.o,a:g.q.a,w:g.t+'. '+g.q.w});}const w=$('.gw',b);w.hidden=false;w.textContent=g.q.w;});
+    $('.gdone',b).onclick=()=>{P.gram[g.id]=P.gram[g.id]?0:1;if(!P.gram[g.id])delete P.gram[g.id];else window.__award&&window.__award('grammar',1);touch('main');const c=$('.check',d);c.classList.toggle('on',!!P.gram[g.id]);c.textContent=P.gram[g.id]?'✓':'';$('.gdone',b).textContent=P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm';};
     $('.gorder',b).onclick=()=>runTest({id:'gram-'+Date.now(),title:g.t,minutes:0,sections:[{type:'write',title:'Sắp xếp câu',parts:[{instr:'Dùng mẫu: '+g.f,items:g.ex.map(e=>orderItem(e[0],e[2]))}]}]},null);
     $('.gask',b).onclick=async e=>{const out=$('.gai',b);e.currentTarget.disabled=true;
       try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt. Điểm ngữ pháp HSK ${g.lv}: ${g.t}. Công thức: ${g.f}. Hãy đưa 5 câu ví dụ mới, tự nhiên, đúng trình độ, mỗi câu 3 dòng: chữ Hán / pinyin có dấu / nghĩa tiếng Việt. Sau đó thêm 2 lỗi người Việt hay mắc với mẫu này (ghi Sai: ... Đúng: ...). Văn bản thuần, không markdown, không gạch ngang dài.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
@@ -733,6 +753,8 @@ function runTest(t,lv){
       <p class="note">Câu sai được viền đỏ, bên dưới mỗi câu có giải thích. Phần nghe giờ hiện cả lời thoại.</p></div>`;
     $$('#tSubmit,#tSubmit2').forEach(b=>b.hidden=true);
     if(lv){P.tests.push({id:t.id,title:t.title,lv,pct,date:Date.now()});touch('main');}
+    window.__award&&window.__award(lv?'test':/^gram/.test(t.id)?'grammar':/^order/.test(t.id)?'write':'review',lv?Math.max(1,Math.round(n/10)):Math.max(1,Math.round(n/3)));
+    items.forEach(x=>{if(x.it.k==='essay')return;if(!isRight(x)){window.__mistake&&window.__mistake('q',x.it);}else if(window.__mistOk)window.__mistOk(x.it);});touch('main');
     items.forEach((x,i)=>drawItem(i));
     $('#tBack').onclick=()=>renderTest(el); window.scrollTo(0,0);
     items.forEach((x,i)=>{if(x.it.k==='essay'&&AI&&x.ans&&x.ans.trim())gradeEssay(x,i);});
@@ -970,8 +992,10 @@ let LS={lv:null,mode:'dict',items:[],i:0,score:0,done:false};
 function renderListen(el){
   if(!LS.lv)LS.lv=skillLv();
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện nghe</h2>${levelChips([LS.lv],s=>{LS.lv=s[0];newListen();renderListen(el);},{multi:false,id:'llv'})}</div>
-   ${subTabs('lmode',[['dict','Chép chính tả'],['mean','Nghe chọn nghĩa'],['hz','Nghe chọn chữ'],['tone','Nghe thanh điệu']],LS.mode,m=>{if(m==='tone'){go('tones');return;}LS.mode=m;newListen();renderListen(el);})}
+   ${subTabs('lmode',[['dict','Chép chính tả'],['mean','Nghe chọn nghĩa'],['hz','Nghe chọn chữ'],['passage','Nghe bài đọc'],['daily','Hội thoại hôm nay'],['tone','Nghe thanh điệu']],LS.mode,m=>{if(m==='tone'){go('tones');return;}LS.mode=m;if(m!=='passage'&&m!=='daily')newListen();renderListen(el);})}
    <div class="panel" id="lBox"></div></div>`;
+  if(LS.mode==='passage'){lpPassage($('#lBox'));return;}
+  if(LS.mode==='daily'){lpDaily($('#lBox'));return;}
   if(!LS.items.length)newListen();
   drawListen();
 }
@@ -990,12 +1014,12 @@ function drawListen(){
       <textarea id="lIn" rows="2" class="han" style="font-size:20px" placeholder="Câu bạn nghe được"></textarea>
       <div class="row"><button class="btn" id="lHint">Gợi ý pinyin</button><button class="btn primary" id="lCheck">Kiểm tra</button></div><div id="lRes"></div>`;
     $('#lHint').onclick=()=>{$('#lRes').innerHTML=`<div class="py">${sentPyHTML(it.w.exp)}</div>`;};
-    $('#lCheck').onclick=()=>{const r=compareZh(it.w.ex,$('#lIn').value);if(!it.checked){it.checked=1;LS.score+=Math.round(r.pct/10);}
+    $('#lCheck').onclick=()=>{const r=compareZh(it.w.ex,$('#lIn').value);if(!it.checked){it.checked=1;LS.score+=Math.round(r.pct/10);window.__award&&window.__award('listen',1);if(r.pct<80)window.__mistake&&window.__mistake('word',it.w.h);}
       $('#lRes').innerHTML=`<div class="q ${r.pct>=80?'r-ok':'r-bad'}"><div class="han" style="font-size:22px">${markHTML(r)}</div><div class="py small">${sentPyHTML(it.w.exp)}</div><div class="muted">${esc(it.w.exvi)}</div><b>${r.pct}% đúng</b><div class="row"><button class="btn sm" data-wd="${esc(it.w.h)}">Xem từ ${esc(it.w.h)}</button><button class="btn primary sm" id="lNext">Câu tiếp</button></div></div>`;
       $('#lNext').onclick=()=>{LS.i++;drawListen();};$$('[data-wd]',b).forEach(x=>x.onclick=()=>openWord(x.dataset.wd));};
   }else{
     b.innerHTML=head+`<div class="opts">${it.o.map((o,k)=>`<button class="opt" data-k="${k}">${LS.mode==='mean'?esc(o.vi):`<span class="han zh" style="font-size:24px">${esc(o.h)}</span>`}</button>`).join('')}</div><div id="lRes"></div>`;
-    $$('[data-k]',b).forEach(x=>x.onclick=()=>{if(it.ans!=null)return;it.ans=+x.dataset.k;const right=it.o[it.ans]===it.w;if(right)LS.score++;
+    $$('[data-k]',b).forEach(x=>x.onclick=()=>{if(it.ans!=null)return;it.ans=+x.dataset.k;const right=it.o[it.ans]===it.w;if(right)LS.score++;else window.__mistake&&window.__mistake('word',it.w.h);window.__award&&window.__award('listen',1);
       $$('[data-k]',b).forEach((y,k)=>{y.disabled=true;if(it.o[k]===it.w)y.classList.add('right');else if(k===it.ans)y.classList.add('wrong');});
       $('#lRes').innerHTML=`<div class="row" style="margin-top:6px"><span class="han" style="font-size:22px">${hanHTML(it.w)}</span><span class="py">${pyHTML(it.w)}</span><span>${esc(it.w.vi)}</span><button class="btn primary sm" id="lNext" style="margin-left:auto">Tiếp</button></div>`;
       $('#lNext').onclick=()=>{LS.i++;drawListen();};});
@@ -1034,7 +1058,7 @@ function drawShadow(){
     rec.onerror=ev=>{btn.textContent='🎤 Nói';if(/not-allowed|service-not-allowed/.test(ev.error))$('#shRes').innerHTML='<p class="note">Trình duyệt chưa cho dùng micro. Bấm biểu tượng ổ khóa trên thanh địa chỉ để cho phép.</p>';};
     rec.onend=()=>{btn.textContent='🎤 Nói';if(!heard)return;const r=compareZh(c.zh,heard);
       $('#shRes').innerHTML=`<div class="q ${r.pct>=80?'r-ok':'r-bad'}"><div class="han" style="font-size:24px">${markHTML(r)}</div><div class="small muted">Máy nghe được: <span class="han">${esc(heard)}</span></div><b>${r.pct}% rõ</b> ${r.pct>=90?'Rất tốt.':r.pct>=70?'Khá. Luyện thêm các chữ màu đỏ.':'Nghe mẫu chậm rồi đọc lại từng cụm.'}</div>`;
-      const k=ymd(Date.now());P.hist[k]=(P.hist[k]||0)+1;touch('main');};
+      window.__award&&window.__award('speak',1);};
     rec.start();btn.textContent='⏹ Đang nghe...';
   };
   if(canRec)$('#shSelf').onclick=async()=>{
@@ -1095,7 +1119,7 @@ function drawReader(el,r){
     $('#rPlay').onclick=async()=>{if(reading){reading=false;stopSay();draw();return;}reading=true;draw();for(const p of r.paras){if(!reading)break;await say(p[0]);}reading=false;draw();};
     $$('[data-q]',el).forEach(b=>b.onclick=()=>{const qi=+b.dataset.q;ans[qi]=+b.dataset.k;$$(`[data-q="${qi}"]`,el).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $('#rCheck').onclick=()=>{let ok=0;r.q.forEach((q,i)=>{const box=$('#rq'+i);$$(`[data-q="${i}"]`,box).forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add('right');else if(ans[i]===k)x.classList.add('wrong');});if(ans[i]===q.a)ok++;const w=$('.w',box);w.hidden=false;w.textContent=q.w;});
-      const pct=r.q.length?Math.round(ok/r.q.length*100):0;$('#rScore').innerHTML=`<b>${ok}/${r.q.length}</b> câu đúng`;if(!String(r.id).startsWith('ai')){P.reads=P.reads||{};P.reads[r.id]=pct;}const k=ymd(Date.now());P.hist[k]=(P.hist[k]||0)+1;touch('main');};
+      const pct=r.q.length?Math.round(ok/r.q.length*100):0;$('#rScore').innerHTML=`<b>${ok}/${r.q.length}</b> câu đúng`;if(!String(r.id).startsWith('ai')){P.reads=P.reads||{};P.reads[r.id]=pct;}window.__award&&window.__award('read',1);touch('main');};
     $$('.rw',el).forEach(sp=>sp.onclick=e=>{e.stopPropagation();lookup(sp.dataset.rw,sp);});
   };
   draw();
@@ -1138,7 +1162,7 @@ function renderWrite(el){
       <div class="row"><button class="btn primary" id="tCheck">Kiểm tra</button><button class="btn" id="tNext">Câu khác</button></div><div id="tRes"></div></div></div>`;
     $$('[data-wd]',box).forEach(x=>x.onclick=()=>openWord(x.dataset.wd));
     $('#tNext').onclick=()=>{WR.tr=null;renderWrite(el);};
-    $('#tCheck').onclick=async()=>{const v=$('#tIn').value.trim();if(!v)return;const r=compareZh(w.ex,v);
+    $('#tCheck').onclick=async()=>{const v=$('#tIn').value.trim();if(!v)return;const r=compareZh(w.ex,v);window.__award&&window.__award('write',1);
       $('#tRes').innerHTML=`<div class="q"><div class="small muted">Câu tham khảo:</div><div class="han" style="font-size:21px">${colorText(w.ex)}</div><div class="py small">${sentPyHTML(w.exp)}</div><div class="small">Trùng với câu tham khảo: <b>${r.pct}%</b>. Câu khác cách diễn đạt vẫn có thể đúng.</div><div id="tAi"></div></div>`;
       if(AI){const out=$('#tAi');out.innerHTML='<div class="ai-out">Claude đang nhận xét...</div>';
         try{await ask(`Học viên người Việt trình độ HSK ${WR.lv} dịch câu "${w.exvi}" sang tiếng Trung thành: "${v}". Câu tham khảo: "${w.ex}". Nhận xét ngắn bằng tiếng Việt: câu của học viên đúng hay sai, tự nhiên chưa; nếu sai thì ghi "Sai: ... Đúng: ..." kèm lý do ngắn. Tối đa 5 dòng, văn bản thuần, không gạch ngang dài.`,{modelTier:'quick',onText:({text})=>{out.innerHTML=`<div class="ai-out">${esc(text)}</div>`;}});}
@@ -1158,7 +1182,7 @@ function renderWrite(el){
   $('#eText').oninput=cnt;$('#eTopic').oninput=cnt;
   $$('[data-tp]',box).forEach(b=>b.onclick=()=>{$('#eTopic').value=b.dataset.tp;cnt();});
   const g=$('#eGrade');if(g)g.onclick=async()=>{const t=$('#eText').value.trim();if([...t].filter(isHan).length<5){toast('Viết thêm vài câu đã.');return;}const out=$('#eOut');g.disabled=true;out.innerHTML='<div class="ai-out">Claude đang chấm...</div>';
-    try{await ask(`Bạn là giáo viên tiếng Trung chấm bài viết cho học viên người Việt trình độ HSK ${WR.lv}. Đề: "${$('#eTopic').value}". Bài viết:\n${t}\n\nTrả lời bằng tiếng Việt, văn bản thuần, không markdown, không gạch ngang dài:\n1. Điểm trên thang 100 và nhận xét chung 2 câu.\n2. Liệt kê từng lỗi theo dạng "Sai: ... Đúng: ..." kèm lý do ngắn (ngữ pháp, từ dùng sai, trật tự từ).\n3. Bài đã sửa hoàn chỉnh bằng chữ Hán.\n4. 3 từ hoặc mẫu câu HSK ${WR.lv} nên dùng để bài hay hơn, kèm pinyin và nghĩa.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
+    window.__award&&window.__award('write',2);try{await ask(`Bạn là giáo viên tiếng Trung chấm bài viết cho học viên người Việt trình độ HSK ${WR.lv}. Đề: "${$('#eTopic').value}". Bài viết:\n${t}\n\nTrả lời bằng tiếng Việt, văn bản thuần, không markdown, không gạch ngang dài:\n1. Điểm trên thang 100 và nhận xét chung 2 câu.\n2. Liệt kê từng lỗi theo dạng "Sai: ... Đúng: ..." kèm lý do ngắn (ngữ pháp, từ dùng sai, trật tự từ).\n3. Bài đã sửa hoàn chỉnh bằng chữ Hán.\n4. 3 từ hoặc mẫu câu HSK ${WR.lv} nên dùng để bài hay hơn, kèm pinyin và nghĩa.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
     catch(e){out.innerHTML=`<p class="note">${esc(aiError(e))}</p>`;}g.disabled=false;};
 }
 function orderItem(sentence,vi,extra){
@@ -1222,5 +1246,6 @@ async function boot(){
   await loadAllWords();
   if(['home','dict','study'].includes(current)&&!$('.modal-bg'))route(true);
 }
+if(!IN_ARTIFACT&&'serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
 boot().catch(e=>{console.error(e);$('#view').innerHTML='<div class="empty">Không tải được dữ liệu. Tải lại trang thử xem.</div>';});
 })();
