@@ -1,4 +1,4 @@
-# Owlis (IELTS app) - memo để làm tiếp ở session khác
+# Catalis (IELTS app) - memo để làm tiếp ở session khác
 
 Trạng thái ngày 2026-10-16. Nhánh này (`ielts-content` trong repo stalisnguyen/hanyu) chỉ để giữ nội dung đã soạn; app IELTS sẽ nằm ở repo riêng.
 
@@ -6,7 +6,9 @@ Trạng thái ngày 2026-10-16. Nhánh này (`ielts-content` trong repo stalisng
 - Người học: cả nhóm, nhiều trình độ (band 4.5 -> 8), có bài xếp lớp, lộ trình theo band, bảng bạn học như Stalong.
 - Thi cả Academic và General Training (chọn trong app).
 - Hạ tầng: repo private MỚI + project Vercel riêng, dùng lại cách của hanyu: Groq (trợ lý AI, GROQ_API_KEY), Upstash Redis (đồng bộ), APP_PASSWORD nhóm, hồ sơ theo tên + PIN, api/board.
-- Tên đề xuất: **Owlis** (owl + Stalis), tagline "Stalis's IELTS", linh vật cú con tên **Lis**, màu chủ đạo xanh navy + vàng hổ phách. Danh hiệu 8 bậc kiểu học thuật (Freshman -> Professor), cú đội mũ/kính/mũ tốt nghiệp theo bậc. Stalis có thể đổi tên.
+- Tên: **Catalis** (cat + Stalis, chơi chữ "catalyst": chất xúc tác giúp tăng band), tagline "Stalis's IELTS". Stalis không thích cú, chọn mèo.
+- Linh vật: mèo con lông cam tên **Mít**, vẽ SVG trong `ielts-draft/mascot_cat.js` (hàm `catSVG(state,size,rank)`, 7 trạng thái calm/hi/idea/yay/ok/hmm/zzz), ảnh xem trước `mascot_cat_preview.png`. Màu app: xanh navy #22346E + cam/vàng hổ phách.
+- Danh hiệu 8 bậc: Freshman, Sophomore, Junior, Senior, Bachelor, Master, PhD, Professor. Mít đổi phụ kiện theo bậc: mũ len -> kính -> mũ tốt nghiệp -> cuộn bằng -> nơ đỏ -> áo choàng.
 
 ## Nội dung đã có (ielts-draft/out, tất cả đã qua checker)
 - Từ vựng: v00-v29.json = 3.260 từ (NGSL 501-2801 + NAWL 959; lv 1/2/3), mỗi từ có ipa (RP), pos, vi, ex, exvi, col, fam, em. topic_a/topic_b.json = 600 từ band 7+ theo 20 chủ đề (lv 4). Lưu ý: vài từ ghi 2 IPA kiểu "/../ (v), /../ (n)".
@@ -22,7 +24,7 @@ Trạng thái ngày 2026-10-16. Nhánh này (`ielts-content` trong repo stalisng
 - Một số dữ kiện thực tế trong bài đọc/nghe/essay viết theo hiểu biết chung, chưa đối chiếu nguồn.
 
 ## Việc còn lại
-1. Tạo repo private mới (gợi ý `stalisnguyen/owlis`) qua Chrome như lần hanyu, cài Claude GitHub app cho repo đó; tạo project Vercel từ repo (GitHub đã nối Vercel, team inner-world), thêm env: APP_PASSWORD, GROQ_API_KEY, kết nối Upstash Redis.
+1. Tạo repo private mới (gợi ý `stalisnguyen/catalis`) qua Chrome như lần hanyu, cài Claude GitHub app cho repo đó; tạo project Vercel từ repo (GitHub đã nối Vercel, team inner-world), thêm env: APP_PASSWORD, GROQ_API_KEY, kết nối Upstash Redis.
 2. Dựng app dựa trên khung Stalong (src/shell.html, app.css, app.js, features/, build.py, api/*, sw.js, manifest) nhưng bỏ phần tiếng Trung (pinyin, hanzi-writer, thanh điệu, bộ thủ, audio-cmn). Giữ: điều hướng 5 nhóm (Hôm nay, Ôn tập, Luyện, Tra cứu, Tôi), SRS + XP + danh hiệu, kế hoạch ngày, sổ lỗi, trò chơi, Aa sheet, hiệu ứng thưởng, hồ sơ tên + PIN, bảng Bạn học, trợ lý AI qua Groq.
 3. Màn cần viết mới:
    - Từ vựng: thẻ SRS (IPA, nghe en-GB TTS, collocation, word family), từ điển, chủ đề band 7+.
