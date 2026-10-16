@@ -1,0 +1,4837 @@
+[
+ {
+  "w": "rote learning",
+  "ipa": "/ˌrəʊt ˈlɜːnɪŋ/",
+  "pos": "n",
+  "vi": "học vẹt, học thuộc lòng máy móc",
+  "ex": "Many critics argue that rote learning leaves students unable to apply knowledge to real problems.",
+  "exvi": "Nhiều người phê bình cho rằng lối học vẹt khiến học sinh không thể áp dụng kiến thức vào vấn đề thực tế.",
+  "col": [
+   "rely on rote learning",
+   "move away from rote learning"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "critical thinking",
+  "ipa": "/ˌkrɪtɪkəl ˈθɪŋkɪŋ/",
+  "pos": "n",
+  "vi": "tư duy phản biện",
+  "ex": "Schools should place more emphasis on critical thinking than on memorising facts.",
+  "exvi": "Trường học nên chú trọng tư duy phản biện hơn là ghi nhớ kiến thức.",
+  "col": [
+   "develop critical thinking",
+   "critical thinking skills"
+  ],
+  "fam": "critic (n), critical (adj), critically (adv), criticise (v)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "tertiary education",
+  "ipa": "/ˌtɜːʃəri ˌedʒuˈkeɪʃn/",
+  "pos": "n",
+  "vi": "giáo dục bậc đại học, cao đẳng",
+  "ex": "Access to tertiary education has expanded rapidly in many developing countries.",
+  "exvi": "Cơ hội tiếp cận giáo dục đại học đã mở rộng nhanh chóng ở nhiều nước đang phát triển.",
+  "col": [
+   "access to tertiary education",
+   "pursue tertiary education"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "vocational training",
+  "ipa": "/vəʊˌkeɪʃənl ˈtreɪnɪŋ/",
+  "pos": "n",
+  "vi": "đào tạo nghề",
+  "ex": "Vocational training can equip young people with practical skills that employers urgently need.",
+  "exvi": "Đào tạo nghề có thể trang bị cho người trẻ những kỹ năng thực tế mà nhà tuyển dụng đang rất cần.",
+  "col": [
+   "provide vocational training",
+   "vocational training programmes"
+  ],
+  "fam": "vocation (n), vocational (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "pedagogy",
+  "ipa": "/ˈpedəɡɒdʒi/",
+  "pos": "n",
+  "vi": "phương pháp sư phạm, khoa học giảng dạy",
+  "ex": "Modern pedagogy encourages teachers to act as facilitators rather than lecturers.",
+  "exvi": "Phương pháp sư phạm hiện đại khuyến khích giáo viên đóng vai trò người dẫn dắt thay vì chỉ giảng bài.",
+  "col": [
+   "modern pedagogy",
+   "innovative pedagogy"
+  ],
+  "fam": "pedagogical (adj), pedagogically (adv)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "curriculum",
+  "ipa": "/kəˈrɪkjələm/",
+  "pos": "n",
+  "vi": "chương trình giảng dạy",
+  "ex": "Financial literacy should be included in the national curriculum for secondary schools.",
+  "exvi": "Kiến thức tài chính nên được đưa vào chương trình giảng dạy quốc gia cho bậc trung học.",
+  "col": [
+   "the national curriculum",
+   "a broad curriculum",
+   "overhaul the curriculum"
+  ],
+  "fam": "curricula (n, pl), curricular (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "academic attainment",
+  "ipa": "/ˌækəˈdemɪk əˈteɪnmənt/",
+  "pos": "n",
+  "vi": "thành tích học tập",
+  "ex": "Research suggests that parental involvement has a strong influence on academic attainment.",
+  "exvi": "Nghiên cứu cho thấy sự quan tâm của cha mẹ ảnh hưởng mạnh đến thành tích học tập.",
+  "col": [
+   "raise academic attainment",
+   "levels of academic attainment"
+  ],
+  "fam": "attain (v), attainable (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "standardised testing",
+  "ipa": "/ˌstændədaɪzd ˈtestɪŋ/",
+  "pos": "n",
+  "vi": "thi cử chuẩn hoá, kiểm tra theo chuẩn chung",
+  "ex": "An overemphasis on standardised testing may force teachers to teach to the test.",
+  "exvi": "Việc quá chú trọng thi cử chuẩn hoá có thể khiến giáo viên chỉ dạy để đối phó với bài thi.",
+  "col": [
+   "rely on standardised testing",
+   "high-stakes standardised testing"
+  ],
+  "fam": "standard (n), standardise (v), standardisation (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "compulsory education",
+  "ipa": "/kəmˌpʌlsəri ˌedʒuˈkeɪʃn/",
+  "pos": "n",
+  "vi": "giáo dục bắt buộc",
+  "ex": "Several governments are considering extending compulsory education until the age of eighteen.",
+  "exvi": "Một số chính phủ đang cân nhắc kéo dài giáo dục bắt buộc đến 18 tuổi.",
+  "col": [
+   "extend compulsory education",
+   "years of compulsory education"
+  ],
+  "fam": "compulsion (n), compel (v), compulsorily (adv)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "extracurricular activities",
+  "ipa": "/ˌekstrəkəˌrɪkjələr ækˈtɪvətiz/",
+  "pos": "n",
+  "vi": "hoạt động ngoại khoá",
+  "ex": "Extracurricular activities help children build teamwork and leadership skills outside the classroom.",
+  "exvi": "Hoạt động ngoại khoá giúp trẻ phát triển kỹ năng làm việc nhóm và lãnh đạo ngoài lớp học.",
+  "col": [
+   "take part in extracurricular activities",
+   "a range of extracurricular activities"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "lifelong learning",
+  "ipa": "/ˌlaɪflɒŋ ˈlɜːnɪŋ/",
+  "pos": "n",
+  "vi": "học tập suốt đời",
+  "ex": "In a rapidly changing job market, lifelong learning is no longer optional.",
+  "exvi": "Trong thị trường việc làm thay đổi nhanh, học tập suốt đời không còn là lựa chọn mà là điều bắt buộc.",
+  "col": [
+   "promote lifelong learning",
+   "a culture of lifelong learning"
+  ],
+  "fam": "lifelong (adj), learner (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "literacy",
+  "ipa": "/ˈlɪtərəsi/",
+  "pos": "n",
+  "vi": "khả năng đọc viết; hiểu biết về một lĩnh vực",
+  "ex": "Adult literacy rates have risen sharply since free primary schooling was introduced.",
+  "exvi": "Tỉ lệ biết đọc biết viết ở người lớn đã tăng mạnh từ khi giáo dục tiểu học miễn phí được áp dụng.",
+  "col": [
+   "literacy rate",
+   "improve literacy",
+   "financial literacy"
+  ],
+  "fam": "literate (adj), illiterate (adj), illiteracy (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "numeracy",
+  "ipa": "/ˈnjuːmərəsi/",
+  "pos": "n",
+  "vi": "khả năng tính toán cơ bản",
+  "ex": "Employers often complain that school leavers lack basic numeracy skills.",
+  "exvi": "Nhà tuyển dụng thường phàn nàn rằng học sinh mới ra trường thiếu kỹ năng tính toán cơ bản.",
+  "col": [
+   "literacy and numeracy",
+   "numeracy skills"
+  ],
+  "fam": "numerate (adj), numerical (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "distance learning",
+  "ipa": "/ˈdɪstəns ˌlɜːnɪŋ/",
+  "pos": "n",
+  "vi": "học từ xa",
+  "ex": "Distance learning allows working adults to gain qualifications without leaving their jobs.",
+  "exvi": "Học từ xa giúp người đi làm lấy bằng cấp mà không phải nghỉ việc.",
+  "col": [
+   "a distance learning course",
+   "the rise of distance learning"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "tuition fees",
+  "ipa": "/tjuˈɪʃn fiːz/",
+  "pos": "n",
+  "vi": "học phí",
+  "ex": "Rising tuition fees may discourage talented students from poorer families from applying to university.",
+  "exvi": "Học phí tăng cao có thể khiến học sinh giỏi từ gia đình nghèo ngại nộp đơn vào đại học.",
+  "col": [
+   "pay tuition fees",
+   "abolish tuition fees",
+   "rising tuition fees"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "dropout rate",
+  "ipa": "/ˈdrɒpaʊt reɪt/",
+  "pos": "n",
+  "vi": "tỉ lệ bỏ học",
+  "ex": "The dropout rate is particularly high in remote areas where schools are poorly funded.",
+  "exvi": "Tỉ lệ bỏ học đặc biệt cao ở vùng sâu vùng xa, nơi trường học thiếu kinh phí.",
+  "col": [
+   "reduce the dropout rate",
+   "a high dropout rate"
+  ],
+  "fam": "drop out (v), dropout (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "cognitive development",
+  "ipa": "/ˌkɒɡnətɪv dɪˈveləpmənt/",
+  "pos": "n",
+  "vi": "sự phát triển nhận thức",
+  "ex": "Playing with other children is essential for a toddler's cognitive development.",
+  "exvi": "Chơi với các bạn cùng tuổi rất quan trọng cho sự phát triển nhận thức của trẻ nhỏ.",
+  "col": [
+   "promote cognitive development",
+   "early cognitive development"
+  ],
+  "fam": "cognition (n), cognitive (adj), cognitively (adv)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "holistic education",
+  "ipa": "/həʊˌlɪstɪk ˌedʒuˈkeɪʃn/",
+  "pos": "n",
+  "vi": "giáo dục toàn diện",
+  "ex": "A holistic education nurtures students' emotional and social growth as well as their intellect.",
+  "exvi": "Giáo dục toàn diện nuôi dưỡng sự phát triển cảm xúc và xã hội của học sinh, không chỉ trí tuệ.",
+  "col": [
+   "provide a holistic education",
+   "a holistic approach"
+  ],
+  "fam": "holistic (adj), holistically (adv)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "academic integrity",
+  "ipa": "/ˌækəˈdemɪk ɪnˈteɡrəti/",
+  "pos": "n",
+  "vi": "sự trung thực trong học thuật",
+  "ex": "Universities are worried that AI writing tools could undermine academic integrity.",
+  "exvi": "Các trường đại học lo ngại công cụ viết bằng AI có thể làm xói mòn sự trung thực trong học thuật.",
+  "col": [
+   "uphold academic integrity",
+   "a breach of academic integrity"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "plagiarism",
+  "ipa": "/ˈpleɪdʒərɪzəm/",
+  "pos": "n",
+  "vi": "đạo văn",
+  "ex": "Students who are caught committing plagiarism may be expelled from their course.",
+  "exvi": "Sinh viên bị phát hiện đạo văn có thể bị đuổi khỏi khoá học.",
+  "col": [
+   "commit plagiarism",
+   "be accused of plagiarism",
+   "detect plagiarism"
+  ],
+  "fam": "plagiarise (v), plagiarist (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "mixed-ability class",
+  "ipa": "/ˌmɪkst əˈbɪləti klɑːs/",
+  "pos": "n",
+  "vi": "lớp học có trình độ không đồng đều",
+  "ex": "Teaching a mixed-ability class requires careful planning so that no student is left behind.",
+  "exvi": "Dạy một lớp có trình độ không đồng đều đòi hỏi chuẩn bị kỹ để không học sinh nào bị bỏ lại phía sau.",
+  "col": [
+   "teach a mixed-ability class",
+   "mixed-ability teaching"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "well-rounded",
+  "ipa": "/ˌwel ˈraʊndɪd/",
+  "pos": "adj",
+  "vi": "phát triển toàn diện, cân bằng nhiều mặt",
+  "ex": "Arts and sport are vital if we want to raise well-rounded individuals.",
+  "exvi": "Nghệ thuật và thể thao rất cần thiết nếu muốn nuôi dạy những con người phát triển toàn diện.",
+  "col": [
+   "a well-rounded education",
+   "well-rounded individuals"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "inquisitive",
+  "ipa": "/ɪnˈkwɪzətɪv/",
+  "pos": "adj",
+  "vi": "ham hiểu biết, hay tò mò",
+  "ex": "Good teachers keep children inquisitive by encouraging them to ask their own questions.",
+  "exvi": "Giáo viên giỏi giữ được sự ham hiểu biết của trẻ bằng cách khuyến khích chúng tự đặt câu hỏi.",
+  "col": [
+   "an inquisitive mind",
+   "naturally inquisitive"
+  ],
+  "fam": "inquisitiveness (n), inquisitively (adv)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "spoon-feed",
+  "ipa": "/ˈspuːn fiːd/",
+  "pos": "v",
+  "vi": "dạy kiểu đút cho ăn, cung cấp sẵn mọi thứ không để người học tự nghĩ",
+  "ex": "Students who are spoon-fed answers often struggle to think independently at university.",
+  "exvi": "Học sinh quen được cung cấp sẵn đáp án thường gặp khó khăn khi phải tự suy nghĩ ở đại học.",
+  "col": [
+   "spoon-feed students",
+   "be spoon-fed information"
+  ],
+  "fam": "spoon-feeding (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "grade inflation",
+  "ipa": "/ˈɡreɪd ɪnˌfleɪʃn/",
+  "pos": "n",
+  "vi": "tình trạng lạm phát điểm số",
+  "ex": "Grade inflation makes it harder for employers to distinguish between excellent and average graduates.",
+  "exvi": "Lạm phát điểm số khiến nhà tuyển dụng khó phân biệt sinh viên xuất sắc với sinh viên trung bình.",
+  "col": [
+   "concerns about grade inflation",
+   "combat grade inflation"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "cram",
+  "ipa": "/kræm/",
+  "pos": "v",
+  "vi": "học nhồi nhét, ôn gấp trước kỳ thi",
+  "ex": "Many teenagers cram late into the night before exams instead of revising steadily.",
+  "exvi": "Nhiều thiếu niên học nhồi đến khuya trước kỳ thi thay vì ôn tập đều đặn.",
+  "col": [
+   "cram for an exam",
+   "cram school"
+  ],
+  "fam": "cramming (n), crammer (n)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "intellectual curiosity",
+  "ipa": "/ˌɪntəˌlektʃuəl ˌkjʊəriˈɒsəti/",
+  "pos": "n",
+  "vi": "sự ham học hỏi, tò mò trí tuệ",
+  "ex": "An exam-driven system can gradually kill children's intellectual curiosity.",
+  "exvi": "Một hệ thống nặng về thi cử có thể dần dần giết chết sự ham học hỏi của trẻ.",
+  "col": [
+   "foster intellectual curiosity",
+   "stifle intellectual curiosity"
+  ],
+  "fam": "intellect (n), curious (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "attainment gap",
+  "ipa": "/əˈteɪnmənt ɡæp/",
+  "pos": "n",
+  "vi": "khoảng cách thành tích học tập (giữa các nhóm học sinh)",
+  "ex": "Free school meals and tutoring are aimed at narrowing the attainment gap between rich and poor pupils.",
+  "exvi": "Bữa ăn miễn phí và gia sư nhằm thu hẹp khoảng cách thành tích giữa học sinh giàu và nghèo.",
+  "col": [
+   "narrow the attainment gap",
+   "close the attainment gap"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "syllabus",
+  "ipa": "/ˈsɪləbəs/",
+  "pos": "n",
+  "vi": "đề cương môn học, nội dung chương trình của một môn",
+  "ex": "The history syllabus focuses almost entirely on national events and ignores world history.",
+  "exvi": "Đề cương môn lịch sử gần như chỉ tập trung vào sự kiện trong nước và bỏ qua lịch sử thế giới.",
+  "col": [
+   "cover the syllabus",
+   "on the syllabus",
+   "an overloaded syllabus"
+  ],
+  "fam": "syllabuses, syllabi (n, pl)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "hands-on experience",
+  "ipa": "/ˌhændz ɒn ɪkˈspɪəriəns/",
+  "pos": "n",
+  "vi": "kinh nghiệm thực hành trực tiếp",
+  "ex": "Internships give students hands-on experience that no textbook can provide.",
+  "exvi": "Thực tập mang lại cho sinh viên kinh nghiệm thực hành mà không sách giáo khoa nào có được.",
+  "col": [
+   "gain hands-on experience",
+   "practical hands-on experience"
+  ],
+  "fam": "hands-on (adj)",
+  "em": "",
+  "topic": "Education",
+  "lv": 4
+ },
+ {
+  "w": "carbon footprint",
+  "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
+  "pos": "n",
+  "vi": "lượng khí thải carbon (của một người, tổ chức, sản phẩm)",
+  "ex": "Eating less red meat is one of the simplest ways to reduce your carbon footprint.",
+  "exvi": "Ăn ít thịt đỏ là một trong những cách đơn giản nhất để giảm lượng khí thải carbon của bạn.",
+  "col": [
+   "reduce your carbon footprint",
+   "a large carbon footprint"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "renewable energy",
+  "ipa": "/rɪˌnjuːəbl ˈenədʒi/",
+  "pos": "n",
+  "vi": "năng lượng tái tạo",
+  "ex": "Governments should offer tax incentives to encourage investment in renewable energy.",
+  "exvi": "Chính phủ nên ưu đãi thuế để khuyến khích đầu tư vào năng lượng tái tạo.",
+  "col": [
+   "invest in renewable energy",
+   "renewable energy sources"
+  ],
+  "fam": "renew (v), renewable (adj), renewables (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "fossil fuels",
+  "ipa": "/ˈfɒsl ˌfjuːəlz/",
+  "pos": "n",
+  "vi": "nhiên liệu hoá thạch",
+  "ex": "Our dependence on fossil fuels is the main driver of climate change.",
+  "exvi": "Việc phụ thuộc vào nhiên liệu hoá thạch là nguyên nhân chính gây biến đổi khí hậu.",
+  "col": [
+   "burn fossil fuels",
+   "phase out fossil fuels",
+   "dependence on fossil fuels"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "greenhouse gas emissions",
+  "ipa": "/ˌɡriːnhaʊs ˈɡæs iˌmɪʃnz/",
+  "pos": "n",
+  "vi": "khí thải nhà kính",
+  "ex": "Transport accounts for a significant share of greenhouse gas emissions in cities.",
+  "exvi": "Giao thông chiếm một phần đáng kể lượng khí thải nhà kính ở các thành phố.",
+  "col": [
+   "cut greenhouse gas emissions",
+   "curb greenhouse gas emissions"
+  ],
+  "fam": "emit (v), emission (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "deforestation",
+  "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+  "pos": "n",
+  "vi": "nạn phá rừng",
+  "ex": "Large-scale deforestation for cattle farming is destroying the Amazon rainforest.",
+  "exvi": "Nạn phá rừng quy mô lớn để chăn nuôi gia súc đang tàn phá rừng mưa Amazon.",
+  "col": [
+   "halt deforestation",
+   "rampant deforestation"
+  ],
+  "fam": "deforest (v), forest (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "biodiversity",
+  "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+  "pos": "n",
+  "vi": "đa dạng sinh học",
+  "ex": "The loss of biodiversity threatens food security as well as the beauty of nature.",
+  "exvi": "Sự suy giảm đa dạng sinh học đe doạ an ninh lương thực chứ không chỉ vẻ đẹp tự nhiên.",
+  "col": [
+   "protect biodiversity",
+   "loss of biodiversity",
+   "rich in biodiversity"
+  ],
+  "fam": "biodiverse (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "habitat loss",
+  "ipa": "/ˈhæbɪtæt lɒs/",
+  "pos": "n",
+  "vi": "mất môi trường sống (của động thực vật)",
+  "ex": "Habitat loss caused by urban sprawl is pushing many species towards extinction.",
+  "exvi": "Việc mất môi trường sống do đô thị lan rộng đang đẩy nhiều loài đến bờ tuyệt chủng.",
+  "col": [
+   "suffer from habitat loss",
+   "the main cause of habitat loss"
+  ],
+  "fam": "habitat (n), habitable (adj), inhabit (v)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "endangered species",
+  "ipa": "/ɪnˌdeɪndʒəd ˈspiːʃiːz/",
+  "pos": "n",
+  "vi": "loài có nguy cơ tuyệt chủng",
+  "ex": "Strict laws are needed to stop the illegal trade in endangered species.",
+  "exvi": "Cần có luật nghiêm khắc để ngăn chặn buôn bán trái phép các loài có nguy cơ tuyệt chủng.",
+  "col": [
+   "protect endangered species",
+   "critically endangered species"
+  ],
+  "fam": "endanger (v), endangered (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "sustainable",
+  "ipa": "/səˈsteɪnəbl/",
+  "pos": "adj",
+  "vi": "bền vững",
+  "ex": "Cities must find sustainable ways of managing water as populations grow.",
+  "exvi": "Các thành phố phải tìm cách quản lý nguồn nước bền vững khi dân số tăng.",
+  "col": [
+   "sustainable development",
+   "environmentally sustainable",
+   "a sustainable future"
+  ],
+  "fam": "sustain (v), sustainability (n), sustainably (adv)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "ecosystem",
+  "ipa": "/ˈiːkəʊsɪstəm/",
+  "pos": "n",
+  "vi": "hệ sinh thái",
+  "ex": "Plastic waste is causing serious damage to marine ecosystems.",
+  "exvi": "Rác thải nhựa đang gây tổn hại nghiêm trọng cho các hệ sinh thái biển.",
+  "col": [
+   "a fragile ecosystem",
+   "marine ecosystems",
+   "disrupt the ecosystem"
+  ],
+  "fam": "ecology (n), ecological (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "pollutant",
+  "ipa": "/pəˈluːtənt/",
+  "pos": "n",
+  "vi": "chất gây ô nhiễm",
+  "ex": "Factories that release harmful pollutants into rivers should face heavy penalties.",
+  "exvi": "Các nhà máy xả chất gây ô nhiễm độc hại ra sông nên bị phạt nặng.",
+  "col": [
+   "harmful pollutants",
+   "release pollutants",
+   "airborne pollutants"
+  ],
+  "fam": "pollute (v), pollution (n), polluter (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "landfill",
+  "ipa": "/ˈlændfɪl/",
+  "pos": "n",
+  "vi": "bãi chôn lấp rác",
+  "ex": "Most household waste still ends up in landfill rather than being recycled.",
+  "exvi": "Phần lớn rác thải sinh hoạt vẫn bị đưa đến bãi chôn lấp thay vì được tái chế.",
+  "col": [
+   "end up in landfill",
+   "landfill sites",
+   "divert waste from landfill"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "single-use plastics",
+  "ipa": "/ˌsɪŋɡl juːs ˈplæstɪks/",
+  "pos": "n",
+  "vi": "đồ nhựa dùng một lần",
+  "ex": "Several countries have banned single-use plastics such as straws and carrier bags.",
+  "exvi": "Một số quốc gia đã cấm đồ nhựa dùng một lần như ống hút và túi nilon.",
+  "col": [
+   "ban single-use plastics",
+   "cut down on single-use plastics"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "carbon neutral",
+  "ipa": "/ˌkɑːbən ˈnjuːtrəl/",
+  "pos": "adj",
+  "vi": "trung hoà carbon",
+  "ex": "The company has pledged to become carbon neutral by 2035.",
+  "exvi": "Công ty đã cam kết đạt mức trung hoà carbon vào năm 2035.",
+  "col": [
+   "become carbon neutral",
+   "carbon neutral by 2050"
+  ],
+  "fam": "carbon neutrality (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "desertification",
+  "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
+  "pos": "n",
+  "vi": "sa mạc hoá",
+  "ex": "Overgrazing and drought have accelerated desertification in parts of Africa.",
+  "exvi": "Chăn thả quá mức và hạn hán đã đẩy nhanh quá trình sa mạc hoá ở nhiều vùng châu Phi.",
+  "col": [
+   "combat desertification",
+   "the spread of desertification"
+  ],
+  "fam": "desert (n), desertify (v)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "resource depletion",
+  "ipa": "/rɪˈzɔːs dɪˌpliːʃn/",
+  "pos": "n",
+  "vi": "sự cạn kiệt tài nguyên",
+  "ex": "Rapid industrialisation has led to resource depletion and serious water shortages.",
+  "exvi": "Công nghiệp hoá nhanh đã dẫn đến cạn kiệt tài nguyên và thiếu nước nghiêm trọng.",
+  "col": [
+   "prevent resource depletion",
+   "the depletion of natural resources"
+  ],
+  "fam": "deplete (v), depleted (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "conservation",
+  "ipa": "/ˌkɒnsəˈveɪʃn/",
+  "pos": "n",
+  "vi": "sự bảo tồn",
+  "ex": "Wildlife conservation projects rely heavily on funding from tourism.",
+  "exvi": "Các dự án bảo tồn động vật hoang dã phụ thuộc nhiều vào nguồn thu từ du lịch.",
+  "col": [
+   "wildlife conservation",
+   "conservation efforts",
+   "energy conservation"
+  ],
+  "fam": "conserve (v), conservationist (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "overfishing",
+  "ipa": "/ˌəʊvəˈfɪʃɪŋ/",
+  "pos": "n",
+  "vi": "đánh bắt cá quá mức",
+  "ex": "Overfishing has caused fish stocks in some areas to collapse completely.",
+  "exvi": "Đánh bắt quá mức đã khiến trữ lượng cá ở một số vùng sụt giảm hoàn toàn.",
+  "col": [
+   "tackle overfishing",
+   "the effects of overfishing"
+  ],
+  "fam": "overfish (v)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "irreversible",
+  "ipa": "/ˌɪrɪˈvɜːsəbl/",
+  "pos": "adj",
+  "vi": "không thể đảo ngược",
+  "ex": "Scientists warn that some of the damage to coral reefs may already be irreversible.",
+  "exvi": "Các nhà khoa học cảnh báo một phần thiệt hại với rạn san hô có thể đã không thể đảo ngược.",
+  "col": [
+   "irreversible damage",
+   "irreversible consequences"
+  ],
+  "fam": "reverse (v), irreversibly (adv)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "detrimental",
+  "ipa": "/ˌdetrɪˈmentl/",
+  "pos": "adj",
+  "vi": "có hại, gây tổn hại",
+  "ex": "Excessive use of chemical fertilisers is detrimental to soil quality.",
+  "exvi": "Lạm dụng phân bón hoá học gây hại cho chất lượng đất.",
+  "col": [
+   "detrimental to",
+   "a detrimental effect",
+   "detrimental impact"
+  ],
+  "fam": "detriment (n), detrimentally (adv)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "eco-friendly",
+  "ipa": "/ˌiːkəʊ ˈfrendli/",
+  "pos": "adj",
+  "vi": "thân thiện với môi trường",
+  "ex": "Consumers are increasingly willing to pay more for eco-friendly products.",
+  "exvi": "Người tiêu dùng ngày càng sẵn lòng trả nhiều tiền hơn cho sản phẩm thân thiện với môi trường.",
+  "col": [
+   "eco-friendly products",
+   "eco-friendly alternatives"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "extreme weather events",
+  "ipa": "/ɪkˌstriːm ˈweðər ɪˌvents/",
+  "pos": "n",
+  "vi": "hiện tượng thời tiết cực đoan",
+  "ex": "Extreme weather events such as floods and heatwaves are becoming more frequent.",
+  "exvi": "Các hiện tượng thời tiết cực đoan như lũ lụt và nắng nóng đang ngày càng thường xuyên.",
+  "col": [
+   "more frequent extreme weather events",
+   "cope with extreme weather events"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "rising sea levels",
+  "ipa": "/ˌraɪzɪŋ ˈsiː levlz/",
+  "pos": "n",
+  "vi": "mực nước biển dâng",
+  "ex": "Rising sea levels pose a serious threat to low-lying regions such as the Mekong Delta.",
+  "exvi": "Mực nước biển dâng là mối đe doạ nghiêm trọng với các vùng trũng như Đồng bằng sông Cửu Long.",
+  "col": [
+   "the threat of rising sea levels",
+   "due to rising sea levels"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "environmental degradation",
+  "ipa": "/ɪnˌvaɪrənˌmentl ˌdeɡrəˈdeɪʃn/",
+  "pos": "n",
+  "vi": "sự suy thoái môi trường",
+  "ex": "Unregulated mining has caused severe environmental degradation in the region.",
+  "exvi": "Khai thác mỏ không được kiểm soát đã gây suy thoái môi trường nghiêm trọng trong khu vực.",
+  "col": [
+   "cause environmental degradation",
+   "prevent environmental degradation"
+  ],
+  "fam": "degrade (v), degrading (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "carbon tax",
+  "ipa": "/ˈkɑːbən tæks/",
+  "pos": "n",
+  "vi": "thuế carbon",
+  "ex": "A carbon tax would make polluters pay for the environmental damage they cause.",
+  "exvi": "Thuế carbon sẽ buộc các bên gây ô nhiễm trả tiền cho thiệt hại môi trường mà họ gây ra.",
+  "col": [
+   "introduce a carbon tax",
+   "impose a carbon tax"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "biodegradable",
+  "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+  "pos": "adj",
+  "vi": "có thể phân huỷ sinh học",
+  "ex": "Supermarkets are switching to biodegradable packaging made from plant fibres.",
+  "exvi": "Các siêu thị đang chuyển sang bao bì phân huỷ sinh học làm từ sợi thực vật.",
+  "col": [
+   "biodegradable packaging",
+   "biodegradable materials"
+  ],
+  "fam": "biodegrade (v), non-biodegradable (adj)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "circular economy",
+  "ipa": "/ˌsɜːkjələr ɪˈkɒnəmi/",
+  "pos": "n",
+  "vi": "kinh tế tuần hoàn",
+  "ex": "In a circular economy, products are designed to be repaired, reused and recycled.",
+  "exvi": "Trong nền kinh tế tuần hoàn, sản phẩm được thiết kế để sửa chữa, tái sử dụng và tái chế.",
+  "col": [
+   "move towards a circular economy",
+   "circular economy principles"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "reforestation",
+  "ipa": "/ˌriːfɒrɪˈsteɪʃn/",
+  "pos": "n",
+  "vi": "tái trồng rừng",
+  "ex": "Reforestation projects can help to prevent soil erosion and absorb carbon dioxide.",
+  "exvi": "Các dự án tái trồng rừng giúp chống xói mòn đất và hấp thụ khí CO2.",
+  "col": [
+   "reforestation projects",
+   "large-scale reforestation"
+  ],
+  "fam": "reforest (v)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "mitigate",
+  "ipa": "/ˈmɪtɪɡeɪt/",
+  "pos": "v",
+  "vi": "giảm nhẹ, làm dịu bớt (tác hại)",
+  "ex": "Planting trees in cities can mitigate the effects of extreme heat.",
+  "exvi": "Trồng cây trong thành phố có thể giảm nhẹ tác động của nắng nóng cực đoan.",
+  "col": [
+   "mitigate the effects of",
+   "mitigate climate change",
+   "mitigate the risk"
+  ],
+  "fam": "mitigation (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "environmentally conscious",
+  "ipa": "/ɪnˌvaɪrənˌmentəli ˈkɒnʃəs/",
+  "pos": "adj",
+  "vi": "có ý thức bảo vệ môi trường",
+  "ex": "Younger generations tend to be more environmentally conscious than their parents.",
+  "exvi": "Thế hệ trẻ thường có ý thức bảo vệ môi trường hơn cha mẹ họ.",
+  "col": [
+   "environmentally conscious consumers",
+   "become more environmentally conscious"
+  ],
+  "fam": "consciousness (n), environment (n)",
+  "em": "",
+  "topic": "Environment",
+  "lv": 4
+ },
+ {
+  "w": "artificial intelligence",
+  "ipa": "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/",
+  "pos": "n",
+  "vi": "trí tuệ nhân tạo",
+  "ex": "Artificial intelligence is already transforming how doctors diagnose certain diseases.",
+  "exvi": "Trí tuệ nhân tạo đang thay đổi cách bác sĩ chẩn đoán một số bệnh.",
+  "col": [
+   "advances in artificial intelligence",
+   "harness artificial intelligence"
+  ],
+  "fam": "artificially (adv), intelligent (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "automation",
+  "ipa": "/ˌɔːtəˈmeɪʃn/",
+  "pos": "n",
+  "vi": "tự động hoá",
+  "ex": "Automation could replace millions of repetitive jobs in manufacturing.",
+  "exvi": "Tự động hoá có thể thay thế hàng triệu công việc lặp đi lặp lại trong sản xuất.",
+  "col": [
+   "the rise of automation",
+   "job losses due to automation"
+  ],
+  "fam": "automate (v), automated (adj), automatic (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "digital literacy",
+  "ipa": "/ˌdɪdʒɪtl ˈlɪtərəsi/",
+  "pos": "n",
+  "vi": "năng lực số, khả năng sử dụng công nghệ số",
+  "ex": "Digital literacy is now as important for older adults as reading and writing.",
+  "exvi": "Năng lực số giờ đây quan trọng với người lớn tuổi không kém việc đọc và viết.",
+  "col": [
+   "improve digital literacy",
+   "digital literacy skills"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "digital divide",
+  "ipa": "/ˌdɪdʒɪtl dɪˈvaɪd/",
+  "pos": "n",
+  "vi": "khoảng cách số (giữa người có và không có điều kiện tiếp cận công nghệ)",
+  "ex": "The pandemic exposed the digital divide between urban and rural students.",
+  "exvi": "Đại dịch đã phơi bày khoảng cách số giữa học sinh thành thị và nông thôn.",
+  "col": [
+   "bridge the digital divide",
+   "widen the digital divide"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "cybersecurity",
+  "ipa": "/ˌsaɪbəsɪˈkjʊərəti/",
+  "pos": "n",
+  "vi": "an ninh mạng",
+  "ex": "Banks are spending billions on cybersecurity to protect customer data.",
+  "exvi": "Các ngân hàng chi hàng tỉ đô cho an ninh mạng để bảo vệ dữ liệu khách hàng.",
+  "col": [
+   "strengthen cybersecurity",
+   "cybersecurity threats"
+  ],
+  "fam": "cyber (adj), secure (adj, v)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "data privacy",
+  "ipa": "/ˈdeɪtə ˌprɪvəsi/",
+  "pos": "n",
+  "vi": "quyền riêng tư dữ liệu",
+  "ex": "Many users are unaware of how little data privacy they have on social media platforms.",
+  "exvi": "Nhiều người dùng không biết quyền riêng tư dữ liệu của họ trên mạng xã hội ít đến mức nào.",
+  "col": [
+   "protect data privacy",
+   "data privacy laws",
+   "concerns over data privacy"
+  ],
+  "fam": "private (adj), privately (adv)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "obsolete",
+  "ipa": "/ˈɒbsəliːt/",
+  "pos": "adj",
+  "vi": "lỗi thời, không còn được dùng",
+  "ex": "Many traditional skills have become obsolete because of technological change.",
+  "exvi": "Nhiều kỹ năng truyền thống đã trở nên lỗi thời vì sự thay đổi công nghệ.",
+  "col": [
+   "become obsolete",
+   "render something obsolete"
+  ],
+  "fam": "obsolescence (n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "cutting-edge",
+  "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+  "pos": "adj",
+  "vi": "tiên tiến nhất, hiện đại nhất",
+  "ex": "The hospital has invested in cutting-edge equipment for cancer treatment.",
+  "exvi": "Bệnh viện đã đầu tư thiết bị tiên tiến nhất cho điều trị ung thư.",
+  "col": [
+   "cutting-edge technology",
+   "at the cutting edge of"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "technological breakthrough",
+  "ipa": "/ˌteknəˌlɒdʒɪkl ˈbreɪkθruː/",
+  "pos": "n",
+  "vi": "bước đột phá công nghệ",
+  "ex": "A technological breakthrough in battery storage could make solar power far more reliable.",
+  "exvi": "Một bước đột phá công nghệ về lưu trữ pin có thể giúp điện mặt trời ổn định hơn nhiều.",
+  "col": [
+   "a major technological breakthrough",
+   "achieve a breakthrough"
+  ],
+  "fam": "technology (n), technologically (adv)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "algorithm",
+  "ipa": "/ˈælɡərɪðəm/",
+  "pos": "n",
+  "vi": "thuật toán",
+  "ex": "Social media algorithms tend to show users content that confirms their existing views.",
+  "exvi": "Thuật toán mạng xã hội thường hiển thị nội dung củng cố quan điểm sẵn có của người dùng.",
+  "col": [
+   "a complex algorithm",
+   "algorithms recommend content"
+  ],
+  "fam": "algorithmic (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "user-friendly",
+  "ipa": "/ˌjuːzə ˈfrendli/",
+  "pos": "adj",
+  "vi": "dễ sử dụng, thân thiện với người dùng",
+  "ex": "Government websites should be more user-friendly for elderly citizens.",
+  "exvi": "Các trang web chính phủ nên dễ sử dụng hơn với người cao tuổi.",
+  "col": [
+   "a user-friendly interface",
+   "make something more user-friendly"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "screen time",
+  "ipa": "/ˈskriːn taɪm/",
+  "pos": "n",
+  "vi": "thời gian sử dụng thiết bị có màn hình",
+  "ex": "Paediatricians recommend limiting young children's screen time to one hour a day.",
+  "exvi": "Bác sĩ nhi khuyến nghị giới hạn thời gian dùng màn hình của trẻ nhỏ ở mức một giờ mỗi ngày.",
+  "col": [
+   "limit screen time",
+   "excessive screen time"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "tech-savvy",
+  "ipa": "/ˈtek sævi/",
+  "pos": "adj",
+  "vi": "thành thạo công nghệ",
+  "ex": "Tech-savvy teenagers often help their grandparents set up smartphones.",
+  "exvi": "Các thiếu niên thành thạo công nghệ thường giúp ông bà cài đặt điện thoại thông minh.",
+  "col": [
+   "tech-savvy generation",
+   "increasingly tech-savvy"
+  ],
+  "fam": "savvy (n, adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "disruptive technology",
+  "ipa": "/dɪsˌrʌptɪv tekˈnɒlədʒi/",
+  "pos": "n",
+  "vi": "công nghệ đột phá (làm thay đổi cả một ngành)",
+  "ex": "Ride-hailing apps are a classic example of disruptive technology in the taxi industry.",
+  "exvi": "Ứng dụng gọi xe là ví dụ điển hình về công nghệ đột phá trong ngành taxi.",
+  "col": [
+   "a disruptive technology",
+   "the impact of disruptive technologies"
+  ],
+  "fam": "disrupt (v), disruption (n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "information overload",
+  "ipa": "/ˌɪnfəˌmeɪʃn ˈəʊvələʊd/",
+  "pos": "n",
+  "vi": "quá tải thông tin",
+  "ex": "Constant notifications can lead to information overload and poor concentration.",
+  "exvi": "Thông báo liên tục có thể gây quá tải thông tin và giảm khả năng tập trung.",
+  "col": [
+   "suffer from information overload",
+   "cope with information overload"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "online anonymity",
+  "ipa": "/ˌɒnlaɪn ˌænəˈnɪməti/",
+  "pos": "n",
+  "vi": "tính ẩn danh trên mạng",
+  "ex": "Online anonymity encourages some people to post abusive comments they would never say in person.",
+  "exvi": "Tính ẩn danh trên mạng khiến một số người đăng bình luận xúc phạm mà họ sẽ không bao giờ nói trực tiếp.",
+  "col": [
+   "the problem of online anonymity",
+   "hide behind online anonymity"
+  ],
+  "fam": "anonymous (adj), anonymously (adv)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "cyberbullying",
+  "ipa": "/ˈsaɪbəbʊliɪŋ/",
+  "pos": "n",
+  "vi": "bắt nạt trên mạng",
+  "ex": "Schools need clear policies to deal with cyberbullying among pupils.",
+  "exvi": "Trường học cần chính sách rõ ràng để xử lý bắt nạt trên mạng giữa học sinh.",
+  "col": [
+   "victims of cyberbullying",
+   "tackle cyberbullying"
+  ],
+  "fam": "cyberbully (n, v)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "intrusive",
+  "ipa": "/ɪnˈtruːsɪv/",
+  "pos": "adj",
+  "vi": "xâm phạm, gây phiền phức (đời tư)",
+  "ex": "Many people find targeted advertising based on their browsing history intrusive.",
+  "exvi": "Nhiều người thấy quảng cáo nhắm mục tiêu dựa trên lịch sử duyệt web là xâm phạm đời tư.",
+  "col": [
+   "intrusive questions",
+   "highly intrusive"
+  ],
+  "fam": "intrude (v), intrusion (n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "wearable technology",
+  "ipa": "/ˌweərəbl tekˈnɒlədʒi/",
+  "pos": "n",
+  "vi": "công nghệ đeo được (đồng hồ, vòng tay thông minh)",
+  "ex": "Wearable technology allows people to track their heart rate and sleep patterns.",
+  "exvi": "Công nghệ đeo được cho phép người dùng theo dõi nhịp tim và giấc ngủ.",
+  "col": [
+   "wearable technology devices",
+   "the popularity of wearable technology"
+  ],
+  "fam": "wearable (adj, n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "virtual reality",
+  "ipa": "/ˌvɜːtʃuəl riˈæləti/",
+  "pos": "n",
+  "vi": "thực tế ảo",
+  "ex": "Medical students can now practise surgery using virtual reality simulations.",
+  "exvi": "Sinh viên y giờ có thể thực hành phẫu thuật bằng mô phỏng thực tế ảo.",
+  "col": [
+   "virtual reality headset",
+   "immersive virtual reality"
+  ],
+  "fam": "virtual (adj), virtually (adv)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "cloud computing",
+  "ipa": "/ˈklaʊd kəmˌpjuːtɪŋ/",
+  "pos": "n",
+  "vi": "điện toán đám mây",
+  "ex": "Cloud computing has made it cheaper for small businesses to store and share data.",
+  "exvi": "Điện toán đám mây giúp doanh nghiệp nhỏ lưu trữ và chia sẻ dữ liệu rẻ hơn.",
+  "col": [
+   "cloud computing services",
+   "switch to cloud computing"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "streamline",
+  "ipa": "/ˈstriːmlaɪn/",
+  "pos": "v",
+  "vi": "tinh giản, hợp lý hoá (quy trình)",
+  "ex": "Online systems have streamlined the process of applying for a passport.",
+  "exvi": "Hệ thống trực tuyến đã tinh giản thủ tục xin cấp hộ chiếu.",
+  "col": [
+   "streamline the process",
+   "streamline operations"
+  ],
+  "fam": "streamlined (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "over-reliance",
+  "ipa": "/ˌəʊvə rɪˈlaɪəns/",
+  "pos": "n",
+  "vi": "sự phụ thuộc quá mức",
+  "ex": "An over-reliance on calculators may weaken students' mental arithmetic.",
+  "exvi": "Phụ thuộc quá mức vào máy tính có thể làm yếu khả năng tính nhẩm của học sinh.",
+  "col": [
+   "over-reliance on technology",
+   "reduce over-reliance"
+  ],
+  "fam": "rely (v), reliant (adj), over-reliant (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "big data",
+  "ipa": "/ˌbɪɡ ˈdeɪtə/",
+  "pos": "n",
+  "vi": "dữ liệu lớn",
+  "ex": "Retailers use big data to predict what customers are likely to buy next.",
+  "exvi": "Các nhà bán lẻ dùng dữ liệu lớn để dự đoán khách hàng sẽ mua gì tiếp theo.",
+  "col": [
+   "analyse big data",
+   "big data analytics"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "machine learning",
+  "ipa": "/məˈʃiːn ˌlɜːnɪŋ/",
+  "pos": "n",
+  "vi": "học máy",
+  "ex": "Machine learning enables software to improve its performance without being explicitly programmed.",
+  "exvi": "Học máy giúp phần mềm tự cải thiện hiệu suất mà không cần được lập trình cụ thể.",
+  "col": [
+   "machine learning models",
+   "apply machine learning"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "data breach",
+  "ipa": "/ˈdeɪtə briːtʃ/",
+  "pos": "n",
+  "vi": "vụ rò rỉ dữ liệu",
+  "ex": "A single data breach can expose the personal details of millions of customers.",
+  "exvi": "Chỉ một vụ rò rỉ dữ liệu có thể làm lộ thông tin cá nhân của hàng triệu khách hàng.",
+  "col": [
+   "suffer a data breach",
+   "a massive data breach"
+  ],
+  "fam": "breach (v)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "connectivity",
+  "ipa": "/ˌkɒnekˈtɪvəti/",
+  "pos": "n",
+  "vi": "khả năng kết nối (mạng)",
+  "ex": "Poor internet connectivity remains a barrier to online learning in mountainous areas.",
+  "exvi": "Kết nối internet kém vẫn là rào cản cho việc học trực tuyến ở vùng núi.",
+  "col": [
+   "internet connectivity",
+   "improve connectivity"
+  ],
+  "fam": "connect (v), connected (adj), connection (n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "emerging technologies",
+  "ipa": "/ɪˌmɜːdʒɪŋ tekˈnɒlədʒiz/",
+  "pos": "n",
+  "vi": "công nghệ mới nổi",
+  "ex": "Governments struggle to regulate emerging technologies such as drones and gene editing.",
+  "exvi": "Chính phủ gặp khó khăn trong việc quản lý các công nghệ mới nổi như drone và chỉnh sửa gen.",
+  "col": [
+   "regulate emerging technologies",
+   "invest in emerging technologies"
+  ],
+  "fam": "emerge (v), emergence (n)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "labour-saving device",
+  "ipa": "/ˈleɪbə ˌseɪvɪŋ dɪˌvaɪs/",
+  "pos": "n",
+  "vi": "thiết bị giúp tiết kiệm sức lao động",
+  "ex": "Labour-saving devices like washing machines freed women to enter the workforce.",
+  "exvi": "Các thiết bị tiết kiệm sức lao động như máy giặt đã giúp phụ nữ có thời gian tham gia thị trường lao động.",
+  "col": [
+   "household labour-saving devices",
+   "modern labour-saving devices"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "technophobe",
+  "ipa": "/ˈteknəfəʊb/",
+  "pos": "n",
+  "vi": "người sợ hoặc ngại dùng công nghệ",
+  "ex": "My grandfather is a self-confessed technophobe who still refuses to use online banking.",
+  "exvi": "Ông tôi tự nhận là người ngại công nghệ và vẫn không chịu dùng ngân hàng trực tuyến.",
+  "col": [
+   "a self-confessed technophobe",
+   "technophobes and early adopters"
+  ],
+  "fam": "technophobia (n), technophobic (adj)",
+  "em": "",
+  "topic": "Technology",
+  "lv": 4
+ },
+ {
+  "w": "sedentary lifestyle",
+  "ipa": "/ˌsedntri ˈlaɪfstaɪl/",
+  "pos": "n",
+  "vi": "lối sống ít vận động",
+  "ex": "Office workers who lead a sedentary lifestyle face a higher risk of heart disease.",
+  "exvi": "Nhân viên văn phòng có lối sống ít vận động có nguy cơ mắc bệnh tim cao hơn.",
+  "col": [
+   "lead a sedentary lifestyle",
+   "the dangers of a sedentary lifestyle"
+  ],
+  "fam": "sedentary (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "obesity",
+  "ipa": "/əʊˈbiːsəti/",
+  "pos": "n",
+  "vi": "bệnh béo phì",
+  "ex": "Childhood obesity has doubled in many countries over the past two decades.",
+  "exvi": "Tỉ lệ béo phì ở trẻ em đã tăng gấp đôi ở nhiều nước trong hai thập kỷ qua.",
+  "col": [
+   "childhood obesity",
+   "tackle obesity",
+   "obesity rates"
+  ],
+  "fam": "obese (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "balanced diet",
+  "ipa": "/ˌbælənst ˈdaɪət/",
+  "pos": "n",
+  "vi": "chế độ ăn cân bằng",
+  "ex": "A balanced diet rich in vegetables can prevent many common illnesses.",
+  "exvi": "Một chế độ ăn cân bằng, nhiều rau có thể ngăn ngừa nhiều bệnh thông thường.",
+  "col": [
+   "maintain a balanced diet",
+   "eat a balanced diet"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "chronic disease",
+  "ipa": "/ˌkrɒnɪk dɪˈziːz/",
+  "pos": "n",
+  "vi": "bệnh mãn tính",
+  "ex": "Chronic diseases such as diabetes place a heavy burden on healthcare systems.",
+  "exvi": "Các bệnh mãn tính như tiểu đường đặt gánh nặng lớn lên hệ thống y tế.",
+  "col": [
+   "suffer from a chronic disease",
+   "manage chronic diseases"
+  ],
+  "fam": "chronic (adj), chronically (adv)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "life expectancy",
+  "ipa": "/ˈlaɪf ɪkˌspektənsi/",
+  "pos": "n",
+  "vi": "tuổi thọ trung bình",
+  "ex": "Life expectancy has risen steadily thanks to better sanitation and medical care.",
+  "exvi": "Tuổi thọ trung bình đã tăng đều nhờ vệ sinh và chăm sóc y tế tốt hơn.",
+  "col": [
+   "average life expectancy",
+   "increase life expectancy"
+  ],
+  "fam": "expect (v), expectancy (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "preventive medicine",
+  "ipa": "/prɪˌventɪv ˈmedsn/",
+  "pos": "n",
+  "vi": "y học dự phòng",
+  "ex": "Investing in preventive medicine is cheaper than treating diseases once they develop.",
+  "exvi": "Đầu tư vào y học dự phòng rẻ hơn so với chữa bệnh khi bệnh đã phát triển.",
+  "col": [
+   "focus on preventive medicine",
+   "preventive measures"
+  ],
+  "fam": "prevent (v), prevention (n), preventable (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "mental well-being",
+  "ipa": "/ˌmentl ˈwel biːɪŋ/",
+  "pos": "n",
+  "vi": "sức khoẻ tinh thần",
+  "ex": "Spending time in green spaces has a positive effect on mental well-being.",
+  "exvi": "Dành thời gian ở không gian xanh có tác động tích cực đến sức khoẻ tinh thần.",
+  "col": [
+   "improve mental well-being",
+   "promote mental well-being"
+  ],
+  "fam": "mental (adj), mentally (adv)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "malnutrition",
+  "ipa": "/ˌmælnjuˈtrɪʃn/",
+  "pos": "n",
+  "vi": "suy dinh dưỡng",
+  "ex": "Malnutrition in early childhood can permanently affect brain development.",
+  "exvi": "Suy dinh dưỡng ở trẻ nhỏ có thể ảnh hưởng vĩnh viễn đến sự phát triển của não.",
+  "col": [
+   "suffer from malnutrition",
+   "severe malnutrition"
+  ],
+  "fam": "malnourished (adj), nutrition (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "processed food",
+  "ipa": "/ˌprəʊsest ˈfuːd/",
+  "pos": "n",
+  "vi": "thực phẩm chế biến sẵn",
+  "ex": "Processed food is often high in salt, sugar and unhealthy fats.",
+  "exvi": "Thực phẩm chế biến sẵn thường chứa nhiều muối, đường và chất béo không lành mạnh.",
+  "col": [
+   "highly processed food",
+   "cut down on processed food"
+  ],
+  "fam": "process (v)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "public health campaign",
+  "ipa": "/ˌpʌblɪk ˈhelθ kæmˌpeɪn/",
+  "pos": "n",
+  "vi": "chiến dịch y tế cộng đồng",
+  "ex": "A public health campaign helped to reduce smoking rates among young adults.",
+  "exvi": "Một chiến dịch y tế cộng đồng đã giúp giảm tỉ lệ hút thuốc ở người trẻ.",
+  "col": [
+   "launch a public health campaign",
+   "a nationwide public health campaign"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "epidemic",
+  "ipa": "/ˌepɪˈdemɪk/",
+  "pos": "n",
+  "vi": "dịch bệnh (lan rộng trong một khu vực)",
+  "ex": "Some experts describe the rise in type 2 diabetes as a silent epidemic.",
+  "exvi": "Một số chuyên gia gọi sự gia tăng tiểu đường tuýp 2 là một đại dịch thầm lặng.",
+  "col": [
+   "an obesity epidemic",
+   "the outbreak of an epidemic"
+  ],
+  "fam": "epidemic (adj), epidemiology (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "vaccination",
+  "ipa": "/ˌvæksɪˈneɪʃn/",
+  "pos": "n",
+  "vi": "việc tiêm chủng",
+  "ex": "Mass vaccination programmes have almost eliminated diseases like polio.",
+  "exvi": "Các chương trình tiêm chủng đại trà gần như đã xoá sổ những bệnh như bại liệt.",
+  "col": [
+   "a vaccination programme",
+   "compulsory vaccination"
+  ],
+  "fam": "vaccinate (v), vaccine (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "immune system",
+  "ipa": "/ɪˈmjuːn ˌsɪstəm/",
+  "pos": "n",
+  "vi": "hệ miễn dịch",
+  "ex": "Regular exercise and sufficient sleep help to strengthen the immune system.",
+  "exvi": "Tập thể dục đều đặn và ngủ đủ giúp tăng cường hệ miễn dịch.",
+  "col": [
+   "boost the immune system",
+   "a weakened immune system"
+  ],
+  "fam": "immune (adj), immunity (n), immunise (v)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "side effects",
+  "ipa": "/ˈsaɪd ɪˌfekts/",
+  "pos": "n",
+  "vi": "tác dụng phụ",
+  "ex": "Patients should be fully informed about the possible side effects of any medication.",
+  "exvi": "Bệnh nhân cần được thông báo đầy đủ về tác dụng phụ có thể có của bất kỳ loại thuốc nào.",
+  "col": [
+   "serious side effects",
+   "suffer side effects"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "over-the-counter",
+  "ipa": "/ˌəʊvə ðə ˈkaʊntə/",
+  "pos": "adj",
+  "vi": "(thuốc) bán không cần đơn",
+  "ex": "Over-the-counter painkillers can be dangerous if taken in large doses.",
+  "exvi": "Thuốc giảm đau không cần kê đơn có thể nguy hiểm nếu uống liều cao.",
+  "col": [
+   "over-the-counter medicine",
+   "available over the counter"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "alternative medicine",
+  "ipa": "/ɔːlˌtɜːnətɪv ˈmedsn/",
+  "pos": "n",
+  "vi": "y học thay thế (đông y, châm cứu...)",
+  "ex": "Many people turn to alternative medicine when conventional treatment fails.",
+  "exvi": "Nhiều người tìm đến y học thay thế khi điều trị thông thường không hiệu quả.",
+  "col": [
+   "practise alternative medicine",
+   "alternative medicine practitioners"
+  ],
+  "fam": "alternative (n, adj), alternatively (adv)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "sleep deprivation",
+  "ipa": "/ˈsliːp ˌdeprɪˌveɪʃn/",
+  "pos": "n",
+  "vi": "tình trạng thiếu ngủ",
+  "ex": "Chronic sleep deprivation affects memory, mood and decision-making.",
+  "exvi": "Thiếu ngủ kéo dài ảnh hưởng đến trí nhớ, tâm trạng và khả năng ra quyết định.",
+  "col": [
+   "suffer from sleep deprivation",
+   "the effects of sleep deprivation"
+  ],
+  "fam": "deprive (v), sleep-deprived (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "nutritious",
+  "ipa": "/njuˈtrɪʃəs/",
+  "pos": "adj",
+  "vi": "bổ dưỡng",
+  "ex": "Schools should provide nutritious lunches rather than fried snacks.",
+  "exvi": "Trường học nên cung cấp bữa trưa bổ dưỡng thay vì đồ chiên rán.",
+  "col": [
+   "nutritious food",
+   "a nutritious meal"
+  ],
+  "fam": "nutrition (n), nutrient (n), nutritional (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "calorie intake",
+  "ipa": "/ˈkæləri ˌɪnteɪk/",
+  "pos": "n",
+  "vi": "lượng calo nạp vào",
+  "ex": "Sugary drinks account for a large proportion of teenagers' daily calorie intake.",
+  "exvi": "Đồ uống có đường chiếm phần lớn lượng calo nạp vào mỗi ngày của thiếu niên.",
+  "col": [
+   "reduce calorie intake",
+   "daily calorie intake"
+  ],
+  "fam": "calorific (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "hereditary",
+  "ipa": "/həˈredɪtri/",
+  "pos": "adj",
+  "vi": "di truyền",
+  "ex": "Some forms of heart disease are hereditary, but lifestyle still plays a major role.",
+  "exvi": "Một số dạng bệnh tim có tính di truyền, nhưng lối sống vẫn đóng vai trò lớn.",
+  "col": [
+   "a hereditary condition",
+   "hereditary factors"
+  ],
+  "fam": "heredity (n), heir (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "contagious",
+  "ipa": "/kənˈteɪdʒəs/",
+  "pos": "adj",
+  "vi": "dễ lây lan, truyền nhiễm",
+  "ex": "Measles is highly contagious, so even a few unvaccinated children can trigger an outbreak.",
+  "exvi": "Bệnh sởi rất dễ lây, nên chỉ vài trẻ chưa tiêm chủng cũng có thể gây bùng dịch.",
+  "col": [
+   "highly contagious",
+   "a contagious disease"
+  ],
+  "fam": "contagion (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "outbreak",
+  "ipa": "/ˈaʊtbreɪk/",
+  "pos": "n",
+  "vi": "sự bùng phát (dịch bệnh)",
+  "ex": "Health authorities acted quickly to contain the outbreak of cholera.",
+  "exvi": "Cơ quan y tế đã hành động nhanh để khống chế đợt bùng phát dịch tả.",
+  "col": [
+   "contain an outbreak",
+   "a sudden outbreak"
+  ],
+  "fam": "break out (v)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "health insurance",
+  "ipa": "/ˈhelθ ɪnˌʃʊərəns/",
+  "pos": "n",
+  "vi": "bảo hiểm y tế",
+  "ex": "Without health insurance, many families cannot afford serious medical treatment.",
+  "exvi": "Không có bảo hiểm y tế, nhiều gia đình không đủ khả năng chi trả điều trị bệnh nặng.",
+  "col": [
+   "take out health insurance",
+   "universal health insurance"
+  ],
+  "fam": "insure (v), insurer (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "substance abuse",
+  "ipa": "/ˈsʌbstəns əˌbjuːs/",
+  "pos": "n",
+  "vi": "lạm dụng chất kích thích (rượu, ma tuý)",
+  "ex": "Substance abuse among teenagers is often linked to stress and peer pressure.",
+  "exvi": "Lạm dụng chất kích thích ở thiếu niên thường liên quan đến căng thẳng và áp lực bạn bè.",
+  "col": [
+   "prevent substance abuse",
+   "substance abuse treatment"
+  ],
+  "fam": "abuse (v), abuser (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "fitness regime",
+  "ipa": "/ˈfɪtnəs reɪˌʒiːm/",
+  "pos": "n",
+  "vi": "chế độ tập luyện",
+  "ex": "Sticking to a fitness regime is easier if you exercise with friends.",
+  "exvi": "Duy trì chế độ tập luyện sẽ dễ hơn nếu bạn tập cùng bạn bè.",
+  "col": [
+   "follow a fitness regime",
+   "a strict fitness regime"
+  ],
+  "fam": "fit (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "underlying condition",
+  "ipa": "/ˌʌndəˌlaɪɪŋ kənˈdɪʃn/",
+  "pos": "n",
+  "vi": "bệnh nền",
+  "ex": "Elderly people with underlying conditions are most vulnerable to the virus.",
+  "exvi": "Người cao tuổi có bệnh nền dễ bị tổn thương nhất trước virus.",
+  "col": [
+   "patients with underlying conditions",
+   "a serious underlying condition"
+  ],
+  "fam": "underlie (v)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "diagnosis",
+  "ipa": "/ˌdaɪəɡˈnəʊsɪs/",
+  "pos": "n",
+  "vi": "sự chẩn đoán",
+  "ex": "Early diagnosis greatly increases the chances of surviving cancer.",
+  "exvi": "Chẩn đoán sớm làm tăng đáng kể cơ hội sống sót khi mắc ung thư.",
+  "col": [
+   "early diagnosis",
+   "make a diagnosis",
+   "misdiagnosis"
+  ],
+  "fam": "diagnose (v), diagnostic (adj)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "debilitating",
+  "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
+  "pos": "adj",
+  "vi": "làm suy nhược, gây kiệt sức",
+  "ex": "Depression can be just as debilitating as many physical illnesses.",
+  "exvi": "Trầm cảm có thể gây suy nhược không kém nhiều bệnh thể chất.",
+  "col": [
+   "a debilitating illness",
+   "debilitating effects"
+  ],
+  "fam": "debilitate (v)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "eradicate",
+  "ipa": "/ɪˈrædɪkeɪt/",
+  "pos": "v",
+  "vi": "xoá sổ, diệt trừ tận gốc",
+  "ex": "Global cooperation made it possible to eradicate smallpox completely.",
+  "exvi": "Hợp tác toàn cầu đã giúp xoá sổ hoàn toàn bệnh đậu mùa.",
+  "col": [
+   "eradicate a disease",
+   "eradicate poverty"
+  ],
+  "fam": "eradication (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "healthcare provision",
+  "ipa": "/ˈhelθkeə prəˌvɪʒn/",
+  "pos": "n",
+  "vi": "việc cung cấp dịch vụ y tế",
+  "ex": "Healthcare provision in rural areas lags far behind that in major cities.",
+  "exvi": "Việc cung cấp dịch vụ y tế ở nông thôn kém xa so với các thành phố lớn.",
+  "col": [
+   "improve healthcare provision",
+   "inadequate healthcare provision"
+  ],
+  "fam": "provide (v), provider (n)",
+  "em": "",
+  "topic": "Health",
+  "lv": 4
+ },
+ {
+  "w": "job satisfaction",
+  "ipa": "/ˈdʒɒb ˌsætɪsˌfækʃn/",
+  "pos": "n",
+  "vi": "sự hài lòng trong công việc",
+  "ex": "For many young people, job satisfaction matters more than a high salary.",
+  "exvi": "Với nhiều người trẻ, sự hài lòng trong công việc quan trọng hơn mức lương cao.",
+  "col": [
+   "a high level of job satisfaction",
+   "derive job satisfaction from"
+  ],
+  "fam": "satisfy (v), satisfying (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "work-life balance",
+  "ipa": "/ˌwɜːk ˈlaɪf ˌbæləns/",
+  "pos": "n",
+  "vi": "sự cân bằng giữa công việc và cuộc sống",
+  "ex": "Flexible hours can help employees achieve a healthier work-life balance.",
+  "exvi": "Giờ làm linh hoạt giúp nhân viên đạt được sự cân bằng công việc và cuộc sống tốt hơn.",
+  "col": [
+   "achieve a work-life balance",
+   "a healthy work-life balance"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "career progression",
+  "ipa": "/kəˈrɪə prəˌɡreʃn/",
+  "pos": "n",
+  "vi": "sự thăng tiến trong sự nghiệp",
+  "ex": "Lack of career progression is one of the main reasons staff leave a company.",
+  "exvi": "Thiếu cơ hội thăng tiến là một trong những lý do chính khiến nhân viên rời công ty.",
+  "col": [
+   "opportunities for career progression",
+   "hinder career progression"
+  ],
+  "fam": "progress (v, n), progressive (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "remote working",
+  "ipa": "/rɪˌməʊt ˈwɜːkɪŋ/",
+  "pos": "n",
+  "vi": "làm việc từ xa",
+  "ex": "Remote working saves commuting time but can leave employees feeling isolated.",
+  "exvi": "Làm việc từ xa tiết kiệm thời gian đi lại nhưng có thể khiến nhân viên cảm thấy cô lập.",
+  "col": [
+   "the shift to remote working",
+   "embrace remote working"
+  ],
+  "fam": "remotely (adv), remote (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "burnout",
+  "ipa": "/ˈbɜːnaʊt/",
+  "pos": "n",
+  "vi": "tình trạng kiệt sức (vì làm việc quá sức)",
+  "ex": "Long hours without proper rest inevitably lead to burnout.",
+  "exvi": "Làm việc nhiều giờ mà không nghỉ ngơi hợp lý chắc chắn dẫn đến kiệt sức.",
+  "col": [
+   "suffer from burnout",
+   "prevent burnout",
+   "signs of burnout"
+  ],
+  "fam": "burn out (v), burnt-out (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "job security",
+  "ipa": "/ˈdʒɒb sɪˌkjʊərəti/",
+  "pos": "n",
+  "vi": "sự ổn định công việc",
+  "ex": "Civil service positions are popular because they offer strong job security.",
+  "exvi": "Các vị trí công chức được ưa chuộng vì mang lại sự ổn định công việc cao.",
+  "col": [
+   "offer job security",
+   "a lack of job security"
+  ],
+  "fam": "secure (adj, v), insecure (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "gig economy",
+  "ipa": "/ˈɡɪɡ ɪˌkɒnəmi/",
+  "pos": "n",
+  "vi": "nền kinh tế việc làm tự do, làm theo từng việc ngắn hạn",
+  "ex": "Delivery drivers in the gig economy often have no sick pay or pension.",
+  "exvi": "Tài xế giao hàng trong nền kinh tế việc làm tự do thường không có lương nghỉ ốm hay lương hưu.",
+  "col": [
+   "work in the gig economy",
+   "the rise of the gig economy"
+  ],
+  "fam": "gig (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "freelance",
+  "ipa": "/ˈfriːlɑːns/",
+  "pos": "adj, v, adv",
+  "vi": "tự do, làm nghề tự do",
+  "ex": "More graphic designers are choosing to work freelance rather than for a single agency.",
+  "exvi": "Ngày càng nhiều nhà thiết kế đồ hoạ chọn làm tự do thay vì làm cho một công ty.",
+  "col": [
+   "work freelance",
+   "a freelance journalist"
+  ],
+  "fam": "freelancer (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "redundancy",
+  "ipa": "/rɪˈdʌndənsi/",
+  "pos": "n",
+  "vi": "sự cắt giảm nhân sự, mất việc do cắt giảm",
+  "ex": "Hundreds of workers face redundancy after the factory announced its closure.",
+  "exvi": "Hàng trăm công nhân đối mặt với nguy cơ mất việc sau khi nhà máy thông báo đóng cửa.",
+  "col": [
+   "face redundancy",
+   "be made redundant",
+   "redundancy pay"
+  ],
+  "fam": "redundant (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "fringe benefits",
+  "ipa": "/ˈfrɪndʒ ˌbenɪfɪts/",
+  "pos": "n",
+  "vi": "phúc lợi ngoài lương",
+  "ex": "Fringe benefits such as health insurance and gym membership help attract talented staff.",
+  "exvi": "Phúc lợi ngoài lương như bảo hiểm y tế và thẻ tập gym giúp thu hút nhân tài.",
+  "col": [
+   "offer fringe benefits",
+   "attractive fringe benefits"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "transferable skills",
+  "ipa": "/trænsˌfɜːrəbl ˈskɪlz/",
+  "pos": "n",
+  "vi": "kỹ năng chuyển đổi được (dùng được ở nhiều nghề)",
+  "ex": "Communication and problem-solving are transferable skills valued in almost every industry.",
+  "exvi": "Giao tiếp và giải quyết vấn đề là kỹ năng chuyển đổi được đánh giá cao ở hầu hết mọi ngành.",
+  "col": [
+   "develop transferable skills",
+   "highlight transferable skills"
+  ],
+  "fam": "transfer (v), transferable (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "entrepreneurship",
+  "ipa": "/ˌɒntrəprəˈnɜːʃɪp/",
+  "pos": "n",
+  "vi": "tinh thần khởi nghiệp, hoạt động kinh doanh",
+  "ex": "Governments can encourage entrepreneurship by cutting red tape for start-ups.",
+  "exvi": "Chính phủ có thể thúc đẩy khởi nghiệp bằng cách giảm thủ tục cho các công ty mới.",
+  "col": [
+   "encourage entrepreneurship",
+   "a spirit of entrepreneurship"
+  ],
+  "fam": "entrepreneur (n), entrepreneurial (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "labour market",
+  "ipa": "/ˈleɪbə ˌmɑːkɪt/",
+  "pos": "n",
+  "vi": "thị trường lao động",
+  "ex": "Graduates are entering a highly competitive labour market.",
+  "exvi": "Sinh viên tốt nghiệp đang bước vào một thị trường lao động rất cạnh tranh.",
+  "col": [
+   "enter the labour market",
+   "a competitive labour market"
+  ],
+  "fam": "labour (n, v), labourer (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "productivity",
+  "ipa": "/ˌprɒdʌkˈtɪvəti/",
+  "pos": "n",
+  "vi": "năng suất",
+  "ex": "Studies show that a four-day week does not necessarily reduce productivity.",
+  "exvi": "Các nghiên cứu cho thấy tuần làm bốn ngày không nhất thiết làm giảm năng suất.",
+  "col": [
+   "boost productivity",
+   "a drop in productivity",
+   "labour productivity"
+  ],
+  "fam": "productive (adj), produce (v), unproductive (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "flexible working hours",
+  "ipa": "/ˌfleksəbl ˈwɜːkɪŋ aʊəz/",
+  "pos": "n",
+  "vi": "giờ làm việc linh hoạt",
+  "ex": "Flexible working hours allow parents to collect their children from school.",
+  "exvi": "Giờ làm việc linh hoạt cho phép cha mẹ đón con đi học về.",
+  "col": [
+   "offer flexible working hours",
+   "work flexible hours"
+  ],
+  "fam": "flexibility (n), flexibly (adv)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "staff turnover",
+  "ipa": "/ˈstɑːf ˌtɜːnəʊvə/",
+  "pos": "n",
+  "vi": "tỉ lệ nghỉ việc, biến động nhân sự",
+  "ex": "High staff turnover is costly because companies must constantly recruit and train newcomers.",
+  "exvi": "Tỉ lệ nghỉ việc cao gây tốn kém vì công ty phải liên tục tuyển và đào tạo người mới.",
+  "col": [
+   "high staff turnover",
+   "reduce staff turnover"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "glass ceiling",
+  "ipa": "/ˌɡlɑːs ˈsiːlɪŋ/",
+  "pos": "n",
+  "vi": "rào cản vô hình (ngăn phụ nữ, nhóm thiểu số thăng tiến lên vị trí cao)",
+  "ex": "Despite their qualifications, many women still hit a glass ceiling in senior management.",
+  "exvi": "Dù có trình độ, nhiều phụ nữ vẫn gặp rào cản vô hình ở cấp quản lý cao.",
+  "col": [
+   "break the glass ceiling",
+   "hit a glass ceiling"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "internship",
+  "ipa": "/ˈɪntɜːnʃɪp/",
+  "pos": "n",
+  "vi": "kỳ thực tập",
+  "ex": "Unpaid internships favour students whose parents can support them financially.",
+  "exvi": "Thực tập không lương có lợi cho sinh viên được bố mẹ hỗ trợ tài chính.",
+  "col": [
+   "do an internship",
+   "an unpaid internship"
+  ],
+  "fam": "intern (n, v)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "self-employed",
+  "ipa": "/ˌself ɪmˈplɔɪd/",
+  "pos": "adj",
+  "vi": "tự kinh doanh, tự làm chủ",
+  "ex": "Self-employed people enjoy freedom but must arrange their own pensions.",
+  "exvi": "Người tự làm chủ được tự do nhưng phải tự lo lương hưu.",
+  "col": [
+   "be self-employed",
+   "self-employed workers"
+  ],
+  "fam": "self-employment (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "overtime",
+  "ipa": "/ˈəʊvətaɪm/",
+  "pos": "n, adv",
+  "vi": "làm thêm giờ",
+  "ex": "Factory workers often do unpaid overtime to meet production targets.",
+  "exvi": "Công nhân nhà máy thường làm thêm giờ không lương để đạt chỉ tiêu sản xuất.",
+  "col": [
+   "work overtime",
+   "unpaid overtime",
+   "overtime pay"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "job-hopping",
+  "ipa": "/ˈdʒɒb ˌhɒpɪŋ/",
+  "pos": "n",
+  "vi": "việc nhảy việc liên tục",
+  "ex": "Employers may view frequent job-hopping as a sign of poor commitment.",
+  "exvi": "Nhà tuyển dụng có thể xem việc nhảy việc liên tục là dấu hiệu thiếu gắn bó.",
+  "col": [
+   "frequent job-hopping",
+   "the trend of job-hopping"
+  ],
+  "fam": "job-hop (v), job-hopper (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "white-collar",
+  "ipa": "/ˌwaɪt ˈkɒlə/",
+  "pos": "adj",
+  "vi": "(công việc) văn phòng, trí óc",
+  "ex": "Artificial intelligence now threatens white-collar jobs as well as factory work.",
+  "exvi": "Trí tuệ nhân tạo giờ đe doạ cả công việc văn phòng chứ không chỉ việc ở nhà máy.",
+  "col": [
+   "white-collar jobs",
+   "white-collar workers"
+  ],
+  "fam": "blue-collar (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "manual labour",
+  "ipa": "/ˌmænjuəl ˈleɪbə/",
+  "pos": "n",
+  "vi": "lao động chân tay",
+  "ex": "Jobs involving manual labour are often poorly paid despite being physically demanding.",
+  "exvi": "Công việc lao động chân tay thường được trả lương thấp dù rất nặng nhọc.",
+  "col": [
+   "do manual labour",
+   "hard manual labour"
+  ],
+  "fam": "manually (adv)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "apprenticeship",
+  "ipa": "/əˈprentɪʃɪp/",
+  "pos": "n",
+  "vi": "chương trình học nghề (vừa học vừa làm)",
+  "ex": "An apprenticeship lets young people earn a wage while learning a trade.",
+  "exvi": "Chương trình học nghề giúp người trẻ vừa có lương vừa học được một nghề.",
+  "col": [
+   "serve an apprenticeship",
+   "do an apprenticeship"
+  ],
+  "fam": "apprentice (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "skilled workforce",
+  "ipa": "/ˌskɪld ˈwɜːkfɔːs/",
+  "pos": "n",
+  "vi": "lực lượng lao động có tay nghề",
+  "ex": "A skilled workforce is essential for attracting high-tech foreign investors.",
+  "exvi": "Lực lượng lao động có tay nghề là yếu tố then chốt để thu hút nhà đầu tư công nghệ cao.",
+  "col": [
+   "develop a skilled workforce",
+   "a shortage of skilled workers"
+  ],
+  "fam": "skill (n), skilful (adj), workforce (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "unemployment rate",
+  "ipa": "/ˌʌnɪmˈplɔɪmənt reɪt/",
+  "pos": "n",
+  "vi": "tỉ lệ thất nghiệp",
+  "ex": "The youth unemployment rate is often double the national average.",
+  "exvi": "Tỉ lệ thất nghiệp ở người trẻ thường cao gấp đôi mức trung bình cả nước.",
+  "col": [
+   "a rising unemployment rate",
+   "youth unemployment rate"
+  ],
+  "fam": "unemployed (adj), employ (v)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "workplace discrimination",
+  "ipa": "/ˈwɜːkpleɪs dɪˌskrɪmɪˈneɪʃn/",
+  "pos": "n",
+  "vi": "phân biệt đối xử nơi làm việc",
+  "ex": "Strict laws are needed to protect older employees from workplace discrimination.",
+  "exvi": "Cần có luật nghiêm để bảo vệ nhân viên lớn tuổi khỏi bị phân biệt đối xử nơi làm việc.",
+  "col": [
+   "face workplace discrimination",
+   "combat workplace discrimination"
+  ],
+  "fam": "discriminate (v), discriminatory (adj)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "commute",
+  "ipa": "/kəˈmjuːt/",
+  "pos": "v, n",
+  "vi": "đi lại hằng ngày giữa nhà và nơi làm việc; quãng đường đi làm",
+  "ex": "Many office workers commute for over an hour each way in big cities.",
+  "exvi": "Nhiều nhân viên văn phòng ở thành phố lớn mất hơn một giờ mỗi lượt đi làm.",
+  "col": [
+   "a long commute",
+   "commute to work",
+   "the daily commute"
+  ],
+  "fam": "commuter (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "headhunt",
+  "ipa": "/ˈhedhʌnt/",
+  "pos": "v",
+  "vi": "săn đầu người, chiêu mộ nhân tài",
+  "ex": "Talented engineers are often headhunted by rival firms offering higher salaries.",
+  "exvi": "Kỹ sư giỏi thường bị các công ty đối thủ săn đón với mức lương cao hơn.",
+  "col": [
+   "be headhunted by",
+   "headhunt top talent"
+  ],
+  "fam": "headhunter (n)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "incentive",
+  "ipa": "/ɪnˈsentɪv/",
+  "pos": "n",
+  "vi": "sự khuyến khích, động lực (thưởng)",
+  "ex": "Performance bonuses give staff a strong incentive to work harder.",
+  "exvi": "Thưởng theo hiệu suất là động lực lớn để nhân viên làm việc chăm chỉ hơn.",
+  "col": [
+   "provide an incentive",
+   "financial incentives",
+   "an incentive to do something"
+  ],
+  "fam": "incentivise (v)",
+  "em": "",
+  "topic": "Work & Careers",
+  "lv": 4
+ },
+ {
+  "w": "rehabilitation",
+  "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
+  "pos": "n",
+  "vi": "sự cải tạo, phục hồi (cho phạm nhân trở lại xã hội)",
+  "ex": "Prisons should focus on rehabilitation rather than simply punishing offenders.",
+  "exvi": "Nhà tù nên tập trung vào cải tạo thay vì chỉ trừng phạt người phạm tội.",
+  "col": [
+   "focus on rehabilitation",
+   "rehabilitation programmes"
+  ],
+  "fam": "rehabilitate (v), rehabilitative (adj)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "deterrent",
+  "ipa": "/dɪˈterənt/",
+  "pos": "n",
+  "vi": "biện pháp răn đe",
+  "ex": "There is little evidence that harsh sentences act as an effective deterrent.",
+  "exvi": "Có rất ít bằng chứng cho thấy án nặng là biện pháp răn đe hiệu quả.",
+  "col": [
+   "act as a deterrent",
+   "an effective deterrent"
+  ],
+  "fam": "deter (v), deterrence (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "custodial sentence",
+  "ipa": "/kʌˌstəʊdiəl ˈsentəns/",
+  "pos": "n",
+  "vi": "án tù giam",
+  "ex": "Judges are reluctant to give custodial sentences to first-time offenders.",
+  "exvi": "Thẩm phán thường ngần ngại tuyên án tù giam với người phạm tội lần đầu.",
+  "col": [
+   "receive a custodial sentence",
+   "a lengthy custodial sentence"
+  ],
+  "fam": "custody (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "capital punishment",
+  "ipa": "/ˌkæpɪtl ˈpʌnɪʃmənt/",
+  "pos": "n",
+  "vi": "án tử hình",
+  "ex": "Opponents of capital punishment argue that innocent people may be executed by mistake.",
+  "exvi": "Những người phản đối án tử hình cho rằng người vô tội có thể bị xử tử oan.",
+  "col": [
+   "abolish capital punishment",
+   "support capital punishment"
+  ],
+  "fam": "punish (v), punitive (adj)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "juvenile delinquency",
+  "ipa": "/ˌdʒuːvənaɪl dɪˈlɪŋkwənsi/",
+  "pos": "n",
+  "vi": "tình trạng phạm pháp ở trẻ vị thành niên",
+  "ex": "Poverty and family breakdown are often linked to juvenile delinquency.",
+  "exvi": "Nghèo đói và gia đình đổ vỡ thường gắn với tình trạng phạm pháp ở trẻ vị thành niên.",
+  "col": [
+   "prevent juvenile delinquency",
+   "rising juvenile delinquency"
+  ],
+  "fam": "delinquent (n, adj), juvenile (adj, n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "reoffend",
+  "ipa": "/ˌriːəˈfend/",
+  "pos": "v",
+  "vi": "tái phạm",
+  "ex": "Prisoners who learn a trade while inside are less likely to reoffend.",
+  "exvi": "Phạm nhân được học nghề trong tù ít có khả năng tái phạm hơn.",
+  "col": [
+   "likely to reoffend",
+   "the risk of reoffending"
+  ],
+  "fam": "reoffender (n), reoffending (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "law enforcement",
+  "ipa": "/ˈlɔː ɪnˌfɔːsmənt/",
+  "pos": "n",
+  "vi": "việc thực thi pháp luật; lực lượng thực thi pháp luật",
+  "ex": "Law enforcement agencies are struggling to keep pace with online fraud.",
+  "exvi": "Các cơ quan thực thi pháp luật đang khó theo kịp tội phạm lừa đảo trực tuyến.",
+  "col": [
+   "law enforcement agencies",
+   "law enforcement officers"
+  ],
+  "fam": "enforce (v), enforceable (adj)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "petty crime",
+  "ipa": "/ˌpeti ˈkraɪm/",
+  "pos": "n",
+  "vi": "tội vặt (trộm vặt, móc túi...)",
+  "ex": "Petty crime such as pickpocketing is common in crowded tourist areas.",
+  "exvi": "Tội vặt như móc túi thường xảy ra ở các khu du lịch đông người.",
+  "col": [
+   "commit petty crime",
+   "petty criminals"
+  ],
+  "fam": "petty (adj)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "white-collar crime",
+  "ipa": "/ˌwaɪt kɒlə ˈkraɪm/",
+  "pos": "n",
+  "vi": "tội phạm kinh tế, tội phạm cổ cồn trắng (gian lận, tham ô)",
+  "ex": "White-collar crime often goes unpunished because it is difficult to prove.",
+  "exvi": "Tội phạm kinh tế thường không bị trừng phạt vì khó chứng minh.",
+  "col": [
+   "tackle white-collar crime",
+   "white-collar criminals"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "community service",
+  "ipa": "/kəˌmjuːnəti ˈsɜːvɪs/",
+  "pos": "n",
+  "vi": "lao động công ích (hình phạt thay án tù)",
+  "ex": "Minor offenders could be ordered to do community service instead of going to prison.",
+  "exvi": "Người phạm tội nhẹ có thể bị buộc lao động công ích thay vì đi tù.",
+  "col": [
+   "do community service",
+   "be sentenced to community service"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "surveillance",
+  "ipa": "/sɜːˈveɪləns/",
+  "pos": "n",
+  "vi": "sự giám sát",
+  "ex": "The spread of CCTV surveillance has raised concerns about personal privacy.",
+  "exvi": "Việc lắp đặt camera giám sát tràn lan làm dấy lên lo ngại về quyền riêng tư.",
+  "col": [
+   "under surveillance",
+   "surveillance cameras",
+   "mass surveillance"
+  ],
+  "fam": "surveil (v)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "cybercrime",
+  "ipa": "/ˈsaɪbəkraɪm/",
+  "pos": "n",
+  "vi": "tội phạm mạng",
+  "ex": "Cybercrime costs the global economy billions of dollars every year.",
+  "exvi": "Tội phạm mạng gây thiệt hại hàng tỉ đô cho kinh tế toàn cầu mỗi năm.",
+  "col": [
+   "combat cybercrime",
+   "victims of cybercrime"
+  ],
+  "fam": "cybercriminal (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "drug trafficking",
+  "ipa": "/ˈdrʌɡ ˌtræfɪkɪŋ/",
+  "pos": "n",
+  "vi": "buôn bán ma tuý",
+  "ex": "Drug trafficking is punished extremely severely in many Asian countries.",
+  "exvi": "Buôn bán ma tuý bị trừng phạt cực kỳ nghiêm khắc ở nhiều nước châu Á.",
+  "col": [
+   "be convicted of drug trafficking",
+   "crack down on drug trafficking"
+  ],
+  "fam": "traffic (v), trafficker (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "organised crime",
+  "ipa": "/ˌɔːɡənaɪzd ˈkraɪm/",
+  "pos": "n",
+  "vi": "tội phạm có tổ chức",
+  "ex": "Organised crime groups increasingly use cryptocurrency to launder money.",
+  "exvi": "Các nhóm tội phạm có tổ chức ngày càng dùng tiền mã hoá để rửa tiền.",
+  "col": [
+   "organised crime groups",
+   "fight organised crime"
+  ],
+  "fam": "organise (v), organisation (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "judicial system",
+  "ipa": "/dʒuˈdɪʃl ˌsɪstəm/",
+  "pos": "n",
+  "vi": "hệ thống tư pháp",
+  "ex": "Public trust in the judicial system depends on judges being independent.",
+  "exvi": "Niềm tin của người dân vào hệ thống tư pháp phụ thuộc vào sự độc lập của thẩm phán.",
+  "col": [
+   "reform the judicial system",
+   "an independent judicial system"
+  ],
+  "fam": "judge (n, v), judiciary (n), judicially (adv)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "prosecute",
+  "ipa": "/ˈprɒsɪkjuːt/",
+  "pos": "v",
+  "vi": "truy tố",
+  "ex": "Companies that dump toxic waste should be prosecuted.",
+  "exvi": "Các công ty xả chất thải độc hại cần bị truy tố.",
+  "col": [
+   "be prosecuted for",
+   "prosecute offenders"
+  ],
+  "fam": "prosecution (n), prosecutor (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "acquit",
+  "ipa": "/əˈkwɪt/",
+  "pos": "v",
+  "vi": "tuyên trắng án",
+  "ex": "The defendant was acquitted due to a lack of reliable evidence.",
+  "exvi": "Bị cáo được tuyên trắng án vì thiếu bằng chứng đáng tin cậy.",
+  "col": [
+   "be acquitted of",
+   "acquit the defendant"
+  ],
+  "fam": "acquittal (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "convict",
+  "ipa": "/kənˈvɪkt/",
+  "pos": "v",
+  "vi": "kết án; (n) /ˈkɒnvɪkt/ phạm nhân",
+  "ex": "He was convicted of fraud and sentenced to five years in prison.",
+  "exvi": "Anh ta bị kết án tội lừa đảo và lĩnh năm năm tù.",
+  "col": [
+   "be convicted of",
+   "a convicted criminal"
+  ],
+  "fam": "conviction (n), convict (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "hefty fine",
+  "ipa": "/ˌhefti ˈfaɪn/",
+  "pos": "n",
+  "vi": "khoản tiền phạt nặng",
+  "ex": "Drivers caught using their phones should face a hefty fine.",
+  "exvi": "Tài xế bị bắt gặp dùng điện thoại khi lái xe nên bị phạt tiền nặng.",
+  "col": [
+   "impose a hefty fine",
+   "face a hefty fine"
+  ],
+  "fam": "hefty (adj)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "law-abiding",
+  "ipa": "/ˈlɔː əˌbaɪdɪŋ/",
+  "pos": "adj",
+  "vi": "tuân thủ pháp luật",
+  "ex": "The vast majority of citizens are law-abiding and never commit a crime.",
+  "exvi": "Đại đa số công dân tuân thủ pháp luật và không bao giờ phạm tội.",
+  "col": [
+   "law-abiding citizens",
+   "remain law-abiding"
+  ],
+  "fam": "abide by (v)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "crime rate",
+  "ipa": "/ˈkraɪm reɪt/",
+  "pos": "n",
+  "vi": "tỉ lệ tội phạm",
+  "ex": "Better street lighting has helped to lower the crime rate in some neighbourhoods.",
+  "exvi": "Đèn đường tốt hơn đã giúp giảm tỉ lệ tội phạm ở một số khu dân cư.",
+  "col": [
+   "a rising crime rate",
+   "reduce the crime rate"
+  ],
+  "fam": "criminal (n, adj), criminality (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "anti-social behaviour",
+  "ipa": "/ˌænti ˌsəʊʃl bɪˈheɪvjə/",
+  "pos": "n",
+  "vi": "hành vi gây rối trật tự công cộng",
+  "ex": "Youth clubs can reduce anti-social behaviour by giving teenagers somewhere to go.",
+  "exvi": "Câu lạc bộ thanh thiếu niên có thể giảm hành vi gây rối bằng cách cho các em một nơi để sinh hoạt.",
+  "col": [
+   "tackle anti-social behaviour",
+   "engage in anti-social behaviour"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "parole",
+  "ipa": "/pəˈrəʊl/",
+  "pos": "n",
+  "vi": "sự tạm tha có điều kiện",
+  "ex": "Prisoners who behave well may be released on parole before the end of their sentence.",
+  "exvi": "Phạm nhân cải tạo tốt có thể được tạm tha có điều kiện trước khi mãn hạn.",
+  "col": [
+   "be released on parole",
+   "be granted parole"
+  ],
+  "fam": "parolee (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "life imprisonment",
+  "ipa": "/ˌlaɪf ɪmˈprɪznmənt/",
+  "pos": "n",
+  "vi": "án tù chung thân",
+  "ex": "Some argue that life imprisonment is a more humane alternative to the death penalty.",
+  "exvi": "Một số người cho rằng tù chung thân là lựa chọn nhân đạo hơn án tử hình.",
+  "col": [
+   "be sentenced to life imprisonment",
+   "a sentence of life imprisonment"
+  ],
+  "fam": "imprison (v)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "vandalism",
+  "ipa": "/ˈvændəlɪzəm/",
+  "pos": "n",
+  "vi": "hành vi phá hoại tài sản công",
+  "ex": "Vandalism of public property costs local councils a great deal every year.",
+  "exvi": "Hành vi phá hoại tài sản công khiến chính quyền địa phương tốn rất nhiều tiền mỗi năm.",
+  "col": [
+   "acts of vandalism",
+   "an increase in vandalism"
+  ],
+  "fam": "vandal (n), vandalise (v)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "shoplifting",
+  "ipa": "/ˈʃɒplɪftɪŋ/",
+  "pos": "n",
+  "vi": "trộm đồ trong cửa hàng",
+  "ex": "Shoplifting has increased as the cost of living has risen.",
+  "exvi": "Nạn trộm đồ trong cửa hàng gia tăng khi chi phí sinh hoạt tăng cao.",
+  "col": [
+   "be caught shoplifting",
+   "a rise in shoplifting"
+  ],
+  "fam": "shoplift (v), shoplifter (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "offender",
+  "ipa": "/əˈfendə/",
+  "pos": "n",
+  "vi": "người phạm tội",
+  "ex": "Young offenders need guidance and education rather than long prison terms.",
+  "exvi": "Người phạm tội trẻ tuổi cần được hướng dẫn và giáo dục hơn là án tù dài.",
+  "col": [
+   "young offenders",
+   "repeat offenders",
+   "first-time offenders"
+  ],
+  "fam": "offend (v), offence (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "recidivism",
+  "ipa": "/rɪˈsɪdɪvɪzəm/",
+  "pos": "n",
+  "vi": "tình trạng tái phạm tội",
+  "ex": "Education programmes in prisons have been shown to cut recidivism significantly.",
+  "exvi": "Các chương trình giáo dục trong tù đã được chứng minh là giảm đáng kể tỉ lệ tái phạm.",
+  "col": [
+   "reduce recidivism",
+   "high rates of recidivism"
+  ],
+  "fam": "recidivist (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "crack down on",
+  "ipa": "/ˌkræk ˈdaʊn ɒn/",
+  "pos": "phr",
+  "vi": "trấn áp, mạnh tay xử lý",
+  "ex": "The police have promised to crack down on drink-driving during the holiday season.",
+  "exvi": "Cảnh sát đã cam kết mạnh tay xử lý lái xe say rượu trong mùa lễ.",
+  "col": [
+   "crack down on crime",
+   "a crackdown on corruption"
+  ],
+  "fam": "crackdown (n)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "lenient",
+  "ipa": "/ˈliːniənt/",
+  "pos": "adj",
+  "vi": "khoan dung, nhẹ tay",
+  "ex": "Many victims feel that the courts are too lenient with violent criminals.",
+  "exvi": "Nhiều nạn nhân cảm thấy toà án quá nhẹ tay với tội phạm bạo lực.",
+  "col": [
+   "a lenient sentence",
+   "too lenient on"
+  ],
+  "fam": "leniency (n), leniently (adv)",
+  "em": "",
+  "topic": "Crime & Law",
+  "lv": 4
+ },
+ {
+  "w": "legislation",
+  "ipa": "/ˌledʒɪsˈleɪʃn/",
+  "pos": "n",
+  "vi": "luật pháp, việc ban hành luật",
+  "ex": "New legislation is needed to protect workers in the gig economy.",
+  "exvi": "Cần có luật mới để bảo vệ người lao động trong nền kinh tế việc làm tự do.",
+  "col": [
+   "introduce legislation",
+   "pass legislation",
+   "under current legislation"
+  ],
+  "fam": "legislate (v), legislative (adj), legislator (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "public funding",
+  "ipa": "/ˌpʌblɪk ˈfʌndɪŋ/",
+  "pos": "n",
+  "vi": "ngân sách nhà nước, nguồn tài trợ công",
+  "ex": "Public funding for libraries has been cut sharply in recent years.",
+  "exvi": "Ngân sách nhà nước cho thư viện đã bị cắt giảm mạnh trong những năm gần đây.",
+  "col": [
+   "receive public funding",
+   "cuts in public funding"
+  ],
+  "fam": "fund (n, v)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "taxpayers' money",
+  "ipa": "/ˈtækspeɪəz ˌmʌni/",
+  "pos": "n",
+  "vi": "tiền thuế của dân",
+  "ex": "Spending taxpayers' money on a new stadium is hard to justify when hospitals are underfunded.",
+  "exvi": "Chi tiền thuế của dân cho sân vận động mới khó thuyết phục khi bệnh viện thiếu kinh phí.",
+  "col": [
+   "waste taxpayers' money",
+   "spend taxpayers' money on"
+  ],
+  "fam": "taxpayer (n), taxation (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "welfare state",
+  "ipa": "/ˌwelfeə ˈsteɪt/",
+  "pos": "n",
+  "vi": "nhà nước phúc lợi",
+  "ex": "A generous welfare state provides a safety net for the unemployed and the sick.",
+  "exvi": "Một nhà nước phúc lợi hào phóng tạo ra lưới an sinh cho người thất nghiệp và người ốm.",
+  "col": [
+   "the welfare state",
+   "welfare benefits"
+  ],
+  "fam": "welfare (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "social inequality",
+  "ipa": "/ˌsəʊʃl ˌɪnɪˈkwɒləti/",
+  "pos": "n",
+  "vi": "bất bình đẳng xã hội",
+  "ex": "Unequal access to education is a major cause of social inequality.",
+  "exvi": "Tiếp cận giáo dục không đồng đều là nguyên nhân lớn gây bất bình đẳng xã hội.",
+  "col": [
+   "reduce social inequality",
+   "widening social inequality"
+  ],
+  "fam": "unequal (adj), equality (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "wealth gap",
+  "ipa": "/ˈwelθ ɡæp/",
+  "pos": "n",
+  "vi": "khoảng cách giàu nghèo",
+  "ex": "Progressive taxation is one way to narrow the wealth gap.",
+  "exvi": "Đánh thuế luỹ tiến là một cách thu hẹp khoảng cách giàu nghèo.",
+  "col": [
+   "narrow the wealth gap",
+   "a growing wealth gap"
+  ],
+  "fam": "wealthy (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "ageing population",
+  "ipa": "/ˌeɪdʒɪŋ ˌpɒpjuˈleɪʃn/",
+  "pos": "n",
+  "vi": "dân số già hoá",
+  "ex": "An ageing population will put enormous pressure on pension systems.",
+  "exvi": "Dân số già hoá sẽ đặt áp lực rất lớn lên hệ thống lương hưu.",
+  "col": [
+   "cope with an ageing population",
+   "the challenges of an ageing population"
+  ],
+  "fam": "age (v), aged (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "infrastructure",
+  "ipa": "/ˈɪnfrəstrʌktʃə/",
+  "pos": "n",
+  "vi": "cơ sở hạ tầng",
+  "ex": "Investment in transport infrastructure can boost economic growth in rural areas.",
+  "exvi": "Đầu tư vào hạ tầng giao thông có thể thúc đẩy tăng trưởng kinh tế ở nông thôn.",
+  "col": [
+   "invest in infrastructure",
+   "transport infrastructure",
+   "crumbling infrastructure"
+  ],
+  "fam": "infrastructural (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "policymaker",
+  "ipa": "/ˈpɒləsi ˌmeɪkə/",
+  "pos": "n",
+  "vi": "nhà hoạch định chính sách",
+  "ex": "Policymakers must consider the long-term effects of their decisions on young people.",
+  "exvi": "Nhà hoạch định chính sách phải cân nhắc tác động lâu dài của quyết định lên người trẻ.",
+  "col": [
+   "policymakers and experts",
+   "urge policymakers to"
+  ],
+  "fam": "policy (n), policymaking (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "bureaucracy",
+  "ipa": "/bjʊəˈrɒkrəsi/",
+  "pos": "n",
+  "vi": "bộ máy hành chính quan liêu",
+  "ex": "Excessive bureaucracy discourages foreign companies from investing in the country.",
+  "exvi": "Bộ máy hành chính quá quan liêu khiến công ty nước ngoài ngại đầu tư vào đất nước.",
+  "col": [
+   "cut bureaucracy",
+   "unnecessary bureaucracy"
+  ],
+  "fam": "bureaucrat (n), bureaucratic (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "corruption",
+  "ipa": "/kəˈrʌpʃn/",
+  "pos": "n",
+  "vi": "tham nhũng",
+  "ex": "Corruption diverts money away from schools and hospitals.",
+  "exvi": "Tham nhũng làm thất thoát tiền lẽ ra dành cho trường học và bệnh viện.",
+  "col": [
+   "fight corruption",
+   "widespread corruption",
+   "allegations of corruption"
+  ],
+  "fam": "corrupt (adj, v)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "civic duty",
+  "ipa": "/ˌsɪvɪk ˈdjuːti/",
+  "pos": "n",
+  "vi": "nghĩa vụ công dân",
+  "ex": "Many people regard voting as a civic duty rather than a choice.",
+  "exvi": "Nhiều người coi việc đi bầu cử là nghĩa vụ công dân chứ không phải lựa chọn.",
+  "col": [
+   "fulfil a civic duty",
+   "a sense of civic duty"
+  ],
+  "fam": "civic (adj), citizen (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "social cohesion",
+  "ipa": "/ˌsəʊʃl kəʊˈhiːʒn/",
+  "pos": "n",
+  "vi": "sự gắn kết xã hội",
+  "ex": "Community festivals can strengthen social cohesion in diverse neighbourhoods.",
+  "exvi": "Lễ hội cộng đồng có thể tăng cường sự gắn kết xã hội ở những khu dân cư đa dạng.",
+  "col": [
+   "promote social cohesion",
+   "threaten social cohesion"
+  ],
+  "fam": "cohesive (adj), cohere (v)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "marginalised",
+  "ipa": "/ˈmɑːdʒɪnəlaɪzd/",
+  "pos": "adj",
+  "vi": "bị gạt ra lề xã hội",
+  "ex": "Free legal advice should be available to marginalised groups.",
+  "exvi": "Tư vấn pháp lý miễn phí nên được cung cấp cho các nhóm bị gạt ra lề xã hội.",
+  "col": [
+   "marginalised communities",
+   "feel marginalised"
+  ],
+  "fam": "marginalise (v), margin (n), marginalisation (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "grassroots",
+  "ipa": "/ˈɡrɑːsruːts/",
+  "pos": "adj, n",
+  "vi": "(thuộc) cơ sở, quần chúng",
+  "ex": "Grassroots movements have pushed the government to act on air pollution.",
+  "exvi": "Các phong trào từ cơ sở đã thúc đẩy chính phủ hành động về ô nhiễm không khí.",
+  "col": [
+   "grassroots movement",
+   "at grassroots level"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "subsidy",
+  "ipa": "/ˈsʌbsədi/",
+  "pos": "n",
+  "vi": "khoản trợ cấp (của nhà nước)",
+  "ex": "Farm subsidies keep food prices low but can distort international trade.",
+  "exvi": "Trợ cấp nông nghiệp giữ giá thực phẩm thấp nhưng có thể làm méo mó thương mại quốc tế.",
+  "col": [
+   "government subsidies",
+   "provide a subsidy",
+   "cut subsidies"
+  ],
+  "fam": "subsidise (v), subsidised (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "allocate",
+  "ipa": "/ˈæləkeɪt/",
+  "pos": "v",
+  "vi": "phân bổ",
+  "ex": "A larger share of the budget should be allocated to mental health services.",
+  "exvi": "Cần phân bổ phần lớn hơn của ngân sách cho dịch vụ sức khoẻ tâm thần.",
+  "col": [
+   "allocate funds",
+   "allocate resources to"
+  ],
+  "fam": "allocation (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "accountability",
+  "ipa": "/əˌkaʊntəˈbɪləti/",
+  "pos": "n",
+  "vi": "trách nhiệm giải trình",
+  "ex": "A free press is vital for holding politicians to account and ensuring accountability.",
+  "exvi": "Báo chí tự do rất cần thiết để buộc chính trị gia chịu trách nhiệm giải trình.",
+  "col": [
+   "ensure accountability",
+   "a lack of accountability"
+  ],
+  "fam": "accountable (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "transparency",
+  "ipa": "/trænsˈpærənsi/",
+  "pos": "n",
+  "vi": "sự minh bạch",
+  "ex": "Publishing all public contracts online would increase transparency.",
+  "exvi": "Công bố mọi hợp đồng công trên mạng sẽ làm tăng sự minh bạch.",
+  "col": [
+   "increase transparency",
+   "a lack of transparency"
+  ],
+  "fam": "transparent (adj), transparently (adv)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "social mobility",
+  "ipa": "/ˌsəʊʃl məʊˈbɪləti/",
+  "pos": "n",
+  "vi": "sự dịch chuyển tầng lớp xã hội",
+  "ex": "Free university education is often seen as the key to social mobility.",
+  "exvi": "Giáo dục đại học miễn phí thường được xem là chìa khoá cho dịch chuyển tầng lớp xã hội.",
+  "col": [
+   "improve social mobility",
+   "upward social mobility"
+  ],
+  "fam": "mobile (adj), mobilise (v)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "urbanisation",
+  "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "đô thị hoá",
+  "ex": "Rapid urbanisation has led to traffic congestion and housing shortages.",
+  "exvi": "Đô thị hoá nhanh đã gây ùn tắc giao thông và thiếu nhà ở.",
+  "col": [
+   "rapid urbanisation",
+   "the process of urbanisation"
+  ],
+  "fam": "urban (adj), urbanise (v)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "affordable housing",
+  "ipa": "/əˌfɔːdəbl ˈhaʊzɪŋ/",
+  "pos": "n",
+  "vi": "nhà ở giá phải chăng",
+  "ex": "Young couples in big cities struggle to find affordable housing.",
+  "exvi": "Các cặp đôi trẻ ở thành phố lớn khó tìm được nhà ở giá phải chăng.",
+  "col": [
+   "a shortage of affordable housing",
+   "build affordable housing"
+  ],
+  "fam": "afford (v), affordability (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "homelessness",
+  "ipa": "/ˈhəʊmləsnəs/",
+  "pos": "n",
+  "vi": "tình trạng vô gia cư",
+  "ex": "Homelessness is rising as rents increase faster than wages.",
+  "exvi": "Tình trạng vô gia cư tăng lên khi giá thuê nhà tăng nhanh hơn lương.",
+  "col": [
+   "tackle homelessness",
+   "the causes of homelessness"
+  ],
+  "fam": "homeless (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "poverty line",
+  "ipa": "/ˈpɒvəti laɪn/",
+  "pos": "n",
+  "vi": "chuẩn nghèo",
+  "ex": "Millions of families still live below the poverty line.",
+  "exvi": "Hàng triệu gia đình vẫn sống dưới chuẩn nghèo.",
+  "col": [
+   "live below the poverty line",
+   "lift people above the poverty line"
+  ],
+  "fam": "poor (adj), impoverished (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "civil liberties",
+  "ipa": "/ˌsɪvl ˈlɪbətiz/",
+  "pos": "n",
+  "vi": "các quyền tự do dân sự",
+  "ex": "Critics claim that mass surveillance threatens civil liberties.",
+  "exvi": "Những người phản đối cho rằng giám sát diện rộng đe doạ các quyền tự do dân sự.",
+  "col": [
+   "protect civil liberties",
+   "an attack on civil liberties"
+  ],
+  "fam": "liberty (n), liberal (adj)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "nanny state",
+  "ipa": "/ˈnæni steɪt/",
+  "pos": "n",
+  "vi": "nhà nước bảo mẫu (can thiệp quá sâu vào đời sống cá nhân)",
+  "ex": "Opponents of the sugar tax describe it as another example of the nanny state.",
+  "exvi": "Những người phản đối thuế đường gọi đó là một ví dụ nữa về nhà nước bảo mẫu.",
+  "col": [
+   "accuse the government of being a nanny state",
+   "nanny state policies"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "red tape",
+  "ipa": "/ˌred ˈteɪp/",
+  "pos": "n",
+  "vi": "thủ tục hành chính rườm rà",
+  "ex": "Small businesses complain that red tape wastes time they could spend on customers.",
+  "exvi": "Doanh nghiệp nhỏ phàn nàn rằng thủ tục rườm rà làm mất thời gian lẽ ra dành cho khách hàng.",
+  "col": [
+   "cut red tape",
+   "bureaucratic red tape"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "vulnerable groups",
+  "ipa": "/ˌvʌlnərəbl ˈɡruːps/",
+  "pos": "n",
+  "vi": "các nhóm dễ bị tổn thương",
+  "ex": "Vulnerable groups such as the elderly and disabled need extra support during heatwaves.",
+  "exvi": "Các nhóm dễ bị tổn thương như người già và người khuyết tật cần hỗ trợ thêm khi nắng nóng.",
+  "col": [
+   "protect vulnerable groups",
+   "the most vulnerable groups in society"
+  ],
+  "fam": "vulnerability (n)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "gender equality",
+  "ipa": "/ˌdʒendər iˈkwɒləti/",
+  "pos": "n",
+  "vi": "bình đẳng giới",
+  "ex": "Paid parental leave for fathers can promote gender equality at home and at work.",
+  "exvi": "Nghỉ phép có lương cho người cha có thể thúc đẩy bình đẳng giới ở nhà và nơi làm việc.",
+  "col": [
+   "promote gender equality",
+   "achieve gender equality"
+  ],
+  "fam": "equal (adj), equally (adv)",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "birth rate",
+  "ipa": "/ˈbɜːθ reɪt/",
+  "pos": "n",
+  "vi": "tỉ lệ sinh",
+  "ex": "Falling birth rates mean there will be fewer workers to support retirees.",
+  "exvi": "Tỉ lệ sinh giảm đồng nghĩa với việc sẽ có ít người lao động hơn để nuôi người nghỉ hưu.",
+  "col": [
+   "a declining birth rate",
+   "boost the birth rate"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Government & Society",
+  "lv": 4
+ },
+ {
+  "w": "misinformation",
+  "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
+  "pos": "n",
+  "vi": "thông tin sai lệch",
+  "ex": "Misinformation about vaccines spread rapidly on social media during the pandemic.",
+  "exvi": "Thông tin sai lệch về vắc-xin lan nhanh trên mạng xã hội trong đại dịch.",
+  "col": [
+   "spread misinformation",
+   "combat misinformation"
+  ],
+  "fam": "misinform (v), disinformation (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "clickbait",
+  "ipa": "/ˈklɪkbeɪt/",
+  "pos": "n",
+  "vi": "tiêu đề giật tít câu click",
+  "ex": "Many news websites rely on clickbait headlines to attract advertising revenue.",
+  "exvi": "Nhiều trang tin dựa vào tiêu đề giật tít để thu hút doanh thu quảng cáo.",
+  "col": [
+   "clickbait headlines",
+   "fall for clickbait"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "mainstream media",
+  "ipa": "/ˌmeɪnstriːm ˈmiːdiə/",
+  "pos": "n",
+  "vi": "truyền thông chính thống",
+  "ex": "Young people increasingly get their news from social media rather than the mainstream media.",
+  "exvi": "Người trẻ ngày càng nhận tin tức từ mạng xã hội thay vì truyền thông chính thống.",
+  "col": [
+   "distrust of the mainstream media",
+   "coverage in the mainstream media"
+  ],
+  "fam": "mainstream (adj, n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "press freedom",
+  "ipa": "/ˌpres ˈfriːdəm/",
+  "pos": "n",
+  "vi": "tự do báo chí",
+  "ex": "Press freedom is essential for exposing abuses of power.",
+  "exvi": "Tự do báo chí rất cần thiết để phanh phui sự lạm quyền.",
+  "col": [
+   "restrict press freedom",
+   "defend press freedom"
+  ],
+  "fam": "free (adj), freely (adv)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "censorship",
+  "ipa": "/ˈsensəʃɪp/",
+  "pos": "n",
+  "vi": "sự kiểm duyệt",
+  "ex": "Some argue that a degree of censorship is needed to protect children from violent content.",
+  "exvi": "Một số người cho rằng cần có mức độ kiểm duyệt nhất định để bảo vệ trẻ em khỏi nội dung bạo lực.",
+  "col": [
+   "strict censorship",
+   "internet censorship",
+   "impose censorship"
+  ],
+  "fam": "censor (v, n), censored (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "sensationalism",
+  "ipa": "/senˈseɪʃənəlɪzəm/",
+  "pos": "n",
+  "vi": "lối đưa tin giật gân",
+  "ex": "Tabloid sensationalism often distorts the real facts of a story.",
+  "exvi": "Lối đưa tin giật gân của báo lá cải thường bóp méo sự thật của câu chuyện.",
+  "col": [
+   "media sensationalism",
+   "be accused of sensationalism"
+  ],
+  "fam": "sensational (adj), sensationalise (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "tabloid",
+  "ipa": "/ˈtæblɔɪd/",
+  "pos": "n",
+  "vi": "báo lá cải",
+  "ex": "Tabloids are obsessed with the private lives of celebrities.",
+  "exvi": "Báo lá cải bị ám ảnh với đời tư của người nổi tiếng.",
+  "col": [
+   "tabloid newspapers",
+   "the tabloid press"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "investigative journalism",
+  "ipa": "/ɪnˌvestɪɡətɪv ˈdʒɜːnəlɪzəm/",
+  "pos": "n",
+  "vi": "báo chí điều tra",
+  "ex": "Investigative journalism is expensive but plays a vital role in exposing corruption.",
+  "exvi": "Báo chí điều tra tốn kém nhưng đóng vai trò quan trọng trong việc phanh phui tham nhũng.",
+  "col": [
+   "fund investigative journalism",
+   "a piece of investigative journalism"
+  ],
+  "fam": "investigate (v), journalist (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "media bias",
+  "ipa": "/ˈmiːdiə ˌbaɪəs/",
+  "pos": "n",
+  "vi": "sự thiên vị của truyền thông",
+  "ex": "Reading several sources is the best way to recognise media bias.",
+  "exvi": "Đọc nhiều nguồn là cách tốt nhất để nhận ra sự thiên vị của truyền thông.",
+  "col": [
+   "accusations of media bias",
+   "political media bias"
+  ],
+  "fam": "biased (adj), unbiased (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "target audience",
+  "ipa": "/ˌtɑːɡɪt ˈɔːdiəns/",
+  "pos": "n",
+  "vi": "đối tượng khách hàng mục tiêu",
+  "ex": "The advert's target audience is clearly teenagers who play video games.",
+  "exvi": "Đối tượng mục tiêu của quảng cáo này rõ ràng là thiếu niên chơi điện tử.",
+  "col": [
+   "reach a target audience",
+   "identify the target audience"
+  ],
+  "fam": "target (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "consumerism",
+  "ipa": "/kənˈsjuːmərɪzəm/",
+  "pos": "n",
+  "vi": "chủ nghĩa tiêu dùng, lối sống chạy theo mua sắm",
+  "ex": "Advertising fuels consumerism by convincing people that buying things brings happiness.",
+  "exvi": "Quảng cáo thúc đẩy lối sống tiêu dùng bằng cách thuyết phục người ta rằng mua sắm mang lại hạnh phúc.",
+  "col": [
+   "rampant consumerism",
+   "a culture of consumerism"
+  ],
+  "fam": "consumer (n), consume (v), consumption (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "brand loyalty",
+  "ipa": "/ˈbrænd ˌlɔɪəlti/",
+  "pos": "n",
+  "vi": "lòng trung thành với thương hiệu",
+  "ex": "Loyalty schemes and clever marketing help companies build brand loyalty.",
+  "exvi": "Chương trình khách hàng thân thiết và tiếp thị khéo léo giúp công ty xây dựng lòng trung thành với thương hiệu.",
+  "col": [
+   "build brand loyalty",
+   "strong brand loyalty"
+  ],
+  "fam": "loyal (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "product placement",
+  "ipa": "/ˈprɒdʌkt ˌpleɪsmənt/",
+  "pos": "n",
+  "vi": "quảng cáo lồng ghép sản phẩm (trong phim, chương trình)",
+  "ex": "Product placement in films is a subtle way of advertising to viewers.",
+  "exvi": "Lồng ghép sản phẩm trong phim là một cách quảng cáo tinh vi đến người xem.",
+  "col": [
+   "use product placement",
+   "product placement in films"
+  ],
+  "fam": "place (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "celebrity endorsement",
+  "ipa": "/səˌlebrəti ɪnˈdɔːsmənt/",
+  "pos": "n",
+  "vi": "sự quảng bá của người nổi tiếng",
+  "ex": "Celebrity endorsements can make unhealthy products seem glamorous to young people.",
+  "exvi": "Quảng bá của người nổi tiếng có thể khiến sản phẩm không lành mạnh trông hấp dẫn với người trẻ.",
+  "col": [
+   "celebrity endorsement deals",
+   "rely on celebrity endorsement"
+  ],
+  "fam": "endorse (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "persuasive",
+  "ipa": "/pəˈsweɪsɪv/",
+  "pos": "adj",
+  "vi": "có sức thuyết phục",
+  "ex": "Advertisers use persuasive techniques that children cannot easily recognise.",
+  "exvi": "Nhà quảng cáo dùng kỹ thuật thuyết phục mà trẻ em khó nhận ra.",
+  "col": [
+   "persuasive techniques",
+   "highly persuasive"
+  ],
+  "fam": "persuade (v), persuasion (n), persuasively (adv)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "misleading",
+  "ipa": "/ˌmɪsˈliːdɪŋ/",
+  "pos": "adj",
+  "vi": "gây hiểu lầm",
+  "ex": "Misleading claims about weight-loss products should be banned.",
+  "exvi": "Các tuyên bố gây hiểu lầm về sản phẩm giảm cân nên bị cấm.",
+  "col": [
+   "misleading information",
+   "misleading advertisements"
+  ],
+  "fam": "mislead (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "impulse buying",
+  "ipa": "/ˈɪmpʌls ˌbaɪɪŋ/",
+  "pos": "n",
+  "vi": "mua sắm bốc đồng",
+  "ex": "Supermarkets place sweets near the checkout to encourage impulse buying.",
+  "exvi": "Siêu thị đặt kẹo gần quầy thanh toán để khuyến khích mua sắm bốc đồng.",
+  "col": [
+   "encourage impulse buying",
+   "resist impulse buying"
+  ],
+  "fam": "impulsive (adj), impulse buy (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "social media influencer",
+  "ipa": "/ˌsəʊʃl ˈmiːdiə ˌɪnfluənsə/",
+  "pos": "n",
+  "vi": "người có ảnh hưởng trên mạng xã hội",
+  "ex": "Brands now pay social media influencers to promote their products to young followers.",
+  "exvi": "Các thương hiệu hiện trả tiền cho người có ảnh hưởng để quảng bá sản phẩm tới người theo dõi trẻ tuổi.",
+  "col": [
+   "become a social media influencer",
+   "work with influencers"
+  ],
+  "fam": "influence (v, n), influential (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "go viral",
+  "ipa": "/ˌɡəʊ ˈvaɪrəl/",
+  "pos": "phr",
+  "vi": "lan truyền chóng mặt trên mạng",
+  "ex": "A short video of the protest went viral within hours.",
+  "exvi": "Một video ngắn về cuộc biểu tình đã lan truyền chóng mặt chỉ trong vài giờ.",
+  "col": [
+   "a video goes viral",
+   "viral content"
+  ],
+  "fam": "viral (adj), virality (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "echo chamber",
+  "ipa": "/ˈekəʊ ˌtʃeɪmbə/",
+  "pos": "n",
+  "vi": "buồng vang (môi trường chỉ nghe ý kiến giống mình)",
+  "ex": "Social media can trap users in an echo chamber where their views are never challenged.",
+  "exvi": "Mạng xã hội có thể nhốt người dùng trong buồng vang, nơi quan điểm của họ không bao giờ bị phản biện.",
+  "col": [
+   "trapped in an echo chamber",
+   "create an echo chamber"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "public opinion",
+  "ipa": "/ˌpʌblɪk əˈpɪnjən/",
+  "pos": "n",
+  "vi": "dư luận",
+  "ex": "The media plays a powerful role in shaping public opinion.",
+  "exvi": "Truyền thông đóng vai trò mạnh mẽ trong việc định hướng dư luận.",
+  "col": [
+   "shape public opinion",
+   "sway public opinion"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "news coverage",
+  "ipa": "/ˈnjuːz ˌkʌvərɪdʒ/",
+  "pos": "n",
+  "vi": "việc đưa tin",
+  "ex": "The disaster received extensive news coverage around the world.",
+  "exvi": "Thảm hoạ được đưa tin rộng rãi trên khắp thế giới.",
+  "col": [
+   "extensive news coverage",
+   "biased news coverage"
+  ],
+  "fam": "cover (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "invasion of privacy",
+  "ipa": "/ɪnˌveɪʒn əv ˈprɪvəsi/",
+  "pos": "n",
+  "vi": "sự xâm phạm đời tư",
+  "ex": "Photographing celebrities' children without permission is a clear invasion of privacy.",
+  "exvi": "Chụp ảnh con của người nổi tiếng khi chưa được phép là sự xâm phạm đời tư rõ ràng.",
+  "col": [
+   "a gross invasion of privacy",
+   "constitute an invasion of privacy"
+  ],
+  "fam": "invade (v), invasive (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "paparazzi",
+  "ipa": "/ˌpæpəˈrætsi/",
+  "pos": "n",
+  "vi": "thợ săn ảnh người nổi tiếng",
+  "ex": "Celebrities often complain of being followed everywhere by the paparazzi.",
+  "exvi": "Người nổi tiếng thường than phiền bị thợ săn ảnh bám theo khắp nơi.",
+  "col": [
+   "hounded by the paparazzi",
+   "paparazzi photos"
+  ],
+  "fam": "paparazzo (n, sing)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "advertising revenue",
+  "ipa": "/ˈædvətaɪzɪŋ ˌrevənjuː/",
+  "pos": "n",
+  "vi": "doanh thu quảng cáo",
+  "ex": "Falling advertising revenue has forced many local newspapers to close.",
+  "exvi": "Doanh thu quảng cáo sụt giảm đã buộc nhiều tờ báo địa phương phải đóng cửa.",
+  "col": [
+   "generate advertising revenue",
+   "rely on advertising revenue"
+  ],
+  "fam": "advertise (v), advertiser (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "unrealistic beauty standards",
+  "ipa": "/ˌʌnrɪəˌlɪstɪk ˈbjuːti ˌstændədz/",
+  "pos": "n",
+  "vi": "tiêu chuẩn sắc đẹp phi thực tế",
+  "ex": "Edited images in advertising promote unrealistic beauty standards among teenage girls.",
+  "exvi": "Hình ảnh chỉnh sửa trong quảng cáo cổ xuý tiêu chuẩn sắc đẹp phi thực tế cho thiếu nữ.",
+  "col": [
+   "promote unrealistic beauty standards",
+   "challenge unrealistic beauty standards"
+  ],
+  "fam": "realistic (adj), unrealistically (adv)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "gullible",
+  "ipa": "/ˈɡʌləbl/",
+  "pos": "adj",
+  "vi": "cả tin, dễ bị lừa",
+  "ex": "Young children are particularly gullible and believe what adverts tell them.",
+  "exvi": "Trẻ nhỏ đặc biệt cả tin và tin mọi điều quảng cáo nói.",
+  "col": [
+   "gullible consumers",
+   "naive and gullible"
+  ],
+  "fam": "gullibility (n)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "manipulate",
+  "ipa": "/məˈnɪpjuleɪt/",
+  "pos": "v",
+  "vi": "thao túng",
+  "ex": "Some political groups manipulate photos to mislead voters.",
+  "exvi": "Một số nhóm chính trị chỉnh sửa ảnh để đánh lừa cử tri.",
+  "col": [
+   "manipulate public opinion",
+   "manipulate consumers"
+  ],
+  "fam": "manipulation (n), manipulative (adj)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "commercialisation",
+  "ipa": "/kəˌmɜːʃəlaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "sự thương mại hoá",
+  "ex": "The commercialisation of traditional festivals has stripped them of their original meaning.",
+  "exvi": "Sự thương mại hoá lễ hội truyền thống đã làm chúng mất đi ý nghĩa ban đầu.",
+  "col": [
+   "the commercialisation of",
+   "increasing commercialisation"
+  ],
+  "fam": "commercial (adj, n), commercialise (v)",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "mass media",
+  "ipa": "/ˌmæs ˈmiːdiə/",
+  "pos": "n",
+  "vi": "truyền thông đại chúng",
+  "ex": "The mass media can raise awareness of social issues very quickly.",
+  "exvi": "Truyền thông đại chúng có thể nâng cao nhận thức về vấn đề xã hội rất nhanh.",
+  "col": [
+   "the influence of the mass media",
+   "mass media coverage"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Media & Advertising",
+  "lv": 4
+ },
+ {
+  "w": "cultural heritage",
+  "ipa": "/ˌkʌltʃərəl ˈherɪtɪdʒ/",
+  "pos": "n",
+  "vi": "di sản văn hoá",
+  "ex": "Governments have a duty to preserve their country's cultural heritage for future generations.",
+  "exvi": "Chính phủ có trách nhiệm gìn giữ di sản văn hoá của đất nước cho thế hệ sau.",
+  "col": [
+   "preserve cultural heritage",
+   "rich cultural heritage"
+  ],
+  "fam": "culture (n), culturally (adv)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural identity",
+  "ipa": "/ˌkʌltʃərəl aɪˈdentəti/",
+  "pos": "n",
+  "vi": "bản sắc văn hoá",
+  "ex": "Speaking their mother tongue helps immigrant children keep their cultural identity.",
+  "exvi": "Nói tiếng mẹ đẻ giúp trẻ em nhập cư giữ được bản sắc văn hoá.",
+  "col": [
+   "lose cultural identity",
+   "a strong sense of cultural identity"
+  ],
+  "fam": "identify (v), identifiable (adj)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "intangible heritage",
+  "ipa": "/ɪnˌtændʒəbl ˈherɪtɪdʒ/",
+  "pos": "n",
+  "vi": "di sản phi vật thể",
+  "ex": "Traditional music such as ca trù is recognised as intangible heritage by UNESCO.",
+  "exvi": "Âm nhạc truyền thống như ca trù được UNESCO công nhận là di sản phi vật thể.",
+  "col": [
+   "intangible cultural heritage",
+   "safeguard intangible heritage"
+  ],
+  "fam": "tangible (adj), intangibly (adv)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "assimilate",
+  "ipa": "/əˈsɪməleɪt/",
+  "pos": "v",
+  "vi": "hoà nhập, đồng hoá",
+  "ex": "Immigrants often feel pressure to assimilate into the dominant culture.",
+  "exvi": "Người nhập cư thường chịu áp lực phải hoà nhập vào nền văn hoá chủ đạo.",
+  "col": [
+   "assimilate into society",
+   "fully assimilate"
+  ],
+  "fam": "assimilation (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "multicultural",
+  "ipa": "/ˌmʌltiˈkʌltʃərəl/",
+  "pos": "adj",
+  "vi": "đa văn hoá",
+  "ex": "Growing up in a multicultural city teaches children tolerance and open-mindedness.",
+  "exvi": "Lớn lên trong thành phố đa văn hoá dạy trẻ sự bao dung và cởi mở.",
+  "col": [
+   "a multicultural society",
+   "multicultural communities"
+  ],
+  "fam": "multiculturalism (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural diversity",
+  "ipa": "/ˌkʌltʃərəl daɪˈvɜːsəti/",
+  "pos": "n",
+  "vi": "sự đa dạng văn hoá",
+  "ex": "Cultural diversity can make a workplace more creative and innovative.",
+  "exvi": "Đa dạng văn hoá có thể giúp nơi làm việc sáng tạo và đổi mới hơn.",
+  "col": [
+   "celebrate cultural diversity",
+   "respect cultural diversity"
+  ],
+  "fam": "diverse (adj), diversify (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "indigenous",
+  "ipa": "/ɪnˈdɪdʒənəs/",
+  "pos": "adj",
+  "vi": "bản địa",
+  "ex": "Indigenous languages are disappearing at an alarming rate.",
+  "exvi": "Các ngôn ngữ bản địa đang biến mất với tốc độ đáng báo động.",
+  "col": [
+   "indigenous people",
+   "indigenous culture",
+   "indigenous to"
+  ],
+  "fam": "indigenously (adv)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "folklore",
+  "ipa": "/ˈfəʊklɔː/",
+  "pos": "n",
+  "vi": "văn hoá dân gian, truyện dân gian",
+  "ex": "Many children's stories are rooted in local folklore.",
+  "exvi": "Nhiều câu chuyện thiếu nhi bắt nguồn từ văn hoá dân gian địa phương.",
+  "col": [
+   "rooted in folklore",
+   "local folklore"
+  ],
+  "fam": "folk (adj, n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "artistic expression",
+  "ipa": "/ɑːˌtɪstɪk ɪkˈspreʃn/",
+  "pos": "n",
+  "vi": "sự biểu đạt nghệ thuật",
+  "ex": "Street art is a powerful form of artistic expression for young people.",
+  "exvi": "Nghệ thuật đường phố là một hình thức biểu đạt nghệ thuật mạnh mẽ của người trẻ.",
+  "col": [
+   "a form of artistic expression",
+   "freedom of artistic expression"
+  ],
+  "fam": "artist (n), artistically (adv), express (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "aesthetic",
+  "ipa": "/iːsˈθetɪk/",
+  "pos": "adj, n",
+  "vi": "(thuộc) thẩm mỹ; phong cách thẩm mỹ",
+  "ex": "Modern buildings should be judged on their aesthetic value as well as their function.",
+  "exvi": "Các toà nhà hiện đại nên được đánh giá cả về giá trị thẩm mỹ lẫn công năng.",
+  "col": [
+   "aesthetic value",
+   "aesthetic appeal"
+  ],
+  "fam": "aesthetics (n), aesthetically (adv)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "contemporary art",
+  "ipa": "/kənˌtemprəri ˈɑːt/",
+  "pos": "n",
+  "vi": "nghệ thuật đương đại",
+  "ex": "Contemporary art often challenges viewers to question social norms.",
+  "exvi": "Nghệ thuật đương đại thường thách thức người xem đặt câu hỏi về chuẩn mực xã hội.",
+  "col": [
+   "a contemporary art gallery",
+   "works of contemporary art"
+  ],
+  "fam": "contemporary (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "masterpiece",
+  "ipa": "/ˈmɑːstəpiːs/",
+  "pos": "n",
+  "vi": "kiệt tác",
+  "ex": "Museums allow ordinary people to see masterpieces they could never afford to own.",
+  "exvi": "Bảo tàng cho phép người bình thường ngắm những kiệt tác mà họ không bao giờ có thể sở hữu.",
+  "col": [
+   "a literary masterpiece",
+   "an artistic masterpiece"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "performing arts",
+  "ipa": "/pəˌfɔːmɪŋ ˈɑːts/",
+  "pos": "n",
+  "vi": "nghệ thuật biểu diễn",
+  "ex": "Funding for the performing arts helps keep ticket prices affordable.",
+  "exvi": "Tài trợ cho nghệ thuật biểu diễn giúp giữ giá vé ở mức phải chăng.",
+  "col": [
+   "a performing arts centre",
+   "study the performing arts"
+  ],
+  "fam": "perform (v), performer (n), performance (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "arts funding",
+  "ipa": "/ˈɑːts ˌfʌndɪŋ/",
+  "pos": "n",
+  "vi": "kinh phí tài trợ cho nghệ thuật",
+  "ex": "Arts funding is usually the first thing cut during an economic crisis.",
+  "exvi": "Kinh phí cho nghệ thuật thường bị cắt đầu tiên trong khủng hoảng kinh tế.",
+  "col": [
+   "cuts to arts funding",
+   "public arts funding"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural exchange",
+  "ipa": "/ˌkʌltʃərəl ɪksˈtʃeɪndʒ/",
+  "pos": "n",
+  "vi": "giao lưu văn hoá",
+  "ex": "Student exchange programmes promote cultural exchange and mutual understanding.",
+  "exvi": "Chương trình trao đổi sinh viên thúc đẩy giao lưu văn hoá và hiểu biết lẫn nhau.",
+  "col": [
+   "promote cultural exchange",
+   "a cultural exchange programme"
+  ],
+  "fam": "exchange (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural erosion",
+  "ipa": "/ˌkʌltʃərəl ɪˈrəʊʒn/",
+  "pos": "n",
+  "vi": "sự xói mòn văn hoá",
+  "ex": "Mass tourism can lead to cultural erosion in small villages.",
+  "exvi": "Du lịch đại trà có thể gây xói mòn văn hoá ở các làng nhỏ.",
+  "col": [
+   "lead to cultural erosion",
+   "fears of cultural erosion"
+  ],
+  "fam": "erode (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural homogenisation",
+  "ipa": "/ˌkʌltʃərəl həˌmɒdʒənaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "sự đồng nhất hoá văn hoá",
+  "ex": "Global fast-food chains are often blamed for cultural homogenisation.",
+  "exvi": "Các chuỗi đồ ăn nhanh toàn cầu thường bị đổ lỗi cho sự đồng nhất hoá văn hoá.",
+  "col": [
+   "lead to cultural homogenisation",
+   "resist cultural homogenisation"
+  ],
+  "fam": "homogeneous (adj), homogenise (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "heritage site",
+  "ipa": "/ˈherɪtɪdʒ saɪt/",
+  "pos": "n",
+  "vi": "khu di sản",
+  "ex": "Too many visitors can damage fragile heritage sites such as ancient temples.",
+  "exvi": "Quá nhiều du khách có thể làm hư hại các khu di sản mong manh như đền cổ.",
+  "col": [
+   "a World Heritage Site",
+   "protect heritage sites"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "exhibition",
+  "ipa": "/ˌeksɪˈbɪʃn/",
+  "pos": "n",
+  "vi": "cuộc triển lãm",
+  "ex": "The museum's new exhibition attracted record numbers of young visitors.",
+  "exvi": "Cuộc triển lãm mới của bảo tàng thu hút lượng khách trẻ kỷ lục.",
+  "col": [
+   "hold an exhibition",
+   "a temporary exhibition",
+   "on exhibition"
+  ],
+  "fam": "exhibit (v, n), exhibitor (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "patron",
+  "ipa": "/ˈpeɪtrən/",
+  "pos": "n",
+  "vi": "nhà bảo trợ (nghệ thuật)",
+  "ex": "Wealthy patrons have supported painters and musicians for many centuries.",
+  "exvi": "Các nhà bảo trợ giàu có đã hỗ trợ họa sĩ và nhạc sĩ suốt nhiều thế kỷ.",
+  "col": [
+   "a patron of the arts",
+   "wealthy patrons"
+  ],
+  "fam": "patronage (n), patronise (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "highbrow",
+  "ipa": "/ˈhaɪbraʊ/",
+  "pos": "adj",
+  "vi": "(văn hoá) hàn lâm, dành cho giới trí thức",
+  "ex": "Opera is often seen as highbrow entertainment for the wealthy.",
+  "exvi": "Nhạc opera thường bị xem là thú giải trí hàn lâm dành cho người giàu.",
+  "col": [
+   "highbrow culture",
+   "highbrow and lowbrow"
+  ],
+  "fam": "lowbrow (adj)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "subculture",
+  "ipa": "/ˈsʌbkʌltʃə/",
+  "pos": "n",
+  "vi": "tiểu văn hoá, văn hoá nhóm",
+  "ex": "Skateboarding began as a youth subculture before becoming an Olympic sport.",
+  "exvi": "Trượt ván khởi đầu là một tiểu văn hoá của giới trẻ trước khi trở thành môn thể thao Olympic.",
+  "col": [
+   "a youth subculture",
+   "urban subcultures"
+  ],
+  "fam": "subcultural (adj)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "craftsmanship",
+  "ipa": "/ˈkrɑːftsmənʃɪp/",
+  "pos": "n",
+  "vi": "tay nghề thủ công, sự khéo léo",
+  "ex": "Handmade lacquerware shows a level of craftsmanship that machines cannot match.",
+  "exvi": "Đồ sơn mài thủ công thể hiện tay nghề mà máy móc không thể sánh được.",
+  "col": [
+   "fine craftsmanship",
+   "traditional craftsmanship"
+  ],
+  "fam": "craft (n, v), craftsman (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "artisan",
+  "ipa": "/ˌɑːtɪˈzæn/",
+  "pos": "n",
+  "vi": "nghệ nhân, thợ thủ công",
+  "ex": "Local artisans struggle to compete with cheap mass-produced souvenirs.",
+  "exvi": "Nghệ nhân địa phương khó cạnh tranh với đồ lưu niệm sản xuất hàng loạt giá rẻ.",
+  "col": [
+   "skilled artisans",
+   "artisan products"
+  ],
+  "fam": "artisanal (adj)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "ritual",
+  "ipa": "/ˈrɪtʃuəl/",
+  "pos": "n",
+  "vi": "nghi lễ, nghi thức",
+  "ex": "Ancestor worship rituals remain an important part of family life in Vietnam.",
+  "exvi": "Nghi lễ thờ cúng tổ tiên vẫn là phần quan trọng trong đời sống gia đình Việt Nam.",
+  "col": [
+   "perform a ritual",
+   "religious rituals"
+  ],
+  "fam": "ritualistic (adj), ritually (adv)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "ancestral",
+  "ipa": "/ænˈsestrəl/",
+  "pos": "adj",
+  "vi": "(thuộc) tổ tiên",
+  "ex": "Many families return to their ancestral villages during Lunar New Year.",
+  "exvi": "Nhiều gia đình về quê cha đất tổ dịp Tết Nguyên đán.",
+  "col": [
+   "ancestral home",
+   "ancestral traditions"
+  ],
+  "fam": "ancestor (n), ancestry (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "cultural appropriation",
+  "ipa": "/ˌkʌltʃərəl əˌprəʊpriˈeɪʃn/",
+  "pos": "n",
+  "vi": "sự chiếm dụng văn hoá",
+  "ex": "Fashion brands have been accused of cultural appropriation for copying traditional designs.",
+  "exvi": "Các thương hiệu thời trang bị cáo buộc chiếm dụng văn hoá vì sao chép họa tiết truyền thống.",
+  "col": [
+   "accused of cultural appropriation",
+   "the debate over cultural appropriation"
+  ],
+  "fam": "appropriate (v)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "fine arts",
+  "ipa": "/ˌfaɪn ˈɑːts/",
+  "pos": "n",
+  "vi": "mỹ thuật",
+  "ex": "She studied fine arts before becoming a successful graphic designer.",
+  "exvi": "Cô ấy học mỹ thuật trước khi trở thành nhà thiết kế đồ hoạ thành công.",
+  "col": [
+   "a degree in fine arts",
+   "the fine arts"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "time-honoured",
+  "ipa": "/ˈtaɪm ˌɒnəd/",
+  "pos": "adj",
+  "vi": "lâu đời, được tôn trọng từ lâu",
+  "ex": "Making bánh chưng together is a time-honoured tradition before Tết.",
+  "exvi": "Cùng nhau gói bánh chưng là truyền thống lâu đời trước Tết.",
+  "col": [
+   "a time-honoured tradition",
+   "time-honoured methods"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "philistine",
+  "ipa": "/ˈfɪlɪstaɪn/",
+  "pos": "n",
+  "vi": "người không biết thưởng thức nghệ thuật",
+  "ex": "Only a philistine would argue that museums are a waste of money.",
+  "exvi": "Chỉ người không biết thưởng thức nghệ thuật mới cho rằng bảo tàng là lãng phí tiền.",
+  "col": [
+   "a cultural philistine",
+   "be dismissed as a philistine"
+  ],
+  "fam": "philistinism (n)",
+  "em": "",
+  "topic": "Culture & Arts",
+  "lv": 4
+ },
+ {
+  "w": "globalisation",
+  "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "toàn cầu hoá",
+  "ex": "Globalisation has lifted millions out of poverty but widened inequality in some countries.",
+  "exvi": "Toàn cầu hoá đã giúp hàng triệu người thoát nghèo nhưng làm gia tăng bất bình đẳng ở một số nước.",
+  "col": [
+   "the effects of globalisation",
+   "economic globalisation"
+  ],
+  "fam": "globalise (v), global (adj), globally (adv)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "multinational corporation",
+  "ipa": "/ˌmʌltiˌnæʃənl ˌkɔːpəˈreɪʃn/",
+  "pos": "n",
+  "vi": "tập đoàn đa quốc gia",
+  "ex": "Multinational corporations often move production to countries with lower wages.",
+  "exvi": "Các tập đoàn đa quốc gia thường chuyển sản xuất sang những nước có lương thấp hơn.",
+  "col": [
+   "large multinational corporations",
+   "the power of multinational corporations"
+  ],
+  "fam": "multinational (n, adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "free trade",
+  "ipa": "/ˌfriː ˈtreɪd/",
+  "pos": "n",
+  "vi": "thương mại tự do",
+  "ex": "Free trade agreements have boosted Vietnam's exports of textiles and electronics.",
+  "exvi": "Các hiệp định thương mại tự do đã thúc đẩy xuất khẩu dệt may và điện tử của Việt Nam.",
+  "col": [
+   "a free trade agreement",
+   "promote free trade"
+  ],
+  "fam": "trader (n)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "tariff",
+  "ipa": "/ˈtærɪf/",
+  "pos": "n",
+  "vi": "thuế quan",
+  "ex": "Raising tariffs on imported goods can protect local industries but increase prices.",
+  "exvi": "Tăng thuế quan với hàng nhập khẩu có thể bảo vệ ngành sản xuất trong nước nhưng làm tăng giá.",
+  "col": [
+   "impose tariffs on",
+   "lift tariffs",
+   "import tariffs"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "outsourcing",
+  "ipa": "/ˈaʊtsɔːsɪŋ/",
+  "pos": "n",
+  "vi": "thuê ngoài, gia công",
+  "ex": "Outsourcing customer service to other countries reduces costs for companies.",
+  "exvi": "Thuê ngoài dịch vụ khách hàng ở nước khác giúp công ty giảm chi phí.",
+  "col": [
+   "the outsourcing of jobs",
+   "outsourcing to developing countries"
+  ],
+  "fam": "outsource (v)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "economic growth",
+  "ipa": "/ˌiːkəˌnɒmɪk ˈɡrəʊθ/",
+  "pos": "n",
+  "vi": "tăng trưởng kinh tế",
+  "ex": "Rapid economic growth often comes at the cost of environmental damage.",
+  "exvi": "Tăng trưởng kinh tế nhanh thường phải trả giá bằng tổn hại môi trường.",
+  "col": [
+   "stimulate economic growth",
+   "sustained economic growth"
+  ],
+  "fam": "economy (n), economic (adj), economically (adv)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "recession",
+  "ipa": "/rɪˈseʃn/",
+  "pos": "n",
+  "vi": "suy thoái kinh tế",
+  "ex": "Young workers are usually the first to lose their jobs during a recession.",
+  "exvi": "Người lao động trẻ thường là những người mất việc đầu tiên khi suy thoái.",
+  "col": [
+   "go into recession",
+   "a deep recession",
+   "emerge from recession"
+  ],
+  "fam": "recede (v)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "inflation",
+  "ipa": "/ɪnˈfleɪʃn/",
+  "pos": "n",
+  "vi": "lạm phát",
+  "ex": "High inflation reduces the real value of people's savings.",
+  "exvi": "Lạm phát cao làm giảm giá trị thực của tiền tiết kiệm.",
+  "col": [
+   "high inflation",
+   "curb inflation",
+   "the inflation rate"
+  ],
+  "fam": "inflate (v), inflationary (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "gross domestic product",
+  "ipa": "/ˌɡrəʊs dəˌmestɪk ˈprɒdʌkt/",
+  "pos": "n",
+  "vi": "tổng sản phẩm quốc nội (GDP)",
+  "ex": "Gross domestic product does not measure the well-being of ordinary citizens.",
+  "exvi": "Tổng sản phẩm quốc nội không đo được mức sống hạnh phúc của người dân bình thường.",
+  "col": [
+   "GDP per capita",
+   "a rise in gross domestic product"
+  ],
+  "fam": "domestic (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "foreign direct investment",
+  "ipa": "/ˌfɒrən dəˌrekt ɪnˈvestmənt/",
+  "pos": "n",
+  "vi": "đầu tư trực tiếp nước ngoài (FDI)",
+  "ex": "Foreign direct investment has created millions of factory jobs in Asia.",
+  "exvi": "Đầu tư trực tiếp nước ngoài đã tạo ra hàng triệu việc làm trong nhà máy ở châu Á.",
+  "col": [
+   "attract foreign direct investment",
+   "inflows of foreign direct investment"
+  ],
+  "fam": "invest (v), investor (n)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "emerging economy",
+  "ipa": "/ɪˌmɜːdʒɪŋ ɪˈkɒnəmi/",
+  "pos": "n",
+  "vi": "nền kinh tế mới nổi",
+  "ex": "Emerging economies such as India are becoming major consumers of luxury goods.",
+  "exvi": "Các nền kinh tế mới nổi như Ấn Độ đang trở thành thị trường tiêu thụ hàng xa xỉ lớn.",
+  "col": [
+   "fast-growing emerging economies",
+   "emerging economies in Asia"
+  ],
+  "fam": "emerge (v)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "interdependence",
+  "ipa": "/ˌɪntədɪˈpendəns/",
+  "pos": "n",
+  "vi": "sự phụ thuộc lẫn nhau",
+  "ex": "The pandemic revealed the economic interdependence of nations.",
+  "exvi": "Đại dịch cho thấy sự phụ thuộc lẫn nhau về kinh tế giữa các quốc gia.",
+  "col": [
+   "economic interdependence",
+   "growing interdependence"
+  ],
+  "fam": "interdependent (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "brain drain",
+  "ipa": "/ˈbreɪn dreɪn/",
+  "pos": "n",
+  "vi": "chảy máu chất xám",
+  "ex": "Low salaries for doctors have caused a serious brain drain in many poorer countries.",
+  "exvi": "Lương bác sĩ thấp đã gây chảy máu chất xám nghiêm trọng ở nhiều nước nghèo.",
+  "col": [
+   "reverse the brain drain",
+   "suffer from a brain drain"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "cheap labour",
+  "ipa": "/ˌtʃiːp ˈleɪbə/",
+  "pos": "n",
+  "vi": "nhân công giá rẻ",
+  "ex": "Factories were attracted to the region by its supply of cheap labour.",
+  "exvi": "Các nhà máy bị thu hút đến khu vực này nhờ nguồn nhân công giá rẻ.",
+  "col": [
+   "exploit cheap labour",
+   "a source of cheap labour"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "exploitation",
+  "ipa": "/ˌeksplɔɪˈteɪʃn/",
+  "pos": "n",
+  "vi": "sự bóc lột; sự khai thác",
+  "ex": "Stronger labour laws are needed to prevent the exploitation of migrant workers.",
+  "exvi": "Cần luật lao động mạnh hơn để ngăn việc bóc lột lao động nhập cư.",
+  "col": [
+   "the exploitation of workers",
+   "protect from exploitation"
+  ],
+  "fam": "exploit (v), exploitative (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "sweatshop",
+  "ipa": "/ˈswetʃɒp/",
+  "pos": "n",
+  "vi": "xưởng bóc lột lao động (lương thấp, điều kiện tồi)",
+  "ex": "Consumers are increasingly refusing to buy clothes made in sweatshops.",
+  "exvi": "Người tiêu dùng ngày càng từ chối mua quần áo sản xuất trong các xưởng bóc lột lao động.",
+  "col": [
+   "sweatshop labour",
+   "sweatshop conditions"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "standard of living",
+  "ipa": "/ˌstændəd əv ˈlɪvɪŋ/",
+  "pos": "n",
+  "vi": "mức sống",
+  "ex": "Trade has raised the standard of living for many families in developing countries.",
+  "exvi": "Thương mại đã nâng cao mức sống cho nhiều gia đình ở các nước đang phát triển.",
+  "col": [
+   "raise the standard of living",
+   "a high standard of living"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "purchasing power",
+  "ipa": "/ˈpɜːtʃəsɪŋ ˌpaʊə/",
+  "pos": "n",
+  "vi": "sức mua",
+  "ex": "Rising prices have reduced the purchasing power of low-income households.",
+  "exvi": "Giá cả tăng đã làm giảm sức mua của các hộ thu nhập thấp.",
+  "col": [
+   "reduce purchasing power",
+   "consumer purchasing power"
+  ],
+  "fam": "purchase (v, n), purchaser (n)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "economic downturn",
+  "ipa": "/ˌiːkəˌnɒmɪk ˈdaʊntɜːn/",
+  "pos": "n",
+  "vi": "sự suy giảm kinh tế",
+  "ex": "Tourism is one of the first industries to suffer during an economic downturn.",
+  "exvi": "Du lịch là một trong những ngành chịu ảnh hưởng đầu tiên khi kinh tế suy giảm.",
+  "col": [
+   "during an economic downturn",
+   "a sharp economic downturn"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "e-commerce",
+  "ipa": "/ˈiː ˌkɒmɜːs/",
+  "pos": "n",
+  "vi": "thương mại điện tử",
+  "ex": "The growth of e-commerce has forced many traditional shops to close.",
+  "exvi": "Sự phát triển của thương mại điện tử đã buộc nhiều cửa hàng truyền thống đóng cửa.",
+  "col": [
+   "e-commerce platforms",
+   "the boom in e-commerce"
+  ],
+  "fam": "commerce (n), commercial (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "supply chain",
+  "ipa": "/səˈplaɪ tʃeɪn/",
+  "pos": "n",
+  "vi": "chuỗi cung ứng",
+  "ex": "Global supply chains were severely disrupted during the pandemic.",
+  "exvi": "Chuỗi cung ứng toàn cầu bị gián đoạn nghiêm trọng trong đại dịch.",
+  "col": [
+   "disrupt supply chains",
+   "global supply chains"
+  ],
+  "fam": "supply (v, n), supplier (n)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "protectionism",
+  "ipa": "/prəˈtekʃənɪzəm/",
+  "pos": "n",
+  "vi": "chủ nghĩa bảo hộ (mậu dịch)",
+  "ex": "Protectionism may save some local jobs in the short term but harms consumers.",
+  "exvi": "Chủ nghĩa bảo hộ có thể giữ một số việc làm trong nước trước mắt nhưng gây hại cho người tiêu dùng.",
+  "col": [
+   "a rise in protectionism",
+   "economic protectionism"
+  ],
+  "fam": "protectionist (adj, n), protect (v)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "global village",
+  "ipa": "/ˌɡləʊbl ˈvɪlɪdʒ/",
+  "pos": "n",
+  "vi": "ngôi làng toàn cầu (thế giới kết nối chặt chẽ)",
+  "ex": "The internet has turned the world into a global village.",
+  "exvi": "Internet đã biến thế giới thành một ngôi làng toàn cầu.",
+  "col": [
+   "live in a global village",
+   "the idea of a global village"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "cost of living",
+  "ipa": "/ˌkɒst əv ˈlɪvɪŋ/",
+  "pos": "n",
+  "vi": "chi phí sinh hoạt",
+  "ex": "The rising cost of living is pushing young people out of city centres.",
+  "exvi": "Chi phí sinh hoạt tăng đang đẩy người trẻ ra khỏi trung tâm thành phố.",
+  "col": [
+   "the rising cost of living",
+   "a cost-of-living crisis"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "disposable income",
+  "ipa": "/dɪˌspəʊzəbl ˈɪnkʌm/",
+  "pos": "n",
+  "vi": "thu nhập khả dụng (tiền còn lại sau thuế, chi phí thiết yếu)",
+  "ex": "As disposable income grows, people spend more on travel and entertainment.",
+  "exvi": "Khi thu nhập khả dụng tăng, người ta chi nhiều hơn cho du lịch và giải trí.",
+  "col": [
+   "have more disposable income",
+   "household disposable income"
+  ],
+  "fam": "dispose (v)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "economies of scale",
+  "ipa": "/ɪˌkɒnəmiz əv ˈskeɪl/",
+  "pos": "n",
+  "vi": "lợi thế kinh tế theo quy mô",
+  "ex": "Large retailers benefit from economies of scale that small shops cannot match.",
+  "exvi": "Các nhà bán lẻ lớn hưởng lợi thế quy mô mà cửa hàng nhỏ không thể sánh được.",
+  "col": [
+   "benefit from economies of scale",
+   "achieve economies of scale"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "trade deficit",
+  "ipa": "/ˈtreɪd ˌdefɪsɪt/",
+  "pos": "n",
+  "vi": "thâm hụt thương mại",
+  "ex": "The country has run a trade deficit for years because it imports more than it exports.",
+  "exvi": "Đất nước này thâm hụt thương mại nhiều năm vì nhập khẩu nhiều hơn xuất khẩu.",
+  "col": [
+   "run a trade deficit",
+   "reduce the trade deficit"
+  ],
+  "fam": "trade surplus (n)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "Westernisation",
+  "ipa": "/ˌwestənaɪˈzeɪʃn/",
+  "pos": "n",
+  "vi": "sự Tây hoá",
+  "ex": "Some older people worry that Westernisation is eroding traditional family values.",
+  "exvi": "Một số người lớn tuổi lo rằng sự Tây hoá đang làm xói mòn giá trị gia đình truyền thống.",
+  "col": [
+   "the Westernisation of",
+   "rapid Westernisation"
+  ],
+  "fam": "Westernise (v), Westernised (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "trade barrier",
+  "ipa": "/ˈtreɪd ˌbæriə/",
+  "pos": "n",
+  "vi": "rào cản thương mại",
+  "ex": "Removing trade barriers allows smaller countries to access larger markets.",
+  "exvi": "Dỡ bỏ rào cản thương mại giúp các nước nhỏ tiếp cận thị trường lớn hơn.",
+  "col": [
+   "remove trade barriers",
+   "impose trade barriers"
+  ],
+  "fam": "",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ },
+ {
+  "w": "income disparity",
+  "ipa": "/ˈɪnkʌm dɪˌspærəti/",
+  "pos": "n",
+  "vi": "sự chênh lệch thu nhập",
+  "ex": "Income disparity between urban and rural workers continues to grow.",
+  "exvi": "Chênh lệch thu nhập giữa lao động thành thị và nông thôn tiếp tục gia tăng.",
+  "col": [
+   "widening income disparity",
+   "reduce income disparity"
+  ],
+  "fam": "disparate (adj)",
+  "em": "",
+  "topic": "Globalisation & Economy",
+  "lv": 4
+ }
+]

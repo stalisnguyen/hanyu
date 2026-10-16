@@ -1,0 +1,620 @@
+[
+ {
+  "id": "a4p1",
+  "type": "academic",
+  "test": 4,
+  "section": 1,
+  "title": "Sealed for the Journey: A Short History of the Tin Can",
+  "topic": "food history",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "In 1795, France was at war on several fronts, and its armies were suffering more from hunger and scurvy than from enemy fire. The government offered a prize of 12,000 francs to anyone who could devise a reliable method of keeping food edible for long periods. The challenge was taken up by Nicolas Appert, a Parisian confectioner and brewer who had spent years experimenting in his kitchen. Appert had no scientific explanation for why food spoiled; the work of Louis Pasteur on micro-organisms lay more than half a century in the future. What he had was patience and a practical observation: food that was sealed in an airtight container and then heated thoroughly would stay fresh for months."
+   ],
+   [
+    "B",
+    "Appert's method used thick glass bottles, which he filled with soups, vegetables, fruit and even whole partridges. He closed the necks with cork, wired the corks in place, and then plunged the bottles into boiling water for periods that varied according to the contents. In 1806 samples were sent to sea with the French navy, and after several months the meat and vegetables were found to be in excellent condition. Appert was awarded the prize in 1810 on the condition that he publish his technique, which he did in a book with the lengthy title The Art of Preserving All Kinds of Animal and Vegetable Substances for Several Years. He used the money to open what is often described as the world's first commercial canning factory, although it produced bottles rather than cans."
+   ],
+   [
+    "C",
+    "Glass, however, had obvious disadvantages for armies and navies. It was heavy, and it broke easily when carts jolted along rough roads or ships rolled in heavy seas. Within months of Appert's publication, an English merchant named Peter Durand obtained a patent for preserving food in containers made of tin-plated iron. Durand does not seem to have manufactured anything himself; he sold the patent for £1,000 to Bryan Donkin and John Hall, who set up a factory in south London in 1812. By 1813 they were supplying canned beef, mutton and vegetable soup to the Royal Navy, and the Duke of Wellington is reported to have tasted their products and found them acceptable."
+   ],
+   [
+    "D",
+    "Early cans were far from convenient. Each one was made by hand: a skilled tinsmith cut the metal, shaped it around a mould and soldered the seams, and a good worker might produce only sixty cans in a day. The cans were also extremely solid, with walls often thicker than those of modern containers, and they carried no means of opening them. Instructions on some early naval rations advised the user to cut around the top with a chisel and hammer. Soldiers in the field were known to use bayonets, knives or even rifle fire. The first dedicated can opener did not appear until 1858, almost half a century after the can itself, and the familiar rotating-wheel design was not patented until 1870."
+   ],
+   [
+    "E",
+    "Safety was a second problem. Because nobody understood the science behind the process, manufacturers had no reliable way to decide how long a can needed to be heated. Some producers shortened heating times to increase output, and the results could be disastrous. In 1845 a British expedition led by Sir John Franklin set out to find a sea route through the Arctic, carrying thousands of cans of food. None of the 129 men returned. Later investigators suggested that poorly soldered cans may have exposed the crew to lead, although historians continue to debate how much this contributed to the tragedy compared with cold, scurvy and starvation."
+   ],
+   [
+    "F",
+    "Change came in the second half of the nineteenth century from two directions. First, Pasteur's research in the 1860s showed that spoilage was caused by living organisms, which gave canners a scientific basis for their work. Second, the introduction of pressure cookers into factories allowed cans to be heated to temperatures above the boiling point of water, which killed bacteria far more efficiently and reduced processing time. At the same time, machines began to replace hand labour. By the 1880s, automated lines in the United States could produce thousands of cans an hour, and the price of canned food fell sharply."
+   ],
+   [
+    "G",
+    "Demand grew as prices fell. The American Civil War in the 1860s had already introduced large numbers of soldiers to canned meat and vegetables, and many continued to buy them after returning home. In cities, where fresh produce was often expensive out of season, canned tomatoes, peaches and condensed milk became ordinary household items. Brand names began to appear on brightly printed labels, and companies competed to persuade shoppers that their products were clean, modern and trustworthy. The can had moved from the battlefield to the kitchen cupboard."
+   ],
+   [
+    "H",
+    "Today the basic principle remains the one Appert discovered: seal the food, then heat it. Modern cans are made of thinner steel or aluminium, the seams are sealed by machine rather than soldered, and the inside surface is usually coated to stop the metal reacting with acidic foods. Yet the story of the can is a reminder that a technology can be adopted widely long before anyone fully understands why it works. For more than fifty years, millions of people trusted a method whose success was, in scientific terms, a mystery."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-5\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "The French government's prize was intended mainly to help feed the civilian population.",
+      "a": "FALSE",
+      "para": "A",
+      "why": "Đoạn A: quân đội Pháp 'were suffering more from hunger and scurvy than from enemy fire' và chính phủ đặt giải thưởng trong bối cảnh chiến tranh. Mục đích là nuôi quân đội, không phải dân thường, nên câu này trái với bài."
+     },
+     {
+      "q": "Appert knew that micro-organisms were responsible for food going bad.",
+      "a": "FALSE",
+      "para": "A",
+      "why": "Đoạn A: 'Appert had no scientific explanation for why food spoiled; the work of Louis Pasteur on micro-organisms lay more than half a century in the future.' Ông không biết gì về vi sinh vật, nên FALSE."
+     },
+     {
+      "q": "Appert's first factory preserved food in glass containers.",
+      "a": "TRUE",
+      "para": "B",
+      "why": "Đoạn B: nhà máy đầu tiên 'produced bottles rather than cans', và chai của ông là 'thick glass bottles'. Vậy đúng là đồ đựng bằng thủy tinh."
+     },
+     {
+      "q": "Peter Durand sold his patent for more money than it had cost him to obtain it.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói Durand bán bằng sáng chế với giá £1,000, không nói ông tốn bao nhiêu để có bằng sáng chế đó. Không có thông tin để so sánh, nên NOT GIVEN."
+     },
+     {
+      "q": "The Duke of Wellington ordered canned food for all of his soldiers.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói Công tước Wellington 'is reported to have tasted their products and found them acceptable'. Bài không nhắc việc ông đặt mua cho toàn quân, nên NOT GIVEN."
+     }
+    ]
+   },
+   {
+    "kind": "notecomp",
+    "instr": "Questions 6-10\nComplete the notes below.\nChoose ONE WORD AND/OR A NUMBER from the passage for each answer.",
+    "items": [
+     {
+      "q": "Problems with early cans: each can was made by hand by a ___",
+      "a": "tinsmith",
+      "para": "D",
+      "why": "Đoạn D: 'a skilled tinsmith cut the metal, shaped it around a mould and soldered the seams'. Đáp án: tinsmith."
+     },
+     {
+      "q": "one worker could make only about ___ cans per day",
+      "a": "sixty|60",
+      "para": "D",
+      "why": "Đoạn D: 'a good worker might produce only sixty cans in a day'. Đáp án: sixty (hoặc 60)."
+     },
+     {
+      "q": "naval instructions suggested opening cans with a chisel and a ___",
+      "a": "hammer",
+      "para": "D",
+      "why": "Đoạn D: 'advised the user to cut around the top with a chisel and hammer'. Đáp án: hammer."
+     },
+     {
+      "q": "the first can opener was produced in ___",
+      "a": "1858",
+      "para": "D",
+      "why": "Đoạn D: 'The first dedicated can opener did not appear until 1858'. Lưu ý 1870 là năm cấp bằng cho kiểu bánh xe xoay, không phải dụng cụ đầu tiên."
+     },
+     {
+      "q": "Franklin expedition: badly made cans may have exposed the men to ___",
+      "a": "lead",
+      "para": "E",
+      "why": "Đoạn E: 'poorly soldered cans may have exposed the crew to lead'. Đáp án: lead (chì)."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 11-13\nReading Passage 1 has eight paragraphs, A-H.\nWhich paragraph contains the following information?\nWrite the correct letter, A-H.",
+    "items": [
+     {
+      "q": "a reference to how wartime experience shaped what people bought later",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: lính trong Nội chiến Mỹ làm quen với đồ hộp 'and many continued to buy them after returning home'. Đây là trải nghiệm thời chiến ảnh hưởng thói quen mua sau này."
+     },
+     {
+      "q": "an explanation of why heating cans to a higher temperature was an improvement",
+      "a": "F",
+      "para": "F",
+      "why": "Đoạn F: nồi áp suất giúp 'heated to temperatures above the boiling point of water, which killed bacteria far more efficiently and reduced processing time'."
+     },
+     {
+      "q": "a description of the ways in which modern cans differ from early ones",
+      "a": "H",
+      "para": "H",
+      "why": "Đoạn H: lon hiện đại 'made of thinner steel or aluminium', mối nối 'sealed by machine rather than soldered', bên trong 'usually coated'. Đây là các điểm khác với lon thời đầu."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "edible",
+    "ăn được"
+   ],
+   [
+    "devise a method",
+    "nghĩ ra một phương pháp"
+   ],
+   [
+    "spoil",
+    "(thức ăn) hỏng, ôi thiu"
+   ],
+   [
+    "airtight",
+    "kín khí"
+   ],
+   [
+    "obtain a patent",
+    "được cấp bằng sáng chế"
+   ],
+   [
+    "solder",
+    "hàn (kim loại)"
+   ],
+   [
+    "seam",
+    "đường nối, mối nối"
+   ],
+   [
+    "ration",
+    "khẩu phần (đặc biệt trong quân đội)"
+   ],
+   [
+    "output",
+    "sản lượng"
+   ],
+   [
+    "out of season",
+    "trái mùa"
+   ],
+   [
+    "adopt a technology",
+    "áp dụng một công nghệ"
+   ]
+  ]
+ },
+ {
+  "id": "a4p2",
+  "type": "academic",
+  "test": 4,
+  "section": 2,
+  "title": "Meadows Beneath the Waves",
+  "topic": "ocean science",
+  "band": "6.0-7.0",
+  "paras": [
+   [
+    "A",
+    "Ask most people to name the ecosystems that help to slow climate change, and they will mention rainforests. Few will think of the shallow, sunlit waters along the world's coasts, where flowering plants called seagrasses form dense underwater meadows. Seagrasses are not seaweeds, which are algae; they are true plants, descended from land-dwelling ancestors that returned to the sea roughly 100 million years ago. They have roots, leaves and flowers, and some species even release pollen into the water. Although they cover less than 0.2 per cent of the ocean floor, a growing body of research suggests that they store a remarkably large share of the carbon buried in marine sediments each year, with some estimates putting the figure at around ten per cent."
+   ],
+   [
+    "B",
+    "The secret lies less in the plants themselves than in what happens beneath them. Like any plant, a seagrass absorbs carbon dioxide during photosynthesis and uses it to build leaves and roots. But a meadow also acts as a trap. Its leaves slow the movement of water, so that tiny particles of organic matter drifting in the current, including fragments of dead plankton and material washed from the land, settle on the seabed rather than being carried away. These particles are then buried by sediment. Because the mud below a meadow contains very little oxygen, the microbes that would normally break down this material work extremely slowly. As a result, carbon can remain locked in the sediment not for decades, as in many forests, but for thousands of years. Dr Helena Varga, a marine ecologist who has taken sediment cores in the Mediterranean, found carbon-rich layers beneath one meadow that were more than 4,000 years old."
+   ],
+   [
+    "C",
+    "This long-term storage has led scientists to coin the term 'blue carbon' for carbon captured by coastal ecosystems, including mangrove forests and salt marshes as well as seagrass. Interest in blue carbon has grown rapidly over the past fifteen years, partly because governments and companies are searching for ways to offset emissions they cannot easily reduce. If the carbon stored in a restored meadow could be measured reliably, it might be sold as credits, providing money for conservation. Several pilot schemes are already under way, although none has yet operated long enough to prove its value."
+   ],
+   [
+    "D",
+    "The difficulty is that seagrass meadows are disappearing. Studies of records from around the world indicate that about a third of the global area has been lost since the late nineteenth century, and in some regions the rate of loss accelerated in the late twentieth century. The causes are mostly local. Nutrients from farm fertiliser and sewage encourage the growth of algae, which cloud the water and block the light the seagrass needs. Dredging for ports, boat anchors and coastal construction tear up the plants directly. Rising sea temperatures add further stress: during a marine heatwave off Western Australia in 2011, large areas of meadow in Shark Bay died within weeks. When a meadow is destroyed, the sediment it held in place can be washed away, and the carbon it contains may be released back into the water and eventually the atmosphere."
+   ],
+   [
+    "E",
+    "Restoration, therefore, seems an obvious response, but it has a mixed history. Early attempts in the 1980s and 1990s often involved transplanting adult plants from healthy meadows, an expensive process that damaged the donor sites and frequently failed. A more successful approach was developed in Virginia, on the east coast of the United States, where seagrass had vanished from coastal bays after a disease outbreak in the 1930s. Beginning in 1999, researchers and volunteers collected millions of seeds and scattered them by hand from small boats. Professor Daniel Okafor, who has studied the project for over a decade, describes the result as 'better than anyone predicted'. The restored meadows now cover more than 3,600 hectares, and measurements show that the sediment beneath them is steadily accumulating carbon. Okafor stresses, however, that success depended on a condition that cannot be created artificially in the short term: the water quality in the bays was already good."
+   ],
+   [
+    "F",
+    "Not all scientists share the enthusiasm for seagrass as a climate solution. Dr Mei Lin Tan, a biogeochemist, points out that some of the carbon found under meadows originally came from elsewhere, such as rivers or nearby forests, and might have been buried anyway. Counting it as a benefit of the meadow could exaggerate the climate value of restoration. She also notes that seagrass sediments can produce small amounts of methane, and that animals living in the meadows release carbon dioxide as they build their shells. In her view, these factors do not cancel out the benefits, but they mean that carbon accounts must be calculated with great care. Varga accepts that the measurements are complex, but argues that uncertainty should not become an excuse for doing nothing."
+   ],
+   [
+    "G",
+    "Even the most optimistic researchers accept that seagrass cannot compensate for continued fossil fuel use. The total amount of carbon these meadows could absorb, even if all lost areas were restored, is small compared with global emissions. Their wider value may lie elsewhere. Meadows shelter young fish, including commercially important species, filter coastal water, and reduce the force of waves reaching the shore. Protecting them, many ecologists argue, makes sense whatever their precise role in the carbon budget."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 1-6\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for paragraphs B-G from the list of headings below.\nWrite the correct number, i-x.",
+    "opts": [
+     "The origins and structure of an overlooked plant",
+     "How a meadow captures and keeps carbon",
+     "A new label and a possible source of funding",
+     "A widespread decline and its main causes",
+     "A seed-based method that worked in the right conditions",
+     "Doubts about how the benefits are calculated",
+     "Reasons for protection that go beyond climate",
+     "Why transplanting adult plants remains the preferred method",
+     "Comparing the carbon stored by seagrass and rainforests",
+     "Government laws that have slowed coastal damage"
+    ],
+    "items": [
+     {
+      "q": "Paragraph B",
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B giải thích cơ chế: lá làm chậm dòng nước để hạt hữu cơ lắng xuống, bùn ít oxy nên carbon 'can remain locked in the sediment ... for thousands of years'. Khớp với 'captures and keeps carbon'."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 2,
+      "para": "C",
+      "why": "Đoạn C giới thiệu thuật ngữ mới 'blue carbon' và khả năng bán carbon 'as credits, providing money for conservation'. Tức là một cái tên mới và một nguồn tiền."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 3,
+      "para": "D",
+      "why": "Đoạn D: 'about a third of the global area has been lost' và liệt kê nguyên nhân: dinh dưỡng thừa, nạo vét, neo thuyền, nhiệt độ tăng. Khớp với 'decline and its main causes'."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 4,
+      "para": "E",
+      "why": "Đoạn E kể dự án Virginia rải hạt giống ('collected millions of seeds and scattered them') thành công nhờ điều kiện 'the water quality in the bays was already good'. Bẫy: heading viii nói cấy cây trưởng thành là phương pháp được ưa chuộng, nhưng bài nói cách đó 'frequently failed'."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 5,
+      "para": "F",
+      "why": "Đoạn F: Tan cho rằng một phần carbon 'might have been buried anyway' và 'carbon accounts must be calculated with great care'. Đây là nghi ngờ về cách tính lợi ích."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 6,
+      "para": "G",
+      "why": "Đoạn G: 'Their wider value may lie elsewhere' (che chở cá con, lọc nước, giảm sóng) và nên bảo vệ 'whatever their precise role in the carbon budget'. Khớp với lý do ngoài khí hậu."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 7-10\nLook at the following statements and the list of researchers below.\nMatch each statement with the correct researcher, A, B or C.\nYou may use any letter more than once.",
+    "opts": [
+     "Helena Varga",
+     "Daniel Okafor",
+     "Mei Lin Tan"
+    ],
+    "items": [
+     {
+      "q": "The success of a restoration project relied partly on existing environmental conditions.",
+      "a": 1,
+      "para": "E",
+      "why": "Đoạn E: 'Okafor stresses, however, that success depended on a condition ...: the water quality in the bays was already good.'"
+     },
+     {
+      "q": "Some of the carbon credited to seagrass might have been stored even without the meadow.",
+      "a": 2,
+      "para": "F",
+      "why": "Đoạn F: Tan 'points out that some of the carbon found under meadows originally came from elsewhere ... and might have been buried anyway.'"
+     },
+     {
+      "q": "Carbon has remained in sediment beneath a meadow for several thousand years.",
+      "a": 0,
+      "para": "B",
+      "why": "Đoạn B: Varga 'found carbon-rich layers beneath one meadow that were more than 4,000 years old.'"
+     },
+     {
+      "q": "A lack of certainty is not a good reason to avoid taking action.",
+      "a": 0,
+      "para": "F",
+      "why": "Đoạn F: 'Varga ... argues that uncertainty should not become an excuse for doing nothing.' Bẫy: câu này nằm trong đoạn nói về Tan, nhưng người phát biểu là Varga."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 11-14\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "Seagrass is declining in many regions. Excess ___ from farms and sewage leads to the growth of algae, which reduces the light reaching the plants.",
+      "a": "nutrients",
+      "para": "D",
+      "why": "Đoạn D: 'Nutrients from farm fertiliser and sewage encourage the growth of algae'. Đáp án: nutrients."
+     },
+     {
+      "q": "The plants are also damaged directly by dredging, building work and boat ___.",
+      "a": "anchors",
+      "para": "D",
+      "why": "Đoạn D: 'Dredging for ports, boat anchors and coastal construction tear up the plants directly.' Đáp án: anchors."
+     },
+     {
+      "q": "In Shark Bay, large areas of meadow died within weeks during a ___ in 2011.",
+      "a": "marine heatwave|heatwave",
+      "para": "D",
+      "why": "Đoạn D: 'during a marine heatwave off Western Australia in 2011, large areas of meadow in Shark Bay died within weeks'."
+     },
+     {
+      "q": "In Virginia, seagrass had disappeared from the coastal bays following a ___ in the 1930s.",
+      "a": "disease outbreak|disease",
+      "para": "E",
+      "why": "Đoạn E: 'seagrass had vanished from coastal bays after a disease outbreak in the 1930s'. 'vanished' = 'disappeared', 'after' = 'following'."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "meadow",
+    "đồng cỏ"
+   ],
+   [
+    "sediment",
+    "trầm tích"
+   ],
+   [
+    "organic matter",
+    "chất hữu cơ"
+   ],
+   [
+    "coin a term",
+    "đặt ra một thuật ngữ"
+   ],
+   [
+    "offset emissions",
+    "bù đắp lượng khí thải"
+   ],
+   [
+    "pilot scheme",
+    "dự án thí điểm"
+   ],
+   [
+    "dredging",
+    "nạo vét (lòng biển, lòng sông)"
+   ],
+   [
+    "accelerate",
+    "tăng tốc"
+   ],
+   [
+    "restoration",
+    "sự phục hồi"
+   ],
+   [
+    "exaggerate",
+    "phóng đại, cường điệu"
+   ],
+   [
+    "compensate for",
+    "bù đắp cho"
+   ],
+   [
+    "shelter",
+    "che chở, làm nơi trú ẩn cho"
+   ]
+  ]
+ },
+ {
+  "id": "a4p3",
+  "type": "academic",
+  "test": 4,
+  "section": 3,
+  "title": "Should Beauty Guide Physics?",
+  "topic": "philosophy of science",
+  "band": "7.0-8.0",
+  "paras": [
+   [
+    "A",
+    "Physicists are not usually thought of as connoisseurs of beauty, yet the language of aesthetics runs through the history of their discipline. Paul Dirac, whose equation describing the electron predicted the existence of antimatter, declared that it was more important for a theory to be beautiful than to agree with experiment. Einstein is said to have been so confident in general relativity that, asked what he would have done had observations contradicted it, he replied that he would have felt sorry for God. Such remarks are often repeated with admiration. I want to suggest that they deserve rather more suspicion than they usually receive."
+   ],
+   [
+    "B",
+    "It would be foolish to deny that aesthetic judgement has played a productive role in science. When two theories explain the same data, scientists routinely prefer the one that makes fewer assumptions, and there are good reasons for doing so. A theory with fewer adjustable parts is harder to rescue when it fails, and therefore says more about the world. In this limited sense, simplicity is not a matter of taste at all but a practical virtue. Elegance can also serve as a useful signal during research: a calculation that suddenly becomes neat may indicate that the investigator has found the right variables. Many working scientists report precisely this experience, and I see no reason to doubt them."
+   ],
+   [
+    "C",
+    "The trouble begins when beauty is treated not as a guide to where truth might be found, but as a substitute for evidence. The historical record is less flattering to the aesthetic approach than its defenders admit. Johannes Kepler spent years trying to show that the orbits of the planets were determined by the five perfect solids of geometry, a scheme he regarded as divinely beautiful. It was wrong. His lasting achievement, the discovery that planetary orbits are ellipses, came only when he abandoned the circles that astronomers since antiquity had considered the most perfect of shapes. In this case, progress required giving up beauty rather than pursuing it. Nineteenth-century physicists, too, found the idea that atoms were tiny whirlpools in an invisible fluid extraordinarily elegant; the theory occupied serious minds for decades and left almost nothing behind."
+   ],
+   [
+    "D",
+    "The success stories, meanwhile, are vulnerable to a familiar bias. We remember Dirac's equation because it was confirmed; the many attractive theories that were not have largely been forgotten, along with the confidence of their authors. If beauty were genuinely reliable, we would expect the proportion of beautiful theories that turn out to be true to be noticeably higher than the proportion of ugly ones. Nobody has shown this, and it is not obvious how it could be shown, since judgements of beauty are often made after a theory has already been accepted. Familiarity breeds affection: quantum mechanics struck many of its founders as ugly and arbitrary, and it is only after a century of success that textbooks describe it as profound and elegant."
+   ],
+   [
+    "E",
+    "Why should any of this matter now? Because in some areas of fundamental physics the gap between theory and experiment has become very wide. Certain proposals concern energies far beyond the reach of any conceivable particle accelerator, and their supporters have sometimes defended them on the grounds that they are too elegant to be false. Critics within the field have warned that this amounts to a quiet change in the rules of science, in which mathematical attractiveness takes the place of observation. If that change is allowed to continue, decisions about which research to fund and which young scientists to hire may come to depend on a shared aesthetic rather than on results, and a whole generation could be trained to admire the same untested ideas."
+   ],
+   [
+    "F",
+    "One response is to argue that aesthetic preferences in physics are not arbitrary but have been shaped by centuries of contact with nature, so that physicists' sense of beauty has, in effect, been trained by the universe itself. There is something to this. Yet a sense trained on past successes is, by definition, a sense trained on the kinds of theory that worked before. It may be poorly suited to recognising the kind of theory that will work next, especially if, as has happened repeatedly, nature turns out to be stranger than anyone expected. Kepler's ellipses and the probabilities of quantum mechanics both offended the aesthetic expectations of their day."
+   ],
+   [
+    "G",
+    "None of this means that scientists should stop talking about beauty, or that the pleasure they take in an elegant result is somehow illegitimate. Aesthetic response is part of what draws people into science and keeps them there through years of frustrating work. Nor am I proposing that elegance should be ignored when choosing which ideas to explore first; with limited time and money, researchers must start somewhere, and an attractive idea is as reasonable a starting point as any. My claim is narrower: that beauty may properly influence where scientists look, but never what they conclude. A theory earns belief by surviving tests it could have failed, not by moving those who study it."
+   ],
+   [
+    "H",
+    "Perhaps the most telling evidence comes from scientists themselves. Asked privately, many will admit that the theories they found most beautiful as students were not the ones that proved most important in their careers. That is a modest observation, but it points in the right direction. Beauty, like intuition, is a valuable servant and a poor master."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "ynng",
+    "instr": "Questions 1-5\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "Remarks by Dirac and Einstein about beauty are usually treated less critically than they should be.",
+      "a": "YES",
+      "para": "A",
+      "why": "Đoạn A: 'Such remarks are often repeated with admiration. I want to suggest that they deserve rather more suspicion than they usually receive.' Tác giả cho rằng người ta nên hoài nghi chúng nhiều hơn, nên YES."
+     },
+     {
+      "q": "Preferring a theory with fewer assumptions is simply a matter of personal taste.",
+      "a": "NO",
+      "para": "B",
+      "why": "Đoạn B: 'simplicity is not a matter of taste at all but a practical virtue'. Trái ngược trực tiếp với câu hỏi, nên NO."
+     },
+     {
+      "q": "Scientists who say that a calculation suddenly became neat are probably misremembering their experience.",
+      "a": "NO",
+      "para": "B",
+      "why": "Đoạn B: 'Many working scientists report precisely this experience, and I see no reason to doubt them.' Tác giả tin họ, nên NO."
+     },
+     {
+      "q": "Physicists today rely on aesthetic judgement more heavily than physicists did in Kepler's time.",
+      "a": "NOT GIVEN",
+      "para": "E",
+      "why": "Đoạn E có nói một số đề xuất hiện nay được bảo vệ vì 'too elegant to be false', nhưng tác giả không so sánh mức độ dựa vào cái đẹp giữa hôm nay và thời Kepler. Không xác định được quan điểm, nên NOT GIVEN."
+     },
+     {
+      "q": "It is reasonable for elegance to influence which ideas researchers investigate first.",
+      "a": "YES",
+      "para": "G",
+      "why": "Đoạn G: 'Nor am I proposing that elegance should be ignored when choosing which ideas to explore first ... an attractive idea is as reasonable a starting point as any' và 'beauty may properly influence where scientists look'. Nên YES."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 6-9\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "Why does the writer mention Kepler in paragraph C?",
+      "o": [
+       "to show that the pursuit of beauty can sometimes delay progress",
+       "to praise the geometry developed by ancient astronomers",
+       "to argue that Kepler's methods were unscientific",
+       "to suggest that ellipses are more beautiful than circles"
+      ],
+      "a": 0,
+      "para": "C",
+      "why": "Đoạn C: Kepler chỉ thành công khi 'he abandoned the circles' và 'progress required giving up beauty rather than pursuing it'. Ví dụ này cho thấy theo đuổi cái đẹp có thể cản trở tiến bộ. Các phương án khác không được tác giả nói."
+     },
+     {
+      "q": "According to paragraph D, why is it hard to prove that beauty is a reliable guide to truth?",
+      "o": [
+       "Very few theories are ever confirmed by experiment.",
+       "Scientists rarely agree about which theories are true.",
+       "Theories are often judged beautiful only after they have been accepted.",
+       "Forgotten theories cannot be examined by historians."
+      ],
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D: 'it is not obvious how it could be shown, since judgements of beauty are often made after a theory has already been accepted.' Phương án D là bẫy: bài có nói các lý thuyết bị quên, nhưng không nói chúng không thể nghiên cứu được."
+     },
+     {
+      "q": "What concern does the writer express in paragraph E?",
+      "o": [
+       "Particle accelerators have become too expensive to build.",
+       "Shared aesthetic preferences could affect funding and hiring decisions.",
+       "Young physicists lack sufficient mathematical training.",
+       "Experimental physicists have stopped paying attention to theory."
+      ],
+      "a": 1,
+      "para": "E",
+      "why": "Đoạn E: 'decisions about which research to fund and which young scientists to hire may come to depend on a shared aesthetic rather than on results'."
+     },
+     {
+      "q": "How does the writer respond to the idea that physicists' sense of beauty has been 'trained by the universe'?",
+      "o": [
+       "He rejects it as completely mistaken.",
+       "He accepts it partly but doubts that it can identify future theories.",
+       "He believes it fully explains the success of quantum mechanics.",
+       "He thinks it should form part of every physicist's education."
+      ],
+      "a": 1,
+      "para": "F",
+      "why": "Đoạn F: 'There is something to this' (chấp nhận một phần), nhưng 'It may be poorly suited to recognising the kind of theory that will work next'. Vậy là đồng ý một phần và nghi ngờ khả năng dự đoán lý thuyết tương lai."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 10-14\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "The writer accepts that simplicity is a practical ___, since a theory with fewer adjustable parts is harder to rescue when it fails.",
+      "a": "virtue",
+      "para": "B",
+      "why": "Đoạn B: 'simplicity is not a matter of taste at all but a practical virtue'. Đáp án: virtue."
+     },
+     {
+      "q": "However, beauty should never be used as a substitute for ___.",
+      "a": "evidence",
+      "para": "C",
+      "why": "Đoạn C: 'The trouble begins when beauty is treated ... as a substitute for evidence.' Đáp án: evidence."
+     },
+     {
+      "q": "Many of the founders of quantum mechanics regarded it as ugly and ___.",
+      "a": "arbitrary",
+      "para": "D",
+      "why": "Đoạn D: 'quantum mechanics struck many of its founders as ugly and arbitrary'. Đáp án: arbitrary."
+     },
+     {
+      "q": "This suggests that people's affection for a theory can grow out of ___.",
+      "a": "familiarity",
+      "para": "D",
+      "why": "Đoạn D: 'Familiarity breeds affection'. Sự quen thuộc sinh ra thiện cảm, nên đáp án là familiarity."
+     },
+     {
+      "q": "The writer concludes that beauty, like ___, should serve scientists rather than control them.",
+      "a": "intuition",
+      "para": "H",
+      "why": "Đoạn H: 'Beauty, like intuition, is a valuable servant and a poor master.' 'serve ... rather than control' diễn đạt lại 'servant ... master'."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "connoisseur",
+    "người sành sỏi, người am hiểu (nghệ thuật, ẩm thực...)"
+   ],
+   [
+    "aesthetics",
+    "mỹ học, thẩm mỹ"
+   ],
+   [
+    "contradict",
+    "mâu thuẫn với, bác bỏ"
+   ],
+   [
+    "routinely",
+    "thường xuyên, như một thói quen"
+   ],
+   [
+    "a substitute for",
+    "vật/cái thay thế cho"
+   ],
+   [
+    "flattering",
+    "tâng bốc, làm cho trông tốt hơn"
+   ],
+   [
+    "abandon",
+    "từ bỏ"
+   ],
+   [
+    "vulnerable to a bias",
+    "dễ bị ảnh hưởng bởi một thiên kiến"
+   ],
+   [
+    "arbitrary",
+    "tùy tiện, không có lý do rõ ràng"
+   ],
+   [
+    "conceivable",
+    "có thể hình dung được"
+   ],
+   [
+    "illegitimate",
+    "không chính đáng"
+   ],
+   [
+    "telling evidence",
+    "bằng chứng có sức thuyết phục"
+   ]
+  ]
+ }
+]

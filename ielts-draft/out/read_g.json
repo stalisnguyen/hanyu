@@ -1,0 +1,1192 @@
+[
+ {
+  "id": "g1p1",
+  "type": "general",
+  "test": 1,
+  "section": 1,
+  "title": "Evening Courses and Library News",
+  "topic": "Adult education and local services",
+  "band": "5.0-6.0",
+  "paras": [
+   [
+    "A",
+    "Practical Car Maintenance. Tired of paying a garage for simple jobs? This eight-week course shows complete beginners how to check tyre pressure, change a wheel, replace wiper blades and top up oil and coolant. Sessions take place in the workshop at our Mill Road site, so please wear old clothes and sturdy shoes. Overalls and all tools are provided. Tuesdays, 6.30-8.30 pm. Fee: £96 (£60 for anyone receiving unemployment benefit)."
+   ],
+   [
+    "B",
+    "Conversational Spanish for Travellers. Planning a trip to Spain or Latin America? Learn the phrases you need to order food, ask for directions and deal with problems at your hotel. Our tutor, who grew up in Valencia, keeps grammar to a minimum and focuses on speaking from the very first evening. A free phrase book is included in the price. Wednesdays, 7-9 pm, ten weeks. Fee: £110. No previous knowledge of Spanish is required."
+   ],
+   [
+    "C",
+    "Digital Photography: Beyond the Basics. This course is designed for people who already own a digital camera and understand its main settings. You will learn how to control light, compose more interesting pictures and edit your images on a computer. Each week there is a short outdoor assignment, and the course ends with an exhibition of students' work in the centre's main hall. Please bring your camera and its instruction booklet to the first session. Thursdays, 6-8 pm, eight weeks. Fee: £120."
+   ],
+   [
+    "D",
+    "Cooking on a Budget. Find out how to produce healthy family meals for less than £2 a portion. In each session you will prepare two dishes and take them home to share, so remember to bring some containers. Ingredients are included in the fee, but please tell us about any food allergies when you enrol. Saturday mornings, 10 am-12.30 pm, six weeks. Fee: £85."
+   ],
+   [
+    "E",
+    "Introduction to Creative Writing. Whether you want to write short stories, poetry or the memoir you have always talked about, this friendly group will help you get started. Weekly exercises build confidence, and every student receives written feedback on one longer piece at the end of the course. This course runs online, so you can join from home using a laptop or tablet. Mondays, 7-8.30 pm, ten weeks. Fee: £75."
+   ],
+   [
+    "F",
+    "Kelbrook Library: changes from 1 March. From 1 March, Kelbrook Library will open on Sundays for the first time, from 11 am to 3 pm. To make this possible, the library will close at 5 pm instead of 7 pm on Mondays. Opening hours on all other days will remain unchanged."
+   ],
+   [
+    "G",
+    "Self-service machines are being installed near the main entrance, allowing members to borrow and return books without queuing at the desk. Staff will be on hand during the first month to show people how to use them. Members will need their library card and a four-digit PIN, which can be collected from the information desk on production of photo identification."
+   ],
+   [
+    "H",
+    "The charge for overdue books is being removed for all children's items. Adult members will continue to pay 20p per day for late returns, up to a maximum of £5 per item. The popular homework club for secondary school pupils will move from the ground floor to the newly decorated study room on the first floor, and will now run on Thursdays as well as Tuesdays."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "matchinfo",
+    "instr": "Look at the five course advertisements, A-E. For which course are the following statements true? Write the correct letter, A-E. You may use any letter more than once.",
+    "items": [
+     {
+      "q": "This course is not taught in a classroom at the centre.",
+      "a": "E",
+      "why": "Đoạn E: \"This course runs online, so you can join from home\". Khóa học diễn ra trực tuyến, học viên học ở nhà.",
+      "para": "E"
+     },
+     {
+      "q": "Learners do not need to bring their own tools or protective clothing.",
+      "a": "A",
+      "why": "Đoạn A: \"Overalls and all tools are provided.\" Trung tâm cung cấp đồ bảo hộ và dụng cụ.",
+      "para": "A"
+     },
+     {
+      "q": "Some people can pay a lower fee for this course.",
+      "a": "A",
+      "why": "Đoạn A: \"£60 for anyone receiving unemployment benefit\". Người nhận trợ cấp thất nghiệp được giảm học phí.",
+      "para": "A"
+     },
+     {
+      "q": "Learners must already have some experience of the subject.",
+      "a": "C",
+      "why": "Đoạn C: \"designed for people who already own a digital camera and understand its main settings\". Người học phải biết sẵn cách dùng máy ảnh.",
+      "para": "C"
+     },
+     {
+      "q": "Learners can take home what they make in class.",
+      "a": "D",
+      "why": "Đoạn D: \"you will prepare two dishes and take them home to share\".",
+      "para": "D"
+     },
+     {
+      "q": "Learners' work will be put on public display.",
+      "a": "C",
+      "why": "Đoạn C: \"the course ends with an exhibition of students' work in the centre's main hall\". \"Exhibition\" = triển lãm, tức là trưng bày công khai.",
+      "para": "C"
+     },
+     {
+      "q": "Learners receive something extra at no additional cost.",
+      "a": "B",
+      "why": "Đoạn B: \"A free phrase book is included in the price.\" Sách cụm từ được tặng kèm, không tính thêm tiền.",
+      "para": "B"
+     }
+    ]
+   },
+   {
+    "kind": "tfng",
+    "instr": "Read the notice about Kelbrook Library (sections F-H). Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "The library has not been open on Sundays before.",
+      "a": "TRUE",
+      "why": "Đoạn F: \"will open on Sundays for the first time\". \"For the first time\" nghĩa là trước đây chưa từng mở cửa Chủ nhật.",
+      "para": "F"
+     },
+     {
+      "q": "The library will stay open later on Saturdays.",
+      "a": "FALSE",
+      "why": "Đoạn F: \"Opening hours on all other days will remain unchanged.\" Chỉ thứ Hai thay đổi (đóng cửa sớm hơn), thứ Bảy giữ nguyên.",
+      "para": "F"
+     },
+     {
+      "q": "Library staff will help members with the new machines for a limited period.",
+      "a": "TRUE",
+      "why": "Đoạn G: \"Staff will be on hand during the first month to show people how to use them.\" Chỉ trong tháng đầu, tức là có giới hạn thời gian.",
+      "para": "G"
+     },
+     {
+      "q": "Members can obtain a PIN without showing any identification.",
+      "a": "FALSE",
+      "why": "Đoạn G: PIN được nhận \"on production of photo identification\", nghĩa là phải xuất trình giấy tờ có ảnh.",
+      "para": "G"
+     },
+     {
+      "q": "Children will no longer pay a fine for returning books late.",
+      "a": "TRUE",
+      "why": "Đoạn H: \"The charge for overdue books is being removed for all children's items.\" \"Overdue\" = quá hạn, phí trả muộn được bỏ cho sách thiếu nhi.",
+      "para": "H"
+     },
+     {
+      "q": "The homework club is intended for primary school children.",
+      "a": "FALSE",
+      "why": "Đoạn H: \"homework club for secondary school pupils\". Câu lạc bộ dành cho học sinh trung học, không phải tiểu học.",
+      "para": "H"
+     },
+     {
+      "q": "The new study room is larger than the area the homework club used before.",
+      "a": "NOT GIVEN",
+      "why": "Đoạn H chỉ nói phòng học \"newly decorated\" (mới được trang trí lại) và ở tầng một. Không có thông tin nào so sánh kích thước.",
+      "para": "H"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "tyre pressure",
+    "áp suất lốp xe"
+   ],
+   [
+    "sturdy shoes",
+    "giày chắc chắn"
+   ],
+   [
+    "overalls",
+    "quần áo bảo hộ liền thân"
+   ],
+   [
+    "unemployment benefit",
+    "trợ cấp thất nghiệp"
+   ],
+   [
+    "exhibition",
+    "cuộc triển lãm"
+   ],
+   [
+    "portion",
+    "khẩu phần"
+   ],
+   [
+    "enrol",
+    "đăng ký học"
+   ],
+   [
+    "memoir",
+    "hồi ký"
+   ],
+   [
+    "be on hand",
+    "có mặt sẵn để hỗ trợ"
+   ],
+   [
+    "on production of",
+    "khi xuất trình"
+   ],
+   [
+    "overdue",
+    "quá hạn"
+   ],
+   [
+    "newly decorated",
+    "mới được sửa sang, trang trí lại"
+   ]
+  ]
+ },
+ {
+  "id": "g1p2",
+  "type": "general",
+  "test": 1,
+  "section": 2,
+  "title": "Marsden Logistics Staff Handbook",
+  "topic": "Workplace: annual leave and induction training",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "Annual leave. All full-time employees are entitled to 25 days of paid annual leave per year, in addition to public holidays. Part-time staff receive the same entitlement calculated in proportion to the hours they work. The leave year runs from 1 April to 31 March. After five years of continuous service, employees receive two extra days of leave per year."
+   ],
+   [
+    "B",
+    "Requests for leave should be made through the online staff portal at least four weeks in advance for periods of a week or more, and at least three working days in advance for single days. Your line manager will normally respond within five working days. Because the warehouse is especially busy in the run-up to Christmas, leave is not usually granted between 15 November and 24 December, except in exceptional circumstances such as a family emergency."
+   ],
+   [
+    "C",
+    "Staff are encouraged to take their full entitlement each year. However, up to five unused days may be carried over into the following leave year, provided they are taken before the end of June. Any remaining days will be lost. If you are unsure how many days you have left, you can check your balance on the portal at any time. Employees who leave the company will be paid for any leave they have earned but not yet taken."
+   ],
+   [
+    "D",
+    "Induction training for new staff. All new employees attend a two-day induction programme during their first week. The first day is spent at head office and introduces the company's history, its customers and the main departments. New staff also meet a representative from Human Resources, who explains pay arrangements and the company pension scheme. Lunch is provided on both days, and new staff should bring their bank details and proof of address so that their payroll record can be set up."
+   ],
+   [
+    "E",
+    "The second day takes place in the warehouse and focuses on health and safety. Participants are shown how to lift heavy items correctly and are taught the procedure to follow if the fire alarm sounds. Anyone who will drive a forklift truck must also complete a separate three-day course and pass a practical test before operating any vehicle on site. Safety boots are provided free of charge, but staff are responsible for keeping them in good condition."
+   ],
+   [
+    "F",
+    "Each new employee is assigned a 'buddy', an experienced colleague from the same team who can answer everyday questions during the first three months. Your buddy is not responsible for assessing your performance; this remains the job of your supervisor. At the end of this probationary period, new staff have a review meeting with their supervisor to discuss their progress and agree on any further training needs. Feedback forms on the induction programme are sent out by email and should be returned within a fortnight."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "sentcomp",
+    "instr": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+    "items": [
+     {
+      "q": "The amount of leave for part-time staff depends on the number of ___ they work.",
+      "a": "hours",
+      "why": "Đoạn A: \"calculated in proportion to the hours they work\". Số ngày phép tính theo tỷ lệ số giờ làm.",
+      "para": "A"
+     },
+     {
+      "q": "Employees with five years of continuous service are given ___ additional days of leave each year.",
+      "a": "two|2",
+      "why": "Đoạn A: \"After five years of continuous service, employees receive two extra days of leave\". \"Extra\" = \"additional\".",
+      "para": "A"
+     },
+     {
+      "q": "Leave requests must be submitted on the online ___.",
+      "a": "staff portal",
+      "why": "Đoạn B: \"Requests for leave should be made through the online staff portal\".",
+      "para": "B"
+     },
+     {
+      "q": "A line manager usually replies to a request within ___ working days.",
+      "a": "five|5",
+      "why": "Đoạn B: \"Your line manager will normally respond within five working days.\"",
+      "para": "B"
+     },
+     {
+      "q": "Staff are unlikely to get leave in the weeks before ___ because the warehouse is so busy.",
+      "a": "Christmas",
+      "why": "Đoạn B: \"the warehouse is especially busy in the run-up to Christmas\". \"The run-up to\" = khoảng thời gian ngay trước.",
+      "para": "B"
+     },
+     {
+      "q": "Days carried over from the previous year must be used before the end of ___.",
+      "a": "June",
+      "why": "Đoạn C: \"provided they are taken before the end of June\".",
+      "para": "C"
+     }
+    ]
+   },
+   {
+    "kind": "notecomp",
+    "instr": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
+    "items": [
+     {
+      "q": "Induction, day 1 (head office): company history, its ___ and the main departments",
+      "a": "customers",
+      "why": "Đoạn D: \"introduces the company's history, its customers and the main departments\".",
+      "para": "D"
+     },
+     {
+      "q": "Day 1: HR explains pay and the company ___ scheme",
+      "a": "pension",
+      "why": "Đoạn D: \"explains pay arrangements and the company pension scheme\". \"Pension scheme\" = chương trình lương hưu.",
+      "para": "D"
+     },
+     {
+      "q": "Day 2 (warehouse): how to ___ heavy items safely",
+      "a": "lift",
+      "why": "Đoạn E: \"Participants are shown how to lift heavy items correctly\".",
+      "para": "E"
+     },
+     {
+      "q": "Day 2: what to do when the fire ___ goes off",
+      "a": "alarm",
+      "why": "Đoạn E: \"the procedure to follow if the fire alarm sounds\". \"Goes off\" = \"sounds\" (chuông kêu).",
+      "para": "E"
+     },
+     {
+      "q": "Forklift drivers: extra three-day course and a practical ___",
+      "a": "test",
+      "why": "Đoạn E: \"complete a separate three-day course and pass a practical test\".",
+      "para": "E"
+     },
+     {
+      "q": "Staff must look after their free safety ___",
+      "a": "boots",
+      "why": "Đoạn E: \"Safety boots are provided free of charge, but staff are responsible for keeping them in good condition.\"",
+      "para": "E"
+     },
+     {
+      "q": "After three months with a buddy: ___ meeting with supervisor",
+      "a": "review",
+      "why": "Đoạn F: \"At the end of this probationary period, new staff have a review meeting with their supervisor\". \"Probationary period\" ở đây là ba tháng đầu.",
+      "para": "F"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "be entitled to",
+    "được hưởng (quyền lợi)"
+   ],
+   [
+    "entitlement",
+    "quyền lợi được hưởng"
+   ],
+   [
+    "in proportion to",
+    "theo tỷ lệ với"
+   ],
+   [
+    "continuous service",
+    "thời gian làm việc liên tục"
+   ],
+   [
+    "line manager",
+    "quản lý trực tiếp"
+   ],
+   [
+    "in the run-up to",
+    "trong giai đoạn ngay trước"
+   ],
+   [
+    "carry over",
+    "chuyển sang (kỳ sau)"
+   ],
+   [
+    "induction programme",
+    "chương trình đào tạo hội nhập cho nhân viên mới"
+   ],
+   [
+    "pension scheme",
+    "chương trình lương hưu"
+   ],
+   [
+    "free of charge",
+    "miễn phí"
+   ],
+   [
+    "probationary period",
+    "thời gian thử việc"
+   ],
+   [
+    "a fortnight",
+    "hai tuần"
+   ]
+  ]
+ },
+ {
+  "id": "g1p3",
+  "type": "general",
+  "test": 1,
+  "section": 3,
+  "title": "Bees on the Rooftops",
+  "topic": "Urban beekeeping",
+  "band": "6.0-7.0",
+  "paras": [
+   [
+    "A",
+    "Walk through the centre of almost any large European or North American city today and there is a good chance that, somewhere above your head, thousands of bees are at work. Urban beekeeping, once regarded as an eccentric pastime, has grown rapidly over the past two decades. Yet the practice is far from new. Until the early twentieth century, it was common for town dwellers to keep a hive or two in a back yard, and honey was an important source of sweetness for families who could not afford sugar. As cities expanded and cheap sugar became widely available, the habit largely disappeared. Its revival began in the 1990s, when a handful of enthusiasts in cities such as Paris and London started placing hives on the roofs of apartment blocks and public buildings."
+   ],
+   [
+    "B",
+    "At first glance, a city seems an unlikely home for an insect that depends on flowers. In fact, many beekeepers argue that urban bees are better off than their rural cousins. Modern farmland is often planted with a single crop, which provides a large amount of food for a few weeks and then very little for the rest of the year. Cities, by contrast, offer a remarkable variety of plants in private gardens, parks, cemeteries and along railway lines, and these flower at different times from early spring to late autumn. Urban areas are also generally warmer than the surrounding countryside, which allows bees to start foraging earlier in the year. In addition, gardeners and park managers tend to use fewer chemical pesticides than farmers do."
+   ],
+   [
+    "C",
+    "One of the pleasures of city honey is its flavour, which can vary considerably from one neighbourhood to another. Because bees usually collect nectar within about three kilometres of their hive, the honey they produce reflects the plants growing nearby. Honey from an area with many lime trees, for example, has a light, fresh taste, while honey from districts full of private gardens may be darker and more complex. Some beekeepers have taken advantage of this by labelling their jars with the name of the street or district where the hive is located, and customers are often willing to pay extra for honey that comes from their own part of town."
+   ],
+   [
+    "D",
+    "Businesses have also become interested. A number of hotels, banks and department stores now keep hives on their roofs, sometimes employing a professional beekeeper to look after them. The honey may be served at breakfast in the hotel restaurant or given to clients as a gift. Managers say that the hives give staff something to talk about and help to demonstrate the company's concern for the environment. Some offices even organise lunchtime visits to the roof, where employees can put on protective suits and watch the bees at close quarters."
+   ],
+   [
+    "E",
+    "Experienced beekeepers warn, however, that keeping bees requires much more than good intentions. A colony needs to be inspected about once a week during the warmer months to check that the queen is healthy and that the bees are not preparing to swarm. A swarm, in which around half of the colony leaves the hive to find a new home, can cause alarm when it settles on a car or a shop front in a busy street. Beginners must also be prepared for stings, and for the cost of equipment, which can easily reach several hundred pounds in the first year. For these reasons, most beekeeping associations recommend that newcomers take a course and spend a season helping an experienced keeper before setting up a hive of their own."
+   ],
+   [
+    "F",
+    "A more serious concern is the effect of honeybees on other insects. Honeybees are only one of hundreds of bee species, most of which live alone rather than in colonies and receive far less public attention. In some city centres, the number of hives has increased so quickly that there may not be enough flowers to support them all. Researchers in one European capital found that, as the density of hives rose, the number of wild bees visiting flowers in the same area fell. Their conclusion was not that urban beekeeping should stop, but that the number of hives in a district should match the amount of food available."
+   ],
+   [
+    "G",
+    "For this reason, many conservationists suggest that people who want to help bees should think beyond the hive. Planting a range of flowering plants, especially native species, provides food for all kinds of pollinating insects. Leaving parts of a lawn uncut until late summer allows wild flowers to grow, and a simple 'bee hotel', made from hollow stems or a block of wood with holes drilled in it, gives solitary bees a place to lay their eggs. These measures cost very little and, unlike keeping a hive, require no special training."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "The reading passage has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below.",
+    "opts": [
+     "A hobby that needs more than enthusiasm",
+     "Why cities can suit bees surprisingly well",
+     "The unexpected return of an old practice",
+     "Fears about competition with wild species",
+     "Honey that tells the story of a place",
+     "Rules that new beekeepers must follow",
+     "A new attraction for hotels and offices",
+     "How bees communicate inside the hive",
+     "Helping bees without keeping a hive",
+     "The high price of city honey"
+    ],
+    "items": [
+     {
+      "q": "Paragraph A",
+      "a": 2,
+      "why": "Đoạn A kể nuôi ong trong thành phố từng phổ biến (\"the practice is far from new\"), rồi biến mất và hồi sinh từ những năm 1990. Ý chính là một thói quen cũ quay trở lại.",
+      "para": "A"
+     },
+     {
+      "q": "Paragraph B",
+      "a": 1,
+      "why": "Đoạn B mở đầu bằng nghịch lý \"a city seems an unlikely home\" rồi giải thích lý do thành phố hợp với ong: nhiều loại cây, ấm hơn, ít thuốc trừ sâu.",
+      "para": "B"
+     },
+     {
+      "q": "Paragraph C",
+      "a": 4,
+      "why": "Đoạn C nói hương vị mật ong \"reflects the plants growing nearby\" và có người ghi tên con phố lên hũ mật. Mật ong phản ánh nơi nó được làm ra. Đoạn này có nhắc khách trả thêm tiền nhưng đó chỉ là chi tiết phụ, nên tiêu đề x sai.",
+      "para": "C"
+     },
+     {
+      "q": "Paragraph D",
+      "a": 6,
+      "why": "Đoạn D: \"Businesses have also become interested. A number of hotels, banks and department stores now keep hives on their roofs\".",
+      "para": "D"
+     },
+     {
+      "q": "Paragraph E",
+      "a": 0,
+      "why": "Đoạn E: \"keeping bees requires much more than good intentions\", sau đó liệt kê việc kiểm tra tổ hằng tuần, bị đốt, chi phí thiết bị. Đoạn này không nói về luật lệ bắt buộc (tiêu đề vi) mà là khuyến nghị.",
+      "para": "E"
+     },
+     {
+      "q": "Paragraph F",
+      "a": 3,
+      "why": "Đoạn F: \"A more serious concern is the effect of honeybees on other insects\" và nghiên cứu cho thấy ong hoang dã giảm khi số tổ ong tăng.",
+      "para": "F"
+     },
+     {
+      "q": "Paragraph G",
+      "a": 8,
+      "why": "Đoạn G: \"think beyond the hive\", gợi ý trồng hoa, để cỏ mọc, làm \"bee hotel\", và \"unlike keeping a hive, require no special training\".",
+      "para": "G"
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+    "items": [
+     {
+      "q": "In the past, honey was important for families who could not afford ___.",
+      "a": "sugar",
+      "why": "Đoạn A: \"honey was an important source of sweetness for families who could not afford sugar\".",
+      "para": "A"
+     },
+     {
+      "q": "Bees usually gather nectar within approximately ___ of their hive.",
+      "a": "three kilometres|3 kilometres",
+      "why": "Đoạn C: \"bees usually collect nectar within about three kilometres of their hive\". \"About\" = \"approximately\".",
+      "para": "C"
+     },
+     {
+      "q": "Beekeeping associations advise newcomers to take a ___ before starting their own hive.",
+      "a": "course",
+      "why": "Đoạn E: \"most beekeeping associations recommend that newcomers take a course\".",
+      "para": "E"
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Choose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to paragraph B, what is one problem with modern farmland for bees?",
+      "o": [
+       "It is usually too far from water.",
+       "It is colder than most cities.",
+       "It provides plenty of food for only a short time.",
+       "Farmers do not allow hives near their crops."
+      ],
+      "a": 2,
+      "why": "Đoạn B: \"planted with a single crop, which provides a large amount of food for a few weeks and then very little for the rest of the year\". Phương án B sai vì bài chỉ nói thành phố ấm hơn nông thôn xung quanh, không phải vấn đề chính của đất nông nghiệp được nêu.",
+      "para": "B"
+     },
+     {
+      "q": "According to managers, why do some businesses keep bees?",
+      "o": [
+       "to sell honey to the public",
+       "to show that they care about the environment",
+       "to reduce the cost of their gardens",
+       "to train staff as professional beekeepers"
+      ],
+      "a": 1,
+      "why": "Đoạn D: hives \"help to demonstrate the company's concern for the environment\". Mật ong được phục vụ bữa sáng hoặc làm quà, không nói đem bán.",
+      "para": "D"
+     },
+     {
+      "q": "What did the researchers in paragraph F recommend?",
+      "o": [
+       "Hives should be removed from city centres.",
+       "Honeybees should be replaced by wild bee species.",
+       "More research is needed before any action is taken.",
+       "The number of hives should depend on the flowers in an area."
+      ],
+      "a": 3,
+      "why": "Đoạn F: \"the number of hives in a district should match the amount of food available\". Bài nói rõ họ không kết luận rằng nên dừng nuôi ong (\"not that urban beekeeping should stop\"), nên phương án A sai.",
+      "para": "F"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "eccentric pastime",
+    "thú vui kỳ quặc"
+   ],
+   [
+    "town dwellers",
+    "người sống ở thị trấn, thành phố"
+   ],
+   [
+    "revival",
+    "sự hồi sinh"
+   ],
+   [
+    "forage",
+    "đi kiếm ăn (ong tìm mật, phấn hoa)"
+   ],
+   [
+    "pesticide",
+    "thuốc trừ sâu"
+   ],
+   [
+    "nectar",
+    "mật hoa"
+   ],
+   [
+    "at close quarters",
+    "ở cự ly gần"
+   ],
+   [
+    "swarm",
+    "(ong) chia đàn, bầy ong bay đi"
+   ],
+   [
+    "density",
+    "mật độ"
+   ],
+   [
+    "conservationist",
+    "nhà bảo tồn"
+   ],
+   [
+    "native species",
+    "loài bản địa"
+   ],
+   [
+    "solitary bees",
+    "ong sống đơn độc (không thành đàn)"
+   ]
+  ]
+ },
+ {
+  "id": "g2p1",
+  "type": "general",
+  "test": 2,
+  "section": 1,
+  "title": "Ferry Information and a Fan Heater Guide",
+  "topic": "Travel information and product instructions",
+  "band": "5.0-6.0",
+  "paras": [
+   [
+    "A",
+    "Westshore Ferries: Passenger Information. Timetable. Ferries run between Port Avon and Carrick Island every day except 25 December. From April to September there are six crossings a day in each direction, with the first ferry leaving Port Avon at 7.15 am. During the winter months the service is reduced to four crossings a day. The journey takes approximately 50 minutes, although it may take longer in rough weather."
+   ],
+   [
+    "B",
+    "Tickets. Tickets can be bought online, by phone or at the ticket office at either port. Online bookings receive a 10% discount. Day return tickets are valid only for travel on the date shown. Children under five travel free, and holders of a Senior Rail Card may buy tickets at half price. Vehicle bookings must be made at least 24 hours before departure."
+   ],
+   [
+    "C",
+    "Luggage. Foot passengers may bring up to two large bags and one item of hand luggage free of charge. Bicycles are carried for a fee of £4 each way, but space is limited, so cyclists are advised to arrive early. Surfboards and other large sports equipment must be stored in the vehicle deck area."
+   ],
+   [
+    "D",
+    "Pets. Dogs are welcome on all crossings but must be kept on a lead at all times. Apart from assistance dogs, they are not permitted in the café or the indoor seating area. A covered pet area with water bowls is available on the upper deck."
+   ],
+   [
+    "E",
+    "Breezaire 2 Fan Heater: Getting started. Thank you for buying the Breezaire 2. Before use, remove all packaging and place the heater on a flat, stable surface at least one metre away from curtains, furniture and anything else that could burn. The heater has two heat settings and a cool-air setting for summer use. A built-in thermostat switches the heater off automatically when the room reaches the temperature you have selected."
+   ],
+   [
+    "F",
+    "Safety. Never cover the heater or use it to dry clothes. Do not use it in bathrooms or near a swimming pool. If the heater falls over, a safety switch will turn it off immediately. Keep children away from the unit while it is in use, as the front grille becomes hot. Before cleaning, unplug the heater and allow it to cool for at least 30 minutes. Wipe the outside with a dry cloth; do not use water or chemical cleaners."
+   ],
+   [
+    "G",
+    "Your guarantee. Your heater is guaranteed for two years from the date of purchase. To extend this to five years, simply register your product on our website within 28 days. The guarantee does not cover damage caused by misuse or by repairs carried out by anyone other than an approved engineer. Please keep your receipt, as you will need it to make a claim."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Read the ferry information (sections A-D). Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "There is no ferry service on Christmas Day.",
+      "a": "TRUE",
+      "why": "Đoạn A: \"every day except 25 December\". 25 tháng 12 là ngày Giáng sinh.",
+      "para": "A"
+     },
+     {
+      "q": "In summer, the first ferry from Carrick Island departs at 7.15 am.",
+      "a": "NOT GIVEN",
+      "why": "Đoạn A chỉ nói chuyến đầu tiên \"leaving Port Avon at 7.15 am\". Giờ chuyến đầu từ Carrick Island không được nhắc tới.",
+      "para": "A"
+     },
+     {
+      "q": "Tickets bought online cost less than tickets bought at the port.",
+      "a": "TRUE",
+      "why": "Đoạn B: \"Online bookings receive a 10% discount.\" Mua trực tuyến được giảm 10%, nên rẻ hơn.",
+      "para": "B"
+     },
+     {
+      "q": "A day return ticket can be used on any day of the same week.",
+      "a": "FALSE",
+      "why": "Đoạn B: \"Day return tickets are valid only for travel on the date shown.\" Chỉ dùng được đúng ngày in trên vé.",
+      "para": "B"
+     },
+     {
+      "q": "People with a Senior Rail Card travel free of charge.",
+      "a": "FALSE",
+      "why": "Đoạn B: người có Senior Rail Card \"may buy tickets at half price\", tức là giảm nửa giá chứ không miễn phí. Miễn phí chỉ dành cho trẻ dưới năm tuổi.",
+      "para": "B"
+     },
+     {
+      "q": "Cyclists must reserve a space for their bicycle in advance.",
+      "a": "NOT GIVEN",
+      "why": "Đoạn C chỉ khuyên \"cyclists are advised to arrive early\" vì chỗ có hạn. Bài không nói có phải đặt chỗ trước hay không.",
+      "para": "C"
+     },
+     {
+      "q": "Assistance dogs are allowed in the indoor seating area.",
+      "a": "TRUE",
+      "why": "Đoạn D: \"Apart from assistance dogs, they are not permitted in the café or the indoor seating area.\" Nghĩa là chó hỗ trợ (assistance dogs) được phép vào.",
+      "para": "D"
+     }
+    ]
+   },
+   {
+    "kind": "shortans",
+    "instr": "Read the information about the Breezaire 2 fan heater (sections E-G). Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.",
+    "items": [
+     {
+      "q": "What is the minimum distance that should be left between the heater and furniture?",
+      "a": "one metre|1 metre|at least one metre",
+      "why": "Đoạn E: \"at least one metre away from curtains, furniture and anything else that could burn\".",
+      "para": "E"
+     },
+     {
+      "q": "Which setting is intended for use in summer?",
+      "a": "cool-air setting|cool-air|cool air setting",
+      "why": "Đoạn E: \"two heat settings and a cool-air setting for summer use\".",
+      "para": "E"
+     },
+     {
+      "q": "For how long should the heater be left to cool before it is cleaned?",
+      "a": "30 minutes|at least 30 minutes|thirty minutes",
+      "why": "Đoạn F: \"allow it to cool for at least 30 minutes\".",
+      "para": "F"
+     },
+     {
+      "q": "What should be used to clean the outside of the heater?",
+      "a": "a dry cloth|dry cloth",
+      "why": "Đoạn F: \"Wipe the outside with a dry cloth; do not use water or chemical cleaners.\"",
+      "para": "F"
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Choose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "The heater turns itself off automatically when",
+      "o": [
+       "it has been running for 30 minutes.",
+       "the room reaches the chosen temperature.",
+       "the front grille becomes hot.",
+       "it is unplugged from the wall."
+      ],
+      "a": 1,
+      "why": "Đoạn E: \"A built-in thermostat switches the heater off automatically when the room reaches the temperature you have selected.\" Bài cũng nói máy tắt khi bị đổ, nhưng phương án đó không có trong lựa chọn.",
+      "para": "E"
+     },
+     {
+      "q": "To receive a five-year guarantee, customers must",
+      "o": [
+       "register the heater online within 28 days.",
+       "pay an additional fee.",
+       "have the heater checked by an engineer.",
+       "send their receipt to the manufacturer."
+      ],
+      "a": 0,
+      "why": "Đoạn G: \"To extend this to five years, simply register your product on our website within 28 days.\" Hóa đơn chỉ cần giữ lại khi muốn khiếu nại bảo hành, không phải gửi đi.",
+      "para": "G"
+     },
+     {
+      "q": "Which of the following is NOT covered by the guarantee?",
+      "o": [
+       "a fault that appears in the first year",
+       "a heater bought from a website",
+       "damage after a repair by an unapproved person",
+       "a heater used in winter only"
+      ],
+      "a": 2,
+      "why": "Đoạn G: \"The guarantee does not cover damage caused by misuse or by repairs carried out by anyone other than an approved engineer.\"",
+      "para": "G"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "crossing",
+    "chuyến đi qua (biển, sông)"
+   ],
+   [
+    "rough weather",
+    "thời tiết xấu, biển động"
+   ],
+   [
+    "valid",
+    "có hiệu lực"
+   ],
+   [
+    "departure",
+    "sự khởi hành"
+   ],
+   [
+    "foot passenger",
+    "hành khách đi bộ (không mang xe)"
+   ],
+   [
+    "kept on a lead",
+    "được buộc dây xích"
+   ],
+   [
+    "assistance dog",
+    "chó hỗ trợ người khuyết tật"
+   ],
+   [
+    "stable surface",
+    "bề mặt vững chắc"
+   ],
+   [
+    "thermostat",
+    "bộ điều nhiệt"
+   ],
+   [
+    "grille",
+    "lưới chắn (phía trước máy)"
+   ],
+   [
+    "date of purchase",
+    "ngày mua hàng"
+   ],
+   [
+    "misuse",
+    "sử dụng sai cách"
+   ]
+  ]
+ },
+ {
+  "id": "g2p2",
+  "type": "general",
+  "test": 2,
+  "section": 2,
+  "title": "Bayview Hotel: Information for Seasonal Staff",
+  "topic": "Workplace: staff policies for seasonal hotel workers",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "Shifts and rotas. Seasonal staff work an average of 40 hours a week, spread over five days. Rotas for the following week are published on the staff noticeboard every Thursday. If you wish to swap a shift with a colleague, both of you must sign a shift-change form and have it approved by the duty manager at least 48 hours beforehand. Please check the rota carefully, as shift times can vary from week to week, especially during busy periods such as bank holiday weekends. Overtime is paid at one and a half times your normal hourly rate."
+   ],
+   [
+    "B",
+    "Uniform. You will be given three uniform shirts and a name badge on your first day. Housekeeping and kitchen staff also receive non-slip shoes. Uniforms are laundered free of charge on site: simply leave them in the labelled baskets in the staff changing room before 9 am and they will be returned the next day. Lost name badges cost £5 to replace."
+   ],
+   [
+    "C",
+    "Accommodation and meals. Staff accommodation is available in shared houses a ten-minute walk from the hotel. Rent of £70 a week is deducted directly from wages. Each house has a fully equipped kitchen, but all staff are also entitled to one free meal per shift in the staff canteen. Guest facilities, such as the swimming pool and gym, may be used by staff only between 2 pm and 4 pm, when they are least busy. Staff are expected to keep shared areas clean and tidy, and a cleaning rota is put up in each house."
+   ],
+   [
+    "D",
+    "Training. During your first week you will complete basic food hygiene training, which is compulsory for all staff, whatever their role. Front-of-house staff will also spend a morning shadowing an experienced receptionist to learn the booking system. Staff who wish to gain further qualifications, for instance in first aid, can apply to the training coordinator. The hotel will pay the course fees for anyone who has worked here for at least two months."
+   ],
+   [
+    "E",
+    "Sickness and absence. If you are unable to work because of illness, you must telephone the duty manager at least two hours before your shift is due to begin. Text messages and emails are not acceptable. If you are absent for more than three days in a row, you will need to provide a note from a doctor. Repeated absence without a good reason may lead to disciplinary action. Holiday requests should be discussed with your head of department."
+   ],
+   [
+    "F",
+    "End of contract. All seasonal contracts end on 30 September. Staff who complete their full contract receive a bonus of £300, paid with their final wages. Anyone who is interested in returning next summer should tell their manager before they leave, as former staff are offered positions before jobs are advertised to the public."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "matchinfo",
+    "instr": "The text has six sections, A-F. Which section contains the following information? Write the correct letter, A-F.",
+    "items": [
+     {
+      "q": "how to report that you are too ill to work",
+      "a": "E",
+      "why": "Đoạn E: \"you must telephone the duty manager at least two hours before your shift\".",
+      "para": "E"
+     },
+     {
+      "q": "an extra payment for staying until the end of the season",
+      "a": "F",
+      "why": "Đoạn F: \"Staff who complete their full contract receive a bonus of £300\".",
+      "para": "F"
+     },
+     {
+      "q": "a time restriction on using facilities intended for guests",
+      "a": "C",
+      "why": "Đoạn C: \"Guest facilities ... may be used by staff only between 2 pm and 4 pm\".",
+      "para": "C"
+     },
+     {
+      "q": "the cost of replacing a lost item",
+      "a": "B",
+      "why": "Đoạn B: \"Lost name badges cost £5 to replace.\"",
+      "para": "B"
+     },
+     {
+      "q": "a type of training that every employee must do",
+      "a": "D",
+      "why": "Đoạn D: \"basic food hygiene training, which is compulsory for all staff, whatever their role\". \"Compulsory\" = bắt buộc.",
+      "para": "D"
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+    "items": [
+     {
+      "q": "Each week's rota can be found on the ___.",
+      "a": "staff noticeboard|noticeboard",
+      "why": "Đoạn A: \"Rotas for the following week are published on the staff noticeboard every Thursday.\"",
+      "para": "A"
+     },
+     {
+      "q": "Any change to a shift needs approval from the ___.",
+      "a": "duty manager",
+      "why": "Đoạn A: \"have it approved by the duty manager at least 48 hours beforehand\".",
+      "para": "A"
+     },
+     {
+      "q": "Uniforms for washing must be left in the changing room before ___.",
+      "a": "9 am|9 a.m.",
+      "why": "Đoạn B: \"leave them in the labelled baskets in the staff changing room before 9 am\".",
+      "para": "B"
+     },
+     {
+      "q": "The rent for staff housing is taken out of employees' ___.",
+      "a": "wages",
+      "why": "Đoạn C: \"Rent of £70 a week is deducted directly from wages.\" \"Deducted\" = bị trừ.",
+      "para": "C"
+     }
+    ]
+   },
+   {
+    "kind": "tfng",
+    "instr": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "Seasonal staff are required to work overtime every week.",
+      "a": "NOT GIVEN",
+      "why": "Đoạn A chỉ nói mức trả cho giờ làm thêm (\"one and a half times your normal hourly rate\"). Bài không nói nhân viên có bắt buộc làm thêm giờ hay không.",
+      "para": "A"
+     },
+     {
+      "q": "Every member of staff is given non-slip shoes.",
+      "a": "FALSE",
+      "why": "Đoạn B: chỉ \"Housekeeping and kitchen staff also receive non-slip shoes\". Không phải tất cả nhân viên.",
+      "para": "B"
+     },
+     {
+      "q": "The hotel pays for first aid courses for staff in their first week.",
+      "a": "FALSE",
+      "why": "Đoạn D: khách sạn chỉ trả học phí cho \"anyone who has worked here for at least two months\". Tuần đầu chưa đủ điều kiện.",
+      "para": "D"
+     },
+     {
+      "q": "Former staff have the chance to apply for jobs before other people.",
+      "a": "TRUE",
+      "why": "Đoạn F: \"former staff are offered positions before jobs are advertised to the public\".",
+      "para": "F"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "rota",
+    "lịch phân ca"
+   ],
+   [
+    "swap a shift",
+    "đổi ca"
+   ],
+   [
+    "duty manager",
+    "quản lý trực ca"
+   ],
+   [
+    "overtime",
+    "giờ làm thêm"
+   ],
+   [
+    "launder",
+    "giặt là"
+   ],
+   [
+    "non-slip shoes",
+    "giày chống trơn trượt"
+   ],
+   [
+    "be deducted from",
+    "bị trừ vào"
+   ],
+   [
+    "compulsory",
+    "bắt buộc"
+   ],
+   [
+    "front-of-house staff",
+    "nhân viên tiếp xúc trực tiếp với khách (lễ tân, sảnh)"
+   ],
+   [
+    "shadow (someone)",
+    "đi theo quan sát để học việc"
+   ],
+   [
+    "in a row",
+    "liên tiếp"
+   ],
+   [
+    "bonus",
+    "tiền thưởng"
+   ]
+  ]
+ },
+ {
+  "id": "g2p3",
+  "type": "general",
+  "test": 2,
+  "section": 3,
+  "title": "Lost and Found",
+  "topic": "Inside a city lost property office",
+  "band": "6.0-7.0",
+  "paras": [
+   [
+    "A",
+    "Somewhere beneath a busy railway station, in a long room lined with metal shelves, sit thousands of objects that nobody has come back for. There are umbrellas in every colour, single gloves, school bags, laptops, wedding hats and, on one shelf, a child's wooden rocking horse. This is the lost property office of a large city transport network, and it receives around 250,000 items a year from buses, trains and trams. Its manager, Ruth Calder, has worked there for eleven years and says she is still surprised by what arrives. 'Last spring someone handed in a set of false teeth in a presentation box,' she says. 'They were collected the same afternoon.'"
+   ],
+   [
+    "B",
+    "Every item follows the same route. When a driver or cleaner finds something, it is placed in a sealed bag with a label showing where and when it was discovered. The bags are delivered to the office overnight, and by the following morning staff have recorded each item on a database, noting its colour, brand and any distinguishing marks. Valuable items such as jewellery, cash and passports are kept in a locked safe, while food and anything else that might go off is thrown away after 48 hours. Passports are not kept for long: if they have not been claimed within a week, they are returned to the embassy of the country that issued them."
+   ],
+   [
+    "C",
+    "People who have lost something can fill in an online form describing the item. The database then compares the description with recently recorded objects and suggests possible matches. In the past, this work was done entirely by hand, and staff would spend hours searching through paper records. Calder believes the new system has roughly doubled the number of items returned to their owners, although she admits it is not perfect. 'The computer is good with facts,' she explains, 'but people describe things in very different ways. One person's dark blue coat is another person's black one.' For this reason, a member of staff still checks every suggested match before contacting the owner. When they collect their property, owners must show identification and pay a small fee, which varies according to the type of item."
+   ],
+   [
+    "D",
+    "Umbrellas are by far the most common item, especially in autumn, followed by mobile phones, keys and clothing. Phones are now much more likely to be reunited with their owners than in the past, because many people can be identified from the lock screen or contacted through an emergency number stored on the device. Books, on the other hand, are rarely claimed. Calder thinks this is partly because people assume a lost book will never be found and simply buy another copy. Children's toys are a different matter. Parents frequently travel across the city to collect a favourite teddy, and staff make a special effort with these. 'We know a small toy can mean a sleepless night for a whole family,' she says."
+   ],
+   [
+    "E",
+    "Items are held for three months. After that, anything unclaimed is either donated or sold. Clothing and blankets go to local homeless shelters, and books are given to schools and hospitals. Electronic devices have all personal data removed before they are sold at regular auctions, along with bicycles, musical instruments and other valuable goods. The money raised helps to cover the cost of running the office, which employs fourteen full-time staff. Some objects never leave. A small collection of unusual finds, including a ship's wheel and a set of Victorian dentist's tools, is kept on display in the staff room."
+   ],
+   [
+    "F",
+    "For Calder, the most rewarding part of the job is seeing people reunited with things that matter to them. Many of the most emotional reunions involve objects of little financial value: a letter, a photograph, a grandmother's scarf. She recalls an elderly man who came in to collect a battered leather wallet. It contained only a few coins, but also a photograph of his late wife that he had carried for forty years. 'He shook my hand for about five minutes,' she says. 'That's the kind of thing that makes the job worthwhile.'"
+   ],
+   [
+    "G",
+    "Calder's advice to travellers is simple. Put your name and an email address or phone number inside bags, cases and even umbrellas, and take photographs of valuable items so that you can describe them accurately if they go missing. Above all, she says, report a loss as soon as possible. 'The sooner we know what we're looking for, the better our chances. People often wait a week before contacting us because they hope the item will turn up at home, and by then the trail has gone cold.'"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+    "items": [
+     {
+      "q": "The office deals with items left on more than one type of public transport.",
+      "a": "TRUE",
+      "why": "Đoạn A: văn phòng nhận đồ \"from buses, trains and trams\", tức là ba loại phương tiện.",
+      "para": "A"
+     },
+     {
+      "q": "Lost food is kept for one week before being thrown away.",
+      "a": "FALSE",
+      "why": "Đoạn B: thực phẩm \"is thrown away after 48 hours\", tức là hai ngày, không phải một tuần. Mốc một tuần là dành cho hộ chiếu.",
+      "para": "B"
+     },
+     {
+      "q": "Most lost passports are collected by their owners within a week.",
+      "a": "NOT GIVEN",
+      "why": "Đoạn B chỉ nói hộ chiếu không được nhận trong một tuần sẽ được gửi về đại sứ quán. Bài không cho biết bao nhiêu hộ chiếu được chủ nhận lại.",
+      "para": "B"
+     },
+     {
+      "q": "A member of staff checks each match suggested by the computer before the owner is contacted.",
+      "a": "TRUE",
+      "why": "Đoạn C: \"a member of staff still checks every suggested match before contacting the owner\".",
+      "para": "C"
+     },
+     {
+      "q": "Owners pay the same fee whatever item they collect.",
+      "a": "FALSE",
+      "why": "Đoạn C: phí \"varies according to the type of item\", tức là thay đổi theo loại đồ vật.",
+      "para": "C"
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Choose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "What does Calder say about the database?",
+      "o": [
+       "It has removed the need for staff to check results.",
+       "It handles descriptions of colour very accurately.",
+       "It has helped the office return many more items.",
+       "It was designed by the office staff themselves."
+      ],
+      "a": 2,
+      "why": "Đoạn C: \"the new system has roughly doubled the number of items returned to their owners\". Phương án B sai vì bà nói người ta mô tả màu rất khác nhau (\"dark blue coat ... black one\").",
+      "para": "C"
+     },
+     {
+      "q": "Why are mobile phones returned more often than before?",
+      "o": [
+       "Their owners can often be identified from the phone itself.",
+       "They are stored in the locked safe.",
+       "They are the most common lost item.",
+       "Their owners usually report the loss immediately."
+      ],
+      "a": 0,
+      "why": "Đoạn D: \"many people can be identified from the lock screen or contacted through an emergency number stored on the device\". Phương án C sai vì ô dù mới là đồ bị mất nhiều nhất.",
+      "para": "D"
+     },
+     {
+      "q": "According to Calder, books are rarely claimed because their owners",
+      "o": [
+       "do not know that the office exists.",
+       "think they have no chance of getting them back.",
+       "prefer to donate them to schools.",
+       "usually find them damaged."
+      ],
+      "a": 1,
+      "why": "Đoạn D: \"people assume a lost book will never be found and simply buy another copy\".",
+      "para": "D"
+     },
+     {
+      "q": "What does the story of the elderly man in paragraph F illustrate?",
+      "o": [
+       "Older people are more likely to lose their belongings.",
+       "Wallets are the items most often claimed.",
+       "Staff often receive rewards from grateful owners.",
+       "Personal value can matter more than financial value."
+      ],
+      "a": 3,
+      "why": "Đoạn F: những cuộc đoàn tụ xúc động nhất là với \"objects of little financial value\", và chiếc ví chỉ có vài đồng xu nhưng có ảnh người vợ đã mất.",
+      "para": "F"
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "Items that are not claimed within three months are given away or sold. Clothes and blankets are sent to homeless ___.",
+      "a": "shelters",
+      "why": "Đoạn E: \"Clothing and blankets go to local homeless shelters\".",
+      "para": "E"
+     },
+     {
+      "q": "Books are passed on to schools and ___.",
+      "a": "hospitals",
+      "why": "Đoạn E: \"books are given to schools and hospitals\".",
+      "para": "E"
+     },
+     {
+      "q": "Electronic devices are sold at ___, together with bicycles and musical instruments.",
+      "a": "auctions",
+      "why": "Đoạn E: \"they are sold at regular auctions, along with bicycles, musical instruments\".",
+      "para": "E"
+     },
+     {
+      "q": "Before this happens, all personal ___ is deleted from them.",
+      "a": "data",
+      "why": "Đoạn E: \"Electronic devices have all personal data removed before they are sold\".",
+      "para": "E"
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "lost property office",
+    "phòng giữ đồ thất lạc"
+   ],
+   [
+    "hand in",
+    "nộp lại, giao nộp"
+   ],
+   [
+    "distinguishing marks",
+    "đặc điểm nhận dạng"
+   ],
+   [
+    "go off",
+    "(thực phẩm) bị hỏng, ôi thiu"
+   ],
+   [
+    "claim",
+    "đến nhận lại (đồ của mình)"
+   ],
+   [
+    "reunite",
+    "đoàn tụ, đưa trở lại với nhau"
+   ],
+   [
+    "homeless shelter",
+    "nhà tạm trú cho người vô gia cư"
+   ],
+   [
+    "auction",
+    "cuộc đấu giá"
+   ],
+   [
+    "battered",
+    "cũ nát, sờn"
+   ],
+   [
+    "late (wife)",
+    "(người vợ) đã qua đời"
+   ],
+   [
+    "worthwhile",
+    "đáng công sức"
+   ],
+   [
+    "the trail has gone cold",
+    "manh mối đã mất dấu"
+   ]
+  ]
+ }
+]

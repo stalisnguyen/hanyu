@@ -1,0 +1,1818 @@
+[
+ {
+  "id": "l1p1",
+  "test": 1,
+  "part": 1,
+  "title": "Booking a holiday cottage",
+  "setting": "Một khách hàng gọi điện đến công ty cho thuê nhà nghỉ Fernhill để đặt một căn nhà cho kỳ nghỉ gia đình vào tháng Bảy.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Sarah (booking agent)",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Daniel (caller)",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, Fernhill Holiday Cottages. Sarah speaking. How can I help you?"
+   ],
+   [
+    "B",
+    "Oh, hi. I'm ringing about booking one of your cottages in July. For a week, or maybe a little less."
+   ],
+   [
+    "A",
+    "Lovely. Let me just open a booking form. Could I take your name first?"
+   ],
+   [
+    "B",
+    "Sure. It's Daniel Whitcombe."
+   ],
+   [
+    "A",
+    "Could you spell the surname for me, please?"
+   ],
+   [
+    "B",
+    "Yes, it's W-H-I-T-C-O-M-B-E. Whitcombe."
+   ],
+   [
+    "A",
+    "Thank you, Mr Whitcombe. And is this your first time staying with us?"
+   ],
+   [
+    "B",
+    "It is. A friend of mine stayed with you last year and said it was really peaceful."
+   ],
+   [
+    "A",
+    "That's nice to hear. So, which cottage were you interested in?"
+   ],
+   [
+    "B",
+    "Well, my friend stayed in Willow Cottage, so I was hoping for that one."
+   ],
+   [
+    "A",
+    "I'm afraid Willow Cottage is fully booked for the whole of July. But we do have Heron Cottage, which is very similar. It's right next to the stream."
+   ],
+   [
+    "B",
+    "Heron Cottage. Does it have two bedrooms?"
+   ],
+   [
+    "A",
+    "Yes, one double and one twin, so it sleeps four people."
+   ],
+   [
+    "B",
+    "That's perfect. It'll be me, my wife and our two kids. Let's go with Heron, then."
+   ],
+   [
+    "A",
+    "Great. And what date would you like to arrive?"
+   ],
+   [
+    "B",
+    "We were thinking of Saturday the twelfth of July."
+   ],
+   [
+    "A",
+    "Let me check. Hmm, Heron is taken until the thirteenth, I'm afraid. The earliest you could arrive is Monday the fourteenth."
+   ],
+   [
+    "B",
+    "Oh, right. Well, the fourteenth is fine. We're quite flexible."
+   ],
+   [
+    "A",
+    "So, arriving on the fourteenth. And how long would you like to stay?"
+   ],
+   [
+    "B",
+    "We originally wanted a whole week, but with the later start, let's say five nights."
+   ],
+   [
+    "A",
+    "Five nights, so you'd leave on the morning of the nineteenth."
+   ],
+   [
+    "B",
+    "That works. Can I ask about the price?"
+   ],
+   [
+    "A",
+    "Of course. In July, Heron Cottage is 110 pounds a night."
+   ],
+   [
+    "B",
+    "Oh, that's a bit more than I expected, to be honest."
+   ],
+   [
+    "A",
+    "Well, if you book more than two weeks in advance, there's a discount, which brings it down to 95 pounds a night."
+   ],
+   [
+    "B",
+    "That's much better. We'll definitely book today, then."
+   ],
+   [
+    "A",
+    "Is there anything else you'd like to add to your booking? We offer a breakfast basket, and some guests like to hire bicycles."
+   ],
+   [
+    "B",
+    "We'll bring our own food, I think, but the bicycles sound like fun. The kids would love that."
+   ],
+   [
+    "A",
+    "I'll add bicycles, then. They're actually free for guests, but you do need to reserve them."
+   ],
+   [
+    "B",
+    "Even better. Oh, and one more thing. We have a dog. Is that a problem?"
+   ],
+   [
+    "A",
+    "Not at all. Dogs are welcome in Heron Cottage. There's a charge of 15 pounds to cover the extra cleaning."
+   ],
+   [
+    "B",
+    "Is that per night?"
+   ],
+   [
+    "A",
+    "No, it's just once for the whole stay."
+   ],
+   [
+    "B",
+    "Fair enough. And where do we park when we arrive?"
+   ],
+   [
+    "A",
+    "There's no parking on the lane, because it's very narrow. You'll need to use the courtyard behind the cottage. There's room for two cars."
+   ],
+   [
+    "B",
+    "The courtyard, OK. And how do we get the keys?"
+   ],
+   [
+    "A",
+    "Normally guests collect them from the village shop, but the shop closes at lunchtime on Mondays. So, as you're arriving on a Monday, you'll need to pick them up from the post office instead. It's open until six."
+   ],
+   [
+    "B",
+    "Right, the post office. I'll make a note of that."
+   ],
+   [
+    "A",
+    "Just one last question. We like to know how our guests heard about us. Was it only through your friend?"
+   ],
+   [
+    "B",
+    "Partly, but I'd also seen your advert in a walking magazine. I can't remember which one, though."
+   ],
+   [
+    "A",
+    "That's fine, I'll just put walking magazine. Now, shall I take the deposit?"
+   ],
+   [
+    "B",
+    "Yes, let's do that."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-10. Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Surname: ___",
+      "a": "Whitcombe",
+      "why": "Khách đánh vần: \"It's W-H-I-T-C-O-M-B-E. Whitcombe.\""
+     },
+     {
+      "q": "Cottage booked: ___ Cottage",
+      "a": "Heron",
+      "why": "Willow Cottage đã kín chỗ (bẫy). Khách chốt: \"Let's go with Heron, then.\""
+     },
+     {
+      "q": "Arrival date: Monday ___ July",
+      "a": "14th|fourteenth|14",
+      "why": "Ban đầu khách muốn ngày 12 (bẫy), nhưng nhân viên nói \"The earliest you could arrive is Monday the fourteenth\" và khách đồng ý."
+     },
+     {
+      "q": "Length of stay: ___ nights",
+      "a": "5|five",
+      "why": "Khách định ở một tuần nhưng đổi ý: \"let's say five nights.\""
+     },
+     {
+      "q": "Price per night (with early booking discount): £___",
+      "a": "95|ninety-five",
+      "why": "110 bảng là giá gốc (bẫy). Đặt sớm thì giảm: \"brings it down to 95 pounds a night.\""
+     },
+     {
+      "q": "Extras: free hire of ___",
+      "a": "bicycles|bikes",
+      "why": "Khách không lấy giỏ bữa sáng nhưng chọn xe đạp: \"I'll add bicycles, then. They're actually free for guests.\""
+     },
+     {
+      "q": "Dog: one-off charge of £___",
+      "a": "15|fifteen",
+      "why": "\"There's a charge of 15 pounds\" và phí này chỉ trả một lần: \"it's just once for the whole stay.\""
+     },
+     {
+      "q": "Parking: in the ___ behind the cottage",
+      "a": "courtyard",
+      "why": "Không được đỗ ngoài ngõ: \"You'll need to use the courtyard behind the cottage.\""
+     },
+     {
+      "q": "Collect keys from the ___",
+      "a": "post office",
+      "why": "Thường lấy chìa ở cửa hàng làng (bẫy), nhưng thứ Hai cửa hàng đóng nên \"pick them up from the post office instead.\""
+     },
+     {
+      "q": "Heard about the company from a friend and an advert in a ___ magazine",
+      "a": "walking",
+      "why": "Khách nói: \"I'd also seen your advert in a walking magazine.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l1p2",
+  "test": 1,
+  "part": 2,
+  "title": "Open day at Riverside City Farm",
+  "setting": "Một điều phối viên giới thiệu với khách tham quan về lịch sử, nội quy và các hoạt động trong ngày hội mở cửa của trang trại thành phố Riverside.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Megan (farm coordinator)",
+    "voice": "f",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, everyone, and welcome to Riverside City Farm's open day. My name's Megan, and I'm one of the farm coordinators."
+   ],
+   [
+    "A",
+    "Before you head off to explore, I'd like to tell you a little about the farm and about what's going on today."
+   ],
+   [
+    "A",
+    "A lot of people assume the farm was started by the local council. In fact, the council only gave us the land. The idea came from a group of parents who wanted their children to see where food comes from."
+   ],
+   [
+    "A",
+    "That was back in 1998, when this whole area was an empty car park. Hard to imagine now, isn't it?"
+   ],
+   [
+    "A",
+    "At first, everything was done by volunteers, and the parents ran the place on almost no money at all. These days we have six paid staff, and people often ask how we pay for it all."
+   ],
+   [
+    "A",
+    "Well, we do receive some money from school visits, and of course the donations box by the gate helps a great deal."
+   ],
+   [
+    "A",
+    "But by far the biggest share of our income now comes from selling what we grow and produce here, mainly vegetables, eggs and honey, at our weekly market on Saturdays."
+   ],
+   [
+    "A",
+    "Now, a few rules. You're very welcome to take photographs of the animals, and all the paths are suitable for pushchairs and wheelchairs."
+   ],
+   [
+    "A",
+    "What we do ask is that you don't give the animals any food yourselves, even if they look hungry. Many of them are on special diets, and the wrong food can make them quite ill."
+   ],
+   [
+    "A",
+    "One more practical thing. Those of you who've been here before will notice that the café has moved. It used to be next to the main gate, but it's now in the old dairy building, which has much more space."
+   ],
+   [
+    "A",
+    "The prices haven't changed, I'm pleased to say, and it still closes at four o'clock, so do get your tea and cake before then."
+   ],
+   [
+    "A",
+    "So, what's happening today? Let me take you round the farm."
+   ],
+   [
+    "A",
+    "Starting with the Goat Barn, just on your left. The goats had their breakfast early this morning, but at eleven the staff will be giving them their lunch, and children are welcome to help. Adults can join in too, if you like."
+   ],
+   [
+    "A",
+    "Next, the Orchard. We grow about forty varieties of apple there. Unfortunately the fruit won't be ready to pick until September."
+   ],
+   [
+    "A",
+    "However, one of our volunteers, Colin, will be leading a walk through the trees at two o'clock, explaining how we look after them through the year."
+   ],
+   [
+    "A",
+    "Moving on to the Pond. If you have younger children, bring them along at half past twelve."
+   ],
+   [
+    "A",
+    "We'll be sitting on the benches by the water, and one of our team will read a story about a family of ducks. It's very popular, so come early. And please keep a close eye on small children near the water."
+   ],
+   [
+    "A",
+    "In the Workshop, we'd planned a craft session for today, but sadly the tutor is unwell."
+   ],
+   [
+    "A",
+    "Instead, our blacksmith will be showing how he makes hooks and gate latches. You can't have a go yourselves, I'm afraid, as it's far too dangerous, but it's fascinating to watch."
+   ],
+   [
+    "A",
+    "The Greenhouse is where we raise all our seedlings. Today there'll be tables of tomato, pepper and herb plants on sale, all grown here, at very reasonable prices."
+   ],
+   [
+    "A",
+    "Finally, the Meadow. In the big white tent there, you can learn willow weaving and make a small basket or a bird feeder to take home."
+   ],
+   [
+    "A",
+    "All the materials are provided, and it's suitable for anyone over the age of eight."
+   ],
+   [
+    "A",
+    "Right, I think that's everything. Enjoy your day, and if you have any questions, just look for someone in a green T-shirt."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-14. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Who first had the idea for the farm?",
+      "o": [
+       "the local council",
+       "a group of parents",
+       "a team of volunteers"
+      ],
+      "a": 1,
+      "why": "Hội đồng địa phương chỉ cho đất: \"the council only gave us the land. The idea came from a group of parents.\""
+     },
+     {
+      "q": "Most of the farm's income now comes from",
+      "o": [
+       "school visits.",
+       "donations from visitors.",
+       "sales of farm produce."
+      ],
+      "a": 2,
+      "why": "Trường học và hộp quyên góp chỉ góp một phần; \"by far the biggest share of our income now comes from selling what we grow and produce here.\""
+     },
+     {
+      "q": "Visitors are asked not to",
+      "o": [
+       "take photographs of the animals.",
+       "feed the animals.",
+       "bring pushchairs onto the paths."
+      ],
+      "a": 1,
+      "why": "Chụp ảnh và mang xe đẩy đều được phép. Điều cấm là: \"you don't give the animals any food yourselves.\""
+     },
+     {
+      "q": "What has changed about the café?",
+      "o": [
+       "its location",
+       "its prices",
+       "its closing time"
+      ],
+      "a": 0,
+      "why": "\"the café has moved... it's now in the old dairy building\"; giá và giờ đóng cửa không đổi: \"The prices haven't changed... it still closes at four.\""
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 15-20. What can visitors do at each of the following places today? Choose SIX answers from the box and write the correct letter, A-G, next to Questions 15-20.",
+    "opts": [
+     "watch a demonstration",
+     "buy plants",
+     "join a guided walk",
+     "help with feeding",
+     "listen to a story",
+     "try a craft",
+     "pick fruit"
+    ],
+    "items": [
+     {
+      "q": "Goat Barn",
+      "a": 3,
+      "why": "\"at eleven the staff will be giving them their lunch, and children are welcome to help.\""
+     },
+     {
+      "q": "Orchard",
+      "a": 2,
+      "why": "Chưa hái được táo (bẫy \"pick fruit\"); thay vào đó \"Colin, will be leading a walk through the trees.\""
+     },
+     {
+      "q": "Pond",
+      "a": 4,
+      "why": "\"one of our team will read a story about a family of ducks.\""
+     },
+     {
+      "q": "Workshop",
+      "a": 0,
+      "why": "Buổi làm thủ công bị hủy (bẫy \"try a craft\"); \"our blacksmith will be showing how he makes hooks... it's fascinating to watch.\""
+     },
+     {
+      "q": "Greenhouse",
+      "a": 1,
+      "why": "\"there'll be tables of tomato, pepper and herb plants on sale.\""
+     },
+     {
+      "q": "Meadow",
+      "a": 5,
+      "why": "\"you can learn willow weaving and make a small basket or a bird feeder to take home.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l1p3",
+  "test": 1,
+  "part": 3,
+  "title": "A survey on cycling to campus",
+  "setting": "Hai sinh viên trao đổi với giảng viên hướng dẫn về kết quả khảo sát lý do sinh viên đạp xe (hoặc không) đến trường và cách viết báo cáo.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lucy",
+    "voice": "f",
+    "accent": "en-US"
+   },
+   {
+    "id": "B",
+    "name": "Tom",
+    "voice": "m",
+    "accent": "en-GB"
+   },
+   {
+    "id": "C",
+    "name": "Dr Patel (tutor)",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "C",
+    "Come in, Lucy, Tom. So, you wanted to talk about your cycling project before you write it up."
+   ],
+   [
+    "A",
+    "Yes, thanks for seeing us, Dr Patel. We've collected all the data now, so we just wanted to check a few things."
+   ],
+   [
+    "C",
+    "Good. Remind me first why you chose cycling. It's not the most obvious topic for a sociology project."
+   ],
+   [
+    "B",
+    "Well, I cycle in every day, so I was interested, but Lucy doesn't even own a bike."
+   ],
+   [
+    "A",
+    "That's true. The real reason was that we read in the student newspaper that the university is reviewing its transport policy next year. We thought our findings might actually be useful to them."
+   ],
+   [
+    "C",
+    "That's a good motivation. Now, how did the questionnaire go?"
+   ],
+   [
+    "B",
+    "Better than we expected in terms of numbers. We got 212 responses, which is more than we needed."
+   ],
+   [
+    "A",
+    "And most people said it only took about five minutes to complete, so that wasn't an issue either."
+   ],
+   [
+    "B",
+    "The problem was question six. We asked how far people lived from campus, but we didn't say whether we meant miles or kilometres. So some of the answers are impossible to compare."
+   ],
+   [
+    "C",
+    "Ah. That kind of thing happens to everyone. You'll just need to mention it as a limitation."
+   ],
+   [
+    "A",
+    "We will. What really surprised us was the reasons people gave for not cycling. We expected the weather to come top, because it rains so much here."
+   ],
+   [
+    "B",
+    "But hardly anyone mentioned it. Only about four per cent."
+   ],
+   [
+    "A",
+    "Safety was the biggest concern, which we'd more or less predicted, and after that, not having anywhere to leave a bike."
+   ],
+   [
+    "C",
+    "Interesting. And I see from your plan that you also want to interview some local bike shop owners."
+   ],
+   [
+    "B",
+    "Yes, we thought they'd know a lot about who cycles and why."
+   ],
+   [
+    "C",
+    "They might, but your research question is about students' choices. Shop owners can't really tell you what students think. I'd drop that idea and focus on the students themselves."
+   ],
+   [
+    "A",
+    "OK, that makes sense. We were a bit worried about the time it would take anyway."
+   ],
+   [
+    "C",
+    "Now, you also asked people what changes would encourage them to cycle. What came out on top?"
+   ],
+   [
+    "B",
+    "Well, quite a few people wanted more cycle lanes, but the campus already has quite a lot, so I think some people just don't know about them."
+   ],
+   [
+    "A",
+    "The clear winner was secure storage. People are really worried about bikes being stolen, and the racks we have now are just outside, with no cameras."
+   ],
+   [
+    "B",
+    "And second, a lot of people said they'd cycle if there were proper changing rooms with showers, so they didn't arrive at lectures all hot and sweaty."
+   ],
+   [
+    "A",
+    "A few mentioned a repair workshop, and one or two said bikes are too expensive, but those were much smaller numbers."
+   ],
+   [
+    "C",
+    "So storage and changing facilities. That gives you a clear focus for your recommendations."
+   ],
+   [
+    "B",
+    "We were thinking of suggesting cameras on the existing racks as a first step, because that would be quite cheap."
+   ],
+   [
+    "C",
+    "Good, practical ideas tend to impress readers. Right, let's talk about the structure of the report. You've got a background section first."
+   ],
+   [
+    "B",
+    "Yes, I was wondering whether we even need it. Maybe we could just leave it out."
+   ],
+   [
+    "C",
+    "No, you do need some context, but at the moment it's nearly two pages. Cut it down to half a page at most."
+   ],
+   [
+    "A",
+    "Fine. What about the questionnaire itself? We put the full list of questions in the methods section."
+   ],
+   [
+    "C",
+    "It's useful for the reader to see it, but it interrupts the flow. Put it at the end of the report, in an appendix, and just summarise it in the methods."
+   ],
+   [
+    "B",
+    "OK. And the charts?"
+   ],
+   [
+    "C",
+    "The charts are clear, but you've only shown the overall figures. I'd like to see the results broken down by year group and by gender, so there's more to discuss."
+   ],
+   [
+    "A",
+    "That's easy enough. We have all that data."
+   ],
+   [
+    "B",
+    "And finally, the recommendations. We weren't sure if they were too short."
+   ],
+   [
+    "C",
+    "No, actually, they're fine. They're specific and they follow from your data. I wouldn't change anything there."
+   ],
+   [
+    "A",
+    "Great. Thanks, Dr Patel, that's really helpful."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-24. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Why did the students choose cycling as their topic?",
+      "o": [
+       "Their tutor recommended it.",
+       "The university is going to review its transport policy.",
+       "Both of them cycle to campus."
+      ],
+      "a": 1,
+      "why": "Chỉ Tom đạp xe, Lucy không có xe (bẫy C). Lý do thật: \"the university is reviewing its transport policy next year.\""
+     },
+     {
+      "q": "What problem did they have with the questionnaire?",
+      "o": [
+       "They received too few responses.",
+       "One question was unclear.",
+       "It took too long to complete."
+      ],
+      "a": 1,
+      "why": "Có 212 phản hồi và chỉ mất 5 phút. Vấn đề là câu 6: \"we didn't say whether we meant miles or kilometres.\""
+     },
+     {
+      "q": "What surprised the students about the results?",
+      "o": [
+       "how few students owned a bike",
+       "how rarely the weather was mentioned",
+       "how many students were worried about safety"
+      ],
+      "a": 1,
+      "why": "Họ tưởng thời tiết đứng đầu \"But hardly anyone mentioned it. Only about four per cent.\" Còn an toàn thì \"we'd more or less predicted.\""
+     },
+     {
+      "q": "What does Dr Patel think about interviewing bike shop owners?",
+      "o": [
+       "It would take too much time.",
+       "It is not relevant to their research question.",
+       "It would add a useful perspective."
+      ],
+      "a": 1,
+      "why": "\"your research question is about students' choices. Shop owners can't really tell you what students think.\" Lo về thời gian là ý của Lucy, không phải của thầy."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 25-26. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO changes would most encourage students to cycle, according to the survey?",
+      "o": [
+       "secure bike storage",
+       "cheaper bikes",
+       "more cycle lanes",
+       "changing rooms with showers",
+       "a repair workshop"
+      ],
+      "a": [
+       0,
+       3
+      ],
+      "why": "\"The clear winner was secure storage\" và \"second... proper changing rooms with showers.\" Làn xe đạp, xưởng sửa và xe rẻ chỉ ít người nhắc."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 27-30. What do the students decide to do with each section of their report? Choose FOUR answers from the box and write the correct letter, A-E, next to Questions 27-30.",
+    "opts": [
+     "keep it as it is",
+     "make it shorter",
+     "add more detail",
+     "move it to the appendix",
+     "leave it out"
+    ],
+    "items": [
+     {
+      "q": "Background",
+      "a": 1,
+      "why": "Tom muốn bỏ (bẫy E) nhưng thầy nói: \"Cut it down to half a page at most.\""
+     },
+     {
+      "q": "The questionnaire",
+      "a": 3,
+      "why": "\"Put it at the end of the report, in an appendix.\""
+     },
+     {
+      "q": "The charts",
+      "a": 2,
+      "why": "\"I'd like to see the results broken down by year group and by gender, so there's more to discuss.\""
+     },
+     {
+      "q": "Recommendations",
+      "a": 0,
+      "why": "\"they're fine... I wouldn't change anything there.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l1p4",
+  "test": 1,
+  "part": 4,
+  "title": "The history of ice houses",
+  "setting": "Bài giảng về lịch sử các nhà chứa băng (ice house): cách xây dựng, cách bảo quản băng, công dụng và lý do chúng biến mất.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "f",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon. In today's lecture in our series on the history of everyday technology, I'm going to talk about ice houses."
+   ],
+   [
+    "A",
+    "Before refrigerators, how did people keep things cold? For centuries, the answer was to collect natural ice in winter and store it, somehow, so that it lasted through the summer."
+   ],
+   [
+    "A",
+    "An ice house, then, is simply a building designed to keep ice frozen for as long as possible. Most were built completely or partly underground, because the temperature of the earth stays fairly constant throughout the year."
+   ],
+   [
+    "A",
+    "Some of the most impressive early examples come from ancient Persia, in what is now Iran. These structures were called yakhchals, and some of them are still standing today."
+   ],
+   [
+    "A",
+    "What made them so effective was the material of the walls. The builders used a special mortar that was highly resistant to heat."
+   ],
+   [
+    "A",
+    "It contained sand, clay, egg whites, lime and goat hair, and also ash, which helped to make the walls almost completely waterproof."
+   ],
+   [
+    "A",
+    "Above ground, a yakhchal had a tall dome shape. This was not just for decoration. Warm air rose to the top of the dome and escaped through a small opening, while the coldest air sank down to the storage pit below."
+   ],
+   [
+    "A",
+    "Let's move to Europe. Ice houses appeared in Italy and France quite early, but in Britain they only became common in the seventeenth century, when wealthy landowners began building them on their country estates."
+   ],
+   [
+    "A",
+    "By the nineteenth century, there were thousands of them across the country, and many survive today."
+   ],
+   [
+    "A",
+    "So where did the ice come from? Some people assume it was cut from rivers, but moving water rarely freezes thick enough."
+   ],
+   [
+    "A",
+    "In fact, estate workers usually broke ice from the surface of lakes, and many estates even dug artificial ones especially for this purpose."
+   ],
+   [
+    "A",
+    "This work was done in the coldest weeks of January and February, and it was hard and dangerous. Workers stood on the frozen surface with hammers and poles, and accidents were common."
+   ],
+   [
+    "A",
+    "The ice was then broken into small pieces and packed tightly into the pit. This was important, because small pieces freeze together into one solid mass, which melts much more slowly than separate blocks."
+   ],
+   [
+    "A",
+    "Insulation was the next challenge. Between the layers of ice, workers spread straw."
+   ],
+   [
+    "A",
+    "Sawdust was sometimes used in later periods, but straw was cheaper and easier to find on a farm estate, so it was the standard choice."
+   ],
+   [
+    "A",
+    "Of course, some melting was unavoidable, and water lying in the bottom of the pit would speed up the process. So the floor of an ice house always sloped towards a drain, which carried the meltwater away."
+   ],
+   [
+    "A",
+    "What was the ice actually used for? Mainly for preserving food, such as fish, meat and dairy products."
+   ],
+   [
+    "A",
+    "It was also used for making ice cream and cold drinks for parties, which were a way of showing off one's wealth."
+   ],
+   [
+    "A",
+    "But ice had medical uses as well. Doctors used it to bring down a fever, and to reduce swelling after injuries."
+   ],
+   [
+    "A",
+    "In the nineteenth century, ice became a business. As cities grew, demand far exceeded what local lakes could provide."
+   ],
+   [
+    "A",
+    "At first, ice was shipped across the Atlantic from North America, but this was expensive. Later, most of the ice sold in London came from Norway, which was much closer and had plenty of frozen lakes."
+   ],
+   [
+    "A",
+    "Large commercial ice wells were dug in London to store these imports. One of them, near King's Cross, is now part of a museum, and visitors can still look down into it."
+   ],
+   [
+    "A",
+    "So why did ice houses disappear? The answer, of course, is mechanical refrigeration."
+   ],
+   [
+    "A",
+    "By the early twentieth century, ice could be manufactured in factories all year round, and later, refrigerators in people's homes made stored natural ice unnecessary."
+   ],
+   [
+    "A",
+    "It's worth remembering, though, that the change was gradual. In country areas, some estates went on filling their ice houses every winter until well into the nineteen-thirties, simply because it cost them almost nothing."
+   ],
+   [
+    "A",
+    "Today, many old ice houses survive in parks and gardens, and some have found new uses. A number of them have become homes for bats, which like the cool, dark and stable conditions."
+   ],
+   [
+    "A",
+    "Next week, we'll look at another everyday technology that we now take for granted: the history of street lighting."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Persian yakhchals: walls made of heat-resistant mortar containing sand, clay, egg whites, lime, goat hair and ___",
+      "a": "ash",
+      "why": "\"It contained sand, clay, egg whites, lime and goat hair, and also ash.\""
+     },
+     {
+      "q": "A tall ___ shape allowed warm air to rise and escape",
+      "a": "dome",
+      "why": "\"a yakhchal had a tall dome shape... Warm air rose to the top of the dome and escaped.\""
+     },
+     {
+      "q": "Britain: ice houses became common on country estates in the ___ century",
+      "a": "seventeenth|17th",
+      "why": "Ý và Pháp có sớm hơn; ở Anh \"they only became common in the seventeenth century.\" (Thế kỷ 19 là lúc đã có hàng nghìn cái, là bẫy.)"
+     },
+     {
+      "q": "Ice was usually taken from the surface of ___",
+      "a": "lakes",
+      "why": "Không phải sông (bẫy): \"estate workers usually broke ice from the surface of lakes.\""
+     },
+     {
+      "q": "Layers of ___ were placed between the ice as insulation",
+      "a": "straw",
+      "why": "\"Between the layers of ice, workers spread straw.\" Mùn cưa chỉ dùng về sau, là bẫy."
+     },
+     {
+      "q": "The floor sloped towards a ___ to remove meltwater",
+      "a": "drain",
+      "why": "\"the floor of an ice house always sloped towards a drain, which carried the meltwater away.\""
+     },
+     {
+      "q": "Medical uses: to bring down a ___ and reduce swelling",
+      "a": "fever",
+      "why": "\"Doctors used it to bring down a fever, and to reduce swelling after injuries.\""
+     },
+     {
+      "q": "Later, most ice sold in London was imported from ___",
+      "a": "Norway",
+      "why": "Ban đầu nhập từ Bắc Mỹ nhưng đắt (bẫy); \"Later, most of the ice sold in London came from Norway.\""
+     },
+     {
+      "q": "A commercial ice well near King's Cross is now part of a ___",
+      "a": "museum",
+      "why": "\"One of them, near King's Cross, is now part of a museum.\""
+     },
+     {
+      "q": "Ice houses disappeared because of mechanical ___",
+      "a": "refrigeration",
+      "why": "\"The answer, of course, is mechanical refrigeration.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2p1",
+  "test": 2,
+  "part": 1,
+  "title": "Enquiring about evening courses",
+  "setting": "Một người mới chuyển đến gọi điện cho trung tâm giáo dục người lớn Larchfield để hỏi về ba khóa học và đăng ký một khóa.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Receptionist",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Ryan (caller)",
+    "voice": "m",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon, Larchfield Adult Education Centre. How can I help?"
+   ],
+   [
+    "B",
+    "Hi there. I've just moved to the area, and I'm interested in some of your courses. I picked up a leaflet, but it's from last year, so I wanted to check the details."
+   ],
+   [
+    "A",
+    "Of course. Which courses are you looking at?"
+   ],
+   [
+    "B",
+    "Three, actually. I haven't quite decided yet. The first one is digital photography."
+   ],
+   [
+    "A",
+    "Right. That used to run on Monday evenings, but this term it's on Tuesdays, from seven till nine."
+   ],
+   [
+    "B",
+    "Tuesday, OK. And how much does it cost? The leaflet says 125 pounds."
+   ],
+   [
+    "A",
+    "That was last year's price. It's gone up to 140 pounds now, I'm afraid, for ten weeks."
+   ],
+   [
+    "B",
+    "That's still reasonable. Who teaches it?"
+   ],
+   [
+    "A",
+    "A professional photographer called Helen Grayson. That's G-R-A-Y-S-O-N."
+   ],
+   [
+    "B",
+    "Grayson. Thanks. Do I need my own camera?"
+   ],
+   [
+    "A",
+    "You can use a phone camera to begin with, actually. But you'll need to bring a laptop each week, because a lot of the course is about editing your photos."
+   ],
+   [
+    "B",
+    "OK, I've got a laptop, so that's fine. The second one I was looking at is Italian for beginners."
+   ],
+   [
+    "A",
+    "That's on Wednesdays, also in the evening. It's 95 pounds for the term, and that includes a dictionary, which you get to keep. The textbook you'll need to buy separately."
+   ],
+   [
+    "B",
+    "And is it held in the main building?"
+   ],
+   [
+    "A",
+    "Not this term. Our classrooms are being decorated, so the Italian class meets in the library on Park Street. It's just across the road from us."
+   ],
+   [
+    "B",
+    "The library. Got it. And the last one is furniture restoration."
+   ],
+   [
+    "A",
+    "Ah, that's very popular. It isn't in the evening, though. It's on Saturday, from ten until one, in our workshop."
+   ],
+   [
+    "B",
+    "Saturday mornings would actually suit me better. Is there anything I need to bring for that one?"
+   ],
+   [
+    "A",
+    "All the tools are provided, but you're asked to bring a small piece of furniture to work on, like a chair or a little table. And wear old clothes."
+   ],
+   [
+    "B",
+    "Fair enough. And the price?"
+   ],
+   [
+    "A",
+    "180 pounds, but that includes all the materials, like paint and varnish."
+   ],
+   [
+    "B",
+    "That sounds good value. When do the courses actually start?"
+   ],
+   [
+    "A",
+    "All three begin in the week of the twenty-second of September, and they run until early December, with a one-week break at the end of October."
+   ],
+   [
+    "B",
+    "And is there parking at the centre? I'll be driving, at least at first."
+   ],
+   [
+    "A",
+    "There's a small car park behind the main building, but it fills up quickly in the evenings. Most people use the public car park on Mill Lane, which is free after six."
+   ],
+   [
+    "B",
+    "OK, that's useful to know. I think I'll sign up for the photography course now, and maybe add the others later."
+   ],
+   [
+    "A",
+    "Lovely. I'll just take a few details. Can I have your full name?"
+   ],
+   [
+    "B",
+    "Ryan Kowalski. That's K-O-W-A-L-S-K-I."
+   ],
+   [
+    "A",
+    "Thank you. And your address?"
+   ],
+   [
+    "B",
+    "It's 31 Ashgrove Road. Ashgrove is A-S-H-G-R-O-V-E."
+   ],
+   [
+    "A",
+    "31 Ashgrove Road. Lovely. And how would you prefer us to contact you about the course? We can send an email or a text."
+   ],
+   [
+    "B",
+    "Emails tend to get lost in my inbox, so a text would be better."
+   ],
+   [
+    "A",
+    "No problem. I'll send you a text to confirm your place this afternoon, and you can pay online."
+   ],
+   [
+    "B",
+    "Great. Thanks so much for your help."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "table",
+    "instr": "Questions 1-7. Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Digital photography | Day: ___ evening",
+      "a": "Tuesday|Tuesdays",
+      "why": "Trước đây học thứ Hai (bẫy), \"but this term it's on Tuesdays.\""
+     },
+     {
+      "q": "Digital photography | Cost: £___ for ten weeks",
+      "a": "140|one hundred and forty",
+      "why": "125 bảng là giá năm ngoái (bẫy). \"It's gone up to 140 pounds now.\""
+     },
+     {
+      "q": "Digital photography | Tutor: Helen ___",
+      "a": "Grayson",
+      "why": "Nhân viên đánh vần: \"Helen Grayson. That's G-R-A-Y-S-O-N.\""
+     },
+     {
+      "q": "Digital photography | Bring a ___ every week",
+      "a": "laptop",
+      "why": "Máy ảnh điện thoại là đủ, nhưng \"you'll need to bring a laptop each week.\""
+     },
+     {
+      "q": "Italian for beginners | £95, includes a ___",
+      "a": "dictionary",
+      "why": "\"that includes a dictionary\"; sách giáo trình phải mua riêng (bẫy)."
+     },
+     {
+      "q": "Italian for beginners | Classes held in the ___ on Park Street",
+      "a": "library",
+      "why": "Phòng học đang sửa nên \"the Italian class meets in the library on Park Street.\""
+     },
+     {
+      "q": "Furniture restoration | Day: ___ morning",
+      "a": "Saturday",
+      "why": "\"It isn't in the evening, though. It's on Saturday, from ten until one.\""
+     }
+    ]
+   },
+   {
+    "kind": "form",
+    "instr": "Questions 8-10. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Name: Ryan ___",
+      "a": "Kowalski",
+      "why": "Khách đánh vần: \"Ryan Kowalski. That's K-O-W-A-L-S-K-I.\""
+     },
+     {
+      "q": "Address: 31 ___ Road",
+      "a": "Ashgrove",
+      "why": "\"It's 31 Ashgrove Road. Ashgrove is A-S-H-G-R-O-V-E.\""
+     },
+     {
+      "q": "Preferred contact: by ___",
+      "a": "text",
+      "why": "Email hay bị trôi (bẫy): \"so a text would be better.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2p2",
+  "test": 2,
+  "part": 2,
+  "title": "The Harbour Lights Festival",
+  "setting": "Người dẫn chương trình radio địa phương giới thiệu lễ hội Harbour Lights ở thị trấn ven biển Port Ellery: lịch sử, vé, thay đổi năm nay và lịch các sự kiện.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Jack Morrison (radio presenter)",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, and you're listening to Coast FM. I'm Jack Morrison."
+   ],
+   [
+    "A",
+    "This morning I'm going to tell you everything you need to know about this year's Harbour Lights Festival, which starts in Port Ellery next Friday and runs for three days."
+   ],
+   [
+    "A",
+    "For anyone who's new to the area, the festival began twenty-five years ago as a small fishing competition for local families."
+   ],
+   [
+    "A",
+    "Over time it grew to include music and food, and these days it's probably best known for the lantern parade along the harbour on the final night."
+   ],
+   [
+    "A",
+    "Now, a question we get asked every year is how much it costs. Entry to the festival area is free, as always, and that includes the lantern parade and all the activities on the beach."
+   ],
+   [
+    "A",
+    "The only event you need a ticket for is the concert on Saturday night, and those are 25 dollars from the visitor centre."
+   ],
+   [
+    "A",
+    "Last year, more than thirty thousand people came along, which caused some real headaches."
+   ],
+   [
+    "A",
+    "It wasn't the weather, which was perfect all weekend, and there were plenty of food stalls. The problem was that the roads into town were completely blocked, and some visitors spent over an hour trying to find a parking space."
+   ],
+   [
+    "A",
+    "So this year the organisers have made some changes. First, there'll be free shuttle buses running every fifteen minutes from the sports ground on the edge of town."
+   ],
+   [
+    "A",
+    "You can park there for nothing, and the bus will drop you right by the harbour."
+   ],
+   [
+    "A",
+    "The second big change is that, for the first time, there'll be a children's zone on the beach, with games, face painting and a small stage for younger performers."
+   ],
+   [
+    "A",
+    "Some of you have asked whether the fireworks are coming back. I'm afraid they're not. The council decided last year that they upset the local wildlife, especially the seabirds."
+   ],
+   [
+    "A",
+    "The craft market is back again, as usual, in the town square, and it'll be open all three days."
+   ],
+   [
+    "A",
+    "Right, let me run through the main events and when they're on, because a few things have moved around."
+   ],
+   [
+    "A",
+    "The fishing competition, where it all began, used to be held on the Sunday. This year it's been moved to Saturday morning, starting at six. So set your alarms."
+   ],
+   [
+    "A",
+    "On Friday afternoon, after school finishes, there's sandcastle building on the main beach for families. There are prizes for the most creative design, not just the biggest."
+   ],
+   [
+    "A",
+    "The cooking competition has been running for ten years now. The early rounds take place on Saturday, but the final, which is the part really worth watching, is on Sunday at noon."
+   ],
+   [
+    "A",
+    "The dragon boat race was supposed to be on Saturday afternoon, but because of the tides, the organisers have moved it to Friday evening, at around six."
+   ],
+   [
+    "A",
+    "And of course, the festival ends with the lantern parade on Sunday evening, starting at eight from the lighthouse. If you'd like to carry a lantern, you can make one at the craft market beforehand."
+   ],
+   [
+    "A",
+    "Before I go, a quick word about volunteers. The festival simply couldn't happen without them, and this year the organisers still need around sixty more people."
+   ],
+   [
+    "A",
+    "Jobs include giving out maps, helping at the shuttle bus stops and collecting rubbish on the beach. You only need to give four hours of your time, and every volunteer gets a free festival T-shirt and a meal voucher."
+   ],
+   [
+    "A",
+    "If you're interested, you can sign up at the visitor centre on Beach Road, or call in to the radio station this week and we'll pass your name on."
+   ],
+   [
+    "A",
+    "For more details about any of the events, have a look at the festival website. And I'll be back after the news with the weekend weather forecast."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-13. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "The festival was originally",
+      "o": [
+       "a music event.",
+       "a fishing competition.",
+       "a lantern parade."
+      ],
+      "a": 1,
+      "why": "\"the festival began twenty-five years ago as a small fishing competition.\" Âm nhạc được thêm sau, còn diễu hành đèn lồng là thứ nổi tiếng hiện nay."
+     },
+     {
+      "q": "Visitors need to buy a ticket for",
+      "o": [
+       "the lantern parade.",
+       "the Saturday concert.",
+       "the children's activities."
+      ],
+      "a": 1,
+      "why": "\"The only event you need a ticket for is the concert on Saturday night.\""
+     },
+     {
+      "q": "What was the main problem at last year's festival?",
+      "o": [
+       "bad weather",
+       "traffic and parking",
+       "a shortage of food stalls"
+      ],
+      "a": 1,
+      "why": "\"It wasn't the weather... there were plenty of food stalls. The problem was that the roads into town were completely blocked.\""
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 14-15. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO things are new at the festival this year?",
+      "o": [
+       "free shuttle buses",
+       "a children's area",
+       "fireworks",
+       "a craft market",
+       "a cooking competition"
+      ],
+      "a": [
+       0,
+       1
+      ],
+      "why": "Hai thay đổi: \"First, there'll be free shuttle buses\" và \"for the first time, there'll be a children's zone.\" Pháo hoa bị bỏ, chợ thủ công \"back again, as usual\", thi nấu ăn đã có 10 năm."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 16-20. On which day will each event take place? Choose the correct letter, A, B or C. You may choose any letter more than once.",
+    "opts": [
+     "Friday",
+     "Saturday",
+     "Sunday"
+    ],
+    "items": [
+     {
+      "q": "fishing competition",
+      "a": 1,
+      "why": "Trước đây vào Chủ nhật (bẫy); \"This year it's been moved to Saturday morning.\""
+     },
+     {
+      "q": "sandcastle building",
+      "a": 0,
+      "why": "\"On Friday afternoon, after school finishes, there's sandcastle building.\""
+     },
+     {
+      "q": "cooking competition final",
+      "a": 2,
+      "why": "Vòng loại thứ Bảy (bẫy); \"the final... is on Sunday at noon.\""
+     },
+     {
+      "q": "dragon boat race",
+      "a": 0,
+      "why": "Dự kiến thứ Bảy nhưng \"have moved it to Friday evening.\""
+     },
+     {
+      "q": "lantern parade",
+      "a": 2,
+      "why": "\"the festival ends with the lantern parade on Sunday evening.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2p3",
+  "test": 2,
+  "part": 3,
+  "title": "Food waste in the university canteen",
+  "setting": "Hai sinh viên thảo luận với giảng viên về bài thuyết trình nghiên cứu lãng phí thực phẩm ở căng tin trường: kết quả, cách mở đầu, phân công và khuyến nghị.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Hannah",
+    "voice": "f",
+    "accent": "en-AU"
+   },
+   {
+    "id": "B",
+    "name": "Raj",
+    "voice": "m",
+    "accent": "en-US"
+   },
+   {
+    "id": "C",
+    "name": "Dr Mills (tutor)",
+    "voice": "f",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "C",
+    "Hello, Hannah, Raj. Come and sit down. So, your presentation on food waste is next Thursday. How's it coming along?"
+   ],
+   [
+    "A",
+    "Pretty well, I think. We've finished the research, and now we're working on the slides."
+   ],
+   [
+    "B",
+    "We wanted to run a few things past you first, especially the findings."
+   ],
+   [
+    "C",
+    "Of course. Remind me how you collected your data."
+   ],
+   [
+    "A",
+    "We worked with the main canteen for two weeks. Every evening, the kitchen staff measured the weight of all the food that was thrown away, and we recorded it in a spreadsheet."
+   ],
+   [
+    "B",
+    "We also kept a note of what type of food it was, so we could look for patterns."
+   ],
+   [
+    "C",
+    "And what did you find?"
+   ],
+   [
+    "B",
+    "The biggest category by far was bread. Nearly a third of the total waste. A lot of it was from the free rolls they put out with the soup."
+   ],
+   [
+    "A",
+    "We'd assumed it would be cooked vegetables, but they actually came second."
+   ],
+   [
+    "C",
+    "That's quite striking. Did the canteen manager have an explanation?"
+   ],
+   [
+    "A",
+    "She said they put the rolls out in big baskets, and students take two or three without thinking, then leave most of them on the plate."
+   ],
+   [
+    "B",
+    "Another thing we noticed was that waste was much higher on Fridays. We think that's because lots of students go home for the weekend, so fewer people eat in the canteen, but the kitchen still prepares the same amount."
+   ],
+   [
+    "C",
+    "So part of the problem is planning rather than students' behaviour."
+   ],
+   [
+    "B",
+    "Partly, yes."
+   ],
+   [
+    "A",
+    "We also did a short survey. We asked students why they left food. We thought they'd complain about the taste, but only a few did. The most common answer was that the portions were too big."
+   ],
+   [
+    "C",
+    "Now, have you decided how to start the presentation? First impressions really matter."
+   ],
+   [
+    "B",
+    "I wanted to open with a list of statistics about food waste around the world, to show how serious it is."
+   ],
+   [
+    "A",
+    "And I thought we could start with a photo. We took a picture of one day's waste, all piled up on a table. It's quite shocking."
+   ],
+   [
+    "C",
+    "I'd go with the photo. Statistics are important, but if you start with too many numbers, the audience will switch off. The image will grab their attention, and then you can bring in the figures."
+   ],
+   [
+    "C",
+    "How are you dividing up the work?"
+   ],
+   [
+    "A",
+    "We thought Raj would present the data and I'd do the recommendations."
+   ],
+   [
+    "B",
+    "Although actually, I'm more comfortable talking about solutions, and Hannah made all the charts, so maybe it makes more sense the other way round."
+   ],
+   [
+    "A",
+    "That's true. OK, let's swap, then."
+   ],
+   [
+    "C",
+    "Good. And how long is it at the moment?"
+   ],
+   [
+    "A",
+    "About twenty-five minutes in total, if we include everything."
+   ],
+   [
+    "C",
+    "That's too long. The limit is twenty minutes, and that includes five minutes for questions at the end. So you've really only got fifteen minutes of talking."
+   ],
+   [
+    "B",
+    "Right. We'll have to cut quite a lot, then."
+   ],
+   [
+    "C",
+    "One more thing. Are you planning to include the canteen manager's comments?"
+   ],
+   [
+    "B",
+    "We have a recording of the interview, but the sound quality isn't great. There's a lot of kitchen noise."
+   ],
+   [
+    "C",
+    "Then don't play it. Choose one or two good sentences and put a short quotation on a slide instead."
+   ],
+   [
+    "C",
+    "Finally, the recommendations. How many have you got?"
+   ],
+   [
+    "B",
+    "We had five ideas originally. We've already dropped charging for bread rolls, because the manager said students would complain."
+   ],
+   [
+    "A",
+    "We're definitely keeping smaller portions, with the option of asking for more. That came straight from the survey."
+   ],
+   [
+    "C",
+    "Agreed. That's well supported."
+   ],
+   [
+    "B",
+    "Donating leftovers to a local charity was a nice idea, but there are hygiene rules that make it really difficult, so we've taken that out as well."
+   ],
+   [
+    "A",
+    "And reducing the number of dishes on the menu. The manager said that would be very unpopular, so that's gone too."
+   ],
+   [
+    "B",
+    "But adjusting how much the kitchen cooks on Fridays is simple and cheap, so that's our second one."
+   ],
+   [
+    "C",
+    "Two clear, practical recommendations. That's much better than five vague ones. Well done, both of you."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 21-24. Complete the sentences below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Each evening, the kitchen staff measured the ___ of the food that was thrown away.",
+      "a": "weight",
+      "why": "\"the kitchen staff measured the weight of all the food that was thrown away.\""
+     },
+     {
+      "q": "The largest category of waste was ___.",
+      "a": "bread",
+      "why": "\"The biggest category by far was bread.\" Rau nấu chín chỉ đứng thứ hai (bẫy)."
+     },
+     {
+      "q": "Waste was highest on ___, when many students go home.",
+      "a": "Fridays|Friday",
+      "why": "\"waste was much higher on Fridays... lots of students go home for the weekend.\""
+     },
+     {
+      "q": "Most students said they left food because the ___ were too big.",
+      "a": "portions",
+      "why": "Ít người chê vị (bẫy). \"The most common answer was that the portions were too big.\""
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 25-28. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "How does the tutor suggest the students begin their presentation?",
+      "o": [
+       "with global statistics",
+       "with a photograph",
+       "with a question for the audience"
+      ],
+      "a": 1,
+      "why": "\"I'd go with the photo... if you start with too many numbers, the audience will switch off.\""
+     },
+     {
+      "q": "In the presentation, Raj will talk about",
+      "o": [
+       "the findings.",
+       "the recommendations.",
+       "the research methods."
+      ],
+      "a": 1,
+      "why": "Kế hoạch ban đầu Raj trình bày dữ liệu (bẫy), nhưng Raj nói \"I'm more comfortable talking about solutions\" và Hannah đồng ý \"let's swap.\""
+     },
+     {
+      "q": "How much speaking time do the students have?",
+      "o": [
+       "fifteen minutes",
+       "twenty minutes",
+       "twenty-five minutes"
+      ],
+      "a": 0,
+      "why": "25 phút là độ dài hiện tại, 20 phút là tổng giới hạn tính cả hỏi đáp: \"So you've really only got fifteen minutes of talking.\""
+     },
+     {
+      "q": "What does the tutor advise about the interview with the canteen manager?",
+      "o": [
+       "play part of the recording",
+       "show a quotation on a slide",
+       "leave it out completely"
+      ],
+      "a": 1,
+      "why": "\"Then don't play it... put a short quotation on a slide instead.\""
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 29-30. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO recommendations will the students include?",
+      "o": [
+       "charging for bread rolls",
+       "offering smaller portions",
+       "reducing the number of dishes",
+       "cooking less food on Fridays",
+       "giving leftovers to charity"
+      ],
+      "a": [
+       1,
+       3
+      ],
+      "why": "\"We're definitely keeping smaller portions\" và \"adjusting how much the kitchen cooks on Fridays... that's our second one.\" Ba ý còn lại đều bị loại."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l2p4",
+  "test": 2,
+  "part": 4,
+  "title": "Bioluminescence in the ocean",
+  "setting": "Bài giảng sinh học biển về hiện tượng phát quang sinh học: cơ chế, màu sắc, chức năng đối với động vật và ứng dụng cho con người.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, everyone. Today we're turning to one of the most remarkable phenomena in marine biology: bioluminescence, which is simply the production of light by living organisms."
+   ],
+   [
+    "A",
+    "It's far more common than most people realise. Scientists now estimate that around three quarters of the animals living in the open ocean are able to produce light."
+   ],
+   [
+    "A",
+    "That figure comes from years of observations made with cameras on remotely operated vehicles, which can film animals at depths no diver could ever reach."
+   ],
+   [
+    "A",
+    "On land, by contrast, it's quite rare. Fireflies are the best-known example, along with a few types of fungi."
+   ],
+   [
+    "A",
+    "So how does it work? In most cases, the light is produced by a chemical reaction. A molecule called luciferin reacts with oxygen, and this reaction is controlled by an enzyme."
+   ],
+   [
+    "A",
+    "The energy is released almost entirely as light rather than heat, which is why bioluminescence is sometimes described as cold light."
+   ],
+   [
+    "A",
+    "Interestingly, not all animals make these chemicals themselves. Some get luciferin from their diet, by eating smaller glowing organisms."
+   ],
+   [
+    "A",
+    "Others, like the bobtail squid, host colonies of bacteria that glow on their behalf. In return, the squid gives the bacteria food and a safe place to live."
+   ],
+   [
+    "A",
+    "Now, if you've ever seen photographs of glowing sea creatures, you'll have noticed that most of the light is blue. That's because blue light travels furthest through seawater."
+   ],
+   [
+    "A",
+    "Red light, on the other hand, is absorbed very quickly, which is why most deep-sea animals can't see red at all."
+   ],
+   [
+    "A",
+    "So why do animals produce light? There are several functions. The first is defence."
+   ],
+   [
+    "A",
+    "Some deep-sea shrimps, when they're attacked, release a cloud of glowing liquid, rather like a squid releasing ink. This confuses the predator while the shrimp escapes into the darkness."
+   ],
+   [
+    "A",
+    "The second function is hunting. The anglerfish is the classic example. It has a long spine on its head with a glowing tip, which it uses like a fishing rod to attract smaller fish close to its mouth."
+   ],
+   [
+    "A",
+    "A third function is camouflage, and this one is rather clever. Many animals in the middle depths produce light on their undersides."
+   ],
+   [
+    "A",
+    "When a predator looks up from below, the animal's glow matches the faint sunlight coming from above, so its shadow disappears."
+   ],
+   [
+    "A",
+    "Biologists call this counter-illumination. Some animals can even adjust the brightness of their glow as they move up and down, to match the changing light levels around them."
+   ],
+   [
+    "A",
+    "And finally, there's communication. Some species use flashing patterns to find a mate, much as fireflies do on land."
+   ],
+   [
+    "A",
+    "In certain small fish, males and females produce slightly different patterns of flashes, so that individuals can recognise members of their own species in the dark."
+   ],
+   [
+    "A",
+    "Bioluminescence has also had practical value for humans. The most important example came from a jellyfish that produces a green fluorescent protein."
+   ],
+   [
+    "A",
+    "Scientists learned to attach this protein to other genes, so that they can see exactly where and when those genes are active inside living cells. The researchers who developed this were awarded a Nobel Prize in 2008."
+   ],
+   [
+    "A",
+    "There have also been some less successful ideas. A few years ago, a project proposed replacing street lights with glowing trees, created by adding bioluminescent genes to plants."
+   ],
+   [
+    "A",
+    "Some people raised concerns about releasing modified plants, but that isn't what ended the project. The real problem was that the light produced was far too weak to be useful, and the idea was eventually abandoned."
+   ],
+   [
+    "A",
+    "Bioluminescence is also helping us to monitor the environment. Certain glowing bacteria become dimmer when they're exposed to toxic chemicals, so they can be used to test water quality quickly and cheaply."
+   ],
+   [
+    "A",
+    "This is much faster than traditional laboratory tests, which can take several days to give a result."
+   ],
+   [
+    "A",
+    "To finish, I want to stress how much we still don't know. Most of the deep ocean has never been explored, and almost every expedition discovers new light-producing species."
+   ],
+   [
+    "A",
+    "Researchers now believe that bioluminescence has evolved independently many dozens of times in different groups of animals."
+   ],
+   [
+    "A",
+    "When something evolves again and again like that, it tells us that producing light must give animals a very strong advantage for survival."
+   ],
+   [
+    "A",
+    "In our next session, we'll look at the other side of the story: how deep-sea animals detect light."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-37. Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+    "items": [
+     {
+      "q": "About ___ of open-ocean animals can produce light",
+      "a": "three quarters|75%",
+      "why": "\"around three quarters of the animals living in the open ocean are able to produce light.\""
+     },
+     {
+      "q": "Mechanism: luciferin reacts with ___, controlled by an enzyme",
+      "a": "oxygen",
+      "why": "\"A molecule called luciferin reacts with oxygen.\""
+     },
+     {
+      "q": "Energy released as light, not heat, so it is called ___ light",
+      "a": "cold",
+      "why": "\"which is why bioluminescence is sometimes described as cold light.\""
+     },
+     {
+      "q": "Bobtail squid: light produced by ___ living in its body",
+      "a": "bacteria",
+      "why": "\"host colonies of bacteria that glow on their behalf.\""
+     },
+     {
+      "q": "Most marine light is ___ because it travels furthest in seawater",
+      "a": "blue",
+      "why": "\"most of the light is blue. That's because blue light travels furthest through seawater.\""
+     },
+     {
+      "q": "Defence: some shrimps release a cloud of glowing ___",
+      "a": "liquid",
+      "why": "\"release a cloud of glowing liquid, rather like a squid releasing ink.\""
+     },
+     {
+      "q": "Hunting: the anglerfish uses a glowing tip like a fishing ___",
+      "a": "rod",
+      "why": "\"which it uses like a fishing rod to attract smaller fish.\""
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 38-40. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "The jellyfish protein is valuable to scientists mainly because it",
+      "o": [
+       "provides a cheap source of light.",
+       "shows where genes are active inside cells.",
+       "can be used to treat certain diseases."
+      ],
+      "a": 1,
+      "why": "\"so that they can see exactly where and when those genes are active inside living cells.\""
+     },
+     {
+      "q": "Why was the glowing tree project abandoned?",
+      "o": [
+       "The light was not bright enough.",
+       "People were worried about safety.",
+       "It was too expensive."
+      ],
+      "a": 0,
+      "why": "Có lo ngại về cây biến đổi gen, \"but that isn't what ended the project. The real problem was that the light produced was far too weak.\""
+     },
+     {
+      "q": "What does the lecturer conclude from the fact that bioluminescence evolved many times?",
+      "o": [
+       "It developed only recently.",
+       "It may disappear in the future.",
+       "It gives animals an important survival advantage."
+      ],
+      "a": 2,
+      "why": "\"producing light must give animals a very strong advantage for survival.\""
+     }
+    ]
+   }
+  ]
+ }
+]

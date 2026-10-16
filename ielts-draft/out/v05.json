@@ -1,0 +1,1652 @@
+[
+ {
+  "w": "remove",
+  "ipa": "/rɪˈmuːv/",
+  "pos": "v",
+  "vi": "loại bỏ, gỡ bỏ; di chuyển đi; cởi (quần áo)",
+  "ex": "The city council removed all the old trees that were blocking the road.",
+  "exvi": "Hội đồng thành phố đã dời bỏ tất cả những cây cũ đang chắn đường.",
+  "col": [
+   "remove from",
+   "remove waste",
+   "easily removed"
+  ],
+  "fam": "removal (n), removable (adj)",
+  "em": ""
+ },
+ {
+  "w": "conduct",
+  "ipa": "/kənˈdʌkt/",
+  "pos": "v, n",
+  "vi": "(v) tiến hành, thực hiện; dẫn (điện, nhiệt); (n) /ˈkɒndʌkt/ hạnh kiểm, cách cư xử",
+  "ex": "The researchers conducted a survey of 500 university students.",
+  "exvi": "Các nhà nghiên cứu đã tiến hành khảo sát 500 sinh viên đại học.",
+  "col": [
+   "conduct research",
+   "conduct an experiment",
+   "code of conduct"
+  ],
+  "fam": "conductor (n), conduction (n)",
+  "em": ""
+ },
+ {
+  "w": "equipment",
+  "ipa": "/ɪˈkwɪpmənt/",
+  "pos": "n",
+  "vi": "thiết bị, dụng cụ",
+  "ex": "Many rural schools lack modern equipment such as computers and projectors.",
+  "exvi": "Nhiều trường nông thôn thiếu thiết bị hiện đại như máy tính và máy chiếu.",
+  "col": [
+   "sports equipment",
+   "medical equipment",
+   "a piece of equipment"
+  ],
+  "fam": "equip (v), equipped (adj)",
+  "em": ""
+ },
+ {
+  "w": "otherwise",
+  "ipa": "/ˈʌðəwaɪz/",
+  "pos": "adv",
+  "vi": "nếu không thì; mặt khác, ngoài ra; khác đi",
+  "ex": "You should book your tickets early; otherwise, they may sell out.",
+  "exvi": "Bạn nên đặt vé sớm, nếu không thì vé có thể bán hết.",
+  "col": [
+   "unless otherwise stated",
+   "think otherwise",
+   "or otherwise"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "title",
+  "ipa": "/ˈtaɪtl/",
+  "pos": "n, v",
+  "vi": "(n) tiêu đề, tên (sách, phim); danh hiệu; chức danh",
+  "ex": "The title of the article clearly shows the writer's main argument.",
+  "exvi": "Tiêu đề của bài báo cho thấy rõ lập luận chính của người viết.",
+  "col": [
+   "job title",
+   "the title of",
+   "win the title"
+  ],
+  "fam": "entitle (v), subtitle (n)",
+  "em": ""
+ },
+ {
+  "w": "extra",
+  "ipa": "/ˈekstrə/",
+  "pos": "adj, adv, n",
+  "vi": "thêm, phụ; đặc biệt; khoản thêm",
+  "ex": "Some students take extra classes in the evening to improve their English.",
+  "exvi": "Một số học sinh học thêm vào buổi tối để nâng cao tiếng Anh.",
+  "col": [
+   "extra time",
+   "extra cost",
+   "at no extra charge"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "executive",
+  "ipa": "/ɪɡˈzekjətɪv/",
+  "pos": "n, adj",
+  "vi": "(n) người điều hành, giám đốc; (adj) (thuộc) điều hành, hành pháp",
+  "ex": "The chief executive announced that the company would hire 200 new staff.",
+  "exvi": "Tổng giám đốc thông báo công ty sẽ tuyển 200 nhân viên mới.",
+  "col": [
+   "chief executive",
+   "executive director",
+   "executive power"
+  ],
+  "fam": "execute (v), execution (n)",
+  "em": ""
+ },
+ {
+  "w": "chair",
+  "ipa": "/tʃeə(r)/",
+  "pos": "n, v",
+  "vi": "(n) cái ghế; chủ tọa; (v) chủ trì (cuộc họp)",
+  "ex": "Office workers should use a comfortable chair to avoid back pain.",
+  "exvi": "Nhân viên văn phòng nên dùng ghế thoải mái để tránh đau lưng.",
+  "col": [
+   "sit on a chair",
+   "chair a meeting",
+   "office chair"
+  ],
+  "fam": "chairman (n), chairperson (n)",
+  "em": "🪑"
+ },
+ {
+  "w": "expensive",
+  "ipa": "/ɪkˈspensɪv/",
+  "pos": "adj",
+  "vi": "đắt, đắt tiền",
+  "ex": "Living in big cities like London is very expensive for students.",
+  "exvi": "Sống ở các thành phố lớn như London rất đắt đỏ đối với sinh viên.",
+  "col": [
+   "too expensive",
+   "expensive to run",
+   "an expensive hobby"
+  ],
+  "fam": "expense (n), expensively (adv), inexpensive (adj)",
+  "em": ""
+ },
+ {
+  "w": "sample",
+  "ipa": "/ˈsɑːmpl/",
+  "pos": "n, v",
+  "vi": "(n) mẫu, vật mẫu; (v) lấy mẫu; nếm thử",
+  "ex": "The scientists collected water samples from ten different rivers.",
+  "exvi": "Các nhà khoa học đã lấy mẫu nước từ mười con sông khác nhau.",
+  "col": [
+   "blood sample",
+   "a large sample",
+   "free sample"
+  ],
+  "fam": "sampling (n)",
+  "em": ""
+ },
+ {
+  "w": "sex",
+  "ipa": "/seks/",
+  "pos": "n",
+  "vi": "giới tính; tình dục",
+  "ex": "The survey results were analysed by age and sex.",
+  "exvi": "Kết quả khảo sát được phân tích theo độ tuổi và giới tính.",
+  "col": [
+   "sex education",
+   "the opposite sex",
+   "sex discrimination"
+  ],
+  "fam": "sexual (adj), sexuality (n)",
+  "em": ""
+ },
+ {
+  "w": "deliver",
+  "ipa": "/dɪˈlɪvə(r)/",
+  "pos": "v",
+  "vi": "giao, chuyển (hàng); thực hiện, đem lại; trình bày (bài nói)",
+  "ex": "Online shops can now deliver food to your door within an hour.",
+  "exvi": "Các cửa hàng trực tuyến giờ có thể giao đồ ăn đến tận nhà bạn trong vòng một giờ.",
+  "col": [
+   "deliver a speech",
+   "deliver goods",
+   "deliver results"
+  ],
+  "fam": "delivery (n)",
+  "em": "🚚"
+ },
+ {
+  "w": "video",
+  "ipa": "/ˈvɪdiəʊ/",
+  "pos": "n",
+  "vi": "video, đoạn phim",
+  "ex": "Many students learn English by watching short videos on YouTube.",
+  "exvi": "Nhiều học sinh học tiếng Anh bằng cách xem các video ngắn trên YouTube.",
+  "col": [
+   "video call",
+   "watch a video",
+   "video game"
+  ],
+  "fam": "",
+  "em": "📹"
+ },
+ {
+  "w": "connection",
+  "ipa": "/kəˈnekʃn/",
+  "pos": "n",
+  "vi": "sự kết nối, mối liên hệ; kết nối mạng; chuyến nối tiếp",
+  "ex": "There is a clear connection between diet and heart disease.",
+  "exvi": "Có mối liên hệ rõ ràng giữa chế độ ăn và bệnh tim.",
+  "col": [
+   "internet connection",
+   "in connection with",
+   "make a connection"
+  ],
+  "fam": "connect (v), connected (adj)",
+  "em": ""
+ },
+ {
+  "w": "primary",
+  "ipa": "/ˈpraɪməri/",
+  "pos": "adj",
+  "vi": "chính, chủ yếu; (thuộc) tiểu học",
+  "ex": "The primary aim of the project is to provide clean water to rural areas.",
+  "exvi": "Mục tiêu chính của dự án là cung cấp nước sạch cho vùng nông thôn.",
+  "col": [
+   "primary school",
+   "primary reason",
+   "primary education"
+  ],
+  "fam": "primarily (adv), prime (adj)",
+  "em": ""
+ },
+ {
+  "w": "weather",
+  "ipa": "/ˈweðə(r)/",
+  "pos": "n",
+  "vi": "thời tiết",
+  "ex": "Bad weather forced the airline to cancel many flights.",
+  "exvi": "Thời tiết xấu buộc hãng hàng không phải hủy nhiều chuyến bay.",
+  "col": [
+   "weather forecast",
+   "bad weather",
+   "weather conditions"
+  ],
+  "fam": "",
+  "em": "🌦️"
+ },
+ {
+  "w": "collect",
+  "ipa": "/kəˈlekt/",
+  "pos": "v",
+  "vi": "thu thập, sưu tầm; đón (ai đó); thu (tiền)",
+  "ex": "The local government collects rubbish from each street twice a week.",
+  "exvi": "Chính quyền địa phương thu gom rác ở mỗi con phố hai lần một tuần.",
+  "col": [
+   "collect data",
+   "collect money",
+   "collect someone from"
+  ],
+  "fam": "collection (n), collector (n), collective (adj)",
+  "em": ""
+ },
+ {
+  "w": "inform",
+  "ipa": "/ɪnˈfɔːm/",
+  "pos": "v",
+  "vi": "thông báo, cho biết",
+  "ex": "Passengers were informed that the train would be delayed by an hour.",
+  "exvi": "Hành khách được thông báo rằng chuyến tàu sẽ trễ một tiếng.",
+  "col": [
+   "inform someone of",
+   "keep someone informed",
+   "inform the police"
+  ],
+  "fam": "information (n), informative (adj), informed (adj)",
+  "em": ""
+ },
+ {
+  "w": "principle",
+  "ipa": "/ˈprɪnsəpl/",
+  "pos": "n",
+  "vi": "nguyên tắc, nguyên lý",
+  "ex": "Equality is one of the basic principles of a fair society.",
+  "exvi": "Bình đẳng là một trong những nguyên tắc cơ bản của một xã hội công bằng.",
+  "col": [
+   "in principle",
+   "basic principle",
+   "a matter of principle"
+  ],
+  "fam": "principled (adj)",
+  "em": ""
+ },
+ {
+  "w": "straight",
+  "ipa": "/streɪt/",
+  "pos": "adj, adv",
+  "vi": "(adj) thẳng; liên tiếp; (adv) thẳng, ngay lập tức",
+  "ex": "After graduating, she went straight into a full-time job.",
+  "exvi": "Sau khi tốt nghiệp, cô ấy đi làm toàn thời gian ngay.",
+  "col": [
+   "straight away",
+   "go straight",
+   "straight line"
+  ],
+  "fam": "straighten (v)",
+  "em": ""
+ },
+ {
+  "w": "appeal",
+  "ipa": "/əˈpiːl/",
+  "pos": "n, v",
+  "vi": "(v) hấp dẫn, lôi cuốn; kêu gọi; kháng cáo; (n) sức hấp dẫn; lời kêu gọi",
+  "ex": "Living in the countryside appeals to many people who are tired of city life.",
+  "exvi": "Sống ở nông thôn hấp dẫn nhiều người đã mệt mỏi với cuộc sống thành phố.",
+  "col": [
+   "appeal to",
+   "public appeal",
+   "lose its appeal"
+  ],
+  "fam": "appealing (adj)",
+  "em": ""
+ },
+ {
+  "w": "highly",
+  "ipa": "/ˈhaɪli/",
+  "pos": "adv",
+  "vi": "rất, hết sức; đánh giá cao",
+  "ex": "The course is highly recommended for anyone who wants to work in tourism.",
+  "exvi": "Khóa học rất được khuyên dùng cho bất kỳ ai muốn làm trong ngành du lịch.",
+  "col": [
+   "highly recommended",
+   "highly skilled",
+   "think highly of"
+  ],
+  "fam": "high (adj)",
+  "em": ""
+ },
+ {
+  "w": "trust",
+  "ipa": "/trʌst/",
+  "pos": "n, v",
+  "vi": "(n) sự tin tưởng; (v) tin tưởng, tin cậy",
+  "ex": "Children need to trust their teachers before they can learn effectively.",
+  "exvi": "Trẻ em cần tin tưởng giáo viên thì mới có thể học hiệu quả.",
+  "col": [
+   "trust someone",
+   "build trust",
+   "lose trust"
+  ],
+  "fam": "trustworthy (adj), distrust (n, v)",
+  "em": "🤝"
+ },
+ {
+  "w": "wonderful",
+  "ipa": "/ˈwʌndəfl/",
+  "pos": "adj",
+  "vi": "tuyệt vời",
+  "ex": "We had a wonderful time exploring the old town of Hoi An.",
+  "exvi": "Chúng tôi đã có khoảng thời gian tuyệt vời khi khám phá phố cổ Hội An.",
+  "col": [
+   "a wonderful time",
+   "a wonderful opportunity",
+   "wonderful view"
+  ],
+  "fam": "wonder (n, v), wonderfully (adv)",
+  "em": ""
+ },
+ {
+  "w": "flat",
+  "ipa": "/flæt/",
+  "pos": "n, adj",
+  "vi": "(n) căn hộ; (adj) bằng phẳng; (lốp) xẹp",
+  "ex": "Many young couples cannot afford to buy a flat in the city centre.",
+  "exvi": "Nhiều cặp đôi trẻ không đủ tiền mua căn hộ ở trung tâm thành phố.",
+  "col": [
+   "rent a flat",
+   "flat surface",
+   "a flat tyre"
+  ],
+  "fam": "flatten (v)",
+  "em": "🏢"
+ },
+ {
+  "w": "absolutely",
+  "ipa": "/ˈæbsəluːtli/",
+  "pos": "adv",
+  "vi": "hoàn toàn, tuyệt đối; (khi trả lời) chắc chắn rồi",
+  "ex": "It is absolutely essential to wear a helmet when riding a motorbike.",
+  "exvi": "Đội mũ bảo hiểm khi đi xe máy là hoàn toàn cần thiết.",
+  "col": [
+   "absolutely right",
+   "absolutely essential",
+   "absolutely not"
+  ],
+  "fam": "absolute (adj)",
+  "em": ""
+ },
+ {
+  "w": "flow",
+  "ipa": "/fləʊ/",
+  "pos": "n, v",
+  "vi": "(n) dòng chảy, luồng; (v) chảy, lưu thông",
+  "ex": "New traffic lights have improved the flow of traffic in the city centre.",
+  "exvi": "Đèn giao thông mới đã cải thiện luồng xe ở trung tâm thành phố.",
+  "col": [
+   "traffic flow",
+   "flow of information",
+   "go with the flow"
+  ],
+  "fam": "flowing (adj)",
+  "em": ""
+ },
+ {
+  "w": "fair",
+  "ipa": "/feə(r)/",
+  "pos": "adj, n",
+  "vi": "(adj) công bằng; khá, kha khá; (n) hội chợ",
+  "ex": "Everyone deserves a fair chance to get a good education.",
+  "exvi": "Ai cũng xứng đáng có cơ hội công bằng để được học hành tử tế.",
+  "col": [
+   "fair trade",
+   "a fair chance",
+   "job fair"
+  ],
+  "fam": "fairly (adv), fairness (n), unfair (adj)",
+  "em": ""
+ },
+ {
+  "w": "additional",
+  "ipa": "/əˈdɪʃənl/",
+  "pos": "adj",
+  "vi": "thêm, bổ sung",
+  "ex": "The hospital needs additional funding to buy new equipment.",
+  "exvi": "Bệnh viện cần thêm kinh phí để mua thiết bị mới.",
+  "col": [
+   "additional cost",
+   "additional information",
+   "at no additional charge"
+  ],
+  "fam": "add (v), addition (n), additionally (adv)",
+  "em": ""
+ },
+ {
+  "w": "responsible",
+  "ipa": "/rɪˈspɒnsəbl/",
+  "pos": "adj",
+  "vi": "chịu trách nhiệm; có trách nhiệm",
+  "ex": "Factories should be held responsible for the pollution they cause.",
+  "exvi": "Các nhà máy cần phải chịu trách nhiệm về ô nhiễm mà họ gây ra.",
+  "col": [
+   "responsible for",
+   "hold someone responsible",
+   "socially responsible"
+  ],
+  "fam": "responsibility (n), responsibly (adv), irresponsible (adj)",
+  "em": ""
+ },
+ {
+  "w": "farm",
+  "ipa": "/fɑːm/",
+  "pos": "n, v",
+  "vi": "(n) trang trại, nông trại; (v) làm nông, canh tác",
+  "ex": "Many young people leave their family farms to find jobs in the city.",
+  "exvi": "Nhiều người trẻ rời trang trại gia đình để tìm việc ở thành phố.",
+  "col": [
+   "farm animals",
+   "on a farm",
+   "fish farm"
+  ],
+  "fam": "farmer (n), farming (n), farmland (n)",
+  "em": "🚜"
+ },
+ {
+  "w": "collection",
+  "ipa": "/kəˈlekʃn/",
+  "pos": "n",
+  "vi": "bộ sưu tập; sự thu gom",
+  "ex": "The museum has a large collection of ancient pottery from the region.",
+  "exvi": "Bảo tàng có một bộ sưu tập lớn đồ gốm cổ của khu vực.",
+  "col": [
+   "a collection of",
+   "rubbish collection",
+   "data collection"
+  ],
+  "fam": "collect (v), collector (n)",
+  "em": ""
+ },
+ {
+  "w": "hang",
+  "ipa": "/hæŋ/",
+  "pos": "v",
+  "vi": "treo, mắc; (hang out) đi chơi, la cà",
+  "ex": "Teenagers often hang out at shopping centres at the weekend.",
+  "exvi": "Thanh thiếu niên thường đi chơi ở trung tâm mua sắm vào cuối tuần.",
+  "col": [
+   "hang out",
+   "hang up",
+   "hang on"
+  ],
+  "fam": "hanger (n)",
+  "em": ""
+ },
+ {
+  "w": "negative",
+  "ipa": "/ˈneɡətɪv/",
+  "pos": "adj",
+  "vi": "tiêu cực; phủ định; âm tính",
+  "ex": "Too much screen time can have a negative effect on children's sleep.",
+  "exvi": "Dùng màn hình quá nhiều có thể ảnh hưởng tiêu cực đến giấc ngủ của trẻ.",
+  "col": [
+   "negative effect",
+   "negative impact",
+   "test negative"
+  ],
+  "fam": "negatively (adv)",
+  "em": "➖"
+ },
+ {
+  "w": "band",
+  "ipa": "/bænd/",
+  "pos": "n",
+  "vi": "ban nhạc; dải, băng; nhóm, mức (điểm)",
+  "ex": "She needs an overall band score of 7.0 to study in Australia.",
+  "exvi": "Cô ấy cần điểm IELTS tổng 7.0 để du học Úc.",
+  "col": [
+   "band score",
+   "rock band",
+   "age band"
+  ],
+  "fam": "",
+  "em": "🎸"
+ },
+ {
+  "w": "relative",
+  "ipa": "/ˈrelətɪv/",
+  "pos": "n, adj",
+  "vi": "(n) họ hàng, người thân; (adj) tương đối",
+  "ex": "During Tet, people visit their relatives to wish them a happy new year.",
+  "exvi": "Dịp Tết, mọi người đi thăm họ hàng để chúc năm mới.",
+  "col": [
+   "close relative",
+   "relative to",
+   "relatively speaking"
+  ],
+  "fam": "relatively (adv), relation (n), relate (v)",
+  "em": ""
+ },
+ {
+  "w": "tour",
+  "ipa": "/tʊə(r)/",
+  "pos": "n, v",
+  "vi": "(n) chuyến tham quan, du lịch; (v) đi tham quan",
+  "ex": "We took a guided tour of the old city and learned a lot about its history.",
+  "exvi": "Chúng tôi tham gia một chuyến tham quan có hướng dẫn quanh khu phố cổ và học được nhiều điều về lịch sử nơi đây.",
+  "col": [
+   "guided tour",
+   "tour guide",
+   "on tour"
+  ],
+  "fam": "tourism (n), tourist (n)",
+  "em": ""
+ },
+ {
+  "w": "alternative",
+  "ipa": "/ɔːlˈtɜːnətɪv/",
+  "pos": "n, adj",
+  "vi": "(n) sự lựa chọn khác, phương án thay thế; (adj) thay thế, khác",
+  "ex": "Solar energy is a clean alternative to coal and oil.",
+  "exvi": "Năng lượng mặt trời là một lựa chọn thay thế sạch cho than và dầu.",
+  "col": [
+   "an alternative to",
+   "alternative energy",
+   "have no alternative"
+  ],
+  "fam": "alternatively (adv), alternate (v, adj)",
+  "em": ""
+ },
+ {
+  "w": "software",
+  "ipa": "/ˈsɒftweə(r)/",
+  "pos": "n",
+  "vi": "phần mềm",
+  "ex": "Schools are using new software to track students' progress.",
+  "exvi": "Các trường đang dùng phần mềm mới để theo dõi tiến độ học tập của học sinh.",
+  "col": [
+   "software developer",
+   "install software",
+   "computer software"
+  ],
+  "fam": "hardware (n)",
+  "em": "💻"
+ },
+ {
+  "w": "pair",
+  "ipa": "/peə(r)/",
+  "pos": "n, v",
+  "vi": "(n) đôi, cặp; (v) ghép đôi",
+  "ex": "In speaking classes, students often work in pairs to practise conversations.",
+  "exvi": "Trong giờ học nói, học sinh thường làm việc theo cặp để luyện hội thoại.",
+  "col": [
+   "a pair of",
+   "in pairs",
+   "pair up"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "ship",
+  "ipa": "/ʃɪp/",
+  "pos": "n, v",
+  "vi": "(n) tàu thủy; (v) vận chuyển, gửi hàng",
+  "ex": "Most goods are shipped from Asia to Europe by sea.",
+  "exvi": "Phần lớn hàng hóa được vận chuyển từ châu Á sang châu Âu bằng đường biển.",
+  "col": [
+   "cargo ship",
+   "ship goods",
+   "cruise ship"
+  ],
+  "fam": "shipping (n), shipment (n)",
+  "em": "🚢"
+ },
+ {
+  "w": "attitude",
+  "ipa": "/ˈætɪtjuːd/",
+  "pos": "n",
+  "vi": "thái độ, quan điểm",
+  "ex": "A positive attitude can help you deal with difficulties at work.",
+  "exvi": "Thái độ tích cực có thể giúp bạn vượt qua khó khăn trong công việc.",
+  "col": [
+   "positive attitude",
+   "attitude towards",
+   "change your attitude"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "cheap",
+  "ipa": "/tʃiːp/",
+  "pos": "adj",
+  "vi": "rẻ; kém chất lượng",
+  "ex": "Cheap flights have made travelling abroad possible for many families.",
+  "exvi": "Vé máy bay giá rẻ đã giúp nhiều gia đình có thể đi du lịch nước ngoài.",
+  "col": [
+   "cheap labour",
+   "cheap flights",
+   "dirt cheap"
+  ],
+  "fam": "cheaply (adv), cheapen (v)",
+  "em": ""
+ },
+ {
+  "w": "double",
+  "ipa": "/ˈdʌbl/",
+  "pos": "adj, v, n",
+  "vi": "(adj) gấp đôi, đôi; (v) tăng gấp đôi",
+  "ex": "The number of electric cars on the road has doubled in the last five years.",
+  "exvi": "Số lượng ô tô điện trên đường đã tăng gấp đôi trong năm năm qua.",
+  "col": [
+   "double the number",
+   "double room",
+   "double-check"
+  ],
+  "fam": "doubly (adv)",
+  "em": ""
+ },
+ {
+  "w": "leg",
+  "ipa": "/leɡ/",
+  "pos": "n",
+  "vi": "chân, cẳng chân; chặng (đường)",
+  "ex": "He broke his leg while playing football and could not walk for weeks.",
+  "exvi": "Anh ấy bị gãy chân khi đá bóng và không thể đi lại trong nhiều tuần.",
+  "col": [
+   "break a leg",
+   "the first leg of",
+   "leg injury"
+  ],
+  "fam": "",
+  "em": "🦵"
+ },
+ {
+  "w": "observe",
+  "ipa": "/əbˈzɜːv/",
+  "pos": "v",
+  "vi": "quan sát; tuân thủ; nhận xét",
+  "ex": "Researchers observed how children behaved in the classroom.",
+  "exvi": "Các nhà nghiên cứu quan sát cách trẻ em cư xử trong lớp học.",
+  "col": [
+   "observe the rules",
+   "carefully observe",
+   "observe behaviour"
+  ],
+  "fam": "observation (n), observer (n), observant (adj)",
+  "em": ""
+ },
+ {
+  "w": "sentence",
+  "ipa": "/ˈsentəns/",
+  "pos": "n, v",
+  "vi": "(n) câu; bản án; (v) kết án",
+  "ex": "Try to use a mix of simple and complex sentences in your essay.",
+  "exvi": "Hãy cố gắng kết hợp câu đơn và câu phức trong bài luận của bạn.",
+  "col": [
+   "complex sentence",
+   "prison sentence",
+   "be sentenced to"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "print",
+  "ipa": "/prɪnt/",
+  "pos": "v, n",
+  "vi": "(v) in; (n) chữ in, bản in",
+  "ex": "Many offices try to print less paper to protect the environment.",
+  "exvi": "Nhiều văn phòng cố gắng in ít giấy hơn để bảo vệ môi trường.",
+  "col": [
+   "print out",
+   "in print",
+   "small print"
+  ],
+  "fam": "printer (n), printing (n), printed (adj)",
+  "em": "🖨️"
+ },
+ {
+  "w": "progress",
+  "ipa": "/ˈprəʊɡres/",
+  "pos": "n, v",
+  "vi": "(n) sự tiến bộ, tiến triển; (v) /prəˈɡres/ tiến bộ, tiến triển",
+  "ex": "She has made great progress in her English since she started the course.",
+  "exvi": "Cô ấy đã tiến bộ nhiều trong tiếng Anh kể từ khi bắt đầu khóa học.",
+  "col": [
+   "make progress",
+   "in progress",
+   "progress report"
+  ],
+  "fam": "progressive (adj), progression (n)",
+  "em": "📈"
+ },
+ {
+  "w": "truth",
+  "ipa": "/truːθ/",
+  "pos": "n",
+  "vi": "sự thật, chân lý",
+  "ex": "Journalists have a duty to tell the truth to the public.",
+  "exvi": "Nhà báo có nghĩa vụ nói sự thật cho công chúng.",
+  "col": [
+   "tell the truth",
+   "the truth is",
+   "in truth"
+  ],
+  "fam": "true (adj), truly (adv), truthful (adj)",
+  "em": ""
+ },
+ {
+  "w": "nobody",
+  "ipa": "/ˈnəʊbədi/",
+  "pos": "pron",
+  "vi": "không ai",
+  "ex": "Nobody in the class knew the answer to the teacher's question.",
+  "exvi": "Không ai trong lớp biết câu trả lời cho câu hỏi của giáo viên.",
+  "col": [
+   "nobody else",
+   "nobody knows",
+   "nobody cares"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "examine",
+  "ipa": "/ɪɡˈzæmɪn/",
+  "pos": "v",
+  "vi": "kiểm tra, khám (bệnh); xem xét, nghiên cứu kỹ",
+  "ex": "This essay will examine the advantages and disadvantages of working from home.",
+  "exvi": "Bài luận này sẽ xem xét ưu điểm và nhược điểm của việc làm việc tại nhà.",
+  "col": [
+   "examine the evidence",
+   "examine closely",
+   "examine a patient"
+  ],
+  "fam": "examination (n), examiner (n)",
+  "em": ""
+ },
+ {
+  "w": "lay",
+  "ipa": "/leɪ/",
+  "pos": "v",
+  "vi": "đặt, để; đẻ (trứng); trải ra",
+  "ex": "Workers will lay new pipes under the street next month.",
+  "exvi": "Công nhân sẽ đặt đường ống mới dưới lòng đường vào tháng tới.",
+  "col": [
+   "lay eggs",
+   "lay the foundation",
+   "lay off"
+  ],
+  "fam": "layer (n)",
+  "em": "🥚"
+ },
+ {
+  "w": "speed",
+  "ipa": "/spiːd/",
+  "pos": "n, v",
+  "vi": "(n) tốc độ; (v) chạy nhanh, tăng tốc",
+  "ex": "The government lowered the speed limit to reduce road accidents.",
+  "exvi": "Chính phủ hạ giới hạn tốc độ để giảm tai nạn giao thông.",
+  "col": [
+   "speed limit",
+   "at high speed",
+   "speed up"
+  ],
+  "fam": "speedy (adj), speedily (adv)",
+  "em": ""
+ },
+ {
+  "w": "politics",
+  "ipa": "/ˈpɒlətɪks/",
+  "pos": "n",
+  "vi": "chính trị",
+  "ex": "Many young people are not interested in politics.",
+  "exvi": "Nhiều người trẻ không quan tâm đến chính trị.",
+  "col": [
+   "local politics",
+   "go into politics",
+   "party politics"
+  ],
+  "fam": "political (adj), politician (n), politically (adv)",
+  "em": ""
+ },
+ {
+  "w": "reply",
+  "ipa": "/rɪˈplaɪ/",
+  "pos": "v, n",
+  "vi": "(v) trả lời, hồi đáp; (n) câu trả lời",
+  "ex": "She replied to the job offer email within an hour.",
+  "exvi": "Cô ấy trả lời email mời làm việc trong vòng một giờ.",
+  "col": [
+   "reply to",
+   "in reply to",
+   "a quick reply"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "display",
+  "ipa": "/dɪˈspleɪ/",
+  "pos": "v, n",
+  "vi": "(v) trưng bày, hiển thị; thể hiện; (n) sự trưng bày; màn hình",
+  "ex": "The museum displays objects from the Dong Son culture.",
+  "exvi": "Bảo tàng trưng bày các hiện vật của văn hóa Đông Sơn.",
+  "col": [
+   "on display",
+   "display screen",
+   "display emotions"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "transfer",
+  "ipa": "/trænsˈfɜː(r)/",
+  "pos": "v, n",
+  "vi": "(v) chuyển, chuyển giao; (n) /ˈtrænsfɜː(r)/ sự chuyển",
+  "ex": "Students can transfer to another university after their first year.",
+  "exvi": "Sinh viên có thể chuyển sang trường đại học khác sau năm thứ nhất.",
+  "col": [
+   "transfer money",
+   "bank transfer",
+   "transfer of knowledge"
+  ],
+  "fam": "transferable (adj)",
+  "em": ""
+ },
+ {
+  "w": "perfect",
+  "ipa": "/ˈpɜːfɪkt/",
+  "pos": "adj, v",
+  "vi": "(adj) hoàn hảo, lý tưởng; (v) /pəˈfekt/ hoàn thiện",
+  "ex": "The beach is the perfect place for a relaxing holiday.",
+  "exvi": "Bãi biển là nơi lý tưởng cho một kỳ nghỉ thư giãn.",
+  "col": [
+   "perfect for",
+   "practice makes perfect",
+   "a perfect example"
+  ],
+  "fam": "perfection (n), perfectly (adv), imperfect (adj)",
+  "em": ""
+ },
+ {
+  "w": "slightly",
+  "ipa": "/ˈslaɪtli/",
+  "pos": "adv",
+  "vi": "hơi, một chút",
+  "ex": "The percentage of female workers increased slightly between 2010 and 2020.",
+  "exvi": "Tỷ lệ lao động nữ tăng nhẹ trong giai đoạn 2010 đến 2020.",
+  "col": [
+   "slightly higher",
+   "increase slightly",
+   "only slightly"
+  ],
+  "fam": "slight (adj)",
+  "em": ""
+ },
+ {
+  "w": "overall",
+  "ipa": "/ˌəʊvərˈɔːl/",
+  "pos": "adj, adv",
+  "vi": "tổng thể, nhìn chung",
+  "ex": "Overall, the number of tourists visiting the country rose over the period.",
+  "exvi": "Nhìn chung, số lượng du khách đến nước này đã tăng trong giai đoạn đó.",
+  "col": [
+   "overall score",
+   "overall trend",
+   "overall, ..."
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "intend",
+  "ipa": "/ɪnˈtend/",
+  "pos": "v",
+  "vi": "định, có ý định",
+  "ex": "The government intends to build more schools in rural areas.",
+  "exvi": "Chính phủ dự định xây thêm trường học ở vùng nông thôn.",
+  "col": [
+   "intend to do",
+   "be intended for",
+   "intended audience"
+  ],
+  "fam": "intention (n), intentional (adj), intent (n)",
+  "em": ""
+ },
+ {
+  "w": "user",
+  "ipa": "/ˈjuːzə(r)/",
+  "pos": "n",
+  "vi": "người dùng",
+  "ex": "The app now has more than ten million users around the world.",
+  "exvi": "Ứng dụng hiện có hơn mười triệu người dùng trên khắp thế giới.",
+  "col": [
+   "internet users",
+   "user-friendly",
+   "social media users"
+  ],
+  "fam": "use (v, n), useful (adj)",
+  "em": ""
+ },
+ {
+  "w": "respond",
+  "ipa": "/rɪˈspɒnd/",
+  "pos": "v",
+  "vi": "trả lời, đáp lại; phản ứng",
+  "ex": "The government responded quickly to the flooding by sending emergency teams.",
+  "exvi": "Chính phủ phản ứng nhanh với lũ lụt bằng cách cử các đội cứu hộ.",
+  "col": [
+   "respond to",
+   "respond quickly",
+   "respond well to treatment"
+  ],
+  "fam": "response (n), responsive (adj), respondent (n)",
+  "em": ""
+ },
+ {
+  "w": "dinner",
+  "ipa": "/ˈdɪnə(r)/",
+  "pos": "n",
+  "vi": "bữa tối",
+  "ex": "In many Vietnamese families, everyone eats dinner together in the evening.",
+  "exvi": "Ở nhiều gia đình Việt Nam, mọi người ăn tối cùng nhau vào buổi tối.",
+  "col": [
+   "have dinner",
+   "family dinner",
+   "dinner party"
+  ],
+  "fam": "",
+  "em": "🍽️"
+ },
+ {
+  "w": "slow",
+  "ipa": "/sləʊ/",
+  "pos": "adj, v",
+  "vi": "(adj) chậm; (v) làm chậm lại",
+  "ex": "The internet connection in rural areas is often slow.",
+  "exvi": "Kết nối internet ở vùng nông thôn thường chậm.",
+  "col": [
+   "slow down",
+   "slow progress",
+   "slow economic growth"
+  ],
+  "fam": "slowly (adv)",
+  "em": "🐢"
+ },
+ {
+  "w": "regular",
+  "ipa": "/ˈreɡjələ(r)/",
+  "pos": "adj",
+  "vi": "thường xuyên, đều đặn; thông thường",
+  "ex": "Regular exercise can reduce the risk of heart disease.",
+  "exvi": "Tập thể dục thường xuyên có thể giảm nguy cơ mắc bệnh tim.",
+  "col": [
+   "regular exercise",
+   "on a regular basis",
+   "regular customer"
+  ],
+  "fam": "regularly (adv), regularity (n), irregular (adj)",
+  "em": ""
+ },
+ {
+  "w": "physical",
+  "ipa": "/ˈfɪzɪkl/",
+  "pos": "adj",
+  "vi": "(thuộc) thể chất; vật chất; (thuộc) vật lý",
+  "ex": "Physical activity is important for children's growth and development.",
+  "exvi": "Hoạt động thể chất rất quan trọng cho sự phát triển của trẻ.",
+  "col": [
+   "physical activity",
+   "physical health",
+   "physical education"
+  ],
+  "fam": "physically (adv), physics (n)",
+  "em": ""
+ },
+ {
+  "w": "apart",
+  "ipa": "/əˈpɑːt/",
+  "pos": "adv",
+  "vi": "cách xa nhau; riêng ra; (apart from) ngoài ra, trừ",
+  "ex": "Apart from English, students also need to learn a second foreign language.",
+  "exvi": "Ngoài tiếng Anh, học sinh còn cần học thêm một ngoại ngữ thứ hai.",
+  "col": [
+   "apart from",
+   "fall apart",
+   "live apart"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "suit",
+  "ipa": "/suːt/",
+  "pos": "n, v",
+  "vi": "(n) bộ com lê; (v) hợp, phù hợp",
+  "ex": "Working from home does not suit everyone.",
+  "exvi": "Làm việc tại nhà không phù hợp với tất cả mọi người.",
+  "col": [
+   "suit someone",
+   "a business suit",
+   "suit your needs"
+  ],
+  "fam": "suitable (adj), suitably (adv)",
+  "em": "👔"
+ },
+ {
+  "w": "federal",
+  "ipa": "/ˈfedərəl/",
+  "pos": "adj",
+  "vi": "(thuộc) liên bang",
+  "ex": "The federal government provides funding for public universities in the United States.",
+  "exvi": "Chính phủ liên bang cấp kinh phí cho các trường đại học công lập ở Mỹ.",
+  "col": [
+   "federal government",
+   "federal law",
+   "federal funding"
+  ],
+  "fam": "federation (n)",
+  "em": ""
+ },
+ {
+  "w": "reveal",
+  "ipa": "/rɪˈviːl/",
+  "pos": "v",
+  "vi": "tiết lộ, cho thấy",
+  "ex": "The study revealed that most teenagers sleep less than eight hours a night.",
+  "exvi": "Nghiên cứu cho thấy phần lớn thanh thiếu niên ngủ ít hơn tám tiếng mỗi đêm.",
+  "col": [
+   "reveal the truth",
+   "reveal that",
+   "reveal a secret"
+  ],
+  "fam": "revelation (n), revealing (adj)",
+  "em": ""
+ },
+ {
+  "w": "percentage",
+  "ipa": "/pəˈsentɪdʒ/",
+  "pos": "n",
+  "vi": "tỷ lệ phần trăm",
+  "ex": "The percentage of people working from home rose sharply in 2020.",
+  "exvi": "Tỷ lệ người làm việc tại nhà tăng mạnh vào năm 2020.",
+  "col": [
+   "a high percentage",
+   "the percentage of",
+   "percentage point"
+  ],
+  "fam": "percent (n)",
+  "em": ""
+ },
+ {
+  "w": "peace",
+  "ipa": "/piːs/",
+  "pos": "n",
+  "vi": "hòa bình; sự yên tĩnh, thanh thản",
+  "ex": "Many people move to the countryside for peace and quiet.",
+  "exvi": "Nhiều người chuyển về nông thôn để tìm sự yên bình.",
+  "col": [
+   "peace and quiet",
+   "world peace",
+   "at peace"
+  ],
+  "fam": "peaceful (adj), peacefully (adv)",
+  "em": "🕊️"
+ },
+ {
+  "w": "status",
+  "ipa": "/ˈsteɪtəs/",
+  "pos": "n",
+  "vi": "địa vị; tình trạng",
+  "ex": "In some cultures, owning a car is a sign of social status.",
+  "exvi": "Ở một số nền văn hóa, sở hữu ô tô là dấu hiệu của địa vị xã hội.",
+  "col": [
+   "social status",
+   "marital status",
+   "status symbol"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "crime",
+  "ipa": "/kraɪm/",
+  "pos": "n",
+  "vi": "tội ác, tội phạm",
+  "ex": "Better street lighting can help to reduce crime in cities.",
+  "exvi": "Chiếu sáng đường phố tốt hơn có thể giúp giảm tội phạm ở các thành phố.",
+  "col": [
+   "commit a crime",
+   "crime rate",
+   "violent crime"
+  ],
+  "fam": "criminal (n, adj)",
+  "em": ""
+ },
+ {
+  "w": "decline",
+  "ipa": "/dɪˈklaɪn/",
+  "pos": "v, n",
+  "vi": "(v) giảm, suy giảm; từ chối; (n) sự suy giảm",
+  "ex": "The number of people reading printed newspapers has declined steadily.",
+  "exvi": "Số người đọc báo in đã giảm đều đặn.",
+  "col": [
+   "decline sharply",
+   "in decline",
+   "decline an offer"
+  ],
+  "fam": "",
+  "em": "📉"
+ },
+ {
+  "w": "decade",
+  "ipa": "/ˈdekeɪd/",
+  "pos": "n",
+  "vi": "thập kỷ, mười năm",
+  "ex": "The city has changed a lot over the past decade.",
+  "exvi": "Thành phố đã thay đổi rất nhiều trong thập kỷ qua.",
+  "col": [
+   "over the past decade",
+   "for decades",
+   "a decade ago"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "launch",
+  "ipa": "/lɔːntʃ/",
+  "pos": "v, n",
+  "vi": "(v) ra mắt, khởi động; phóng; (n) sự ra mắt",
+  "ex": "The company plans to launch a new electric car next year.",
+  "exvi": "Công ty dự định ra mắt một mẫu ô tô điện mới vào năm sau.",
+  "col": [
+   "launch a product",
+   "launch a campaign",
+   "product launch"
+  ],
+  "fam": "",
+  "em": "🚀"
+ },
+ {
+  "w": "warn",
+  "ipa": "/wɔːn/",
+  "pos": "v",
+  "vi": "cảnh báo",
+  "ex": "Scientists warn that sea levels could rise by one metre by 2100.",
+  "exvi": "Các nhà khoa học cảnh báo mực nước biển có thể dâng một mét vào năm 2100.",
+  "col": [
+   "warn someone about",
+   "warn against",
+   "warn that"
+  ],
+  "fam": "warning (n)",
+  "em": "⚠️"
+ },
+ {
+  "w": "consumer",
+  "ipa": "/kənˈsjuːmə(r)/",
+  "pos": "n",
+  "vi": "người tiêu dùng",
+  "ex": "Consumers are becoming more interested in environmentally friendly products.",
+  "exvi": "Người tiêu dùng ngày càng quan tâm đến các sản phẩm thân thiện với môi trường.",
+  "col": [
+   "consumer goods",
+   "consumer behaviour",
+   "consumer demand"
+  ],
+  "fam": "consume (v), consumption (n)",
+  "em": ""
+ },
+ {
+  "w": "favor",
+  "ipa": "/ˈfeɪvə(r)/",
+  "pos": "n, v",
+  "vi": "(n) ân huệ, sự giúp đỡ; sự ủng hộ; (v) ủng hộ, thiên vị",
+  "ex": "Most people surveyed were in favor of a ban on plastic bags.",
+  "exvi": "Phần lớn người được khảo sát ủng hộ lệnh cấm túi ni lông.",
+  "col": [
+   "do someone a favor",
+   "in favor of",
+   "ask a favor"
+  ],
+  "fam": "favorable (adj), favorite (adj, n)",
+  "em": ""
+ },
+ {
+  "w": "dry",
+  "ipa": "/draɪ/",
+  "pos": "adj, v",
+  "vi": "(adj) khô, khô hạn; (v) làm khô, phơi khô",
+  "ex": "The dry season in southern Vietnam lasts from December to April.",
+  "exvi": "Mùa khô ở miền Nam Việt Nam kéo dài từ tháng Mười Hai đến tháng Tư.",
+  "col": [
+   "dry season",
+   "dry weather",
+   "dry up"
+  ],
+  "fam": "dryness (n), dryer (n)",
+  "em": ""
+ },
+ {
+  "w": "partner",
+  "ipa": "/ˈpɑːtnə(r)/",
+  "pos": "n, v",
+  "vi": "(n) đối tác; bạn đời; (v) hợp tác",
+  "ex": "The university has partners in more than twenty countries.",
+  "exvi": "Trường đại học có đối tác ở hơn hai mươi quốc gia.",
+  "col": [
+   "business partner",
+   "trading partner",
+   "work with a partner"
+  ],
+  "fam": "partnership (n)",
+  "em": ""
+ },
+ {
+  "w": "institution",
+  "ipa": "/ˌɪnstɪˈtjuːʃn/",
+  "pos": "n",
+  "vi": "tổ chức, cơ quan; thể chế",
+  "ex": "Universities and other educational institutions should support students' mental health.",
+  "exvi": "Các trường đại học và cơ sở giáo dục khác nên hỗ trợ sức khỏe tinh thần cho sinh viên.",
+  "col": [
+   "financial institution",
+   "educational institution",
+   "public institution"
+  ],
+  "fam": "institutional (adj), institute (n)",
+  "em": "🏛️"
+ },
+ {
+  "w": "spot",
+  "ipa": "/spɒt/",
+  "pos": "n, v",
+  "vi": "(n) địa điểm; đốm, vết; (v) phát hiện, nhận ra",
+  "ex": "Da Lat is a popular spot for tourists who want to escape the heat.",
+  "exvi": "Đà Lạt là địa điểm được du khách ưa chuộng để tránh nóng.",
+  "col": [
+   "tourist spot",
+   "on the spot",
+   "spot a mistake"
+  ],
+  "fam": "spotless (adj), spotted (adj)",
+  "em": ""
+ },
+ {
+  "w": "horse",
+  "ipa": "/hɔːs/",
+  "pos": "n",
+  "vi": "con ngựa",
+  "ex": "In the past, farmers used horses to pull carts and plough fields.",
+  "exvi": "Ngày xưa, nông dân dùng ngựa để kéo xe và cày ruộng.",
+  "col": [
+   "ride a horse",
+   "horse racing",
+   "horse riding"
+  ],
+  "fam": "",
+  "em": "🐎"
+ },
+ {
+  "w": "eventually",
+  "ipa": "/ɪˈventʃuəli/",
+  "pos": "adv",
+  "vi": "cuối cùng, rốt cuộc",
+  "ex": "After many failed attempts, she eventually passed her driving test.",
+  "exvi": "Sau nhiều lần thất bại, cuối cùng cô ấy cũng đậu kỳ thi lái xe.",
+  "col": [
+   "eventually lead to",
+   "eventually become",
+   "will eventually"
+  ],
+  "fam": "eventual (adj)",
+  "em": ""
+ },
+ {
+  "w": "heat",
+  "ipa": "/hiːt/",
+  "pos": "n, v",
+  "vi": "(n) hơi nóng, nhiệt; (v) làm nóng, đun nóng",
+  "ex": "Extreme heat in summer can be dangerous for older people.",
+  "exvi": "Nắng nóng gay gắt vào mùa hè có thể nguy hiểm cho người cao tuổi.",
+  "col": [
+   "heat wave",
+   "heat up",
+   "extreme heat"
+  ],
+  "fam": "heating (n), heater (n), hot (adj)",
+  "em": "🔥"
+ },
+ {
+  "w": "excite",
+  "ipa": "/ɪkˈsaɪt/",
+  "pos": "v",
+  "vi": "làm phấn khích, kích thích",
+  "ex": "Children are often excited about their first school trip.",
+  "exvi": "Trẻ em thường rất háo hức với chuyến dã ngoại đầu tiên của trường.",
+  "col": [
+   "be excited about",
+   "excite interest",
+   "get excited"
+  ],
+  "fam": "excitement (n), exciting (adj), excited (adj)",
+  "em": ""
+ },
+ {
+  "w": "reader",
+  "ipa": "/ˈriːdə(r)/",
+  "pos": "n",
+  "vi": "người đọc, độc giả",
+  "ex": "The newspaper has lost many readers since it moved online.",
+  "exvi": "Tờ báo đã mất nhiều độc giả kể từ khi chuyển lên mạng.",
+  "col": [
+   "avid reader",
+   "reader's attention",
+   "regular reader"
+  ],
+  "fam": "read (v), reading (n), readership (n)",
+  "em": ""
+ },
+ {
+  "w": "importance",
+  "ipa": "/ɪmˈpɔːtns/",
+  "pos": "n",
+  "vi": "tầm quan trọng",
+  "ex": "Many parents underestimate the importance of sleep for teenagers.",
+  "exvi": "Nhiều phụ huynh đánh giá thấp tầm quan trọng của giấc ngủ đối với thanh thiếu niên.",
+  "col": [
+   "the importance of",
+   "of great importance",
+   "stress the importance"
+  ],
+  "fam": "important (adj), importantly (adv)",
+  "em": ""
+ },
+ {
+  "w": "distance",
+  "ipa": "/ˈdɪstəns/",
+  "pos": "n",
+  "vi": "khoảng cách; quãng đường",
+  "ex": "Many students live within walking distance of their school.",
+  "exvi": "Nhiều học sinh sống trong khoảng cách đi bộ đến trường.",
+  "col": [
+   "long distance",
+   "distance learning",
+   "within walking distance"
+  ],
+  "fam": "distant (adj)",
+  "em": "📏"
+ },
+ {
+  "w": "guide",
+  "ipa": "/ɡaɪd/",
+  "pos": "n, v",
+  "vi": "(n) hướng dẫn viên; sách hướng dẫn; (v) hướng dẫn, dẫn đường",
+  "ex": "A local guide showed us around the ancient temples.",
+  "exvi": "Một hướng dẫn viên địa phương đã dẫn chúng tôi tham quan các ngôi đền cổ.",
+  "col": [
+   "tour guide",
+   "guide someone through",
+   "travel guide"
+  ],
+  "fam": "guidance (n), guideline (n)",
+  "em": ""
+ },
+ {
+  "w": "grant",
+  "ipa": "/ɡrɑːnt/",
+  "pos": "n, v",
+  "vi": "(n) khoản tài trợ, trợ cấp; (v) cấp, ban cho; công nhận",
+  "ex": "She received a government grant to study engineering abroad.",
+  "exvi": "Cô ấy nhận được khoản tài trợ của chính phủ để du học ngành kỹ thuật.",
+  "col": [
+   "research grant",
+   "grant permission",
+   "take for granted"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "taxi",
+  "ipa": "/ˈtæksi/",
+  "pos": "n",
+  "vi": "xe taxi",
+  "ex": "Ride-hailing apps have changed the way people take taxis in big cities.",
+  "exvi": "Các ứng dụng gọi xe đã thay đổi cách người dân đi taxi ở các thành phố lớn.",
+  "col": [
+   "take a taxi",
+   "taxi driver",
+   "call a taxi"
+  ],
+  "fam": "",
+  "em": "🚕"
+ },
+ {
+  "w": "feed",
+  "ipa": "/fiːd/",
+  "pos": "v, n",
+  "vi": "(v) cho ăn, nuôi; cung cấp; (n) thức ăn (cho vật nuôi); bảng tin",
+  "ex": "Farmers need to feed their animals twice a day.",
+  "exvi": "Nông dân cần cho vật nuôi ăn hai lần một ngày.",
+  "col": [
+   "feed a family",
+   "news feed",
+   "feed on"
+  ],
+  "fam": "food (n), feedback (n)",
+  "em": ""
+ },
+ {
+  "w": "pain",
+  "ipa": "/peɪn/",
+  "pos": "n",
+  "vi": "cơn đau, sự đau đớn; nỗi khổ",
+  "ex": "Sitting at a desk for long hours can cause back pain.",
+  "exvi": "Ngồi bàn làm việc nhiều giờ liền có thể gây đau lưng.",
+  "col": [
+   "back pain",
+   "in pain",
+   "pain relief"
+  ],
+  "fam": "painful (adj), painless (adj), painkiller (n)",
+  "em": "🤕"
+ },
+ {
+  "w": "sector",
+  "ipa": "/ˈsektə(r)/",
+  "pos": "n",
+  "vi": "khu vực, lĩnh vực, ngành",
+  "ex": "The tourism sector provides millions of jobs in Southeast Asia.",
+  "exvi": "Ngành du lịch tạo ra hàng triệu việc làm ở Đông Nam Á.",
+  "col": [
+   "public sector",
+   "private sector",
+   "service sector"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "mistake",
+  "ipa": "/mɪˈsteɪk/",
+  "pos": "n, v",
+  "vi": "(n) lỗi, sai lầm; (v) nhầm lẫn",
+  "ex": "It is normal to make mistakes when you are learning a new language.",
+  "exvi": "Mắc lỗi khi học một ngôn ngữ mới là chuyện bình thường.",
+  "col": [
+   "make a mistake",
+   "by mistake",
+   "learn from mistakes"
+  ],
+  "fam": "mistaken (adj), mistakenly (adv)",
+  "em": ""
+ },
+ {
+  "w": "ensure",
+  "ipa": "/ɪnˈʃʊə(r)/",
+  "pos": "v",
+  "vi": "đảm bảo",
+  "ex": "Schools must ensure that all students feel safe in the classroom.",
+  "exvi": "Các trường phải đảm bảo mọi học sinh cảm thấy an toàn trong lớp học.",
+  "col": [
+   "ensure that",
+   "ensure safety",
+   "ensure quality"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "satisfy",
+  "ipa": "/ˈsætɪsfaɪ/",
+  "pos": "v",
+  "vi": "làm hài lòng, thỏa mãn; đáp ứng (yêu cầu)",
+  "ex": "Most customers were satisfied with the quality of the service.",
+  "exvi": "Phần lớn khách hàng hài lòng với chất lượng dịch vụ.",
+  "col": [
+   "satisfy demand",
+   "satisfy the needs of",
+   "be satisfied with"
+  ],
+  "fam": "satisfaction (n), satisfied (adj), satisfying (adj), satisfactory (adj)",
+  "em": ""
+ },
+ {
+  "w": "chief",
+  "ipa": "/tʃiːf/",
+  "pos": "adj, n",
+  "vi": "(adj) chính, chủ yếu; (n) người đứng đầu, sếp",
+  "ex": "Air pollution is the chief cause of breathing problems in big cities.",
+  "exvi": "Ô nhiễm không khí là nguyên nhân chính gây ra các vấn đề hô hấp ở các thành phố lớn.",
+  "col": [
+   "chief executive",
+   "chief reason",
+   "police chief"
+  ],
+  "fam": "chiefly (adv)",
+  "em": ""
+ },
+ {
+  "w": "cool",
+  "ipa": "/kuːl/",
+  "pos": "adj, v",
+  "vi": "(adj) mát mẻ; điềm tĩnh; (thân mật) tuyệt, hay; (v) làm mát",
+  "ex": "Trees help to keep cities cool during the hot summer months.",
+  "exvi": "Cây xanh giúp giữ cho thành phố mát mẻ trong những tháng hè nóng bức.",
+  "col": [
+   "cool down",
+   "keep cool",
+   "cool weather"
+  ],
+  "fam": "cooler (n), coolness (n)",
+  "em": ""
+ },
+ {
+  "w": "expert",
+  "ipa": "/ˈekspɜːt/",
+  "pos": "n, adj",
+  "vi": "(n) chuyên gia; (adj) thành thạo, chuyên môn",
+  "ex": "Health experts advise people to eat less sugar and salt.",
+  "exvi": "Các chuyên gia y tế khuyên mọi người ăn ít đường và muối hơn.",
+  "col": [
+   "an expert in",
+   "expert advice",
+   "according to experts"
+  ],
+  "fam": "expertise (n), expertly (adv)",
+  "em": ""
+ },
+ {
+  "w": "wave",
+  "ipa": "/weɪv/",
+  "pos": "n, v",
+  "vi": "(n) sóng; làn sóng; (v) vẫy tay",
+  "ex": "Huge waves damaged many houses along the coast during the storm.",
+  "exvi": "Những con sóng lớn đã làm hư hại nhiều ngôi nhà dọc bờ biển trong cơn bão.",
+  "col": [
+   "heat wave",
+   "a wave of",
+   "wave goodbye"
+  ],
+  "fam": "wavy (adj)",
+  "em": "👋"
+ },
+ {
+  "w": "south",
+  "ipa": "/saʊθ/",
+  "pos": "n, adj, adv",
+  "vi": "phía nam, phương nam",
+  "ex": "Many people from the north move to the south to find better jobs.",
+  "exvi": "Nhiều người từ miền Bắc chuyển vào miền Nam để tìm việc làm tốt hơn.",
+  "col": [
+   "in the south",
+   "south of",
+   "southeast"
+  ],
+  "fam": "southern (adj), southward (adv)",
+  "em": ""
+ },
+ {
+  "w": "labor",
+  "ipa": "/ˈleɪbə(r)/",
+  "pos": "n",
+  "vi": "lao động, sức lao động; nhân công",
+  "ex": "The factory moved to a country where labor is cheaper.",
+  "exvi": "Nhà máy chuyển sang một nước có nhân công rẻ hơn.",
+  "col": [
+   "labor market",
+   "cheap labor",
+   "labor force"
+  ],
+  "fam": "laborer (n), laborious (adj)",
+  "em": ""
+ },
+ {
+  "w": "surface",
+  "ipa": "/ˈsɜːfɪs/",
+  "pos": "n, v",
+  "vi": "(n) bề mặt; (v) nổi lên, lộ ra",
+  "ex": "About 71 percent of the Earth's surface is covered by water.",
+  "exvi": "Khoảng 71 phần trăm bề mặt Trái Đất được bao phủ bởi nước.",
+  "col": [
+   "on the surface",
+   "road surface",
+   "surface area"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "library",
+  "ipa": "/ˈlaɪbrəri/",
+  "pos": "n",
+  "vi": "thư viện",
+  "ex": "The school library offers free access to e-books and online journals.",
+  "exvi": "Thư viện trường cho truy cập miễn phí sách điện tử và tạp chí trực tuyến.",
+  "col": [
+   "public library",
+   "library card",
+   "borrow from the library"
+  ],
+  "fam": "librarian (n)",
+  "em": "📚"
+ }
+]

@@ -1,0 +1,332 @@
+[
+ {
+  "id": "w1g01",
+  "tone": "formal",
+  "prompt": "You recently ordered a laptop from an online shop, but when it arrived there were several problems with it. Write a letter to the customer services manager. In your letter\n- give details of your order\n- explain what was wrong with the laptop\n- say what you would like the company to do\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Sir or Madam,",
+  "model": "Dear Sir or Madam,\n\nI am writing to complain about a laptop I ordered from your website on 3 May (order number 58214), which was delivered last Friday.\n\nI chose your shop because the product page promised next-day delivery and a brand-new machine with a 15-inch screen and 16GB of memory. Unfortunately, the parcel arrived four days late, and the box had clearly been opened before. When I switched the laptop on, I discovered that it had only 8GB of memory and that the screen had a noticeable scratch across one corner. In addition, the charger was missing, so I have been unable to use the computer for more than an hour at a time.\n\nAs I need the laptop for my work, this situation has caused me considerable inconvenience. I would therefore like you to arrange for the faulty item to be collected from my home and replaced with the correct model as soon as possible. If this is not possible within one week, I would expect a full refund, including the delivery charge.\n\nI look forward to your prompt reply.\n\nYours faithfully,\nDaniel Hart",
+  "notes": "Giọng trang trọng vì viết cho công ty, không biết tên người nhận nên mở bằng \"Dear Sir or Madam,\" và kết bằng \"Yours faithfully,\" + họ tên đầy đủ. Câu đầu nêu ngay mục đích (complain about...). Đoạn 1 xử lý ý 1: ngày đặt hàng, mã đơn, ngày giao. Đoạn 2 xử lý ý 2: liệt kê từng lỗi cụ thể (giao trễ, sai cấu hình, màn hình trầy, thiếu sạc) bằng các từ nối \"Unfortunately\", \"In addition\". Đoạn 3 xử lý ý 3: nêu hậu quả rồi đưa ra yêu cầu rõ ràng có thời hạn (đổi máy trong một tuần, nếu không thì hoàn tiền). Giọng kiên quyết nhưng lịch sự, không dùng từ cảm xúc quá mạnh.",
+  "phrases": [
+   [
+    "I am writing to complain about...",
+    "Câu mở đầu chuẩn cho thư phàn nàn, nêu thẳng mục đích"
+   ],
+   [
+    "The parcel had clearly been opened before",
+    "Mô tả bằng chứng cụ thể cho lỗi"
+   ],
+   [
+    "In addition, ...",
+    "Thêm một vấn đề nữa, trang trọng hơn \"also\""
+   ],
+   [
+    "This has caused me considerable inconvenience",
+    "Nêu hậu quả một cách lịch sự nhưng rõ ràng"
+   ],
+   [
+    "I would therefore like you to...",
+    "Đưa ra yêu cầu sau khi đã trình bày lý do"
+   ],
+   [
+    "I look forward to your prompt reply.",
+    "Câu kết trang trọng, ngụ ý mong được trả lời sớm"
+   ]
+  ]
+ },
+ {
+  "id": "w1g02",
+  "tone": "formal",
+  "prompt": "You have seen an advertisement for a part-time job as a guide at a local history museum. Write a letter to the museum manager. In your letter\n- say which job you are applying for and where you saw the advertisement\n- describe your relevant experience and skills\n- explain when you would be available for work\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Sir or Madam,",
+  "model": "Dear Sir or Madam,\n\nI would like to apply for the position of part-time museum guide, which I saw advertised in the Riverside Gazette last Wednesday.\n\nI believe I have the right background for this role. I completed a degree in history three years ago and I am particularly interested in the development of our town during the nineteenth century, which I understand is the focus of your main gallery. For the past two years, I have worked as a volunteer at the Hillcroft Castle visitor centre, where I led small groups of tourists and answered their questions. This experience has helped me become a confident and clear speaker. I also speak fluent Spanish and some French, which may be useful when international visitors come to the museum.\n\nAt present, I work in an office from Monday to Thursday, so I would be available every Friday, Saturday and Sunday. I would also be happy to cover extra shifts during the school holidays if required.\n\nI have enclosed my CV and would be grateful for the opportunity to attend an interview.\n\nYours faithfully,\nLaura Bennett",
+  "notes": "Thư xin việc dùng giọng trang trọng, mở \"Dear Sir or Madam,\" và kết \"Yours faithfully,\". Câu đầu nói rõ vị trí ứng tuyển và nơi thấy quảng cáo (ý 1). Đoạn 2 xử lý ý 2: nêu bằng cấp, kinh nghiệm tình nguyện liên quan trực tiếp đến công việc hướng dẫn viên, kỹ năng ngoại ngữ, mỗi điểm đều gắn với lợi ích cho bảo tàng. Đoạn 3 xử lý ý 3: thời gian rảnh cụ thể theo ngày, thêm thiện chí làm thêm ca. Câu kết nhắc CV đính kèm và mong được phỏng vấn.",
+  "phrases": [
+   [
+    "I would like to apply for the position of...",
+    "Câu mở đầu thư xin việc"
+   ],
+   [
+    "which I saw advertised in...",
+    "Nói nơi thấy tin tuyển dụng"
+   ],
+   [
+    "I believe I have the right background for this role.",
+    "Câu chủ đề giới thiệu kinh nghiệm"
+   ],
+   [
+    "This experience has helped me become...",
+    "Nối kinh nghiệm với kỹ năng đạt được"
+   ],
+   [
+    "I would be happy to cover extra shifts if required.",
+    "Thể hiện sự linh hoạt, thiện chí"
+   ],
+   [
+    "I would be grateful for the opportunity to attend an interview.",
+    "Câu kết lịch sự mong được phỏng vấn"
+   ]
+  ]
+ },
+ {
+  "id": "w1g03",
+  "tone": "formal",
+  "prompt": "The park near your home has become unsafe to use in the evenings. Write a letter to your local council. In your letter\n- describe the problems in the park\n- explain how these problems affect local residents\n- suggest what the council could do to improve the situation\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Sir or Madam,",
+  "model": "Dear Sir or Madam,\n\nI am writing on behalf of residents of Elm Road to draw your attention to the condition of Westfield Park, which has become unsafe after dark.\n\nOver the past year, several street lamps along the main path have stopped working and have not been repaired. As a result, the area near the children's playground is almost completely dark by six o'clock in winter. There is also more litter, including broken glass, and groups of teenagers often gather there late at night.\n\nThese problems have a direct impact on the local community. Many people who used to jog there after work now avoid it altogether. Parents no longer feel comfortable letting their children use the playground in the late afternoon, and elderly residents have told me that they are afraid to take a short cut through the park on their way home.\n\nI would therefore like to request that the council repairs the lighting as a matter of urgency. In addition, it would be helpful if litter bins were emptied more often and if the park were included in regular evening patrols.\n\nYours faithfully,\nMichael Turner",
+  "notes": "Viết cho cơ quan nhà nước nên dùng giọng trang trọng, \"Dear Sir or Madam,\" / \"Yours faithfully,\". Câu mở cho biết người viết đại diện cư dân và vấn đề chính. Đoạn 2 (ý 1) mô tả vấn đề cụ thể: đèn hỏng, khu vui chơi tối, rác và kính vỡ, nhóm thanh niên tụ tập. Đoạn 3 (ý 2) nêu ảnh hưởng tới từng nhóm người: người chạy bộ, phụ huynh, người già. Đoạn 4 (ý 3) đưa ra đề xuất bằng cấu trúc lịch sự \"I would like to request that...\", \"it would be helpful if...\". Lưu ý dùng giả định \"if the park were included\" để tăng điểm ngữ pháp.",
+  "phrases": [
+   [
+    "I am writing on behalf of...",
+    "Viết thay mặt cho một nhóm người"
+   ],
+   [
+    "to draw your attention to...",
+    "Lưu ý cơ quan về một vấn đề"
+   ],
+   [
+    "As a result, ...",
+    "Nêu hệ quả trực tiếp"
+   ],
+   [
+    "have a direct impact on the local community",
+    "Nói về ảnh hưởng tới cộng đồng"
+   ],
+   [
+    "as a matter of urgency",
+    "Một cách khẩn cấp, trang trọng hơn \"quickly\""
+   ],
+   [
+    "It would be helpful if...",
+    "Đưa ra đề xuất nhẹ nhàng, lịch sự"
+   ]
+  ]
+ },
+ {
+  "id": "w1g04",
+  "tone": "formal",
+  "prompt": "You had an interview arranged with a company for a job you applied for, but you were unable to attend. Write a letter to the human resources manager. In your letter\n- apologise for missing the interview\n- explain why you could not attend\n- ask if it is possible to arrange another interview\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Ms Collins,",
+  "model": "Dear Ms Collins,\n\nI am writing to apologise sincerely for missing my interview for the position of Marketing Assistant, which was scheduled for 10 a.m. yesterday. I realise that this caused inconvenience to you and your colleagues, and I regret that I was not able to let you know in advance.\n\nOn my way to your office, the train I was travelling on broke down between two stations, and passengers were kept on board for nearly three hours. Unfortunately, there was no mobile phone signal in that area, so I had no way of contacting you. By the time I reached the city centre, it was already past one o'clock and I assumed the interview panel would have left.\n\nI remain very interested in the position and I believe my experience in social media campaigns would allow me to make a real contribution to your team. I would be extremely grateful if you could consider offering me another interview at a time that suits you. I am available on any day next week and can attend at short notice.\n\nThank you for your understanding.\n\nYours sincerely,\nThomas Reed",
+  "notes": "Thư xin lỗi gửi người có tên cụ thể nên mở \"Dear Ms Collins,\" và kết \"Yours sincerely,\" (không dùng \"faithfully\"). Đoạn 1 (ý 1) xin lỗi ngay trong câu đầu và thừa nhận gây bất tiện cho công ty. Đoạn 2 (ý 2) giải thích lý do khách quan, có chi tiết hợp lý (tàu hỏng, mất sóng điện thoại) để người đọc tin. Đoạn 3 (ý 3) khẳng định vẫn quan tâm vị trí, nhắc ngắn gọn điểm mạnh, rồi đề nghị phỏng vấn lại bằng cấu trúc rất lịch sự \"I would be extremely grateful if you could...\". Không đổ lỗi, không quá dài dòng.",
+  "phrases": [
+   [
+    "I am writing to apologise sincerely for...",
+    "Mở đầu thư xin lỗi trang trọng"
+   ],
+   [
+    "I regret that I was not able to...",
+    "Bày tỏ tiếc nuối một cách trang trọng"
+   ],
+   [
+    "I had no way of contacting you.",
+    "Giải thích vì sao không báo trước"
+   ],
+   [
+    "I remain very interested in the position.",
+    "Khẳng định vẫn muốn công việc"
+   ],
+   [
+    "I would be extremely grateful if you could...",
+    "Yêu cầu rất lịch sự"
+   ],
+   [
+    "at a time that suits you / at short notice",
+    "Linh hoạt theo lịch của người nhận / có thể đến dù báo gấp"
+   ]
+  ]
+ },
+ {
+  "id": "w1g05",
+  "tone": "semi-formal",
+  "prompt": "There is a problem with the kitchen in the flat you rent. Write a letter to your landlord. In your letter\n- describe the problem\n- explain how it is affecting you\n- say what you would like your landlord to do\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Mr Patel,",
+  "model": "Dear Mr Patel,\n\nI hope you are well. I am writing to let you know about a problem in the kitchen of the flat, which has been getting worse over the last two weeks.\n\nIt started with a small leak under the sink. I tried to tighten the pipe myself, but water is still dripping steadily, and now the cupboard underneath has become damp and there is a strong smell of mould. Yesterday I also noticed that part of the floor next to the sink has started to lift.\n\nAt the moment, I cannot store anything in that cupboard, and I have to put a bucket under the pipe and empty it twice a day. I am also a little worried that the damp could spread to the wall or damage the flat below.\n\nWould it be possible for you to send a plumber some time this week? I work from home on Tuesdays and Thursdays, so either of those days would be ideal. Please let me know which time suits you.\n\nBest regards,\nAnna Kowalski",
+  "notes": "Thư bán trang trọng: biết tên chủ nhà nên mở \"Dear Mr Patel,\", có câu hỏi thăm ngắn, kết \"Best regards,\" hoặc \"Kind regards,\". Giọng lịch sự nhưng tự nhiên, có thể dùng \"I'm\" nhưng không dùng tiếng lóng. Đoạn 2 (ý 1) mô tả vấn đề theo trình tự thời gian: rò rỉ, tủ ẩm mốc, sàn bị phồng. Đoạn 3 (ý 2) nói ảnh hưởng tới sinh hoạt và lo ngại hư hại lan sang căn hộ bên dưới, khéo léo nhắc lợi ích của chủ nhà. Đoạn 4 (ý 3) yêu cầu bằng câu hỏi lịch sự \"Would it be possible...?\" kèm thời gian cụ thể để dễ sắp xếp.",
+  "phrases": [
+   [
+    "I am writing to let you know about...",
+    "Mở đầu bán trang trọng để báo một việc"
+   ],
+   [
+    "has been getting worse",
+    "Vấn đề đang ngày càng tệ hơn"
+   ],
+   [
+    "I tried to ... myself, but...",
+    "Cho thấy mình đã tự xử lý trước khi nhờ"
+   ],
+   [
+    "I am a little worried that...",
+    "Bày tỏ lo ngại nhẹ nhàng"
+   ],
+   [
+    "Would it be possible for you to...?",
+    "Đề nghị lịch sự với người quen biết"
+   ],
+   [
+    "either of those days would be ideal",
+    "Gợi ý thời gian phù hợp"
+   ]
+  ]
+ },
+ {
+  "id": "w1g06",
+  "tone": "semi-formal",
+  "prompt": "You are going to have some building work done on your house, which will be noisy. Write a letter to your neighbour. In your letter\n- explain what work is going to be done\n- say when the work will take place\n- tell your neighbour what you will do to reduce any disturbance\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Mrs Walsh,",
+  "model": "Dear Mrs Walsh,\n\nI just wanted to write and let you know in advance about some building work we are planning at number 14, as I am afraid it may cause a bit of disturbance.\n\nAs you may know, our kitchen is quite old, so we have decided to replace it completely and extend it slightly into the back garden. This will involve knocking down part of the rear wall and laying a new concrete floor.\n\nThe builders are due to start on Monday 12 June, and the whole project should take about five weeks. They will only work on weekdays, between 8.30 a.m. and 5 p.m., so your evenings and weekends should be quiet.\n\nTo keep the disruption to a minimum, I have asked the company to keep their van on our drive rather than in the street and to clean up any dust at the end of each day. If there is ever a day when the noise is a particular problem for you, please just knock on our door or call me on 07700 900456, and I will see what I can do.\n\nWith best wishes,\nHelen Moore",
+  "notes": "Thư cho hàng xóm theo giọng bán trang trọng: thân thiện, chủ động xin lỗi trước, nhưng vẫn rõ ràng. Mở \"Dear Mrs Walsh,\", kết \"With best wishes,\" hoặc \"Kind regards,\". Đoạn 1 nêu mục đích và xin thông cảm. Đoạn 2 (ý 1) mô tả công việc cụ thể sẽ làm. Đoạn 3 (ý 2) cho ngày bắt đầu, thời lượng, giờ làm. Đoạn 4 (ý 3) đưa ra các biện pháp giảm phiền (đỗ xe, dọn bụi) và để lại cách liên lạc. Dùng \"I am afraid\", \"a bit of\" để giọng mềm hơn.",
+  "phrases": [
+   [
+    "I just wanted to let you know in advance about...",
+    "Báo trước một cách thân thiện"
+   ],
+   [
+    "I am afraid it may cause a bit of disturbance.",
+    "Xin lỗi trước một cách nhẹ nhàng"
+   ],
+   [
+    "This will involve ...ing",
+    "Giải thích công việc gồm những gì"
+   ],
+   [
+    "The builders are due to start on...",
+    "Nói lịch đã định sẵn"
+   ],
+   [
+    "To keep the disruption to a minimum, ...",
+    "Mở đầu phần biện pháp giảm phiền"
+   ],
+   [
+    "please just knock on our door",
+    "Lời mời liên hệ thân thiện"
+   ]
+  ]
+ },
+ {
+  "id": "w1g07",
+  "tone": "semi-formal",
+  "prompt": "You are attending an evening course, but you will have to miss several classes because of your work. Write a letter to your teacher. In your letter\n- explain why you will miss the classes\n- say how you feel about the course so far\n- ask how you can catch up on what you miss\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Mr Lawson,",
+  "model": "Dear Mr Lawson,\n\nI am writing to let you know that, unfortunately, I will have to miss the next three Wednesday evening classes, from 4 to 18 October.\n\nMy company has asked me to help set up our new branch office in Manchester, and I will be based there for most of the month. I did try to arrange to travel back mid-week, but the schedule is too tight.\n\nI am really sorry about this, because I have been enjoying the course much more than I expected. Your sessions on presentation skills have been especially useful, and I have already used some of your advice in meetings at work. My confidence when speaking to a group has also improved a great deal.\n\nI would not like to fall behind the rest of the class, so I wondered if you could suggest the best way to catch up. Would it be possible to send me the handouts and any homework by email? I would also be happy to record a short presentation if that would help you check my progress.\n\nThank you very much for your help.\n\nKind regards,\nSofia Ramirez",
+  "notes": "Thư cho giáo viên: giọng bán trang trọng, tôn trọng nhưng ấm áp. Mở \"Dear Mr Lawson,\", kết \"Kind regards,\". Đoạn 1 nói ngay sẽ vắng buổi nào. Đoạn 2 (ý 1) giải thích lý do công việc và cho thấy đã cố gắng thu xếp. Đoạn 3 (ý 2) nêu cảm nhận về khóa học, có ví dụ cụ thể (bài thuyết trình, áp dụng vào công việc) thay vì chỉ khen chung chung. Đoạn 4 (ý 3) hỏi cách học bù bằng \"I wondered if you could...\", \"Would it be possible...?\" và chủ động đề xuất giải pháp.",
+  "phrases": [
+   [
+    "I am writing to let you know that, unfortunately, ...",
+    "Báo tin không vui một cách lịch sự"
+   ],
+   [
+    "I will be based there for most of the month",
+    "Nói sẽ làm việc ở nơi khác một thời gian"
+   ],
+   [
+    "much more than I expected",
+    "Nhấn mạnh cảm nhận tích cực"
+   ],
+   [
+    "I would not like to fall behind",
+    "Bày tỏ mong muốn không bị tụt lại"
+   ],
+   [
+    "I wondered if you could suggest...",
+    "Hỏi ý kiến rất lịch sự"
+   ],
+   [
+    "if that would help you check my progress",
+    "Đề xuất giải pháp hỗ trợ người nhận"
+   ]
+  ]
+ },
+ {
+  "id": "w1g08",
+  "tone": "informal",
+  "prompt": "A friend has invited you to stay with them for a weekend, but you cannot go. Write a letter to your friend. In your letter\n- thank your friend for the invitation\n- explain why you cannot accept\n- suggest another time when you could meet\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Jamie,",
+  "model": "Dear Jamie,\n\nThanks so much for your lovely letter and for inviting me to stay with you at the end of the month. I'd love to see your new flat, and the idea of walking along the coast together sounds amazing.\n\nUnfortunately, I'm going to have to say no this time. My sister is getting married on the 27th, and I've promised to help her with the preparations that weekend. On top of that, I'm in charge of the music at the reception, so I'll be busy putting together playlists right up until the big day. I'm really disappointed, because I haven't seen you since last summer!\n\nHow about meeting up a bit later instead? I've got a few days off in the middle of next month, so I could come down on the Friday and stay until Sunday, if that works for you. Alternatively, you're always welcome to come here. There's a great new market in town that I know you'd enjoy.\n\nLet me know what you think, and say hi to Sam for me.\n\nLots of love,\nKate",
+  "notes": "Thư cho bạn thân: giọng thân mật, dùng dạng rút gọn (I'd, I'm, haven't), câu cảm thán, câu hỏi tự nhiên. Mở \"Dear Jamie,\" (hoặc \"Hi Jamie,\"), kết \"Lots of love,\" / \"Best wishes,\" + tên riêng. Đoạn 1 (ý 1) cảm ơn và nói mình rất muốn đi để người đọc không thấy bị từ chối lạnh lùng. Đoạn 2 (ý 2) giải thích lý do cụ thể (đám cưới của chị gái, lo phần nhạc). Đoạn 3 (ý 3) đề xuất thời gian khác bằng \"How about...?\" và đưa thêm phương án thay thế. Câu cuối hỏi ý kiến và gửi lời hỏi thăm.",
+  "phrases": [
+   [
+    "Thanks so much for inviting me to...",
+    "Cảm ơn lời mời một cách thân mật"
+   ],
+   [
+    "I'm going to have to say no this time.",
+    "Từ chối nhẹ nhàng, thân thiện"
+   ],
+   [
+    "On top of that, ...",
+    "Thêm lý do, cách nói tự nhiên của \"moreover\""
+   ],
+   [
+    "How about meeting up a bit later instead?",
+    "Đề xuất gặp vào dịp khác"
+   ],
+   [
+    "if that works for you",
+    "Hỏi xem có tiện cho bạn không"
+   ],
+   [
+    "Say hi to ... for me.",
+    "Nhờ gửi lời hỏi thăm"
+   ]
+  ]
+ },
+ {
+  "id": "w1g09",
+  "tone": "informal",
+  "prompt": "A friend from another country is planning to visit your city for a few days. Write a letter to your friend. In your letter\n- say how you feel about their visit\n- suggest some things you could do together\n- give some advice about what they should bring\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Chris,",
+  "model": "Dear Chris,\n\nI was so excited to get your message saying you're finally coming to visit! It's been ages since we last saw each other, and I can't wait to show you around my city.\n\nI've already started making a list of things we could do. On your first evening, I'll take you to the night market near the river, where you can try some of the street food I'm always telling you about. The next day, if you're up for it, we could hire bikes and cycle out to the old fishing village. The views along the way are fantastic. We'll also need a day just to relax in my favourite cafés.\n\nAs for packing, it'll be hot and humid while you're here, so bring light clothes and plenty of sun cream. It also rains quite suddenly in the afternoons, so a small umbrella or a light raincoat would be a good idea. Don't forget comfortable shoes, as we'll be doing a lot of walking!\n\nLet me know your flight details and I'll pick you up from the airport.\n\nSee you soon,\nLinh",
+  "notes": "Giọng thân mật, nhiệt tình: dùng dạng rút gọn, cụm khẩu ngữ (it's been ages, up for it, can't wait). Mở \"Dear Chris,\", kết \"See you soon,\" + tên. Đoạn 1 (ý 1) bày tỏ cảm xúc vui mừng. Đoạn 2 (ý 2) đề xuất hoạt động theo thứ tự ngày, mỗi hoạt động có chi tiết cụ thể (chợ đêm, đạp xe ra làng chài, quán cà phê). Đoạn 3 (ý 3) khuyên nên mang gì kèm lý do thời tiết, dùng \"As for...\" để chuyển ý mượt. Câu cuối hẹn đón ở sân bay để thư khép lại tự nhiên.",
+  "phrases": [
+   [
+    "It's been ages since we last saw each other.",
+    "Lâu lắm rồi không gặp, khẩu ngữ thân mật"
+   ],
+   [
+    "I can't wait to show you around.",
+    "Rất mong được dẫn bạn đi chơi"
+   ],
+   [
+    "if you're up for it",
+    "Nếu bạn thấy hứng thú/muốn thử"
+   ],
+   [
+    "As for packing, ...",
+    "Chuyển sang ý mới một cách tự nhiên"
+   ],
+   [
+    "... would be a good idea.",
+    "Đưa lời khuyên nhẹ nhàng"
+   ],
+   [
+    "Don't forget ...",
+    "Nhắc nhở thân mật"
+   ]
+  ]
+ },
+ {
+  "id": "w1g10",
+  "tone": "informal",
+  "prompt": "You recently stayed with a friend for a week while you were on holiday. Write a letter to your friend. In your letter\n- thank your friend for having you\n- say what you enjoyed most about the visit\n- invite your friend to stay with you\nWrite at least 150 words. You do NOT need to write any addresses. Begin your letter as follows: Dear Tom,",
+  "model": "Dear Tom,\n\nI just wanted to say a huge thank you for letting me stay with you last week. You and Maya made me feel completely at home, and I know it can't have been easy having a guest around while you were both working.\n\nI enjoyed every minute of the trip, but the highlight was definitely the day we spent hiking in the hills behind your town. I'd never have found that path on my own, and having a picnic by the lake at the top was just perfect. I also loved the cooking evening at your place. I've tried making your mushroom pasta twice since I got back, although mine still isn't as good as yours.\n\nAnyway, now it's your turn to visit me. The weather here is lovely in spring, so why don't you both come over in April? I've got a spare room now that my flatmate has moved out, so there's plenty of space, and I'd be happy to take a few days off to show you around.\n\nLet me know what you think.\n\nAll the best,\nBen",
+  "notes": "Thư cảm ơn bạn: giọng thân mật, chân thành. Mở \"Dear Tom,\", kết \"All the best,\" + tên. Đoạn 1 (ý 1) cảm ơn kèm chi tiết cho thấy mình hiểu sự vất vả của chủ nhà. Đoạn 2 (ý 2) chọn một điểm nổi bật nhất (đi bộ đường dài, picnic bên hồ) và thêm một kỷ niệm phụ (bữa tối nấu ăn), có chi tiết hài hước nhẹ. Đoạn 3 (ý 3) mời bạn sang chơi bằng \"why don't you...?\", nêu thời gian và lý do thuận tiện (có phòng trống). Dùng \"Anyway\" để chuyển ý kiểu khẩu ngữ.",
+  "phrases": [
+   [
+    "I just wanted to say a huge thank you for...",
+    "Lời cảm ơn thân mật, nhấn mạnh"
+   ],
+   [
+    "You made me feel completely at home.",
+    "Bạn khiến mình thấy như ở nhà"
+   ],
+   [
+    "The highlight was definitely...",
+    "Điều thích nhất chắc chắn là..."
+   ],
+   [
+    "I'd never have found ... on my own.",
+    "Ghi nhận công của bạn"
+   ],
+   [
+    "Now it's your turn to visit me.",
+    "Chuyển sang lời mời tự nhiên"
+   ],
+   [
+    "Why don't you come over in...?",
+    "Rủ rê thân mật"
+   ]
+  ]
+ }
+]

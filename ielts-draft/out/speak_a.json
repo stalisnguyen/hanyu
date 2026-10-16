@@ -1,0 +1,1726 @@
+{
+ "p1": [
+  {
+   "topic": "Hometown",
+   "qs": [
+    "Where is your hometown?",
+    "What do you like most about your hometown?",
+    "Has your hometown changed much since you were a child?",
+    "Would you like to live there in the future?",
+    "Is your hometown a good place for young people?"
+   ],
+   "samples": [
+    [
+     "What do you like most about your hometown?",
+     "Honestly, it's the pace of life. It's a small coastal town, so people aren't rushing around all the time, and you can get to the beach in about ten minutes. Whenever I go back, I feel like I can finally breathe properly again."
+    ],
+    [
+     "Has your hometown changed much since you were a child?",
+     "Quite a lot, actually. When I was little there were mostly rice fields around the edge of town, but now there are new housing estates and a couple of big supermarkets. It's more convenient, I suppose, but it has lost a bit of its character."
+    ]
+   ]
+  },
+  {
+   "topic": "Work or study",
+   "qs": [
+    "Do you work or are you a student?",
+    "Why did you choose that job or subject?",
+    "What do you find most challenging about it?",
+    "What would you like to change about your work or studies?",
+    "Do you plan to keep doing this in the future?"
+   ],
+   "samples": [
+    [
+     "Why did you choose that job or subject?",
+     "I chose accounting mainly because I've always been fairly good with numbers, and my parents pointed out that there's steady demand for it. To be fair, I wasn't passionate about it at first, but I've grown to enjoy the logic of it."
+    ],
+    [
+     "What do you find most challenging about it?",
+     "Probably the workload at the end of each quarter. Everything has to be finalised by a certain date, so for about two weeks I'm working late almost every night. It's exhausting, but it does teach you to organise your time."
+    ]
+   ]
+  },
+  {
+   "topic": "Home and accommodation",
+   "qs": [
+    "Do you live in a house or a flat?",
+    "Which room do you spend the most time in?",
+    "What would you change about your home?",
+    "Do you plan to live there for a long time?",
+    "What makes a home comfortable for you?"
+   ],
+   "samples": [
+    [
+     "Which room do you spend the most time in?",
+     "Definitely my bedroom, because it doubles as my study. I've got a desk by the window and that's where I work, read and watch films. My family jokes that I only come out at mealtimes, which is not far from the truth."
+    ],
+    [
+     "What makes a home comfortable for you?",
+     "For me it's mostly about light and quiet. If a place gets plenty of natural light and I can't hear the traffic, I feel relaxed straight away. Having a few plants around helps too, even though I'm not very good at keeping them alive."
+    ]
+   ]
+  },
+  {
+   "topic": "Daily routine",
+   "qs": [
+    "What is your daily routine like?",
+    "Which part of the day do you like most?",
+    "Do you usually do the same things every day?",
+    "Has your routine changed in recent years?",
+    "Is it important to have a routine?"
+   ],
+   "samples": [
+    [
+     "Which part of the day do you like most?",
+     "I'd say the early morning. I get up around six, before everyone else in the house, and have a coffee on the balcony. It's the only time of day when nobody needs anything from me, so I use it to plan my day."
+    ],
+    [
+     "Is it important to have a routine?",
+     "I think so, at least to some extent. A basic routine stops you wasting energy on small decisions, like when to eat or exercise. That said, if every day is exactly the same, life gets a bit dull, so I try to leave some room for surprises."
+    ]
+   ]
+  },
+  {
+   "topic": "Food",
+   "qs": [
+    "What kind of food do you like?",
+    "Is there any food you dislike?",
+    "Do you prefer eating at home or eating out?",
+    "Has your diet changed since you were a child?",
+    "What is a popular dish in your country?"
+   ],
+   "samples": [
+    [
+     "Do you prefer eating at home or eating out?",
+     "During the week I much prefer eating at home, because it's cheaper and I know exactly what's going into the food. At weekends, though, I love going out with friends, especially to small street stalls where the food is simple but really tasty."
+    ],
+    [
+     "What is a popular dish in your country?",
+     "I'd have to say pho, the beef noodle soup. People eat it at any time of day, but especially for breakfast. What makes it special is the broth, which is simmered for hours with spices like star anise and cinnamon."
+    ]
+   ]
+  },
+  {
+   "topic": "Weather",
+   "qs": [
+    "What's the weather like where you live?",
+    "What kind of weather do you like best?",
+    "Does the weather affect your mood?",
+    "Do you check the weather forecast often?",
+    "Has the weather in your country changed in recent years?"
+   ],
+   "samples": [
+    [
+     "What kind of weather do you like best?",
+     "I'm a big fan of cool, slightly cloudy days. Where I live it's hot and humid for most of the year, so when the temperature drops a little in December, it feels like a real treat. That's when I go out walking the most."
+    ],
+    [
+     "Does the weather affect your mood?",
+     "Yes, quite a lot. If it rains for several days in a row, I tend to feel a bit flat and unmotivated. On the other hand, a bright sunny morning puts me in a good mood straight away, even if I didn't sleep well."
+    ]
+   ]
+  },
+  {
+   "topic": "Music",
+   "qs": [
+    "Do you like listening to music?",
+    "What kind of music do you listen to?",
+    "When do you usually listen to music?",
+    "Did you learn to play an instrument as a child?",
+    "Has your taste in music changed over the years?"
+   ],
+   "samples": [
+    [
+     "What kind of music do you listen to?",
+     "My taste is pretty mixed, to be honest. I listen to a lot of indie pop, but I also enjoy older Vietnamese ballads that my parents used to play. It really depends on my mood, so my playlists are quite chaotic."
+    ],
+    [
+     "Did you learn to play an instrument as a child?",
+     "I had piano lessons for about two years when I was around eight. I wasn't very dedicated, though, and I gave up once the pieces got harder. Looking back, I wish I'd stuck with it, because I'd love to be able to play now."
+    ]
+   ]
+  },
+  {
+   "topic": "Reading",
+   "qs": [
+    "Do you like reading?",
+    "What kind of books do you enjoy?",
+    "Do you prefer paper books or e-books?",
+    "Did you read a lot when you were a child?",
+    "Do you think people read less nowadays?"
+   ],
+   "samples": [
+    [
+     "Do you prefer paper books or e-books?",
+     "I still prefer paper books, mainly because I spend so much time looking at screens for work. There's something satisfying about turning the pages and seeing how far you've got. I do use an e-reader when I travel, though, because it's so much lighter."
+    ],
+    [
+     "Do you think people read less nowadays?",
+     "I think people read just as much, but they read differently. Most of us skim articles and social media posts all day, but fewer people sit down with a long book. That kind of deep reading takes patience, which is harder to find these days."
+    ]
+   ]
+  },
+  {
+   "topic": "Sport",
+   "qs": [
+    "Do you play any sports?",
+    "What sport is most popular in your country?",
+    "Did you do much sport at school?",
+    "Do you prefer watching sport or playing it?",
+    "Would you like to try a new sport?"
+   ],
+   "samples": [
+    [
+     "What sport is most popular in your country?",
+     "Without a doubt, football. Whenever the national team plays, the whole country seems to stop and people gather in cafes to watch. When we win an important match, the streets fill up with people on motorbikes waving flags until late at night."
+    ],
+    [
+     "Would you like to try a new sport?",
+     "Yes, I'd really like to try rock climbing. A friend of mine goes to an indoor climbing centre and she says it's great for both strength and concentration. I'm a bit scared of heights, but I think that's partly why it appeals to me."
+    ]
+   ]
+  },
+  {
+   "topic": "Shopping",
+   "qs": [
+    "Do you enjoy shopping?",
+    "Do you prefer shopping online or in shops?",
+    "What was the last thing you bought?",
+    "Do you ever buy things you don't need?",
+    "Are there any shopping centres near where you live?"
+   ],
+   "samples": [
+    [
+     "Do you prefer shopping online or in shops?",
+     "For most things I shop online because it saves time and I can compare prices easily. But for clothes and shoes I'd rather go to a shop, since sizes vary so much between brands and sending things back is a real hassle."
+    ],
+    [
+     "Do you ever buy things you don't need?",
+     "I'm afraid so. I'm a sucker for stationery, so if I see a nice notebook or a new kind of pen, I usually end up buying it even though I've got a drawer full of them at home. It's a harmless habit, I hope."
+    ]
+   ]
+  },
+  {
+   "topic": "Friends",
+   "qs": [
+    "Do you have many friends?",
+    "How often do you see your friends?",
+    "What do you usually do together?",
+    "Do you prefer having a few close friends or lots of friends?",
+    "Is it easy to make new friends as an adult?"
+   ],
+   "samples": [
+    [
+     "Do you prefer having a few close friends or lots of friends?",
+     "I'd definitely go for a few close friends. I've got a small group I've known since secondary school, and I can talk to them about anything. I think quality matters much more than quantity when it comes to friendship."
+    ],
+    [
+     "Is it easy to make new friends as an adult?",
+     "Not really, in my experience. At school you see the same people every day, so friendships form naturally. As an adult everyone is busy with work and family, so you have to make a real effort, like joining a club or a class."
+    ]
+   ]
+  },
+  {
+   "topic": "Holidays",
+   "qs": [
+    "How do you usually spend your holidays?",
+    "Do you prefer holidays at home or abroad?",
+    "What was your best holiday?",
+    "Do you like to plan your holidays in detail?",
+    "Who do you usually go on holiday with?"
+   ],
+   "samples": [
+    [
+     "What was your best holiday?",
+     "That would be a trip to Da Lat with my cousins a couple of years ago. The weather was cool, we stayed in a little wooden guesthouse surrounded by pine trees, and we spent the days cycling and eating far too much. It was simple but perfect."
+    ],
+    [
+     "Do you like to plan your holidays in detail?",
+     "Only roughly. I like to book the flights and accommodation in advance, but I prefer to decide what to do each day when I get there. If everything is planned hour by hour, it starts to feel like work rather than a holiday."
+    ]
+   ]
+  },
+  {
+   "topic": "Transport",
+   "qs": [
+    "How do you usually travel around your city?",
+    "What is public transport like where you live?",
+    "Do you prefer travelling by bus or by train?",
+    "Have you ever had a bad experience on public transport?",
+    "How will transport change in the future?"
+   ],
+   "samples": [
+    [
+     "How do you usually travel around your city?",
+     "Mostly by motorbike, like most people in my city. It's quick and you can weave through traffic, although it's not much fun when it rains. For longer trips across the city I sometimes take the new metro line, which is surprisingly comfortable."
+    ],
+    [
+     "How will transport change in the future?",
+     "I imagine there will be far more electric vehicles, and hopefully better public transport in big cities. Some people say self-driving cars will become normal, but I'm a bit sceptical, at least in places with traffic as unpredictable as ours."
+    ]
+   ]
+  },
+  {
+   "topic": "Technology and phones",
+   "qs": [
+    "How often do you use your phone?",
+    "What do you mainly use your phone for?",
+    "Could you live without your phone for a week?",
+    "What was your first phone like?",
+    "Do you think people spend too much time on their phones?"
+   ],
+   "samples": [
+    [
+     "Could you live without your phone for a week?",
+     "I could, but I wouldn't enjoy it. So much of my life is organised through my phone, from banking to messaging my family. I think the first two days would be frustrating, but after that it might actually be quite relaxing."
+    ],
+    [
+     "What was your first phone like?",
+     "It was a basic little phone with buttons that my uncle gave me when I was about thirteen. It could only make calls and send texts, plus there was a snake game I was obsessed with. The battery lasted almost a week, which seems amazing now."
+    ]
+   ]
+  },
+  {
+   "topic": "Photography",
+   "qs": [
+    "Do you like taking photos?",
+    "What do you usually take photos of?",
+    "Do you prefer taking photos with a phone or a camera?",
+    "Do you like having your photo taken?",
+    "Do you ever print your photos?"
+   ],
+   "samples": [
+    [
+     "What do you usually take photos of?",
+     "Mostly food and landscapes, I'd say. Whenever I eat something that looks beautiful, I take a quick picture before I start. When I travel I try to capture the light at sunrise or sunset, because that's when places look their best."
+    ],
+    [
+     "Do you like having your photo taken?",
+     "Not really, I tend to feel a bit awkward in front of a camera. I never know what to do with my hands or my face. I'm much happier being the person behind the camera, taking pictures of everyone else."
+    ]
+   ]
+  },
+  {
+   "topic": "Films",
+   "qs": [
+    "Do you like watching films?",
+    "What kind of films do you enjoy?",
+    "Do you prefer watching films at home or at the cinema?",
+    "Who do you usually watch films with?",
+    "Is there a film you have watched more than once?"
+   ],
+   "samples": [
+    [
+     "Do you prefer watching films at home or at the cinema?",
+     "For big action films or anything with amazing visuals, I'd choose the cinema, because the sound and the huge screen make a real difference. For dramas or comedies, though, I'm happy at home on the sofa, where I can pause it and make a snack."
+    ],
+    [
+     "Is there a film you have watched more than once?",
+     "Yes, Spirited Away. I must have seen it five or six times. Every time I watch it I notice some new detail in the background, and the story feels slightly different depending on how old I am. It never really gets old."
+    ]
+   ]
+  },
+  {
+   "topic": "Art",
+   "qs": [
+    "Do you like art?",
+    "Did you enjoy art lessons at school?",
+    "Do you ever go to art galleries?",
+    "Is there any art in your home?",
+    "Would you like to learn to paint or draw?"
+   ],
+   "samples": [
+    [
+     "Did you enjoy art lessons at school?",
+     "I did when I was younger, mainly because it was a break from more serious subjects. We'd paint landscapes or make things out of clay. I wasn't particularly talented, but our teacher always encouraged us to experiment rather than worry about being perfect."
+    ],
+    [
+     "Would you like to learn to paint or draw?",
+     "I'd love to learn watercolour painting. I've seen people do it online and it looks so calming. The idea of sitting in a park on a Sunday afternoon with a small paint set really appeals to me, even if my first attempts are terrible."
+    ]
+   ]
+  },
+  {
+   "topic": "Nature",
+   "qs": [
+    "Do you like spending time in nature?",
+    "Are there any parks or natural areas near where you live?",
+    "What did you do outdoors when you were a child?",
+    "Do you prefer the mountains or the sea?",
+    "Do you think people today spend enough time outdoors?"
+   ],
+   "samples": [
+    [
+     "Do you prefer the mountains or the sea?",
+     "That's a tough one, but I'd probably choose the mountains. The sea is great for swimming, but in the mountains the air is cooler and there's more to explore. I love that moment when you reach the top of a trail and see the view."
+    ],
+    [
+     "Do you think people today spend enough time outdoors?",
+     "Not really. A lot of people, especially in cities, go from home to the office to a shopping centre without spending much time outside at all. I think that's a shame, because even a short walk in a park can really clear your head."
+    ]
+   ]
+  },
+  {
+   "topic": "Birthdays",
+   "qs": [
+    "How do you usually celebrate your birthday?",
+    "Which birthday do you remember most?",
+    "Do you think birthdays are important?",
+    "How do children celebrate birthdays in your country?",
+    "Do you prefer to give or receive birthday gifts?"
+   ],
+   "samples": [
+    [
+     "How do you usually celebrate your birthday?",
+     "Nothing too big these days. Usually I have dinner with my family on the day, and then at the weekend I meet up with a few friends for drinks or karaoke. I prefer keeping it low-key rather than throwing a big party."
+    ],
+    [
+     "Which birthday do you remember most?",
+     "Probably my eighteenth. My friends organised a surprise picnic by the river, and I genuinely had no idea. They'd even made a little video with messages from people I hadn't seen for years. I still watch it occasionally."
+    ]
+   ]
+  },
+  {
+   "topic": "Clothes",
+   "qs": [
+    "What kind of clothes do you usually wear?",
+    "Do you wear different clothes at the weekend?",
+    "Do you spend much money on clothes?",
+    "Have you ever worn traditional clothes?",
+    "Is fashion important to you?"
+   ],
+   "samples": [
+    [
+     "What kind of clothes do you usually wear?",
+     "I keep it pretty simple, usually jeans or chinos with a plain T-shirt or shirt. I'm not very fashionable, so I go for things that are comfortable and easy to match. Most of my wardrobe is navy, grey or white."
+    ],
+    [
+     "Have you ever worn traditional clothes?",
+     "Yes, I've worn the ao dai, our traditional long dress, a few times, mostly for school events and weddings. It's really elegant, but it's not something you could wear every day, because you have to be quite careful when you sit down or ride a motorbike."
+    ]
+   ]
+  },
+  {
+   "topic": "Colours",
+   "qs": [
+    "What is your favourite colour?",
+    "Are there any colours you dislike?",
+    "What colours are popular in your country?",
+    "Do you wear bright colours?",
+    "Do colours affect how you feel?"
+   ],
+   "samples": [
+    [
+     "What is your favourite colour?",
+     "I'd say dark green, the kind of colour you see in a forest. It feels calm and natural to me. My phone case, my backpack and even my bedroom walls are green, so I suppose I'm fairly consistent."
+    ],
+    [
+     "Do colours affect how you feel?",
+     "I think they do, even if we don't always notice. Warm colours like yellow and orange tend to make me feel more energetic, whereas blue makes me feel calmer. That's probably why so many offices and hospitals use pale blue on their walls."
+    ]
+   ]
+  },
+  {
+   "topic": "Noise",
+   "qs": [
+    "Is the place where you live noisy?",
+    "What kinds of noise do you dislike?",
+    "Do you prefer studying in silence or with some background noise?",
+    "Are there any noises you find relaxing?",
+    "Has your area become noisier recently?"
+   ],
+   "samples": [
+    [
+     "Do you prefer studying in silence or with some background noise?",
+     "I need a bit of background noise, oddly enough. Complete silence makes me restless, so I often work in a cafe where there's quiet chatter and the sound of the coffee machine. Loud music is too distracting, though, especially if it has lyrics."
+    ],
+    [
+     "Are there any noises you find relaxing?",
+     "Rain is the obvious one. The sound of heavy rain on the roof at night helps me fall asleep almost instantly. I also like the sound of waves, which is probably because I grew up near the coast."
+    ]
+   ]
+  },
+  {
+   "topic": "Keys",
+   "qs": [
+    "Do you carry many keys?",
+    "Have you ever lost your keys?",
+    "Do you think we will still use keys in the future?",
+    "Do you keep a spare key anywhere?",
+    "Do you use a keyring?"
+   ],
+   "samples": [
+    [
+     "Have you ever lost your keys?",
+     "Yes, once, and it was a nightmare. I dropped them on the way home from university and only realised when I got to the front door. Everyone was out, so I sat outside for about three hours until my brother came back."
+    ],
+    [
+     "Do you think we will still use keys in the future?",
+     "Probably less and less. A lot of hotels already use cards, and some new flats have fingerprint or code locks. I imagine physical keys will still exist for a while, but eventually most of us will just use our phones."
+    ]
+   ]
+  },
+  {
+   "topic": "Sleep",
+   "qs": [
+    "How many hours do you usually sleep?",
+    "Do you ever take naps during the day?",
+    "What do you do if you can't sleep?",
+    "Do you prefer going to bed early or staying up late?",
+    "Did you sleep more when you were a child?"
+   ],
+   "samples": [
+    [
+     "Do you ever take naps during the day?",
+     "Yes, a short nap after lunch is pretty common where I'm from, and I'm a big believer in it. Just twenty minutes makes me much more productive in the afternoon. The trick is not to sleep too long, or you wake up feeling groggy."
+    ],
+    [
+     "What do you do if you can't sleep?",
+     "I usually get up and read something boring for a while rather than lying there staring at the ceiling. I try to avoid looking at my phone, because the light and all the notifications just wake me up even more."
+    ]
+   ]
+  },
+  {
+   "topic": "Time management",
+   "qs": [
+    "Are you good at managing your time?",
+    "How do you plan your day?",
+    "Do you ever put things off until the last minute?",
+    "Do you use any apps to organise your time?",
+    "Do you think time management is a skill people can learn?"
+   ],
+   "samples": [
+    [
+     "Are you good at managing your time?",
+     "I'm better than I used to be. At university I was terrible and left everything until the night before a deadline. These days I write a short list every morning with my three most important tasks, and that has made a huge difference."
+    ],
+    [
+     "Do you think time management is a skill people can learn?",
+     "Absolutely. Some people are naturally more organised, but anyone can learn simple techniques, like breaking big tasks into smaller steps or setting a timer to focus for twenty-five minutes. It's really about building habits, not about personality."
+    ]
+   ]
+  },
+  {
+   "topic": "Social media",
+   "qs": [
+    "Which social media platforms do you use?",
+    "How much time do you spend on social media each day?",
+    "Do you post a lot on social media?",
+    "What are the benefits of social media for you?",
+    "Have you ever tried to stop using social media?"
+   ],
+   "samples": [
+    [
+     "Do you post a lot on social media?",
+     "Hardly ever, to be honest. I'm more of a lurker. I like seeing what my friends are up to, but I rarely post anything myself, maybe a photo or two after a trip. I don't really enjoy the pressure of waiting for likes."
+    ],
+    [
+     "Have you ever tried to stop using social media?",
+     "I tried a month-long break last year, and it was more useful than I expected. For the first few days I kept reaching for my phone out of habit, but after a week I was sleeping better and reading more. I went back eventually, but I use it much less now."
+    ]
+   ]
+  },
+  {
+   "topic": "Cooking",
+   "qs": [
+    "Do you like cooking?",
+    "Who does most of the cooking in your family?",
+    "What dish can you cook well?",
+    "Did you learn to cook as a child?",
+    "Would you like to take a cooking class?"
+   ],
+   "samples": [
+    [
+     "What dish can you cook well?",
+     "My signature dish is caramelised pork with eggs, which is a classic Vietnamese home dish. My mum taught me how to make the caramel properly, and that's the hard part, because if you burn it even slightly, the whole thing tastes bitter."
+    ],
+    [
+     "Would you like to take a cooking class?",
+     "Yes, I'd love to do a baking class. I'm fine with stir-fries and soups, but baking is much more precise, and every time I try to make a cake at home it comes out flat. I think having someone show me the techniques would really help."
+    ]
+   ]
+  },
+  {
+   "topic": "Languages",
+   "qs": [
+    "How many languages can you speak?",
+    "Why are you learning English?",
+    "What is the most difficult part of learning a new language?",
+    "Would you like to learn another language?",
+    "Do you think children should learn a foreign language at school?"
+   ],
+   "samples": [
+    [
+     "What is the most difficult part of learning a new language?",
+     "For me it's speaking naturally in real time. I can read fairly complex texts and write reasonably well, but when I'm talking to someone, I sometimes freeze while I search for the right word. It's improving, though, the more I practise."
+    ],
+    [
+     "Would you like to learn another language?",
+     "I'd really like to learn Japanese, partly because I love Japanese films and partly because I'd like to travel around the country one day. The writing system looks terrifying, but I've heard the pronunciation is fairly easy for Vietnamese speakers."
+    ]
+   ]
+  },
+  {
+   "topic": "Museums",
+   "qs": [
+    "Do you like visiting museums?",
+    "Have you visited any museums recently?",
+    "Did you go to museums with your school?",
+    "What kind of museums do you find most interesting?",
+    "Do you think museums should be free?"
+   ],
+   "samples": [
+    [
+     "What kind of museums do you find most interesting?",
+     "I find science and history museums the most interesting, especially the ones with interactive displays where you can actually try things out. Art museums are lovely too, but I sometimes struggle to appreciate the pieces unless there's a good guide explaining them."
+    ],
+    [
+     "Do you think museums should be free?",
+     "Ideally, yes, at least for students and children. Museums are an important part of education, and entrance fees can put families off going. Maybe they could ask visitors for a small donation instead, so people pay what they can afford."
+    ]
+   ]
+  },
+  {
+   "topic": "Gifts",
+   "qs": [
+    "Do you like giving gifts?",
+    "What kind of gifts do you usually give?",
+    "What is the best gift you have ever received?",
+    "Do you prefer to receive money or a present?",
+    "Is it difficult to choose gifts for people?"
+   ],
+   "samples": [
+    [
+     "What is the best gift you have ever received?",
+     "My grandfather gave me his old wristwatch when I graduated from university. It isn't expensive, and it actually runs a few minutes slow, but he'd worn it every day for thirty years. I wear it on important days, like job interviews."
+    ],
+    [
+     "Is it difficult to choose gifts for people?",
+     "It can be, especially for people who already seem to have everything. I try to listen out for small things people mention throughout the year, like a book they want to read, and make a note on my phone. That makes it much easier later on."
+    ]
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "id": "s2_01",
+   "card": "Describe a person who has taught you something important.",
+   "bullets": [
+    "You should say:",
+    "who this person is",
+    "how you know this person",
+    "what he or she taught you"
+   ],
+   "explain": "and explain why this lesson was important to you.",
+   "topic": "person",
+   "sample": "I'd like to talk about my first manager, a woman called Lan, who ran the small marketing team I joined straight after university. I worked under her for about two years, and although she wasn't a teacher in the formal sense, she probably taught me more than any lecturer did. The most important thing she taught me was how to take criticism without taking it personally. In my first few months, I'd hand in a report and she'd return it covered in comments. At first I found it quite crushing, to be honest, because I'd always been a good student and I wasn't used to being told my work wasn't good enough. But one afternoon she sat down with me and explained that her comments were about the document, not about me. She said that the people who improve fastest are the ones who treat feedback as free advice rather than as an attack. She also showed me her own early drafts, which were full of corrections from her old boss, and that really put things into perspective. This lesson has been important because it changed the way I approach almost everything. Now, when someone points out a mistake, I try to get curious instead of defensive, and I ask questions so I understand what they mean. It has made me much better at my job, and I think it's also made me easier to work with. Even now, whenever I get tough feedback, I can still hear her voice telling me it's free advice.",
+   "vocab": [
+    [
+     "take something personally",
+     "để bụng, coi điều gì là nhắm vào mình"
+    ],
+    [
+     "crushing",
+     "khiến mình rất suy sụp, nản lòng"
+    ],
+    [
+     "put things into perspective",
+     "giúp nhìn nhận sự việc đúng mức"
+    ],
+    [
+     "defensive",
+     "phòng thủ, hay chống chế"
+    ],
+    [
+     "in the formal sense",
+     "theo nghĩa chính thức"
+    ],
+    [
+     "tough feedback",
+     "góp ý thẳng thắn, khó nghe"
+    ]
+   ],
+   "p3": [
+    "Who do you think has more influence on children, parents or teachers?",
+    "What qualities make someone a good teacher?",
+    "Do people learn more from their own mistakes or from other people's advice?",
+    "Is it important for employers to train their staff?",
+    "How has the role of teachers changed with the internet?"
+   ],
+   "p3samples": [
+    [
+     "Who do you think has more influence on children, parents or teachers?",
+     "I'd argue that parents have more influence, especially in the early years. Children copy their parents' attitudes to things like money, work and relationships long before they start school. Teachers certainly shape a child's knowledge and confidence, but they're dealing with thirty students at once, so they can't have the same constant presence. That said, a single inspiring teacher can sometimes make up for a difficult home environment."
+    ],
+    [
+     "How has the role of teachers changed with the internet?",
+     "Teachers are no longer the main source of information, because students can look up almost anything in seconds. As a result, the best teachers act more like guides. They help students judge which sources are reliable, connect ideas and apply what they've learnt. In a way the job has become harder, since teachers have to compete with very engaging online content, but it's also arguably more important than ever."
+    ]
+   ]
+  },
+  {
+   "id": "s2_02",
+   "card": "Describe an elderly person you know and admire.",
+   "bullets": [
+    "You should say:",
+    "who this person is",
+    "how often you see him or her",
+    "what this person is like"
+   ],
+   "explain": "and explain why you admire this person.",
+   "topic": "person",
+   "sample": "The person I'd like to describe is my grandmother on my father's side. She's eighty-three now and still lives in the same house in the countryside where my father grew up. I don't see her as often as I'd like, maybe four or five times a year, usually during Tet and over the summer holidays, but we talk on video calls almost every Sunday. She's a tiny woman, barely a metre and a half tall, but she has an enormous amount of energy. She still gets up at five every morning to look after her vegetable garden, and she refuses to let anyone else do her cooking. She's also very sharp. She can remember the birthdays of every grandchild and great-grandchild, and she always wins when we play cards. What I admire most about her is her resilience. She lived through some very hard times when she was young, including years when there was barely enough food to go round, and she raised five children more or less on her own while my grandfather was working far away. Yet she never complains or talks about how difficult it was. Instead she's incredibly generous, and whenever someone in the village is struggling, she's the first to turn up with a pot of soup. I suppose I admire her because she shows that you can go through real hardship and still come out kind and optimistic. Whenever I feel sorry for myself over something minor, I think of her and realise how lucky I am.",
+   "vocab": [
+    [
+     "on my father's side",
+     "bên nội"
+    ],
+    [
+     "sharp",
+     "minh mẫn, nhanh nhạy"
+    ],
+    [
+     "resilience",
+     "sức bền bỉ, khả năng vượt khó"
+    ],
+    [
+     "go round",
+     "đủ chia cho mọi người"
+    ],
+    [
+     "hardship",
+     "sự gian khổ, thiếu thốn"
+    ],
+    [
+     "feel sorry for myself",
+     "tự thương hại bản thân"
+    ]
+   ],
+   "p3": [
+    "How are elderly people treated in your country?",
+    "What can young people learn from older people?",
+    "Is it better for old people to live with their families or in care homes?",
+    "How will ageing populations affect society?",
+    "Do you think older people find it hard to use modern technology?"
+   ],
+   "p3samples": [
+    [
+     "Is it better for old people to live with their families or in care homes?",
+     "In my country most people would say living with family is better, and I generally agree, because older people often feel lonely and grandchildren benefit from that relationship. However, it isn't always realistic. If an elderly person needs specialist medical care and everyone in the family works full-time, a good care home may actually offer a safer and more comfortable life. I think the key is that the family stays closely involved either way."
+    ],
+    [
+     "How will ageing populations affect society?",
+     "One major effect will be pressure on public finances, since fewer working people will be paying taxes to support more pensioners. Health systems will also need many more nurses and carers. On the positive side, older people now stay healthy for longer, so many of them could keep working part-time or volunteering. Governments will probably have to raise the retirement age, which won't be popular but may be unavoidable."
+    ]
+   ]
+  },
+  {
+   "id": "s2_03",
+   "card": "Describe a friend you have known for a long time.",
+   "bullets": [
+    "You should say:",
+    "who this friend is",
+    "how and when you met",
+    "what you usually do together"
+   ],
+   "explain": "and explain why your friendship has lasted so long.",
+   "topic": "person",
+   "sample": "I'm going to talk about my friend Minh, who I've known for almost twenty years now. We met on our very first day of primary school, when the teacher sat us next to each other because our names were next to each other on the register. Apparently I cried all morning and he shared his snacks with me to cheer me up, so I suppose we got off to a good start. We went to the same secondary school as well, but after that we went in completely different directions. I studied economics in the city, while he went abroad to study engineering in Australia, and he stayed there for six years. These days he's back home, though, and we live about fifteen minutes apart. What we do together is pretty ordinary. Most weekends we meet for coffee, and occasionally we go hiking or play badminton with a few other old classmates. Mostly we just talk, about work, family and whatever silly thing happened that week. I think the friendship has lasted because we never needed to see each other all the time to stay close. When he was in Australia, we sometimes didn't speak for months, but whenever we did catch up, it felt as if no time had passed. We're also very different people. He's calm and logical, whereas I'm more emotional, so we balance each other out. Above all, we're completely honest with each other, even when it's not what the other person wants to hear.",
+   "vocab": [
+    [
+     "get off to a good start",
+     "khởi đầu suôn sẻ"
+    ],
+    [
+     "go in different directions",
+     "mỗi người một ngả"
+    ],
+    [
+     "catch up",
+     "hàn huyên, cập nhật tình hình của nhau"
+    ],
+    [
+     "as if no time had passed",
+     "như thể chưa từng xa cách"
+    ],
+    [
+     "balance each other out",
+     "bù trừ cho nhau"
+    ],
+    [
+     "old classmates",
+     "bạn học cũ"
+    ]
+   ],
+   "p3": [
+    "What makes someone a good friend?",
+    "Is it possible to have a real friendship online?",
+    "Do people have fewer close friends today than in the past?",
+    "Why do some friendships end?",
+    "Are friends more important than family?"
+   ],
+   "p3samples": [
+    [
+     "Is it possible to have a real friendship online?",
+     "I think it is possible, although it's harder. Plenty of people meet through online games or forums and gradually build genuine trust by talking every day. However, a lot of what makes friendship deep comes from shared experiences, like helping someone move house or sitting with them at a hospital. Online friendships can certainly be real, but they usually become stronger when people eventually meet face to face."
+    ],
+    [
+     "Why do some friendships end?",
+     "Most friendships don't end with an argument, they just fade. People move to different cities, start families or change jobs, and they no longer have the time or the shared routines that kept them in touch. Sometimes people's values change too, so they simply have less in common. I don't think that's necessarily sad, because some friends are right for a particular stage of life."
+    ]
+   ]
+  },
+  {
+   "id": "s2_04",
+   "card": "Describe a place in your city where you like to relax.",
+   "bullets": [
+    "You should say:",
+    "where it is",
+    "how often you go there",
+    "what you do there"
+   ],
+   "explain": "and explain why it is a relaxing place for you.",
+   "topic": "place",
+   "sample": "One place I really love is a small park near the river, about ten minutes by motorbike from my flat. It isn't famous and you won't find it in any travel guide, but it's become a kind of refuge for me. I go there two or three times a week, usually early in the evening after work, when the heat of the day has died down. There's a path that runs along the riverbank, lined with old trees, and I normally walk the full loop, which takes about half an hour. After that, I sit on a bench facing the water and just watch the boats go past. Sometimes I bring a book, but often I don't even read. I just let my mind wander. On weekend mornings it's a completely different atmosphere. It's full of older people doing tai chi, kids learning to ride bikes, and a few vendors selling sugar cane juice. It's livelier, but still peaceful in its own way. I think it's relaxing for a few reasons. First, it's one of the few spots in the city where you can actually see a wide stretch of sky, because there are no tall buildings right next to it. Second, there's a breeze off the river, so it's always a couple of degrees cooler than the streets. But mainly, it's because nobody expects anything from me there. I don't need to answer messages or be productive. It's simply a place to slow down, and in a busy city that feels incredibly valuable.",
+   "vocab": [
+    [
+     "refuge",
+     "nơi trú ẩn, chốn bình yên"
+    ],
+    [
+     "die down",
+     "dịu bớt, lắng xuống"
+    ],
+    [
+     "let my mind wander",
+     "để đầu óc thả lỏng, nghĩ vẩn vơ"
+    ],
+    [
+     "in its own way",
+     "theo cách riêng của nó"
+    ],
+    [
+     "a wide stretch of sky",
+     "một khoảng trời rộng"
+    ],
+    [
+     "slow down",
+     "sống chậm lại"
+    ]
+   ],
+   "p3": [
+    "Why do people in cities often feel stressed?",
+    "Should cities have more green spaces?",
+    "Do you think people today know how to relax?",
+    "Is it better to relax alone or with others?",
+    "How can employers help workers reduce stress?"
+   ],
+   "p3samples": [
+    [
+     "Should cities have more green spaces?",
+     "Definitely. Parks and trees aren't just decoration, they cool the air, reduce flooding and give people somewhere free to exercise and meet. Research consistently links access to green space with better mental health. The challenge is that land in city centres is extremely expensive, so councils are tempted to sell it to developers. I think governments need to protect a minimum amount of green space per resident by law."
+    ],
+    [
+     "Do you think people today know how to relax?",
+     "I'm not sure many people do. A lot of us think we're relaxing when we scroll through our phones, but that often leaves us more tired and anxious. Real relaxation usually means doing something that absorbs your attention in a gentle way, like gardening, cooking or walking. I think people have almost forgotten how to do nothing, because being busy has become a kind of status symbol."
+    ]
+   ]
+  },
+  {
+   "id": "s2_05",
+   "card": "Describe a building you find interesting.",
+   "bullets": [
+    "You should say:",
+    "where it is",
+    "what it looks like",
+    "what it is used for"
+   ],
+   "explain": "and explain why you find it interesting.",
+   "topic": "place",
+   "sample": "The building I'd like to talk about is the old post office in the centre of my city. It was built over a hundred years ago, when the country was a French colony, and it's still one of the most recognisable landmarks downtown. From the outside, it's painted a warm yellow colour, with tall arched windows and a large clock right above the main entrance. When you walk in, the first thing you notice is the enormous curved ceiling, made of iron and glass, which lets in plenty of natural light. On the walls there are two huge hand-painted maps from the early twentieth century, and at the far end there's a big portrait of a national leader. Surprisingly, it's still a working post office. You can buy stamps and send parcels there, although these days most of the people inside are tourists rather than locals. There are also souvenir stalls selling postcards, and some visitors write a postcard on the spot and post it home as a memento. I find it interesting for a couple of reasons. Architecturally, it's a fascinating blend of European style and local touches, such as the tiled floors and the decorative details that reflect the climate. But I also love that it hasn't been turned into a museum. It's a living part of the city's history, and you can feel the contrast between the old building and the glass skyscrapers that have gone up around it. Every time I go there, I notice some small detail I'd missed before.",
+   "vocab": [
+    [
+     "landmark",
+     "công trình biểu tượng, địa danh"
+    ],
+    [
+     "arched windows",
+     "cửa sổ hình vòm"
+    ],
+    [
+     "on the spot",
+     "ngay tại chỗ"
+    ],
+    [
+     "memento",
+     "vật kỷ niệm"
+    ],
+    [
+     "a blend of",
+     "sự pha trộn giữa"
+    ],
+    [
+     "go up",
+     "được xây lên, mọc lên"
+    ]
+   ],
+   "p3": [
+    "Should old buildings be preserved or replaced with modern ones?",
+    "What makes a city attractive to tourists?",
+    "Do you think modern buildings are as beautiful as old ones?",
+    "Who should pay for the protection of historic buildings?",
+    "How does architecture affect people's quality of life?"
+   ],
+   "p3samples": [
+    [
+     "Should old buildings be preserved or replaced with modern ones?",
+     "It depends on the building. Those with genuine historical or architectural value should definitely be preserved, because once they're gone, they can't be replaced, and they give a city its identity. But not every old building deserves protection. Some are unsafe or no longer fit for purpose, and cities need space for housing. A good compromise is to keep the facade of an old building while modernising the interior."
+    ],
+    [
+     "How does architecture affect people's quality of life?",
+     "Quite significantly, I think. Buildings with plenty of natural light and ventilation make people healthier and more productive, while dark, cramped flats can affect people's mood. The design of public spaces matters too. If streets have shade, benches and wide pavements, people are more likely to walk and stop to chat, which builds a sense of community. Badly planned areas can feel isolating even when they're crowded."
+    ]
+   ]
+  },
+  {
+   "id": "s2_06",
+   "card": "Describe a place you visited that was very crowded.",
+   "bullets": [
+    "You should say:",
+    "where it was",
+    "when you went there",
+    "why it was so crowded"
+   ],
+   "explain": "and explain how you felt about being there.",
+   "topic": "place",
+   "sample": "I'd like to describe the night market in Bangkok that I visited about three years ago with two friends from university. It was our first trip abroad together, and someone had told us it was the place to go for street food, so we went on our second evening. We arrived at about eight o'clock on a Saturday, which in hindsight was a big mistake. The narrow lanes between the stalls were absolutely packed, with people shoulder to shoulder in every direction. At some points we could only move a few steps a minute, and we had to hold on to each other's backpacks so we wouldn't get separated. It was crowded for a few reasons. Firstly, it was the weekend, so locals were there as well as tourists. Secondly, it had recently gone viral on social media, so lots of visitors had added it to their list. And thirdly, a music festival had just finished nearby, so thousands of people had come straight from there. My feelings were honestly a bit mixed. For the first half an hour I felt quite overwhelmed. It was hot, noisy and I couldn't really see where I was going. But once we found a little table at the edge of the market and started trying the food, I began to enjoy the atmosphere. There was music, the smell of grilled seafood everywhere, and everyone seemed to be in a good mood. So although I wouldn't go back on a Saturday night, I'm glad I experienced it once.",
+   "vocab": [
+    [
+     "in hindsight",
+     "nhìn lại thì, giờ nghĩ lại"
+    ],
+    [
+     "packed",
+     "chật kín người"
+    ],
+    [
+     "shoulder to shoulder",
+     "chen vai nhau"
+    ],
+    [
+     "go viral",
+     "lan truyền rầm rộ trên mạng"
+    ],
+    [
+     "overwhelmed",
+     "choáng ngợp, quá tải"
+    ],
+    [
+     "mixed feelings",
+     "cảm xúc lẫn lộn"
+    ]
+   ],
+   "p3": [
+    "Why do people enjoy crowded places such as festivals?",
+    "What problems does overcrowding cause in cities?",
+    "How can popular tourist sites manage large numbers of visitors?",
+    "Will cities become more crowded in the future?",
+    "Do you think social media makes some places too popular?"
+   ],
+   "p3samples": [
+    [
+     "How can popular tourist sites manage large numbers of visitors?",
+     "There are several options. Many sites now use timed tickets, so visitors book a particular slot online and the numbers are spread across the day. Some places have introduced higher prices during peak seasons, which pushes some people to come at quieter times. Another idea is to promote lesser-known attractions nearby, so the pressure isn't all on one spot. A daily cap on visitors is probably the most effective, although it can be unpopular."
+    ],
+    [
+     "Do you think social media makes some places too popular?",
+     "I think it does. A single photo can make a quiet beach or cafe famous overnight, and suddenly thousands of people turn up wanting the same picture. Local residents often suffer from the noise and litter, and the place can lose the charm that made it special. On the other hand, social media can also bring income to small communities, so the challenge is managing that popularity rather than blaming the platforms."
+    ]
+   ]
+  },
+  {
+   "id": "s2_07",
+   "card": "Describe an object that is important to you.",
+   "bullets": [
+    "You should say:",
+    "what it is",
+    "where you got it from",
+    "how often you use it"
+   ],
+   "explain": "and explain why it is important to you.",
+   "topic": "object",
+   "sample": "The object I'd like to talk about is a small, rather battered notebook with a brown leather cover. My older sister gave it to me just before I left home to start university, which was about eight years ago now. It isn't anything expensive. It's about the size of my hand, and the cover is quite scratched because I've carried it around in my bag for years. The clever thing about it is that the leather cover is permanent, but you can replace the paper inside when you fill it up. I'm actually on my eleventh refill. I use it almost every day. Mostly I write my to-do lists in it, but I also jot down ideas, quotes I like, and the names of books or films people recommend. Even though I have a phone, I find that writing things by hand helps me remember them, and I'm less distracted than I would be on a screen. It's important to me for two main reasons. First, it reminds me of my sister. When she gave it to me, she wrote a short note on the first page saying she was proud of me, and I've transferred that page into every refill since then. Moving to a big city on my own was quite scary, and that note helped a lot. Second, it's become a kind of record of my life. When I look back through the old refills, I can see exactly what I was worried about, or excited about, at each stage. I'd be genuinely upset if I ever lost it.",
+   "vocab": [
+    [
+     "battered",
+     "cũ sờn, móp méo"
+    ],
+    [
+     "refill",
+     "ruột thay thế (sổ, bút)"
+    ],
+    [
+     "jot down",
+     "ghi vội, ghi nhanh"
+    ],
+    [
+     "a record of",
+     "một ghi chép về"
+    ],
+    [
+     "at each stage",
+     "ở mỗi giai đoạn"
+    ],
+    [
+     "genuinely upset",
+     "thật sự buồn"
+    ]
+   ],
+   "p3": [
+    "Why do people keep things that have no practical use?",
+    "Do people today own too many possessions?",
+    "How have the things people value changed over time?",
+    "Is it better to buy cheap things or more expensive, durable things?",
+    "Do you think people will own fewer things in the future?"
+   ],
+   "p3samples": [
+    [
+     "Why do people keep things that have no practical use?",
+     "Mostly because of memories. An old ticket or a child's drawing has no practical value, but it can instantly bring back a person or a moment in our lives. Objects act as a kind of physical anchor for our memories, which can otherwise fade. There's also a sense of identity involved. The things we choose to keep say something about who we are and what we care about."
+    ],
+    [
+     "Is it better to buy cheap things or more expensive, durable things?",
+     "In the long run I think durable products are usually the better choice. A good pair of shoes might cost three times as much, but if it lasts five times longer, you actually save money, and you create less waste. Of course, not everyone can afford to pay more upfront, which is why cheap products are so popular. Ideally, manufacturers would make affordable items that are also built to last and easy to repair."
+    ]
+   ]
+  },
+  {
+   "id": "s2_08",
+   "card": "Describe a piece of technology you find useful.",
+   "bullets": [
+    "You should say:",
+    "what it is",
+    "when you started using it",
+    "how you use it"
+   ],
+   "explain": "and explain why you find it useful.",
+   "topic": "object",
+   "sample": "I'm going to talk about my noise-cancelling headphones. They're not the newest model, but they're probably the most useful thing I've bought in the last few years. I got them about three years ago, when I started working in an open-plan office. The office itself was nice, but it was incredibly noisy, with phones ringing, people chatting and someone always having a meeting right next to my desk. A colleague let me try hers one day, and the difference was so dramatic that I ordered my own pair that evening. I use them in a few different ways. At work I put them on whenever I need to concentrate on something demanding, like writing a report. Sometimes I play quiet instrumental music, but often I just switch on the noise cancelling with nothing playing, and it creates a kind of bubble of silence. I also wear them on long bus journeys and flights, and they're brilliant for language learning, because I can listen to podcasts clearly even in a busy street. The reason I find them so useful is that they basically give me control over my environment. Before I had them, I'd often finish the day exhausted without having done much, because I'd been distracted constantly. Now I can focus much more deeply, and I'm less tired in the evenings. They've also made travel much less stressful. I know it sounds like an exaggeration, but they've genuinely improved my quality of life.",
+   "vocab": [
+    [
+     "noise-cancelling",
+     "chống ồn, khử tiếng ồn"
+    ],
+    [
+     "open-plan office",
+     "văn phòng không gian mở"
+    ],
+    [
+     "dramatic",
+     "rõ rệt, đáng kể"
+    ],
+    [
+     "demanding",
+     "đòi hỏi nhiều công sức, khó"
+    ],
+    [
+     "a bubble of silence",
+     "một khoảng lặng riêng"
+    ],
+    [
+     "quality of life",
+     "chất lượng cuộc sống"
+    ]
+   ],
+   "p3": [
+    "What piece of technology has changed people's lives the most?",
+    "Do you think people depend too much on technology?",
+    "Should children be allowed to use smartphones?",
+    "How do older and younger people use technology differently?",
+    "What new technology do you think will be common in the future?"
+   ],
+   "p3samples": [
+    [
+     "Do you think people depend too much on technology?",
+     "To some extent, yes. Many people can no longer find their way around their own city without a map app or remember a single phone number. If the internet goes down, whole businesses stop working. On the other hand, depending on technology isn't necessarily bad, in the same way that we depend on electricity. The real problem is when we lose basic skills completely and have no backup plan."
+    ],
+    [
+     "Should children be allowed to use smartphones?",
+     "I think it depends on the age. For young children under about ten, I'd say no, or only with strict limits, because they need to develop attention and social skills face to face. For teenagers, a smartphone is almost essential for keeping in touch with friends and for safety. Rather than banning phones, parents should teach their children to use them sensibly, for example by keeping them out of bedrooms at night."
+    ]
+   ]
+  },
+  {
+   "id": "s2_09",
+   "card": "Describe a gift you gave to someone that they really liked.",
+   "bullets": [
+    "You should say:",
+    "what the gift was",
+    "who you gave it to",
+    "why you chose it"
+   ],
+   "explain": "and explain why the person liked it so much.",
+   "topic": "object",
+   "sample": "I'd like to talk about a gift I gave my dad for his sixtieth birthday last year, which was a photo book about his life. My dad is notoriously difficult to buy presents for. Whenever we ask him what he wants, he says he doesn't need anything, and if we buy him clothes or gadgets, they usually stay in the box. So for this birthday I wanted to do something more personal. I spent about two months putting it together. First, I secretly went through all the old photo albums at my grandparents' house and scanned the best pictures, including some from when he was a little boy that none of us had ever seen. Then I contacted his old friends and colleagues and asked each of them to send a short message and a photo. Finally, I designed the book online, arranging everything in chronological order with little captions, and had it printed with a hard cover. I gave it to him at a family dinner, and I'll never forget his reaction. He went very quiet and turned the pages really slowly, and by the time he got to the messages from his old friends, he had tears in his eyes. My dad is not an emotional person, so that was quite a moment for all of us. I think he liked it so much because it showed that we'd put real time and thought into it. It wasn't about the money. It was a reminder of how many people care about him. He keeps it on the coffee table now and shows it to every visitor.",
+   "vocab": [
+    [
+     "notoriously",
+     "nổi tiếng là (theo nghĩa xấu, khó)"
+    ],
+    [
+     "put together",
+     "tập hợp, làm ra"
+    ],
+    [
+     "in chronological order",
+     "theo thứ tự thời gian"
+    ],
+    [
+     "caption",
+     "chú thích ảnh"
+    ],
+    [
+     "quite a moment",
+     "một khoảnh khắc đáng nhớ"
+    ],
+    [
+     "put time and thought into",
+     "dành thời gian và tâm huyết cho"
+    ]
+   ],
+   "p3": [
+    "Why do people give gifts?",
+    "Is it better to give money or a present?",
+    "Do you think people spend too much money on gifts nowadays?",
+    "How have gift-giving customs changed in your country?",
+    "Should companies give gifts to their employees or customers?"
+   ],
+   "p3samples": [
+    [
+     "Is it better to give money or a present?",
+     "Generally I'd say a present is more meaningful, because it shows you've thought about the person's tastes. But money is more practical in some situations, such as weddings, where couples often need help setting up a home, or for teenagers who know exactly what they want. In Vietnam, giving money in red envelopes at Tet is a long tradition, so in that context it doesn't feel impersonal at all."
+    ],
+    [
+     "Do you think people spend too much money on gifts nowadays?",
+     "I think in some cases, yes. Shops constantly promote occasions like Valentine's Day and Black Friday, and people feel under pressure to buy expensive things to prove they care. Social media makes it worse, because gifts get photographed and compared. Ironically, the most memorable gifts are often cheap ones, like a handwritten letter or a day spent together. I think people would be happier if they spent less and thought more."
+    ]
+   ]
+  },
+  {
+   "id": "s2_10",
+   "card": "Describe an important event you celebrated with your family.",
+   "bullets": [
+    "You should say:",
+    "what the event was",
+    "when and where it took place",
+    "what you did"
+   ],
+   "explain": "and explain why it was important to you.",
+   "topic": "event",
+   "sample": "The event I'm going to describe is my grandparents' fiftieth wedding anniversary, which we celebrated about two years ago at their house in the countryside. It was a big deal in our family because only a few couples we know have been married that long. My aunts and uncles started planning it months in advance, and in the end around forty relatives came from all over the country, including a cousin who flew in from Germany with her husband. The celebration lasted the whole day. In the morning we decorated the courtyard with lanterns and flowers, while the older women of the family cooked an enormous feast, with all of my grandmother's favourite dishes. At lunchtime my grandparents put on traditional clothes and we had a short ceremony where each generation gave a little speech. The grandchildren had also made a slideshow of old photos, which showed my grandparents as a young couple, and everyone was laughing at their old hairstyles. In the evening we had karaoke, and my grandfather, who never sings, surprised us all by singing a love song to my grandmother. It was important to me for a few reasons. First of all, it was the first time in years that the whole extended family had been together in one place, and I got to know some cousins I'd barely met. But more than that, it made me appreciate my grandparents' relationship. They've been through war, poverty and illness together, and they still clearly adore each other. It made me think about what kind of partner I want to be.",
+   "vocab": [
+    [
+     "a big deal",
+     "chuyện lớn, sự kiện quan trọng"
+    ],
+    [
+     "in advance",
+     "trước, sớm"
+    ],
+    [
+     "feast",
+     "bữa tiệc thịnh soạn"
+    ],
+    [
+     "extended family",
+     "đại gia đình (họ hàng)"
+    ],
+    [
+     "barely",
+     "hầu như không, chỉ vừa mới"
+    ],
+    [
+     "adore",
+     "yêu thương, quý mến hết mực"
+    ]
+   ],
+   "p3": [
+    "What are the most important family celebrations in your country?",
+    "Are family celebrations less important than in the past?",
+    "Why do some people prefer to celebrate with friends rather than family?",
+    "Do you think traditional celebrations will survive in the future?",
+    "Is it a good idea for families to spend a lot of money on celebrations?"
+   ],
+   "p3samples": [
+    [
+     "Are family celebrations less important than in the past?",
+     "In some ways they are, but not completely. Families are more spread out now, with people working in different cities or abroad, so it's harder to gather everyone together. Young people also have more choices about how to spend their free time. However, the major occasions such as Lunar New Year are still treated as sacred, and people will travel huge distances to be home. If anything, those few gatherings have become even more precious."
+    ],
+    [
+     "Is it a good idea for families to spend a lot of money on celebrations?",
+     "Not really, in my opinion. It's natural to want to mark special occasions, but some families borrow money or spend their savings on huge weddings because they're worried about what neighbours will think. That puts couples under financial strain right at the start of their marriage. I'd say a celebration is about the people and the atmosphere, not the size of the venue or the number of dishes."
+    ]
+   ]
+  },
+  {
+   "id": "s2_11",
+   "card": "Describe a wedding you attended.",
+   "bullets": [
+    "You should say:",
+    "whose wedding it was",
+    "where it was held",
+    "what happened at the wedding"
+   ],
+   "explain": "and explain how you felt about it.",
+   "topic": "event",
+   "sample": "I'd like to talk about my cousin Thao's wedding, which took place last spring. She's only a year older than me and we grew up together, so it felt almost like watching my sister get married. Like many weddings in Vietnam, it was actually split into two parts. The first was a small traditional ceremony at her parents' house early in the morning. The groom's family arrived carrying trays of gifts covered in red cloth, such as fruit, betel leaves and cakes, and the two families exchanged formal speeches. Then the couple lit incense at the family altar to show respect to their ancestors. The second part was a reception that evening in a big hotel ballroom, with about four hundred guests. That was a lot less formal. There was a live band, the couple cut a tall wedding cake, and they went round every single table to drink a toast with the guests, which took nearly two hours. I was one of the bridesmaids, so I spent most of the day running around fixing her dress and holding her bouquet. I felt a real mixture of emotions. During the morning ceremony I was quite moved, because her father, who's usually very reserved, gave a speech about how proud he was, and his voice was shaking. By the evening, though, I was mostly just exhausted and starving, since I'd been too busy to eat. Overall, it was a lovely day, and it made me appreciate how weddings bring together traditions from the past and the way young couples live now.",
+   "vocab": [
+    [
+     "take place",
+     "diễn ra"
+    ],
+    [
+     "the groom's family",
+     "nhà trai"
+    ],
+    [
+     "family altar",
+     "bàn thờ gia tiên"
+    ],
+    [
+     "drink a toast",
+     "nâng ly chúc mừng"
+    ],
+    [
+     "moved",
+     "xúc động"
+    ],
+    [
+     "reserved",
+     "kín đáo, ít bộc lộ cảm xúc"
+    ]
+   ],
+   "p3": [
+    "How have weddings in your country changed over the years?",
+    "Why do some couples choose small weddings?",
+    "Is marriage as important to young people today as it was in the past?",
+    "Should the bride's or the groom's family pay for the wedding?",
+    "What do you think makes a marriage successful?"
+   ],
+   "p3samples": [
+    [
+     "How have weddings in your country changed over the years?",
+     "They've become much bigger and more commercial, particularly in cities. A generation ago, a wedding meant a meal at home with neighbours helping to cook. Now there are professional planners, pre-wedding photo shoots in scenic locations and expensive hotel receptions. The traditional rituals have survived, but they're often shortened. Some couples are also starting to react against the trend by having simple ceremonies with only close family."
+    ],
+    [
+     "Is marriage as important to young people today as it was in the past?",
+     "I think it's still important, but young people see it differently. Previously, getting married by a certain age was almost expected, and people who didn't were judged. Nowadays many young people prefer to focus on their careers first, and they want to be sure they've found the right partner. So marriage is less of a social obligation and more of a personal choice, which is probably healthier."
+    ]
+   ]
+  },
+  {
+   "id": "s2_12",
+   "card": "Describe a sports event you watched.",
+   "bullets": [
+    "You should say:",
+    "what the event was",
+    "where and when you watched it",
+    "who you watched it with"
+   ],
+   "explain": "and explain why you remember it.",
+   "topic": "event",
+   "sample": "The sports event I remember best is the final of a regional football tournament a few years ago, when our national team played against Thailand. I watched it at a crowded outdoor cafe near my office, along with about a dozen colleagues and what felt like half the neighbourhood. The owner had set up a huge screen on the pavement and put out rows of small plastic stools, and by the time the match kicked off, every seat was taken and people were standing along the road as well. Lots of people had painted flags on their cheeks, and some had brought drums and plastic horns. The match itself was incredibly tense. Thailand scored early in the first half, and the whole cafe went silent. For a long time it looked as if we were going to lose, but about ten minutes before the end, one of our young strikers scored a fantastic goal from outside the penalty area. The place absolutely erupted. Total strangers were hugging each other, and my normally serious boss was jumping up and down on a chair. In the end the match was decided on penalties, and we won. I remember it so clearly because of the atmosphere more than the football. I'm not usually a big sports fan, but that evening I felt this amazing sense of unity with everyone around me. After the match, thousands of people rode around the city on motorbikes waving flags and cheering until well after midnight. It was chaotic, but it was a joyful kind of chaos, and I don't think I've experienced anything quite like it since.",
+   "vocab": [
+    [
+     "kick off",
+     "bắt đầu trận đấu"
+    ],
+    [
+     "tense",
+     "căng thẳng, gay cấn"
+    ],
+    [
+     "erupt",
+     "bùng nổ (tiếng reo hò)"
+    ],
+    [
+     "decided on penalties",
+     "phân định bằng loạt sút luân lưu"
+    ],
+    [
+     "a sense of unity",
+     "cảm giác đoàn kết"
+    ],
+    [
+     "joyful chaos",
+     "sự hỗn loạn vui vẻ"
+    ]
+   ],
+   "p3": [
+    "Why do people enjoy watching sport?",
+    "Do professional athletes earn too much money?",
+    "Should governments spend money on hosting major sports events?",
+    "Is it more enjoyable to watch sport live or on television?",
+    "How can sport bring people together?"
+   ],
+   "p3samples": [
+    [
+     "Do professional athletes earn too much money?",
+     "Some of them earn enormous salaries, and compared with nurses or teachers it can seem unfair. But I'd argue the market decides it. Top athletes generate huge revenues from tickets, broadcasting and advertising, so clubs pay them accordingly. Their careers are also short, often over by their mid-thirties, and they risk serious injury. What concerns me more is that athletes in less popular sports often struggle to earn a living at all."
+    ],
+    [
+     "Should governments spend money on hosting major sports events?",
+     "It's a difficult decision. Hosting the Olympics or a World Cup can boost tourism, improve infrastructure and give a country international prestige. However, the costs often turn out to be far higher than predicted, and some stadiums are barely used afterwards. I think it can be worthwhile if a country plans to reuse the facilities and invests in transport that local people will benefit from long after the event."
+    ]
+   ]
+  },
+  {
+   "id": "s2_13",
+   "card": "Describe a time when you helped someone.",
+   "bullets": [
+    "You should say:",
+    "who you helped",
+    "when and where it happened",
+    "how you helped this person"
+   ],
+   "explain": "and explain how you felt about helping this person.",
+   "topic": "experience",
+   "sample": "I'd like to talk about a time last year when I helped an elderly tourist who was lost at a train station. It happened on a Friday evening in Hanoi. I was waiting for an overnight train back to my hometown, and the station was really busy. I noticed an older man, probably in his seventies, standing near the ticket machines looking very confused. He was holding a piece of paper and kept turning around as if he was looking for someone. I went over and asked if he needed help, and it turned out he was from Japan and spoke only a little English. He had a ticket for a train to the coast, but he'd come to the wrong platform, and his train was due to leave in less than fifteen minutes. Using a mixture of English, gestures and a translation app on my phone, I worked out where he needed to go. Then, since there wasn't much time, I picked up one of his bags and walked him across to the right platform. We got there with about three minutes to spare. He bowed several times and insisted on giving me a little box of Japanese sweets from his bag. I felt really good afterwards, partly because it was such a simple thing to do, but it clearly meant a lot to him. It also reminded me of the time I got lost in Seoul and a stranger did exactly the same for me. I suppose I was just paying it forward. Since then I've made a point of offering help whenever I see someone looking lost, especially foreigners.",
+   "vocab": [
+    [
+     "it turned out",
+     "hóa ra là"
+    ],
+    [
+     "gestures",
+     "cử chỉ, điệu bộ"
+    ],
+    [
+     "work out",
+     "tìm ra, xác định được"
+    ],
+    [
+     "with minutes to spare",
+     "còn dư vài phút"
+    ],
+    [
+     "pay it forward",
+     "đáp lại lòng tốt bằng cách giúp người khác"
+    ],
+    [
+     "make a point of",
+     "cố ý, luôn chủ động làm gì"
+    ]
+   ],
+   "p3": [
+    "Why are some people more willing to help others than others?",
+    "Should schools teach children to help others?",
+    "Do people in cities help each other less than people in the countryside?",
+    "Is it the government's job or individuals' job to help people in need?",
+    "How can technology make it easier to help others?"
+   ],
+   "p3samples": [
+    [
+     "Do people in cities help each other less than people in the countryside?",
+     "Generally, yes, I think so. In small communities people know their neighbours, so they feel responsible for each other, and there's also social pressure to help. In big cities people are surrounded by strangers and are often in a hurry, so they tend to assume someone else will step in. That said, cities have plenty of volunteer groups and charities, so help exists, it's just more organised and less personal."
+    ],
+    [
+     "Is it the government's job or individuals' job to help people in need?",
+     "I'd say it's a shared responsibility. Governments should provide the basic safety net, such as healthcare, unemployment benefits and support for disabled people, because individuals can't do that on a large scale. But government help can be slow and impersonal. Neighbours, charities and volunteers can respond more quickly and offer emotional support that no official programme can. The best societies seem to combine both."
+    ]
+   ]
+  },
+  {
+   "id": "s2_14",
+   "card": "Describe a time when you changed your mind about something.",
+   "bullets": [
+    "You should say:",
+    "what you changed your mind about",
+    "when this happened",
+    "what made you change your mind"
+   ],
+   "explain": "and explain how you felt after changing your mind.",
+   "topic": "experience",
+   "sample": "I'm going to talk about how I changed my mind about living abroad. For most of my teenage years, I was absolutely convinced that I would never leave Vietnam for a long period. I'm very close to my family, I love the food, and frankly I thought people who moved abroad were a bit unrealistic about how much better life would be. When classmates talked about studying overseas, I used to say I'd be miserable within a month. That changed when I was about twenty-two. My company offered me a six-month placement in its Singapore office, and I almost turned it down. In the end my mum persuaded me to go, saying I would regret it if I didn't try. The first few weeks were hard, as I'd expected. I missed home and found the pace of work quite intense. But gradually I started to enjoy it. I met colleagues from about ten different countries, I learnt to cook for myself properly, and my English improved enormously because I had to use it every day. What really changed my mind, though, was realising that being away made me appreciate my family more, not less. We actually talked more often than when I lived nearby, because we made an effort. Afterwards, I felt a bit embarrassed about how strongly I'd held my old opinion, but mostly I felt grateful. It taught me that I should test my beliefs instead of defending them. Now I'm actually planning to do a master's degree abroad, which my younger self would never have believed.",
+   "vocab": [
+    [
+     "absolutely convinced",
+     "hoàn toàn tin chắc"
+    ],
+    [
+     "placement",
+     "đợt công tác, thực tập"
+    ],
+    [
+     "turn something down",
+     "từ chối"
+    ],
+    [
+     "persuade",
+     "thuyết phục"
+    ],
+    [
+     "make an effort",
+     "cố gắng, chủ động"
+    ],
+    [
+     "my younger self",
+     "bản thân mình hồi trẻ"
+    ]
+   ],
+   "p3": [
+    "Why do people find it hard to change their opinions?",
+    "Is it a sign of weakness when politicians change their minds?",
+    "Who has more influence on young people's opinions, family or friends?",
+    "Does social media make people more or less open-minded?",
+    "Do people become more fixed in their opinions as they get older?"
+   ],
+   "p3samples": [
+    [
+     "Is it a sign of weakness when politicians change their minds?",
+     "I don't think it should be. If new evidence emerges, a sensible leader ought to update their position, and refusing to do so is far more dangerous. The problem is that the media often presents a change of mind as a U-turn or a failure. Of course, if a politician changes their views every few weeks just to follow public opinion, voters have a right to question whether they have any principles at all."
+    ],
+    [
+     "Does social media make people more or less open-minded?",
+     "In theory social media should broaden our minds, since we can access views from all over the world. In practice, though, algorithms tend to show us content we already agree with, because that keeps us scrolling. Over time this creates a kind of echo chamber, where our opinions are constantly confirmed and opposing views look extreme. So I'd say, for many people, it makes them less open-minded rather than more."
+    ]
+   ]
+  },
+  {
+   "id": "s2_15",
+   "card": "Describe a mistake you made and what you learnt from it.",
+   "bullets": [
+    "You should say:",
+    "what the mistake was",
+    "when it happened",
+    "what the result was"
+   ],
+   "explain": "and explain what you learnt from it.",
+   "topic": "experience",
+   "sample": "I'd like to describe a mistake I made during my second year at university, when I agreed to do far too many things at the same time. That semester, I was taking six courses, working part-time at a cafe in the evenings, and I'd also volunteered to organise a charity concert for my student club. Every time someone asked me to help with something, I said yes, partly because I didn't want to disappoint anyone and partly because I genuinely thought I could manage it all. For the first month or so it was fine, but then everything started to pile up. I was sleeping about five hours a night, I fell behind on my reading, and I began to make silly mistakes at work. The worst moment was about a week before the concert, when I realised I'd completely forgotten to book the sound equipment. We managed to find some at the last minute, but it cost twice as much and the sound quality was poor. A few weeks later, I also failed one of my exams, which I'd never done before. The main thing I learnt was that saying yes to everything isn't the same as being helpful. If you take on too much, you end up letting people down anyway, just later and in a worse way. Since then, I've got much better at saying no politely, or at least saying, let me check my schedule first. I also write down every commitment in one place, so I can see realistically how much time I have. It was a painful lesson, but a very useful one.",
+   "vocab": [
+    [
+     "pile up",
+     "dồn lại, chồng chất"
+    ],
+    [
+     "fall behind",
+     "bị tụt lại, chậm tiến độ"
+    ],
+    [
+     "at the last minute",
+     "vào phút chót"
+    ],
+    [
+     "take on too much",
+     "ôm đồm quá nhiều việc"
+    ],
+    [
+     "let someone down",
+     "làm ai thất vọng"
+    ],
+    [
+     "commitment",
+     "việc đã cam kết, nhận lời"
+    ]
+   ],
+   "p3": [
+    "Is it important for children to be allowed to make mistakes?",
+    "Why are some people afraid of making mistakes?",
+    "Should employees be punished for mistakes at work?",
+    "Do people learn more from success or failure?",
+    "How should parents react when their children make mistakes?"
+   ],
+   "p3samples": [
+    [
+     "Is it important for children to be allowed to make mistakes?",
+     "Yes, I think it's essential. If parents always step in to prevent problems, children never learn how to deal with disappointment or solve things on their own. Small mistakes, like forgetting homework and getting a low mark, teach responsibility in a way that lectures can't. Obviously parents should protect children from serious danger, but in everyday situations, letting them fail occasionally builds resilience."
+    ],
+    [
+     "Should employees be punished for mistakes at work?",
+     "It depends on the mistake. If someone is careless again and again, or breaks safety rules deliberately, there need to be consequences. But for honest mistakes, punishment is usually counterproductive, because people start hiding their errors, which can be far more dangerous. Industries like aviation encourage staff to report mistakes openly so everyone can learn from them. I think that culture of openness leads to better results than fear."
+    ]
+   ]
+  },
+  {
+   "id": "s2_16",
+   "card": "Describe a hobby you started recently.",
+   "bullets": [
+    "You should say:",
+    "what the hobby is",
+    "when and why you started it",
+    "how often you do it"
+   ],
+   "explain": "and explain how you feel when you do it.",
+   "topic": "activity",
+   "sample": "A hobby I took up fairly recently is pottery, which I started about six months ago. It began almost by accident. A friend had booked a one-off pottery workshop for her birthday, and she persuaded a few of us to join her. I'd never even touched clay before, and to be honest, I only went because I didn't want to let her down. But the moment I sat down at the wheel and felt the clay spinning under my hands, I was hooked. Everyone else made one bowl and went home happy, whereas I asked the teacher about regular classes before I'd even left. Now I go to a studio in the old part of the city every Saturday morning for about three hours. It's a small place with only six or seven students, and the teacher is a quiet woman who has been doing it for over twenty years. We're learning to throw cups, bowls and small vases, and recently I've started experimenting with glazes, which is a whole art in itself. I'm still not very good. Most of my pieces come out slightly lopsided, and quite a few have collapsed completely on the wheel. But I feel incredibly calm when I'm doing it. Pottery forces you to concentrate completely, because if your mind drifts even for a second, the clay goes out of shape. It's the only time in my week when I'm not thinking about work at all. There's also something very satisfying about drinking my morning coffee from a cup I made myself, even if it's a bit wonky.",
+   "vocab": [
+    [
+     "take up",
+     "bắt đầu (một sở thích)"
+    ],
+    [
+     "one-off",
+     "chỉ một lần"
+    ],
+    [
+     "be hooked",
+     "bị cuốn hút, mê"
+    ],
+    [
+     "lopsided",
+     "lệch, méo một bên"
+    ],
+    [
+     "my mind drifts",
+     "đầu óc bị xao nhãng"
+    ],
+    [
+     "wonky",
+     "méo mó, không ngay ngắn"
+    ]
+   ],
+   "p3": [
+    "Why is it important for people to have hobbies?",
+    "Do people have less time for hobbies than in the past?",
+    "Should children's free time be organised by adults?",
+    "Can a hobby become a good career?",
+    "What hobbies are popular with young people in your country?"
+   ],
+   "p3samples": [
+    [
+     "Do people have less time for hobbies than in the past?",
+     "In a sense, yes. Many people work longer hours and are expected to reply to messages in the evenings, so their free time is constantly interrupted. However, I'd argue it's also about choices. The average person spends several hours a day on their phone, and if even part of that time went into a hobby, most people would have plenty. So it's not just a lack of time, it's how we spend the time we have."
+    ],
+    [
+     "Can a hobby become a good career?",
+     "It can, but it changes the experience. Turning something you love into a job means dealing with clients, deadlines and money worries, and some people find that the joy disappears. On the other hand, people who succeed often have a real advantage because their passion keeps them going through difficult periods. I think it's wise to test the idea first, perhaps by selling some work part-time before giving up a stable job."
+    ]
+   ]
+  },
+  {
+   "id": "s2_17",
+   "card": "Describe an outdoor activity you enjoy.",
+   "bullets": [
+    "You should say:",
+    "what the activity is",
+    "where you do it",
+    "who you do it with"
+   ],
+   "explain": "and explain why you enjoy it.",
+   "topic": "activity",
+   "sample": "The outdoor activity I enjoy most is hiking, especially in the mountains in the north of the country. I got into it about four years ago, after a friend invited me on a weekend trip to a national park. Since then, I've tried to do at least one proper hike every couple of months. Most of my trips are in the northern provinces, where there are spectacular trails through rice terraces and forests, and you can stay overnight in homestays run by local families. Closer to home, I sometimes go for shorter day hikes in the hills just outside the city, which only take a few hours. I usually go with a small group of three or four friends. We've found that a small group works best, because it's easier to agree on the pace and everyone can fit into one car. Occasionally I join organised trips with a hiking club, which is a good way to meet new people, although they can be a bit too crowded for my liking. I enjoy it for several reasons. Physically, it's a great workout, but it doesn't feel like exercise in the way going to the gym does, because you're distracted by the scenery. Mentally, it's a complete escape. There's often no phone signal, so I can't check emails even if I want to. And I love the sense of achievement when you reach the top of a difficult climb and look down at how far you've come. Some of my best conversations with friends have happened on the trail, too, because walking side by side for hours makes it easy to talk openly.",
+   "vocab": [
+    [
+     "get into",
+     "bắt đầu thích, theo đuổi"
+    ],
+    [
+     "spectacular",
+     "ngoạn mục, tuyệt đẹp"
+    ],
+    [
+     "rice terraces",
+     "ruộng bậc thang"
+    ],
+    [
+     "for my liking",
+     "theo ý thích của tôi"
+    ],
+    [
+     "a complete escape",
+     "sự thoát ly hoàn toàn"
+    ],
+    [
+     "a sense of achievement",
+     "cảm giác thành tựu"
+    ]
+   ],
+   "p3": [
+    "Why do some people prefer indoor activities to outdoor ones?",
+    "Do children today spend enough time outside?",
+    "How can cities encourage people to be more active?",
+    "Is adventure tourism good for local communities?",
+    "Do you think outdoor activities can be dangerous?"
+   ],
+   "p3samples": [
+    [
+     "Do children today spend enough time outside?",
+     "Generally not, I'm afraid. Many children spend most of their free time on screens, and parents in cities are often worried about traffic or strangers, so they keep kids indoors. School schedules are also packed with extra classes. This matters because playing outside develops physical coordination, creativity and the ability to manage small risks. I think schools could help by having longer breaks and more lessons outdoors."
+    ],
+    [
+     "How can cities encourage people to be more active?",
+     "There are several practical steps. Safe cycle lanes make a huge difference, because people won't cycle if they feel they're risking their lives. Cities can also provide free outdoor gyms, running tracks in parks and pedestrian-only streets at weekends. Some cities close main roads on Sunday mornings so families can walk and cycle freely. When being active is easy and pleasant, people tend to do it without needing much persuasion."
+    ]
+   ]
+  },
+  {
+   "id": "s2_18",
+   "card": "Describe a skill you would like to learn.",
+   "bullets": [
+    "You should say:",
+    "what the skill is",
+    "how you would learn it",
+    "how difficult it would be to learn"
+   ],
+   "explain": "and explain why you would like to learn this skill.",
+   "topic": "activity",
+   "sample": "A skill I'd really love to learn is swimming properly. I can just about stay afloat and do a rather clumsy breaststroke, but I've never learnt to swim with good technique, and I definitely couldn't swim more than a couple of lengths of a pool. I think the best way to learn would be to take lessons with a qualified instructor rather than trying to teach myself from videos. There's a sports centre near my office that runs adult beginner classes three evenings a week, with only five or six people per group, and that's exactly what I need. I'd also want to practise on my own at weekends, because I imagine repetition is the only way to make the movements feel natural. I suspect it would be harder than it looks. The breathing is the part that scares me, because whenever I put my face in the water, I panic slightly and lift my head up, which ruins the whole stroke. I've heard it's very common for adults to have this fear, and that it can take a few months to get over it. Building up stamina would take time too. There are a few reasons I want to learn. The main one is safety. I grew up near the coast, and every year there are tragic stories of people drowning, so it feels like a basic life skill that everyone should have. Secondly, it's excellent exercise that's gentle on the joints. And finally, I'd like to be able to enjoy beach holidays without feeling nervous about going out of my depth.",
+   "vocab": [
+    [
+     "stay afloat",
+     "nổi được trên mặt nước"
+    ],
+    [
+     "clumsy",
+     "vụng về"
+    ],
+    [
+     "qualified instructor",
+     "huấn luyện viên có chứng chỉ"
+    ],
+    [
+     "get over a fear",
+     "vượt qua nỗi sợ"
+    ],
+    [
+     "build up stamina",
+     "tăng sức bền"
+    ],
+    [
+     "out of my depth",
+     "ở chỗ nước sâu quá đầu (nghĩa bóng: quá sức)"
+    ]
+   ],
+   "p3": [
+    "What skills are most important for young people today?",
+    "Should schools teach practical life skills like cooking and managing money?",
+    "Is it easier for children or adults to learn new skills?",
+    "Do you think online courses are as effective as face-to-face classes?",
+    "Will people need to keep learning new skills throughout their careers?"
+   ],
+   "p3samples": [
+    [
+     "Is it easier for children or adults to learn new skills?",
+     "Children definitely have some advantages. Their brains are very adaptable, they pick up languages and physical skills quickly, and they're less embarrassed about making mistakes. Adults, however, have their own strengths. They can be more disciplined, they understand why they're learning something, and they can use strategies to learn efficiently. So I'd say children learn more naturally, while adults can learn more deliberately."
+    ],
+    [
+     "Will people need to keep learning new skills throughout their careers?",
+     "Almost certainly. Technology is changing so fast that the skills someone learns at university may be out of date within ten years. Many jobs that exist now didn't exist when I was a child. This means people will need to retrain several times, and employers and governments will have to support that, perhaps through funded short courses. I think the most valuable skill of all will be learning how to learn."
+    ]
+   ]
+  },
+  {
+   "id": "s2_19",
+   "card": "Describe a book you enjoyed reading.",
+   "bullets": [
+    "You should say:",
+    "what the book was",
+    "when you read it",
+    "what it was about"
+   ],
+   "explain": "and explain why you enjoyed reading it.",
+   "topic": "media",
+   "sample": "The book I'd like to talk about is a novel I read last summer, about a lighthouse keeper on a remote island. A friend lent it to me and said I'd finish it in a weekend, and she was right. I read most of it during a long rainy weekend at home, curled up on the sofa. The story follows a man who takes a job looking after a lighthouse after returning from war. He lives alone on the island with his wife, and their only contact with the mainland is a supply boat every few months. One day a small rowing boat washes up on the shore, carrying a dead man and a baby who is still alive. Instead of reporting it, the couple decide to raise the child as their own, and the rest of the book deals with the consequences of that decision years later. I enjoyed it for a few reasons. First, the writing is beautiful. The author describes the sea, the weather and the isolation of the island so vividly that I could almost hear the wind. Second, it raises a really difficult moral question. You understand why the couple made their choice, and you feel deeply for them, but you also know it was wrong, and that tension keeps you reading. I kept changing my mind about who I sympathised with. Finally, it made me think long after I'd finished it. I ended up discussing it with the friend who lent it to me for about two hours, and we still disagree about the ending. For me, that's the sign of a really good book.",
+   "vocab": [
+    [
+     "remote",
+     "xa xôi, hẻo lánh"
+    ],
+    [
+     "curled up",
+     "cuộn tròn, nằm co"
+    ],
+    [
+     "wash up",
+     "dạt vào bờ"
+    ],
+    [
+     "vividly",
+     "một cách sống động"
+    ],
+    [
+     "moral question",
+     "câu hỏi đạo đức"
+    ],
+    [
+     "sympathise with",
+     "đồng cảm với"
+    ]
+   ],
+   "p3": [
+    "Why do some people prefer reading books to watching films?",
+    "Should children be encouraged to read fiction?",
+    "Do you think printed books will disappear?",
+    "How can parents encourage their children to read more?",
+    "Is it better to read books for pleasure or for information?"
+   ],
+   "p3samples": [
+    [
+     "Should children be encouraged to read fiction?",
+     "Yes, I'm strongly in favour. Fiction lets children imagine life from someone else's point of view, which helps develop empathy. It also expands their vocabulary in a natural way, because stories use a much wider range of language than everyday conversation. Some parents feel that factual books are more useful, but I'd argue that the ability to concentrate on a long story is a skill that benefits children in every subject."
+    ],
+    [
+     "Do you think printed books will disappear?",
+     "I doubt it, at least not in the near future. E-books are convenient, but sales of printed books have stayed surprisingly steady. Many people like the physical experience of a paper book, and it's a relief to read without notifications popping up. Printed books also make good gifts and people like displaying them at home. I think the two formats will simply exist side by side, each suited to different situations."
+    ]
+   ]
+  },
+  {
+   "id": "s2_20",
+   "card": "Describe a TV programme or online series you enjoy watching.",
+   "bullets": [
+    "You should say:",
+    "what it is called and what it is about",
+    "how often you watch it",
+    "who you watch it with"
+   ],
+   "explain": "and explain why you enjoy watching it.",
+   "topic": "media",
+   "sample": "I'd like to talk about a cooking competition series that I've been watching for the past couple of years. It's a British programme in which a group of amateur bakers compete over about ten weeks, and each week one person is sent home. Every episode has three rounds. In the first, the bakers make something from their own recipe; in the second, they have to follow a very basic recipe for something they've often never heard of; and in the last round they create an impressive showpiece. The judges taste everything and comment on the flavour, texture and appearance. A new season comes out every autumn, and I usually watch one episode a week, on Sunday evenings, so I make it last. I mostly watch it with my mum. She doesn't speak much English, so I turn on Vietnamese subtitles and we sit with a pot of tea, guessing who is going to win. There are lots of reasons I enjoy it. The main one is that it's surprisingly gentle. Unlike many reality shows, there's no shouting or drama, and the contestants actually help each other when someone is running out of time. It's a real comfort to watch after a stressful week. I also find it quite inspiring, because the contestants are ordinary people, such as nurses, students and retired teachers, who are passionate about what they do. And of course I've learnt a lot about baking. My mum and I have even tried some of the recipes ourselves, with mixed results, I should add.",
+   "vocab": [
+    [
+     "amateur",
+     "nghiệp dư"
+    ],
+    [
+     "be sent home",
+     "bị loại"
+    ],
+    [
+     "showpiece",
+     "tác phẩm trình diễn, món tâm điểm"
+    ],
+    [
+     "make it last",
+     "xem/dùng dè dặt để kéo dài"
+    ],
+    [
+     "run out of time",
+     "hết thời gian"
+    ],
+    [
+     "with mixed results",
+     "kết quả lúc được lúc không"
+    ]
+   ],
+   "p3": [
+    "Why are reality shows so popular?",
+    "Has the internet changed the way people watch television?",
+    "Should there be more educational programmes on TV?",
+    "Do you think television has a good or bad influence on children?",
+    "Will traditional TV channels survive in the future?"
+   ],
+   "p3samples": [
+    [
+     "Has the internet changed the way people watch television?",
+     "Enormously. People used to watch programmes at a fixed time, often together as a family, but now most of us stream shows whenever we want, on our phones or laptops. Binge-watching a whole series in one weekend has become normal. The downside is that families rarely share the same viewing experience any more, because everyone is watching something different in a separate room."
+    ],
+    [
+     "Will traditional TV channels survive in the future?",
+     "They'll probably survive, but in a smaller form. Live events like news, major sports and national celebrations still attract big audiences, because people want to watch them at the same moment. However, for dramas and entertainment, streaming services are clearly winning, particularly among younger viewers. I expect traditional channels will have to focus on live content and also offer their programmes online to stay relevant."
+    ]
+   ]
+  }
+ ]
+}

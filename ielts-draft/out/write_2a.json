@@ -1,0 +1,829 @@
+[
+ {
+  "id": "w2x01",
+  "type": "opinion",
+  "topic": "education",
+  "prompt": "Some people believe that university education should be free for all students and paid for by the government.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: không đồng ý phần lớn (không nên miễn phí cho tất cả). Mở bài: nêu bối cảnh học phí tăng, đưa quan điểm rõ ràng. Thân bài 1: thừa nhận lợi ích của miễn phí (mở rộng cơ hội cho sinh viên nghèo, lợi ích cho nền kinh tế). Thân bài 2: nhược điểm (người không học đại học vẫn phải đóng thuế, ngân sách hạn chế dẫn tới giảm chất lượng). Thân bài 3: giải pháp cân bằng (học bổng cho sinh viên khó khăn, khoản vay trả theo thu nhập). Kết bài: nhắc lại quan điểm.",
+  "ideas": {
+   "for": [
+    "Giúp sinh viên nghèo có cơ hội học đại học dựa trên năng lực",
+    "Lực lượng lao động có trình độ cao thúc đẩy kinh tế và đổi mới",
+    "Sinh viên không phải gánh nợ lớn sau khi tốt nghiệp"
+   ],
+   "against": [
+    "Người thu nhập thấp không học đại học vẫn phải trả thuế cho người khác học",
+    "Ngân sách hạn chế dẫn tới giới hạn chỉ tiêu hoặc chất lượng giảm",
+    "Hỗ trợ có mục tiêu (học bổng, vay theo thu nhập) công bằng và hiệu quả hơn"
+   ]
+  },
+  "model": "In many countries, the cost of a degree has risen so sharply that students graduate with debts that take decades to repay. This has led some to argue that the state should cover tuition fees for everyone. While I accept that higher education brings wide social benefits, I believe that making it completely free for all students is neither fair nor sustainable.\n\nThe strongest argument for free tuition is that it widens access. Talented young people from low-income families are often put off by the prospect of heavy loans, and a free system would allow them to compete on merit rather than wealth. Moreover, a highly educated workforce benefits the whole economy, since graduates tend to earn more, pay more tax and drive innovation. From this perspective, public funding is an investment rather than a cost.\n\nHowever, a fully free system has serious drawbacks. Universities are expensive to run, and if the government pays every fee, the money must come from general taxation, including taxes paid by people who never attend university and often earn less than graduates. This effectively asks lower earners to subsidise the future careers of the middle class. In addition, when funding is limited, free systems frequently respond by capping student numbers or allowing teaching quality to decline, as overcrowded lecture halls in some European countries show.\n\nA more balanced approach would be to combine generous grants for students from poorer backgrounds with income-linked loans for others, which are repaid only once graduates earn above a certain threshold. This protects access without placing the entire burden on taxpayers.\n\nIn conclusion, although the aim of free higher education is admirable, I disagree that it should be provided to all students. Targeted support is a fairer and more effective way to ensure that ability, not income, determines who goes to university.",
+  "vocab": [
+   [
+    "tuition fees",
+    "học phí"
+   ],
+   [
+    "widen access",
+    "mở rộng cơ hội tiếp cận"
+   ],
+   [
+    "compete on merit",
+    "cạnh tranh dựa trên năng lực"
+   ],
+   [
+    "general taxation",
+    "nguồn thu từ thuế chung"
+   ],
+   [
+    "subsidise",
+    "trợ cấp, bù chi phí cho"
+   ],
+   [
+    "cap student numbers",
+    "giới hạn chỉ tiêu tuyển sinh"
+   ],
+   [
+    "income-linked loan",
+    "khoản vay trả theo mức thu nhập"
+   ],
+   [
+    "targeted support",
+    "hỗ trợ có mục tiêu, đúng đối tượng"
+   ]
+  ]
+ },
+ {
+  "id": "w2x02",
+  "type": "opinion",
+  "topic": "crime",
+  "prompt": "The best way to reduce crime is to give longer prison sentences to people who break the law.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: không đồng ý. Mở bài: nêu xu hướng chính trị gia hứa hình phạt nặng hơn, đưa quan điểm. Thân bài 1: nhượng bộ (án dài bảo vệ xã hội khỏi tội phạm nguy hiểm, thể hiện sự nghiêm khắc). Thân bài 2: phản bác (án dài ít có tác dụng răn đe vì tội phạm thường bốc đồng, khả năng bị bắt quan trọng hơn mức án; nhà tù làm tăng tái phạm). Thân bài 3: giải pháp thay thế (tăng cảnh sát, đào tạo nghề trong tù, xử lý nguyên nhân gốc, ví dụ Na Uy). Kết bài.",
+  "ideas": {
+   "for": [
+    "Tội phạm nguy hiểm bị cách ly, xã hội an toàn hơn",
+    "Thể hiện sự nghiêm khắc của xã hội, trấn an nạn nhân",
+    "Có thể răn đe một số người tính toán trước khi phạm tội"
+   ],
+   "against": [
+    "Phần lớn tội phạm hành động bốc đồng, không tính đến mức án",
+    "Khả năng bị bắt có tác dụng răn đe mạnh hơn mức độ hình phạt",
+    "Nhà tù khiến người phạm tội có thêm quan hệ tội phạm, tỉ lệ tái phạm cao",
+    "Phòng ngừa và cải tạo hiệu quả lâu dài hơn"
+   ]
+  },
+  "model": "Many politicians respond to public concern about crime by promising tougher punishment, and longer prison terms are often presented as the obvious solution. Although I agree that serious offenders must be removed from society, I disagree that lengthening sentences is the most effective way to cut crime overall.\n\nAdmittedly, long sentences have some value. While dangerous criminals are behind bars, they cannot harm the public, and for violent or repeat offenders this protection is essential. Severe penalties also send a clear message that society takes certain crimes seriously, which may reassure victims and their families.\n\nHowever, the evidence that longer sentences deter crime is weak. Most offenders do not calculate the length of a possible sentence before acting; they commit crimes impulsively, under the influence of drugs or alcohol, or because they believe they will not be caught. Research in criminology consistently suggests that the certainty of being caught matters far more than the severity of the punishment. Furthermore, prisons can make the problem worse. Inmates who spend years mixing with hardened criminals often leave with fewer job prospects and stronger criminal connections, so reoffending rates remain high.\n\nFor these reasons, resources would be better spent elsewhere. More visible policing increases the chance of arrest, while education and job-training programmes inside prisons help former inmates find legal work after release. Tackling root causes such as poverty, school dropout and addiction would also prevent many young people from turning to crime in the first place. Norway, for example, combines relatively short sentences with intensive rehabilitation and has one of the lowest reoffending rates in Europe.\n\nIn conclusion, while prison remains necessary for the most dangerous offenders, simply making sentences longer is not the best way to reduce crime. Prevention, effective policing and rehabilitation offer far greater long-term benefits.",
+  "vocab": [
+   [
+    "prison sentence",
+    "án tù"
+   ],
+   [
+    "repeat offender",
+    "người tái phạm nhiều lần"
+   ],
+   [
+    "deter crime",
+    "răn đe, ngăn chặn tội phạm"
+   ],
+   [
+    "the certainty of being caught",
+    "khả năng chắc chắn bị bắt"
+   ],
+   [
+    "hardened criminal",
+    "tội phạm chuyên nghiệp, khó cải tạo"
+   ],
+   [
+    "reoffending rate",
+    "tỉ lệ tái phạm"
+   ],
+   [
+    "rehabilitation",
+    "cải tạo, phục hồi nhân cách"
+   ],
+   [
+    "root causes",
+    "nguyên nhân gốc rễ"
+   ]
+  ]
+ },
+ {
+  "id": "w2x03",
+  "type": "opinion",
+  "topic": "transport",
+  "prompt": "Governments should spend money on improving public transport rather than on building new roads.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: đồng ý mạnh (ở khu vực đô thị). Mở bài: bối cảnh ngân sách giao thông hạn chế, nêu quan điểm. Thân bài 1: đường mới không giải quyết ùn tắc lâu dài (nhu cầu phát sinh), giao thông công cộng chở nhiều người hơn trên ít diện tích hơn, ví dụ metro TP.HCM. Thân bài 2: lợi ích môi trường và xã hội (ít khí thải, người không có xe vẫn đi lại được). Thân bài 3: nhượng bộ (nông thôn và vận tải hàng hóa vẫn cần đường) nhưng đó là ngoại lệ. Kết bài.",
+  "ideas": {
+   "for": [
+    "Đường mới nhanh chóng bị lấp đầy (induced demand)",
+    "Metro, xe buýt nhanh chở nhiều người hơn, tốn ít diện tích",
+    "Giảm khí thải và ô nhiễm không khí",
+    "Giúp người già, sinh viên, người thu nhập thấp đi lại"
+   ],
+   "against": [
+    "Nông thôn dân cư thưa không có lựa chọn thay thế ô tô",
+    "Hàng hóa vẫn cần vận chuyển bằng xe tải",
+    "Đường hiện có cần được bảo trì, một số tuyến mới vẫn cần thiết"
+   ]
+  },
+  "model": "As cities grow, governments face a difficult choice about how to spend limited transport budgets. Some argue that new roads are needed to keep traffic moving, but I strongly agree that investment in public transport should be the priority, at least in urban areas.\n\nThe main reason is that building more roads rarely solves congestion for long. Wider roads make driving more attractive, so more people choose to travel by car and the new capacity quickly fills up, a pattern known as induced demand. In contrast, a single metro line or bus rapid transit route can carry tens of thousands of passengers an hour while occupying far less space than the equivalent number of cars. Ho Chi Minh City's first metro line, for instance, offers commuters an alternative to roads that are already saturated with motorbikes.\n\nPublic transport also brings environmental and social benefits. Fewer private vehicles mean lower emissions and cleaner air, which matters in cities where pollution is a growing health concern. Furthermore, affordable buses and trains give mobility to people who cannot drive or cannot afford a car, such as students, the elderly and low-income workers, allowing them to reach jobs and services.\n\nOf course, roads cannot be ignored entirely. Rural areas with scattered populations may have no realistic alternative to cars, and goods still need to be transported by lorry. Existing roads must therefore be maintained, and in some regions new links may be justified. However, these are exceptions rather than a reason to make road building the main focus of spending.\n\nIn conclusion, I believe governments should direct most of their transport investment towards public transport. It moves more people more efficiently, reduces pollution and makes cities fairer, whereas new roads tend to offer only a temporary solution.",
+  "vocab": [
+   [
+    "transport budget",
+    "ngân sách giao thông"
+   ],
+   [
+    "induced demand",
+    "nhu cầu phát sinh (đường càng rộng càng nhiều xe)"
+   ],
+   [
+    "bus rapid transit",
+    "hệ thống xe buýt nhanh"
+   ],
+   [
+    "saturated with",
+    "quá tải, chật kín bởi"
+   ],
+   [
+    "private vehicle",
+    "phương tiện cá nhân"
+   ],
+   [
+    "give mobility to",
+    "giúp (ai) đi lại dễ dàng"
+   ],
+   [
+    "scattered population",
+    "dân cư phân tán, thưa thớt"
+   ],
+   [
+    "a temporary solution",
+    "giải pháp tạm thời"
+   ]
+  ]
+ },
+ {
+  "id": "w2x04",
+  "type": "discussion",
+  "topic": "technology",
+  "prompt": "Some people believe that the increasing use of artificial intelligence in the workplace will create more jobs, while others think it will lead to widespread unemployment.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: AI sẽ tạo thêm việc làm về lâu dài, nhưng cần hỗ trợ người lao động. Mở bài: AI làm được nhiều việc của con người, nêu hai quan điểm và ý kiến cá nhân. Thân bài 1: quan điểm lo ngại thất nghiệp (AI thay cả lao động văn phòng, thay đổi quá nhanh để kịp đào tạo lại). Thân bài 2: quan điểm tạo việc làm (lịch sử máy tính, nghề mới về dữ liệu và AI, giải phóng con người khỏi việc lặp lại). Thân bài 3: ý kiến cá nhân và đề xuất (đào tạo lại, đổi chương trình học). Kết bài.",
+  "ideas": {
+   "for": [
+    "Công nghệ trước đây thay đổi chứ không xóa bỏ việc làm (ví dụ máy tính văn phòng)",
+    "Xuất hiện nghề mới: chuyên gia dữ liệu, người huấn luyện và kiểm thử AI",
+    "AI làm việc lặp lại, con người tập trung vào việc sáng tạo và giao tiếp"
+   ],
+   "against": [
+    "AI thay thế cả công việc văn phòng: tổng đài, dịch thuật, kế toán",
+    "Tốc độ thay đổi quá nhanh, người lao động không kịp đào tạo lại",
+    "Doanh nghiệp dùng AI chủ yếu để cắt giảm chi phí nhân sự"
+   ]
+  },
+  "model": "Artificial intelligence is now able to write reports, analyse data and answer customer queries, tasks that until recently required human workers. Opinion is divided over whether this will destroy jobs or create new ones. In my view, AI will create new kinds of work, but only if societies help workers adapt.\n\nThose who fear unemployment point out that AI can replace not only manual labour but also white-collar roles. Call centre staff, translators and junior accountants already face competition from software that works faster and more cheaply. Unlike earlier machines, AI systems can be updated and copied instantly, so change may happen too quickly for workers to retrain. If companies use automation mainly to cut costs, many people in their forties and fifties could find their skills suddenly worth very little.\n\nOn the other hand, history suggests that technology tends to transform jobs rather than eliminate work altogether. When computers became common in offices, typists disappeared, but millions of new roles appeared in software, digital marketing and IT support. Similarly, AI is already generating demand for data specialists, people who train and test AI systems, and professionals who combine expertise in a field such as medicine or law with the ability to use these tools. AI can also take over repetitive tasks, freeing employees to focus on creative and interpersonal work that machines handle poorly.\n\nI believe the second view is more convincing in the long term, yet the transition could be painful. Governments and employers should therefore invest in affordable retraining and update school curricula so that young people learn to work alongside AI rather than compete with it.\n\nIn conclusion, while AI will undoubtedly make some jobs obsolete, it is likely to create more opportunities overall, provided that workers are given the support they need to adjust.",
+  "vocab": [
+   [
+    "white-collar roles",
+    "công việc văn phòng, trí óc"
+   ],
+   [
+    "manual labour",
+    "lao động chân tay"
+   ],
+   [
+    "retrain",
+    "đào tạo lại"
+   ],
+   [
+    "automation",
+    "tự động hóa"
+   ],
+   [
+    "eliminate work altogether",
+    "xóa bỏ hoàn toàn việc làm"
+   ],
+   [
+    "repetitive tasks",
+    "công việc lặp đi lặp lại"
+   ],
+   [
+    "the transition",
+    "giai đoạn chuyển đổi"
+   ],
+   [
+    "obsolete",
+    "lỗi thời, không còn cần thiết"
+   ]
+  ]
+ },
+ {
+  "id": "w2x05",
+  "type": "discussion",
+  "topic": "work",
+  "prompt": "Some people think that working from home is better for both employees and employers, while others believe that people work more effectively in an office.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: mô hình kết hợp (hybrid) là tốt nhất. Mở bài: bối cảnh sau đại dịch, nêu hai quan điểm và ý kiến. Thân bài 1: lợi ích làm ở nhà (không mất thời gian đi lại, tập trung tốt hơn, doanh nghiệp tiết kiệm văn phòng và tuyển người ở xa). Thân bài 2: lợi ích văn phòng (học hỏi không chính thức, ý tưởng từ trò chuyện ngẫu nhiên, gắn kết; ở nhà dễ kiệt sức). Thân bài 3: ý kiến cá nhân, mô tả mô hình hybrid cụ thể. Kết bài.",
+  "ideas": {
+   "for": [
+    "Không mất thời gian đi lại, còn năng lượng cho công việc và gia đình",
+    "Ít bị gián đoạn hơn văn phòng mở",
+    "Doanh nghiệp tiết kiệm chi phí mặt bằng, tuyển người ở xa"
+   ],
+   "against": [
+    "Nhân viên trẻ học hỏi chậm hơn khi làm từ xa",
+    "Mất các cuộc trò chuyện ngẫu nhiên tạo ý tưởng mới",
+    "Giảm cảm giác gắn bó với công ty",
+    "Ranh giới công việc và đời sống bị xóa nhòa, dễ kiệt sức"
+   ]
+  },
+  "model": "Since the pandemic, millions of employees have discovered that they can do their jobs from home, and many are reluctant to return to the office full-time. While some argue that remote work benefits everyone, others insist that offices remain essential. I believe that a combination of the two is the most effective arrangement.\n\nSupporters of working from home emphasise flexibility and time savings. Without a daily commute, which can take two hours in a congested city, employees have more energy for work and family life. Many report that they concentrate better at home, away from the constant interruptions of an open-plan office. Employers can also benefit, as they spend less on office space and can recruit talented people who live far from headquarters, or even in another country.\n\nHowever, there are strong arguments for the office. Much learning happens informally, when junior staff watch experienced colleagues handle a difficult client or ask a quick question across the desk. This is far harder over video calls, so young employees working remotely may develop more slowly. Offices also encourage spontaneous conversations that lead to new ideas, and they create a sense of belonging that keeps staff loyal to the company. Furthermore, not everyone has a quiet room at home, and for some people the boundary between work and private life disappears, leading to longer hours and burnout.\n\nIn my opinion, the best solution is a hybrid model. Employees could spend two or three days a week in the office for meetings, training and teamwork, and work from home on days that require deep concentration. This keeps most of the benefits of both systems.\n\nIn conclusion, both remote and office work have clear advantages, but neither is ideal on its own. A flexible hybrid arrangement allows organisations to balance productivity, wellbeing and collaboration.",
+  "vocab": [
+   [
+    "remote work",
+    "làm việc từ xa"
+   ],
+   [
+    "daily commute",
+    "việc đi lại hằng ngày đến chỗ làm"
+   ],
+   [
+    "open-plan office",
+    "văn phòng mở (không có vách ngăn)"
+   ],
+   [
+    "learn informally",
+    "học hỏi không chính thức, qua quan sát"
+   ],
+   [
+    "spontaneous conversation",
+    "cuộc trò chuyện ngẫu nhiên, không sắp xếp trước"
+   ],
+   [
+    "a sense of belonging",
+    "cảm giác gắn bó, thuộc về"
+   ],
+   [
+    "burnout",
+    "tình trạng kiệt sức"
+   ],
+   [
+    "hybrid model",
+    "mô hình làm việc kết hợp"
+   ]
+  ]
+ },
+ {
+  "id": "w2x06",
+  "type": "discussion",
+  "topic": "government",
+  "prompt": "Some people think that governments should spend money on exploring outer space, while others believe this money should be spent on solving problems on Earth.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: nên tiếp tục đầu tư cho không gian ở mức hợp lý. Mở bài: chi phí lớn của chương trình không gian, nêu hai quan điểm và ý kiến. Thân bài 1: quan điểm phản đối (người dân thiếu nước sạch, y tế; ngân sách hạn chế; trách nhiệm đạo đức). Thân bài 2: quan điểm ủng hộ (vệ tinh theo dõi khí hậu, công nghệ ứng dụng vào đời sống, truyền cảm hứng học khoa học). Thân bài 3: ý kiến cá nhân (ngân sách không gian chỉ chiếm phần nhỏ, nhưng cần mục tiêu rõ ràng). Kết bài.",
+  "ideas": {
+   "for": [
+    "Vệ tinh giúp theo dõi phá rừng, bão, mực nước biển",
+    "Công nghệ không gian được ứng dụng: lọc nước, chẩn đoán hình ảnh y tế",
+    "Truyền cảm hứng cho giới trẻ học khoa học, kỹ thuật",
+    "Ngân sách không gian chỉ chiếm tỉ lệ rất nhỏ"
+   ],
+   "against": [
+    "Hàng triệu người thiếu nước sạch, y tế, nhà ở",
+    "Ngân sách hạn chế, tiền cho tên lửa là tiền không dành cho bệnh viện",
+    "Lợi ích xa vời, khó thấy với người đóng thuế",
+    "Một số chương trình chủ yếu vì uy tín quốc gia"
+   ]
+  },
+  "model": "Space programmes cost billions of dollars every year, and at a time when many countries struggle with poverty, climate change and ageing populations, their value is often questioned. Some people believe this money should be redirected to problems on Earth, while others defend space research. In my view, space exploration deserves continued funding, although at a modest and carefully justified level.\n\nCritics argue that it is difficult to justify sending probes to Mars when millions of people lack clean water, healthcare or decent housing. Public money is limited, and every dollar spent on rockets is a dollar not spent on hospitals or schools. From this perspective, governments have a moral duty to address urgent human suffering before pursuing scientific curiosity, especially since the benefits of space missions can seem distant and abstract to ordinary taxpayers.\n\nOn the other hand, space research often helps to solve the very problems that critics mention. Satellites allow scientists to monitor deforestation, track storms and measure rising sea levels, providing data that is essential for tackling climate change. Technologies first developed for space programmes, such as water purification systems and improved medical imaging, have later been used in everyday life. In addition, space missions inspire young people to study science and engineering, which strengthens a nation's economy in the long run.\n\nI believe the second argument is stronger, because the choice is not really between space and Earth. Space budgets usually represent a very small share of public spending, and cutting them would make little difference to healthcare or education. However, governments should ensure that missions have clear scientific or practical goals rather than serving mainly as symbols of national prestige.\n\nIn conclusion, although problems on Earth must remain the priority, a reasonable investment in space exploration is justified by its practical, scientific and educational benefits.",
+  "vocab": [
+   [
+    "space exploration",
+    "thám hiểm không gian"
+   ],
+   [
+    "redirect money to",
+    "chuyển tiền sang (mục đích khác)"
+   ],
+   [
+    "moral duty",
+    "trách nhiệm đạo đức"
+   ],
+   [
+    "scientific curiosity",
+    "sự tò mò khoa học"
+   ],
+   [
+    "monitor deforestation",
+    "theo dõi nạn phá rừng"
+   ],
+   [
+    "water purification",
+    "lọc, làm sạch nước"
+   ],
+   [
+    "a small share of public spending",
+    "một phần nhỏ trong chi tiêu công"
+   ],
+   [
+    "national prestige",
+    "uy tín, thể diện quốc gia"
+   ]
+  ]
+ },
+ {
+  "id": "w2x07",
+  "type": "advantages",
+  "topic": "environment",
+  "prompt": "In many countries, people are now encouraged to buy food that is grown locally rather than food that is imported from abroad.\n\nDo the advantages of this outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: lợi ích lớn hơn. Mở bài: xu hướng mua thực phẩm địa phương, nêu quan điểm. Thân bài 1: lợi ích môi trường và sức khỏe (giảm quãng đường vận chuyển, ít bao bì, tươi hơn). Thân bài 2: lợi ích kinh tế xã hội (tiền ở lại cộng đồng, nông trại nhỏ tồn tại, biết nguồn gốc thực phẩm). Thân bài 3: bất lợi (đắt hơn, ít lựa chọn mùa đông, nhà kính sưởi ấm có thể thải nhiều hơn, nông dân nước đang phát triển mất thu nhập). Thân bài 4: các bất lợi có thể khắc phục bằng chọn thực phẩm theo mùa. Kết bài.",
+  "ideas": {
+   "for": [
+    "Giảm khí thải từ vận chuyển (food miles), ít bao bì",
+    "Thực phẩm tươi hơn, giữ được hương vị và dinh dưỡng",
+    "Tiền ở lại cộng đồng, bảo vệ nông trại nhỏ và việc làm nông thôn",
+    "Người tiêu dùng biết rõ nguồn gốc thực phẩm"
+   ],
+   "against": [
+    "Giá cao hơn, khó với gia đình thu nhập thấp",
+    "Ít lựa chọn vào mùa đông hoặc ở nơi khí hậu khắc nghiệt",
+    "Nhà kính sưởi ấm có thể thải nhiều khí hơn hàng nhập khẩu",
+    "Nông dân ở nước đang phát triển phụ thuộc vào xuất khẩu"
+   ]
+  },
+  "model": "Campaigns encouraging consumers to buy locally grown food have become popular in many countries, often promoted as a way to protect the environment and support farmers. Although this trend has some drawbacks, I believe its advantages are greater.\n\nThe most obvious benefit is environmental. Food imported from other continents is often transported by air or refrigerated ship, which produces significant carbon emissions. Buying from nearby farms reduces these 'food miles' and usually requires less packaging, since the produce does not need protection during long journeys. Local food also tends to be fresher, because it is harvested closer to the time it is sold, so it often retains more flavour and nutrients.\n\nThere are economic and social benefits as well. When consumers spend money at farmers' markets or on regional products, more of that money stays in the local community, helping small farms survive against competition from large agricultural companies. This preserves rural jobs and traditional farming knowledge, and it allows people to know where their food comes from and how it was produced.\n\nNevertheless, the disadvantages should not be ignored. Local food can be more expensive, particularly for low-income families, and choice becomes limited in winter or in countries with harsh climates. Moreover, the environmental argument is not always straightforward: tomatoes grown in heated greenhouses in northern Europe may generate more emissions than those shipped from sunny Spain. Finally, if every country bought only its own produce, farmers in developing nations who depend on exports would lose vital income.\n\nOn balance, however, these problems can be managed. Consumers do not need to avoid imports completely; choosing local, seasonal food where possible brings most of the benefits without the costs.\n\nIn conclusion, while buying local food is not a perfect solution, its environmental, economic and health benefits outweigh its disadvantages, especially when combined with sensible seasonal choices.",
+  "vocab": [
+   [
+    "locally grown food",
+    "thực phẩm trồng tại địa phương"
+   ],
+   [
+    "food miles",
+    "quãng đường vận chuyển thực phẩm"
+   ],
+   [
+    "carbon emissions",
+    "lượng khí thải carbon"
+   ],
+   [
+    "retain flavour and nutrients",
+    "giữ được hương vị và chất dinh dưỡng"
+   ],
+   [
+    "farmers' market",
+    "chợ nông sản (nông dân bán trực tiếp)"
+   ],
+   [
+    "rural jobs",
+    "việc làm ở nông thôn"
+   ],
+   [
+    "heated greenhouse",
+    "nhà kính có sưởi ấm"
+   ],
+   [
+    "seasonal food",
+    "thực phẩm theo mùa"
+   ]
+  ]
+ },
+ {
+  "id": "w2x08",
+  "type": "advantages",
+  "topic": "work",
+  "prompt": "Nowadays, an increasing number of people work as freelancers or on short-term contracts rather than having a permanent job with one employer.\n\nDo the advantages of this trend outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: bất lợi lớn hơn đối với đa số người lao động. Mở bài: xu hướng làm tự do qua nền tảng số, nêu quan điểm. Thân bài 1: lợi ích (tự chọn giờ làm, người giỏi kiếm nhiều hơn, doanh nghiệp linh hoạt). Thân bài 2: bất lợi (thu nhập bấp bênh, không có nghỉ phép, ốm đau, lương hưu; chi phí ẩn, cô đơn). Thân bài 3: lợi ích chủ yếu dành cho doanh nghiệp và nhóm ít người giỏi, cần luật lao động mới. Kết bài.",
+  "ideas": {
+   "for": [
+    "Tự chọn giờ làm và dự án, phù hợp cha mẹ, sinh viên",
+    "Chuyên gia giỏi có thể kiếm nhiều hơn khi làm cho nhiều khách hàng",
+    "Doanh nghiệp thuê chuyên gia theo dự án, không tốn chi phí dài hạn"
+   ],
+   "against": [
+    "Thu nhập bấp bênh, khó thuê nhà hay vay ngân hàng",
+    "Không có nghỉ phép có lương, trợ cấp ốm đau, lương hưu",
+    "Phải tự tìm khách, tự lo thuế và tự học kỹ năng",
+    "Cảm giác cô lập khi không có đồng nghiệp"
+   ]
+  },
+  "model": "Thanks to digital platforms, more and more people now earn a living as freelancers or on short-term contracts, from graphic designers and translators to delivery riders. While this shift offers greater freedom, I believe that for most workers its disadvantages outweigh its advantages.\n\nThere are certainly attractive aspects to this way of working. Freelancers can usually choose their own hours and projects, which suits parents with young children, students and people who want to travel. Highly skilled professionals, such as software developers, can often earn more by working for several clients than they would in a single salaried position. For businesses, contract workers provide flexibility, allowing them to hire specialists for particular projects without the long-term cost of a permanent employee.\n\nHowever, these benefits are not shared equally. For many people, especially those in low-paid platform work, freelancing means an unpredictable income that makes it difficult to plan, rent a flat or obtain a bank loan. Unlike permanent employees, freelancers rarely receive paid holidays, sick pay or pension contributions, so a period of illness or a few quiet months can quickly lead to financial difficulty. There are also hidden costs. Workers must find their own clients, manage their own taxes and update their skills at their own expense, and many report feeling isolated without colleagues.\n\nThese problems suggest that the trend benefits employers and a minority of highly skilled workers far more than the majority. Unless governments update labour laws to give freelancers basic protections, such as minimum rates and access to social insurance, the flexibility they enjoy comes at too high a price.\n\nIn conclusion, although freelance and contract work offer genuine freedom and flexibility, the loss of security and benefits that comes with them means that, for most people, the disadvantages are greater.",
+  "vocab": [
+   [
+    "freelancer",
+    "người làm việc tự do"
+   ],
+   [
+    "short-term contract",
+    "hợp đồng ngắn hạn"
+   ],
+   [
+    "salaried position",
+    "vị trí hưởng lương cố định"
+   ],
+   [
+    "platform work",
+    "công việc qua nền tảng số (giao hàng, chạy xe...)"
+   ],
+   [
+    "unpredictable income",
+    "thu nhập bấp bênh, khó đoán"
+   ],
+   [
+    "sick pay",
+    "tiền lương khi nghỉ ốm"
+   ],
+   [
+    "pension contributions",
+    "khoản đóng góp lương hưu"
+   ],
+   [
+    "social insurance",
+    "bảo hiểm xã hội"
+   ]
+  ]
+ },
+ {
+  "id": "w2x09",
+  "type": "advantages",
+  "topic": "health",
+  "prompt": "More and more people are using smartwatches and mobile apps to monitor their health, for example their heart rate, sleep and exercise.\n\nDo the advantages of this development outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: lợi ích lớn hơn rõ rệt. Mở bài: thiết bị đeo phổ biến với người bình thường, nêu quan điểm. Thân bài 1: lợi ích (khuyến khích thói quen lành mạnh, phát hiện sớm bệnh như nhịp tim bất thường, theo dõi bệnh mãn tính). Thân bài 2: bất lợi (dữ liệu không chính xác, lo âu, tự chẩn đoán; quyền riêng tư; giá cao). Thân bài 3: các bất lợi có thể giải quyết (luật bảo vệ dữ liệu, bác sĩ hướng dẫn, giá giảm). Kết bài.",
+  "ideas": {
+   "for": [
+    "Tăng nhận thức về lối sống, nhắc vận động, đặt mục tiêu",
+    "Phát hiện sớm vấn đề như nhịp tim bất thường",
+    "Bác sĩ điều chỉnh điều trị bệnh mãn tính dựa trên dữ liệu thực"
+   ],
+   "against": [
+    "Dữ liệu không luôn chính xác, gây lo âu không cần thiết",
+    "Người dùng tự chẩn đoán thay vì đi khám",
+    "Dữ liệu sức khỏe có thể bị bán cho nhà quảng cáo, bảo hiểm",
+    "Giá cao, người cần nhất lại ít có khả năng sở hữu"
+   ]
+  },
+  "model": "Wearable devices and health apps have moved from being gadgets for athletes to everyday tools for millions of ordinary people. Although these technologies raise some concerns, I believe their advantages clearly outweigh their disadvantages.\n\nThe main benefit is that they encourage healthier habits. When people can see exactly how many steps they have taken or how little they have slept, they become more aware of their lifestyle, and simple features such as reminders to stand up or daily activity goals can motivate them to change. In addition, these devices can sometimes detect serious problems early. There have been many reported cases of smartwatches warning users about an irregular heartbeat, prompting them to see a doctor before a condition became dangerous. For patients with chronic illnesses such as diabetes, continuous monitoring also allows doctors to adjust treatment based on real data rather than occasional clinic visits.\n\nThere are, however, some drawbacks. The data produced by consumer devices is not always accurate, and some users may become anxious about minor fluctuations or try to diagnose themselves instead of seeking professional advice. Privacy is another concern, as health information is extremely sensitive, and companies could share or sell it to advertisers or insurers. Finally, the best devices are expensive, so the people who might benefit most, such as older or low-income patients, are often the least likely to own them.\n\nNevertheless, these problems can largely be addressed. Stronger data protection laws can limit how companies use personal information, and doctors can help patients interpret their data sensibly. As prices fall, the technology is also becoming more accessible.\n\nIn conclusion, despite concerns about accuracy, privacy and cost, health-monitoring technology brings significant benefits in prevention and early diagnosis, so I believe its advantages outweigh its disadvantages.",
+  "vocab": [
+   [
+    "wearable device",
+    "thiết bị đeo thông minh"
+   ],
+   [
+    "irregular heartbeat",
+    "nhịp tim bất thường"
+   ],
+   [
+    "chronic illness",
+    "bệnh mãn tính"
+   ],
+   [
+    "continuous monitoring",
+    "theo dõi liên tục"
+   ],
+   [
+    "minor fluctuations",
+    "những dao động nhỏ"
+   ],
+   [
+    "diagnose themselves",
+    "tự chẩn đoán bệnh"
+   ],
+   [
+    "data protection laws",
+    "luật bảo vệ dữ liệu"
+   ],
+   [
+    "early diagnosis",
+    "chẩn đoán sớm"
+   ]
+  ]
+ },
+ {
+  "id": "w2x10",
+  "type": "problem-solution",
+  "topic": "environment",
+  "prompt": "Large amounts of plastic waste end up in the world's oceans every year.\n\nWhat problems does this cause, and what measures could be taken to solve them?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Mở bài: nêu thực trạng và tóm tắt hướng trả lời (tác hại + giải pháp từ nhà nước, doanh nghiệp, người dân). Thân bài 1: vấn đề (động vật biển ăn nhầm, mắc lưới; vi nhựa vào chuỗi thức ăn; thiệt hại du lịch và đánh bắt). Thân bài 2: giải pháp (cấm/đánh thuế đồ nhựa dùng một lần, cải thiện thu gom rác ở thành phố ven biển, hoàn tiền vỏ chai, trách nhiệm nhà sản xuất). Kết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Cấm hoặc đánh thuế túi nilon, ống hút, hộp đựng dùng một lần",
+    "Đầu tư thu gom rác và tái chế ở thành phố ven biển",
+    "Đặt cọc hoàn tiền vỏ chai",
+    "Buộc nhà sản xuất chịu trách nhiệm thu hồi bao bì"
+   ],
+   "against": [
+    "Động vật biển ăn nhầm nhựa và chết đói, mắc vào lưới bỏ đi",
+    "Vi nhựa đi vào cá, hải sản rồi vào cơ thể người",
+    "Bãi biển ô nhiễm làm giảm khách du lịch và sản lượng đánh bắt"
+   ]
+  },
+  "model": "Millions of tonnes of plastic enter the oceans every year, carried by rivers, washed off beaches or dumped from ships. This pollution causes serious harm to marine life and human health, but a combination of government action, business responsibility and public effort could significantly reduce it.\n\nThe most visible problem is the damage to wildlife. Sea turtles, birds and whales often mistake plastic bags and fragments for food, and once their stomachs are filled with indigestible material, they starve. Others become trapped in abandoned fishing nets and drown. A less visible but equally worrying issue is microplastics. As larger items break down into tiny particles, they are absorbed by fish and shellfish and eventually enter the human food chain, with possible long-term effects on health that scientists are only beginning to understand. Plastic waste also damages economies that depend on tourism and fishing, as polluted beaches deter visitors and reduce catches.\n\nSeveral measures could tackle this problem. First, governments should reduce the production of unnecessary plastic by banning or taxing single-use items such as bags, straws and food containers. Several countries that have introduced charges for plastic bags have seen their use fall dramatically. Second, waste collection must be improved, particularly in fast-growing coastal cities where much ocean plastic originates. Investment in recycling facilities and deposit-return schemes for bottles would prevent waste from reaching rivers in the first place. Finally, manufacturers could be made legally responsible for collecting and recycling the packaging they produce, which would encourage them to design products that use less plastic. Individuals can support these efforts by carrying reusable bags and bottles.\n\nIn conclusion, plastic pollution threatens marine ecosystems, human health and coastal economies. Reducing plastic use, improving waste management and holding producers accountable are the most effective ways to address the problem.",
+  "vocab": [
+   [
+    "marine life",
+    "sinh vật biển"
+   ],
+   [
+    "indigestible",
+    "không tiêu hóa được"
+   ],
+   [
+    "microplastics",
+    "vi nhựa"
+   ],
+   [
+    "enter the food chain",
+    "đi vào chuỗi thức ăn"
+   ],
+   [
+    "single-use items",
+    "đồ dùng một lần"
+   ],
+   [
+    "deposit-return scheme",
+    "chương trình đặt cọc, hoàn tiền vỏ chai"
+   ],
+   [
+    "hold producers accountable",
+    "buộc nhà sản xuất chịu trách nhiệm"
+   ],
+   [
+    "waste management",
+    "quản lý chất thải"
+   ]
+  ]
+ },
+ {
+  "id": "w2x11",
+  "type": "problem-solution",
+  "topic": "health",
+  "prompt": "In many countries, the number of children who are overweight is increasing.\n\nWhat are the causes of this problem, and what can be done to solve it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng nguyên nhân - giải pháp. Mở bài: thực trạng béo phì trẻ em ở cả nước giàu và nước đang phát triển. Thân bài 1: nguyên nhân (đồ ăn chế biến sẵn rẻ và quảng cáo nhiều, cha mẹ bận rộn; trẻ ít vận động vì màn hình, thiếu không gian, áp lực học tập). Thân bài 2: giải pháp (thuế đồ uống có đường, hạn chế quảng cáo; trường học có bữa ăn dinh dưỡng, một giờ vận động; cha mẹ được cung cấp thông tin, thêm công viên). Kết bài.",
+  "ideas": {
+   "for": [
+    "Đánh thuế đồ uống có đường (như Anh, Mexico)",
+    "Hạn chế quảng cáo đồ ăn không lành mạnh cho trẻ",
+    "Bữa ăn trường học dinh dưỡng, bỏ máy bán đồ ăn vặt",
+    "Đảm bảo một giờ vận động mỗi ngày, xây thêm công viên"
+   ],
+   "against": [
+    "Đồ ăn chế biến sẵn, nước ngọt rẻ và được quảng cáo nhiều",
+    "Cha mẹ bận rộn dùng đồ ăn tiện lợi",
+    "Trẻ dành nhiều giờ với điện thoại, máy tính bảng",
+    "Thiếu không gian an toàn để chơi, áp lực học tập giảm thời gian thể thao"
+   ]
+  },
+  "model": "Childhood obesity has risen sharply in recent decades, not only in wealthy nations but also in rapidly developing countries such as Vietnam and China. This trend has several causes linked to modern lifestyles, but families, schools and governments can all play a part in reversing it.\n\nThe main cause is a change in diet. Processed foods, sugary drinks and fast food are now cheaper and more widely available than ever, and they are heavily advertised to children through television and social media. Busy parents who work long hours often rely on these convenient options instead of preparing home-cooked meals. At the same time, children are far less active than previous generations. Many spend hours each day on phones, tablets and computer games, while in crowded cities there is little safe space for outdoor play. In some education systems, pressure to perform well academically has also reduced the time available for sport and physical education.\n\nTackling this problem requires action at several levels. Governments could introduce a tax on sugary drinks, as the United Kingdom and Mexico have done, and restrict advertisements for unhealthy food during children's programmes. Schools have an important role too. They should provide nutritious meals, remove vending machines selling snacks and fizzy drinks, and guarantee at least one hour of physical activity each day. Finally, parents need better information about nutrition, and local authorities could create more parks and sports facilities so that children have safe places to exercise.\n\nIn conclusion, rising childhood obesity is mainly the result of unhealthy diets and inactive lifestyles. A combination of government regulation, healthier school environments and greater parental awareness offers the best chance of helping children grow up at a healthy weight.",
+  "vocab": [
+   [
+    "childhood obesity",
+    "béo phì ở trẻ em"
+   ],
+   [
+    "processed foods",
+    "thực phẩm chế biến sẵn"
+   ],
+   [
+    "sugary drinks",
+    "đồ uống có đường"
+   ],
+   [
+    "home-cooked meals",
+    "bữa ăn nấu tại nhà"
+   ],
+   [
+    "inactive lifestyle",
+    "lối sống ít vận động"
+   ],
+   [
+    "vending machine",
+    "máy bán hàng tự động"
+   ],
+   [
+    "physical education",
+    "môn giáo dục thể chất"
+   ],
+   [
+    "parental awareness",
+    "nhận thức của cha mẹ"
+   ]
+  ]
+ },
+ {
+  "id": "w2x12",
+  "type": "problem-solution",
+  "topic": "transport",
+  "prompt": "Traffic congestion is becoming a serious problem in many major cities.\n\nWhat problems does this cause, and what solutions can you suggest?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Mở bài: thực trạng ùn tắc ở các thành phố lớn, nêu hướng trả lời. Thân bài 1: vấn đề (lãng phí thời gian và tiền, giảm năng suất; ô nhiễm không khí, bệnh hô hấp; căng thẳng, tai nạn). Thân bài 2: giải pháp (giao thông công cộng nhanh và rẻ; phí vào trung tâm giờ cao điểm như Singapore, Stockholm; quy hoạch đô thị gần nhau, làn xe đạp; giờ làm linh hoạt). Kết bài.",
+  "ideas": {
+   "for": [
+    "Đầu tư metro, làn riêng cho xe buýt",
+    "Thu phí ùn tắc khi vào trung tâm giờ cao điểm",
+    "Quy hoạch nhà ở, văn phòng, cửa hàng gần nhau; làn xe đạp, vỉa hè an toàn",
+    "Giờ làm linh hoạt, làm việc từ xa"
+   ],
+   "against": [
+    "Mất thời gian đi lại, doanh nghiệp giảm năng suất",
+    "Xe chạy chậm thải nhiều khói, gây bệnh hô hấp",
+    "Căng thẳng, lái xe hung hăng, tăng nguy cơ tai nạn"
+   ]
+  },
+  "model": "In many of the world's largest cities, from Jakarta to London, roads are blocked by traffic for much of the day. This congestion creates economic, environmental and health problems, but a range of practical solutions could ease it.\n\nThe first problem is wasted time and money. Commuters who spend two or three hours a day in traffic have less time for work, rest and family, and businesses lose productivity when deliveries and employees arrive late. Congestion also worsens air pollution. Vehicles stuck in slow-moving traffic burn fuel inefficiently and release large amounts of exhaust fumes, contributing to respiratory diseases such as asthma, particularly among children and older people. In addition, long journeys in heavy traffic raise stress levels and can make drivers more aggressive, increasing the risk of accidents.\n\nSeveral measures could reduce the problem. The most effective long-term solution is to provide fast, reliable and affordable public transport, such as metro systems and dedicated bus lanes, so that people have a genuine alternative to private vehicles. Second, governments could introduce congestion charges, requiring drivers to pay to enter the city centre at peak times. Singapore and Stockholm have used this approach successfully to reduce traffic and raise money for public transport. Third, urban planning can make a difference. Building homes, offices and shops closer together, and creating safe cycle lanes and pavements, would mean that more short journeys could be made on foot or by bicycle. Employers could also help by allowing flexible hours or remote work, which spreads traffic more evenly across the day.\n\nIn conclusion, traffic congestion harms economies, health and quality of life. Better public transport, road pricing and smarter urban planning together offer the best way to keep cities moving.",
+  "vocab": [
+   [
+    "traffic congestion",
+    "ùn tắc giao thông"
+   ],
+   [
+    "lose productivity",
+    "giảm năng suất"
+   ],
+   [
+    "exhaust fumes",
+    "khói thải từ xe"
+   ],
+   [
+    "respiratory diseases",
+    "bệnh đường hô hấp"
+   ],
+   [
+    "dedicated bus lane",
+    "làn đường dành riêng cho xe buýt"
+   ],
+   [
+    "congestion charge",
+    "phí ùn tắc (phí vào trung tâm)"
+   ],
+   [
+    "peak times",
+    "giờ cao điểm"
+   ],
+   [
+    "urban planning",
+    "quy hoạch đô thị"
+   ]
+  ]
+ },
+ {
+  "id": "w2x13",
+  "type": "two-part",
+  "topic": "crime",
+  "prompt": "In many countries, the number of crimes committed by young people is increasing.\n\nWhy is this happening? What can be done to prevent young people from committing crimes?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng hai câu hỏi: trả lời cả hai (nguyên nhân và cách phòng ngừa). Mở bài: thực trạng, nêu hướng trả lời. Thân bài 1: nguyên nhân (thiếu cơ hội việc làm, gia đình thiếu quan tâm, ảnh hưởng của bạn bè và băng nhóm, mạng xã hội và tội phạm mạng). Thân bài 2: giải pháp (trường học phát hiện sớm học sinh có nguy cơ, hoạt động cộng đồng, học nghề, công lý phục hồi thay vì nhà tù người lớn). Kết bài.",
+  "ideas": {
+   "for": [
+    "Trường học kèm cặp học sinh có nguy cơ bỏ học",
+    "Câu lạc bộ thể thao, âm nhạc, trung tâm thanh thiếu niên giá rẻ",
+    "Chương trình học nghề giúp có đường vào việc làm",
+    "Buộc người phạm tội sửa chữa thiệt hại thay vì vào nhà tù người lớn"
+   ],
+   "against": [
+    "Thất nghiệp ở người trẻ, tội phạm có vẻ là cách kiếm tiền nhanh",
+    "Thiếu sự giám sát của gia đình, dễ bị bạn bè xấu hoặc băng nhóm lôi kéo",
+    "Mạng xã hội tô vẽ bạo lực và lối sống xa hoa",
+    "Người trẻ giỏi công nghệ bị cuốn vào tội phạm mạng"
+   ]
+  },
+  "model": "Reports in many countries suggest that a growing proportion of crimes, from shoplifting to online fraud, are committed by teenagers and young adults. This trend has a number of social and economic causes, but it can be addressed through support from families, schools and communities.\n\nOne major reason is a lack of opportunity. In areas with high youth unemployment, young people who leave school without qualifications may see little chance of earning a decent income legally, and crime can appear to offer quick money and status. Family problems also play a role. Children who grow up with little supervision, perhaps because their parents work long hours or the family has broken down, are more easily influenced by older peers or gangs. Furthermore, the internet has created new temptations. Social media can glamorise violence and luxury lifestyles, and young people with digital skills may be drawn into cybercrime, which they often do not regard as seriously as physical theft.\n\nPreventing youth crime requires early intervention rather than punishment alone. Schools should identify students who are falling behind or are frequently absent and provide them with mentoring, since dropping out of education is closely linked to offending. Communities can offer affordable sports clubs, music programmes and youth centres that give teenagers a positive way to spend their free time and build self-esteem. Governments could also fund apprenticeships and vocational training so that young people without academic qualifications have a realistic path into work. For those who have already offended, programmes that make them repair the harm they have caused, rather than sending them to adult prisons, are more likely to change their behaviour.\n\nIn conclusion, youth crime is driven mainly by limited opportunities, weak family support and new online influences. Early support, constructive activities and routes into employment are the most effective ways to prevent it.",
+  "vocab": [
+   [
+    "youth unemployment",
+    "thất nghiệp ở người trẻ"
+   ],
+   [
+    "supervision",
+    "sự giám sát, quản lý"
+   ],
+   [
+    "peers",
+    "bạn bè cùng trang lứa"
+   ],
+   [
+    "glamorise",
+    "tô vẽ cho hấp dẫn"
+   ],
+   [
+    "cybercrime",
+    "tội phạm mạng"
+   ],
+   [
+    "early intervention",
+    "can thiệp sớm"
+   ],
+   [
+    "mentoring",
+    "kèm cặp, cố vấn"
+   ],
+   [
+    "vocational training",
+    "đào tạo nghề"
+   ]
+  ]
+ },
+ {
+  "id": "w2x14",
+  "type": "two-part",
+  "topic": "technology",
+  "prompt": "People today spend more and more time on their smartphones.\n\nWhy is this the case? Is this a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng hai câu hỏi: nêu nguyên nhân và đánh giá tích cực hay tiêu cực (quan điểm: chủ yếu tiêu cực). Mở bài: hình ảnh quen thuộc, nêu quan điểm. Thân bài 1: nguyên nhân (điện thoại thành công cụ thiết yếu, ứng dụng được thiết kế gây nghiện). Thân bài 2: mặt tích cực (giữ liên lạc, tra cứu, học tập, làm việc linh hoạt). Thân bài 3: mặt tiêu cực (mất ngủ, lo âu, giảm tập trung, quan hệ trực tiếp yếu đi). Kết bài: nhắc lại và khuyến nghị.",
+  "ideas": {
+   "for": [
+    "Giữ liên lạc với người thân ở xa",
+    "Tra cứu thông tin tức thì, học kỹ năng mới qua ứng dụng",
+    "Giúp làm việc linh hoạt và từ xa"
+   ],
+   "against": [
+    "Dùng nhiều vào ban đêm gây mất ngủ",
+    "Liên quan tới lo âu, trầm cảm ở thanh thiếu niên do so sánh bản thân",
+    "Thông báo liên tục làm giảm khả năng tập trung",
+    "Gia đình, bạn bè ngồi cùng nhau nhưng mỗi người một màn hình"
+   ]
+  },
+  "model": "In most cities today, it is common to see people looking at their phones while they walk, eat or wait for a bus. This habit has grown for several reasons, and although smartphones bring real benefits, I believe the amount of time people now spend on them is largely a negative development.\n\nThe main reason for this trend is that smartphones have become essential tools for everyday life. People use them to pay bills, order food, book taxis, communicate with colleagues and even attend online classes, so many tasks that once happened offline now require a screen. In addition, many apps are deliberately designed to be addictive. Social media platforms use endless scrolling, notifications and personalised recommendations to keep users engaged for as long as possible, because their profits depend on advertising.\n\nSome of this screen time is clearly positive. Smartphones allow people to stay in touch with relatives abroad, access information instantly and learn new skills through educational apps and videos. For many workers, they also make flexible and remote work possible.\n\nHowever, the negative effects are significant. Excessive use, particularly at night, disrupts sleep and has been linked to anxiety and depression, especially among teenagers who constantly compare themselves with others online. Constant notifications also reduce concentration, making it harder to read deeply or focus on demanding work. Perhaps most worryingly, phones can weaken face-to-face relationships, as families and friends sit together while each person is absorbed in their own screen.\n\nIn conclusion, people spend more time on smartphones because these devices have become central to daily life and because many apps are designed to capture attention. While the technology itself is useful, the current level of use is harmful overall, and individuals should make a conscious effort to limit unnecessary screen time.",
+  "vocab": [
+   [
+    "essential tool",
+    "công cụ thiết yếu"
+   ],
+   [
+    "deliberately designed to be addictive",
+    "được thiết kế có chủ đích để gây nghiện"
+   ],
+   [
+    "endless scrolling",
+    "cuộn vô tận"
+   ],
+   [
+    "personalised recommendations",
+    "gợi ý cá nhân hóa"
+   ],
+   [
+    "screen time",
+    "thời gian dùng màn hình"
+   ],
+   [
+    "disrupt sleep",
+    "làm rối loạn giấc ngủ"
+   ],
+   [
+    "face-to-face relationships",
+    "quan hệ gặp gỡ trực tiếp"
+   ],
+   [
+    "be absorbed in",
+    "mải mê, chìm đắm vào"
+   ]
+  ]
+ },
+ {
+  "id": "w2x15",
+  "type": "two-part",
+  "topic": "education",
+  "prompt": "Many university graduates are unable to find jobs related to their field of study.\n\nWhat are the reasons for this? What can universities do to improve the situation?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng hai câu hỏi: nguyên nhân và việc trường đại học có thể làm. Mở bài: thực trạng sinh viên làm trái ngành hoặc thất nghiệp. Thân bài 1: nguyên nhân (mất cân đối cung cầu ngành học, chương trình nặng lý thuyết, thiếu kỹ năng thực tế). Thân bài 2: giải pháp của trường (hợp tác doanh nghiệp xây dựng chương trình, thực tập bắt buộc, tư vấn hướng nghiệp trước khi chọn ngành). Kết bài.",
+  "ideas": {
+   "for": [
+    "Mời doanh nghiệp góp ý chương trình, giảng dạy, dự án thực tế",
+    "Thực tập bắt buộc trong mọi ngành",
+    "Tư vấn hướng nghiệp với số liệu tỉ lệ có việc và mức lương"
+   ],
+   "against": [
+    "Quá nhiều sinh viên chọn ngành phổ biến như quản trị kinh doanh",
+    "Thiếu nhân lực ở kỹ thuật, điều dưỡng, phân tích dữ liệu",
+    "Chương trình nặng lý thuyết, chậm cập nhật",
+    "Sinh viên thiếu kỹ năng thực tế: phần mềm, giao tiếp, làm việc nhóm"
+   ]
+  },
+  "model": "In many countries, it is increasingly common for graduates to work in jobs that have little connection with their degree, or even to remain unemployed for long periods after leaving university. This situation has several causes, but universities can take practical steps to improve their students' prospects.\n\nOne reason is a mismatch between the number of graduates and the needs of the labour market. As higher education has expanded, more students are choosing popular subjects such as business administration, while there is a shortage of graduates in fields like engineering, nursing and data analysis. As a result, competition for jobs in crowded fields is intense. Another reason is that many degree programmes focus heavily on theory and fail to keep pace with changes in industry. Employers frequently complain that new graduates lack practical skills, such as using up-to-date software, communicating with clients or working in teams, and therefore prefer candidates with experience.\n\nUniversities can address these problems in several ways. First, they should work more closely with employers when designing courses, inviting companies to advise on content and to contribute guest lectures or real-world projects. Second, internships and work placements could become a compulsory part of every degree, so that students graduate with relevant experience and professional contacts. Third, universities should provide better careers guidance before students choose their major, including clear information about employment rates and typical salaries in different fields. This would help young people make more informed decisions rather than simply following trends or family pressure.\n\nIn conclusion, graduates struggle to find relevant work mainly because of an oversupply in certain subjects and a gap between academic study and workplace skills. Closer links with industry, compulsory work experience and better careers advice would make a university education far more useful for finding employment.",
+  "vocab": [
+   [
+    "field of study",
+    "ngành học, lĩnh vực học"
+   ],
+   [
+    "a mismatch between",
+    "sự mất cân đối giữa"
+   ],
+   [
+    "labour market",
+    "thị trường lao động"
+   ],
+   [
+    "keep pace with",
+    "theo kịp"
+   ],
+   [
+    "practical skills",
+    "kỹ năng thực tế"
+   ],
+   [
+    "work placement",
+    "đợt thực tập tại doanh nghiệp"
+   ],
+   [
+    "careers guidance",
+    "tư vấn hướng nghiệp"
+   ],
+   [
+    "oversupply",
+    "tình trạng dư thừa"
+   ]
+  ]
+ }
+]

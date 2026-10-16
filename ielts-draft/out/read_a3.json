@@ -1,0 +1,630 @@
+[
+ {
+  "id": "a3p1",
+  "type": "academic",
+  "test": 3,
+  "section": 1,
+  "title": "Ice in the Desert",
+  "topic": "Ancient technology",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "For most of human history, keeping food cool in a hot climate was a serious challenge. Yet in the dry interior of what is now Iran, people were storing ice through the summer more than two thousand years ago, long before electricity or mechanical refrigeration. They did so using a remarkable building known as the yakhchāl, a Persian word that literally means 'ice pit'. Several hundred of these structures are thought to have existed at one time, and dozens survive today, some of them restored as tourist attractions."
+   ],
+   [
+    "B",
+    "At first sight, a yakhchāl looks like a giant beehive rising out of the desert. The visible part is a tall dome, often around 18 metres high, built from mud brick. But the dome is only half of the story. Beneath it lies a deep pit, sometimes holding several thousand cubic metres of space, where the ice was actually kept. Because the pit was underground, it was protected from the fierce daytime heat, while the ground around it stayed at a fairly constant temperature throughout the year."
+   ],
+   [
+    "C",
+    "The ice itself was not brought from distant mountains, as many visitors assume. Instead, it was made on site during the winter. Desert regions such as central Iran can be extremely hot by day but surprisingly cold at night, particularly between December and February, when temperatures regularly fall below freezing. Builders took advantage of this by constructing long, shallow channels or pools next to the yakhchāl. On cold evenings, water was released into these pools, often from a qanat, an underground canal that carried water from distant hills. Being only a few centimetres deep, the water froze quickly overnight. The following morning, workers broke the ice into blocks and carried them down into the pit."
+   ],
+   [
+    "D",
+    "To make freezing more reliable, a high wall was usually built along the southern side of the pools. This wall, which could be more than ten metres tall, kept the sun off the water during the short winter days, so that ice formed during one night was not melted the next afternoon. It also helped to block warm winds. In some places the process was repeated night after night for weeks, with each new layer of ice added to the store until the pit was full."
+   ],
+   [
+    "E",
+    "Keeping the ice frozen for the rest of the year depended largely on the materials used. The walls at the base of the dome could be two metres thick, and they were covered with a special mortar called sārooj. Accounts of its exact recipe vary, but it is generally said to have contained sand, clay, lime, ash and goat hair, and in some versions egg whites. This mixture was highly resistant to water and did not allow heat to pass through easily. The ice blocks were also separated by layers of straw or chaff, which acted as insulation and made it easier to remove one block without disturbing the rest."
+   ],
+   [
+    "F",
+    "The shape of the dome was equally important. Warm air rises, so any heat that entered the building collected at the top of the dome, well above the stored ice. A small opening at the summit allowed some of this warm air to escape, while cooler air sank towards the pit. Some yakhchāls were also connected to windcatchers, tower-like structures that directed breezes downwards into a building. Any water from melting ice ran into a trench at the bottom of the pit, where it could refreeze during cold nights or be drained away."
+   ],
+   [
+    "G",
+    "Ice from the yakhchāl had many uses. It was used to keep meat and dairy products fresh, and it allowed the preparation of cold desserts such as fālūdeh, a dish of thin noodles in a frozen syrup that is still popular in Iran today. In the hottest months, wealthy households bought ice to cool drinks, and some historians believe that ordinary townspeople could also purchase small quantities at a modest price. In many towns the yakhchāl was a shared public facility rather than private property, and its upkeep was an important civic responsibility."
+   ],
+   [
+    "H",
+    "The arrival of electric refrigerators in the twentieth century made these buildings unnecessary, and many were abandoned or demolished. Recently, however, architects and engineers have shown renewed interest in them. With rising energy costs and concern about climate change, they see the yakhchāl as a valuable example of passive cooling, the use of design rather than machines to control temperature. While nobody suggests returning to ice pits, the principles behind them, such as thick insulating walls, careful shading and the natural movement of air, are being studied for use in modern buildings in hot, dry regions."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-6\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "Most of the yakhchāls that once existed are still standing today.",
+      "a": "FALSE",
+      "para": "A",
+      "why": "Đoạn A: \"Several hundred of these structures are thought to have existed at one time, and dozens survive today\". Từng có vài trăm cái nhưng chỉ còn vài chục, tức là phần lớn đã không còn, trái với câu hỏi."
+     },
+     {
+      "q": "The ice stored in a yakhchāl was usually transported from mountain areas.",
+      "a": "FALSE",
+      "para": "C",
+      "why": "Đoạn C: \"The ice itself was not brought from distant mountains, as many visitors assume. Instead, it was made on site\". Băng được làm tại chỗ, không chở từ núi về."
+     },
+     {
+      "q": "In central Iran, night temperatures in winter can fall below zero.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: \"particularly between December and February, when temperatures regularly fall below freezing\". \"Below freezing\" = dưới 0 độ C."
+     },
+     {
+      "q": "The workers who cut the ice were paid more than other labourers.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói \"workers broke the ice into blocks and carried them down into the pit\". Bài không nhắc gì đến tiền công của họ so với người lao động khác."
+     },
+     {
+      "q": "The shallow depth of the pools helped the water to freeze quickly.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: \"Being only a few centimetres deep, the water froze quickly overnight.\" Nước nông nên đóng băng nhanh, khớp với câu hỏi."
+     },
+     {
+      "q": "Yakhchāls were more common in Iran than in neighbouring countries.",
+      "a": "NOT GIVEN",
+      "para": "A",
+      "why": "Bài chỉ nói về yakhchāl ở Iran (đoạn A: \"in the dry interior of what is now Iran\"), không so sánh với các nước láng giềng."
+     }
+    ]
+   },
+   {
+    "kind": "notecomp",
+    "instr": "Questions 7-11\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "Making the ice: a tall wall on the south side of the pools blocked the ___ and warm winds",
+      "a": "sun",
+      "para": "D",
+      "why": "Đoạn D: \"kept the sun off the water during the short winter days... It also helped to block warm winds.\""
+     },
+     {
+      "q": "Insulation: walls covered with sārooj, a mortar containing sand, clay, lime, ash and goat ___",
+      "a": "hair",
+      "para": "E",
+      "why": "Đoạn E: \"contained sand, clay, lime, ash and goat hair\"."
+     },
+     {
+      "q": "Insulation: ice blocks separated by layers of straw or ___",
+      "a": "chaff",
+      "para": "E",
+      "why": "Đoạn E: \"The ice blocks were also separated by layers of straw or chaff\"."
+     },
+     {
+      "q": "Air movement: warm air left through a small opening at the ___ of the dome",
+      "a": "summit",
+      "para": "F",
+      "why": "Đoạn F: \"A small opening at the summit allowed some of this warm air to escape\". \"Summit\" = đỉnh."
+     },
+     {
+      "q": "Meltwater: ran into a ___ at the bottom of the pit, where it could refreeze",
+      "a": "trench",
+      "para": "F",
+      "why": "Đoạn F: \"Any water from melting ice ran into a trench at the bottom of the pit, where it could refreeze\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 12-13\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to paragraph G, in many towns the yakhchāl was",
+      "o": [
+       "owned by wealthy families.",
+       "controlled by officials in the capital.",
+       "a facility shared by the community.",
+       "only opened during the hottest months."
+      ],
+      "a": 2,
+      "para": "G",
+      "why": "Đoạn G: \"In many towns the yakhchāl was a shared public facility rather than private property\". Người giàu chỉ là người mua băng (\"wealthy households bought ice\"), không phải chủ sở hữu, nên A sai."
+     },
+     {
+      "q": "Why are modern architects and engineers interested in yakhchāls?",
+      "o": [
+       "They plan to build new ice pits in desert areas.",
+       "They offer ideas for cooling buildings without machines.",
+       "They are cheaper to build than modern refrigerators.",
+       "They attract large numbers of tourists."
+      ],
+      "a": 1,
+      "para": "H",
+      "why": "Đoạn H: họ xem yakhchāl là \"a valuable example of passive cooling, the use of design rather than machines to control temperature\". Phương án A sai vì \"nobody suggests returning to ice pits\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "refrigeration",
+    "sự làm lạnh, làm đông"
+   ],
+   [
+    "dome",
+    "mái vòm"
+   ],
+   [
+    "mud brick",
+    "gạch bùn (gạch đất phơi khô)"
+   ],
+   [
+    "on site",
+    "tại chỗ"
+   ],
+   [
+    "fall below freezing",
+    "xuống dưới 0 độ C"
+   ],
+   [
+    "underground canal",
+    "kênh ngầm"
+   ],
+   [
+    "mortar",
+    "vữa"
+   ],
+   [
+    "insulation",
+    "vật liệu cách nhiệt, sự cách nhiệt"
+   ],
+   [
+    "upkeep",
+    "việc bảo trì, duy tu"
+   ],
+   [
+    "civic responsibility",
+    "trách nhiệm cộng đồng, trách nhiệm của thị dân"
+   ],
+   [
+    "demolish",
+    "phá dỡ"
+   ],
+   [
+    "passive cooling",
+    "làm mát thụ động (dựa vào thiết kế, không dùng máy)"
+   ]
+  ]
+ },
+ {
+  "id": "a3p2",
+  "type": "academic",
+  "test": 3,
+  "section": 2,
+  "title": "Cities in the Shade",
+  "topic": "Urban planning",
+  "band": "6-7",
+  "paras": [
+   [
+    "A",
+    "As summers grow hotter, city governments around the world are rethinking an element of urban design that was long taken for granted: shade. For much of the twentieth century, planners in many countries concentrated on moving cars efficiently and providing sunlight to buildings, particularly in cooler northern climates where daylight was scarce in winter. Shade, if it was considered at all, was treated as a by-product of trees planted for decoration. Today, a growing number of researchers argue that shade should be regarded as essential public infrastructure, as important to the health of a city as drainage or street lighting."
+   ],
+   [
+    "B",
+    "The case rests partly on the difference between air temperature and what people actually feel. Weather reports describe the temperature of the air in the shade, but a person walking along an exposed pavement at midday also absorbs direct radiation from the sun and heat given off by surrounding surfaces. Climate scientist Dr Helena Varga, who has measured conditions on city streets for over a decade, points out that the 'felt' temperature on a sunny pavement can be 15 to 20 degrees higher than in a shaded spot only a few metres away, even when the air temperature in both places is identical. 'Two people on the same street can be experiencing completely different climates,' she says."
+   ],
+   [
+    "C",
+    "Traditional architecture in hot regions reflects this understanding. In the old quarters of many Mediterranean and Middle Eastern towns, streets are narrow and often winding, so that buildings shade one another for most of the day. Covered walkways, arcades and courtyards provide further protection, and in some markets fabric is stretched between rooftops to shelter shoppers. Architectural historian Samuel Okoro believes these features were not simply accidents of crowded medieval life. 'Builders who had no air conditioning were forced to observe the sun's path very carefully,' he argues. 'Their solutions were the result of centuries of trial and error.'"
+   ],
+   [
+    "D",
+    "Modern cities, by contrast, have often been designed in ways that remove shade. Wide roads, large car parks and open plazas paved in concrete or stone leave pedestrians exposed, while dark surfaces such as asphalt absorb heat during the day and release it slowly at night. This contributes to the so-called urban heat island effect, in which a city remains noticeably warmer than the surrounding countryside after sunset. Glass towers can add to the problem by reflecting sunlight down onto the street below. The result, according to urban planner Mia Lindqvist, is that many recently built districts are uncomfortable to walk through for several hours a day in summer, which encourages people to drive even for short journeys."
+   ],
+   [
+    "E",
+    "Trees are the most familiar solution, and they offer more than shade alone. Through a process called transpiration, they release water vapour from their leaves, which cools the air around them. A single mature tree can therefore have a cooling effect comparable to several air-conditioning units. However, trees take decades to reach full size, and they need space for their roots, regular watering and protection from damage, all of which can be difficult to provide beneath crowded pavements full of pipes and cables. Lindqvist notes that young trees planted in small holes surrounded by concrete frequently die within a few years, wasting the money spent on them."
+   ],
+   [
+    "F",
+    "For this reason, some cities are combining trees with built forms of shade. These range from simple canopies over bus stops and playgrounds to large structures such as the shade sails that cover public squares in some Spanish and Australian cities. Engineers are also experimenting with materials that reflect rather than absorb sunlight, including pale-coloured pavements and 'cool roofs'. Varga cautions, though, that reflective surfaces must be placed carefully: a bright pavement can bounce heat back up onto pedestrians, making them feel hotter rather than cooler, even if it lowers the surface temperature itself."
+   ],
+   [
+    "G",
+    "Perhaps the greatest obstacle is not technical but organisational. In most cities, responsibility for streets, parks, buildings and public health is divided between separate departments, each with its own budget and priorities, and no single body is in charge of shade. A few cities have begun to address this by drawing up shade plans, which map where shelter is lacking and set targets for increasing it, often giving priority to routes used by children, older people and those waiting for public transport. Okoro sees this as a return to an older way of thinking. 'For most of history,' he says, 'designing for shade was simply part of designing a city. We are now rediscovering what our ancestors knew.'"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 14-20\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for each paragraph from the list of headings below.",
+    "opts": [
+     "Why traditional ways of creating shade were abandoned",
+     "A gap in responsibility and how some cities are filling it",
+     "The changing status of shade in city planning",
+     "Lessons from older towns",
+     "The benefits and drawbacks of a natural solution",
+     "How modern design has made streets hotter",
+     "The rising cost of cooling public buildings",
+     "Why air temperature does not tell the full story",
+     "Built shade and the risks of reflective materials",
+     "Public attitudes to the appearance of shade structures"
+    ],
+    "items": [
+     {
+      "q": "Paragraph A",
+      "a": 2,
+      "para": "A",
+      "why": "Đoạn A nói shade trước đây bị xem nhẹ (\"treated as a by-product of trees planted for decoration\"), nay được coi là \"essential public infrastructure\". Đây là sự thay đổi vị thế của bóng râm trong quy hoạch."
+     },
+     {
+      "q": "Paragraph B",
+      "a": 7,
+      "para": "B",
+      "why": "Đoạn B: \"The case rests partly on the difference between air temperature and what people actually feel\". Nhiệt độ cảm nhận ngoài nắng có thể cao hơn 15-20 độ dù nhiệt độ không khí như nhau, tức nhiệt độ không khí không phản ánh hết."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 3,
+      "para": "C",
+      "why": "Đoạn C mô tả phố hẹp, mái vòm, sân trong ở các thị trấn cổ Địa Trung Hải và Trung Đông, kết quả của \"centuries of trial and error\". Đây là bài học từ các thị trấn cũ. Lưu ý heading \"abandoned\" không đúng vì đoạn không nói vì sao bị bỏ."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 5,
+      "para": "D",
+      "why": "Đoạn D: \"Modern cities, by contrast, have often been designed in ways that remove shade\", rồi nêu đường rộng, bê tông, nhựa đường, tháp kính làm phố nóng hơn (urban heat island)."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 4,
+      "para": "E",
+      "why": "Đoạn E nêu lợi ích của cây (\"offer more than shade alone\", làm mát bằng transpiration) và hạn chế (\"take decades to reach full size\", cây non hay chết). \"Natural solution\" = cây xanh."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 8,
+      "para": "F",
+      "why": "Đoạn F nói về mái che, buồm che nắng (\"built forms of shade\") và cảnh báo của Varga rằng bề mặt phản xạ \"can bounce heat back up onto pedestrians\"."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 1,
+      "para": "G",
+      "why": "Đoạn G: \"no single body is in charge of shade\" (khoảng trống trách nhiệm) và \"A few cities have begun to address this by drawing up shade plans\" (cách một số thành phố khắc phục)."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 21-24\nLook at the following statements (Questions 21-24) and the list of people below.\nMatch each statement with the correct person, A, B or C.\nYou may use any letter more than once.",
+    "opts": [
+     "Helena Varga",
+     "Samuel Okoro",
+     "Mia Lindqvist"
+    ],
+    "items": [
+     {
+      "q": "Trees that are planted in unsuitable conditions often fail to survive.",
+      "a": 2,
+      "para": "E",
+      "why": "Đoạn E: \"Lindqvist notes that young trees planted in small holes surrounded by concrete frequently die within a few years\"."
+     },
+     {
+      "q": "The layout of historic streets was developed deliberately over a long period.",
+      "a": 1,
+      "para": "C",
+      "why": "Đoạn C: Okoro cho rằng các đặc điểm này \"were not simply accidents\" và \"Their solutions were the result of centuries of trial and error.\""
+     },
+     {
+      "q": "Some surfaces intended to reduce heat may actually increase discomfort.",
+      "a": 0,
+      "para": "F",
+      "why": "Đoạn F: \"Varga cautions... a bright pavement can bounce heat back up onto pedestrians, making them feel hotter rather than cooler\"."
+     },
+     {
+      "q": "Streets that are unpleasant to walk along can lead people to use their cars more.",
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D: theo Lindqvist, các khu mới \"are uncomfortable to walk through... which encourages people to drive even for short journeys\"."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 25-27\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.",
+    "items": [
+     {
+      "q": "In modern cities, dark materials such as ___ take in heat during the day and give it off slowly after dark, which helps to keep the city warmer than the countryside.",
+      "a": "asphalt",
+      "para": "D",
+      "why": "Đoạn D: \"dark surfaces such as asphalt absorb heat during the day and release it slowly at night\"."
+     },
+     {
+      "q": "Trees can help because, through ___, they release water vapour that cools the surrounding air.",
+      "a": "transpiration",
+      "para": "E",
+      "why": "Đoạn E: \"Through a process called transpiration, they release water vapour from their leaves, which cools the air around them.\""
+     },
+     {
+      "q": "However, it is hard to give trees what they need under pavements that are crowded with pipes and ___.",
+      "a": "cables",
+      "para": "E",
+      "why": "Đoạn E: \"difficult to provide beneath crowded pavements full of pipes and cables\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "take something for granted",
+    "coi điều gì là hiển nhiên, không để ý tới"
+   ],
+   [
+    "by-product",
+    "sản phẩm phụ, kết quả phụ"
+   ],
+   [
+    "public infrastructure",
+    "cơ sở hạ tầng công cộng"
+   ],
+   [
+    "exposed",
+    "phơi ra, không được che chắn"
+   ],
+   [
+    "arcade",
+    "dãy hành lang có mái vòm"
+   ],
+   [
+    "trial and error",
+    "thử và sai"
+   ],
+   [
+    "urban heat island effect",
+    "hiệu ứng đảo nhiệt đô thị"
+   ],
+   [
+    "pedestrian",
+    "người đi bộ"
+   ],
+   [
+    "transpiration",
+    "sự thoát hơi nước (ở lá cây)"
+   ],
+   [
+    "canopy",
+    "mái che"
+   ],
+   [
+    "caution",
+    "cảnh báo, khuyên thận trọng"
+   ],
+   [
+    "give priority to",
+    "ưu tiên cho"
+   ]
+  ]
+ },
+ {
+  "id": "a3p3",
+  "type": "academic",
+  "test": 3,
+  "section": 3,
+  "title": "Measuring the Wrong Thing?",
+  "topic": "Medical research",
+  "band": "7-8",
+  "paras": [
+   [
+    "A",
+    "When a new medicine is tested, the question that matters most to patients is simple: will it help me live longer, or live better? Answering that question directly, however, can take many years and require tens of thousands of participants, because the events that researchers ultimately care about, such as heart attacks, strokes or deaths, may occur in only a small fraction of those enrolled. Understandably, then, medical science has come to rely heavily on shortcuts. Rather than waiting for these 'hard' outcomes, trials often measure a so-called surrogate endpoint: a laboratory value or physical sign, such as blood pressure, cholesterol level or the size of a tumour on a scan, that is expected to predict the outcome of real interest."
+   ],
+   [
+    "B",
+    "The appeal of surrogates is obvious, and I do not wish to suggest that they have no place in research. A change in blood sugar can be detected within weeks; a reduction in deaths from diabetes might take a decade to appear. By allowing treatments to be evaluated quickly and cheaply, surrogates have undoubtedly brought some valuable drugs to patients sooner than would otherwise have been possible. For people with rare or rapidly fatal diseases, for whom a long trial is simply not an option, this speed can make an enormous difference. My concern is not that surrogates are used, but that they are too often trusted beyond what the evidence can bear."
+   ],
+   [
+    "C",
+    "The fundamental problem is that a measurement may be associated with a disease without lying on the path that causes harm. Consider an analogy. Grey hair is strongly associated with age, and age with mortality, yet no one would expect hair dye to extend life. Few surrogates are as obviously misleading as this, but the logic is the same: a drug may improve the number that doctors are watching while leaving the underlying disease untouched, or it may act on the disease through one mechanism while causing damage through another that the surrogate fails to detect."
+   ],
+   [
+    "D",
+    "History provides sobering examples. In the 1980s, doctors knew that patients who experienced certain irregular heartbeats after a heart attack were more likely to die suddenly. It seemed reasonable to assume that drugs which suppressed these irregular rhythms would save lives, and such drugs were widely prescribed on precisely that basis. When a large trial finally tested the assumption, however, it found that patients receiving some of the drugs were dying at a substantially higher rate than those given a placebo. The surrogate had moved in the desired direction; the patients had not. Similar stories, though usually less dramatic, can be told about treatments that improved cholesterol readings or bone density without delivering the expected benefit."
+   ],
+   [
+    "E",
+    "Defenders of current practice reply that such cases are exceptions, and that regulators now demand stronger evidence before approving drugs on the basis of surrogates alone. There is some truth in this. Many agencies grant early approval only on condition that manufacturers carry out confirmatory trials measuring hard outcomes after the drug reaches the market. Yet studies of these arrangements have repeatedly found that confirmatory trials are delayed for years, are designed in ways that make clear answers unlikely, or are never completed at all. Meanwhile, the drug is prescribed to many thousands of people, and once a treatment has become established, there is little commercial incentive to discover that it does not work."
+   ],
+   [
+    "F",
+    "A subtler difficulty is that a surrogate validated for one treatment may not be valid for another. Even if lowering blood pressure with one class of drug reduces strokes, a new drug that lowers blood pressure by a different biological route might not do the same, because its other effects on the body are unknown. Researchers sometimes speak as though a surrogate, once accepted, is permanently reliable. In my view, this is a category error: what has been validated is the relationship between a particular intervention, a particular measurement and a particular outcome, not the measurement in general."
+   ],
+   [
+    "G",
+    "None of this means that we should abandon surrogates, which would bring the development of many treatments almost to a halt. What it does mean is that their limitations should be stated far more honestly, both by researchers and by those who report on their work. Press releases announcing that a drug 'shrinks tumours' or 'cuts cholesterol' frequently imply that it saves lives, which may or may not be true. Patients deciding whether to accept a treatment deserve to know whether its benefits have been shown on outcomes they care about, or merely on numbers in a laboratory report."
+   ],
+   [
+    "H",
+    "There are also practical steps that could reduce the risk. Regulators could set firm deadlines for confirmatory trials and withdraw approval when these are missed. Trials could be designed to collect information on hard outcomes from the beginning, even if the initial decision is based on a surrogate. And large databases of patient records, now increasingly available, could be used to monitor whether the benefits suggested by early studies actually appear in everyday practice. Surrogates are, at best, informed guesses about the future. The danger lies not in making such guesses, but in forgetting that that is all they are."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 28-31\nReading Passage 3 has eight paragraphs, A-H.\nWhich paragraph contains the following information?\nWrite the correct letter, A-H.",
+    "items": [
+     {
+      "q": "a comparison used to show how a sign can be linked to a condition without causing harm",
+      "a": "C",
+      "para": "C",
+      "why": "Đoạn C dùng phép so sánh tóc bạc: \"Grey hair is strongly associated with age... yet no one would expect hair dye to extend life\". Đây là dấu hiệu có liên quan nhưng không nằm trên \"the path that causes harm\"."
+     },
+     {
+      "q": "an example of a treatment that improved a measurement while increasing the number of deaths",
+      "a": "D",
+      "para": "D",
+      "why": "Đoạn D: thuốc chống loạn nhịp làm giảm nhịp tim bất thường nhưng \"patients receiving some of the drugs were dying at a substantially higher rate\"; \"The surrogate had moved in the desired direction; the patients had not.\""
+     },
+     {
+      "q": "a reference to patients for whom fast evaluation of treatments is especially important",
+      "a": "B",
+      "para": "B",
+      "why": "Đoạn B: \"For people with rare or rapidly fatal diseases, for whom a long trial is simply not an option, this speed can make an enormous difference.\""
+     },
+     {
+      "q": "a criticism of the way research results are sometimes presented to the public",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: \"Press releases announcing that a drug 'shrinks tumours' or 'cuts cholesterol' frequently imply that it saves lives, which may or may not be true.\""
+     }
+    ]
+   },
+   {
+    "kind": "ynng",
+    "instr": "Questions 32-36\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "Surrogate endpoints should no longer be used in drug trials.",
+      "a": "NO",
+      "para": "G",
+      "why": "Tác giả phản đối việc bỏ hẳn: đoạn B \"I do not wish to suggest that they have no place in research\" và đoạn G \"None of this means that we should abandon surrogates\"."
+     },
+     {
+      "q": "Confirmatory trials frequently fail to produce clear results.",
+      "a": "YES",
+      "para": "E",
+      "why": "Đoạn E: các nghiên cứu cho thấy confirmatory trials \"are delayed for years, are designed in ways that make clear answers unlikely, or are never completed at all\"."
+     },
+     {
+      "q": "Drug manufacturers deliberately hide negative trial results from regulators.",
+      "a": "NOT GIVEN",
+      "para": "E",
+      "why": "Đoạn E chỉ nói \"there is little commercial incentive to discover that it does not work\" (không có động lực tìm hiểu), không nói hãng thuốc cố tình giấu kết quả xấu với cơ quan quản lý."
+     },
+     {
+      "q": "A surrogate shown to be reliable for one drug can be assumed to be reliable for a different type of drug.",
+      "a": "NO",
+      "para": "F",
+      "why": "Đoạn F: \"a surrogate validated for one treatment may not be valid for another\", và tác giả gọi quan niệm surrogate đã chấp nhận thì luôn đáng tin là \"a category error\"."
+     },
+     {
+      "q": "Databases of patient records are a more reliable source of evidence than clinical trials.",
+      "a": "NOT GIVEN",
+      "para": "H",
+      "why": "Đoạn H chỉ đề xuất dùng cơ sở dữ liệu \"to monitor whether the benefits suggested by early studies actually appear in everyday practice\", không so sánh độ tin cậy với thử nghiệm lâm sàng."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 37-40\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to paragraph A, trials that measure hard outcomes are difficult to carry out because",
+      "o": [
+       "patients are unwilling to take part for many years.",
+       "the events being studied affect relatively few participants.",
+       "laboratory tests are expensive to perform.",
+       "doctors disagree about which outcomes matter most."
+      ],
+      "a": 1,
+      "para": "A",
+      "why": "Đoạn A: cần hàng chục nghìn người tham gia \"because the events that researchers ultimately care about... may occur in only a small fraction of those enrolled\"."
+     },
+     {
+      "q": "What point does the writer make about early approval in paragraph E?",
+      "o": [
+       "Most regulators have stopped granting it.",
+       "It has removed the need for further research.",
+       "The conditions attached to it are often not met in practice.",
+       "It is only available for drugs that treat rare diseases."
+      ],
+      "a": 2,
+      "para": "E",
+      "why": "Đoạn E: early approval đi kèm điều kiện phải làm confirmatory trials, \"Yet... confirmatory trials are delayed for years... or are never completed at all\", tức điều kiện thường không được thực hiện."
+     },
+     {
+      "q": "The writer describes the belief that an accepted surrogate is permanently reliable as",
+      "o": [
+       "a reasonable assumption in most cases.",
+       "a misunderstanding of what has actually been proven.",
+       "a view held mainly by regulators.",
+       "a recent development in medical research."
+      ],
+      "a": 1,
+      "para": "F",
+      "why": "Đoạn F: \"this is a category error: what has been validated is the relationship between a particular intervention, a particular measurement and a particular outcome, not the measurement in general\". Tức là hiểu sai điều đã được chứng minh. Bài nói \"Researchers\" giữ quan niệm này, không phải regulators."
+     },
+     {
+      "q": "Which of the following best summarises the writer's overall argument?",
+      "o": [
+       "Surrogate endpoints are useful but are often relied on too heavily.",
+       "Surrogate endpoints have done more harm than good.",
+       "Regulators are mainly responsible for the misuse of surrogates.",
+       "New technology will soon make surrogate endpoints unnecessary."
+      ],
+      "a": 0,
+      "para": "B",
+      "why": "Đoạn B: \"My concern is not that surrogates are used, but that they are too often trusted beyond what the evidence can bear\", và đoạn H: \"The danger lies not in making such guesses, but in forgetting that that is all they are.\""
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "surrogate endpoint",
+    "tiêu chí thay thế (chỉ số dùng thay cho kết cục thật)"
+   ],
+   [
+    "hard outcome",
+    "kết cục lâm sàng thật (tử vong, đột quỵ...)"
+   ],
+   [
+    "enrol",
+    "đăng ký tham gia"
+   ],
+   [
+    "beyond what the evidence can bear",
+    "vượt quá mức bằng chứng cho phép"
+   ],
+   [
+    "be associated with",
+    "có liên quan với"
+   ],
+   [
+    "underlying disease",
+    "bệnh nền, căn bệnh gốc"
+   ],
+   [
+    "sobering",
+    "khiến phải suy nghĩ nghiêm túc"
+   ],
+   [
+    "placebo",
+    "giả dược"
+   ],
+   [
+    "regulator",
+    "cơ quan quản lý"
+   ],
+   [
+    "confirmatory trial",
+    "thử nghiệm xác nhận"
+   ],
+   [
+    "commercial incentive",
+    "động lực thương mại"
+   ],
+   [
+    "category error",
+    "lỗi phạm trù, nhầm lẫn về bản chất"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,3146 @@
+[
+ {
+  "id": "d001",
+  "cat": "idiom",
+  "title": "A piece of cake",
+  "en": "a piece of cake",
+  "vi": "Rất dễ, dễ như ăn kẹo. Dùng tự nhiên trong Speaking khi nói về một việc không tốn sức.",
+  "ex": [
+   "The first part of the test was a piece of cake, but the last section was much harder.",
+   "Phần đầu bài thi rất dễ, nhưng phần cuối khó hơn nhiều."
+  ],
+  "q": {
+   "q": "\"The exam was a piece of cake\" nghĩa là gì?",
+   "o": [
+    "Bài thi rất dễ",
+    "Bài thi rất ngắn",
+    "Bài thi rất khó",
+    "Bài thi có phần thưởng"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d002",
+  "cat": "collocation",
+  "title": "Make a decision",
+  "en": "make a decision (not do a decision)",
+  "vi": "Tiếng Anh nói \"make a decision\", không nói \"do a decision\". Có thể thêm tính từ: a difficult/informed decision.",
+  "ex": [
+   "Choosing a university was the hardest decision I have ever made.",
+   "Chọn trường đại học là quyết định khó nhất tôi từng đưa ra."
+  ],
+  "q": {
+   "q": "Chọn động từ đúng: \"___ a decision\"",
+   "o": [
+    "do",
+    "take up",
+    "get",
+    "make"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d003",
+  "cat": "phrasal",
+  "title": "Put off",
+  "en": "put off = postpone",
+  "vi": "Trì hoãn, dời lại. Tân ngữ có thể đứng giữa: put it off.",
+  "ex": [
+   "I kept putting off my IELTS registration, but I finally booked a date.",
+   "Tôi cứ dời việc đăng ký IELTS mãi, cuối cùng cũng đặt được ngày."
+  ],
+  "q": {
+   "q": "\"Don't put it off\" nghĩa là:",
+   "o": [
+    "Đừng cởi nó ra",
+    "Đừng tắt nó",
+    "Đừng trì hoãn nó",
+    "Đừng đặt nó xuống"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d004",
+  "cat": "tip",
+  "title": "Listening - đọc trước câu hỏi",
+  "en": "Use the time before each section to read the questions and underline key words.",
+  "vi": "Trước mỗi phần nghe luôn có vài giây để đọc câu hỏi. Gạch chân từ khóa và đoán loại thông tin cần điền (số, tên, ngày...).",
+  "ex": [
+   "Question 3: The course starts on ___ (a date). I'll listen for a date.",
+   "Câu 3 cần một ngày tháng, mình sẽ tập trung nghe ngày."
+  ],
+  "q": {
+   "q": "Nên làm gì trong thời gian trước mỗi phần nghe?",
+   "o": [
+    "Kiểm tra lại câu trước",
+    "Đọc câu hỏi và gạch từ khóa",
+    "Nhắm mắt nghỉ",
+    "Viết đáp án đoán trước"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d005",
+  "cat": "mistake",
+  "title": "Discuss about",
+  "en": "discuss about something -> discuss something",
+  "vi": "\"Discuss\" là ngoại động từ, đi thẳng với tân ngữ. Lỗi này do dịch \"thảo luận về\". Nhưng danh từ thì có: a discussion about.",
+  "ex": [
+   "In this essay, I will discuss the advantages of online learning.",
+   "Trong bài này, tôi sẽ bàn về lợi ích của học trực tuyến."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "We discussed the problem.",
+    "We discussed about the problem.",
+    "We discussed on the problem.",
+    "We discussed for the problem."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d006",
+  "cat": "fact",
+  "title": "IELTS ra đời năm nào?",
+  "en": "IELTS was launched in 1989.",
+  "vi": "IELTS bắt đầu từ năm 1989, thay cho bài thi ELTS trước đó. Ngày nay mỗi năm có hàng triệu lượt thi trên thế giới.",
+  "ex": [
+   "IELTS has been around since 1989.",
+   "IELTS đã có từ năm 1989."
+  ],
+  "q": {
+   "q": "IELTS ra đời năm:",
+   "o": [
+    "1969",
+    "2001",
+    "1995",
+    "1989"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d007",
+  "cat": "idiom",
+  "title": "Once in a blue moon",
+  "en": "once in a blue moon",
+  "vi": "Rất hiếm khi, năm thì mười họa. Hợp để trả lời câu hỏi Part 1 kiểu \"How often do you...?\".",
+  "ex": [
+   "I only go to the cinema once in a blue moon because I prefer watching films at home.",
+   "Tôi rất hiếm khi ra rạp vì tôi thích xem phim ở nhà hơn."
+  ],
+  "q": {
+   "q": "Câu nào hợp với \"once in a blue moon\"?",
+   "o": [
+    "I eat fast food once in a blue moon, almost every day.",
+    "I eat fast food once in a blue moon at night only.",
+    "I eat fast food once in a blue moon with blue plates.",
+    "I eat fast food once in a blue moon, maybe twice a year."
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d008",
+  "cat": "collocation",
+  "title": "Do research",
+  "en": "do research / carry out research",
+  "vi": "Dùng \"do\" hoặc \"carry out\" với research. \"Research\" thường không đếm được, nên không viết \"a research\".",
+  "ex": [
+   "Scientists have carried out extensive research into the effects of sleep on memory.",
+   "Các nhà khoa học đã nghiên cứu sâu về ảnh hưởng của giấc ngủ lên trí nhớ."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I made a research on the topic.",
+    "I did a researches on the topic.",
+    "I did some research on the topic.",
+    "I researched about on the topic."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d009",
+  "cat": "phrasal",
+  "title": "Come up with",
+  "en": "come up with an idea/a solution",
+  "vi": "Nghĩ ra, nảy ra (ý tưởng, giải pháp).",
+  "ex": [
+   "Our team came up with a great idea for the school festival.",
+   "Nhóm tôi nghĩ ra một ý tưởng rất hay cho lễ hội trường."
+  ],
+  "q": {
+   "q": "Điền: \"She came ___ ___ a clever solution.\"",
+   "o": [
+    "out of",
+    "up with",
+    "in for",
+    "down on"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d010",
+  "cat": "tip",
+  "title": "Listening - cẩn thận bẫy",
+  "en": "Watch out for speakers who change their mind or correct themselves.",
+  "vi": "Người nói hay đưa thông tin rồi sửa lại (\"Oh no, sorry, it's actually Thursday\"). Đáp án đúng thường là thông tin sau cùng.",
+  "ex": [
+   "\"The meeting is on Tuesday... oh wait, it's been moved to Thursday.\"",
+   "\"Họp thứ Ba... à khoan, dời sang thứ Năm rồi.\" -> đáp án là Thursday."
+  ],
+  "q": {
+   "q": "Người nói: \"It's 15 pounds, no sorry, 50 pounds.\" Đáp án là:",
+   "o": [
+    "50",
+    "15",
+    "65",
+    "15 or 50"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d011",
+  "cat": "mistake",
+  "title": "People is",
+  "en": "people is -> people are",
+  "vi": "\"People\" đã là số nhiều nên đi với \"are\", \"have\", động từ không thêm -s.",
+  "ex": [
+   "People are becoming more aware of their health.",
+   "Mọi người ngày càng quan tâm tới sức khỏe hơn."
+  ],
+  "q": {
+   "q": "Điền: \"Many people ___ moving to big cities.\"",
+   "o": [
+    "is",
+    "was",
+    "has",
+    "are"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d012",
+  "cat": "fact",
+  "title": "Ai sở hữu IELTS?",
+  "en": "IELTS is jointly owned by the British Council, IDP and Cambridge University Press & Assessment.",
+  "vi": "Ba đơn vị cùng sở hữu IELTS. Vì vậy ở Việt Nam bạn có thể đăng ký thi qua British Council hoặc IDP, đề thi và cách chấm như nhau.",
+  "ex": [
+   "The test is the same whether you book with IDP or the British Council.",
+   "Đề thi giống nhau dù bạn đăng ký qua IDP hay British Council."
+  ],
+  "q": {
+   "q": "Đăng ký ở IDP hay British Council thì đề thi:",
+   "o": [
+    "IDP dễ hơn",
+    "British Council dễ hơn",
+    "giống nhau về định dạng và cách chấm",
+    "khác hoàn toàn"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d013",
+  "cat": "idiom",
+  "title": "Hit the books",
+  "en": "hit the books",
+  "vi": "Bắt đầu học hành chăm chỉ, thường là trước kỳ thi.",
+  "ex": [
+   "I need to hit the books this weekend because my IELTS test is next month.",
+   "Cuối tuần này tôi phải học chăm vì tháng sau tôi thi IELTS."
+  ],
+  "q": {
+   "q": "\"Hit the books\" nghĩa là:",
+   "o": [
+    "vứt sách đi",
+    "mua thật nhiều sách",
+    "học hành chăm chỉ",
+    "đi thư viện mượn sách"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d014",
+  "cat": "collocation",
+  "title": "Heavy traffic",
+  "en": "heavy traffic",
+  "vi": "Giao thông đông, kẹt xe. Không nói \"big traffic\" hay \"crowded traffic\".",
+  "ex": [
+   "There is always heavy traffic in Ho Chi Minh City during rush hour.",
+   "Giờ cao điểm ở TP.HCM lúc nào cũng kẹt xe."
+  ],
+  "q": {
+   "q": "Tính từ nào đi với \"traffic\" để chỉ đông xe?",
+   "o": [
+    "big",
+    "heavy",
+    "strong",
+    "fat"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d015",
+  "cat": "phrasal",
+  "title": "Look forward to",
+  "en": "look forward to + V-ing/noun",
+  "vi": "Mong chờ. \"To\" ở đây là giới từ nên sau nó là V-ing, không phải động từ nguyên mẫu.",
+  "ex": [
+   "I'm really looking forward to visiting my grandparents next month.",
+   "Tôi rất mong được về thăm ông bà tháng sau."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I look forward to hearing from you.",
+    "I look forward to hear from you.",
+    "I look forward hearing from you.",
+    "I look forward for hearing from you."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d016",
+  "cat": "tip",
+  "title": "Listening - chính tả",
+  "en": "Spelling counts: a misspelt answer is marked wrong.",
+  "vi": "Trong Listening và Reading, viết sai chính tả là mất điểm câu đó. Luyện các từ hay sai: accommodation, environment, Wednesday, February.",
+  "ex": [
+   "accommodation (2 c, 2 m), Wednesday, library",
+   "accommodation có 2 chữ c và 2 chữ m."
+  ],
+  "q": {
+   "q": "Viết \"acommodation\" trong bài Listening sẽ:",
+   "o": [
+    "vẫn được điểm",
+    "được nửa điểm",
+    "bị trừ điểm toàn bài",
+    "bị chấm sai"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d017",
+  "cat": "mistake",
+  "title": "Quên -s ngôi thứ ba",
+  "en": "He go -> He goes",
+  "vi": "Với he/she/it và danh từ số ít, động từ thì hiện tại đơn phải thêm -s/-es. Tiếng Việt không chia động từ nên rất dễ quên, nhất là khi nói.",
+  "ex": [
+   "My mother works in a hospital and gets up at 5 a.m.",
+   "Mẹ tôi làm ở bệnh viện và dậy lúc 5 giờ sáng."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "My brother play football every Sunday.",
+    "My brother playing football every Sunday.",
+    "My brother plays football every Sunday.",
+    "My brother is play football every Sunday."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d018",
+  "cat": "fact",
+  "title": "Cách làm tròn band",
+  "en": "The overall band is the average of four skills, rounded to the nearest half band.",
+  "vi": "Trung bình .25 được làm tròn lên .5, trung bình .75 được làm tròn lên band nguyên tiếp theo. Ví dụ 6.0 + 6.5 + 6.5 + 6.0 = 6.25 -> 6.5.",
+  "ex": [
+   "Average 6.75 -> overall band 7.0",
+   "Trung bình 6.75 được làm tròn thành 7.0."
+  ],
+  "q": {
+   "q": "Listening 7, Reading 7, Writing 6, Speaking 6. Overall là:",
+   "o": [
+    "6.0",
+    "6.5",
+    "7.0",
+    "6.25"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d019",
+  "cat": "idiom",
+  "title": "Under the weather",
+  "en": "under the weather",
+  "vi": "Hơi mệt, hơi ốm, không khỏe lắm. Nhẹ hơn \"ill\" hay \"sick\".",
+  "ex": [
+   "I was feeling a bit under the weather, so I stayed at home and rested.",
+   "Tôi thấy hơi mệt nên ở nhà nghỉ ngơi."
+  ],
+  "q": {
+   "q": "\"I'm a bit under the weather\" nghĩa là:",
+   "o": [
+    "Tôi ghét thời tiết xấu",
+    "Tôi hơi không khỏe",
+    "Tôi đang ở ngoài trời mưa",
+    "Tôi rất vui"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d020",
+  "cat": "collocation",
+  "title": "Pay attention",
+  "en": "pay attention to something",
+  "vi": "\"Chú ý\" là \"pay attention to\", không phải \"give attention\" hay \"put attention\".",
+  "ex": [
+   "Pay close attention to the instructions before you start writing.",
+   "Hãy chú ý kỹ phần hướng dẫn trước khi bắt đầu viết."
+  ],
+  "q": {
+   "q": "Điền: \"Students should ___ attention to word limits.\"",
+   "o": [
+    "pay",
+    "put",
+    "make",
+    "do"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d021",
+  "cat": "phrasal",
+  "title": "Get along with",
+  "en": "get along/on with someone",
+  "vi": "Hòa hợp với ai. Người Anh hay nói \"get on with\" hơn.",
+  "ex": [
+   "I get on really well with my flatmates.",
+   "Tôi rất hợp với mấy bạn ở chung."
+  ],
+  "q": {
+   "q": "\"I get along with my boss\" nghĩa là:",
+   "o": [
+    "Tôi đi cùng sếp",
+    "Tôi lấy đồ của sếp",
+    "Tôi tránh mặt sếp",
+    "Tôi hòa hợp với sếp"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d022",
+  "cat": "tip",
+  "title": "Listening - giới hạn số từ",
+  "en": "Follow the word limit exactly: \"NO MORE THAN TWO WORDS\" means two words maximum.",
+  "vi": "Nếu đề cho tối đa hai từ mà bạn viết ba từ thì câu đó sai, dù ý đúng.",
+  "ex": [
+   "Instruction: NO MORE THAN TWO WORDS. Answer: \"wooden box\" (not \"a small wooden box\").",
+   "Viết \"wooden box\" chứ không viết \"a small wooden box\"."
+  ],
+  "q": {
+   "q": "Đề: ONE WORD ONLY. Đáp án nào hợp lệ?",
+   "o": [
+    "the garden",
+    "back garden",
+    "garden",
+    "a garden"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d023",
+  "cat": "mistake",
+  "title": "Quên -ed thì quá khứ",
+  "en": "Yesterday I watch -> Yesterday I watched",
+  "vi": "Khi kể chuyện quá khứ (Part 2 rất hay), động từ phải ở dạng quá khứ. Lỗi này hay xảy ra khi nói và khi không phát âm âm cuối /t/, /d/.",
+  "ex": [
+   "Last summer I visited Hoi An and stayed with a local family.",
+   "Hè năm ngoái tôi đến Hội An và ở cùng một gia đình địa phương."
+  ],
+  "q": {
+   "q": "Điền: \"Two years ago, we ___ to Japan.\"",
+   "o": [
+    "travel",
+    "travelled",
+    "travels",
+    "are travelling"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d024",
+  "cat": "fact",
+  "title": "Bài Listening",
+  "en": "The Listening test has 4 parts and 40 questions, and the recording is heard only once.",
+  "vi": "Bài nghe khoảng 30 phút. Thi giấy có thêm 10 phút chép đáp án; thi máy chỉ có khoảng 2 phút kiểm tra lại.",
+  "ex": [
+   "Each part has 10 questions.",
+   "Mỗi phần có 10 câu hỏi."
+  ],
+  "q": {
+   "q": "Băng nghe IELTS được phát mấy lần?",
+   "o": [
+    "Một lần",
+    "Hai lần",
+    "Ba lần",
+    "Tùy thí sinh"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d025",
+  "cat": "idiom",
+  "title": "The best of both worlds",
+  "en": "the best of both worlds",
+  "vi": "Có được lợi ích của cả hai lựa chọn cùng lúc.",
+  "ex": [
+   "Living in the suburbs gives me the best of both worlds: peace and quiet, but the city centre is only twenty minutes away.",
+   "Sống ở ngoại ô cho tôi cả hai cái lợi: yên tĩnh mà trung tâm thành phố chỉ cách hai mươi phút."
+  ],
+  "q": {
+   "q": "Khi nào nên dùng \"the best of both worlds\"?",
+   "o": [
+    "Khi một lựa chọn có ưu điểm của cả hai phía",
+    "Khi phải chọn giữa hai thứ tồi tệ",
+    "Khi đi du lịch hai nước",
+    "Khi so sánh hai thế giới khác nhau"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d026",
+  "cat": "collocation",
+  "title": "Take responsibility",
+  "en": "take responsibility for something",
+  "vi": "Chịu trách nhiệm về việc gì. Đi với \"for\".",
+  "ex": [
+   "Parents should take responsibility for teaching their children good manners.",
+   "Cha mẹ nên chịu trách nhiệm dạy con cư xử đúng mực."
+  ],
+  "q": {
+   "q": "Giới từ đúng: \"take responsibility ___ the mistake\"",
+   "o": [
+    "of",
+    "with",
+    "about",
+    "for"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d027",
+  "cat": "phrasal",
+  "title": "Figure out",
+  "en": "figure out",
+  "vi": "Hiểu ra, tìm ra cách (sau khi suy nghĩ).",
+  "ex": [
+   "It took me a while to figure out how the new app works.",
+   "Tôi mất một lúc mới hiểu ứng dụng mới hoạt động thế nào."
+  ],
+  "q": {
+   "q": "Từ gần nghĩa nhất với \"figure out\":",
+   "o": [
+    "draw a picture",
+    "count numbers",
+    "work out / understand",
+    "go outside"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d028",
+  "cat": "tip",
+  "title": "Listening - số ít hay số nhiều",
+  "en": "Check whether the gap needs a singular or plural noun.",
+  "vi": "Nhìn từ đứng trước chỗ trống (a, an, many, several) để biết cần số ít hay số nhiều. Thiếu -s có thể bị chấm sai.",
+  "ex": [
+   "Visitors should bring several ___ (answer: towels).",
+   "\"several\" -> cần danh từ số nhiều: towels."
+  ],
+  "q": {
+   "q": "\"Bring two ___\" (nghe: torch). Nên viết:",
+   "o": [
+    "torch",
+    "torches",
+    "a torch",
+    "torchs"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d029",
+  "cat": "mistake",
+  "title": "I very like",
+  "en": "I very like -> I really like / I like ... very much",
+  "vi": "\"Very\" không bổ nghĩa cho động từ. Dùng \"really\" trước động từ hoặc \"very much\" ở cuối câu.",
+  "ex": [
+   "I really like spending time in nature.",
+   "Tôi rất thích dành thời gian với thiên nhiên."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I really enjoy reading.",
+    "I very enjoy reading.",
+    "I very much enjoy very reading.",
+    "I enjoy very reading."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d030",
+  "cat": "fact",
+  "title": "Bài Reading",
+  "en": "The Reading test lasts 60 minutes and has 40 questions.",
+  "vi": "Academic có 3 bài đọc dài, General Training có nhiều văn bản ngắn hơn ở phần đầu. Cả hai đều 40 câu trong 60 phút.",
+  "ex": [
+   "About 1.5 minutes per question on average.",
+   "Trung bình khoảng 1,5 phút mỗi câu."
+  ],
+  "q": {
+   "q": "Bài Reading IELTS có bao nhiêu câu hỏi?",
+   "o": [
+    "30",
+    "50",
+    "60",
+    "40"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d031",
+  "cat": "idiom",
+  "title": "On the same page",
+  "en": "be on the same page",
+  "vi": "Cùng hiểu, cùng quan điểm về một việc. Hay dùng khi nói về làm việc nhóm.",
+  "ex": [
+   "Before we started the project, we had a meeting to make sure everyone was on the same page.",
+   "Trước khi bắt đầu dự án, chúng tôi họp để chắc mọi người cùng hiểu vấn đề."
+  ],
+  "q": {
+   "q": "\"We're on the same page\" nghĩa là:",
+   "o": [
+    "Chúng tôi đọc cùng một cuốn sách",
+    "Chúng tôi ngồi cạnh nhau",
+    "Chúng tôi đang tranh cãi",
+    "Chúng tôi đồng quan điểm"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d032",
+  "cat": "collocation",
+  "title": "Raise awareness",
+  "en": "raise awareness of/about something",
+  "vi": "Nâng cao nhận thức. Cụm cực hay dùng trong Writing Task 2 về môi trường, sức khỏe.",
+  "ex": [
+   "The campaign aims to raise awareness of the dangers of plastic waste.",
+   "Chiến dịch nhằm nâng cao nhận thức về tác hại của rác thải nhựa."
+  ],
+  "q": {
+   "q": "Động từ nào đi với \"awareness\"?",
+   "o": [
+    "rise",
+    "grow up",
+    "raise",
+    "lift up"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d033",
+  "cat": "phrasal",
+  "title": "Run out of",
+  "en": "run out of something",
+  "vi": "Hết, cạn (tiền, thời gian, sữa...).",
+  "ex": [
+   "I ran out of time and couldn't finish the last question.",
+   "Tôi hết giờ nên không làm xong câu cuối."
+  ],
+  "q": {
+   "q": "\"We've run out of milk\" nghĩa là:",
+   "o": [
+    "Sữa bị đổ ra ngoài",
+    "Hết sữa rồi",
+    "Chúng tôi chạy đi mua sữa",
+    "Sữa bị hỏng"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d034",
+  "cat": "tip",
+  "title": "Reading - đọc lướt rồi đọc dò",
+  "en": "Skim the passage first for the main idea, then scan for specific details.",
+  "vi": "Skim: đọc lướt 2-3 phút để biết mỗi đoạn nói gì. Scan: dò nhanh tìm tên riêng, số, năm, từ khóa để trả lời câu hỏi chi tiết.",
+  "ex": [
+   "Scan for \"1998\" or \"Dr Patel\" to locate the answer quickly.",
+   "Dò tìm \"1998\" hay \"Dr Patel\" để tìm nhanh vị trí đáp án."
+  ],
+  "q": {
+   "q": "Muốn tìm năm một phát minh ra đời, nên:",
+   "o": [
+    "scan tìm con số",
+    "đọc từng chữ từ đầu",
+    "chỉ đọc tiêu đề",
+    "đoán dựa vào hiểu biết"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d035",
+  "cat": "mistake",
+  "title": "Informations",
+  "en": "informations -> information",
+  "vi": "\"Information\" không đếm được, không thêm -s, không đi với \"a\". Tương tự: advice, equipment, furniture, homework, knowledge.",
+  "ex": [
+   "The website provides useful information about visas.",
+   "Trang web cung cấp thông tin hữu ích về visa."
+  ],
+  "q": {
+   "q": "Từ nào KHÔNG thêm -s được?",
+   "o": [
+    "idea",
+    "suggestion",
+    "opinion",
+    "advice"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d036",
+  "cat": "fact",
+  "title": "Writing Task 2 nhân đôi",
+  "en": "In the Writing test, Task 2 counts twice as much as Task 1.",
+  "vi": "Điểm Writing tính theo trọng số: Task 2 nặng gấp đôi Task 1. Vì vậy một bài Task 2 yếu kéo điểm xuống rất nhiều.",
+  "ex": [
+   "Task 1: 20 minutes, Task 2: 40 minutes.",
+   "Task 1 khoảng 20 phút, Task 2 khoảng 40 phút."
+  ],
+  "q": {
+   "q": "Phần nào trong Writing chiếm trọng số lớn hơn?",
+   "o": [
+    "Task 1",
+    "Task 2",
+    "Bằng nhau"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d037",
+  "cat": "idiom",
+  "title": "Break the ice",
+  "en": "break the ice",
+  "vi": "Phá vỡ bầu không khí ngại ngùng khi mới gặp nhau.",
+  "ex": [
+   "Our teacher played a quick game on the first day to break the ice.",
+   "Ngày đầu, cô giáo cho chơi một trò ngắn để mọi người bớt ngại."
+  ],
+  "q": {
+   "q": "Ai đó kể chuyện vui để \"break the ice\". Mục đích là:",
+   "o": [
+    "làm mọi người im lặng",
+    "kết thúc cuộc họp",
+    "giúp mọi người bớt ngượng",
+    "làm lạnh phòng"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d038",
+  "cat": "collocation",
+  "title": "Meet a deadline",
+  "en": "meet a deadline",
+  "vi": "Kịp hạn chót. Ngược lại là \"miss a deadline\".",
+  "ex": [
+   "I worked late every night to meet the deadline.",
+   "Tôi làm muộn mỗi tối để kịp hạn chót."
+  ],
+  "q": {
+   "q": "Ngược nghĩa với \"meet a deadline\" là:",
+   "o": [
+    "lose a deadline",
+    "miss a deadline",
+    "fail to deadline",
+    "late a deadline"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d039",
+  "cat": "phrasal",
+  "title": "Give up",
+  "en": "give up (doing) something",
+  "vi": "Từ bỏ. Sau \"give up\" dùng V-ing.",
+  "ex": [
+   "My father gave up smoking ten years ago.",
+   "Bố tôi bỏ thuốc lá cách đây mười năm."
+  ],
+  "q": {
+   "q": "Điền: \"He gave up ___ meat last year.\"",
+   "o": [
+    "eating",
+    "eat",
+    "to eat",
+    "ate"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d040",
+  "cat": "tip",
+  "title": "Reading - FALSE hay NOT GIVEN",
+  "en": "FALSE means the passage says the opposite; NOT GIVEN means the passage doesn't say.",
+  "vi": "FALSE: bài đọc nói ngược lại câu nhận định. NOT GIVEN: bài không có thông tin để khẳng định hay phủ định. Đừng dùng hiểu biết bên ngoài.",
+  "ex": [
+   "Text: \"The bridge opened in 1932.\" Statement: \"The bridge was expensive.\" -> NOT GIVEN.",
+   "Bài chỉ nói năm khánh thành, không nói giá -> NOT GIVEN."
+  ],
+  "q": {
+   "q": "Bài: \"Most visitors came by train.\" Nhận định: \"Few visitors used trains.\" Đáp án:",
+   "o": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d041",
+  "cat": "mistake",
+  "title": "Although ... but",
+  "en": "Although it rained, but we went out -> Although it rained, we went out",
+  "vi": "Tiếng Việt nói \"Mặc dù... nhưng...\", còn tiếng Anh chỉ dùng một liên từ: although HOẶC but.",
+  "ex": [
+   "Although the test was difficult, I managed to finish it.",
+   "Mặc dù bài thi khó, tôi vẫn làm xong."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "Although he was tired, but he kept working.",
+    "Although he was tired but kept working.",
+    "Although he was tired, he kept working.",
+    "But although he was tired, he kept working."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d042",
+  "cat": "fact",
+  "title": "Bài Speaking",
+  "en": "The Speaking test lasts 11-14 minutes and is recorded.",
+  "vi": "Speaking gồm 3 phần, nói trực tiếp với giám khảo (hoặc qua video call ở một số nơi). Buổi thi được ghi âm để đảm bảo chấm công bằng.",
+  "ex": [
+   "Part 1: 4-5 min, Part 2: 3-4 min, Part 3: 4-5 min.",
+   "Part 1 khoảng 4-5 phút, Part 2 khoảng 3-4 phút, Part 3 khoảng 4-5 phút."
+  ],
+  "q": {
+   "q": "Bài Speaking kéo dài khoảng:",
+   "o": [
+    "5 phút",
+    "11-14 phút",
+    "30 phút",
+    "1 tiếng"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d043",
+  "cat": "idiom",
+  "title": "A blessing in disguise",
+  "en": "a blessing in disguise",
+  "vi": "Chuyện tưởng xấu nhưng hóa ra lại tốt, trong cái rủi có cái may.",
+  "ex": [
+   "Failing my driving test the first time was a blessing in disguise because I became a much more careful driver.",
+   "Trượt bằng lái lần đầu hóa ra lại tốt vì tôi trở thành người lái cẩn thận hơn nhiều."
+  ],
+  "q": {
+   "q": "\"A blessing in disguise\" là:",
+   "o": [
+    "một món quà được gói kỹ",
+    "điều không may hóa ra có lợi",
+    "một lời chúc bí mật",
+    "một điều may mắn rồi thành xui"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d044",
+  "cat": "collocation",
+  "title": "Draw a conclusion",
+  "en": "draw a conclusion",
+  "vi": "Rút ra kết luận. Không nói \"take a conclusion\".",
+  "ex": [
+   "It is too early to draw any firm conclusions from the data.",
+   "Còn quá sớm để rút ra kết luận chắc chắn từ dữ liệu."
+  ],
+  "q": {
+   "q": "Điền: \"We can ___ a conclusion from these results.\"",
+   "o": [
+    "draw",
+    "take",
+    "do",
+    "pull out"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d045",
+  "cat": "phrasal",
+  "title": "Cut down on",
+  "en": "cut down on something",
+  "vi": "Cắt giảm (lượng tiêu thụ cái gì). Rất hợp chủ đề sức khỏe, môi trường.",
+  "ex": [
+   "I'm trying to cut down on sugar and fast food.",
+   "Tôi đang cố giảm đường và đồ ăn nhanh."
+  ],
+  "q": {
+   "q": "\"Cut down on plastic\" nghĩa là:",
+   "o": [
+    "cắt nhỏ nhựa",
+    "tái chế nhựa",
+    "chặt cây làm nhựa",
+    "giảm dùng nhựa"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d046",
+  "cat": "tip",
+  "title": "Reading - chọn tiêu đề",
+  "en": "For matching headings, focus on the main idea of the whole paragraph, not a single word.",
+  "vi": "Đọc kỹ câu đầu và câu cuối của đoạn, xác định ý chính. Cẩn thận tiêu đề chứa một từ giống trong đoạn nhưng không phải ý chính.",
+  "ex": [
+   "A heading that repeats a word from the paragraph is often a trap.",
+   "Tiêu đề lặp đúng một từ trong đoạn thường là bẫy."
+  ],
+  "q": {
+   "q": "Khi chọn heading, điều quan trọng nhất là:",
+   "o": [
+    "từ giống nhau nhiều nhất",
+    "độ dài của heading",
+    "ý chính của cả đoạn",
+    "chi tiết số liệu"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d047",
+  "cat": "mistake",
+  "title": "Bored hay boring",
+  "en": "I am boring -> I am bored",
+  "vi": "-ed tả cảm xúc của người (bored = thấy chán). -ing tả tính chất của vật/người gây ra cảm xúc (boring = gây chán). \"I am boring\" nghĩa là \"tôi là người nhạt nhẽo\".",
+  "ex": [
+   "The lecture was boring, so I felt bored.",
+   "Bài giảng chán nên tôi thấy chán."
+  ],
+  "q": {
+   "q": "Điền: \"I was really ___ in the documentary about space.\"",
+   "o": [
+    "interesting",
+    "interested",
+    "interest",
+    "interests"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d048",
+  "cat": "fact",
+  "title": "Chữ cái phổ biến nhất",
+  "en": "E is the most common letter in written English.",
+  "vi": "Chữ E xuất hiện nhiều nhất trong văn bản tiếng Anh, sau đó là các chữ như T, A, O.",
+  "ex": [
+   "\"The\" and \"be\" both contain E.",
+   "Cả \"the\" và \"be\" đều có chữ E."
+  ],
+  "q": {
+   "q": "Chữ cái nào xuất hiện nhiều nhất trong tiếng Anh viết?",
+   "o": [
+    "E",
+    "A",
+    "S",
+    "T"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d049",
+  "cat": "idiom",
+  "title": "Cost an arm and a leg",
+  "en": "cost an arm and a leg",
+  "vi": "Rất đắt. Dùng tự nhiên khi nói về giá nhà, điện thoại, du lịch...",
+  "ex": [
+   "Renting a flat in the city centre costs an arm and a leg these days.",
+   "Dạo này thuê căn hộ ở trung tâm thành phố đắt kinh khủng."
+  ],
+  "q": {
+   "q": "\"That phone cost an arm and a leg\" nghĩa là:",
+   "o": [
+    "Cái điện thoại đó rất đắt",
+    "Cái điện thoại đó bị hỏng",
+    "Cái điện thoại đó rất nặng",
+    "Cái điện thoại đó được tặng"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d050",
+  "cat": "collocation",
+  "title": "Play a role",
+  "en": "play a key/vital role in something",
+  "vi": "Đóng vai trò quan trọng trong việc gì. Đi với \"in\".",
+  "ex": [
+   "Technology plays a vital role in modern education.",
+   "Công nghệ đóng vai trò thiết yếu trong giáo dục hiện đại."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "Parents make an important role in a child's development.",
+    "Parents play an important role on a child's development.",
+    "Parents have an important role to a child's development.",
+    "Parents play an important role in a child's development."
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d051",
+  "cat": "phrasal",
+  "title": "Catch up on",
+  "en": "catch up on something / catch up with someone",
+  "vi": "Catch up on: làm bù việc bị bỏ lỡ (bài vở, giấc ngủ). Catch up with: gặp lại để hỏi chuyện, hoặc đuổi kịp ai.",
+  "ex": [
+   "I spent the weekend catching up on sleep after a busy week.",
+   "Tôi dành cuối tuần ngủ bù sau một tuần bận rộn."
+  ],
+  "q": {
+   "q": "\"Catch up with old friends\" nghĩa là:",
+   "o": [
+    "bắt bạn cũ",
+    "tránh bạn cũ",
+    "gặp lại bạn cũ hỏi chuyện",
+    "chạy thi với bạn cũ"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d052",
+  "cat": "tip",
+  "title": "Reading - quản lý thời gian",
+  "en": "There is no extra transfer time in Reading: write answers directly on the answer sheet.",
+  "vi": "Bài Reading 60 phút không có thời gian chép đáp án như Listening giấy. Khoảng 20 phút mỗi passage, đừng kẹt quá lâu ở một câu.",
+  "ex": [
+   "Passage 1: 17 min, Passage 2: 20 min, Passage 3: 23 min.",
+   "Gợi ý phân bổ thời gian, passage sau thường khó hơn."
+  ],
+  "q": {
+   "q": "Reading thi giấy có thêm 10 phút chép đáp án không?",
+   "o": [
+    "Có, 10 phút",
+    "Có, 5 phút",
+    "Không"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d053",
+  "cat": "mistake",
+  "title": "Married with",
+  "en": "married with someone -> married to someone",
+  "vi": "\"Kết hôn với ai\" là \"be married to\" hoặc \"marry someone\" (không có giới từ).",
+  "ex": [
+   "My sister is married to a doctor.",
+   "Chị tôi lấy một bác sĩ."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "She married her classmate.",
+    "She married with her classmate.",
+    "She is married with her classmate.",
+    "She married to her classmate."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d054",
+  "cat": "fact",
+  "title": "Từ \"set\"",
+  "en": "\"Set\" is famous for having one of the longest entries in the Oxford English Dictionary.",
+  "vi": "\"Set\" có rất nhiều nghĩa: đặt, lặn (mặt trời), bộ (đồ), ấn định (ngày)... Bài học: một từ quen có thể mang nghĩa mới trong Reading.",
+  "ex": [
+   "The sun sets at six. I bought a set of knives. Let's set a date.",
+   "Mặt trời lặn lúc sáu giờ. Tôi mua một bộ dao. Hãy chốt ngày."
+  ],
+  "q": {
+   "q": "Trong \"set a deadline\", \"set\" nghĩa là:",
+   "o": [
+    "lặn xuống",
+    "một bộ",
+    "ngồi",
+    "ấn định"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d055",
+  "cat": "idiom",
+  "title": "Get the hang of it",
+  "en": "get the hang of something",
+  "vi": "Dần quen tay, nắm được cách làm một việc sau một thời gian tập.",
+  "ex": [
+   "Cooking was difficult at first, but I got the hang of it after a few weeks.",
+   "Lúc đầu nấu ăn khó, nhưng vài tuần sau tôi quen tay."
+  ],
+  "q": {
+   "q": "Điền: \"Swimming was hard, but I soon got the ___ of it.\"",
+   "o": [
+    "hold",
+    "catch",
+    "hand",
+    "hang"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d056",
+  "cat": "collocation",
+  "title": "Have an impact on",
+  "en": "have an impact on something",
+  "vi": "Có ảnh hưởng tới. Giới từ là \"on\", không phải \"to\". Có thể thêm: a significant/negative impact.",
+  "ex": [
+   "Social media has had a huge impact on the way young people communicate.",
+   "Mạng xã hội đã ảnh hưởng rất lớn tới cách người trẻ giao tiếp."
+  ],
+  "q": {
+   "q": "Giới từ đúng: \"a negative impact ___ health\"",
+   "o": [
+    "to",
+    "for",
+    "on",
+    "at"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d057",
+  "cat": "phrasal",
+  "title": "Take up",
+  "en": "take up a hobby/sport",
+  "vi": "Bắt đầu một sở thích, môn thể thao mới. Rất hợp Part 1 về hobbies.",
+  "ex": [
+   "I took up yoga last year to deal with stress.",
+   "Năm ngoái tôi bắt đầu tập yoga để đối phó căng thẳng."
+  ],
+  "q": {
+   "q": "\"I've taken up painting\" nghĩa là:",
+   "o": [
+    "Tôi đã bỏ vẽ",
+    "Tôi mới bắt đầu tập vẽ",
+    "Tôi đã mua tranh",
+    "Tôi treo tranh lên"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d058",
+  "cat": "tip",
+  "title": "Reading - thứ tự đáp án",
+  "en": "Most question types follow the order of the passage, but matching tasks usually don't.",
+  "vi": "TFNG, điền từ, MCQ thường theo thứ tự bài đọc. Matching information/headings thì không, nên phải tìm khắp bài.",
+  "ex": [
+   "If Q4 is in paragraph C, Q5 (TFNG) is probably after it.",
+   "Nếu câu 4 ở đoạn C thì câu 5 (TFNG) thường nằm sau đó."
+  ],
+  "q": {
+   "q": "Dạng nào thường KHÔNG theo thứ tự bài đọc?",
+   "o": [
+    "Matching information",
+    "True/False/Not Given",
+    "Sentence completion",
+    "Multiple choice"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d059",
+  "cat": "mistake",
+  "title": "Explain me",
+  "en": "explain me -> explain to me",
+  "vi": "\"Explain\" không đi trực tiếp với người. Dùng \"explain something to someone\".",
+  "ex": [
+   "Could you explain the rules to me?",
+   "Bạn giải thích luật cho tôi được không?"
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "Can you explain me this word?",
+    "Can you explain me about this word?",
+    "Can you explain for me this word?",
+    "Can you explain this word to me?"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d060",
+  "cat": "fact",
+  "title": "Câu có đủ 26 chữ cái",
+  "en": "\"The quick brown fox jumps over the lazy dog\" uses every letter of the alphabet.",
+  "vi": "Câu chứa đủ 26 chữ cái gọi là pangram. Câu này hay được dùng để thử bàn phím và phông chữ.",
+  "ex": [
+   "The quick brown fox jumps over the lazy dog.",
+   "Con cáo nâu nhanh nhẹn nhảy qua con chó lười."
+  ],
+  "q": {
+   "q": "Câu chứa đủ 26 chữ cái gọi là:",
+   "o": [
+    "palindrome",
+    "anagram",
+    "pangram",
+    "acronym"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d061",
+  "cat": "idiom",
+  "title": "In the long run",
+  "en": "in the long run",
+  "vi": "Về lâu dài. Rất hữu ích cho Speaking Part 3 khi bàn về hệ quả.",
+  "ex": [
+   "Learning a second language takes time, but it pays off in the long run.",
+   "Học ngoại ngữ mất thời gian, nhưng về lâu dài thì rất đáng."
+  ],
+  "q": {
+   "q": "\"In the long run\" gần nghĩa nhất với:",
+   "o": [
+    "while running",
+    "right now",
+    "eventually, over a long period",
+    "for a short time"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d062",
+  "cat": "collocation",
+  "title": "Pose a threat",
+  "en": "pose a threat to something",
+  "vi": "Gây ra mối đe dọa. Trang trọng, hợp Writing.",
+  "ex": [
+   "Rising sea levels pose a serious threat to coastal cities.",
+   "Mực nước biển dâng gây đe dọa nghiêm trọng cho các thành phố ven biển."
+  ],
+  "q": {
+   "q": "Động từ nào đi với \"a threat\"?",
+   "o": [
+    "make up",
+    "pose",
+    "put",
+    "do"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d063",
+  "cat": "phrasal",
+  "title": "End up",
+  "en": "end up + V-ing / somewhere",
+  "vi": "Rốt cuộc lại (thường không theo dự định ban đầu).",
+  "ex": [
+   "We planned to go to the beach, but we ended up staying at home because of the rain.",
+   "Định đi biển, nhưng rốt cuộc ở nhà vì trời mưa."
+  ],
+  "q": {
+   "q": "Điền: \"I ended up ___ the whole series in one night.\"",
+   "o": [
+    "watching",
+    "watch",
+    "to watch",
+    "watched"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d064",
+  "cat": "tip",
+  "title": "Writing - Task 2 nặng điểm hơn",
+  "en": "Task 2 is worth twice as much as Task 1, so spend about 40 minutes on it.",
+  "vi": "Nên dành khoảng 20 phút cho Task 1 và 40 phút cho Task 2. Nhiều bạn làm Task 2 trước để chắc chắn không thiếu giờ.",
+  "ex": [
+   "Suggested plan: 5 min planning, 30 min writing, 5 min checking.",
+   "Gợi ý cho Task 2: 5 phút lập dàn ý, 30 phút viết, 5 phút soát lỗi."
+  ],
+  "q": {
+   "q": "Nên dành bao lâu cho Task 2?",
+   "o": [
+    "Khoảng 20 phút",
+    "Khoảng 60 phút",
+    "Khoảng 10 phút",
+    "Khoảng 40 phút"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d065",
+  "cat": "mistake",
+  "title": "Depend of",
+  "en": "depend of / depend in -> depend on",
+  "vi": "Giới từ đúng là \"on\": depend on, rely on. \"It depends\" có thể đứng một mình.",
+  "ex": [
+   "Your score depends on how well you manage your time.",
+   "Điểm của bạn tùy thuộc vào cách bạn quản lý thời gian."
+  ],
+  "q": {
+   "q": "Điền: \"It depends ___ the weather.\"",
+   "o": [
+    "of",
+    "in",
+    "on",
+    "to"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d066",
+  "cat": "fact",
+  "title": "Chữ K câm từng được đọc",
+  "en": "The \"k\" in \"knight\" and \"knee\" used to be pronounced.",
+  "vi": "Trong tiếng Anh cổ và tiếng Anh trung đại, chữ k trong kn- được phát âm. Theo thời gian âm này mất đi nhưng cách viết vẫn giữ.",
+  "ex": [
+   "know, knife, knock, knowledge",
+   "Các từ có k câm: know, knife, knock, knowledge."
+  ],
+  "q": {
+   "q": "Từ nào có chữ cái câm?",
+   "o": [
+    "kind",
+    "knife",
+    "kick",
+    "kite"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d067",
+  "cat": "idiom",
+  "title": "Go the extra mile",
+  "en": "go the extra mile",
+  "vi": "Cố gắng hơn mức cần thiết, làm nhiều hơn người ta mong đợi.",
+  "ex": [
+   "The staff at that hotel always go the extra mile to make guests feel welcome.",
+   "Nhân viên khách sạn đó luôn cố gắng hơn mức cần để khách thấy được chào đón."
+  ],
+  "q": {
+   "q": "Một nhân viên \"goes the extra mile\" là người:",
+   "o": [
+    "đi làm rất xa",
+    "làm nhiều hơn yêu cầu",
+    "hay đi muộn",
+    "chỉ làm đúng phần việc"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d068",
+  "cat": "collocation",
+  "title": "Bridge the gap",
+  "en": "bridge the gap between A and B",
+  "vi": "Thu hẹp khoảng cách giữa hai nhóm, hai thứ.",
+  "ex": [
+   "Free online courses can help bridge the gap between rich and poor students.",
+   "Khóa học trực tuyến miễn phí có thể giúp thu hẹp khoảng cách giữa học sinh giàu và nghèo."
+  ],
+  "q": {
+   "q": "\"Bridge the gap\" nghĩa là:",
+   "o": [
+    "thu hẹp khoảng cách",
+    "xây một cây cầu",
+    "tạo thêm khoảng cách",
+    "vượt qua cây cầu"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d069",
+  "cat": "phrasal",
+  "title": "Carry on",
+  "en": "carry on (doing)",
+  "vi": "Tiếp tục.",
+  "ex": [
+   "Despite the noise, she carried on reading.",
+   "Dù ồn ào, cô ấy vẫn tiếp tục đọc."
+  ],
+  "q": {
+   "q": "\"Carry on\" gần nghĩa với:",
+   "o": [
+    "stop",
+    "lift",
+    "bring",
+    "continue"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d070",
+  "cat": "tip",
+  "title": "Writing - overview Task 1",
+  "en": "Always include an overview of the main trends in Task 1.",
+  "vi": "Overview là 1-2 câu tóm tắt đặc điểm nổi bật nhất, không có số liệu chi tiết. Thiếu overview thì Task Achievement khó vượt band 5.",
+  "ex": [
+   "Overall, car ownership rose steadily, while bus use declined over the period.",
+   "Nhìn chung, số người sở hữu ô tô tăng đều, còn đi xe buýt giảm trong suốt giai đoạn."
+  ],
+  "q": {
+   "q": "Overview trong Task 1 nên có:",
+   "o": [
+    "toàn bộ số liệu",
+    "ý kiến cá nhân",
+    "xu hướng chính, không cần số chi tiết",
+    "lý do của xu hướng"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d071",
+  "cat": "mistake",
+  "title": "I have 25 years old",
+  "en": "I have 25 years old -> I am 25 (years old)",
+  "vi": "Tuổi trong tiếng Anh dùng \"be\", không dùng \"have\". Lỗi này cũng gặp ở người nói tiếng Pháp, Tây Ban Nha.",
+  "ex": [
+   "My grandfather is eighty years old but still very active.",
+   "Ông tôi tám mươi tuổi nhưng vẫn rất khỏe."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I have twenty-two.",
+    "I am twenty-two.",
+    "I have twenty-two years old.",
+    "I am twenty-two year old."
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d072",
+  "cat": "fact",
+  "title": "26 chữ cái, 44 âm",
+  "en": "English has 26 letters but about 44 sounds.",
+  "vi": "Vì số âm nhiều hơn số chữ, một chữ cái có thể đọc nhiều cách và cách viết không luôn giống cách đọc. Học phiên âm IPA giúp bạn phát âm chuẩn hơn.",
+  "ex": [
+   "The letter \"a\" sounds different in cat, cake, car and about.",
+   "Chữ \"a\" đọc khác nhau trong cat, cake, car và about."
+  ],
+  "q": {
+   "q": "Tiếng Anh (giọng Anh chuẩn) có khoảng bao nhiêu âm?",
+   "o": [
+    "44",
+    "26",
+    "20",
+    "60"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d073",
+  "cat": "idiom",
+  "title": "Learn the ropes",
+  "en": "learn the ropes",
+  "vi": "Học những điều cơ bản của một công việc hay nơi làm mới.",
+  "ex": [
+   "It took me about a month to learn the ropes at my new job.",
+   "Tôi mất khoảng một tháng để làm quen với công việc mới."
+  ],
+  "q": {
+   "q": "\"Learn the ropes\" thường nói về:",
+   "o": [
+    "làm quen với việc mới",
+    "học leo núi",
+    "học thắt dây giày",
+    "học một ngôn ngữ"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d074",
+  "cat": "collocation",
+  "title": "A sharp rise",
+  "en": "a sharp rise / a slight fall",
+  "vi": "Cụm mô tả xu hướng trong Writing Task 1: sharp/dramatic (mạnh), slight/gradual (nhẹ, từ từ).",
+  "ex": [
+   "There was a sharp rise in the number of visitors between 2010 and 2015.",
+   "Số khách tham quan tăng mạnh giữa năm 2010 và 2015."
+  ],
+  "q": {
+   "q": "Cụm nào mô tả sự tăng nhẹ?",
+   "o": [
+    "a sharp increase",
+    "a dramatic increase",
+    "a steep increase",
+    "a slight increase"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d075",
+  "cat": "phrasal",
+  "title": "Pick up",
+  "en": "pick up a language/skill",
+  "vi": "Học được một cách tự nhiên, không cần học bài bản.",
+  "ex": [
+   "I picked up a bit of Korean from watching dramas.",
+   "Tôi học lỏm được chút tiếng Hàn nhờ xem phim."
+  ],
+  "q": {
+   "q": "\"She picked up Spanish while living in Madrid\" nghĩa là:",
+   "o": [
+    "Cô ấy nhặt được sách tiếng Tây Ban Nha",
+    "Cô ấy đón người Tây Ban Nha",
+    "Cô ấy học được tiếng Tây Ban Nha một cách tự nhiên",
+    "Cô ấy quên tiếng Tây Ban Nha"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d076",
+  "cat": "tip",
+  "title": "Writing - đừng học thuộc mẫu",
+  "en": "Avoid memorised templates; examiners can spot them and ignore them.",
+  "vi": "Các câu mẫu học thuộc kiểu \"This is a controversial issue that has sparked heated debate\" không được tính khi đánh giá ngôn ngữ. Hãy viết câu gắn với đề.",
+  "ex": [
+   "Instead of a template, start directly: \"Many cities now charge drivers to enter the centre.\"",
+   "Thay vì câu mẫu, vào đề thẳng bằng câu gắn với chủ đề."
+  ],
+  "q": {
+   "q": "Câu mẫu học thuộc trong bài viết thường:",
+   "o": [
+    "được cộng điểm",
+    "không được tính điểm ngôn ngữ",
+    "bắt buộc phải có",
+    "giúp tăng band từ vựng"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d077",
+  "cat": "mistake",
+  "title": "In my opinion, I think",
+  "en": "In my opinion, I think... -> In my opinion, ... / I think...",
+  "vi": "Hai cụm cùng nghĩa, dùng chung là thừa. Chọn một.",
+  "ex": [
+   "In my opinion, public transport should be free.",
+   "Theo tôi, giao thông công cộng nên miễn phí."
+  ],
+  "q": {
+   "q": "Câu nào KHÔNG thừa từ?",
+   "o": [
+    "I believe schools should teach cooking.",
+    "In my opinion, I think schools should teach cooking.",
+    "I personally think in my view schools should teach cooking.",
+    "From my point of view, I believe schools should teach cooking."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d078",
+  "cat": "fact",
+  "title": "Queue",
+  "en": "\"Queue\" sounds exactly like its first letter, Q.",
+  "vi": "\"Queue\" (xếp hàng) đọc là /kjuː/, giống hệt cách đọc chữ Q, dù có thêm bốn chữ phía sau. Người Anh dùng \"queue\", người Mỹ hay nói \"line\".",
+  "ex": [
+   "We had to queue for an hour to get tickets.",
+   "Chúng tôi phải xếp hàng một tiếng để mua vé."
+  ],
+  "q": {
+   "q": "Người Anh nói \"queue\", người Mỹ thường nói:",
+   "o": [
+    "row",
+    "lane",
+    "chain",
+    "line"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d079",
+  "cat": "idiom",
+  "title": "Keep an eye on",
+  "en": "keep an eye on something/someone",
+  "vi": "Để mắt tới, trông chừng.",
+  "ex": [
+   "Could you keep an eye on my bag while I buy a coffee?",
+   "Bạn trông giúp mình cái túi trong lúc mình đi mua cà phê nhé?"
+  ],
+  "q": {
+   "q": "\"Keep an eye on the children\" nghĩa là:",
+   "o": [
+    "nhìn bọn trẻ một lần",
+    "chụp ảnh bọn trẻ",
+    "khen bọn trẻ",
+    "trông chừng bọn trẻ"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d080",
+  "cat": "collocation",
+  "title": "Conduct a survey",
+  "en": "conduct/carry out a survey",
+  "vi": "Tiến hành khảo sát. Dùng nhiều trong Writing Task 1 và bài Reading học thuật.",
+  "ex": [
+   "The council conducted a survey to find out how residents travel to work.",
+   "Hội đồng thành phố tiến hành khảo sát xem người dân đi làm bằng gì."
+  ],
+  "q": {
+   "q": "Động từ nào KHÔNG đi tự nhiên với \"a survey\"?",
+   "o": [
+    "conduct",
+    "carry out",
+    "make up",
+    "do"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d081",
+  "cat": "phrasal",
+  "title": "Fit in",
+  "en": "fit in (with)",
+  "vi": "Hòa nhập, cảm thấy thuộc về một nhóm.",
+  "ex": [
+   "It was hard to fit in at first when I moved to a new school.",
+   "Lúc mới chuyển trường, khó hòa nhập lắm."
+  ],
+  "q": {
+   "q": "\"Fit in\" trong câu \"I didn't fit in at university\" nghĩa là:",
+   "o": [
+    "vừa size",
+    "hòa nhập",
+    "tập thể dục",
+    "nhét vào"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d082",
+  "cat": "tip",
+  "title": "Writing - paraphrase đề bài",
+  "en": "Paraphrase the question in your introduction instead of copying it.",
+  "vi": "Chép nguyên văn đề thì những từ đó không được tính vào số từ. Đổi từ và cấu trúc để viết lại ý đề.",
+  "ex": [
+   "Prompt: \"Children spend too much time on computers.\" -> \"Young people now devote many hours to digital devices.\"",
+   "Đổi \"children\" thành \"young people\", \"computers\" thành \"digital devices\"."
+  ],
+  "q": {
+   "q": "Chép nguyên đề bài vào mở bài sẽ:",
+   "o": [
+    "không được tính vào số từ",
+    "được thêm điểm",
+    "bị hủy bài thi",
+    "không ảnh hưởng gì"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d083",
+  "cat": "mistake",
+  "title": "A lot of advantage",
+  "en": "a lot of advantage -> a lot of advantages",
+  "vi": "Sau a lot of, many, several, some (với danh từ đếm được) phải dùng số nhiều.",
+  "ex": [
+   "There are many advantages to living in the countryside.",
+   "Sống ở nông thôn có nhiều lợi ích."
+  ],
+  "q": {
+   "q": "Điền: \"There are several ___ to this plan.\"",
+   "o": [
+    "disadvantage",
+    "a disadvantage",
+    "disadvantaged",
+    "disadvantages"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d084",
+  "cat": "fact",
+  "title": "Chính tả Anh hay Mỹ?",
+  "en": "IELTS accepts both British and American spelling, but be consistent.",
+  "vi": "Colour hay color, organise hay organize đều được chấp nhận. Chỉ cần dùng một kiểu thống nhất trong bài viết.",
+  "ex": [
+   "British: colour, centre, travelled. American: color, center, traveled.",
+   "Kiểu Anh và kiểu Mỹ của cùng một từ."
+  ],
+  "q": {
+   "q": "Viết \"organize\" trong IELTS Writing có bị trừ điểm không?",
+   "o": [
+    "Không, nếu dùng thống nhất",
+    "Có, chỉ chấp nhận kiểu Anh",
+    "Có, bị trừ nửa band"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d085",
+  "cat": "idiom",
+  "title": "A far cry from",
+  "en": "a far cry from something",
+  "vi": "Rất khác so với cái gì, thường là kém hơn hoặc khác xa.",
+  "ex": [
+   "My hometown today is a far cry from the quiet village it was twenty years ago.",
+   "Quê tôi bây giờ khác xa ngôi làng yên tĩnh của hai mươi năm trước."
+  ],
+  "q": {
+   "q": "\"A far cry from\" nghĩa là:",
+   "o": [
+    "ở rất xa",
+    "khóc rất to",
+    "rất khác so với",
+    "giống hệt"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d086",
+  "cat": "collocation",
+  "title": "Reach a compromise",
+  "en": "reach a compromise",
+  "vi": "Đạt được thỏa hiệp, hai bên cùng nhường một chút.",
+  "ex": [
+   "After hours of discussion, the two sides finally reached a compromise.",
+   "Sau nhiều giờ thảo luận, hai bên cuối cùng cũng thỏa hiệp được."
+  ],
+  "q": {
+   "q": "Điền: \"They ___ a compromise after a long debate.\"",
+   "o": [
+    "arrived",
+    "reached",
+    "got to make",
+    "did"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d087",
+  "cat": "phrasal",
+  "title": "Turn down",
+  "en": "turn down an offer/invitation",
+  "vi": "Từ chối (lời mời, đề nghị). Nghĩa khác: vặn nhỏ (âm lượng).",
+  "ex": [
+   "He turned down the job offer because the salary was too low.",
+   "Anh ấy từ chối lời mời làm việc vì lương quá thấp."
+  ],
+  "q": {
+   "q": "\"She turned down the invitation\" nghĩa là:",
+   "o": [
+    "Cô ấy từ chối lời mời",
+    "Cô ấy chấp nhận lời mời",
+    "Cô ấy làm mất thiệp mời",
+    "Cô ấy lật thiệp mời"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d088",
+  "cat": "tip",
+  "title": "Writing - đủ số từ",
+  "en": "Write at least 150 words for Task 1 and 250 words for Task 2.",
+  "vi": "Viết dưới số từ tối thiểu sẽ bị trừ điểm. Tập viết để biết một dòng tay của bạn khoảng bao nhiêu từ, khỏi phải đếm từng chữ.",
+  "ex": [
+   "If you write about 10 words per line, 25 lines is roughly 250 words.",
+   "Nếu mỗi dòng khoảng 10 từ thì 25 dòng là khoảng 250 từ."
+  ],
+  "q": {
+   "q": "Số từ tối thiểu của Task 2 là:",
+   "o": [
+    "150",
+    "200",
+    "300",
+    "250"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d089",
+  "cat": "mistake",
+  "title": "There have",
+  "en": "There have many parks -> There are many parks",
+  "vi": "Dịch từ \"có\" dễ thành \"have\". Khi nói ở đâu đó có gì, dùng \"there is/there are\".",
+  "ex": [
+   "There are a lot of street food stalls in my neighbourhood.",
+   "Khu tôi ở có rất nhiều quầy đồ ăn đường phố."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "There have two cinemas in my town.",
+    "It has two cinemas in my town.",
+    "There are two cinemas in my town.",
+    "There has two cinemas in my town."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d090",
+  "cat": "fact",
+  "title": "Phở và bánh mì",
+  "en": "\"Pho\" and \"banh mi\" now appear in major English dictionaries.",
+  "vi": "Nhiều món ăn Việt đã đi vào tiếng Anh. Các từ điển lớn như Oxford và Merriam-Webster đã có \"pho\" và \"banh mi\", thường viết không dấu.",
+  "ex": [
+   "We had pho for breakfast and banh mi for lunch.",
+   "Sáng chúng tôi ăn phở, trưa ăn bánh mì."
+  ],
+  "q": {
+   "q": "Trong từ điển tiếng Anh, \"phở\" thường được viết là:",
+   "o": [
+    "fuh",
+    "pho",
+    "phor",
+    "fo-soup"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d091",
+  "cat": "idiom",
+  "title": "Call it a day",
+  "en": "call it a day",
+  "vi": "Dừng việc đang làm, nghỉ thôi (thường là cuối ngày).",
+  "ex": [
+   "We had been studying for six hours, so we decided to call it a day.",
+   "Học sáu tiếng rồi nên chúng tôi quyết định nghỉ."
+  ],
+  "q": {
+   "q": "\"Let's call it a day\" nghĩa là:",
+   "o": [
+    "Hãy gọi điện cả ngày",
+    "Thôi mình nghỉ ở đây",
+    "Hãy đặt tên cho ngày hôm nay",
+    "Hãy bắt đầu lại"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d092",
+  "cat": "collocation",
+  "title": "Gain experience",
+  "en": "gain/get experience",
+  "vi": "Tích lũy kinh nghiệm. \"Experience\" (kinh nghiệm) không đếm được, không thêm -s.",
+  "ex": [
+   "Internships allow students to gain valuable work experience.",
+   "Thực tập giúp sinh viên tích lũy kinh nghiệm làm việc quý giá."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I want to gain more work experience.",
+    "I want to gain more work experiences.",
+    "I want to win more work experience.",
+    "I want to earn many work experience."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d093",
+  "cat": "phrasal",
+  "title": "Set up",
+  "en": "set up a business/an organisation",
+  "vi": "Thành lập, thiết lập.",
+  "ex": [
+   "My aunt set up her own bakery five years ago.",
+   "Dì tôi mở tiệm bánh riêng cách đây năm năm."
+  ],
+  "q": {
+   "q": "Điền: \"They ___ up a charity to help street children.\"",
+   "o": [
+    "sat",
+    "put",
+    "made",
+    "set"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d094",
+  "cat": "tip",
+  "title": "Speaking Part 1 - mở rộng câu trả lời",
+  "en": "In Part 1, answer in two or three sentences: answer + reason + a small detail.",
+  "vi": "Trả lời một từ (\"Yes\", \"No\") khiến bạn mất cơ hội thể hiện. Thêm lý do và một ví dụ nhỏ là vừa.",
+  "ex": [
+   "\"Yes, I do. I love cooking because it helps me relax after work. I often make noodle soup at weekends.\"",
+   "\"Có. Tôi thích nấu ăn vì nó giúp tôi thư giãn. Cuối tuần tôi hay nấu bún.\""
+  ],
+  "q": {
+   "q": "Câu trả lời Part 1 tốt nên:",
+   "o": [
+    "chỉ một từ",
+    "dài 2 phút",
+    "có câu trả lời, lý do và chi tiết",
+    "học thuộc từ trước"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d095",
+  "cat": "mistake",
+  "title": "Go to home",
+  "en": "go to home -> go home",
+  "vi": "\"Home\" dùng như trạng từ sau go, come, get, arrive nên không có \"to\". Nhưng: go to school, go to work.",
+  "ex": [
+   "I usually get home at about seven.",
+   "Tôi thường về nhà khoảng bảy giờ."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "After class, I go to home.",
+    "After class, I go home.",
+    "After class, I go to the home.",
+    "After class, I go at home."
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d096",
+  "cat": "fact",
+  "title": "Đuôi -ough",
+  "en": "The letters \"ough\" can be pronounced in many different ways.",
+  "vi": "Cùng là -ough nhưng though /ðəʊ/, through /θruː/, rough /rʌf/, cough /kɒf/, bough /baʊ/ đọc khác hẳn nhau. Đừng đoán, hãy tra phát âm.",
+  "ex": [
+   "though, through, rough, cough",
+   "Bốn từ có -ough đọc bốn kiểu khác nhau."
+  ],
+  "q": {
+   "q": "Từ nào vần với \"stuff\"?",
+   "o": [
+    "rough",
+    "though",
+    "through",
+    "bough"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d097",
+  "cat": "idiom",
+  "title": "Burn the midnight oil",
+  "en": "burn the midnight oil",
+  "vi": "Thức khuya làm việc hoặc học bài.",
+  "ex": [
+   "I burnt the midnight oil to finish my essay before the deadline.",
+   "Tôi thức khuya để viết xong bài luận trước hạn."
+  ],
+  "q": {
+   "q": "Ai \"burns the midnight oil\"?",
+   "o": [
+    "Người thức khuya học/làm",
+    "Người nấu ăn lúc nửa đêm",
+    "Người đi ngủ sớm",
+    "Người tiết kiệm điện"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d098",
+  "cat": "collocation",
+  "title": "A high standard of living",
+  "en": "a high standard of living",
+  "vi": "Mức sống cao. Không nói \"a big living standard\".",
+  "ex": [
+   "Norway is known for its high standard of living.",
+   "Na Uy nổi tiếng với mức sống cao."
+  ],
+  "q": {
+   "q": "Tính từ nào đi với \"standard of living\"?",
+   "o": [
+    "big",
+    "tall",
+    "much",
+    "high"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d099",
+  "cat": "phrasal",
+  "title": "Go through",
+  "en": "go through a difficult time",
+  "vi": "Trải qua (điều gì khó khăn). Nghĩa khác: xem xét kỹ.",
+  "ex": [
+   "Many families went through a difficult time during the pandemic.",
+   "Nhiều gia đình đã trải qua thời gian khó khăn trong đại dịch."
+  ],
+  "q": {
+   "q": "\"He's going through a tough time\" nghĩa là:",
+   "o": [
+    "Anh ấy đi xuyên qua đường hầm",
+    "Anh ấy đang rất vui",
+    "Anh ấy đang trải qua giai đoạn khó khăn",
+    "Anh ấy đang tập thể hình"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d100",
+  "cat": "tip",
+  "title": "Speaking Part 2 - ghi chú 1 phút",
+  "en": "Use your one minute in Part 2 to write key words, not full sentences.",
+  "vi": "Bạn có 1 phút chuẩn bị và giấy bút. Ghi từ khóa cho mỗi gợi ý trên thẻ, sau đó nói 1-2 phút theo các từ đó.",
+  "ex": [
+   "Notes: grandma / kind, patient / taught me to cook / Tet 2019",
+   "Ghi chú ngắn: bà / tốt bụng, kiên nhẫn / dạy nấu ăn / Tết 2019."
+  ],
+  "q": {
+   "q": "Trong 1 phút chuẩn bị Part 2 nên:",
+   "o": [
+    "viết cả bài",
+    "ghi từ khóa",
+    "ngồi im suy nghĩ",
+    "hỏi giám khảo câu hỏi khác"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d101",
+  "cat": "mistake",
+  "title": "Return back",
+  "en": "return back -> return / go back",
+  "vi": "\"Return\" đã có nghĩa là \"quay lại\", thêm \"back\" là thừa.",
+  "ex": [
+   "I returned to my hometown after graduating.",
+   "Sau khi tốt nghiệp tôi về quê."
+  ],
+  "q": {
+   "q": "Câu nào không thừa từ?",
+   "o": [
+    "She returned to Vietnam last year.",
+    "She returned back to Vietnam last year.",
+    "She returned back again to Vietnam last year.",
+    "She came return to Vietnam last year."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d102",
+  "cat": "fact",
+  "title": "Từ của Shakespeare",
+  "en": "Shakespeare is credited with the first recorded use of words such as \"bedroom\" and \"eyeball\".",
+  "vi": "Nhiều từ ta dùng hằng ngày xuất hiện lần đầu (theo ghi chép còn lại) trong tác phẩm của Shakespeare. Ông cũng tạo ra nhiều cụm như \"break the ice\" theo nghĩa hiện đại.",
+  "ex": [
+   "\"Bedroom\" appears in A Midsummer Night's Dream.",
+   "Từ \"bedroom\" có trong vở Giấc mộng đêm hè."
+  ],
+  "q": {
+   "q": "Shakespeare được cho là người đầu tiên ghi lại từ nào?",
+   "o": [
+    "computer",
+    "internet",
+    "selfie",
+    "eyeball"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d103",
+  "cat": "idiom",
+  "title": "Bite off more than you can chew",
+  "en": "bite off more than you can chew",
+  "vi": "Ôm đồm quá sức, nhận nhiều việc hơn khả năng làm.",
+  "ex": [
+   "I joined three clubs and took a part-time job, but I'd bitten off more than I could chew.",
+   "Tôi vào ba câu lạc bộ và làm thêm, nhưng hóa ra ôm đồm quá sức."
+  ],
+  "q": {
+   "q": "Idiom này cảnh báo điều gì?",
+   "o": [
+    "ăn quá nhanh",
+    "nói quá nhiều",
+    "tiêu quá ít tiền",
+    "nhận quá nhiều việc"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d104",
+  "cat": "collocation",
+  "title": "Broaden your horizons",
+  "en": "broaden your horizons",
+  "vi": "Mở mang tầm nhìn, hiểu biết. Hợp với chủ đề du lịch, du học, đọc sách.",
+  "ex": [
+   "Studying abroad can really broaden your horizons.",
+   "Du học thật sự có thể giúp bạn mở mang tầm nhìn."
+  ],
+  "q": {
+   "q": "Động từ nào đi với \"horizons\"?",
+   "o": [
+    "widen up",
+    "raise",
+    "broaden",
+    "lengthen"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d105",
+  "cat": "phrasal",
+  "title": "Bring up",
+  "en": "bring up a child / bring up a topic",
+  "vi": "Nuôi dạy (con cái); hoặc nêu ra (một chủ đề).",
+  "ex": [
+   "I was brought up in a small town near the coast.",
+   "Tôi lớn lên ở một thị trấn nhỏ gần biển."
+  ],
+  "q": {
+   "q": "\"I was brought up by my grandparents\" nghĩa là:",
+   "o": [
+    "Ông bà mang tôi lên lầu",
+    "Ông bà nuôi tôi lớn",
+    "Ông bà nhắc đến tôi",
+    "Ông bà đón tôi"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d106",
+  "cat": "tip",
+  "title": "Speaking - xin nhắc lại câu hỏi",
+  "en": "You can ask the examiner to repeat the question; it won't lower your score.",
+  "vi": "Nếu không nghe rõ, hãy nói \"Sorry, could you repeat the question, please?\". Đây là giao tiếp tự nhiên, tốt hơn trả lời lạc đề.",
+  "ex": [
+   "\"Sorry, could you say that again, please?\"",
+   "\"Xin lỗi, thầy/cô nói lại được không ạ?\""
+  ],
+  "q": {
+   "q": "Xin giám khảo nhắc lại câu hỏi sẽ:",
+   "o": [
+    "không làm giảm điểm",
+    "bị trừ một band",
+    "bị dừng phần thi",
+    "bị đổi câu hỏi khó hơn"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d107",
+  "cat": "mistake",
+  "title": "Suggest someone to do",
+  "en": "suggest me to go -> suggest that I go / suggest going",
+  "vi": "\"Suggest\" không đi với cấu trúc \"someone + to V\". Dùng suggest + V-ing hoặc suggest that + S + V.",
+  "ex": [
+   "My teacher suggested that I read more English newspapers.",
+   "Cô giáo gợi ý tôi đọc báo tiếng Anh nhiều hơn."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "He suggested me to take a taxi.",
+    "He suggested to take me a taxi.",
+    "He suggested me taking to a taxi.",
+    "He suggested taking a taxi."
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d108",
+  "cat": "fact",
+  "title": "Tiếng Anh toàn cầu",
+  "en": "More people speak English as a second language than as a first language.",
+  "vi": "Số người dùng tiếng Anh như ngôn ngữ thứ hai nhiều hơn số người bản ngữ. Vì vậy giám khảo IELTS chấm sự rõ ràng, không yêu cầu giọng bản xứ.",
+  "ex": [
+   "You don't need a British accent to get a high score.",
+   "Không cần giọng Anh mới được điểm cao."
+  ],
+  "q": {
+   "q": "Để đạt điểm phát âm cao trong IELTS, bạn cần:",
+   "o": [
+    "giọng Anh chuẩn",
+    "giọng Mỹ chuẩn",
+    "nói rõ ràng, dễ hiểu",
+    "nói thật nhanh"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d109",
+  "cat": "idiom",
+  "title": "Spread yourself too thin",
+  "en": "spread yourself too thin",
+  "vi": "Làm quá nhiều việc cùng lúc nên việc nào cũng không tốt.",
+  "ex": [
+   "Many students spread themselves too thin by preparing for several exams at once.",
+   "Nhiều bạn học ôn nhiều kỳ thi cùng lúc nên việc nào cũng dở dang."
+  ],
+  "q": {
+   "q": "\"Don't spread yourself too thin\" là lời khuyên:",
+   "o": [
+    "đừng ăn kiêng quá mức",
+    "đừng phết bơ quá mỏng",
+    "đừng làm quá nhiều thứ một lúc",
+    "đừng ngủ quá ít"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d110",
+  "cat": "collocation",
+  "title": "Take measures",
+  "en": "take measures/steps to do something",
+  "vi": "Thực hiện biện pháp. Hay gặp trong bài problem-solution.",
+  "ex": [
+   "The government must take measures to reduce air pollution.",
+   "Chính phủ phải có biện pháp giảm ô nhiễm không khí."
+  ],
+  "q": {
+   "q": "Điền: \"Schools should ___ steps to prevent bullying.\"",
+   "o": [
+    "make",
+    "take",
+    "do",
+    "give"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d111",
+  "cat": "phrasal",
+  "title": "Look up to",
+  "en": "look up to someone",
+  "vi": "Ngưỡng mộ, kính trọng ai. Hợp Part 2 \"Describe a person you admire\".",
+  "ex": [
+   "I've always looked up to my older sister.",
+   "Tôi luôn ngưỡng mộ chị gái mình."
+  ],
+  "q": {
+   "q": "\"Look up to\" trái nghĩa với:",
+   "o": [
+    "look down on",
+    "look after",
+    "look for",
+    "look into"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d112",
+  "cat": "tip",
+  "title": "Speaking - câu đệm tự nhiên",
+  "en": "Use natural phrases to buy time instead of long silences.",
+  "vi": "Khi cần nghĩ, dùng câu như \"Let me think about that for a second\" hay \"That's not something I've thought about much, but...\". Đừng lặp \"umm\" quá nhiều.",
+  "ex": [
+   "\"That's an interesting question. I suppose it depends on...\"",
+   "\"Câu hỏi hay đấy. Tôi nghĩ còn tùy vào...\""
+  ],
+  "q": {
+   "q": "Câu nào giúp câu giờ tự nhiên?",
+   "o": [
+    "I don't know.",
+    "Next question, please.",
+    "Umm... umm... umm...",
+    "Let me think about that for a moment."
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d113",
+  "cat": "mistake",
+  "title": "Emphasise on",
+  "en": "emphasise on something -> emphasise something",
+  "vi": "Động từ \"emphasise\" không cần giới từ. Danh từ thì có: put emphasis on.",
+  "ex": [
+   "The report emphasises the need for more green spaces.",
+   "Bản báo cáo nhấn mạnh sự cần thiết của thêm không gian xanh."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "Teachers emphasise on the importance of practice.",
+    "Teachers emphasise about the importance of practice.",
+    "Teachers emphasise the importance of practice.",
+    "Teachers emphasis the importance of practice."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d114",
+  "cat": "fact",
+  "title": "Academic và General Training",
+  "en": "Academic and General Training share the same Listening and Speaking tests.",
+  "vi": "Hai loại chỉ khác ở Reading và Writing. Academic dành cho học đại học; General Training thường cho định cư, làm việc. Writing Task 1 của GT là viết thư.",
+  "ex": [
+   "GT Writing Task 1: write a letter. Academic Task 1: describe a chart.",
+   "GT Task 1 viết thư, Academic Task 1 tả biểu đồ."
+  ],
+  "q": {
+   "q": "Phần nào giống nhau giữa Academic và General Training?",
+   "o": [
+    "Reading và Writing",
+    "Listening và Speaking",
+    "Chỉ Writing",
+    "Không phần nào"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d115",
+  "cat": "idiom",
+  "title": "The tip of the iceberg",
+  "en": "the tip of the iceberg",
+  "vi": "Phần nổi của tảng băng, chỉ là một phần nhỏ của vấn đề lớn hơn nhiều. Rất hợp Part 3.",
+  "ex": [
+   "The pollution we can see in the river is just the tip of the iceberg.",
+   "Ô nhiễm nhìn thấy trên sông chỉ là phần nổi của tảng băng."
+  ],
+  "q": {
+   "q": "\"Just the tip of the iceberg\" ngụ ý:",
+   "o": [
+    "vấn đề đã được giải quyết",
+    "vấn đề thật còn lớn hơn nhiều",
+    "vấn đề rất nhỏ",
+    "vấn đề về khí hậu lạnh"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d116",
+  "cat": "collocation",
+  "title": "Commit a crime",
+  "en": "commit a crime",
+  "vi": "Phạm tội. Không nói \"do a crime\" hay \"make a crime\".",
+  "ex": [
+   "Young people who commit minor crimes should be given a second chance.",
+   "Người trẻ phạm tội nhẹ nên được cho cơ hội làm lại."
+  ],
+  "q": {
+   "q": "Động từ đúng: \"___ a crime\"",
+   "o": [
+    "commit",
+    "do",
+    "make",
+    "create"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d117",
+  "cat": "phrasal",
+  "title": "Keep up with",
+  "en": "keep up with someone/something",
+  "vi": "Theo kịp (tốc độ, tin tức, công nghệ).",
+  "ex": [
+   "It's hard to keep up with all the changes in technology.",
+   "Thật khó theo kịp mọi thay đổi của công nghệ."
+  ],
+  "q": {
+   "q": "Điền: \"I read the news daily to keep ___ ___ current events.\"",
+   "o": [
+    "on for",
+    "in at",
+    "out of",
+    "up with"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d118",
+  "cat": "tip",
+  "title": "Speaking Part 3 - ý kiến + lý do + ví dụ",
+  "en": "In Part 3, give your opinion, explain why, and support it with an example.",
+  "vi": "Part 3 hỏi ý kiến về vấn đề xã hội. Mô hình đơn giản: nêu quan điểm -> giải thích -> ví dụ -> (có thể) nêu mặt trái.",
+  "ex": [
+   "\"I think online learning will grow, mainly because it's cheaper. For instance, many of my friends take courses on their phones.\"",
+   "\"Tôi nghĩ học trực tuyến sẽ phát triển vì rẻ hơn. Ví dụ, nhiều bạn tôi học qua điện thoại.\""
+  ],
+  "q": {
+   "q": "Cấu trúc tốt cho câu trả lời Part 3:",
+   "o": [
+    "chỉ kể chuyện cá nhân",
+    "trả lời có hoặc không",
+    "quan điểm, lý do, ví dụ",
+    "hỏi ngược giám khảo"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d119",
+  "cat": "mistake",
+  "title": "I am agree",
+  "en": "I am agree -> I agree",
+  "vi": "\"Agree\" là động từ, không phải tính từ, nên không dùng với \"am\". Phủ định: I don't agree / I disagree.",
+  "ex": [
+   "I partly agree with this statement.",
+   "Tôi đồng ý một phần với nhận định này."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I am not agree with this idea.",
+    "I don't agree with this idea.",
+    "I am agree with this idea.",
+    "I not agree with this idea."
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d120",
+  "cat": "fact",
+  "title": "Thi máy có kết quả nhanh",
+  "en": "Computer-delivered IELTS results usually come out within a few days.",
+  "vi": "Thi trên máy thường có kết quả sau vài ngày, còn thi giấy mất khoảng 13 ngày. Speaking vẫn nói trực tiếp với giám khảo ở cả hai hình thức.",
+  "ex": [
+   "Paper test: about 13 days. Computer test: usually a few days.",
+   "Thi giấy khoảng 13 ngày, thi máy thường vài ngày."
+  ],
+  "q": {
+   "q": "Khi thi IELTS trên máy, phần Speaking:",
+   "o": [
+    "vẫn nói với giám khảo",
+    "nói với máy tính",
+    "bị bỏ đi",
+    "viết thay vì nói"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d121",
+  "cat": "idiom",
+  "title": "On the go",
+  "en": "on the go",
+  "vi": "Bận rộn, di chuyển liên tục.",
+  "ex": [
+   "I'm always on the go during the week, so I usually grab breakfast on my way to work.",
+   "Trong tuần tôi lúc nào cũng bận rộn nên thường mua đồ ăn sáng trên đường đi làm."
+  ],
+  "q": {
+   "q": "\"I'm on the go all day\" nghĩa là:",
+   "o": [
+    "Tôi bận rộn cả ngày",
+    "Tôi đi bộ cả ngày",
+    "Tôi sắp đi rồi",
+    "Tôi chơi cờ vây cả ngày"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d122",
+  "cat": "collocation",
+  "title": "Tackle a problem",
+  "en": "tackle a problem/an issue",
+  "vi": "Giải quyết, xử lý một vấn đề. Hay hơn \"solve\" khi muốn thay đổi từ trong Writing.",
+  "ex": [
+   "There are several ways to tackle the problem of traffic congestion.",
+   "Có vài cách để giải quyết vấn đề ùn tắc giao thông."
+  ],
+  "q": {
+   "q": "Từ nào gần nghĩa \"tackle\" trong \"tackle a problem\"?",
+   "o": [
+    "create",
+    "ignore",
+    "discuss about",
+    "deal with"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d123",
+  "cat": "phrasal",
+  "title": "Hang out",
+  "en": "hang out (with someone)",
+  "vi": "Đi chơi, la cà với bạn bè (thân mật, dùng trong Speaking được).",
+  "ex": [
+   "At weekends I usually hang out with my friends at a café.",
+   "Cuối tuần tôi thường đi cà phê với bạn bè."
+  ],
+  "q": {
+   "q": "\"Hang out\" phù hợp nhất ở đâu?",
+   "o": [
+    "Writing Task 2 trang trọng",
+    "Thư khiếu nại trang trọng",
+    "Speaking Part 1 về thời gian rảnh",
+    "Báo cáo Task 1"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d124",
+  "cat": "tip",
+  "title": "Ngày thi - giấy tờ tùy thân",
+  "en": "Bring the same ID (passport or ID card) that you used to register.",
+  "vi": "Giấy tờ mang theo phải đúng loại và số đã dùng khi đăng ký. Sai giấy tờ có thể không được vào thi.",
+  "ex": [
+   "Registered with passport -> bring that passport on test day.",
+   "Đăng ký bằng hộ chiếu thì ngày thi phải mang đúng hộ chiếu đó."
+  ],
+  "q": {
+   "q": "Ngày thi nên mang:",
+   "o": [
+    "bất kỳ giấy tờ nào có ảnh",
+    "đúng giấy tờ đã đăng ký",
+    "bản photo giấy tờ",
+    "thẻ sinh viên"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d125",
+  "cat": "mistake",
+  "title": "More better",
+  "en": "more better -> better / much better",
+  "vi": "\"Better\" đã là dạng so sánh hơn. Muốn nhấn mạnh dùng \"much better\", \"far better\".",
+  "ex": [
+   "Public transport is much better than it was ten years ago.",
+   "Giao thông công cộng tốt hơn nhiều so với mười năm trước."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "This option is far cheaper.",
+    "This option is more cheaper.",
+    "This option is more cheap than.",
+    "This option is most cheaper."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d126",
+  "cat": "fact",
+  "title": "One Skill Retake",
+  "en": "Some test centres offer One Skill Retake for computer-delivered IELTS.",
+  "vi": "Ở một số nơi, nếu đã thi IELTS trên máy, bạn có thể thi lại một kỹ năng trong vòng 60 ngày. Không phải trường nào cũng chấp nhận điểm này, nên kiểm tra trước.",
+  "ex": [
+   "Retake only Writing if it was your weakest skill.",
+   "Chỉ thi lại Writing nếu đó là kỹ năng yếu nhất."
+  ],
+  "q": {
+   "q": "One Skill Retake cho phép thi lại:",
+   "o": [
+    "cả bốn kỹ năng miễn phí",
+    "hai kỹ năng",
+    "chỉ Speaking",
+    "một kỹ năng"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d127",
+  "cat": "idiom",
+  "title": "Right up my street",
+  "en": "right up my street",
+  "vi": "Đúng sở thích của tôi (cách nói kiểu Anh). Kiểu Mỹ là \"right up my alley\".",
+  "ex": [
+   "A cooking class? That sounds right up my street.",
+   "Lớp nấu ăn à? Nghe đúng gu mình đấy."
+  ],
+  "q": {
+   "q": "\"That's right up my street\" nghĩa là:",
+   "o": [
+    "Cái đó ở ngay phố tôi",
+    "Cái đó tôi không thích",
+    "Cái đó rất gần nhà tôi",
+    "Cái đó đúng sở thích của tôi"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d128",
+  "cat": "collocation",
+  "title": "A vicious circle",
+  "en": "a vicious circle",
+  "vi": "Vòng luẩn quẩn: chuyện xấu này dẫn tới chuyện xấu kia rồi quay lại làm chuyện đầu tệ hơn.",
+  "ex": [
+   "Poverty and poor education can become a vicious circle.",
+   "Nghèo đói và giáo dục kém có thể thành một vòng luẩn quẩn."
+  ],
+  "q": {
+   "q": "\"A vicious circle\" là:",
+   "o": [
+    "một vòng tròn nguy hiểm",
+    "một nhóm bạn xấu",
+    "vòng luẩn quẩn tiêu cực",
+    "một kết thúc có hậu"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d129",
+  "cat": "phrasal",
+  "title": "Wind down",
+  "en": "wind down",
+  "vi": "Thư giãn sau một ngày căng thẳng.",
+  "ex": [
+   "I usually listen to music to wind down before bed.",
+   "Tôi thường nghe nhạc để thư giãn trước khi ngủ."
+  ],
+  "q": {
+   "q": "\"Wind down\" nghĩa là:",
+   "o": [
+    "lên dây cót",
+    "thư giãn",
+    "có gió mạnh",
+    "làm việc nhiều hơn"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d130",
+  "cat": "tip",
+  "title": "Ngày thi - không bỏ trống",
+  "en": "Never leave an answer blank: there is no penalty for wrong answers.",
+  "vi": "Listening và Reading không trừ điểm câu sai. Nếu không chắc, hãy đoán hợp lý thay vì bỏ trống.",
+  "ex": [
+   "Not sure between B and C? Choose one rather than leaving it empty.",
+   "Phân vân giữa B và C thì cứ chọn một, đừng để trống."
+  ],
+  "q": {
+   "q": "Câu trả lời sai trong Reading có bị trừ điểm không?",
+   "o": [
+    "Không",
+    "Có, trừ 1 điểm",
+    "Có, trừ nửa điểm"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d131",
+  "cat": "mistake",
+  "title": "The life",
+  "en": "The life in the city is busy -> Life in the city is busy",
+  "vi": "Khi nói chung chung về một khái niệm (life, society, nature, money, technology), không dùng \"the\".",
+  "ex": [
+   "Technology has changed the way we work.",
+   "Công nghệ đã thay đổi cách chúng ta làm việc."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "The nature is important for our mental health.",
+    "A nature is important for our mental health.",
+    "The natures are important for our mental health.",
+    "Nature is important for our mental health."
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d132",
+  "cat": "fact",
+  "title": "Điểm có hạn 2 năm",
+  "en": "Most organisations accept IELTS results for two years.",
+  "vi": "Phiếu điểm IELTS thường được khuyến nghị dùng trong vòng 2 năm vì trình độ có thể thay đổi. Hãy tính thời gian thi cho hợp với hồ sơ.",
+  "ex": [
+   "If you took the test in 2025, plan to use it by 2027.",
+   "Thi năm 2025 thì nên dùng trước năm 2027."
+  ],
+  "q": {
+   "q": "Thường các trường chấp nhận điểm IELTS trong:",
+   "o": [
+    "6 tháng",
+    "5 năm",
+    "2 năm",
+    "vĩnh viễn"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d133",
+  "cat": "idiom",
+  "title": "Not my cup of tea",
+  "en": "not my cup of tea",
+  "vi": "Không phải thứ tôi thích. Cách nói lịch sự, nhẹ nhàng hơn \"I don't like it\".",
+  "ex": [
+   "Horror films aren't really my cup of tea; I prefer comedies.",
+   "Phim kinh dị không hợp gu tôi lắm, tôi thích phim hài hơn."
+  ],
+  "q": {
+   "q": "Câu nào dùng đúng?",
+   "o": [
+    "I drink my cup of tea of jazz.",
+    "Jazz is not my cups of teas.",
+    "Jazz isn't my cup of tea, to be honest.",
+    "My cup of tea doesn't like jazz."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d134",
+  "cat": "collocation",
+  "title": "Do harm",
+  "en": "do harm / do damage",
+  "vi": "Gây hại. Dùng \"do\" chứ không dùng \"make\": do more harm than good (hại nhiều hơn lợi).",
+  "ex": [
+   "Too much screen time can do more harm than good.",
+   "Dùng màn hình quá nhiều có thể hại nhiều hơn lợi."
+  ],
+  "q": {
+   "q": "Điền: \"It does more ___ than good.\"",
+   "o": [
+    "hurt",
+    "harm",
+    "damages",
+    "bad"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d135",
+  "cat": "phrasal",
+  "title": "Show up",
+  "en": "show up",
+  "vi": "Xuất hiện, có mặt (thường là đến muộn hoặc không ai ngờ).",
+  "ex": [
+   "Only five people showed up to the meeting.",
+   "Chỉ có năm người đến buổi họp."
+  ],
+  "q": {
+   "q": "\"He didn't show up\" nghĩa là:",
+   "o": [
+    "Anh ấy không đến",
+    "Anh ấy không khoe khoang",
+    "Anh ấy không thể hiện",
+    "Anh ấy không lớn lên"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d136",
+  "cat": "tip",
+  "title": "Ngày thi - viết hoa",
+  "en": "In paper-based Listening and Reading, you can write answers in capital letters.",
+  "vi": "Viết toàn chữ in hoa giúp tránh lỗi viết hoa/viết thường và chữ khó đọc. Áp dụng cho Listening và Reading, không áp dụng cho Writing.",
+  "ex": [
+   "Answer sheet: LIBRARY, 7.30 PM, TUESDAY",
+   "Viết đáp án bằng chữ in hoa cho rõ ràng."
+  ],
+  "q": {
+   "q": "Có thể viết toàn chữ in hoa ở phần nào?",
+   "o": [
+    "Cả bài Writing",
+    "Chỉ Speaking",
+    "Không phần nào",
+    "Listening và Reading"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d137",
+  "cat": "mistake",
+  "title": "Lend hay borrow",
+  "en": "Can I lend your pen? -> Can I borrow your pen?",
+  "vi": "Borrow: mượn (lấy từ người khác). Lend: cho mượn (đưa cho người khác). Tiếng Việt chỉ có \"mượn\" nên hay nhầm.",
+  "ex": [
+   "Could you lend me your notes? I'd like to borrow them for a day.",
+   "Bạn cho mình mượn vở được không? Mình muốn mượn một ngày."
+  ],
+  "q": {
+   "q": "Điền: \"Can I ___ your charger for a minute?\"",
+   "o": [
+    "lend",
+    "rent",
+    "borrow",
+    "loan"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d138",
+  "cat": "fact",
+  "title": "Viết tắt trong Writing",
+  "en": "Contractions like \"don't\" are fine in Speaking but best avoided in academic writing.",
+  "vi": "Nói chuyện thì \"I'm\", \"it's\" rất tự nhiên. Trong Writing Task 2 và Academic Task 1, viết đầy đủ \"do not\", \"it is\" cho trang trọng hơn.",
+  "ex": [
+   "Speaking: \"I don't really mind.\" Writing: \"This does not mean...\"",
+   "Nói thì dùng viết tắt, viết thì viết đầy đủ."
+  ],
+  "q": {
+   "q": "Trong Writing Task 2 nên viết:",
+   "o": [
+    "don't",
+    "do not",
+    "dont",
+    "do'nt"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d139",
+  "cat": "idiom",
+  "title": "Off the beaten track",
+  "en": "off the beaten track",
+  "vi": "Ở nơi ít người biết, xa các tuyến du lịch quen thuộc.",
+  "ex": [
+   "We stayed in a small village off the beaten track, where there were hardly any tourists.",
+   "Chúng tôi ở một làng nhỏ ít ai biết, gần như không có khách du lịch."
+  ],
+  "q": {
+   "q": "Một địa điểm \"off the beaten track\" là:",
+   "o": [
+    "nơi đông khách du lịch",
+    "nơi hẻo lánh, ít khách",
+    "con đường bị hỏng",
+    "nơi ai cũng biết"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d140",
+  "cat": "collocation",
+  "title": "Make progress",
+  "en": "make progress",
+  "vi": "Tiến bộ. \"Progress\" không đếm được, không nói \"a progress\" hay \"progresses\".",
+  "ex": [
+   "I've made a lot of progress with my listening since I started watching podcasts.",
+   "Kỹ năng nghe của tôi tiến bộ nhiều từ khi bắt đầu nghe podcast."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "She has made great progress.",
+    "She has made a great progress.",
+    "She has done great progresses.",
+    "She has got a progress great."
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d141",
+  "cat": "phrasal",
+  "title": "Work out",
+  "en": "work out",
+  "vi": "Tập thể dục (nghĩa hay dùng trong Speaking). Nghĩa khác: tính ra, hiểu ra.",
+  "ex": [
+   "I try to work out at the gym three times a week.",
+   "Tôi cố gắng tập gym ba lần một tuần."
+  ],
+  "q": {
+   "q": "Trong câu \"I work out every morning\", \"work out\" là:",
+   "o": [
+    "đi làm",
+    "ra ngoài",
+    "giải toán",
+    "tập thể dục"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d142",
+  "cat": "tip",
+  "title": "Ngày thi - đến sớm",
+  "en": "Arrive early: late candidates may not be allowed in, and personal items must be stored away.",
+  "vi": "Đến sớm để làm thủ tục, chụp ảnh, cất đồ. Điện thoại, đồng hồ, túi phải để ngoài phòng thi.",
+  "ex": [
+   "Check the test centre's instructions the day before.",
+   "Xem kỹ hướng dẫn của trung tâm thi từ hôm trước."
+  ],
+  "q": {
+   "q": "Đồng hồ đeo tay có được mang vào phòng thi không?",
+   "o": [
+    "Có, mọi loại đồng hồ",
+    "Chỉ đồng hồ thông minh",
+    "Không, phải cất bên ngoài"
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d143",
+  "cat": "mistake",
+  "title": "Every students",
+  "en": "every students -> every student",
+  "vi": "Sau \"every\" và \"each\" dùng danh từ số ít và động từ số ít.",
+  "ex": [
+   "Every student has to take the final exam.",
+   "Mọi học sinh đều phải thi cuối kỳ."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "Each children receive a gift.",
+    "Each child receives a gift.",
+    "Every child receive a gift.",
+    "Every children receives a gift."
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d144",
+  "cat": "fact",
+  "title": "Chữ H câm",
+  "en": "The \"h\" is silent in \"hour\", \"honest\" and \"honour\".",
+  "vi": "Vì h câm, các từ này bắt đầu bằng nguyên âm khi đọc nên dùng \"an\": an hour, an honest man. Ngược lại: a house, a hotel.",
+  "ex": [
+   "It took an hour. She is an honest person.",
+   "Mất một tiếng. Cô ấy là người trung thực."
+  ],
+  "q": {
+   "q": "Điền: \"It was ___ honour to meet her.\"",
+   "o": [
+    "an",
+    "a",
+    "the",
+    "one"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d145",
+  "cat": "idiom",
+  "title": "Make ends meet",
+  "en": "make ends meet",
+  "vi": "Xoay xở đủ tiền để sống, đủ trang trải.",
+  "ex": [
+   "Many young people have to take a second job to make ends meet.",
+   "Nhiều người trẻ phải làm thêm việc thứ hai để đủ sống."
+  ],
+  "q": {
+   "q": "\"Struggle to make ends meet\" nghĩa là:",
+   "o": [
+    "chật vật kiếm đủ tiền sống",
+    "khó kết thúc cuộc họp",
+    "khó gặp bạn bè",
+    "khó buộc dây"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d146",
+  "cat": "collocation",
+  "title": "Lead a healthy lifestyle",
+  "en": "lead a healthy lifestyle",
+  "vi": "Sống lành mạnh. Động từ là \"lead\" hoặc \"have\", không dùng \"make\".",
+  "ex": [
+   "More people are trying to lead a healthier lifestyle by cooking at home.",
+   "Nhiều người cố sống lành mạnh hơn bằng cách tự nấu ăn ở nhà."
+  ],
+  "q": {
+   "q": "Động từ nào đi với \"a healthy lifestyle\"?",
+   "o": [
+    "make",
+    "do",
+    "build up",
+    "lead"
+   ],
+   "a": 3
+  }
+ },
+ {
+  "id": "d147",
+  "cat": "phrasal",
+  "title": "Grow up",
+  "en": "grow up",
+  "vi": "Lớn lên. Hợp câu hỏi Part 1 về hometown, childhood.",
+  "ex": [
+   "I grew up in Da Nang, so I've always loved the sea.",
+   "Tôi lớn lên ở Đà Nẵng nên luôn yêu biển."
+  ],
+  "q": {
+   "q": "Câu nào đúng?",
+   "o": [
+    "I grew in a small village up.",
+    "I was grown up in a small village by.",
+    "I grew up in a small village.",
+    "I growed up in a small village."
+   ],
+   "a": 2
+  }
+ },
+ {
+  "id": "d148",
+  "cat": "tip",
+  "title": "Ngày thi - soát lại đáp án",
+  "en": "Use any spare minutes to check grammar in gap-fill answers and your word limit.",
+  "vi": "Còn dư thời gian thì soát: chính tả, số ít/số nhiều, đúng giới hạn từ, đáp án đúng ô số thứ tự.",
+  "ex": [
+   "Check that answer 14 is in box 14, not box 15.",
+   "Kiểm tra đáp án câu 14 nằm đúng ô 14."
+  ],
+  "q": {
+   "q": "Khi soát bài Listening/Reading, điều nào quan trọng?",
+   "o": [
+    "tô màu đẹp",
+    "đáp án nằm đúng ô số",
+    "viết thêm ghi chú",
+    "đổi hết đáp án"
+   ],
+   "a": 1
+  }
+ },
+ {
+  "id": "d149",
+  "cat": "mistake",
+  "title": "Look forward to meet",
+  "en": "look forward to meet you -> look forward to meeting you",
+  "vi": "\"To\" trong \"look forward to\" là giới từ, theo sau là V-ing. Tương tự: be used to, object to.",
+  "ex": [
+   "I'm used to getting up early.",
+   "Tôi quen dậy sớm rồi."
+  ],
+  "q": {
+   "q": "Điền: \"I'm used to ___ in heavy traffic.\"",
+   "o": [
+    "driving",
+    "drive",
+    "drove",
+    "be drive"
+   ],
+   "a": 0
+  }
+ },
+ {
+  "id": "d150",
+  "cat": "fact",
+  "title": "Từ phổ biến nhất",
+  "en": "\"The\" is the most common word in English.",
+  "vi": "\"The\" đứng đầu trong hầu hết các danh sách tần suất từ. Mạo từ cũng là lỗi ngữ pháp phổ biến nhất của người Việt vì tiếng Việt không có mạo từ.",
+  "ex": [
+   "the, be, to, of, and",
+   "Năm từ thường gặp nhất trong tiếng Anh."
+  ],
+  "q": {
+   "q": "Từ nào thường đứng đầu danh sách tần suất tiếng Anh?",
+   "o": [
+    "and",
+    "you",
+    "is",
+    "the"
+   ],
+   "a": 3
+  }
+ }
+]

@@ -1,0 +1,821 @@
+[
+ {
+  "id": "w2x16",
+  "type": "opinion",
+  "topic": "media",
+  "prompt": "Social media influencers who promote products to their followers should be subject to the same strict rules as traditional advertisers.\n\nTo what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: đồng ý mạnh, nhưng luật cần điều chỉnh cho phù hợp với người sáng tạo nội dung.\nMở bài: nêu bối cảnh influencer bán hàng mà người xem không biết, nêu rõ quan điểm.\nThân bài 1: sức ảnh hưởng của influencer không kém quảng cáo TV, người theo dõi coi họ như bạn bè -> nội dung không gắn nhãn tài trợ là gây hiểu lầm.\nThân bài 2: khán giả nhiều thanh thiếu niên, dễ bị tác động; quảng cáo cho trẻ em trên TV đã bị hạn chế từ lâu.\nThân bài 3: nhượng bộ (luật chặt có thể làm khó người sáng tạo nhỏ) rồi phản bác: dùng biện pháp tương xứng như gắn thẻ bài tài trợ, cấm sản phẩm có hại.\nKết bài: nhắc lại quan điểm, nhấn mạnh tiêu chuẩn trung thực và minh bạch.",
+  "ideas": {
+   "for": [
+    "Influencer có sức thuyết phục như quảng cáo truyền thống, thậm chí hơn",
+    "Nội dung tài trợ không gắn nhãn khiến người xem bị lừa",
+    "Khán giả chủ yếu là người trẻ, dễ bị ảnh hưởng",
+    "Tạo sân chơi công bằng giữa các hình thức quảng cáo"
+   ],
+   "against": [
+    "Luật chặt có thể kìm hãm sự sáng tạo",
+    "Gánh nặng thủ tục quá lớn với người sáng tạo nhỏ, thu nhập thấp",
+    "Khó giám sát hàng triệu tài khoản trên nhiều nền tảng"
+   ]
+  },
+  "model": "Over the past decade, influencers on platforms such as Instagram and TikTok have become some of the most persuasive salespeople in the world, often without their audiences realising that they are being sold to. I strongly agree that these individuals should face the same regulations as conventional advertisers, although the rules may need to be adapted to the way online content is produced.\n\nThe main reason for my view is that the influence these people exert is at least as powerful as that of a television commercial. Followers tend to see a favourite creator as a trusted friend rather than a company, so a casual recommendation for a skincare product or a diet supplement can carry enormous weight. When such promotions are not clearly labelled as paid content, viewers are effectively being misled, which is precisely what advertising standards were designed to prevent.\n\nA second argument concerns the vulnerability of the audience. A large proportion of social media users are teenagers, who are less able to judge whether a claim is exaggerated. Television advertising aimed at children has long been restricted in many countries, and it seems illogical that a nineteen-year-old with ten million followers can promote high-interest loans or unproven health products to the same age group with almost no oversight.\n\nAdmittedly, critics argue that applying strict rules to individuals could stifle creativity and place an unfair burden on small creators who earn very little. However, this problem can be addressed through proportionate measures, such as a simple obligation to tag every sponsored post and a ban on promoting certain harmful products, rather than costly approval procedures.\n\nIn conclusion, since influencers shape consumer behaviour as effectively as traditional advertising, they should be held to equivalent standards of honesty and transparency, applied in a way that suits the scale of their work.",
+  "vocab": [
+   [
+    "persuasive",
+    "có sức thuyết phục"
+   ],
+   [
+    "exert influence",
+    "gây ảnh hưởng"
+   ],
+   [
+    "be clearly labelled as paid content",
+    "được gắn nhãn rõ là nội dung trả phí"
+   ],
+   [
+    "advertising standards",
+    "tiêu chuẩn quảng cáo"
+   ],
+   [
+    "vulnerability",
+    "sự dễ bị tổn thương"
+   ],
+   [
+    "oversight",
+    "sự giám sát"
+   ],
+   [
+    "stifle creativity",
+    "kìm hãm sự sáng tạo"
+   ],
+   [
+    "proportionate measures",
+    "biện pháp tương xứng"
+   ]
+  ]
+ },
+ {
+  "id": "w2x17",
+  "type": "discussion",
+  "topic": "culture",
+  "prompt": "Some people believe that governments should spend money supporting the arts, such as theatres, museums and music. Others think this money would be better spent on public services like health and education.\n\nDiscuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: ủng hộ mức tài trợ nghệ thuật vừa phải nhưng ổn định.\nMở bài: ngân sách có hạn, giới thiệu hai quan điểm, nêu quan điểm cá nhân.\nThân bài 1 (phản đối tài trợ nghệ thuật): nhu cầu cơ bản cần ưu tiên; khách của nhà hát, bảo tàng chủ yếu là người khá giả.\nThân bài 2 (ủng hộ): thu hút du lịch, tạo việc làm (ví dụ Bilbao); giữ gìn di sản và bản sắc mà giải trí thương mại không làm.\nThân bài 3 (ý kiến riêng): đây không phải lựa chọn một mất một còn vì chi cho văn hóa rất nhỏ; nên tài trợ có điều kiện (ngày vào cửa miễn phí, chương trình cho học sinh).\nKết bài: y tế, giáo dục vẫn ưu tiên nhưng bỏ nghệ thuật sẽ làm xã hội nghèo đi.",
+  "ideas": {
+   "for": [
+    "Nghệ thuật thu hút du khách và tạo việc làm",
+    "Bảo tồn di sản và bản sắc dân tộc",
+    "Thị trường thương mại không tự cung cấp nghệ thuật phi lợi nhuận"
+   ],
+   "against": [
+    "Y tế và giáo dục là nhu cầu cấp thiết hơn",
+    "Người hưởng lợi chủ yếu là tầng lớp khá giả",
+    "Nghệ thuật có thể tự tìm nhà tài trợ tư nhân"
+   ]
+  },
+  "model": "Public budgets are always limited, so whether taxpayers' money should fund galleries and orchestras or be directed towards hospitals and schools is a recurring debate. While I understand why many people regard essential services as the priority, I believe that a modest but secure level of arts funding is fully justified.\n\nThose who oppose state support for the arts argue that basic needs must come first. If patients are waiting months for surgery or classrooms are overcrowded, spending millions on a new opera house can appear irresponsible. They also point out that many cultural venues are visited mainly by wealthier, well-educated citizens, so public subsidies may effectively transfer money from ordinary taxpayers to a privileged minority.\n\nOn the other hand, supporters of arts funding claim that culture brings benefits which are less visible but equally real. Museums and theatres attract tourists and create jobs in surrounding businesses, as cities such as Bilbao have shown after investing in landmark cultural projects. Moreover, the arts preserve a nation's heritage and give people a shared sense of identity, something that commercial entertainment, driven purely by profit, is unlikely to provide.\n\nIn my opinion, presenting this issue as a straightforward choice is misleading. Spending on culture usually represents a tiny fraction of national budgets, so cutting it would make little difference to healthcare or education. A more sensible approach is to protect core services while guaranteeing stable funding for the arts, with conditions attached, such as free entry days or school programmes, so that the benefits reach the whole population rather than a small elite.\n\nIn conclusion, although health and education must remain the top priorities, abandoning the arts would impoverish society, and governments can and should support both.",
+  "vocab": [
+   [
+    "taxpayers' money",
+    "tiền thuế của dân"
+   ],
+   [
+    "essential services",
+    "dịch vụ thiết yếu"
+   ],
+   [
+    "public subsidies",
+    "trợ cấp công"
+   ],
+   [
+    "a privileged minority",
+    "một nhóm thiểu số có đặc quyền"
+   ],
+   [
+    "landmark cultural projects",
+    "công trình văn hóa mang tính biểu tượng"
+   ],
+   [
+    "preserve a nation's heritage",
+    "gìn giữ di sản quốc gia"
+   ],
+   [
+    "a shared sense of identity",
+    "ý thức bản sắc chung"
+   ],
+   [
+    "impoverish society",
+    "làm nghèo nàn xã hội"
+   ]
+  ]
+ },
+ {
+  "id": "w2x18",
+  "type": "advantages",
+  "topic": "globalisation",
+  "prompt": "International companies are opening branches in almost every country, so the same shops, restaurants and brands can now be found in cities all over the world.\n\nDo the advantages of this trend outweigh the disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: nhược điểm lớn hơn ưu điểm.\nMở bài: mô tả hiện tượng các chuỗi toàn cầu giống nhau ở mọi thành phố, nêu quan điểm.\nThân bài 1 (ưu điểm): tạo việc làm, nâng chuẩn đào tạo và dịch vụ; người tiêu dùng có sản phẩm chất lượng ổn định; nước đang phát triển được chuyển giao công nghệ, quản lý.\nThân bài 2 (nhược điểm kinh tế): chuỗi lớn lấn át cửa hàng gia đình, lợi nhuận chảy ra nước ngoài; ví dụ quán cà phê vỉa hè ở Việt Nam.\nThân bài 3 (nhược điểm văn hóa): mất bản sắc riêng của thành phố, giảm sức hút du lịch.\nKết bài: khẳng định nhược điểm lớn hơn, đề xuất chính phủ bảo vệ doanh nghiệp địa phương.",
+  "ideas": {
+   "for": [
+    "Tạo nhiều việc làm, nâng chuẩn dịch vụ",
+    "Người tiêu dùng có nhiều lựa chọn, chất lượng ổn định",
+    "Chuyển giao công nghệ và kỹ năng quản lý"
+   ],
+   "against": [
+    "Doanh nghiệp nhỏ địa phương bị đẩy khỏi thị trường",
+    "Lợi nhuận chuyển ra nước ngoài",
+    "Thành phố mất bản sắc, trở nên giống nhau",
+    "Giảm sức hút với du khách"
+   ]
+  },
+  "model": "Walking through the centre of almost any major city today, a visitor is likely to see the same coffee chains, fashion retailers and fast-food outlets. Although this spread of global brands brings undeniable economic benefits, I believe that its drawbacks for local businesses and cultural diversity are more significant.\n\nThere are clear advantages to the arrival of multinational companies. They create large numbers of jobs and often introduce higher standards of training, hygiene and customer service, which local competitors may then copy. Consumers also gain access to a wider range of products at predictable quality and price, and in developing economies such investment can bring modern technology and management practices that would otherwise take decades to develop.\n\nHowever, these gains come at a considerable cost. Global chains benefit from enormous purchasing power and advertising budgets, which allows them to undercut small, family-run shops and restaurants. When these independent businesses close, profits that once stayed within the community are transferred to shareholders overseas. In Vietnam, for instance, traditional street-side cafés now compete with international chains that can afford premium locations in every new shopping centre.\n\nAn even more serious consequence is the gradual loss of local character. Part of the value of a city lies in its distinctive markets, cuisine and architecture, yet identical shopfronts make places increasingly interchangeable. This not only weakens a community's sense of identity but can also reduce the appeal of a destination for tourists, who travel precisely to experience something different.\n\nIn conclusion, while international businesses offer employment and convenience, I would argue that the erosion of independent enterprise and cultural uniqueness outweighs these benefits. Governments should therefore welcome foreign investment while actively protecting local businesses, for example through planning rules and tax incentives.",
+  "vocab": [
+   [
+    "multinational companies",
+    "công ty đa quốc gia"
+   ],
+   [
+    "purchasing power",
+    "sức mua"
+   ],
+   [
+    "undercut",
+    "bán phá giá, bán rẻ hơn để cạnh tranh"
+   ],
+   [
+    "family-run shops",
+    "cửa hàng do gia đình tự kinh doanh"
+   ],
+   [
+    "shareholders overseas",
+    "cổ đông ở nước ngoài"
+   ],
+   [
+    "local character",
+    "nét đặc trưng địa phương"
+   ],
+   [
+    "interchangeable",
+    "có thể thay thế cho nhau, giống hệt nhau"
+   ],
+   [
+    "tax incentives",
+    "ưu đãi thuế"
+   ]
+  ]
+ },
+ {
+  "id": "w2x19",
+  "type": "problem-solution",
+  "topic": "family",
+  "prompt": "In many countries, a growing number of elderly people live alone, far away from their adult children.\n\nWhat problems does this cause, and what can be done to solve them? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: vấn đề và giải pháp.\nMở bài: con cái lên thành phố hoặc ra nước ngoài làm việc, cha mẹ già ở lại một mình; nêu sẽ bàn vấn đề và giải pháp.\nThân bài 1 (vấn đề an toàn): té ngã, ốm đau, quên uống thuốc mà không ai biết; việc thường ngày khó khăn hơn.\nThân bài 2 (vấn đề cô đơn): cô lập dẫn tới trầm cảm, sức khỏe giảm; con cái thấy có lỗi, quan hệ gia đình căng thẳng.\nThân bài 3 (giải pháp): trung tâm cộng đồng và tình nguyện viên; thiết bị báo động, gọi video; doanh nghiệp cho làm việc linh hoạt, từ xa.\nKết bài: chia sẻ trách nhiệm giữa nhà nước, cộng đồng và gia đình.",
+  "ideas": {
+   "for": [
+    "Thiết bị báo động khẩn cấp và gọi video giúp kết nối hằng ngày",
+    "Trung tâm cộng đồng giảm cô đơn",
+    "Làm việc linh hoạt giúp con cái về thăm lâu hơn"
+   ],
+   "against": [
+    "Nguy cơ tai nạn không ai phát hiện",
+    "Cô đơn gây trầm cảm, suy giảm trí nhớ",
+    "Con cái mang cảm giác có lỗi, gia đình căng thẳng"
+   ]
+  },
+  "model": "As young adults increasingly move to large cities or abroad for work, many older people are left living on their own in their home towns. This situation creates both practical and emotional difficulties, but a combination of community support and family effort can do much to reduce them.\n\nThe most immediate problem is safety. An elderly person who lives alone may fall, become ill or forget to take medication, and there may be nobody nearby to notice for hours or even days. Everyday tasks such as shopping, cleaning and attending medical appointments also become harder with age, so independence can quickly turn into neglect.\n\nEqually serious is the issue of loneliness. Without regular contact with family, many older people spend most of their time in isolation, which research has linked to depression, poorer physical health and faster mental decline. Their children, meanwhile, often feel guilty yet unable to leave their jobs, which places strain on family relationships.\n\nSeveral measures could address these problems. Local authorities could fund community centres where older residents meet, eat together and take part in activities, as well as volunteer schemes in which younger neighbours visit regularly. Technology can also help: simple alarm devices and video-calling apps allow relatives to check on their parents daily and respond quickly in an emergency. Finally, employers could offer more flexible or remote working arrangements, enabling adult children to spend extended periods with ageing parents without sacrificing their careers.\n\nIn conclusion, the isolation of elderly people living alone threatens both their wellbeing and family harmony. However, if governments, communities and families share responsibility, older citizens can remain in their own homes safely and with dignity.",
+  "vocab": [
+   [
+    "live on their own",
+    "sống một mình"
+   ],
+   [
+    "neglect",
+    "sự bỏ bê, không được chăm sóc"
+   ],
+   [
+    "isolation",
+    "sự cô lập"
+   ],
+   [
+    "mental decline",
+    "suy giảm trí tuệ"
+   ],
+   [
+    "place strain on",
+    "gây áp lực lên"
+   ],
+   [
+    "volunteer schemes",
+    "chương trình tình nguyện"
+   ],
+   [
+    "ageing parents",
+    "cha mẹ già"
+   ],
+   [
+    "with dignity",
+    "một cách có phẩm giá"
+   ]
+  ]
+ },
+ {
+  "id": "w2x20",
+  "type": "two-part",
+  "topic": "tourism",
+  "prompt": "Many popular tourist destinations are now overcrowded, and local residents complain that tourism is damaging their quality of life.\n\nWhy has this happened? What can be done to make tourism more sustainable? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: hai câu hỏi (nguyên nhân + giải pháp), trả lời đủ cả hai.\nMở bài: ví dụ Venice, Barcelona, bãi biển Đông Nam Á; nêu sẽ trả lời hai câu hỏi.\nThân bài 1 (nguyên nhân): du lịch rẻ và dễ (hàng không giá rẻ, đặt phòng online); mạng xã hội tạo điểm \"sống ảo\"; cho thuê ngắn hạn đẩy giá thuê nhà, người dân phải rời khu trung tâm.\nThân bài 2 (giải pháp): thu phí vào cửa, vé theo giờ, giới hạn tàu du lịch; quản lý cho thuê ngắn hạn bằng giấy phép; quảng bá vùng ít người biết và mùa thấp điểm.\nKết bài: tóm tắt nguyên nhân và giải pháp.",
+  "ideas": {
+   "for": [
+    "Phí vào cửa và vé theo giờ phân bổ du khách",
+    "Cấp phép cho thuê ngắn hạn giữ nhà ở cho dân",
+    "Quảng bá điểm đến mới và mùa thấp điểm"
+   ],
+   "against": [
+    "Hàng không giá rẻ và đặt phòng online",
+    "Ảnh lan truyền trên mạng xã hội dồn khách vào một chỗ",
+    "Nhà cho thuê ngắn hạn đẩy giá thuê nhà lên"
+   ]
+  },
+  "model": "In recent years, cities such as Venice and Barcelona, as well as beaches across Southeast Asia, have become so crowded that residents have begun protesting against visitors. This problem has several causes, but there are also realistic ways to make tourism less harmful.\n\nThe main reason for overcrowding is that travel has become far cheaper and easier than in the past. Budget airlines, low-cost cruises and online booking platforms mean that millions of people can now afford short trips abroad several times a year. Social media has intensified the effect, since a single viral photograph can send thousands of visitors to the same viewpoint, street or waterfall within weeks. In addition, the rise of short-term rental services has turned many residential apartments into holiday accommodation, pushing up rents and forcing locals out of historic neighbourhoods.\n\nTo tackle these issues, authorities could first manage visitor numbers more actively. Daily entry fees, timed tickets for major attractions and limits on the number of cruise ships docking at one time would spread visitors more evenly and generate income for local services. Secondly, governments should regulate short-term rentals, for example by requiring licences or restricting them in central districts, so that housing remains available for residents. Finally, tourist boards could promote lesser-known regions and off-peak seasons, which would reduce pressure on famous sites while bringing economic benefits to areas that currently receive few visitors.\n\nIn conclusion, overtourism has been driven mainly by cheap travel, social media and the growth of holiday rentals. Although tourism remains vital to many economies, sensible limits, housing regulation and wider promotion can ensure that it benefits both visitors and the people who live in these destinations.",
+  "vocab": [
+   [
+    "overtourism",
+    "tình trạng quá tải du lịch"
+   ],
+   [
+    "budget airlines",
+    "hãng hàng không giá rẻ"
+   ],
+   [
+    "a viral photograph",
+    "bức ảnh lan truyền mạnh trên mạng"
+   ],
+   [
+    "short-term rental services",
+    "dịch vụ cho thuê nhà ngắn hạn"
+   ],
+   [
+    "push up rents",
+    "đẩy giá thuê nhà lên"
+   ],
+   [
+    "timed tickets",
+    "vé vào cửa theo khung giờ"
+   ],
+   [
+    "off-peak seasons",
+    "mùa thấp điểm"
+   ],
+   [
+    "lesser-known regions",
+    "những vùng ít được biết đến"
+   ]
+  ]
+ },
+ {
+  "id": "w2x21",
+  "type": "opinion",
+  "topic": "city",
+  "prompt": "Some people think that private cars should be banned from city centres and replaced with public transport, cycling and walking.\n\nTo what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: phần lớn đồng ý, với điều kiện làm từ từ và có phương án thay thế.\nMở bài: ùn tắc, ô nhiễm, tiếng ồn; nêu quan điểm có điều kiện.\nThân bài 1: sức khỏe cộng đồng (khí thải, bụi mịn) và an toàn cho người đi bộ, xe đạp.\nThân bài 2: tận dụng không gian (bãi đỗ xe, đường thành công viên, quảng trường); ví dụ Oslo, Ghent, cửa hàng đông khách hơn.\nThân bài 3: nhượng bộ: cấm đột ngột gây khó cho người khuyết tật, giao hàng, cấp cứu, dân ngoại ô -> cần miễn trừ và đầu tư giao thông công cộng trước.\nKết bài: nhắc lại quan điểm và điều kiện.",
+  "ideas": {
+   "for": [
+    "Không khí sạch hơn, giảm bệnh hô hấp",
+    "Đường phố an toàn hơn cho người đi bộ",
+    "Giải phóng không gian cho công viên, làn xe đạp",
+    "Kinh doanh nhỏ ở trung tâm có thể đông khách hơn"
+   ],
+   "against": [
+    "Bất tiện cho người khuyết tật và dịch vụ giao hàng, cấp cứu",
+    "Dân ngoại ô thiếu xe buýt khó đi làm",
+    "Cửa hàng lo sợ mất khách đi ô tô"
+   ]
+  },
+  "model": "Traffic jams, air pollution and noise have become defining features of life in many large cities, which has led some urban planners to propose banning private cars from central areas altogether. I largely agree with this idea, provided that it is introduced gradually and accompanied by reliable alternatives.\n\nThe strongest argument for car-free centres is the improvement in public health. Vehicle emissions are a major source of the fine particles that cause respiratory illness, and city centres, where traffic is most concentrated, usually suffer the worst air quality. Removing cars would also make streets far safer for pedestrians and cyclists, particularly children and older people, who are most at risk in road accidents.\n\nFurthermore, a ban would allow city centres to use space more productively. Roads and car parks occupy a surprisingly large share of urban land, and this could be converted into parks, cycle lanes and pedestrian squares. Experience from cities such as Oslo and Ghent suggests that once cars are removed, people spend more time in the centre, and many local shops and cafés actually see their trade increase.\n\nNevertheless, a sudden or total ban would cause genuine hardship. Disabled people, delivery companies and emergency services all need vehicle access, and residents of outer suburbs with poor bus connections may find it impossible to reach work. For this reason, exemptions for essential users and substantial investment in frequent, affordable public transport must come before any restrictions.\n\nIn conclusion, I believe that city centres would become healthier, safer and more pleasant without private cars. However, this policy will only succeed if authorities first ensure that everyone has a practical way of travelling without one.",
+  "vocab": [
+   [
+    "urban planners",
+    "nhà quy hoạch đô thị"
+   ],
+   [
+    "car-free centres",
+    "khu trung tâm không ô tô"
+   ],
+   [
+    "vehicle emissions",
+    "khí thải xe cộ"
+   ],
+   [
+    "fine particles",
+    "bụi mịn"
+   ],
+   [
+    "respiratory illness",
+    "bệnh hô hấp"
+   ],
+   [
+    "pedestrian squares",
+    "quảng trường dành cho người đi bộ"
+   ],
+   [
+    "genuine hardship",
+    "khó khăn thực sự"
+   ],
+   [
+    "exemptions for essential users",
+    "miễn trừ cho người dùng thiết yếu"
+   ]
+  ]
+ },
+ {
+  "id": "w2x22",
+  "type": "discussion",
+  "topic": "science",
+  "prompt": "Some people believe that governments should spend large amounts of money on space exploration. Others argue that this money should be used to solve problems on Earth.\n\nDiscuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: nên tiếp tục đầu tư cho không gian nhưng có kiểm soát.\nMở bài: chi phí khổng lồ của các sứ mệnh, giới thiệu hai quan điểm và nêu quan điểm.\nThân bài 1 (phản đối): số tiền đó xây được trường học, cung cấp nước sạch; ưu tiên sai, chạy theo uy tín quốc gia.\nThân bài 2 (ủng hộ): vệ tinh cho dự báo thời tiết, cảnh báo thiên tai, giám sát phá rừng; công nghệ lọc nước, chẩn đoán hình ảnh; truyền cảm hứng học khoa học.\nThân bài 3 (ý kiến riêng): hai mục tiêu không thật sự cạnh tranh vì ngân sách vũ trụ dưới 1% chi tiêu; nên ưu tiên dự án có lợi ích rõ và hợp tác quốc tế.\nKết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Vệ tinh giúp dự báo thời tiết, cảnh báo thiên tai, theo dõi khí hậu",
+    "Tạo ra công nghệ ứng dụng hằng ngày",
+    "Truyền cảm hứng cho giới trẻ học STEM"
+   ],
+   "against": [
+    "Tiền nên dùng cho nghèo đói, y tế, nước sạch",
+    "Động cơ chủ yếu là uy tín quốc gia",
+    "Lợi ích đến chậm và không chắc chắn"
+   ]
+  },
+  "model": "Space programmes such as missions to the Moon and Mars cost billions of dollars, and at a time when many people struggle with poverty and climate change, it is natural to question whether this spending is justified. Both sides of the debate raise valid points, but I believe that space research deserves continued, though carefully controlled, investment.\n\nCritics of space exploration argue that the money could achieve far more if spent on urgent needs. The cost of a single mission could build thousands of schools, supply clean water to millions of people or fund research into renewable energy. From this perspective, sending astronauts to distant planets while people on Earth lack basic healthcare seems to reflect misplaced priorities, driven more by national prestige than by human welfare.\n\nSupporters, however, contend that space research often helps to solve the very problems that critics highlight. Satellites are now essential for weather forecasting, disaster warnings and monitoring deforestation and rising sea levels. Many everyday technologies, from water filtration systems to improvements in medical imaging, were originally developed for space programmes. In addition, ambitious missions inspire young people to study science and engineering, which strengthens a country's ability to innovate in every field.\n\nIn my view, the two goals are not truly in competition. Space budgets typically account for well under one per cent of government spending, so eliminating them would barely affect social programmes. What matters is that space agencies focus on projects with clear scientific or practical benefits and increasingly share costs through international partnerships.\n\nIn conclusion, although problems on Earth must remain the priority, a reasonable investment in space exploration is worthwhile because it produces knowledge and technology that ultimately improve life on our own planet.",
+  "vocab": [
+   [
+    "space exploration",
+    "thám hiểm không gian"
+   ],
+   [
+    "misplaced priorities",
+    "ưu tiên đặt sai chỗ"
+   ],
+   [
+    "national prestige",
+    "uy tín quốc gia"
+   ],
+   [
+    "human welfare",
+    "phúc lợi con người"
+   ],
+   [
+    "disaster warnings",
+    "cảnh báo thiên tai"
+   ],
+   [
+    "medical imaging",
+    "chẩn đoán hình ảnh y khoa"
+   ],
+   [
+    "innovate",
+    "đổi mới, sáng tạo"
+   ],
+   [
+    "international partnerships",
+    "quan hệ hợp tác quốc tế"
+   ]
+  ]
+ },
+ {
+  "id": "w2x23",
+  "type": "advantages",
+  "topic": "sport",
+  "prompt": "Many countries compete to host major international sporting events such as the Olympic Games or the football World Cup.\n\nDo the advantages of hosting such events outweigh the disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: với đa số nước chủ nhà, nhược điểm lớn hơn.\nMở bài: các nước chi rất nhiều để giành quyền đăng cai; nêu quan điểm.\nThân bài 1 (ưu điểm): đẩy nhanh hạ tầng giao thông; du lịch và hình ảnh quốc gia (Barcelona 1992); khuyến khích thể thao, niềm tự hào dân tộc.\nThân bài 2 (nhược điểm tài chính): ngân sách vượt dự toán, nợ kéo dài; sân vận động bỏ hoang (Athens 2004); du khách thường xuyên tránh đi.\nThân bài 3 (nhược điểm xã hội): giải tỏa dân nghèo, tiền công chuyển từ trường học, bệnh viện sang dự án phục vụ tổ chức thể thao, nhà tài trợ.\nKết bài: nhắc lại quan điểm; chỉ nên đăng cai nếu tái sử dụng được cơ sở sẵn có.",
+  "ideas": {
+   "for": [
+    "Đẩy nhanh xây dựng hạ tầng giao thông",
+    "Quảng bá hình ảnh quốc gia và du lịch",
+    "Khuyến khích người trẻ chơi thể thao, tạo niềm tự hào"
+   ],
+   "against": [
+    "Chi phí vượt dự toán, nợ công kéo dài",
+    "Sân vận động bị bỏ hoang sau sự kiện",
+    "Người dân nghèo bị giải tỏa",
+    "Tiền công bị chuyển khỏi dịch vụ thiết yếu"
+   ]
+  },
+  "model": "Every few years, governments spend enormous sums bidding to host the Olympic Games or the World Cup, hoping to put their country in the global spotlight. While these events can bring real benefits, I believe that for most host nations the costs outweigh the advantages.\n\nAdmittedly, hosting a major tournament offers several attractive rewards. It can accelerate the construction of transport links, such as new metro lines and airports, which residents continue to use long after the event. Millions of visitors and global television coverage can also boost tourism and improve a country's international image, as happened with Barcelona after the 1992 Olympics. In addition, the excitement of a home tournament may encourage young people to take up sport and create a sense of national pride.\n\nHowever, these gains are frequently exaggerated. The budgets for recent Games have repeatedly exceeded their original estimates by billions of dollars, leaving taxpayers with debts that take decades to repay. Many stadiums built for a few weeks of competition, such as several venues from the 2004 Athens Olympics, were later abandoned because there was no long-term demand for them. Moreover, the promised surge in tourism is often offset by regular visitors staying away to avoid crowds and high prices.\n\nThere are also social costs. Preparations sometimes involve evicting residents from poorer neighbourhoods to make room for new facilities, and public money that could have been invested in schools or hospitals is diverted to projects that mainly benefit international sports organisations and sponsors.\n\nIn conclusion, although major sporting events can deliver infrastructure and prestige, the financial risks and social disruption usually outweigh these benefits. Only countries that can reuse existing venues and plan carefully for long-term use should consider bidding.",
+  "vocab": [
+   [
+    "bid to host",
+    "chạy đua giành quyền đăng cai"
+   ],
+   [
+    "in the global spotlight",
+    "trong tâm điểm chú ý của thế giới"
+   ],
+   [
+    "accelerate the construction of",
+    "đẩy nhanh việc xây dựng"
+   ],
+   [
+    "exceed original estimates",
+    "vượt dự toán ban đầu"
+   ],
+   [
+    "be offset by",
+    "bị bù trừ, triệt tiêu bởi"
+   ],
+   [
+    "evict residents",
+    "cưỡng chế, giải tỏa cư dân"
+   ],
+   [
+    "be diverted to",
+    "bị chuyển hướng sang"
+   ],
+   [
+    "social disruption",
+    "xáo trộn xã hội"
+   ]
+  ]
+ },
+ {
+  "id": "w2x24",
+  "type": "problem-solution",
+  "topic": "food",
+  "prompt": "In many developed countries, a large proportion of the food that is produced is thrown away.\n\nWhat are the causes of this problem, and what measures could be taken to reduce it? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: nguyên nhân và giải pháp (thuộc nhóm problem-solution).\nMở bài: khoảng một phần ba lương thực bị lãng phí; nêu sẽ bàn nguyên nhân và giải pháp.\nThân bài 1 (nguyên nhân từ siêu thị): loại bỏ rau quả xấu mã; khuyến mãi \"mua 1 tặng 1\" khiến mua quá nhu cầu.\nThân bài 2 (nguyên nhân từ hộ gia đình): lên kế hoạch kém, nấu quá nhiều, hiểu sai nhãn \"best before\"; thực phẩm rẻ nên ít động lực thay đổi.\nThân bài 3 (giải pháp): luật buộc siêu thị quyên góp đồ ăn chưa bán (Pháp từ 2016); bán rau quả xấu mã giá rẻ; đơn giản hóa nhãn hạn dùng; giáo dục cộng đồng.\nKết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Luật buộc quyên góp thực phẩm chưa bán",
+    "Bán rau quả xấu mã với giá thấp",
+    "Nhãn hạn sử dụng rõ ràng hơn",
+    "Giáo dục về lên thực đơn và bảo quản đồ ăn thừa"
+   ],
+   "against": [
+    "Siêu thị loại bỏ sản phẩm không đẹp",
+    "Khuyến mãi khiến mua quá nhiều",
+    "Người dân hiểu sai nhãn hạn dùng",
+    "Thực phẩm rẻ nên ít người tiết kiệm"
+   ]
+  },
+  "model": "It is estimated that roughly a third of all food produced worldwide is never eaten, and wealthy countries account for a large share of this waste. The problem has several causes at different stages of the supply chain, but practical measures by businesses, governments and households could reduce it considerably.\n\nOne major cause lies with supermarkets and their suppliers. Retailers often reject fruit and vegetables that are misshapen or slightly discoloured because they believe customers will not buy them, so perfectly edible produce is discarded before it even reaches the shops. Promotions such as 'buy one, get one free' also encourage shoppers to purchase more than they need.\n\nHouseholds are responsible for much of the remaining waste. Many people plan meals poorly, cook excessive portions or misunderstand date labels, throwing away food marked 'best before' even though it is still safe to eat. Because food is relatively cheap in developed economies, there is little financial incentive to change these habits.\n\nSeveral solutions could tackle these causes. Governments could require large supermarkets to donate unsold food to charities rather than destroying it, as France has done since 2016. Retailers, for their part, could sell imperfect produce at lower prices, an approach that has proved popular in several European chains. Clearer labelling would also help, since replacing confusing date labels with a single, simple instruction would prevent consumers from discarding safe food. Finally, public campaigns and school lessons on meal planning and storing leftovers could gradually change attitudes at home.\n\nIn conclusion, food waste results from commercial practices and careless consumer habits. Through legislation, fairer retail standards and better public education, developed countries could greatly reduce the amount of food they throw away.",
+  "vocab": [
+   [
+    "supply chain",
+    "chuỗi cung ứng"
+   ],
+   [
+    "misshapen",
+    "méo mó, xấu mã"
+   ],
+   [
+    "edible produce",
+    "nông sản ăn được"
+   ],
+   [
+    "be discarded",
+    "bị vứt bỏ"
+   ],
+   [
+    "excessive portions",
+    "khẩu phần quá nhiều"
+   ],
+   [
+    "date labels",
+    "nhãn ghi hạn sử dụng"
+   ],
+   [
+    "financial incentive",
+    "động lực tài chính"
+   ],
+   [
+    "leftovers",
+    "đồ ăn thừa"
+   ]
+  ]
+ },
+ {
+  "id": "w2x25",
+  "type": "two-part",
+  "topic": "language",
+  "prompt": "English is now the most widely used language for international business, science and the internet.\n\nWhy has English become so dominant? Is this a positive or negative development? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: hai câu hỏi (lý do + đánh giá tích cực hay tiêu cực).\nMở bài: tiếng Anh có mặt khắp nơi; nêu: có gốc lịch sử, kinh tế; nhìn chung là tích cực nhưng có rủi ro.\nThân bài 1 (lý do): Đế quốc Anh đưa tiếng Anh vào hành chính, giáo dục; sức mạnh kinh tế, công nghệ của Mỹ (thương mại, phim, nhạc, internet); vòng lặp tự củng cố.\nThân bài 2 (tích cực): chia sẻ nghiên cứu, giao thương không cần dịch, cơ hội học bổng và việc làm cho người học Việt Nam.\nThân bài 3 (tiêu cực): người bản ngữ có lợi thế bất công; ngôn ngữ nhỏ bị xem nhẹ.\nKết bài: tóm tắt lý do, khẳng định tích cực là chính, nhưng cần giữ tiếng mẹ đẻ.",
+  "ideas": {
+   "for": [
+    "Ngôn ngữ chung giúp khoa học và kinh doanh hiệu quả",
+    "Mở ra cơ hội học tập, việc làm quốc tế",
+    "Tiếp cận kho tri thức trực tuyến khổng lồ"
+   ],
+   "against": [
+    "Người bản ngữ có lợi thế không công bằng",
+    "Người không bản ngữ tốn nhiều năm học",
+    "Ngôn ngữ nhỏ và văn hóa đi kèm bị mai một"
+   ]
+  },
+  "model": "Whether at an academic conference in Tokyo or a business meeting in São Paulo, English is now the language most likely to be heard. This dominance has historical and economic roots, and in my view it is largely a positive development, although it carries some risks.\n\nThe spread of English can be traced to two main factors. Firstly, the British Empire established the language across large parts of the world, from India to Africa, as the language of government and education. Secondly, and more importantly in recent decades, the economic and technological power of the United States made English the language of international trade, Hollywood films, popular music and, crucially, the internet. Once English became the shared language of science and business, people elsewhere had a strong incentive to learn it, which further reinforced its position.\n\nOn balance, I believe this situation brings considerable benefits. A common language allows researchers to share findings instantly, enables companies to trade without costly translation and gives individuals from different countries a way to communicate when travelling or working abroad. For learners in countries such as Vietnam, good English can open doors to scholarships, international careers and a vast amount of online knowledge.\n\nNevertheless, there are disadvantages. Native speakers enjoy an unfair advantage in academic publishing and negotiations, while non-native speakers must invest years of study simply to compete. There is also a danger that smaller languages, and the cultural knowledge they contain, will be neglected as young people focus on English.\n\nIn conclusion, English owes its dominance to colonial history and, above all, to American economic influence. Although its global role is largely beneficial, countries should continue to value and teach their own languages alongside it.",
+  "vocab": [
+   [
+    "dominance",
+    "sự thống trị"
+   ],
+   [
+    "be traced to",
+    "bắt nguồn từ"
+   ],
+   [
+    "reinforce its position",
+    "củng cố vị thế"
+   ],
+   [
+    "share findings",
+    "chia sẻ kết quả nghiên cứu"
+   ],
+   [
+    "open doors to",
+    "mở ra cơ hội"
+   ],
+   [
+    "native speakers",
+    "người bản ngữ"
+   ],
+   [
+    "an unfair advantage",
+    "lợi thế không công bằng"
+   ],
+   [
+    "colonial history",
+    "lịch sử thuộc địa"
+   ]
+  ]
+ },
+ {
+  "id": "w2x26",
+  "type": "opinion",
+  "topic": "family",
+  "prompt": "Some people think that children should be required to help with household tasks such as cooking and cleaning from a young age.\n\nTo what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: đồng ý mạnh, với điều kiện việc nhà phù hợp lứa tuổi.\nMở bài: nhiều cha mẹ làm hết việc nhà để con tập trung học; nêu quan điểm.\nThân bài 1: kỹ năng sống thực tế (nấu ăn, giặt giũ, quản lý chi tiêu) mà trường ít dạy.\nThân bài 2: phát triển tính trách nhiệm và tinh thần hợp tác, có ích cho học tập và công việc sau này.\nThân bài 3: nhượng bộ (áp lực học tập nặng) rồi phản bác: việc nhà chỉ 15-20 phút, là lúc nghỉ khỏi màn hình, gắn kết gia đình.\nKết bài: nhắc lại quan điểm, nhấn mạnh chọn việc theo lứa tuổi, không coi là hình phạt.",
+  "ideas": {
+   "for": [
+    "Học kỹ năng sống độc lập",
+    "Rèn tính trách nhiệm và hợp tác",
+    "Giảm thời gian dùng màn hình",
+    "Gắn kết cha mẹ và con cái"
+   ],
+   "against": [
+    "Trẻ đã chịu áp lực học tập nặng",
+    "Trẻ nhỏ có thể gặp nguy hiểm khi nấu ăn",
+    "Thời gian rảnh nên dành để nghỉ ngơi"
+   ]
+  },
+  "model": "In many modern families, parents do almost all the housework themselves, either because they are short of time or because they want their children to concentrate on their studies. However, I strongly agree that children should be expected to help with household tasks from an early age, as long as these tasks are suited to their age.\n\nThe most important benefit is that chores teach practical life skills. A teenager who has regularly cooked simple meals, washed clothes and managed a small budget will cope far better when leaving home for university or work than one who has never done so. These abilities are rarely taught at school, so the family home is the natural place to learn them.\n\nHousehold responsibilities also develop valuable personal qualities. When children are given a regular duty, such as setting the table or feeding a pet, they learn that their actions affect other people and that the household functions only when everyone contributes. This sense of responsibility and cooperation is likely to benefit them later in teamwork at school and in the workplace.\n\nSome parents argue that children today face heavy academic pressure and that their limited free time should be spent studying or relaxing. While this concern is understandable, most chores take only fifteen or twenty minutes a day, and they can even provide a useful break from screens and homework. Moreover, sharing tasks gives parents and children an opportunity to spend time together, which may strengthen family relationships.\n\nIn conclusion, I believe that requiring children to help at home is beneficial, because it prepares them for independent adult life and builds responsibility. The key is to choose tasks appropriate to each child's age and to present them as a normal part of family life rather than a punishment.",
+  "vocab": [
+   [
+    "household tasks",
+    "việc nhà"
+   ],
+   [
+    "chores",
+    "việc vặt trong nhà"
+   ],
+   [
+    "practical life skills",
+    "kỹ năng sống thực tế"
+   ],
+   [
+    "cope with",
+    "đương đầu, xoay xở"
+   ],
+   [
+    "a sense of responsibility",
+    "tinh thần trách nhiệm"
+   ],
+   [
+    "academic pressure",
+    "áp lực học tập"
+   ],
+   [
+    "strengthen family relationships",
+    "thắt chặt quan hệ gia đình"
+   ],
+   [
+    "independent adult life",
+    "cuộc sống tự lập khi trưởng thành"
+   ]
+  ]
+ },
+ {
+  "id": "w2x27",
+  "type": "discussion",
+  "topic": "media",
+  "prompt": "Some people believe that news should be available to everyone free of charge online. Others think that people should pay for news in order to support high-quality journalism.\n\nDiscuss both these views and give your own opinion. Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: cần có hình thức trả phí để báo chí chất lượng tồn tại, theo mô hình kết hợp.\nMở bài: tin tức đọc trên điện thoại, nhiều báo đặt tường phí (paywall); nêu quan điểm.\nThân bài 1 (tin miễn phí): thông tin chính xác là nhu cầu cơ bản trong dân chủ; người nghèo có thể chuyển sang nguồn kém tin cậy -> khoảng cách thông tin.\nThân bài 2 (trả phí): báo chí điều tra tốn kém; quảng cáo bị các công ty công nghệ chiếm; phụ thuộc lượt click dẫn tới tiêu đề giật gân; đăng ký giúp thu nhập ổn định.\nThân bài 3 (ý kiến riêng): thu phí nội dung chuyên sâu nhưng miễn phí thông tin thiết yếu (cảnh báo y tế, bầu cử); giảm giá cho sinh viên, hộ thu nhập thấp.\nKết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Tiếp cận thông tin là quyền cơ bản của công dân",
+    "Tránh để người nghèo phụ thuộc nguồn tin kém",
+    "Tin miễn phí lan tỏa rộng hơn"
+   ],
+   "against": [
+    "Báo chí chất lượng tốn kém để sản xuất",
+    "Doanh thu quảng cáo không đủ",
+    "Phụ thuộc lượt click dẫn tới giật gân",
+    "Thuê bao giúp báo chịu trách nhiệm với độc giả"
+   ]
+  },
+  "model": "Most people now read the news on their phones, and while many websites offer articles for free, a growing number of newspapers place their content behind a paywall. Although there are strong arguments for free access, I believe that some form of payment is necessary if serious journalism is to survive.\n\nThose who favour free news argue that access to accurate information is a basic need in a democracy. Citizens must understand public issues in order to vote sensibly, and if reliable reporting is available only to those who can pay, poorer people may turn instead to free sources that are less trustworthy, such as social media posts or partisan websites. This could deepen the gap between well-informed and poorly informed sections of society.\n\nOn the other hand, quality journalism is expensive to produce. Investigative reporting may require months of work by experienced journalists, lawyers and editors, and advertising revenue alone has proved insufficient since technology companies began capturing most of the online advertising market. When newspapers depend entirely on clicks, they are tempted to publish sensational headlines rather than careful analysis. Subscriptions give publishers a stable income and make them accountable to readers rather than advertisers.\n\nIn my opinion, the best solution lies between these two positions. News organisations should charge for in-depth content while keeping essential public information, such as health warnings and election coverage, free for everyone. Discounted or free subscriptions for students and low-income households, which some publications already offer, would further reduce inequality of access.\n\nIn conclusion, although free news has clear democratic value, the cost of professional reporting means that readers should contribute financially. A mixed model can protect both the quality of journalism and the public's right to be informed.",
+  "vocab": [
+   [
+    "behind a paywall",
+    "sau tường phí, phải trả tiền mới đọc được"
+   ],
+   [
+    "partisan websites",
+    "trang web thiên vị đảng phái"
+   ],
+   [
+    "investigative reporting",
+    "báo chí điều tra"
+   ],
+   [
+    "advertising revenue",
+    "doanh thu quảng cáo"
+   ],
+   [
+    "sensational headlines",
+    "tiêu đề giật gân"
+   ],
+   [
+    "be accountable to",
+    "chịu trách nhiệm trước"
+   ],
+   [
+    "in-depth content",
+    "nội dung chuyên sâu"
+   ],
+   [
+    "inequality of access",
+    "bất bình đẳng trong tiếp cận"
+   ]
+  ]
+ },
+ {
+  "id": "w2x28",
+  "type": "advantages",
+  "topic": "tourism",
+  "prompt": "Nowadays, more and more people choose to take holidays in their own country rather than travelling abroad.\n\nDo the advantages of this trend outweigh the disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Quan điểm: ưu điểm lớn hơn nhược điểm.\nMở bài: xu hướng du lịch trong nước (staycation) tăng sau đại dịch; nêu quan điểm.\nThân bài 1 (lợi cho du khách): rẻ hơn, ít mệt hơn, không visa, không đổi tiền; đi được nhiều chuyến ngắn.\nThân bài 2 (lợi rộng hơn): tiền ở lại trong nước, hỗ trợ doanh nghiệp nhỏ vùng nông thôn, ven biển (ví dụ Hà Giang, Phú Quốc); ít khí thải hơn chuyến bay đường dài.\nThân bài 3 (nhược điểm): ít được trải nghiệm văn hóa khác; quá tải ở vài điểm nổi tiếng; nước phụ thuộc khách quốc tế mất thu nhập.\nKết bài: lợi ích kinh tế, tài chính, môi trường lớn hơn; vẫn có thể thỉnh thoảng đi nước ngoài.",
+  "ideas": {
+   "for": [
+    "Tiết kiệm chi phí và thời gian",
+    "Hỗ trợ kinh tế địa phương",
+    "Giảm khí thải do bay đường dài",
+    "Khám phá sự đa dạng của chính đất nước mình"
+   ],
+   "against": [
+    "Ít cơ hội tiếp xúc văn hóa, ngôn ngữ khác",
+    "Một số điểm đến trong nước bị quá tải",
+    "Các nước phụ thuộc khách quốc tế mất thu nhập"
+   ]
+  },
+  "model": "Since the pandemic, holidaying close to home, sometimes called a 'staycation', has become increasingly popular in many countries. In my view, this trend brings more benefits than drawbacks, both for travellers and for national economies.\n\nFor individual travellers, domestic holidays are usually cheaper and less stressful. There are no expensive international flights, visa applications or currency exchange fees, and the journey itself often takes hours rather than a whole day. This allows families with limited budgets or busy schedules to travel more frequently, perhaps taking several short breaks a year instead of one long and costly trip.\n\nDomestic tourism also has wider advantages. Money spent on hotels, restaurants and attractions stays within the national economy, supporting small businesses in rural and coastal areas that depend on visitors. In Vietnam, for example, the growth of domestic travel has helped destinations such as Ha Giang and Phu Quoc to develop rapidly. In addition, shorter journeys, particularly by train or car rather than long-haul flights, generally produce lower carbon emissions.\n\nThere are, admittedly, some disadvantages. Travelling abroad exposes people to unfamiliar languages, customs and ways of thinking, which can broaden their outlook in a way that a trip within their own country may not. Furthermore, if domestic demand becomes concentrated in a few popular places, these locations may suffer from overcrowding and rising prices, while countries that rely heavily on international visitors lose valuable income.\n\nOverall, however, I believe these drawbacks are outweighed by the economic, financial and environmental benefits. Holidaying at home does not prevent people from travelling abroad occasionally, and it allows them to discover the diversity of their own country while supporting local communities.",
+  "vocab": [
+   [
+    "staycation",
+    "kỳ nghỉ gần nhà, du lịch trong nước"
+   ],
+   [
+    "domestic tourism",
+    "du lịch nội địa"
+   ],
+   [
+    "currency exchange fees",
+    "phí đổi ngoại tệ"
+   ],
+   [
+    "short breaks",
+    "chuyến nghỉ ngắn ngày"
+   ],
+   [
+    "long-haul flights",
+    "chuyến bay đường dài"
+   ],
+   [
+    "carbon emissions",
+    "lượng khí thải carbon"
+   ],
+   [
+    "broaden their outlook",
+    "mở rộng tầm nhìn"
+   ],
+   [
+    "rely heavily on",
+    "phụ thuộc nhiều vào"
+   ]
+  ]
+ },
+ {
+  "id": "w2x29",
+  "type": "problem-solution",
+  "topic": "language",
+  "prompt": "Many of the world's languages are disappearing because fewer and fewer people speak them.\n\nWhat problems does this cause, and what can be done to protect these languages? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: vấn đề và giải pháp.\nMở bài: khoảng một nửa trong 7.000 ngôn ngữ có thể biến mất trong thế kỷ này; nêu sẽ bàn vấn đề và giải pháp.\nThân bài 1 (mất di sản văn hóa): ngôn ngữ chứa truyện kể, bài hát, tri thức truyền miệng; thế hệ già và trẻ khó giao tiếp, bản sắc yếu đi.\nThân bài 2 (mất tri thức nhân loại): từ vựng về cây cỏ, động vật, thời tiết có giá trị cho y học và bảo tồn.\nThân bài 3 (giải pháp): giáo dục song ngữ; công nghệ (ghi âm người già, từ điển online, app học); ví dụ tiếng Wales; công nhận chính thức để nâng vị thế.\nKết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Giáo dục song ngữ cho trẻ em dân tộc thiểu số",
+    "Ghi âm, từ điển trực tuyến, ứng dụng học ngôn ngữ",
+    "Công nhận chính thức giúp nâng vị thế ngôn ngữ"
+   ],
+   "against": [
+    "Mất di sản văn hóa truyền miệng",
+    "Khoảng cách giữa các thế hệ trong gia đình",
+    "Mất tri thức bản địa về tự nhiên và y học"
+   ]
+  },
+  "model": "Linguists estimate that around half of the roughly 7,000 languages spoken today could disappear by the end of this century, as younger generations switch to national or global languages. This loss causes serious cultural and intellectual problems, but there are steps that communities and governments can take to slow it down.\n\nThe most obvious problem is the loss of cultural heritage. A language is far more than a set of words; it carries a community's stories, songs, humour and traditional knowledge. When the last fluent speakers die, much of this heritage vanishes with them, because it was often passed down orally and never recorded. Older and younger generations may also find it difficult to communicate, weakening family bonds and a group's sense of identity.\n\nThere is also a broader loss for human knowledge. Indigenous languages frequently contain detailed vocabulary about local plants, animals and weather patterns, built up over centuries of observation. Some of this information has proved valuable for medicine and conservation, and once a language disappears, such knowledge is extremely hard to recover.\n\nSeveral measures could help to protect endangered languages. Firstly, governments could support bilingual education, allowing children in minority communities to learn in their mother tongue alongside the national language. Secondly, technology offers new opportunities, as recording elderly speakers, creating online dictionaries and developing learning apps can preserve and spread languages cheaply. The revival of Welsh, now used in schools, television and public signs, shows that such policies can work. Finally, giving minority languages official status raises their prestige, encouraging young people to see them as an asset rather than something old-fashioned.\n\nIn conclusion, the disappearance of languages erodes both cultural identity and valuable knowledge. However, with educational support, technology and official recognition, many of these languages can be kept alive.",
+  "vocab": [
+   [
+    "endangered languages",
+    "ngôn ngữ có nguy cơ biến mất"
+   ],
+   [
+    "cultural heritage",
+    "di sản văn hóa"
+   ],
+   [
+    "be passed down orally",
+    "được truyền miệng qua các thế hệ"
+   ],
+   [
+    "indigenous languages",
+    "ngôn ngữ bản địa"
+   ],
+   [
+    "bilingual education",
+    "giáo dục song ngữ"
+   ],
+   [
+    "mother tongue",
+    "tiếng mẹ đẻ"
+   ],
+   [
+    "revival",
+    "sự hồi sinh"
+   ],
+   [
+    "official status",
+    "địa vị chính thức"
+   ]
+  ]
+ },
+ {
+  "id": "w2x30",
+  "type": "two-part",
+  "topic": "science",
+  "prompt": "In many countries, public trust in scientists and experts appears to be declining.\n\nWhy is this happening? What can be done to increase public trust in science? Give reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+  "outline": "Dạng bài: hai câu hỏi (nguyên nhân + giải pháp).\nMở bài: tranh cãi về vắc xin, biến đổi khí hậu, chế độ ăn; nêu sẽ trả lời cả hai câu hỏi.\nThân bài 1 (nguyên nhân từ môi trường thông tin): ai cũng có thể tự xưng chuyên gia trên mạng; tin sai lệch, giật gân lan nhanh hơn giải thích khoa học.\nThân bài 2 (nguyên nhân từ cách hiểu khoa học): khoa học bị coi là chân lý cố định, nên khi khuyến cáo thay đổi (đại dịch COVID-19) bị xem là kém cỏi; nghiên cứu do công ty tài trợ gây nghi ngờ.\nThân bài 3 (giải pháp): giải thích cả mức độ không chắc chắn; trường học dạy cách khoa học vận hành; minh bạch nguồn tài trợ; mạng xã hội ưu tiên thông tin từ chuyên gia.\nKết bài: tóm tắt.",
+  "ideas": {
+   "for": [
+    "Giải thích rõ mức độ không chắc chắn và lý do thay đổi khuyến cáo",
+    "Dạy học sinh cách khoa học kiểm chứng bằng chứng",
+    "Minh bạch nguồn tài trợ nghiên cứu"
+   ],
+   "against": [
+    "Tin sai lệch lan nhanh trên mạng xã hội",
+    "Hiểu lầm khoa học là chân lý bất biến",
+    "Nghi ngờ nghiên cứu bị doanh nghiệp chi phối"
+   ]
+  },
+  "model": "Debates about vaccines, climate change and diet have shown that many people today are sceptical about what scientists tell them. There are several reasons for this decline in trust, but it could be reversed if scientists and institutions communicated more openly.\n\nOne important cause is the way information now spreads online. Social media allows anyone to present themselves as an expert, and misleading claims, especially dramatic or emotional ones, often travel further than careful scientific explanations. Faced with conflicting messages, many people no longer know whom to believe and may conclude that experts are simply one more opinion among many.\n\nAnother reason is that science is often misunderstood as a source of fixed truths. When advice changes, as it did several times during the COVID-19 pandemic regarding masks and transmission, some members of the public interpret this as incompetence rather than as the normal process of updating conclusions in light of new evidence. In addition, occasional cases of research funded by companies with a commercial interest have encouraged suspicion that scientists can be bought.\n\nTo rebuild trust, scientists should first explain not only their conclusions but also the degree of uncertainty involved and the reasons why recommendations may change. Secondly, schools could place greater emphasis on teaching how science works, including how evidence is tested and reviewed, so that young people learn to judge claims critically. Finally, research institutions should be fully transparent about their funding sources, and social media platforms could do more to promote reliable information from recognised experts.\n\nIn conclusion, trust in science has been weakened by online misinformation, misunderstanding of the scientific process and concerns about funding. Clearer communication, better education and greater transparency could help the public to see science once again as a reliable guide.",
+  "vocab": [
+   [
+    "be sceptical about",
+    "hoài nghi về"
+   ],
+   [
+    "misleading claims",
+    "những tuyên bố gây hiểu lầm"
+   ],
+   [
+    "conflicting messages",
+    "thông điệp trái ngược nhau"
+   ],
+   [
+    "incompetence",
+    "sự kém năng lực"
+   ],
+   [
+    "in light of new evidence",
+    "dựa trên bằng chứng mới"
+   ],
+   [
+    "a commercial interest",
+    "lợi ích thương mại"
+   ],
+   [
+    "the degree of uncertainty",
+    "mức độ không chắc chắn"
+   ],
+   [
+    "misinformation",
+    "thông tin sai lệch"
+   ]
+  ]
+ }
+]

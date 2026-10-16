@@ -1,0 +1,1803 @@
+[
+ {
+  "id": "l5p1",
+  "test": 5,
+  "part": 1,
+  "title": "Renting a flat",
+  "setting": "Một y tá mới chuyển đến thành phố gọi điện cho công ty cho thuê nhà để tìm căn hộ.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lucy (letting agent)",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Daniel",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, Harbour Lettings, Lucy speaking. How can I help?"
+   ],
+   [
+    "B",
+    "Oh, hi. I saw your advert online and I'm looking for a flat to rent in the city. I've only just moved here, so I don't really know the areas yet."
+   ],
+   [
+    "A",
+    "No problem at all. I'll take a few details first, and then I can tell you what we've got. Could I have your name, please?"
+   ],
+   [
+    "B",
+    "Sure. It's Daniel Fenwick."
+   ],
+   [
+    "A",
+    "Is that F-E-N-W-I-C-K?"
+   ],
+   [
+    "B",
+    "That's right. Most people get it right first time, which is nice."
+   ],
+   [
+    "A",
+    "And what do you do, Daniel? Landlords usually like to know."
+   ],
+   [
+    "B",
+    "Well, I trained as a teacher back in Brisbane, but I changed careers a few years ago. I'm a nurse now. I start at the children's hospital next month."
+   ],
+   [
+    "A",
+    "Lovely. So do you have an area in mind? A lot of hospital staff look around Eastfield, because it's so close."
+   ],
+   [
+    "B",
+    "Eastfield's a bit too busy for me, I think. A colleague told me the streets near the canal are quieter, and I could cycle along the towpath to work."
+   ],
+   [
+    "A",
+    "Yes, the canal area is very popular. How many bedrooms are you after?"
+   ],
+   [
+    "B",
+    "I was going to say one, because it's just me. But my sister's planning to come over from Australia and stay for a few months, so I'd better make it two."
+   ],
+   [
+    "A",
+    "Two bedrooms, then. And what's your budget?"
+   ],
+   [
+    "B",
+    "I was hoping to keep it under £900 a month, but from what I've seen online, that's not very realistic. Let's say £950 as an absolute maximum."
+   ],
+   [
+    "A",
+    "That's sensible for that area. Would that include bills?"
+   ],
+   [
+    "B",
+    "No, I'm happy to pay the bills separately."
+   ],
+   [
+    "A",
+    "Fine. Is there anything the flat must have?"
+   ],
+   [
+    "B",
+    "I'm not fussed about a garden or a parking space, because I haven't got a car. But I cycle everywhere, so I really need secure storage for my bike. I had one stolen last year."
+   ],
+   [
+    "A",
+    "Oh dear. I'll make a note of that. And is there anything you'd rather avoid?"
+   ],
+   [
+    "B",
+    "I'd prefer not to be on the ground floor. I lived in a ground-floor flat once, and people walking past could see straight in. The top floor is fine, even without a lift."
+   ],
+   [
+    "A",
+    "OK. Well, actually, I think I've got something that might suit you. It's a two-bedroom flat on the second floor, and there's a locked bike shed at the back of the building."
+   ],
+   [
+    "B",
+    "That sounds promising. Where is it exactly?"
+   ],
+   [
+    "A",
+    "It's 14 Ashby Road. That's A-S-H-B-Y. It's about five minutes' walk from the canal."
+   ],
+   [
+    "B",
+    "Great. And the rent?"
+   ],
+   [
+    "A",
+    "It's £925 a month, so just within your budget."
+   ],
+   [
+    "B",
+    "When could I move in?"
+   ],
+   [
+    "A",
+    "The current tenants leave at the end of October, and it'll be cleaned and ready from the first of November."
+   ],
+   [
+    "B",
+    "That works perfectly, actually. The contract on the room I'm renting now runs out around then."
+   ],
+   [
+    "A",
+    "Would you like to see it? I could do Friday afternoon."
+   ],
+   [
+    "B",
+    "I'm on a training course all day Friday. Is the weekend possible?"
+   ],
+   [
+    "A",
+    "Saturday morning, then? Shall we say ten o'clock at the flat?"
+   ],
+   [
+    "B",
+    "Ten's good."
+   ],
+   [
+    "A",
+    "Great. And please bring some identification with you, so that we can start the application straight away if you like the place."
+   ],
+   [
+    "B",
+    "Will my driving licence do?"
+   ],
+   [
+    "A",
+    "I'm afraid it has to be your passport, because you're new to the country. We need to check your right to rent."
+   ],
+   [
+    "B",
+    "No worries, I'll bring my passport. Thanks very much, Lucy."
+   ],
+   [
+    "A",
+    "You're welcome, Daniel. See you on Saturday."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-10. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Name: Daniel ___",
+      "a": "Fenwick",
+      "why": "Daniel nói tên \"Daniel Fenwick\" và Lucy đánh vần lại \"F-E-N-W-I-C-K\"."
+     },
+     {
+      "q": "Occupation: ___",
+      "a": "nurse",
+      "why": "Bẫy: anh từng học làm giáo viên (\"I trained as a teacher\") nhưng hiện tại: \"I'm a nurse now\"."
+     },
+     {
+      "q": "Preferred area: near the ___",
+      "a": "canal",
+      "why": "Anh chê Eastfield quá đông, muốn ở \"the streets near the canal are quieter\"."
+     },
+     {
+      "q": "Number of bedrooms: ___",
+      "a": "2|two",
+      "why": "Lúc đầu định nói một phòng, sau đổi ý vì em gái sang ở: \"I'd better make it two\"."
+     },
+     {
+      "q": "Maximum rent: £___ per month",
+      "a": "950",
+      "why": "£900 chỉ là mong muốn ban đầu; mức tối đa là \"Let's say £950 as an absolute maximum\"."
+     },
+     {
+      "q": "Must have: secure ___ for a bicycle",
+      "a": "storage",
+      "why": "\"I really need secure storage for my bike\". Vườn và chỗ đậu xe ô tô thì không cần."
+     },
+     {
+      "q": "Does not want: a flat on the ___ floor",
+      "a": "ground",
+      "why": "\"I'd prefer not to be on the ground floor\" vì người đi đường nhìn thẳng vào nhà."
+     },
+     {
+      "q": "Property address: 14 ___ Road",
+      "a": "Ashby",
+      "why": "Lucy nói \"14 Ashby Road\" và đánh vần \"A-S-H-B-Y\"."
+     },
+     {
+      "q": "Available from: 1st ___",
+      "a": "November",
+      "why": "Người thuê cũ đi cuối tháng 10, căn hộ sẵn sàng \"from the first of November\". October là bẫy."
+     },
+     {
+      "q": "Must bring to the viewing: his ___",
+      "a": "passport",
+      "why": "Daniel hỏi bằng lái xe được không, Lucy trả lời \"it has to be your passport\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l5p2",
+  "test": 5,
+  "part": 2,
+  "title": "Millbrook Summer Festival",
+  "setting": "Điều phối viên lễ hội cộng đồng giới thiệu chương trình, sơ đồ khu vực và lời khuyên cho khách trên đài phát thanh địa phương.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Megan Doyle (festival coordinator)",
+    "voice": "f",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good evening, and thanks for tuning in to Community Hour. I'm Megan Doyle, and I'm coordinating this year's Millbrook Summer Festival, which runs from Friday the twelfth to Sunday the fourteenth of July."
+   ],
+   [
+    "A",
+    "Tonight I want to give you a quick guide to what's on, where to find things, and how to make the most of the weekend."
+   ],
+   [
+    "A",
+    "First, the big change. For the past twenty years, the festival has been held in Victoria Park. Some of you have assumed we've moved because we've outgrown it, and it's true that the crowds get bigger every year."
+   ],
+   [
+    "A",
+    "But the real reason is that the council is putting in a new drainage system right across the park, and the ground will be dug up all summer. So this year we'll be on the grounds of Millbrook High School and in the streets around it."
+   ],
+   [
+    "A",
+    "Now, money. I'm pleased to say that entry to the festival site is still completely free, for adults as well as children, and that includes all the daytime music on the main stage."
+   ],
+   [
+    "A",
+    "The one exception is the two evening concerts on Friday and Saturday. Tickets for those are fifteen dollars, or ten for students, and you can buy them from the library."
+   ],
+   [
+    "A",
+    "We've also been overwhelmed by offers of help this year, which is wonderful. In fact, we have more than enough people for putting up the marquees on Thursday, and the St John's team are looking after first aid as usual."
+   ],
+   [
+    "A",
+    "Where we're really short is on keeping the site clean. If you can spare two hours to collect litter and empty the recycling bins, please sign up. You'll get a free festival T-shirt and a meal voucher."
+   ],
+   [
+    "A",
+    "So, what's new? Last year many of you asked for a dog show, and we did think about it, but the school doesn't allow animals on its playing fields."
+   ],
+   [
+    "A",
+    "The silent disco was so popular last year that it's back again. But the really new thing is that, for the first time, we're hosting a night market on Saturday, with food stalls run by local restaurants until eleven o'clock."
+   ],
+   [
+    "A",
+    "Let me tell you where things are, because the layout is quite different from the park."
+   ],
+   [
+    "A",
+    "The main stage is on the school field, facing the sports hall. Right next to the main stage you'll find the bar and the information tent."
+   ],
+   [
+    "A",
+    "The storytelling tent for younger children was going to be next to the main stage as well, but it's far too noisy there. So we've moved it to the library car park, which is much quieter and shaded by trees."
+   ],
+   [
+    "A",
+    "The farmers' market, with fruit, cheese and bread from local producers, will be down by the lake, where there's plenty of space for the vans to unload."
+   ],
+   [
+    "A",
+    "If the weather turns, don't worry about the dance competition. We've booked the sports hall for it, so it'll go ahead indoors whatever happens."
+   ],
+   [
+    "A",
+    "And the children's sports, the sack race, the egg and spoon race and so on, will be on the school field, at the far end, well away from the stage."
+   ],
+   [
+    "A",
+    "Finally, a few tips for getting there and staying comfortable."
+   ],
+   [
+    "A",
+    "There's no public parking at the school this year, and you can't book a space in advance, so please don't drive. Instead, take the free shuttle bus, which leaves from the railway station every fifteen minutes."
+   ],
+   [
+    "A",
+    "You'll be able to pay by card at every stall, so there's no need to carry lots of cash around."
+   ],
+   [
+    "A",
+    "We're also trying to cut down on plastic, so we won't be selling bottled water. Bring your own bottle and fill it up at one of the six water stations around the site."
+   ],
+   [
+    "A",
+    "As for the weather, the forecast is for a cool, cloudy weekend. So rather than sun hats, you might want to pack a light jacket for the evenings."
+   ],
+   [
+    "A",
+    "That's all from me. Full details, including a map, are on the festival website. See you there!"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-14. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Why has the festival moved to a new location this year?",
+      "a": 1,
+      "o": [
+       "Victoria Park is too small for the crowds.",
+       "Work is being carried out in Victoria Park.",
+       "Local residents asked for a change."
+      ],
+      "why": "Đám đông lớn hơn là có thật nhưng \"the real reason is that the council is putting in a new drainage system right across the park\", tức công viên đang thi công."
+     },
+     {
+      "q": "Visitors have to pay for",
+      "a": 1,
+      "o": [
+       "entry to the site for adults.",
+       "the evening concerts.",
+       "daytime music on the main stage."
+      ],
+      "why": "Vào cửa và nhạc ban ngày miễn phí; \"The one exception is the two evening concerts\", vé 15 đô."
+     },
+     {
+      "q": "The organisers most need volunteers to",
+      "a": 2,
+      "o": [
+       "put up the marquees.",
+       "help with first aid.",
+       "collect litter."
+      ],
+      "why": "Đã đủ người dựng lều, đội St John's lo sơ cứu; \"Where we're really short is on keeping the site clean... collect litter\"."
+     },
+     {
+      "q": "What is new at this year's festival?",
+      "a": 2,
+      "o": [
+       "a dog show",
+       "a silent disco",
+       "a night market"
+      ],
+      "why": "Dog show không được phép, silent disco là \"back again\"; cái mới là \"for the first time, we're hosting a night market\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 15-18. Where will each of the following be? Choose FOUR answers from the box and write the correct letter, A-E, next to Questions 15-18.",
+    "opts": [
+     "next to the main stage",
+     "by the lake",
+     "in the library car park",
+     "in the sports hall",
+     "at the far end of the school field"
+    ],
+    "items": [
+     {
+      "q": "storytelling tent",
+      "a": 2,
+      "why": "Lúc đầu định đặt cạnh sân khấu chính nhưng quá ồn: \"we've moved it to the library car park\"."
+     },
+     {
+      "q": "farmers' market",
+      "a": 1,
+      "why": "\"The farmers' market... will be down by the lake\"."
+     },
+     {
+      "q": "dance competition",
+      "a": 3,
+      "why": "\"We've booked the sports hall for it, so it'll go ahead indoors\"."
+     },
+     {
+      "q": "children's sports",
+      "a": 4,
+      "why": "\"the children's sports... will be on the school field, at the far end, well away from the stage\"."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 19-20. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO things does the speaker advise visitors to do?",
+      "a": [
+       1,
+       3
+      ],
+      "o": [
+       "book a parking space online",
+       "use the shuttle bus",
+       "bring plenty of cash",
+       "bring a water bottle",
+       "wear a sun hat"
+      ],
+      "why": "\"take the free shuttle bus\" và \"Bring your own bottle and fill it up\". Không đặt chỗ đậu xe được, có thể trả bằng thẻ nên không cần tiền mặt, trời nhiều mây nên không cần mũ chống nắng."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l5p3",
+  "test": 5,
+  "part": 3,
+  "title": "Coastal field trip report",
+  "setting": "Hai sinh viên địa lý bàn về chuyến thực địa ở một làng ven biển và cách sửa từng phần của bài báo cáo.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Emma",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Josh",
+    "voice": "m",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Hi Josh. Have you got a few minutes to talk about the field trip report? It's due in two weeks, and I'm starting to panic a bit."
+   ],
+   [
+    "B",
+    "Sure, Emma. Actually, I was going through my notes from Saltby this morning."
+   ],
+   [
+    "A",
+    "Great. Before we start, can I just say, I still can't get over that sea wall. I'd read that sea walls can make erosion worse further along the coast, but I didn't expect to see it so clearly."
+   ],
+   [
+    "B",
+    "You mean the stretch where the beach had completely disappeared?"
+   ],
+   [
+    "A",
+    "Exactly. I knew the cliffs were retreating quickly, because the figures were in the background reading. But seeing how the wall had simply moved the problem down the coast was a real shock."
+   ],
+   [
+    "B",
+    "For me it was how empty the village felt. But I suppose that's because so many of the cottages are holiday homes now."
+   ],
+   [
+    "A",
+    "Which brings me to the interviews. I was a bit disappointed with them."
+   ],
+   [
+    "B",
+    "Me too. Not because people wouldn't talk. They were really friendly, and the recordings came out fine."
+   ],
+   [
+    "B",
+    "The trouble was that most of the people we stopped were visitors, not locals, so they didn't know much about how the coast had changed over the years."
+   ],
+   [
+    "A",
+    "Right. We only got three proper residents."
+   ],
+   [
+    "B",
+    "OK, so, the measurements. I've put all the cliff profiles into a spreadsheet."
+   ],
+   [
+    "A",
+    "Is there anything you're worried about?"
+   ],
+   [
+    "B",
+    "Well, I wondered about the equipment at first, because the tape measure got soaked. But I checked our readings against last year's group, and they're consistent."
+   ],
+   [
+    "A",
+    "So the problem is more that we only had one week, in spring. Erosion is much worse during the winter storms, so our figures probably underestimate what happens over a whole year."
+   ],
+   [
+    "B",
+    "Yes, I think that's the real limitation. We had enough measuring points, twelve along a kilometre, which is what the tutor recommended."
+   ],
+   [
+    "A",
+    "Agreed. We should say that clearly in the discussion. Now, let's go through the sections. The introduction is quite long in my draft."
+   ],
+   [
+    "B",
+    "I read it. It's good, but it's nearly a thousand words, and half of it is general background on coastal processes that everyone on the course already knows."
+   ],
+   [
+    "A",
+    "Fair enough. I'll cut it down to about four hundred."
+   ],
+   [
+    "B",
+    "Then the methods. I think the text is fine as it is, but it would be much clearer if we put in some photos of us using the clinometer and the ranging poles."
+   ],
+   [
+    "A",
+    "Good idea. I took loads of pictures. I'll choose a few."
+   ],
+   [
+    "B",
+    "What about the results? There are so many tables."
+   ],
+   [
+    "A",
+    "I don't want to lose any data, but you're right, it's hard to read. Why don't we keep the summary graphs in the main text and put the full tables in an appendix?"
+   ],
+   [
+    "B",
+    "Yes, that's what the handbook suggests anyway."
+   ],
+   [
+    "A",
+    "Now, the interviews. Given that we only spoke to three residents, I'm not sure it deserves a whole section of its own."
+   ],
+   [
+    "B",
+    "We could add it to the discussion, as extra evidence about the sea wall. The fisherman's comments would fit really well there."
+   ],
+   [
+    "A",
+    "So, we merge it with the discussion. OK."
+   ],
+   [
+    "B",
+    "And the conclusion?"
+   ],
+   [
+    "A",
+    "I wasn't sure whether we're allowed to include recommendations for the council, like moving the cliff path. I don't want to get it wrong."
+   ],
+   [
+    "B",
+    "Let's check with Dr Hughes before we change anything. She'll know what the department expects."
+   ],
+   [
+    "A",
+    "Fine. I'll email her this afternoon. So, before we meet again on Thursday, what else needs doing?"
+   ],
+   [
+    "B",
+    "I'll redraw the graphs, because the colours don't show up when you print them in black and white."
+   ],
+   [
+    "A",
+    "Good. And I'll find two or three academic sources on sea walls. Our reference list is a bit thin at the moment."
+   ],
+   [
+    "B",
+    "Should we contact the residents again, to get more detail?"
+   ],
+   [
+    "A",
+    "Honestly, I don't think there's time. And we certainly can't go back to Saltby before the deadline."
+   ],
+   [
+    "B",
+    "True. What about the word count? Should we check that now?"
+   ],
+   [
+    "A",
+    "Let's leave that until the final draft. There's no point yet."
+   ],
+   [
+    "B",
+    "OK. Thursday, then."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-23. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "What surprised Emma most during the field trip?",
+      "a": 2,
+      "o": [
+       "how fast the cliffs were retreating",
+       "how few people lived in the village",
+       "the effect of the sea wall on the beach"
+      ],
+      "why": "Tốc độ lở vách đá thì cô đã biết từ tài liệu; điều gây sốc là \"seeing how the wall had simply moved the problem down the coast\". Làng vắng là ý kiến của Josh."
+     },
+     {
+      "q": "Why does Josh think the interviews were less useful than expected?",
+      "a": 1,
+      "o": [
+       "Many people refused to take part.",
+       "Most of the people interviewed were visitors.",
+       "Some of the recordings were unclear."
+      ],
+      "why": "Mọi người thân thiện, ghi âm tốt; vấn đề là \"most of the people we stopped were visitors, not locals\"."
+     },
+     {
+      "q": "What do they agree is the main limitation of their measurements?",
+      "a": 2,
+      "o": [
+       "The equipment was unreliable.",
+       "There were too few measuring points.",
+       "The data was collected in only one season."
+      ],
+      "why": "Thiết bị vẫn ổn, số điểm đo đủ; hạn chế là \"we only had one week, in spring\" trong khi xói mòn mạnh hơn vào mùa đông. Josh: \"that's the real limitation\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 24-28. What do the students decide to do with each section of the report? Choose FIVE answers from the box and write the correct letter, A-F, next to Questions 24-28.",
+    "opts": [
+     "add photographs",
+     "shorten it",
+     "ask the tutor's advice",
+     "combine it with another section",
+     "move some material to an appendix",
+     "rewrite it completely"
+    ],
+    "items": [
+     {
+      "q": "Introduction",
+      "a": 1,
+      "why": "Phần mở đầu gần 1.000 từ, Emma: \"I'll cut it down to about four hundred\"."
+     },
+     {
+      "q": "Methods",
+      "a": 0,
+      "why": "Josh: phần chữ ổn, \"it would be much clearer if we put in some photos\"."
+     },
+     {
+      "q": "Results",
+      "a": 4,
+      "why": "\"keep the summary graphs in the main text and put the full tables in an appendix\"."
+     },
+     {
+      "q": "Interviews",
+      "a": 3,
+      "why": "\"We could add it to the discussion\"... Emma: \"So, we merge it with the discussion\"."
+     },
+     {
+      "q": "Conclusion",
+      "a": 2,
+      "why": "Không chắc có được đưa kiến nghị không: \"Let's check with Dr Hughes before we change anything\"."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 29-30. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO things will the students do before their next meeting?",
+      "a": [
+       0,
+       2
+      ],
+      "o": [
+       "redraw the graphs",
+       "contact the residents again",
+       "find more academic sources",
+       "check the word count",
+       "arrange another visit to Saltby"
+      ],
+      "why": "Josh: \"I'll redraw the graphs\"; Emma: \"I'll find two or three academic sources on sea walls\". Liên lạc lại cư dân thì không kịp, quay lại Saltby là không thể, số từ để đến bản cuối."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l5p4",
+  "test": 5,
+  "part": 4,
+  "title": "Sleep and memory",
+  "setting": "Bài giảng về khoa học giấc ngủ: các giai đoạn ngủ, vai trò của giấc ngủ với trí nhớ, tác hại của thiếu ngủ và đồng hồ sinh học của thanh thiếu niên.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, everyone. Today we're continuing our series on the biology of everyday life, and the topic is sleep, and in particular, what sleep does for memory."
+   ],
+   [
+    "A",
+    "We spend roughly a third of our lives asleep. For a long time, scientists assumed that sleep was simply a period of rest, when the brain more or less switched off. We now know that's far from the truth."
+   ],
+   [
+    "A",
+    "Let me start with the structure of sleep. Over the night, we pass through several stages, from light sleep into deep sleep, and then into what's called REM sleep, REM standing for rapid eye movement."
+   ],
+   [
+    "A",
+    "Together, these stages make up a cycle. You'll sometimes read that a cycle takes an hour, but in adults a full cycle lasts about ninety minutes, and we normally go through four or five of them each night."
+   ],
+   [
+    "A",
+    "In deep sleep, the brain produces large, slow electrical waves. It's also the time when the body carries out a lot of physical repair. For example, most of our growth hormone is released during deep sleep, which is one reason children need so much of it."
+   ],
+   [
+    "A",
+    "REM sleep is quite different. The brain becomes almost as active as when we're awake, and this is when most vivid dreaming happens."
+   ],
+   [
+    "A",
+    "Researchers increasingly believe that REM sleep plays a central role in processing emotions, helping us to come to terms with difficult experiences from the day."
+   ],
+   [
+    "A",
+    "So how do we know that sleep helps memory? Some of the most convincing evidence comes from animal studies."
+   ],
+   [
+    "A",
+    "In one well-known series of experiments, researchers recorded the activity of individual neurons in rats while the animals learned to find their way through a maze."
+   ],
+   [
+    "A",
+    "Each location in the maze triggered a particular pattern of firing. Then, when the rats slept afterwards, the same patterns appeared again, in the same order, as if the brain were replaying the route, only much faster than the original journey."
+   ],
+   [
+    "A",
+    "Similar effects have been found in humans. In a typical study, volunteers learn a list of word pairs at midday. Half of them then stay awake, while the other half have a nap of about an hour."
+   ],
+   [
+    "A",
+    "When they're tested later in the afternoon, the group who had the nap remember significantly more of the pairs, even though both groups spent the same amount of time away from the material."
+   ],
+   [
+    "A",
+    "And sleep doesn't just help with facts. During light sleep, the brain produces short bursts of activity known as sleep spindles."
+   ],
+   [
+    "A",
+    "People who produce more spindles after practising a task tend to improve more at motor skills, things like typing a sequence on a keyboard, or playing a melody on the piano."
+   ],
+   [
+    "A",
+    "Now, what happens when we don't get enough sleep? Here the findings are rather alarming."
+   ],
+   [
+    "A",
+    "In one experiment, students were kept awake for a whole night and then asked to learn a set of pictures. Compared with students who had slept normally, their ability to form new memories fell by around forty per cent."
+   ],
+   [
+    "A",
+    "Brain scans help to explain why. The hippocampus, a small, curved structure deep in the brain that acts as a kind of inbox for new memories, became much less active in the sleep-deprived group."
+   ],
+   [
+    "A",
+    "Interestingly, the area involved in emotional reactions became more active, which may explain why tired people are often more irritable."
+   ],
+   [
+    "A",
+    "Finally, I'd like to apply some of this to a group many of you were part of not so long ago: teenagers."
+   ],
+   [
+    "A",
+    "It's easy to assume that teenagers stay up late simply because of their phones, and screens certainly don't help. But there's a biological reason too."
+   ],
+   [
+    "A",
+    "During adolescence, the body clock shifts. The brain starts to release melatonin, the hormone that makes us feel sleepy, around two hours later than it does in children or adults."
+   ],
+   [
+    "A",
+    "So a fifteen-year-old who's told to go to bed at nine may genuinely be unable to fall asleep. Yet most schools still start early in the morning, which means many teenagers are constantly short of sleep."
+   ],
+   [
+    "A",
+    "Several school districts in the United States have experimented with later start times, sometimes by as little as an hour."
+   ],
+   [
+    "A",
+    "The results have been encouraging. Students got more sleep, and grades went up slightly. But perhaps the clearest improvement was in attendance, with far fewer students missing classes."
+   ],
+   [
+    "A",
+    "Next week, we'll look at the other side of the coin: what happens to the body clock when we fly across time zones or work night shifts. Thank you."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-40. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Stages of sleep: a full cycle lasts about ___ minutes in adults",
+      "a": "90|ninety",
+      "why": "Bẫy \"a cycle takes an hour\"; giảng viên sửa lại: \"in adults a full cycle lasts about ninety minutes\"."
+     },
+     {
+      "q": "Deep sleep: most ___ hormone is released",
+      "a": "growth",
+      "why": "\"most of our growth hormone is released during deep sleep\"."
+     },
+     {
+      "q": "REM sleep: may help the brain to process ___",
+      "a": "emotions",
+      "why": "\"REM sleep plays a central role in processing emotions\"."
+     },
+     {
+      "q": "Rats learning to find their way through a ___ showed the same neuron patterns during sleep",
+      "a": "maze",
+      "why": "\"while the animals learned to find their way through a maze\"."
+     },
+     {
+      "q": "Volunteers who had a ___ recalled more word pairs",
+      "a": "nap",
+      "why": "\"the group who had the nap remember significantly more of the pairs\"."
+     },
+     {
+      "q": "Sleep spindles: linked to improvement in ___ skills, e.g. playing the piano",
+      "a": "motor",
+      "why": "\"tend to improve more at motor skills\"."
+     },
+     {
+      "q": "After a night without sleep, ability to form new memories fell by about ___ per cent",
+      "a": "40|forty",
+      "why": "\"their ability to form new memories fell by around forty per cent\"."
+     },
+     {
+      "q": "The ___ (an 'inbox' for new memories) became less active",
+      "a": "hippocampus",
+      "why": "\"The hippocampus... acts as a kind of inbox for new memories, became much less active\"."
+     },
+     {
+      "q": "Teenagers: the brain releases ___ around two hours later",
+      "a": "melatonin",
+      "why": "Điện thoại chỉ là một phần; lý do sinh học: \"The brain starts to release melatonin... around two hours later\"."
+     },
+     {
+      "q": "Later school start times: clearest improvement in ___",
+      "a": "attendance",
+      "why": "Điểm số chỉ tăng nhẹ; \"the clearest improvement was in attendance\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l6p1",
+  "test": 6,
+  "part": 1,
+  "title": "Booking a cycling tour",
+  "setting": "Một du khách gọi điện cho công ty tour xe đạp để đặt chuyến đạp xe có hướng dẫn viên cho nhóm.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Tom (tour company)",
+    "voice": "m",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Rachel",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon, Green Valley Cycle Tours, Tom speaking."
+   ],
+   [
+    "B",
+    "Hi there. I'm calling about booking one of your guided bike tours. I'm visiting the area with some friends next month."
+   ],
+   [
+    "A",
+    "Lovely. Do you know which tour you're interested in?"
+   ],
+   [
+    "B",
+    "We looked at the Castle Trail on your website, because it goes past the old castle. But the reviews say there are some pretty steep climbs."
+   ],
+   [
+    "A",
+    "There are. It's about forty kilometres, with a lot of hills. If you'd like something more relaxed, the Lakeside Trail is flat almost the whole way, and it's only twenty-five kilometres."
+   ],
+   [
+    "B",
+    "That sounds much more like us. Let's go with the Lakeside Trail."
+   ],
+   [
+    "A",
+    "Great. And how many people will there be?"
+   ],
+   [
+    "B",
+    "There were going to be four of us, but one friend has had to drop out because of work. So, three."
+   ],
+   [
+    "A",
+    "Three adults. And what date were you thinking of?"
+   ],
+   [
+    "B",
+    "We arrive on Friday the 14th of June, so could we do it on Saturday the 15th?"
+   ],
+   [
+    "A",
+    "Let me just check. Yes, Saturday the 15th is fine. We've still got places."
+   ],
+   [
+    "B",
+    "Perfect. Now, about the bikes. Two of us are fine on a normal bike, but my mother is coming too, and she hasn't cycled for years."
+   ],
+   [
+    "A",
+    "In that case, I'd suggest an electric bike for her. It gives you a bit of help with the pedalling, so she won't get tired. There's no extra charge."
+   ],
+   [
+    "B",
+    "Oh, that's great. She'll love that."
+   ],
+   [
+    "A",
+    "Can I take your name, please?"
+   ],
+   [
+    "B",
+    "Yes, it's Rachel Okafor. That's O-K-A-F-O-R."
+   ],
+   [
+    "A",
+    "Thank you. And where would you like to meet? We usually start from our shop, but we can meet groups in town."
+   ],
+   [
+    "B",
+    "We're staying near the cathedral."
+   ],
+   [
+    "A",
+    "Then the easiest place is outside the museum. It's just across the square from the cathedral, and there's room for our van to stop."
+   ],
+   [
+    "B",
+    "Outside the museum. Got it."
+   ],
+   [
+    "A",
+    "We provide a picnic lunch at the halfway point. Does anyone have any special dietary requirements?"
+   ],
+   [
+    "B",
+    "Yes, my friend can't eat wheat, so she'll need a gluten-free lunch. The rest of us will eat anything."
+   ],
+   [
+    "A",
+    "No problem. I'll make a note of that."
+   ],
+   [
+    "B",
+    "And can I just check what the price covers? It says sixty-five pounds per person on the website."
+   ],
+   [
+    "A",
+    "That includes the bike hire, a helmet, the guide and the lunch. The tour also stops at Holm Gardens, and your entry there is included too."
+   ],
+   [
+    "A",
+    "The only extra is the boat trip on the lake at the end, which is optional. That's eight pounds each, and you pay for it on the day."
+   ],
+   [
+    "B",
+    "OK. Is there anything we should bring?"
+   ],
+   [
+    "A",
+    "You don't need any special clothing. Some people ask about padded shorts, but our saddles are very comfortable."
+   ],
+   [
+    "A",
+    "The weather by the lake can change very quickly, though, so I'd definitely bring a waterproof jacket. There's a café at the gardens, and they take cards, so you won't need cash."
+   ],
+   [
+    "B",
+    "Good to know. And how do I pay?"
+   ],
+   [
+    "A",
+    "We take a deposit of twenty pounds per person. Normally I'd take your card details over the phone, but our card machine isn't working today."
+   ],
+   [
+    "A",
+    "So I'll email you a link instead, and you can pay online. What's your email address?"
+   ],
+   [
+    "B",
+    "It's rachel dot okafor at mailbox dot com."
+   ],
+   [
+    "A",
+    "Thanks. You'll get it within the hour, and once it's paid, your booking is confirmed."
+   ],
+   [
+    "B",
+    "Wonderful. Thanks so much for your help, Tom."
+   ],
+   [
+    "A",
+    "My pleasure. Enjoy your trip."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-7. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Tour: the ___ Trail",
+      "a": "Lakeside",
+      "why": "Castle Trail nhiều dốc nên bị loại; Rachel chốt: \"Let's go with the Lakeside Trail\"."
+     },
+     {
+      "q": "Number of people: ___",
+      "a": "3|three",
+      "why": "Ban đầu bốn người nhưng một người bận việc: \"So, three\"."
+     },
+     {
+      "q": "Date: Saturday ___ June",
+      "a": "15th|15",
+      "why": "Ngày 14 là ngày đến nơi (thứ Sáu); tour vào \"Saturday the 15th\"."
+     },
+     {
+      "q": "Bikes: one ___ bike needed",
+      "a": "electric",
+      "why": "Cho mẹ của Rachel: \"I'd suggest an electric bike for her\"."
+     },
+     {
+      "q": "Name: Rachel ___",
+      "a": "Okafor",
+      "why": "\"Rachel Okafor. That's O-K-A-F-O-R\"."
+     },
+     {
+      "q": "Meeting point: outside the ___",
+      "a": "museum",
+      "why": "Họ ở gần nhà thờ lớn, nhưng điểm hẹn là \"outside the museum\"."
+     },
+     {
+      "q": "Lunch: one ___ meal",
+      "a": "gluten-free",
+      "why": "\"she'll need a gluten-free lunch\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 8-10. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "The price of £65 per person includes",
+      "a": 1,
+      "o": [
+       "bike hire, lunch and a boat trip.",
+       "bike hire, lunch and entry to a garden.",
+       "bike hire and lunch only."
+      ],
+      "why": "Giá gồm xe, mũ bảo hiểm, hướng dẫn viên, bữa trưa và \"your entry there is included too\" (Holm Gardens). Đi thuyền là \"The only extra\"."
+     },
+     {
+      "q": "Tom advises the group to bring",
+      "a": 1,
+      "o": [
+       "padded shorts.",
+       "a waterproof jacket.",
+       "cash for the café."
+      ],
+      "why": "Quần đệm không cần, quán cà phê nhận thẻ; \"I'd definitely bring a waterproof jacket\"."
+     },
+     {
+      "q": "How will Rachel pay the deposit?",
+      "a": 2,
+      "o": [
+       "by card over the phone",
+       "at the shop on the day of the tour",
+       "online, using a link"
+      ],
+      "why": "Máy quẹt thẻ hỏng nên không trả qua điện thoại được: \"I'll email you a link instead, and you can pay online\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l6p2",
+  "test": 6,
+  "part": 2,
+  "title": "University Careers Fair briefing",
+  "setting": "Cán bộ trung tâm hướng nghiệp của trường đại học giới thiệu hội chợ việc làm sắp tới cho sinh viên.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Liam Carter (Careers Service)",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Hi everyone, and welcome to this short briefing. I'm Liam Carter from the Careers Service, and I'm going to run through what you need to know about next week's Careers Fair."
+   ],
+   [
+    "A",
+    "Some of you came to the fair last year, so you'll notice a couple of changes. Last year we tried running part of the event online, but to be honest, very few students or employers used it, so we've gone back to a fully in-person fair."
+   ],
+   [
+    "A",
+    "What is new is that the fair now runs over two days, Wednesday and Thursday, rather than just one. That means more employers, over a hundred and twenty this time, and a lot less crowding."
+   ],
+   [
+    "A",
+    "The fair is open to students in every year, as it always has been, so please don't think it's only for final-year students. Plenty of first-years find summer internships here."
+   ],
+   [
+    "A",
+    "Now, before you come, please register through the Careers app. You'll get a QR code on your phone, which you show at the door."
+   ],
+   [
+    "A",
+    "You can also register at the entrance desk on the day, but last year the queue there was over half an hour long, so it's much better to do it in advance. And there's no need to email us."
+   ],
+   [
+    "A",
+    "Let me explain where everything is, because the fair is spread across several buildings this year."
+   ],
+   [
+    "A",
+    "The Main Hall is where you'll find most of the employers from banking, retail and the public sector. That's always the busiest area."
+   ],
+   [
+    "A",
+    "Engineering and technology companies need more space for their displays, and some of them bring robots and even a small racing car, so they'll be in the Sports Centre."
+   ],
+   [
+    "A",
+    "If you'd like someone to look at your CV, our advisers will be in the Library Foyer on both days. Just turn up. It only takes about ten minutes."
+   ],
+   [
+    "A",
+    "We'd originally planned to hold the mock interviews in the foyer too, but it was far too noisy, so they've moved to the Blue Room, on the first floor of the Arts Building. Those you do need to book, through the app."
+   ],
+   [
+    "A",
+    "And if you're thinking about a master's or a PhD rather than going straight into work, the postgraduate study team will be in the Student Union, next to the café."
+   ],
+   [
+    "A",
+    "Now, a bit of advice about talking to employers. The best conversations happen when students have done their homework."
+   ],
+   [
+    "A",
+    "So before the fair, look through the list of exhibitors, pick five or six, and find out what they actually do. Employers can tell straight away if you've researched their company."
+   ],
+   [
+    "A",
+    "Second, think about how you'll introduce yourself. Prepare a few sentences: your name, your course, and the kind of role you're interested in. It sounds simple, but it really helps if you're nervous."
+   ],
+   [
+    "A",
+    "You don't need to bring a pile of printed CVs. Most employers now prefer you to scan their QR code and upload your CV directly."
+   ],
+   [
+    "A",
+    "And although it's tempting, I'd avoid asking about salary in a first conversation. You'll have plenty of chances to discuss that later in the process."
+   ],
+   [
+    "A",
+    "Oh, and please don't spend all your time collecting free pens and bags from the stands. It's much better to have three good conversations than twenty quick ones."
+   ],
+   [
+    "A",
+    "Finally, there's a programme of talks running alongside the fair. Most of them are in the main lecture theatre, and you don't need to book."
+   ],
+   [
+    "A",
+    "We know not everyone can attend, so two of the talks will be recorded and put on the Careers website afterwards. Those are Starting your own business, on Wednesday, and Making the most of LinkedIn, on Thursday."
+   ],
+   [
+    "A",
+    "We wanted to record Working abroad as well, but the speaker preferred not to be filmed, so if that one interests you, make sure you're there in person."
+   ],
+   [
+    "A",
+    "Graduate schemes explained and Careers in the public sector will be live only, but the slides will be available on request."
+   ],
+   [
+    "A",
+    "Right, that's everything from me. Are there any questions?"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-12. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "What is different about this year's Careers Fair?",
+      "a": 1,
+      "o": [
+       "Part of it takes place online.",
+       "It takes place over two days.",
+       "First-year students can attend for the first time."
+      ],
+      "why": "Phần trực tuyến đã bỏ, sinh viên mọi năm vẫn được tham gia như trước; điểm mới: \"the fair now runs over two days\"."
+     },
+     {
+      "q": "The speaker recommends that students register",
+      "a": 1,
+      "o": [
+       "at the entrance desk.",
+       "through the Careers app.",
+       "by emailing the Careers Service."
+      ],
+      "why": "\"please register through the Careers app\"; đăng ký ở bàn lễ tân phải xếp hàng lâu, và \"there's no need to email us\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 13-16. Where can students find each of the following? Choose FOUR answers from the box and write the correct letter, A-E, next to Questions 13-16.",
+    "opts": [
+     "Main Hall",
+     "Sports Centre",
+     "Library Foyer",
+     "Blue Room",
+     "Student Union"
+    ],
+    "items": [
+     {
+      "q": "engineering and technology employers",
+      "a": 1,
+      "why": "\"Engineering and technology companies... they'll be in the Sports Centre\"."
+     },
+     {
+      "q": "CV checks",
+      "a": 2,
+      "why": "\"our advisers will be in the Library Foyer on both days\"."
+     },
+     {
+      "q": "mock interviews",
+      "a": 3,
+      "why": "Ban đầu định ở foyer nhưng quá ồn: \"they've moved to the Blue Room\"."
+     },
+     {
+      "q": "advice on postgraduate study",
+      "a": 4,
+      "why": "\"the postgraduate study team will be in the Student Union\"."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 17-18. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO pieces of advice does the speaker give about talking to employers?",
+      "a": [
+       1,
+       3
+      ],
+      "o": [
+       "bring several printed copies of your CV",
+       "research the companies before the fair",
+       "ask about starting salaries",
+       "prepare a short introduction",
+       "collect information packs from as many stands as possible"
+      ],
+      "why": "\"find out what they actually do\" (tìm hiểu công ty trước) và \"Prepare a few sentences\" để giới thiệu bản thân. Không cần CV in, tránh hỏi lương, đừng mải thu quà."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 19-20. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO talks will be recorded?",
+      "a": [
+       1,
+       4
+      ],
+      "o": [
+       "Working abroad",
+       "Starting your own business",
+       "Graduate schemes explained",
+       "Careers in the public sector",
+       "Making the most of LinkedIn"
+      ],
+      "why": "\"two of the talks will be recorded... Starting your own business... and Making the most of LinkedIn\". Working abroad không được quay vì diễn giả từ chối."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l6p3",
+  "test": 6,
+  "part": 3,
+  "title": "Student travel survey",
+  "setting": "Hai sinh viên hoàn thiện bảng khảo sát về cách sinh viên đi lại đến trường cho môn quy hoạch giao thông.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Chloe",
+    "voice": "f",
+    "accent": "en-AU"
+   },
+   {
+    "id": "B",
+    "name": "Sam",
+    "voice": "m",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "So, Sam, we really need to get the travel survey finalised this week if we want enough time to analyse the results."
+   ],
+   [
+    "B",
+    "I know. Shall we start with the numbers? In the proposal we said we'd aim for a hundred and fifty responses."
+   ],
+   [
+    "A",
+    "We did, but Dr Morgan said that's too small if we want to compare different groups of students. She suggested two hundred as a minimum."
+   ],
+   [
+    "B",
+    "Two hundred, then. That's quite a lot. We'll need some kind of incentive."
+   ],
+   [
+    "A",
+    "I was thinking about offering free coffee, but the café wouldn't agree to it. The campus bookshop, though, said they'd give us a book voucher worth thirty pounds."
+   ],
+   [
+    "B",
+    "Brilliant. So everyone who completes the survey can enter a prize draw for the voucher."
+   ],
+   [
+    "A",
+    "Exactly. And we need to keep it short. People give up if it takes too long."
+   ],
+   [
+    "B",
+    "My cousin did a survey last year that took fifteen minutes, and hardly anyone finished it. Ours should take no more than five minutes."
+   ],
+   [
+    "A",
+    "Agreed. Five minutes maximum. Now, are we still doing paper questionnaires as well as the online version?"
+   ],
+   [
+    "B",
+    "I've changed my mind about that. The printing isn't the problem, because the department will pay for it."
+   ],
+   [
+    "B",
+    "It's that someone has to type every answer into the computer afterwards, and with two hundred forms, that would take days."
+   ],
+   [
+    "A",
+    "True. Online only, then. The software puts everything straight into a spreadsheet."
+   ],
+   [
+    "B",
+    "Did you see Dr Morgan's comments on the draft questions?"
+   ],
+   [
+    "A",
+    "Yes. She was mostly happy, but she said question seven wouldn't work."
+   ],
+   [
+    "B",
+    "The one about cost and journey time?"
+   ],
+   [
+    "A",
+    "That's the one. We asked, is your journey cheap and quick? But if someone's journey is cheap but slow, they don't know how to answer."
+   ],
+   [
+    "B",
+    "Of course. So we split it into two separate questions."
+   ],
+   [
+    "B",
+    "I was worried she'd say the question about income was too personal, but she thought it was fine, as long as it's optional."
+   ],
+   [
+    "A",
+    "Good. And what did you think of the pilot? I haven't had time to look at the results properly."
+   ],
+   [
+    "B",
+    "Well, twelve people did it, which is exactly what we planned. The surprising thing was that nobody drives. They all walk, cycle or take the bus."
+   ],
+   [
+    "B",
+    "But that's probably just because they're all our friends from halls."
+   ],
+   [
+    "A",
+    "Probably. Anything else?"
+   ],
+   [
+    "B",
+    "Quite a few people missed out the questions on the second page. I think they didn't realise they had to scroll down."
+   ],
+   [
+    "A",
+    "We can fix that by putting each question on its own screen."
+   ],
+   [
+    "B",
+    "Good idea. Now, how are we going to reach people? We need a proper mix of students, not just our friends."
+   ],
+   [
+    "A",
+    "For first-years, I think posters in the halls of residence would work best. Nearly all of them live there."
+   ],
+   [
+    "B",
+    "Couldn't we just use social media?"
+   ],
+   [
+    "A",
+    "We could, but there are so many posts on the student groups that ours would just disappear."
+   ],
+   [
+    "B",
+    "Fair enough. What about postgraduates? They hardly ever come to the main campus."
+   ],
+   [
+    "A",
+    "Each department has an email list for its research students. I'll ask the department secretaries to send the link out for us."
+   ],
+   [
+    "B",
+    "Great. And for international students, the International Society has nearly a thousand members, and the president is in my seminar group."
+   ],
+   [
+    "B",
+    "I'm sure she'd share it at their events and in their newsletter."
+   ],
+   [
+    "A",
+    "Perfect. Then that just leaves part-time students. They're the hardest group, because most of them only come in during the evenings."
+   ],
+   [
+    "B",
+    "I suppose we could ask lecturers to mention it in class, but they're so busy."
+   ],
+   [
+    "A",
+    "I think we'd have more luck if we went along ourselves. We could stand by the reception desk at the evening centre with a tablet and ask people as they arrive."
+   ],
+   [
+    "B",
+    "Two evenings should be enough. Let's do that next week."
+   ],
+   [
+    "A",
+    "Great. I'll update the questions tonight and send you the new version, so you can check it before we send it to Dr Morgan."
+   ],
+   [
+    "B",
+    "Sounds good. If she's happy with it, we could launch the survey on Monday and close it at the end of the month."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 21-23. Complete the sentences below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "The students now aim to collect at least ___ responses.",
+      "a": "200|two hundred",
+      "why": "Đề cương ghi 150 nhưng Dr Morgan cho là ít: \"She suggested two hundred as a minimum\"."
+     },
+     {
+      "q": "People who complete the survey can enter a prize draw for a book ___.",
+      "a": "voucher",
+      "why": "Quán cà phê từ chối; hiệu sách cho \"a book voucher worth thirty pounds\"."
+     },
+     {
+      "q": "The survey should take a maximum of ___ minutes.",
+      "a": "5|five",
+      "why": "15 phút là khảo sát của người anh họ; của họ \"should take no more than five minutes\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 24-26. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Why have the students decided not to use paper questionnaires?",
+      "a": 1,
+      "o": [
+       "Printing them would cost too much.",
+       "Entering the data would take too long.",
+       "Students prefer to answer online."
+      ],
+      "why": "\"The printing isn't the problem\"; lý do là \"someone has to type every answer into the computer afterwards... that would take days\"."
+     },
+     {
+      "q": "What was the problem with question 7?",
+      "a": 0,
+      "o": [
+       "It asked about two things at once.",
+       "It asked for personal information.",
+       "It used words that were hard to understand."
+      ],
+      "why": "Câu hỏi \"is your journey cheap and quick?\" gộp hai ý, nên người đi rẻ mà chậm không biết trả lời; họ \"split it into two separate questions\". Câu về thu nhập thì được chấp nhận."
+     },
+     {
+      "q": "What did Sam notice about the pilot survey?",
+      "a": 2,
+      "o": [
+       "Several respondents drove to campus.",
+       "Fewer people took part than planned.",
+       "Some questions were not answered."
+      ],
+      "why": "Số người tham gia đúng kế hoạch, không ai lái xe; \"Quite a few people missed out the questions on the second page\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 27-30. How will the students contact each group? Choose FOUR answers from the box and write the correct letter, A-E, next to Questions 27-30.",
+    "opts": [
+     "posters",
+     "social media",
+     "department email lists",
+     "a student society",
+     "speaking to them in person"
+    ],
+    "items": [
+     {
+      "q": "first-year students",
+      "a": 0,
+      "why": "\"posters in the halls of residence would work best\". Mạng xã hội bị loại vì bài đăng sẽ bị trôi."
+     },
+     {
+      "q": "postgraduate students",
+      "a": 2,
+      "why": "\"Each department has an email list for its research students\"."
+     },
+     {
+      "q": "international students",
+      "a": 3,
+      "why": "\"the International Society... I'm sure she'd share it at their events\"."
+     },
+     {
+      "q": "part-time students",
+      "a": 4,
+      "why": "Nhờ giảng viên thì họ bận; Chloe: \"we'd have more luck if we went along ourselves... ask people as they arrive\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l6p4",
+  "test": 6,
+  "part": 4,
+  "title": "Renewable building materials",
+  "setting": "Bài giảng về vật liệu xây dựng tái tạo: tre, gỗ ghép chéo (CLT) và vật liệu từ sợi nấm.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "m",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon. In the last session, we looked at the environmental cost of conventional building materials. Today I want to turn to the alternatives, and specifically to what are often called renewable materials."
+   ],
+   [
+    "A",
+    "Let's begin with a definition, because the word renewable is used rather loosely. Some people use it to mean any material that can be recycled many times, like steel or glass. That's not what I mean today."
+   ],
+   [
+    "A",
+    "A renewable material, in the sense I'll be using, is one that comes from a living source and can be regrown within a human lifetime, ideally much faster than that. So that means timber, bamboo, straw, and some newer materials made from fungi."
+   ],
+   [
+    "A",
+    "Why does this matter? Concrete and steel are extremely energy-intensive to produce. Cement manufacture alone accounts for roughly eight per cent of global carbon dioxide emissions."
+   ],
+   [
+    "A",
+    "Plants, by contrast, absorb carbon as they grow, and much of that carbon stays locked inside the material for the whole life of the building."
+   ],
+   [
+    "A",
+    "Let's start with bamboo. It's technically a grass, not a tree, and its great strength, if you'll forgive the pun, is its speed of growth."
+   ],
+   [
+    "A",
+    "Some species can grow almost a metre in a single day, and a bamboo plantation can be harvested after three to five years, compared with several decades for most timber."
+   ],
+   [
+    "A",
+    "It's also remarkably strong in tension, which is why it's been used for scaffolding in parts of Asia for centuries."
+   ],
+   [
+    "A",
+    "Of course, bamboo has its limitations. It grows mainly in tropical regions, so shipping it to Europe or North America adds both cost and emissions. And it needs chemical treatment to protect it from insects and rot."
+   ],
+   [
+    "A",
+    "The second material, and the one that's really transforming the industry, is cross-laminated timber, usually called CLT."
+   ],
+   [
+    "A",
+    "CLT panels are made by gluing layers of wood together, with each layer placed at right angles to the one below. This makes the panels very stable and strong in both directions, so they can be used for walls and floors."
+   ],
+   [
+    "A",
+    "For many years, architects who wanted to build tall timber buildings met strong resistance. It wasn't really about cost, which was competitive, and there's plenty of sustainably managed forest. The real worry was fire."
+   ],
+   [
+    "A",
+    "It seems obvious that wood burns. But tests have shown that thick CLT panels char on the outside, and that charred layer actually protects the wood inside, so the structure keeps its strength for a predictable length of time."
+   ],
+   [
+    "A",
+    "As a result, building regulations in many countries have now been revised."
+   ],
+   [
+    "A",
+    "The results can be impressive. In Norway, there's an eighteen-storey timber tower that contains apartments, offices and a hotel, with a restaurant on the top floors."
+   ],
+   [
+    "A",
+    "Another advantage is on the building site itself. Because the panels are cut to size in a factory, construction is faster and quieter, and there's far less waste than with concrete."
+   ],
+   [
+    "A",
+    "Now to the most experimental material on my list: mycelium. Mycelium is the network of fine threads that forms the root-like part of fungi."
+   ],
+   [
+    "A",
+    "What we normally call a mushroom is really just the fruit. The mycelium is the main body of the organism, spreading underground."
+   ],
+   [
+    "A",
+    "To make building products, manufacturers mix mycelium with agricultural waste, typically straw or the husks left over from cereal crops."
+   ],
+   [
+    "A",
+    "They put the mixture into a mould, and over about a week the fungus grows through it and binds it into a solid block. The block is then heated, which kills the fungus and stops it growing."
+   ],
+   [
+    "A",
+    "The result is very light, and it can be composted at the end of its life."
+   ],
+   [
+    "A",
+    "At the moment, it isn't strong enough to hold up a building. Its main use is in insulation panels, where its lightness and its ability to trap air are real advantages. Some companies also make packaging from it, as a replacement for polystyrene."
+   ],
+   [
+    "A",
+    "The big problem researchers are trying to solve is that mycelium materials absorb moisture. In a damp climate, that can cause the material to break down, so for now it needs a protective coating or has to be used indoors."
+   ],
+   [
+    "A",
+    "So, to sum up, none of these materials will replace concrete and steel entirely in the near future. But together, they could dramatically reduce the carbon footprint of new buildings."
+   ],
+   [
+    "A",
+    "For next week, please read the case study on the Norwegian tower, and come prepared to discuss its costs."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 31-33. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "How does the lecturer define a renewable material?",
+      "a": 1,
+      "o": [
+       "one that can be recycled many times",
+       "one that can be regrown within a human lifetime",
+       "one that releases no carbon when it is produced"
+      ],
+      "why": "Ông bác bỏ nghĩa \"can be recycled many times\" (\"That's not what I mean\"); định nghĩa: \"can be regrown within a human lifetime\"."
+     },
+     {
+      "q": "What does the lecturer see as the main advantage of bamboo?",
+      "a": 0,
+      "o": [
+       "It grows very quickly.",
+       "It is cheap to transport.",
+       "It needs no chemical treatment."
+      ],
+      "why": "\"its great strength... is its speed of growth\". Vận chuyển thì tốn kém, và tre cần xử lý hóa chất."
+     },
+     {
+      "q": "Why did architects meet resistance to tall timber buildings?",
+      "a": 1,
+      "o": [
+       "The costs were too high.",
+       "There were fears about fire.",
+       "There was not enough timber available."
+      ],
+      "why": "\"It wasn't really about cost... there's plenty of sustainably managed forest. The real worry was fire.\""
+     }
+    ]
+   },
+   {
+    "kind": "note",
+    "instr": "Questions 34-40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "CLT: layers of wood are glued at right ___ to each other",
+      "a": "angles",
+      "why": "\"each layer placed at right angles to the one below\"."
+     },
+     {
+      "q": "Norway: 18-storey tower with apartments, offices and a ___ (restaurant on top floors)",
+      "a": "hotel",
+      "why": "\"contains apartments, offices and a hotel, with a restaurant on the top floors\"."
+     },
+     {
+      "q": "On site: faster, quieter, and produces less ___",
+      "a": "waste",
+      "why": "\"there's far less waste than with concrete\"."
+     },
+     {
+      "q": "Mycelium: the root-like part of ___",
+      "a": "fungi",
+      "why": "\"forms the root-like part of fungi\"."
+     },
+     {
+      "q": "Mixed with agricultural waste, e.g. ___",
+      "a": "straw|husks",
+      "why": "\"typically straw or the husks left over from cereal crops\"."
+     },
+     {
+      "q": "Main current use: ___ panels",
+      "a": "insulation",
+      "why": "Chưa đủ cứng để chịu lực; \"Its main use is in insulation panels\"."
+     },
+     {
+      "q": "Main problem: it absorbs ___",
+      "a": "moisture",
+      "why": "\"mycelium materials absorb moisture\"."
+     }
+    ]
+   }
+  ]
+ }
+]

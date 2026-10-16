@@ -1,0 +1,610 @@
+[
+ {
+  "id": "a2p1",
+  "type": "academic",
+  "test": 2,
+  "section": 1,
+  "title": "Nature's Clean-up Crew",
+  "topic": "Animals and ecology",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "Few animals have a less glamorous job than the dung beetle. Found on every continent except Antarctica, the more than 6,000 described species share a diet made up largely of the droppings of other animals. For a long time they attracted little attention outside specialist circles. Today, however, ecologists increasingly regard these insects as some of the most valuable workers in any grassland, forest or farm. By burying, eating and breaking up waste, they return nutrients to the soil, reduce the number of pests and may even help to limit the greenhouse gases released from animal waste on farms."
+   ],
+   [
+    "B",
+    "Scientists usually divide dung beetles into three groups according to how they deal with their food. 'Rollers' shape a portion of dung into a ball and push it away from the pile, sometimes for a considerable distance, before burying it. 'Tunnellers' dig straight down beneath a dung pat and drag material into chambers below the surface. 'Dwellers', the third group, simply live inside the pat itself, feeding and laying their eggs there without moving it at all. Rolling is the most famous behaviour, but in many habitats it is the tunnellers that move the largest quantities of dung into the ground."
+   ],
+   [
+    "C",
+    "The speed at which the beetles work can be remarkable. In East Africa, researchers once watched a fresh pile of elephant dung weighing about one and a half kilograms disappear within two hours as thousands of beetles arrived to claim a share. The insects locate their food by smell, and many species fly towards fresh droppings within minutes of them being produced. Competition is so intense that rollers must move their ball away quickly, because other beetles will try to steal it, and fights over a single ball are common."
+   ],
+   [
+    "D",
+    "Escaping from the crowd in a straight line is the safest strategy for a roller, and this requires a reliable sense of direction. Before setting off, a beetle often climbs on top of its ball and turns around slowly, a movement that researchers believe allows it to take a mental snapshot of the sky. Many species use the position of the sun, and at night the moon and the pattern of polarised light around it. In a well-known experiment, a South African species was found to keep its course on moonless nights by using the faint band of light from the Milky Way, making it the first animal known to navigate in this way. When researchers fitted the beetles with tiny caps that covered their eyes, the insects wandered in circles."
+   ],
+   [
+    "E",
+    "For farmers, the work of dung beetles has real economic value. When cattle dung is left on the surface of a field, it can remain there for weeks or even months, smothering the grass beneath and making the area unattractive to grazing animals, which avoid feeding close to droppings. It also provides breeding sites for flies and for the parasites of livestock. Beetles that bury dung quickly break this cycle. Their tunnels allow rainwater and air to reach deeper layers of soil, and the buried dung acts as a natural fertiliser for the grass. One study in the United States estimated that dung beetles save the country's cattle industry around 380 million dollars every year."
+   ],
+   [
+    "F",
+    "The importance of these insects became especially clear in Australia. When cattle were introduced there by European settlers, the native dung beetles, which had evolved to deal with the dry, pellet-like droppings of kangaroos and other marsupials, were unable to cope with the large, wet pats produced by cows. Dung piled up across pastures, and bush flies multiplied. In the 1960s scientists launched a national programme to import beetles from Africa and Europe, testing each species carefully to make sure it would not harm local wildlife. More than forty species were released, and about half of them became established. The project did not solve the problem everywhere, but it is often described as a successful example of biological control."
+   ],
+   [
+    "G",
+    "Despite their usefulness, dung beetle populations are declining in many regions. One cause is the widespread use of drugs to treat worms and other parasites in livestock. Some of these chemicals pass through the animal and remain active in its dung, where they can kill beetle larvae. The loss of natural grazing land and the disappearance of large wild mammals also reduce the beetles' food supply. Some ecologists now recommend that farmers treat their animals only when it is necessary and choose medicines that are less harmful to insects. As one researcher put it, protecting dung beetles costs very little, but losing them could prove extremely expensive."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-5\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "All types of dung beetle move dung away from the place where they find it.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B nói nhóm 'Dwellers' \"simply live inside the pat itself ... without moving it at all\", tức là có loài không di chuyển phân. Câu này mâu thuẫn -> FALSE."
+     },
+     {
+      "q": "Dung beetles find fresh droppings by using their sense of smell.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: \"The insects locate their food by smell\". Khớp với câu hỏi -> TRUE."
+     },
+     {
+      "q": "Rollers are usually larger in size than tunnellers.",
+      "a": "NOT GIVEN",
+      "para": "B",
+      "why": "Đoạn B chỉ so sánh lượng phân mà tunnellers chôn được (\"move the largest quantities\"), không hề nói về kích thước cơ thể của các nhóm -> NOT GIVEN."
+     },
+     {
+      "q": "The South African species in the experiment was the first animal shown to use the Milky Way for navigation.",
+      "a": "TRUE",
+      "para": "D",
+      "why": "Đoạn D: \"making it the first animal known to navigate in this way\" (dùng ánh sáng Dải Ngân Hà). Khớp -> TRUE."
+     },
+     {
+      "q": "Native Australian dung beetles were well suited to dealing with cattle dung.",
+      "a": "FALSE",
+      "para": "F",
+      "why": "Đoạn F: bọ hung bản địa \"were unable to cope with the large, wet pats produced by cows\", tức là không xử lý được phân bò. Ngược với câu hỏi -> FALSE."
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 6-9\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "Before rolling its ball away, a beetle may turn around on top of it to take a mental ___ of the sky.",
+      "a": "snapshot",
+      "para": "D",
+      "why": "Đoạn D: \"allows it to take a mental snapshot of the sky\". Đáp án: snapshot."
+     },
+     {
+      "q": "Beetles wearing small ___ over their eyes were unable to move in a straight line.",
+      "a": "caps|tiny caps",
+      "para": "D",
+      "why": "Đoạn D: \"fitted the beetles with tiny caps that covered their eyes, the insects wandered in circles\". Đáp án: caps (hoặc tiny caps)."
+     },
+     {
+      "q": "Cattle dung left on a field gives flies and the ___ of livestock a place to breed.",
+      "a": "parasites",
+      "para": "E",
+      "why": "Đoạn E: \"provides breeding sites for flies and for the parasites of livestock\". Đáp án: parasites."
+     },
+     {
+      "q": "Of the beetle species released in Australia, about ___ became established.",
+      "a": "half",
+      "para": "F",
+      "why": "Đoạn F: \"More than forty species were released, and about half of them became established\". Đáp án: half."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 10-13\nReading Passage 1 has seven paragraphs, A-G.\nWhich paragraph contains the following information?\nWrite the correct letter, A-G.",
+    "items": [
+     {
+      "q": "a figure showing how much money dung beetles save farmers",
+      "a": "E",
+      "para": "E",
+      "why": "Đoạn E: \"save the country's cattle industry around 380 million dollars every year\" là con số về giá trị kinh tế."
+     },
+     {
+      "q": "an explanation of how medicines given to farm animals can harm beetles",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: thuốc trị ký sinh trùng \"remain active in its dung, where they can kill beetle larvae\"."
+     },
+     {
+      "q": "an example of a large amount of dung being removed in a short time",
+      "a": "C",
+      "para": "C",
+      "why": "Đoạn C: đống phân voi khoảng 1,5 kg \"disappear within two hours\"."
+     },
+     {
+      "q": "a way of grouping beetles according to their behaviour",
+      "a": "B",
+      "para": "B",
+      "why": "Đoạn B: \"divide dung beetles into three groups according to how they deal with their food\" (rollers, tunnellers, dwellers)."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "droppings",
+    "phân (của động vật)"
+   ],
+   [
+    "nutrients",
+    "chất dinh dưỡng"
+   ],
+   [
+    "dung pat",
+    "bãi phân (bò)"
+   ],
+   [
+    "chamber",
+    "khoang, buồng (dưới đất)"
+   ],
+   [
+    "polarised light",
+    "ánh sáng phân cực"
+   ],
+   [
+    "smother",
+    "phủ kín, làm nghẹt"
+   ],
+   [
+    "livestock",
+    "gia súc, vật nuôi"
+   ],
+   [
+    "parasite",
+    "ký sinh trùng"
+   ],
+   [
+    "pasture",
+    "đồng cỏ chăn thả"
+   ],
+   [
+    "biological control",
+    "kiểm soát (dịch hại) bằng sinh học"
+   ],
+   [
+    "larvae",
+    "ấu trùng (số nhiều của larva)"
+   ],
+   [
+    "become established",
+    "bén rễ, sinh sống ổn định (ở môi trường mới)"
+   ]
+  ]
+ },
+ {
+  "id": "a2p2",
+  "type": "academic",
+  "test": 2,
+  "section": 2,
+  "title": "Coffee and Commerce",
+  "topic": "Business and economic history",
+  "band": "6.0-7.0",
+  "paras": [
+   [
+    "A",
+    "The first coffee house in England is usually said to have opened in Oxford in 1650, and two years later a similar establishment appeared in London, run by Pasqua Rosee, a servant who had acquired a taste for the drink while travelling in the eastern Mediterranean with his employer, a merchant. The bitter black liquid was at first regarded as an exotic curiosity, but it caught on with astonishing speed. Within a generation coffee houses could be found throughout the City of London, and by the early eighteenth century some observers claimed there were several hundred, although modern historians treat the higher estimates with caution."
+   ],
+   [
+    "B",
+    "Part of the attraction was price. In many houses a customer paid a penny at the door, and this bought not only a dish of coffee but the right to stay for as long as he wished, to read the newspapers lying on the tables and to join in the conversation. Because coffee, unlike ale or wine, did not intoxicate, discussion tended to remain reasonably orderly. Customers sat together at long tables, and convention held that anyone could take any available seat, so a shopkeeper might find himself beside a gentleman or a ship's captain. The houses were sometimes nicknamed 'penny universities' because of the education in news and argument that could be had for the price of a drink."
+   ],
+   [
+    "C",
+    "For merchants, the most valuable thing a coffee house offered was information. In an age long before the telegraph, it was difficult to know when a ship had arrived, what goods were selling for in Amsterdam or whether a trading partner was still able to pay his debts. Coffee house owners competed for customers by subscribing to newspapers, collecting letters and posting notices of ship movements and auctions. As a result, customers with similar interests began to gather in particular houses, and over time individual coffee houses became associated with particular trades, from shipping and insurance to books and the law."
+   ],
+   [
+    "D",
+    "The best-known example is the house opened by Edward Lloyd in about 1688. Lloyd's attracted sea captains, ship owners and merchants, and Lloyd took care to supply them with reliable shipping news, eventually publishing it in a sheet of his own. It was here that the business of marine insurance took shape. A merchant wishing to protect a voyage would have the details of the ship and its cargo written on a sheet of paper, and individuals willing to accept a share of the risk would write their names underneath, together with the amount they would cover. This practice gave rise to the term 'underwriter', still used in insurance today. In the 1770s the underwriters formed their own society and moved to premises elsewhere, but the name of the coffee house survives in Lloyd's of London."
+   ],
+   [
+    "E",
+    "A similar story can be told about the trading of shares. Dealers in company stock had a poor reputation for noisy and aggressive behaviour, and they were not welcome at the Royal Exchange, the grand building where respectable merchants met. Many of them instead conducted their business in the coffee houses of Exchange Alley nearby, especially one called Jonathan's. From 1698 a broker named John Castaing issued a regular list of the prices of shares and goods from Jonathan's, one of the earliest publications of its kind. In 1773 a group of brokers put up their own building close by and, after some debate, called it the Stock Exchange."
+   ],
+   [
+    "F",
+    "Not everyone approved of these new institutions. Critics complained that men wasted whole days in idle talk, and in 1674 a pamphlet presented as a complaint by the women of London protested that the drink was keeping husbands away from home. The government had more serious concerns. Coffee houses were places where political news, rumour and criticism circulated freely, and in December 1675 King Charles II issued a proclamation ordering them to close. The reaction was so hostile, not least from the many traders who depended on them, that the order was withdrawn within a matter of days, before it had even come into effect."
+   ],
+   [
+    "G",
+    "The decline of the coffee house, when it came in the later eighteenth century, was gradual. The institutions that had grown up inside them needed private premises, formal membership and rules, while exclusive gentlemen's clubs offered a more comfortable setting for the wealthy. At the same time tea, heavily promoted by the East India Company, was replacing coffee as the national drink. Historians continue to debate how much the coffee houses really mattered. Dr Miriam Hale describes them as 'nothing less than the first offices of modern finance'. Professor Tomas Reyes is more cautious, arguing that insurance and share dealing would have found a home somewhere and that coffee houses were simply the most convenient rooms available. For Dr Alan Fielding, the lasting change was cultural: the coffee house taught merchants to trust written, published information exchanged among people who did not know one another personally."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 14-20\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i-x.",
+    "opts": [
+     "A fashion that spread quickly",
+     "Cheap, sober and open to all",
+     "Why coffee was believed to be good for health",
+     "Collecting the news that trade depended on",
+     "Signing a name to share a risk",
+     "Unwelcome dealers find a new base",
+     "A royal attempt at closure is abandoned",
+     "How the price of coffee rose and fell",
+     "A slow disappearance and a debated legacy",
+     "Women as owners of coffee houses"
+    ],
+    "items": [
+     {
+      "q": "Paragraph A",
+      "a": 0,
+      "para": "A",
+      "why": "Đoạn A kể quán cà phê đầu tiên xuất hiện và \"caught on with astonishing speed\", lan rộng khắp London -> i (một trào lưu lan nhanh)."
+     },
+     {
+      "q": "Paragraph B",
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B nói vào cửa chỉ \"a penny\", cà phê \"did not intoxicate\" nên tỉnh táo, và \"anyone could take any available seat\" -> ii (rẻ, tỉnh táo, mở cho mọi người)."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 3,
+      "para": "C",
+      "why": "Đoạn C: \"the most valuable thing a coffee house offered was information\", chủ quán đặt báo, dán thông báo tàu bè -> iv (thu thập tin tức mà thương mại cần)."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 4,
+      "para": "D",
+      "why": "Đoạn D mô tả người nhận rủi ro \"would write their names underneath\", nguồn gốc từ 'underwriter' -> v (ký tên để chia sẻ rủi ro)."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 5,
+      "para": "E",
+      "why": "Đoạn E: dân buôn cổ phiếu \"were not welcome at the Royal Exchange\" nên chuyển sang các quán ở Exchange Alley -> vi (những người không được chào đón tìm chỗ mới)."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 6,
+      "para": "F",
+      "why": "Đoạn F: vua Charles II ra lệnh đóng cửa nhưng \"the order was withdrawn within a matter of days\" -> vii (lệnh đóng cửa của nhà vua bị huỷ bỏ)."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 8,
+      "para": "G",
+      "why": "Đoạn G: \"The decline ... was gradual\" và \"Historians continue to debate how much the coffee houses really mattered\" -> ix (biến mất từ từ và di sản còn tranh luận). Các tiêu đề iii, viii, x không có đoạn nào nói tới."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 21-23\nLook at the following statements and the list of historians below.\nMatch each statement with the correct historian, A, B or C.",
+    "opts": [
+     "Dr Miriam Hale",
+     "Professor Tomas Reyes",
+     "Dr Alan Fielding"
+    ],
+    "items": [
+     {
+      "q": "Coffee houses happened to provide suitable space for activities that would have developed anyway.",
+      "a": 1,
+      "para": "G",
+      "why": "Reyes cho rằng \"insurance and share dealing would have found a home somewhere and that coffee houses were simply the most convenient rooms available\" -> B."
+     },
+     {
+      "q": "Coffee houses encouraged a new confidence in information shared between strangers.",
+      "a": 2,
+      "para": "G",
+      "why": "Fielding: quán cà phê \"taught merchants to trust written, published information exchanged among people who did not know one another personally\" -> C."
+     },
+     {
+      "q": "Coffee houses were the original workplaces of today's financial world.",
+      "a": 0,
+      "para": "G",
+      "why": "Hale gọi chúng là \"nothing less than the first offices of modern finance\" -> A. 'first offices' = 'original workplaces'."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 24-27\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nInsurance, shares and a royal order",
+    "items": [
+     {
+      "q": "At Lloyd's, the details of a ship and its ___ were written on a sheet of paper for people to sign.",
+      "a": "cargo",
+      "para": "D",
+      "why": "Đoạn D: \"the details of the ship and its cargo written on a sheet of paper\". Đáp án: cargo."
+     },
+     {
+      "q": "Share dealers met in Exchange Alley because their behaviour made them unwelcome at the ___.",
+      "a": "Royal Exchange",
+      "para": "E",
+      "why": "Đoạn E: \"they were not welcome at the Royal Exchange\". Đáp án: Royal Exchange (2 từ)."
+     },
+     {
+      "q": "From 1698, John Castaing issued a regular list of ___ from Jonathan's.",
+      "a": "prices",
+      "para": "E",
+      "why": "Đoạn E: \"issued a regular list of the prices of shares and goods from Jonathan's\". Đáp án: prices."
+     },
+     {
+      "q": "The order to close coffee houses was withdrawn because the reaction to it was so ___.",
+      "a": "hostile",
+      "para": "F",
+      "why": "Đoạn F: \"The reaction was so hostile ... that the order was withdrawn\". Đáp án: hostile."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "establishment",
+    "cơ sở kinh doanh (quán, cửa hàng)"
+   ],
+   [
+    "catch on",
+    "trở nên phổ biến"
+   ],
+   [
+    "intoxicate",
+    "làm say"
+   ],
+   [
+    "convention",
+    "quy ước, thói quen chung"
+   ],
+   [
+    "subscribe to",
+    "đặt mua dài hạn (báo)"
+   ],
+   [
+    "cargo",
+    "hàng hoá chở trên tàu"
+   ],
+   [
+    "underwriter",
+    "người bảo hiểm, người nhận rủi ro"
+   ],
+   [
+    "premises",
+    "trụ sở, mặt bằng"
+   ],
+   [
+    "broker",
+    "người môi giới"
+   ],
+   [
+    "proclamation",
+    "tuyên cáo, chiếu chỉ"
+   ],
+   [
+    "legacy",
+    "di sản, ảnh hưởng để lại"
+   ]
+  ]
+ },
+ {
+  "id": "a2p3",
+  "type": "academic",
+  "test": 2,
+  "section": 3,
+  "title": "The Case for Difficulty",
+  "topic": "Education and technology",
+  "band": "7.0-8.0",
+  "paras": [
+   [
+    "A",
+    "Almost every new piece of educational technology arrives with the same promise: it will make learning easier. Apps offer to explain a difficult equation in seconds, translation tools remove the labour of looking up words, and the latest generation of AI assistants will summarise a chapter, draft an essay outline or check a proof at any hour of the day. The promise is attractive, and it is usually sincere. The people who build these tools are not, for the most part, trying to deceive anyone; they genuinely believe that removing obstacles from a learner's path is a kindness. My argument is that this belief, however well meant, rests on a misunderstanding of how learning actually works."
+   ],
+   [
+    "B",
+    "In commercial software, 'friction' is a dirty word. Every extra click, every moment of confusion, is something to be designed away, because friction causes customers to abandon a purchase. It is understandable that the same philosophy has been carried into products for students. But a learner is not a customer trying to complete a transaction as quickly as possible. The point of solving a problem in mathematics is not to obtain the answer, which is usually printed at the back of the book, but to change something in the mind of the person solving it. If the tool does the work, the transaction is completed and the change never happens."
+   ],
+   [
+    "C",
+    "Cognitive psychology has a name for the kinds of effort that help rather than hinder. Robert and Elizabeth Bjork, psychologists at the University of California, Los Angeles, call them 'desirable difficulties'. Their research, and a large body of work that has followed it, suggests that conditions which make learning feel slower and harder in the moment often produce far better long-term retention. These include testing yourself instead of re-reading, spacing practice out over several days rather than cramming it into one evening, and mixing different types of problem together. The act of struggling to recall a half-remembered fact appears to strengthen the memory itself. Remove the struggle, and you weaken the result."
+   ],
+   [
+    "D",
+    "What makes this finding awkward is that learners themselves are poor judges of it. When students re-read a textbook chapter, the material feels increasingly familiar, and familiarity is easily mistaken for understanding. Psychologists call this the illusion of fluency. Surveys of university students repeatedly find that re-reading and highlighting are among the most common revision strategies, while self-testing, which is considerably more effective, is used far less. A tool that produces a neat summary on demand risks intensifying this illusion: the summary is clear, the student nods along, and the knowledge that seemed so secure has gone a week later."
+   ],
+   [
+    "E",
+    "An analogy may help. Imagine a gym that installed machines to lift the weights for its members. Attendance would probably rise, sessions would feel pleasant, and members would report high levels of satisfaction. Nobody, however, would become any stronger. The effort is not an unfortunate side effect of the exercise; it is the exercise. Much of what we call learning is similar, and a technology that removes the effort may remove the benefit along with it."
+   ],
+   [
+    "F",
+    "The problem is made worse by the way educational products are often evaluated. Because long-term learning is slow and expensive to measure, companies, and sometimes schools, rely on figures that are easy to collect: how many minutes students spend in an app, how many lessons they complete, how highly they rate the experience. These engagement metrics are not worthless, but they reward exactly the qualities that desirable difficulties lack. A product that makes students feel confident and entertained will score well, whether or not they can remember anything a month later. In effect, we have built a measurement system that cannot see the thing we care about most."
+   ],
+   [
+    "G",
+    "None of this is an argument for removing technology from classrooms, a response that some head teachers and politicians have recently favoured. Banning devices is a blunt instrument. It throws away the genuine advantages of digital tools, such as instant feedback on practice questions, access to far more material than a school library could ever hold, and the ability to adapt the pace of work to individual students. It also does little to prepare young people for a world in which such tools will be everywhere. The more useful question is not whether learners should use technology, but what kind of effort it asks of them."
+   ],
+   [
+    "H",
+    "Some designers are already taking this question seriously. There are tutoring programs that respond to a wrong answer not by revealing the correct one but by offering a hint and asking the student to try again, and flashcard applications built around spaced retrieval rather than repeated viewing. An AI assistant could equally be configured to ask questions rather than answer them, or to withhold a summary until the student has attempted one of their own. Such tools will rarely top a ranking of user satisfaction, and that is precisely why teachers, rather than app stores, should decide which ones are used. Good teaching has always involved knowing when to help and when to step back. Our tools should be built to know the same thing."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "ynng",
+    "instr": "Questions 28-32\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "Most developers of educational technology intend to mislead their users.",
+      "a": "NO",
+      "para": "A",
+      "why": "Đoạn A: \"The people who build these tools are not, for the most part, trying to deceive anyone\". Tác giả khẳng định ngược lại -> NO."
+     },
+     {
+      "q": "Students can usually judge accurately which revision methods work best for them.",
+      "a": "NO",
+      "para": "D",
+      "why": "Đoạn D: \"learners themselves are poor judges of it\" và họ nhầm cảm giác quen thuộc với hiểu bài -> NO."
+     },
+     {
+      "q": "University students use self-testing less often than re-reading.",
+      "a": "YES",
+      "para": "D",
+      "why": "Đoạn D: re-reading là chiến lược phổ biến nhất \"while self-testing ... is used far less\" -> YES."
+     },
+     {
+      "q": "Banning devices from classrooms is the best way to deal with the problems described.",
+      "a": "NO",
+      "para": "G",
+      "why": "Đoạn G: \"None of this is an argument for removing technology from classrooms\" và \"Banning devices is a blunt instrument\" -> NO."
+     },
+     {
+      "q": "AI assistants do more damage to learning than translation tools.",
+      "a": "NOT GIVEN",
+      "para": "A",
+      "why": "Đoạn A chỉ liệt kê cả hai loại công cụ như ví dụ về lời hứa 'học dễ hơn', không có chỗ nào so sánh mức độ gây hại giữa chúng -> NOT GIVEN."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 33-36\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to the writer, a learner differs from a customer because a learner",
+      "o": [
+       "needs more time to make decisions.",
+       "should gain from the process rather than just the result.",
+       "is less likely to give up on a difficult task.",
+       "requires simpler and clearer software."
+      ],
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B: mục đích giải bài toán \"is not to obtain the answer ... but to change something in the mind of the person solving it\". Tức là giá trị nằm ở quá trình, không chỉ kết quả -> B."
+     },
+     {
+      "q": "The writer uses the example of the gym to show that",
+      "o": [
+       "satisfaction surveys are unreliable in every industry.",
+       "people generally prefer comfort to useful activity.",
+       "effort may be the essential part of an activity.",
+       "new machines tend to increase participation."
+      ],
+      "a": 2,
+      "para": "E",
+      "why": "Đoạn E: \"The effort is not an unfortunate side effect of the exercise; it is the exercise.\" Ví dụ phòng gym nhằm chỉ ra nỗ lực chính là cốt lõi -> C. Việc số người đến tập tăng chỉ là chi tiết phụ, không phải ý chính."
+     },
+     {
+      "q": "What is the writer's main criticism of engagement metrics?",
+      "o": [
+       "They are too costly for schools to collect.",
+       "They were designed by companies to hide poor results.",
+       "They favour products that may not lead to lasting learning.",
+       "They ignore how much students enjoy a product."
+      ],
+      "a": 2,
+      "para": "F",
+      "why": "Đoạn F: sản phẩm khiến học sinh tự tin và vui \"will score well, whether or not they can remember anything a month later\" -> C. Phương án A sai vì đoạn văn nói các số liệu này \"easy to collect\"."
+     },
+     {
+      "q": "Which of the following best describes the writer's overall purpose?",
+      "o": [
+       "to warn that technology has no place in education",
+       "to argue that learning tools should be designed and chosen to keep useful effort",
+       "to compare the effectiveness of several popular study apps",
+       "to explain why students dislike difficult tasks"
+      ],
+      "a": 1,
+      "para": "H",
+      "why": "Tác giả không phản đối công nghệ (đoạn G) mà muốn công cụ hỏi đúng loại nỗ lực: \"what kind of effort it asks of them\" và đoạn H đề xuất thiết kế giữ lại sự cố gắng, do giáo viên lựa chọn -> B."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 37-40\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\nEffort and memory",
+    "items": [
+     {
+      "q": "Two psychologists use the term ___ for conditions that make learning feel harder but help in the long run.",
+      "a": "desirable difficulties",
+      "para": "C",
+      "why": "Đoạn C: Robert và Elizabeth Bjork \"call them 'desirable difficulties'\". Đáp án: desirable difficulties."
+     },
+     {
+      "q": "Such conditions often lead to much better long-term ___.",
+      "a": "retention",
+      "para": "C",
+      "why": "Đoạn C: \"often produce far better long-term retention\". Đáp án: retention."
+     },
+     {
+      "q": "One example is ___ practice out over several days instead of cramming.",
+      "a": "spacing",
+      "para": "C",
+      "why": "Đoạn C: \"spacing practice out over several days rather than cramming it into one evening\". Đáp án: spacing."
+     },
+     {
+      "q": "When students re-read material, it starts to feel ___, and they wrongly take this as a sign of understanding.",
+      "a": "familiar|increasingly familiar",
+      "para": "D",
+      "why": "Đoạn D: \"the material feels increasingly familiar, and familiarity is easily mistaken for understanding\". Đáp án: familiar."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "sincere",
+    "chân thành, thật lòng"
+   ],
+   [
+    "friction",
+    "sự cản trở, ma sát (trong trải nghiệm dùng sản phẩm)"
+   ],
+   [
+    "abandon a purchase",
+    "bỏ ngang việc mua hàng"
+   ],
+   [
+    "hinder",
+    "cản trở"
+   ],
+   [
+    "long-term retention",
+    "khả năng ghi nhớ lâu dài"
+   ],
+   [
+    "cram",
+    "học nhồi, học dồn"
+   ],
+   [
+    "illusion of fluency",
+    "ảo tưởng đã thành thạo"
+   ],
+   [
+    "intensify",
+    "làm tăng, làm trầm trọng thêm"
+   ],
+   [
+    "engagement metrics",
+    "các chỉ số mức độ tương tác"
+   ],
+   [
+    "a blunt instrument",
+    "biện pháp thô, thiếu tinh tế"
+   ],
+   [
+    "withhold",
+    "giữ lại, chưa đưa ra"
+   ],
+   [
+    "step back",
+    "lùi lại, để người khác tự làm"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,634 @@
+[
+ {
+  "id": "a1p1",
+  "type": "academic",
+  "test": 1,
+  "section": 1,
+  "title": "From Frozen Ponds to Factories: The Making of Artificial Cold",
+  "topic": "History of invention - refrigeration",
+  "band": "5.5-6.5",
+  "paras": [
+   [
+    "A",
+    "For most of human history, keeping food cold depended entirely on nature. In Persia, China and parts of Europe, wealthy families built ice houses: deep, well-insulated pits or buildings where ice and snow collected in winter were packed in straw. With care, the ice could last until late summer, cooling drinks and preserving fish and meat for those who could afford it. For ordinary people, however, cold was seasonal and unpredictable. Food was preserved by drying, salting or smoking, methods that changed its taste and did not suit fresh produce such as milk."
+   ],
+   [
+    "B",
+    "The idea that cold could be sold in large quantities belongs largely to a young Boston merchant, Frederic Tudor. In 1806 he sent a ship loaded with ice cut from New England ponds to the Caribbean island of Martinique. Many observers considered the plan ridiculous, and they were partly right: much of the cargo melted, few people on the island knew what to do with the rest, and Tudor lost money. He persisted nonetheless. Over the following years he experimented with insulation, eventually settling on sawdust, a waste product of the region's timber mills, and he built storage houses at the ports he supplied. By the 1830s, ice from Massachusetts was being unloaded in Calcutta after a voyage of four months."
+   ],
+   [
+    "C",
+    "As demand grew, ice harvesting became an industry in its own right. In 1825 Nathaniel Wyeth, one of Tudor's suppliers, introduced a horse-drawn cutter that scored the frozen surface of a lake in a grid, so that workers could saw out blocks of identical size. Regular blocks could be stacked tightly, leaving fewer air gaps, and therefore melted more slowly. Yet the trade remained at the mercy of the weather. A mild winter meant thin ice, a poor harvest and a sharp rise in prices the following summer. There was also a growing problem of quality: lakes near expanding cities were often polluted, and doctors began to warn that natural ice could carry disease."
+   ],
+   [
+    "D",
+    "Meanwhile, scientists had begun to understand how cold might be manufactured. In the middle of the eighteenth century, the Scottish professor William Cullen showed his students at the University of Glasgow that when a liquid evaporates rapidly it absorbs heat from its surroundings; by lowering the pressure over a container of ether, he produced a small quantity of ice. Cullen regarded this as a scientific curiosity rather than a practical invention. Almost eighty years later, the American inventor Jacob Perkins, then working in London, patented a machine in which the evaporated fluid was compressed and turned back into a liquid, so that it could be used again and again in a closed cycle. This principle, known as vapour compression, still underlies most refrigerators today, but Perkins's machine never became a commercial success."
+   ],
+   [
+    "E",
+    "Practical ice-making owed much to people working far from the great scientific centres. John Gorrie, a doctor in the small port of Apalachicola, Florida, wanted to cool the rooms of patients suffering from fever. The machine he built for this purpose also produced ice, and he received a patent for it in 1851. Gorrie, however, could not find investors, and some newspapers mocked the very notion of man-made ice. In Australia, James Harrison, a Scottish-born printer living in Geelong, noticed that the ether he used to clean metal type made the metal feel extremely cold. In the 1850s he built ice machines and supplied cooling equipment to a local brewery. His ambition to send frozen meat to Britain ended in disappointment, however, when an attempt in 1873 failed and the cargo spoiled on the voyage."
+   ],
+   [
+    "F",
+    "The breakthrough came from the brewing industry. Lager beer must be fermented and stored at low temperatures, which restricted production to the colder months unless large amounts of natural ice were available. In the 1870s the German engineer Carl von Linde, whose research was funded partly by a brewery in Munich, designed a compression machine using ammonia that was far more efficient and reliable than earlier models. Breweries across Europe soon adopted his design. Refrigerated shipping followed: in 1882 the sailing ship Dunedin arrived in London with a cargo of frozen lamb from New Zealand in good condition, opening a trade that would transform farming in the southern hemisphere."
+   ],
+   [
+    "G",
+    "Electric refrigerators for the home began to appear in the 1910s, though they were expensive, and many early models used toxic gases such as ammonia or sulphur dioxide, which occasionally leaked with fatal results. Around 1930, chemists developed chlorofluorocarbons (CFCs), which were neither poisonous nor flammable and were welcomed as a perfect solution. Only decades later was it discovered that CFCs released into the atmosphere were damaging the ozone layer, and in 1987 the Montreal Protocol began their gradual removal. The history of refrigeration, in other words, is not a simple story of progress: each answer to the problem of cold has eventually raised new questions of its own."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "tfng",
+    "instr": "Questions 1-5\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+    "items": [
+     {
+      "q": "Frederic Tudor made a profit from his first shipment of ice.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: \"much of the cargo melted ... and Tudor lost money\". Tudor bị lỗ, không có lãi, nên câu này trái với bài đọc."
+     },
+     {
+      "q": "Ice shipped from Massachusetts took less than three months to reach Calcutta.",
+      "a": "FALSE",
+      "para": "B",
+      "why": "Đoạn B: \"ice from Massachusetts was being unloaded in Calcutta after a voyage of four months\". Hành trình mất bốn tháng, không phải dưới ba tháng."
+     },
+     {
+      "q": "Nathaniel Wyeth became wealthier than Tudor as a result of his invention.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói Wyeth là nhà cung cấp của Tudor và giới thiệu máy cắt băng kéo bằng ngựa. Bài không so sánh tài sản hay thu nhập của hai người."
+     },
+     {
+      "q": "A warm winter could lead to more expensive ice the following summer.",
+      "a": "TRUE",
+      "para": "C",
+      "why": "Đoạn C: \"A mild winter meant thin ice, a poor harvest and a sharp rise in prices the following summer\". \"mild winter\" = mùa đông ấm, \"sharp rise in prices\" = giá tăng mạnh."
+     },
+     {
+      "q": "Gorrie's machine was originally intended to help people who were ill.",
+      "a": "TRUE",
+      "para": "E",
+      "why": "Đoạn E: Gorrie \"wanted to cool the rooms of patients suffering from fever. The machine he built for this purpose also produced ice\". Mục đích ban đầu là làm mát phòng bệnh nhân, làm ra đá chỉ là thêm."
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 6-9\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "Doctors warned that ice taken from lakes near cities could carry ___.",
+      "a": "disease",
+      "para": "C",
+      "why": "Đoạn C: \"doctors began to warn that natural ice could carry disease\". Đáp án: disease."
+     },
+     {
+      "q": "In Perkins's machine, the same fluid was used repeatedly in a ___.",
+      "a": "closed cycle",
+      "para": "D",
+      "why": "Đoạn D: \"so that it could be used again and again in a closed cycle\". \"used repeatedly\" là cách nói lại của \"used again and again\"."
+     },
+     {
+      "q": "Harrison noticed the cooling effect of ether while cleaning metal ___.",
+      "a": "type",
+      "para": "E",
+      "why": "Đoạn E: \"the ether he used to clean metal type made the metal feel extremely cold\". \"type\" ở đây là con chữ in bằng kim loại (Harrison làm nghề in)."
+     },
+     {
+      "q": "In 1882 a ship brought frozen ___ from New Zealand to London.",
+      "a": "lamb",
+      "para": "F",
+      "why": "Đoạn F: \"the sailing ship Dunedin arrived in London with a cargo of frozen lamb from New Zealand\"."
+     }
+    ]
+   },
+   {
+    "kind": "matchinfo",
+    "instr": "Questions 10-13\nReading Passage 1 has seven paragraphs, A-G.\nWhich paragraph contains the following information?\nWrite the correct letter, A-G.",
+    "items": [
+     {
+      "q": "a description of a tool that made ice blocks a regular size",
+      "a": "C",
+      "para": "C",
+      "why": "Đoạn C: máy cắt của Wyeth chia mặt hồ thành ô lưới \"so that workers could saw out blocks of identical size\"."
+     },
+     {
+      "q": "an early scientific demonstration given to a group of students",
+      "a": "D",
+      "para": "D",
+      "why": "Đoạn D: William Cullen \"showed his students at the University of Glasgow\" rằng chất lỏng bay hơi nhanh thì hút nhiệt và tạo ra một ít đá."
+     },
+     {
+      "q": "the reason why one industry needed low temperatures throughout the year",
+      "a": "F",
+      "para": "F",
+      "why": "Đoạn F: bia lager \"must be fermented and stored at low temperatures, which restricted production to the colder months\". Ngành bia cần lạnh quanh năm để sản xuất liên tục."
+     },
+     {
+      "q": "an example of a solution that later turned out to harm the environment",
+      "a": "G",
+      "para": "G",
+      "why": "Đoạn G: CFC từng được xem là \"a perfect solution\", nhưng sau đó người ta phát hiện chúng \"were damaging the ozone layer\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "insulation",
+    "sự cách nhiệt"
+   ],
+   [
+    "perishable / fresh produce",
+    "nông sản tươi, dễ hỏng"
+   ],
+   [
+    "persist",
+    "kiên trì, bền bỉ tiếp tục"
+   ],
+   [
+    "waste product",
+    "phế phẩm, sản phẩm thải"
+   ],
+   [
+    "at the mercy of",
+    "phụ thuộc hoàn toàn vào, bất lực trước"
+   ],
+   [
+    "evaporate",
+    "bay hơi"
+   ],
+   [
+    "patent",
+    "bằng sáng chế; cấp bằng sáng chế"
+   ],
+   [
+    "commercial success",
+    "thành công về mặt thương mại"
+   ],
+   [
+    "mock",
+    "chế giễu"
+   ],
+   [
+    "breakthrough",
+    "bước đột phá"
+   ],
+   [
+    "toxic",
+    "độc hại"
+   ],
+   [
+    "gradual removal",
+    "loại bỏ dần dần"
+   ]
+  ]
+ },
+ {
+  "id": "a1p2",
+  "type": "academic",
+  "test": 1,
+  "section": 2,
+  "title": "The Great Good Place: Why Communities Need Third Places",
+  "topic": "Sociology - public space and community",
+  "band": "6.0-7.0",
+  "paras": [
+   [
+    "A",
+    "In 1989 the American sociologist Ray Oldenburg published a book with an unusual subject: the ordinary places where people meet when they are neither at home nor at work. Oldenburg called the home the 'first place' and the workplace the 'second place'. Cafés, pubs, barbers' shops, community centres and the steps of a busy library were, in his terms, 'third places'. He argued that such places were essential to a healthy society, and he was alarmed by what he saw as their disappearance from much of the United States. More than three decades later, his term has entered the vocabulary of urban planners, architects and even coffee-shop chains, though not always with the meaning he intended."
+   ],
+   [
+    "B",
+    "Oldenburg was careful to say that not every public venue qualifies. A true third place, he wrote, is neutral ground: nobody is obliged to be there and nobody plays the role of host, so people can come and go as they please. It acts as a leveller, meaning that a person's income or job title counts for little once they are inside. Conversation is the main activity, and it tends to be playful rather than serious. Such places are usually plain and unpretentious in appearance, and their character comes less from the furniture than from the regulars, the small group of customers who are there most days and who make newcomers feel either welcome or out of place."
+   ],
+   [
+    "C",
+    "Why should any of this matter? Part of the answer lies in an influential 1973 paper by the sociologist Mark Granovetter, who studied how people found new jobs. Surprisingly, the most useful contacts were not close friends but acquaintances, people seen only occasionally. Close friends tend to know the same things we do; acquaintances move in other circles and so can pass on information we would not otherwise hear. Granovetter called this 'the strength of weak ties'. Third places are where weak ties are formed and maintained, almost without effort. They also offer something harder to measure: a sense, especially valuable for older people who live alone, of being recognised, and of being missed when absent."
+   ],
+   [
+    "D",
+    "If third places are so useful, why did Oldenburg believe they were vanishing? He pointed first to the design of post-war suburbs. Zoning laws in many American towns kept housing strictly separate from shops and businesses, so that residents had to drive to reach anywhere at all, and a casual stop on the way home became impractical. Longer commutes left less free time. Commercial pressures played a part too. Many chain restaurants and cafés are designed for rapid turnover: bright lighting, loud music and seats that become uncomfortable after half an hour all encourage customers to leave once they have paid, which is the opposite of what a third place requires."
+   ],
+   [
+    "E",
+    "Some researchers have suggested that the internet now performs the function that the corner café once did. In a 2006 study, Constance Steinkuehler and Dmitri Williams argued that large online multiplayer games met many of Oldenburg's criteria: players gathered voluntarily, status in the outside world was invisible, and conversation flowed freely. Critics accept that online communities can be valuable but doubt that they are equivalent. Physical places bring together people who would never choose each other's company, whereas online platforms often sort users into groups of like-minded people, which undermines the levelling effect that Oldenburg considered so important."
+   ],
+   [
+    "F",
+    "Whatever the role of the internet, there have been deliberate attempts to restore physical third places. Many public libraries have been redesigned with cafés, comfortable seating and maker spaces, where people can share tools and equipment. In 2010 San Francisco began allowing businesses and residents to convert parking spaces into 'parklets', small public seating areas on the edge of the pavement, and the idea has since spread to cities on several continents. Planners increasingly favour mixed-use developments in which flats are built above shops, partly in the hope of making the casual encounter possible again."
+   ],
+   [
+    "G",
+    "Not everyone, however, shares the enthusiasm for third places. Oldenburg's descriptions, some critics argue, are coloured by nostalgia for a kind of tavern or barber's shop that was never as welcoming as he suggested; women and minority groups were often excluded from such places in practice. Even today, a café is open only to those who can afford to buy something, and a group of loyal regulars can make outsiders feel unwelcome. There is also the risk that fashionable new cafés, opened in the name of community, push up rents and force out the older, cheaper venues where long-standing residents used to meet. A third place for one group may be a closed door for another."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "headings",
+    "instr": "Questions 14-19\nReading Passage 2 has seven paragraphs, A-G.\nChoose the correct heading for paragraphs B-G from the list of headings below.\nWrite the correct number, i-ix.",
+    "opts": [
+     "The commercial success of coffee-shop chains",
+     "Efforts to bring back places for informal gathering",
+     "The features that distinguish a genuine third place",
+     "Questions of who is included and who is left out",
+     "A comparison of American and European towns",
+     "How casual contacts bring unexpected benefits",
+     "Can the virtual world offer a substitute?",
+     "Why governments should pay for community buildings",
+     "Planning and business forces that discourage lingering"
+    ],
+    "items": [
+     {
+      "q": "Paragraph B",
+      "a": 2,
+      "para": "B",
+      "why": "Đoạn B liệt kê các đặc điểm của một third place thực sự: \"neutral ground\", \"a leveller\", trò chuyện là hoạt động chính, vẻ ngoài giản dị, vai trò của \"the regulars\". Câu mở đầu \"not every public venue qualifies\" cho thấy đoạn này nói về tiêu chí phân biệt."
+     },
+     {
+      "q": "Paragraph C",
+      "a": 5,
+      "para": "C",
+      "why": "Đoạn C nói về nghiên cứu của Granovetter: người quen sơ (\"acquaintances\") lại là mối liên hệ hữu ích nhất khi tìm việc. Đây là lợi ích bất ngờ của các mối quan hệ lỏng (\"weak ties\")."
+     },
+     {
+      "q": "Paragraph D",
+      "a": 8,
+      "para": "D",
+      "why": "Đoạn D nêu hai nguyên nhân: quy hoạch (\"Zoning laws ... kept housing strictly separate from shops\") và áp lực kinh doanh (\"designed for rapid turnover\"), cả hai đều khiến người ta không ngồi lại lâu."
+     },
+     {
+      "q": "Paragraph E",
+      "a": 6,
+      "para": "E",
+      "why": "Đoạn E bàn liệu internet và game trực tuyến có thay được quán cà phê góc phố không: \"the internet now performs the function that the corner café once did\", và phản biện \"doubt that they are equivalent\"."
+     },
+     {
+      "q": "Paragraph F",
+      "a": 1,
+      "para": "F",
+      "why": "Đoạn F: \"deliberate attempts to restore physical third places\", ví dụ thư viện có quán cà phê, parklet ở San Francisco, khu đô thị hỗn hợp."
+     },
+     {
+      "q": "Paragraph G",
+      "a": 3,
+      "para": "G",
+      "why": "Đoạn G nói ai bị loại trừ: phụ nữ và nhóm thiểu số \"were often excluded\", quán cà phê chỉ dành cho người có tiền, và câu kết \"A third place for one group may be a closed door for another\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 20-22\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "According to paragraph B, the regulars in a third place",
+      "o": [
+       "are usually friends of the owner.",
+       "largely decide whether newcomers feel welcome.",
+       "are expected to spend more than other customers.",
+       "prefer serious discussion to light conversation."
+      ],
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B: the regulars là nhóm khách đến gần như mỗi ngày \"who make newcomers feel either welcome or out of place\". Bài không nói họ là bạn chủ quán hay phải chi nhiều tiền; còn trò chuyện thì \"playful rather than serious\", nên D sai."
+     },
+     {
+      "q": "Granovetter found that acquaintances were useful to job seekers because they",
+      "o": [
+       "were more willing to help than close friends.",
+       "had more influence with employers.",
+       "had access to information that close friends lacked.",
+       "were easier to contact on a regular basis."
+      ],
+      "a": 2,
+      "para": "C",
+      "why": "Đoạn C: \"acquaintances move in other circles and so can pass on information we would not otherwise hear\", trong khi bạn thân \"tend to know the same things we do\"."
+     },
+     {
+      "q": "Critics of the idea that online games can be third places argue that online platforms",
+      "o": [
+       "tend to group users with people similar to themselves.",
+       "make it impossible to hide one's real-world status.",
+       "discourage players from talking freely.",
+       "are mainly used by younger people."
+      ],
+      "a": 0,
+      "para": "E",
+      "why": "Đoạn E: \"online platforms often sort users into groups of like-minded people, which undermines the levelling effect\". B và C trái với bài, vì chính nghiên cứu năm 2006 nói \"status in the outside world was invisible\" và \"conversation flowed freely\"."
+     }
+    ]
+   },
+   {
+    "kind": "sumcomp",
+    "instr": "Questions 23-26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.",
+    "items": [
+     {
+      "q": "Oldenburg believed third places were disappearing partly because, in many American suburbs, ___ kept homes apart from shops, so people had to drive everywhere.",
+      "a": "zoning laws",
+      "para": "D",
+      "why": "Đoạn D: \"Zoning laws in many American towns kept housing strictly separate from shops and businesses\". \"kept homes apart from shops\" là cách nói lại."
+     },
+     {
+      "q": "Many chain cafés are designed to achieve a rapid ___ of customers.",
+      "a": "turnover",
+      "para": "D",
+      "why": "Đoạn D: \"Many chain restaurants and cafés are designed for rapid turnover\". turnover = vòng quay khách, khách đến rồi đi nhanh."
+     },
+     {
+      "q": "In response, some public libraries now offer cafés and ___ where tools can be shared.",
+      "a": "maker spaces",
+      "para": "F",
+      "why": "Đoạn F: thư viện được thiết kế lại \"with cafés, comfortable seating and maker spaces, where people can share tools and equipment\"."
+     },
+     {
+      "q": "In San Francisco and elsewhere, ___ have been turned into small public seating areas known as parklets.",
+      "a": "parking spaces",
+      "para": "F",
+      "why": "Đoạn F: \"convert parking spaces into 'parklets', small public seating areas on the edge of the pavement\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "venue",
+    "địa điểm (tổ chức, tụ họp)"
+   ],
+   [
+    "neutral ground",
+    "nơi trung lập, không thuộc về ai"
+   ],
+   [
+    "leveller",
+    "thứ xóa nhòa khác biệt địa vị"
+   ],
+   [
+    "unpretentious",
+    "giản dị, không phô trương"
+   ],
+   [
+    "acquaintance",
+    "người quen sơ"
+   ],
+   [
+    "weak ties",
+    "các mối quan hệ lỏng, quen biết sơ"
+   ],
+   [
+    "zoning laws",
+    "luật phân khu quy hoạch"
+   ],
+   [
+    "commute",
+    "quãng đường đi làm hằng ngày"
+   ],
+   [
+    "rapid turnover",
+    "vòng quay khách nhanh"
+   ],
+   [
+    "like-minded",
+    "cùng quan điểm, cùng chí hướng"
+   ],
+   [
+    "mixed-use development",
+    "khu phát triển đa chức năng (ở và kinh doanh)"
+   ],
+   [
+    "nostalgia",
+    "nỗi hoài niệm"
+   ]
+  ]
+ },
+ {
+  "id": "a1p3",
+  "type": "academic",
+  "test": 1,
+  "section": 3,
+  "title": "The Words We Think In",
+  "topic": "Linguistics - language and thought",
+  "band": "6.5-8.0",
+  "paras": [
+   [
+    "A",
+    "It is a claim that appears regularly in popular articles: a language that lacks a word for something prevents its speakers from thinking about it. In its strongest form, this idea, known as linguistic determinism, holds that the language we happen to learn as children sets the limits of what we can understand. The strong version is almost certainly false. People invent new words whenever they need them; translation between languages, though imperfect, is always possible; and infants reason about objects and quantities before they can speak at all. Yet the rejection of determinism has too often been treated as the end of the matter. A weaker claim, that the language we speak influences how we habitually think, is far more plausible, and it deserves a more careful hearing than its critics have generally given it."
+   ],
+   [
+    "B",
+    "The idea is most closely associated with Benjamin Lee Whorf, an American chemical engineer who worked for a fire insurance company and studied linguistics in his spare time. As an inspector, Whorf noticed that workers who behaved cautiously around full petrol drums became careless near drums described as 'empty', smoking beside them even though these contained explosive vapour. The word, he concluded, had shaped their perception of danger. Whorf went on to make much bolder claims, most famously that the Hopi language of Arizona contained no words or grammatical forms referring to time as something that could be counted or divided, and that the Hopi therefore experienced time quite differently from Europeans."
+   ],
+   [
+    "C",
+    "Whorf's Hopi claims did not survive scrutiny. In 1983 the linguist Ekkehart Malotki published a detailed study documenting the many ways in which Hopi speakers refer to time, including units such as days and seasons and devices that function much like tense. By then, the intellectual climate had changed. Linguists influenced by the search for a universal grammar shared by all humans were inclined to see differences between languages as superficial, and linguistic relativity came to be regarded as a discredited fashion. In my view, this reaction went too far. That Whorf was wrong about the Hopi tells us that he was careless with evidence, not that the question he raised was meaningless."
+   ],
+   [
+    "D",
+    "Some of the most persuasive evidence for a weaker form of relativity concerns colour. Russian, unlike English, has two basic words for blue: 'goluboy' for lighter shades and 'siniy' for darker ones, and speakers must choose between them. In a 2007 study, Jonathan Winawer and his colleagues showed Russian and English speakers sets of blue squares and asked them to identify which two matched. Russian speakers were faster when the shades fell on opposite sides of their language's boundary, while English speakers showed no such advantage. Crucially, the Russian advantage disappeared when participants were asked to rehearse a string of numbers silently during the task, which kept the verbal parts of their minds occupied. This suggests that language was not permanently reshaping what they saw; rather, it was being called upon in the moment to help them sort what they saw."
+   ],
+   [
+    "E",
+    "Spatial thinking provides a more dramatic case. Speakers of Guugu Yimithirr, an Aboriginal language of northern Queensland, rarely use words such as 'left' and 'right'; instead, they describe locations in terms of compass directions, saying, for example, that a cup is to the north of a plate. Researchers led by Stephen Levinson found that when such speakers were shown objects arranged on a table, turned through 180 degrees and asked to reproduce the arrangement, they preserved the compass directions rather than the order relative to their own bodies. Other researchers, notably Peggy Li and Lila Gleitman, objected that the results might reflect the setting of the experiment and the wider culture rather than language itself, and they showed that English speakers could be led to adopt similar strategies when the test conditions were changed. The objection is fair, but it is not decisive. In real communities, language and culture develop together, and it may be impossible to separate their effects completely. Difficulty in establishing a cause is not evidence that there is no effect."
+   ],
+   [
+    "F",
+    "A 2001 study claimed that Mandarin speakers, whose language sometimes describes earlier and later events as 'up' and 'down', thought about time vertically in a way that English speakers did not. Several later attempts to reproduce the result failed. This does not prove that language has no influence on how people think about time; it shows only that one striking finding was less secure than it first appeared. It is, nevertheless, a warning against the appetite for surprising results that has made linguistic relativity such a popular subject for journalists."
+   ],
+   [
+    "G",
+    "The most defensible version of the idea, I would suggest, is captured by the psychologist Dan Slobin's phrase 'thinking for speaking'. Every language obliges its speakers to attend to certain details whenever they talk. A speaker of Turkish, for instance, is expected to indicate through grammar whether they witnessed a past event directly or learned of it from someone else. Over a lifetime of speaking, such requirements may become habits of attention, affecting what people notice and remember even when they are silent. On this account, language is less a prison than a well-worn path: one can always leave it, but it is the route most often taken."
+   ],
+   [
+    "H",
+    "This view has practical consequences for language learners. Learning a second language does not give anyone a capacity for thought they previously lacked, whatever some advertisements may promise. What it offers is something more modest but still valuable: practice in noticing distinctions that one's first language allows one to ignore. That is reason enough to take linguistic relativity seriously, without either inflating it into determinism or dismissing it as a myth."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 27-30\nChoose the correct letter, A, B, C or D.",
+    "items": [
+     {
+      "q": "The writer refers to Whorf's work as an insurance inspector in order to",
+      "o": [
+       "suggest that Whorf lacked proper academic training.",
+       "illustrate the kind of observation that led Whorf to his ideas.",
+       "prove that the choice of words can cause accidents.",
+       "criticise the safety practices of factory workers."
+      ],
+      "a": 1,
+      "para": "B",
+      "why": "Đoạn B kể chuyện công nhân bất cẩn gần thùng \"empty\" rồi kết luận \"The word, he concluded, had shaped their perception of danger\". Tác giả dùng chuyện này để cho thấy quan sát đời thường nào đã dẫn Whorf tới ý tưởng của mình. C sai vì đó chỉ là kết luận của Whorf, tác giả không nói nó đã được chứng minh."
+     },
+     {
+      "q": "What does the writer conclude from the finding that the Russian speakers' advantage disappeared?",
+      "o": [
+       "Russian speakers see colours differently from English speakers.",
+       "The original experiment was poorly designed.",
+       "Language assists perception during a task rather than changing it permanently.",
+       "Remembering numbers affects colour perception in all speakers."
+      ],
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D: \"language was not permanently reshaping what they saw; rather, it was being called upon in the moment to help them sort what they saw\". Ngôn ngữ chỉ hỗ trợ ngay lúc làm bài, không thay đổi thị giác lâu dài."
+     },
+     {
+      "q": "What is the writer's opinion of the objection raised by Li and Gleitman?",
+      "o": [
+       "It shows that Levinson's findings were invalid.",
+       "It is reasonable but does not settle the question.",
+       "It fails to consider the influence of culture.",
+       "It is based on a misreading of the original study."
+      ],
+      "a": 1,
+      "para": "E",
+      "why": "Đoạn E: \"The objection is fair, but it is not decisive.\" fair = hợp lý, not decisive = chưa giải quyết dứt điểm vấn đề."
+     },
+     {
+      "q": "In paragraph G, the image of 'a well-worn path' suggests that language",
+      "o": [
+       "makes some ways of thinking habitual without making others impossible.",
+       "prevents speakers from noticing details that it does not mark.",
+       "changes very slowly over many generations.",
+       "is learned mainly through repetition."
+      ],
+      "a": 0,
+      "para": "G",
+      "why": "Đoạn G: \"language is less a prison than a well-worn path: one can always leave it, but it is the route most often taken\". Ngôn ngữ tạo thói quen tư duy nhưng không cấm các cách nghĩ khác. B mang tinh thần \"prison\" mà tác giả bác bỏ."
+     }
+    ]
+   },
+   {
+    "kind": "ynng",
+    "instr": "Questions 31-35\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nWrite\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+    "items": [
+     {
+      "q": "The strongest version of linguistic determinism is very unlikely to be true.",
+      "a": "YES",
+      "para": "A",
+      "why": "Đoạn A: \"The strong version is almost certainly false.\" Tác giả cho rằng nó gần như chắc chắn sai, khớp với \"very unlikely to be true\"."
+     },
+     {
+      "q": "Malotki's study received little attention when it was first published.",
+      "a": "NOT GIVEN",
+      "para": "C",
+      "why": "Đoạn C chỉ nói Malotki công bố nghiên cứu năm 1983 và nội dung của nó. Tác giả không nói nghiên cứu được chú ý nhiều hay ít."
+     },
+     {
+      "q": "The rejection of linguistic relativity was more extreme than the evidence justified.",
+      "a": "YES",
+      "para": "C",
+      "why": "Đoạn C: \"In my view, this reaction went too far.\" Việc Whorf sai về tiếng Hopi chỉ cho thấy ông \"careless with evidence, not that the question he raised was meaningless\"."
+     },
+     {
+      "q": "The failure to reproduce the Mandarin study shows that language does not affect how people think about time.",
+      "a": "NO",
+      "para": "F",
+      "why": "Đoạn F: \"This does not prove that language has no influence on how people think about time\". Câu hỏi nói ngược lại quan điểm của tác giả."
+     },
+     {
+      "q": "Learning a second language enables people to think thoughts that were previously impossible for them.",
+      "a": "NO",
+      "para": "H",
+      "why": "Đoạn H: \"Learning a second language does not give anyone a capacity for thought they previously lacked\". Theo tác giả, nó chỉ giúp luyện việc để ý những khác biệt mới."
+     }
+    ]
+   },
+   {
+    "kind": "matchfeat",
+    "instr": "Questions 36-40\nLook at the following statements (Questions 36-40) and the list of researchers below.\nMatch each statement with the correct researcher or group of researchers, A-F.\nNB You may use any letter more than once.",
+    "opts": [
+     "Benjamin Lee Whorf",
+     "Ekkehart Malotki",
+     "Jonathan Winawer and colleagues",
+     "Stephen Levinson and colleagues",
+     "Peggy Li and Lila Gleitman",
+     "Dan Slobin"
+    ],
+    "items": [
+     {
+      "q": "recorded a wide range of ways of expressing time in a particular language",
+      "a": 1,
+      "para": "C",
+      "why": "Đoạn C: Malotki \"published a detailed study documenting the many ways in which Hopi speakers refer to time\"."
+     },
+     {
+      "q": "found that an advantage disappeared when participants' verbal abilities were kept busy",
+      "a": 2,
+      "para": "D",
+      "why": "Đoạn D: trong nghiên cứu của Winawer, \"the Russian advantage disappeared when participants were asked to rehearse a string of numbers silently\", việc này \"kept the verbal parts of their minds occupied\"."
+     },
+     {
+      "q": "showed that results could change when the conditions of a test were altered",
+      "a": 4,
+      "para": "E",
+      "why": "Đoạn E: Li và Gleitman \"showed that English speakers could be led to adopt similar strategies when the test conditions were changed\"."
+     },
+     {
+      "q": "developed ideas partly from experiences outside academic research",
+      "a": 0,
+      "para": "B",
+      "why": "Đoạn B: Whorf làm cho một công ty bảo hiểm cháy nổ và chỉ học ngôn ngữ học \"in his spare time\"; ý tưởng của ông đến từ việc quan sát công nhân khi đi kiểm tra."
+     },
+     {
+      "q": "argued that language mainly affects thought through the details speakers must attend to when talking",
+      "a": 5,
+      "para": "G",
+      "why": "Đoạn G: cụm từ \"thinking for speaking\" của Slobin. \"Every language obliges its speakers to attend to certain details whenever they talk\"."
+     }
+    ]
+   }
+  ],
+  "vocab": [
+   [
+    "linguistic determinism",
+    "thuyết quyết định luận ngôn ngữ (ngôn ngữ quyết định tư duy)"
+   ],
+   [
+    "plausible",
+    "nghe hợp lý, có thể đúng"
+   ],
+   [
+    "scrutiny",
+    "sự xem xét kỹ lưỡng"
+   ],
+   [
+    "discredited",
+    "bị mất uy tín, bị bác bỏ"
+   ],
+   [
+    "superficial",
+    "bề ngoài, hời hợt"
+   ],
+   [
+    "persuasive",
+    "có sức thuyết phục"
+   ],
+   [
+    "rehearse",
+    "nhẩm đi nhẩm lại"
+   ],
+   [
+    "decisive",
+    "có tính quyết định, dứt điểm"
+   ],
+   [
+    "appetite for",
+    "sự thèm muốn, nhu cầu đối với"
+   ],
+   [
+    "defensible",
+    "có thể bảo vệ được (lập luận)"
+   ],
+   [
+    "oblige somebody to",
+    "buộc ai phải làm gì"
+   ],
+   [
+    "inflate into",
+    "thổi phồng thành"
+   ]
+  ]
+ }
+]

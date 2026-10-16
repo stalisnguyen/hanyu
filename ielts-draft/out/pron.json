@@ -1,0 +1,2970 @@
+{
+ "sounds": [
+  {
+   "ipa": "iː",
+   "type": "vowel",
+   "name": "long ee",
+   "ex": [
+    "sheep",
+    "eat",
+    "people",
+    "key"
+   ],
+   "how": "Kéo hai khóe môi sang hai bên như đang cười nhẹ. Lưỡi nâng cao, đẩy ra phía trước, đầu lưỡi chạm nhẹ sau răng cửa dưới. Giữ âm dài, khoảng gấp đôi âm /ɪ/.",
+   "vn": "Người Việt thường đọc /iː/ và /ɪ/ giống hệt nhau như chữ \"i\" tiếng Việt, nên \"sheep\" và \"ship\" nghe như một từ. Hãy cố ý kéo dài và căng môi hơn khi đọc /iː/.",
+   "pairs": [
+    [
+     "ship",
+     "sheep"
+    ],
+    [
+     "live",
+     "leave"
+    ],
+    [
+     "sit",
+     "seat"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɪ",
+   "type": "vowel",
+   "name": "short i",
+   "ex": [
+    "ship",
+    "sit",
+    "women",
+    "busy"
+   ],
+   "how": "Môi thả lỏng, chỉ hơi mở. Lưỡi cao nhưng thấp và lùi vào trong hơn so với /iː/. Âm ngắn, gọn, không căng cơ miệng.",
+   "vn": "Hay bị đọc thành \"i\" dài và căng như tiếng Việt. Âm đúng nằm giữa \"i\" và \"ê\", rất ngắn và lỏng. Đọc \"sit\" gần như \"xít\" nhưng thả lỏng hàm.",
+   "pairs": [
+    [
+     "bit",
+     "beat"
+    ],
+    [
+     "fill",
+     "feel"
+    ],
+    [
+     "chip",
+     "cheap"
+    ]
+   ]
+  },
+  {
+   "ipa": "e",
+   "type": "vowel",
+   "name": "short e",
+   "ex": [
+    "bed",
+    "head",
+    "said",
+    "any"
+   ],
+   "how": "Miệng mở vừa, khóe môi hơi kéo sang hai bên. Lưỡi ở độ cao trung bình, hơi ra trước. Âm ngắn, gần giống \"e\" tiếng Việt nhưng khép hơn một chút.",
+   "vn": "Dễ lẫn với /æ/ vì tiếng Việt chỉ có một âm \"e\". Ngoài ra nhiều bạn đọc \"said\" thành /seɪd/; cách đúng là /sed/.",
+   "pairs": [
+    [
+     "bad",
+     "bed"
+    ],
+    [
+     "man",
+     "men"
+    ],
+    [
+     "late",
+     "let"
+    ]
+   ]
+  },
+  {
+   "ipa": "æ",
+   "type": "vowel",
+   "name": "short a (cat)",
+   "ex": [
+    "cat",
+    "bad",
+    "man",
+    "have"
+   ],
+   "how": "Há miệng rộng, hàm dưới hạ xuống nhiều hơn khi đọc /e/. Lưỡi hạ thấp, đầu lưỡi chạm răng cửa dưới, khóe môi kéo căng. Âm nghe như nằm giữa \"e\" và \"a\".",
+   "vn": "Người Việt hay đọc /æ/ thành \"e\" (bad nghe như bed) hoặc thành \"a\" (cat nghe như \"cát\"). Hãy mở hàm như khi đọc \"a\" rồi giữ lưỡi ở vị trí \"e\".",
+   "pairs": [
+    [
+     "bad",
+     "bed"
+    ],
+    [
+     "sat",
+     "set"
+    ],
+    [
+     "bag",
+     "beg"
+    ]
+   ]
+  },
+  {
+   "ipa": "ʌ",
+   "type": "vowel",
+   "name": "short u (cup)",
+   "ex": [
+    "cup",
+    "love",
+    "money",
+    "blood"
+   ],
+   "how": "Miệng mở vừa, môi thả lỏng, không tròn. Lưỡi ở giữa khoang miệng, hơi thấp. Âm ngắn, gần giống \"ă\" tiếng Việt.",
+   "vn": "Hay bị đọc thành \"a\" dài, khiến \"cut\" nghe như \"cart\". Âm này ngắn và dứt khoát như \"ă\" trong \"căn\". Chú ý chữ \"o\" trong love, money, come cũng đọc là /ʌ/.",
+   "pairs": [
+    [
+     "cut",
+     "cart"
+    ],
+    [
+     "much",
+     "march"
+    ],
+    [
+     "hut",
+     "heart"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɑː",
+   "type": "vowel",
+   "name": "long ah",
+   "ex": [
+    "car",
+    "father",
+    "heart",
+    "calm"
+   ],
+   "how": "Há miệng rộng, lưỡi hạ thấp và lùi về sau, môi không tròn. Kéo dài âm. Trong giọng Anh, chữ \"r\" sau nguyên âm không được đọc: car là /kɑː/.",
+   "vn": "Nhiều bạn đọc ngắn như \"a\" hoặc thêm âm \"r\" kiểu Mỹ. Khi luyện giọng Anh, kéo dài âm \"a\" và bỏ \"r\". Lưu ý các từ như fast, ask, bath trong giọng Anh cũng dùng /ɑː/.",
+   "pairs": [
+    [
+     "cut",
+     "cart"
+    ],
+    [
+     "come",
+     "calm"
+    ],
+    [
+     "duck",
+     "dark"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɒ",
+   "type": "vowel",
+   "name": "short o",
+   "ex": [
+    "hot",
+    "dog",
+    "watch",
+    "what"
+   ],
+   "how": "Môi hơi tròn, miệng mở khá rộng. Lưỡi thấp và lùi về sau. Âm ngắn, gần giống \"o\" tiếng Việt nhưng mở hơn. Âm này có trong giọng Anh, giọng Mỹ thường thay bằng /ɑː/.",
+   "vn": "Dễ lẫn với /ɔː/ vì người Việt không phân biệt dài ngắn. Đọc /ɒ/ ngắn, gọn như \"o\" trong \"hót\".",
+   "pairs": [
+    [
+     "cot",
+     "caught"
+    ],
+    [
+     "shot",
+     "short"
+    ],
+    [
+     "spot",
+     "sport"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɔː",
+   "type": "vowel",
+   "name": "long aw",
+   "ex": [
+    "saw",
+    "law",
+    "walk",
+    "door"
+   ],
+   "how": "Môi tròn và đẩy ra trước nhiều hơn /ɒ/, lưỡi lùi về sau ở độ cao trung bình. Kéo dài âm, gần giống \"o\" kéo dài trong \"ooo\". Không đọc \"r\" trong door, more.",
+   "vn": "Hay bị đọc ngắn nên \"short\" nghe như \"shot\". Các từ có -al như walk, talk, chalk không đọc âm /l/.",
+   "pairs": [
+    [
+     "pot",
+     "port"
+    ],
+    [
+     "work",
+     "walk"
+    ],
+    [
+     "coat",
+     "caught"
+    ]
+   ]
+  },
+  {
+   "ipa": "ʊ",
+   "type": "vowel",
+   "name": "short oo",
+   "ex": [
+    "book",
+    "put",
+    "could",
+    "woman"
+   ],
+   "how": "Môi hơi tròn nhưng thả lỏng, lưỡi cao và lùi về sau. Âm ngắn, gần giống \"u\" tiếng Việt nhưng lỏng và ngắn hơn.",
+   "vn": "Người Việt thường đọc thành \"u\" dài và tròn môi quá mức, nên \"full\" nghe như \"fool\". Ngoài ra chữ \"oo\" không phải lúc nào cũng là /uː/: book, look, good đều là /ʊ/.",
+   "pairs": [
+    [
+     "full",
+     "fool"
+    ],
+    [
+     "pull",
+     "pool"
+    ],
+    [
+     "look",
+     "Luke"
+    ]
+   ]
+  },
+  {
+   "ipa": "uː",
+   "type": "vowel",
+   "name": "long oo",
+   "ex": [
+    "food",
+    "blue",
+    "shoe",
+    "through"
+   ],
+   "how": "Môi tròn và chu ra phía trước, lưỡi nâng cao ở phía sau. Kéo dài âm, giống \"u\" tiếng Việt nhưng dài và căng hơn.",
+   "vn": "Âm này không khó với người Việt, chỉ cần nhớ kéo dài để phân biệt với /ʊ/. Chú ý từ có /j/ phía trước như music /ˈmjuːzɪk/, student /ˈstjuːdnt/.",
+   "pairs": [
+    [
+     "full",
+     "fool"
+    ],
+    [
+     "could",
+     "cooed"
+    ],
+    [
+     "soot",
+     "suit"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɜː",
+   "type": "vowel",
+   "name": "long er (bird)",
+   "ex": [
+    "bird",
+    "work",
+    "learn",
+    "nurse"
+   ],
+   "how": "Môi thả lỏng, hơi mở, không tròn. Lưỡi nằm giữa khoang miệng, không chạm đâu cả. Kéo dài âm. Giống \"ơ\" tiếng Việt kéo dài. Giọng Anh không cuộn lưỡi đọc \"r\".",
+   "vn": "Hay bị đọc thành \"ơ\" ngắn hoặc thành \"ua\", \"ơ-r\". Một lỗi phổ biến là đọc work như walk; cần giữ môi không tròn khi đọc /ɜː/.",
+   "pairs": [
+    [
+     "work",
+     "walk"
+    ],
+    [
+     "shirt",
+     "short"
+    ],
+    [
+     "bird",
+     "board"
+    ]
+   ]
+  },
+  {
+   "ipa": "ə",
+   "type": "vowel",
+   "name": "schwa",
+   "ex": [
+    "about",
+    "teacher",
+    "banana",
+    "the"
+   ],
+   "how": "Âm yếu nhất và phổ biến nhất trong tiếng Anh. Miệng, môi và lưỡi đều thả lỏng hoàn toàn, phát ra một tiếng \"ơ\" rất ngắn và nhẹ. Chỉ xuất hiện ở âm tiết không nhấn.",
+   "vn": "Người Việt có thói quen đọc rõ từng âm tiết với nguyên âm đầy đủ, ví dụ đọc banana thành \"ba-na-na\" đều nhau. Âm tiết không nhấn phải rút gọn thành /ə/: /bəˈnɑːnə/.",
+   "pairs": []
+  },
+  {
+   "ipa": "eɪ",
+   "type": "diphthong",
+   "name": "ay (day)",
+   "ex": [
+    "day",
+    "late",
+    "rain",
+    "great"
+   ],
+   "how": "Bắt đầu từ vị trí /e/ rồi trượt nhanh lên /ɪ/, môi kéo dần sang hai bên. Giống \"ây\" tiếng Việt nhưng phần đầu mở hơn.",
+   "vn": "Hay bị đọc thành \"ê\" đơn, bỏ mất phần trượt, nên \"late\" nghe như \"let\". Khi có phụ âm cuối, nhiều bạn bỏ luôn phụ âm: late phải có /t/ ở cuối.",
+   "pairs": [
+    [
+     "late",
+     "let"
+    ],
+    [
+     "wait",
+     "wet"
+    ],
+    [
+     "taste",
+     "test"
+    ]
+   ]
+  },
+  {
+   "ipa": "aɪ",
+   "type": "diphthong",
+   "name": "eye (my)",
+   "ex": [
+    "my",
+    "time",
+    "high",
+    "buy"
+   ],
+   "how": "Bắt đầu với miệng mở rộng ở vị trí \"a\", rồi trượt lên /ɪ/, hàm dưới nâng dần. Gần giống \"ai\" tiếng Việt.",
+   "vn": "Khá dễ với người Việt. Lỗi thường gặp là quên phụ âm cuối: time, like, wife đọc thành \"tai\", \"lai\", \"oai\".",
+   "pairs": [
+    [
+     "white",
+     "wide"
+    ],
+    [
+     "rice",
+     "rise"
+    ],
+    [
+     "price",
+     "prize"
+    ]
+   ]
+  },
+  {
+   "ipa": "ɔɪ",
+   "type": "diphthong",
+   "name": "oy (boy)",
+   "ex": [
+    "boy",
+    "coin",
+    "noise",
+    "enjoy"
+   ],
+   "how": "Bắt đầu với môi tròn ở vị trí /ɔː/, rồi trượt lên /ɪ/, môi chuyển từ tròn sang dẹt. Gần giống \"oi\" tiếng Việt.",
+   "vn": "Âm này dễ. Chú ý không bỏ phụ âm cuối trong coin, noise, choice, và /z/ cuối noise phải rung.",
+   "pairs": []
+  },
+  {
+   "ipa": "əʊ",
+   "type": "diphthong",
+   "name": "oh (go)",
+   "ex": [
+    "go",
+    "home",
+    "know",
+    "road"
+   ],
+   "how": "Bắt đầu từ /ə/ với môi thả lỏng, rồi trượt về /ʊ/, môi tròn dần. Giọng Anh bắt đầu ở giữa miệng, không phải \"ô\" đơn. Nghe như \"ơ-u\" nối liền.",
+   "vn": "Người Việt thường đọc thành \"ô\" đơn, không có phần trượt, nên \"coat\" dễ bị nghe thành \"caught\". Hãy để môi chuyển động từ thả lỏng sang tròn.",
+   "pairs": [
+    [
+     "coat",
+     "caught"
+    ],
+    [
+     "so",
+     "saw"
+    ],
+    [
+     "boat",
+     "bought"
+    ]
+   ]
+  },
+  {
+   "ipa": "aʊ",
+   "type": "diphthong",
+   "name": "ow (now)",
+   "ex": [
+    "now",
+    "house",
+    "out",
+    "brown"
+   ],
+   "how": "Bắt đầu với miệng mở rộng ở \"a\", rồi trượt về /ʊ/, môi tròn dần. Gần giống \"ao\" tiếng Việt.",
+   "vn": "Âm này gần với \"ao\" nên dễ. Lỗi chính là bỏ phụ âm cuối: house đọc thành \"hao\", out đọc thành \"ao\".",
+   "pairs": []
+  },
+  {
+   "ipa": "ɪə",
+   "type": "diphthong",
+   "name": "ear (near)",
+   "ex": [
+    "near",
+    "here",
+    "idea",
+    "beer"
+   ],
+   "how": "Bắt đầu từ /ɪ/ rồi trượt về /ə/, môi và lưỡi thả lỏng dần. Giống \"ia\" trong \"bia\" tiếng Việt. Không đọc âm \"r\".",
+   "vn": "Một số bạn đọc thêm \"r\" cuối hoặc tách thành hai âm tiết. Trong giọng Anh, near chỉ là /nɪə/, một âm tiết.",
+   "pairs": []
+  },
+  {
+   "ipa": "eə",
+   "type": "diphthong",
+   "name": "air (hair)",
+   "ex": [
+    "hair",
+    "care",
+    "where",
+    "there"
+   ],
+   "how": "Bắt đầu từ /e/ rồi trượt nhẹ về /ə/. Trong giọng Anh hiện đại, phần trượt rất nhẹ, nhiều người đọc gần như /ɛː/ dài. Không đọc \"r\".",
+   "vn": "Hay bị đọc thành \"e\" ngắn hoặc thêm \"r\". Nên kéo dài một chút và kết thúc nhẹ: care /keə/, where /weə/.",
+   "pairs": [
+    [
+     "chair",
+     "share"
+    ]
+   ]
+  },
+  {
+   "ipa": "ʊə",
+   "type": "diphthong",
+   "name": "oor (tour)",
+   "ex": [
+    "tour",
+    "pure",
+    "cure",
+    "jury"
+   ],
+   "how": "Bắt đầu từ /ʊ/ rồi trượt về /ə/, giống \"ua\" trong \"vua\". Âm này đang hiếm dần: nhiều người Anh đọc sure, poor bằng /ɔː/.",
+   "vn": "Không phải lỗi lớn. Có thể đọc sure là /ʃɔː/ hoặc /ʃʊə/, cả hai đều được chấp nhận. Quan trọng là không thêm âm \"r\".",
+   "pairs": []
+  },
+  {
+   "ipa": "p",
+   "type": "consonant",
+   "name": "p",
+   "ex": [
+    "pen",
+    "happy",
+    "stop",
+    "paper"
+   ],
+   "how": "Hai môi khép chặt, giữ hơi lại rồi bật mạnh ra. Đầu từ có luồng hơi bật rõ (đặt tờ giấy trước miệng sẽ thấy giấy rung). Dây thanh không rung.",
+   "vn": "Âm \"p\" tiếng Việt không bật hơi, nên \"pen\" nghe như \"ben\". Cuối từ, người Việt thường khép môi mà không bật, khiến cap và cab khó phân biệt; cần giữ nguyên âm trước /p/ ngắn hơn.",
+   "pairs": [
+    [
+     "cap",
+     "cab"
+    ],
+    [
+     "rope",
+     "robe"
+    ],
+    [
+     "cup",
+     "cub"
+    ]
+   ]
+  },
+  {
+   "ipa": "b",
+   "type": "consonant",
+   "name": "b",
+   "ex": [
+    "bed",
+    "baby",
+    "job",
+    "rubber"
+   ],
+   "how": "Hai môi khép lại rồi mở ra, dây thanh rung (đặt tay lên cổ họng sẽ thấy rung). Không bật hơi mạnh như /p/.",
+   "vn": "\"b\" tiếng Việt đầu từ thì ổn. Vấn đề ở cuối từ: job, club, web thường bị nuốt mất hoặc đọc thành /p/. Nguyên âm trước /b/ cuối kéo dài hơn một chút so với trước /p/.",
+   "pairs": [
+    [
+     "cab",
+     "cap"
+    ],
+    [
+     "robe",
+     "rope"
+    ],
+    [
+     "lab",
+     "lap"
+    ]
+   ]
+  },
+  {
+   "ipa": "t",
+   "type": "consonant",
+   "name": "t",
+   "ex": [
+    "tea",
+    "water",
+    "cat",
+    "stop"
+   ],
+   "how": "Đầu lưỡi chạm vào lợi ngay sau răng cửa trên (không phải chạm răng), giữ hơi rồi bật ra. Đầu từ bật hơi rõ. Dây thanh không rung.",
+   "vn": "\"t\" tiếng Việt chạm răng và không bật hơi, nên tea nghe như \"đi\". Cuối từ, người Việt hay bỏ hẳn /t/: cat, light, what bị đọc thành \"ke\", \"lai\", \"oa\".",
+   "pairs": [
+    [
+     "cart",
+     "card"
+    ],
+    [
+     "bet",
+     "bed"
+    ],
+    [
+     "white",
+     "wide"
+    ]
+   ]
+  },
+  {
+   "ipa": "d",
+   "type": "consonant",
+   "name": "d",
+   "ex": [
+    "day",
+    "ladder",
+    "bed",
+    "road"
+   ],
+   "how": "Đầu lưỡi chạm lợi sau răng cửa trên như /t/, nhưng dây thanh rung và không bật hơi mạnh. Khác với \"đ\" tiếng Việt (chạm răng, có hơi hút vào).",
+   "vn": "Đừng đọc /d/ như chữ \"d\" tiếng Việt miền Bắc (âm /z/) hay miền Nam (âm /j/). /d/ gần với \"đ\" nhưng đặt lưỡi lùi lên lợi. Cuối từ như bed, road, need rất hay bị bỏ.",
+   "pairs": [
+    [
+     "bed",
+     "bet"
+    ],
+    [
+     "send",
+     "sent"
+    ],
+    [
+     "seed",
+     "seat"
+    ]
+   ]
+  },
+  {
+   "ipa": "k",
+   "type": "consonant",
+   "name": "k",
+   "ex": [
+    "cat",
+    "key",
+    "back",
+    "school"
+   ],
+   "how": "Phần sau lưỡi nâng lên chạm vòm mềm, giữ hơi rồi bật ra. Đầu từ bật hơi rõ. Dây thanh không rung.",
+   "vn": "Đầu từ cần bật hơi hơn \"c\" tiếng Việt. Cuối từ, người Việt thường đóng âm kiểu \"c\" trong \"các\" mà không bật; vẫn được, nhưng đừng bỏ hẳn. Trong cụm như books, works, /k/ hay bị mất.",
+   "pairs": [
+    [
+     "back",
+     "bag"
+    ],
+    [
+     "pick",
+     "pig"
+    ],
+    [
+     "lock",
+     "log"
+    ]
+   ]
+  },
+  {
+   "ipa": "g",
+   "type": "consonant",
+   "name": "g (hard)",
+   "ex": [
+    "go",
+    "bigger",
+    "bag",
+    "egg"
+   ],
+   "how": "Sau lưỡi chạm vòm mềm giống /k/, nhưng dây thanh rung và không bật hơi mạnh.",
+   "vn": "\"g\" tiếng Việt là âm xát (lưỡi không chạm hẳn), còn /g/ tiếng Anh phải chặn hơi hoàn toàn rồi mới thả. Cuối từ như bag, dog, big thường bị đọc thành /k/ hoặc bỏ mất.",
+   "pairs": [
+    [
+     "bag",
+     "back"
+    ],
+    [
+     "dug",
+     "duck"
+    ],
+    [
+     "frog",
+     "frock"
+    ]
+   ]
+  },
+  {
+   "ipa": "f",
+   "type": "consonant",
+   "name": "f",
+   "ex": [
+    "fish",
+    "coffee",
+    "laugh",
+    "phone"
+   ],
+   "how": "Răng cửa trên chạm nhẹ môi dưới, thổi hơi qua khe hẹp. Dây thanh không rung.",
+   "vn": "Đầu từ thì ổn vì giống \"ph\" tiếng Việt. Cuối từ như life, laugh, half hay bị bỏ. Nhớ cắn nhẹ môi dưới và thổi hơi ở cuối từ.",
+   "pairs": []
+  },
+  {
+   "ipa": "v",
+   "type": "consonant",
+   "name": "v",
+   "ex": [
+    "van",
+    "very",
+    "love",
+    "five"
+   ],
+   "how": "Vị trí giống /f/: răng trên chạm môi dưới, nhưng dây thanh rung. Phải thấy môi dưới hơi rung nhột.",
+   "vn": "Hay bị nhầm với /w/ (very nghe như \"wery\") hoặc với /b/. Cuối từ như five, love, have rất hay bị bỏ hoặc đọc thành /f/.",
+   "pairs": [
+    [
+     "vest",
+     "west"
+    ],
+    [
+     "vine",
+     "wine"
+    ],
+    [
+     "vet",
+     "wet"
+    ]
+   ]
+  },
+  {
+   "ipa": "θ",
+   "type": "consonant",
+   "name": "voiceless th",
+   "ex": [
+    "think",
+    "three",
+    "bath",
+    "month"
+   ],
+   "how": "Đặt đầu lưỡi nhẹ giữa hai hàm răng (hoặc chạm sau răng cửa trên), thổi hơi qua khe giữa lưỡi và răng. Dây thanh không rung. Âm kéo dài được.",
+   "vn": "Tiếng Việt không có âm này. Người Việt thường thay bằng \"th\" tiếng Việt (/tʰ/, think nghe như \"thinh\"), /t/ hoặc /s/ (think nghe như sink). Mẹo: phải thấy đầu lưỡi thò ra trước răng.",
+   "pairs": [
+    [
+     "think",
+     "sink"
+    ],
+    [
+     "three",
+     "tree"
+    ],
+    [
+     "path",
+     "pass"
+    ]
+   ]
+  },
+  {
+   "ipa": "ð",
+   "type": "consonant",
+   "name": "voiced th",
+   "ex": [
+    "this",
+    "they",
+    "mother",
+    "breathe"
+   ],
+   "how": "Vị trí giống /θ/: lưỡi giữa hai răng, nhưng dây thanh rung. Âm này có trong các từ rất phổ biến: the, this, that, they, there.",
+   "vn": "Thường bị đọc thành \"đ\" hoặc \"d\" (they nghe như day) hoặc \"z\". Vì các từ này xuất hiện liên tục, sửa được /ð/ sẽ cải thiện rõ độ tự nhiên.",
+   "pairs": [
+    [
+     "they",
+     "day"
+    ],
+    [
+     "then",
+     "den"
+    ],
+    [
+     "breathe",
+     "breed"
+    ]
+   ]
+  },
+  {
+   "ipa": "s",
+   "type": "consonant",
+   "name": "s",
+   "ex": [
+    "see",
+    "city",
+    "bus",
+    "science"
+   ],
+   "how": "Đầu lưỡi gần lợi sau răng cửa trên, răng gần khép, môi dẹt kéo sang hai bên. Thổi hơi tạo tiếng xì sắc. Dây thanh không rung.",
+   "vn": "Người miền Bắc hay lẫn /s/ với /ʃ/ vì cả \"s\" và \"x\" đều đọc như nhau. Người Việt nói chung hay bỏ /s/ cuối, nhất là đuôi số nhiều. Đừng đọc /s/ cuối thành \"xơ\" có thêm nguyên âm.",
+   "pairs": [
+    [
+     "see",
+     "she"
+    ],
+    [
+     "sip",
+     "ship"
+    ],
+    [
+     "sink",
+     "think"
+    ]
+   ]
+  },
+  {
+   "ipa": "z",
+   "type": "consonant",
+   "name": "z",
+   "ex": [
+    "zoo",
+    "busy",
+    "rose",
+    "easy"
+   ],
+   "how": "Vị trí giống /s/ nhưng dây thanh rung, nghe như tiếng ong vo ve.",
+   "vn": "Đầu từ dễ (giống \"d\" miền Bắc). Cuối từ như rise, eyes, plays người Việt hay đọc thành /s/ hoặc bỏ hẳn. Nguyên âm trước /z/ cuối kéo dài hơn trước /s/.",
+   "pairs": [
+    [
+     "rise",
+     "rice"
+    ],
+    [
+     "eyes",
+     "ice"
+    ],
+    [
+     "buzz",
+     "bus"
+    ]
+   ]
+  },
+  {
+   "ipa": "ʃ",
+   "type": "consonant",
+   "name": "sh",
+   "ex": [
+    "she",
+    "nation",
+    "wash",
+    "sugar"
+   ],
+   "how": "Môi tròn và chu ra trước, lưỡi lùi về sau hơn so với /s/, mặt lưỡi nâng gần vòm cứng. Thổi hơi tạo tiếng \"suỵt\". Dây thanh không rung.",
+   "vn": "Giống \"s\" uốn lưỡi tiếng Việt miền Trung, Nam nhưng phải chu môi. Người miền Bắc hay đọc thành /s/. Lưu ý đuôi -tion, -sion, -cial đều có /ʃ/.",
+   "pairs": [
+    [
+     "she",
+     "see"
+    ],
+    [
+     "ship",
+     "chip"
+    ],
+    [
+     "shell",
+     "sell"
+    ]
+   ]
+  },
+  {
+   "ipa": "ʒ",
+   "type": "consonant",
+   "name": "zh (measure)",
+   "ex": [
+    "measure",
+    "vision",
+    "usual",
+    "garage"
+   ],
+   "how": "Vị trí giống /ʃ/: môi chu, lưỡi lùi, nhưng dây thanh rung. Âm này ít gặp, chủ yếu ở giữa từ (-sure, -sion).",
+   "vn": "Thường bị đọc thành /z/ hoặc /dʒ/. Trong decision, television, usually, hãy giữ môi chu như /ʃ/ và cho dây thanh rung.",
+   "pairs": []
+  },
+  {
+   "ipa": "h",
+   "type": "consonant",
+   "name": "h",
+   "ex": [
+    "hat",
+    "who",
+    "ahead",
+    "whole"
+   ],
+   "how": "Miệng mở sẵn ở vị trí nguyên âm sau, chỉ đẩy một luồng hơi nhẹ ra từ cổ họng. Không cọ xát ở lưỡi.",
+   "vn": "Gần giống \"h\" tiếng Việt nên dễ. Cần nhớ các từ có h câm: hour, honest, honour. Không bật \"h\" quá mạnh kiểu \"kh\".",
+   "pairs": []
+  },
+  {
+   "ipa": "tʃ",
+   "type": "consonant",
+   "name": "ch",
+   "ex": [
+    "chair",
+    "teacher",
+    "watch",
+    "nature"
+   ],
+   "how": "Bắt đầu như /t/ (lưỡi chạm lợi), rồi thả ra thành /ʃ/ với môi chu. Âm nổ rồi xát rất nhanh. Dây thanh không rung.",
+   "vn": "Khác với \"ch\" tiếng Việt (lưỡi phẳng, không chu môi). Cuối từ như watch, much, teach hay bị đọc thành \"t\" hoặc /ʃ/ (watch nghe như wash).",
+   "pairs": [
+    [
+     "chip",
+     "ship"
+    ],
+    [
+     "watch",
+     "wash"
+    ],
+    [
+     "catch",
+     "cash"
+    ]
+   ]
+  },
+  {
+   "ipa": "dʒ",
+   "type": "consonant",
+   "name": "j",
+   "ex": [
+    "jam",
+    "age",
+    "bridge",
+    "general"
+   ],
+   "how": "Bắt đầu như /d/ rồi thả thành /ʒ/, môi chu ra trước, dây thanh rung. Giống /tʃ/ nhưng có rung.",
+   "vn": "Người Việt hay đọc thành \"d\" miền Bắc (/z/) hoặc \"gi\". Cuối từ như page, age, bridge thường bị bỏ hoặc đọc thành /z/, khiến page nghe như pays.",
+   "pairs": [
+    [
+     "page",
+     "pays"
+    ],
+    [
+     "wage",
+     "ways"
+    ],
+    [
+     "jest",
+     "zest"
+    ]
+   ]
+  },
+  {
+   "ipa": "m",
+   "type": "consonant",
+   "name": "m",
+   "ex": [
+    "man",
+    "summer",
+    "home",
+    "comb"
+   ],
+   "how": "Hai môi khép lại, hơi đi ra qua mũi, dây thanh rung.",
+   "vn": "Giống \"m\" tiếng Việt. Ở cuối từ phải khép môi rõ: home, time, room. Lưu ý chữ b câm trong comb, climb, lamb.",
+   "pairs": []
+  },
+  {
+   "ipa": "n",
+   "type": "consonant",
+   "name": "n",
+   "ex": [
+    "no",
+    "dinner",
+    "sun",
+    "know"
+   ],
+   "how": "Đầu lưỡi chạm lợi sau răng cửa trên, hơi đi ra qua mũi, dây thanh rung.",
+   "vn": "Một số vùng ở Việt Nam lẫn \"n\" với \"l\", nên night và light nghe giống nhau. Cuối từ, đừng biến /n/ thành /ŋ/: sun khác sung.",
+   "pairs": [
+    [
+     "night",
+     "light"
+    ],
+    [
+     "nine",
+     "line"
+    ],
+    [
+     "sin",
+     "sing"
+    ]
+   ]
+  },
+  {
+   "ipa": "ŋ",
+   "type": "consonant",
+   "name": "ng",
+   "ex": [
+    "sing",
+    "thing",
+    "think",
+    "long"
+   ],
+   "how": "Sau lưỡi chạm vòm mềm như /g/, hơi đi ra qua mũi. Trong sing không có âm /g/ phía sau. Trước /k/ (think, bank), chữ \"n\" cũng đọc là /ŋ/.",
+   "vn": "Giống \"ng\" cuối tiếng Việt nên dễ. Lỗi thường gặp là đọc -ing thành /ɪn/ hoặc lẫn sin và sing. Đuôi -ing nên đọc /ɪŋ/ rõ ràng.",
+   "pairs": [
+    [
+     "sing",
+     "sin"
+    ],
+    [
+     "thing",
+     "thin"
+    ],
+    [
+     "wing",
+     "win"
+    ]
+   ]
+  },
+  {
+   "ipa": "l",
+   "type": "consonant",
+   "name": "l",
+   "ex": [
+    "light",
+    "follow",
+    "feel",
+    "milk"
+   ],
+   "how": "Đầu lưỡi chạm lợi sau răng cửa trên, hơi đi ra hai bên lưỡi. Ở cuối từ hoặc trước phụ âm (feel, milk), lưỡi phía sau nâng lên tạo âm \"l tối\", nghe hơi giống \"âu\" hoặc \"ô\".",
+   "vn": "Người Việt thường bỏ /l/ cuối vì tiếng Việt không có \"l\" cuối: feel đọc thành \"phiu\", school thành \"xơ-cun\". Ngoài ra một số người lẫn /l/ với /n/.",
+   "pairs": [
+    [
+     "light",
+     "night"
+    ],
+    [
+     "lot",
+     "not"
+    ],
+    [
+     "fly",
+     "fry"
+    ]
+   ]
+  },
+  {
+   "ipa": "r",
+   "type": "consonant",
+   "name": "r",
+   "ex": [
+    "red",
+    "sorry",
+    "wrong",
+    "very"
+   ],
+   "how": "Cong đầu lưỡi lên phía sau lợi nhưng không chạm, môi hơi tròn. Không rung lưỡi như \"r\" tiếng Việt. Giọng Anh chỉ đọc /r/ khi đứng trước nguyên âm: red, very, but car /kɑː/.",
+   "vn": "Người Việt hay rung lưỡi hoặc đọc /r/ thành /z/ (miền Bắc), /l/. Khi theo giọng Anh, không đọc \"r\" sau nguyên âm (car, more, teacher), trừ khi nối sang từ bắt đầu bằng nguyên âm (far away).",
+   "pairs": [
+    [
+     "right",
+     "light"
+    ],
+    [
+     "wrong",
+     "long"
+    ],
+    [
+     "crowd",
+     "cloud"
+    ]
+   ]
+  },
+  {
+   "ipa": "w",
+   "type": "consonant",
+   "name": "w",
+   "ex": [
+    "wet",
+    "one",
+    "quick",
+    "away"
+   ],
+   "how": "Chu tròn môi chặt như đọc \"u\", rồi mở nhanh sang nguyên âm sau. Răng không chạm môi.",
+   "vn": "Gần giống \"qu\" hoặc \"oa\" tiếng Việt. Dễ lẫn với /v/ (west nghe như vest). Nhớ: /w/ thì môi tròn, /v/ thì răng chạm môi.",
+   "pairs": [
+    [
+     "west",
+     "vest"
+    ],
+    [
+     "wine",
+     "vine"
+    ],
+    [
+     "wet",
+     "vet"
+    ]
+   ]
+  },
+  {
+   "ipa": "j",
+   "type": "consonant",
+   "name": "y (yes)",
+   "ex": [
+    "yes",
+    "you",
+    "use",
+    "beautiful"
+   ],
+   "how": "Mặt lưỡi nâng gần vòm cứng như đọc \"i\", rồi lướt nhanh sang nguyên âm sau. Đây là âm \"y\", không phải \"j\" tiếng Việt.",
+   "vn": "Giống \"d\" miền Nam hoặc \"i\" đầu vần tiếng Việt. Chú ý /j/ ẩn trong use, music, student, new (giọng Anh /njuː/). Đừng đọc yes thành \"dét\".",
+   "pairs": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "s_es",
+   "title": "Cách đọc đuôi -s / -es",
+   "body": "Đuôi -s, -es (số nhiều, động từ ngôi thứ ba, sở hữu 's) có ba cách đọc, phụ thuộc vào âm cuối của từ gốc (âm, không phải chữ cái).\n\n1. /ɪz/ khi từ gốc kết thúc bằng âm xuýt /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/. Đuôi thêm một âm tiết: buses, roses, washes, watches, pages.\n2. /s/ khi từ gốc kết thúc bằng phụ âm không rung /p/, /t/, /k/, /f/, /θ/: cups, cats, books, laughs, months.\n3. /z/ trong các trường hợp còn lại, tức sau nguyên âm và phụ âm rung: plays, dogs, cars, rooms, lives.\n\nNgười Việt hay bỏ hẳn đuôi này. Trong IELTS Speaking, thiếu đuôi -s khiến giám khảo nghe như lỗi ngữ pháp (thiếu số nhiều, sai chia động từ), ảnh hưởng cả điểm phát âm lẫn điểm ngữ pháp. Đừng đọc đuôi thành \"xơ\" có thêm nguyên âm.",
+   "examples": [
+    [
+     "buses",
+     "/ˈbʌsɪz/"
+    ],
+    [
+     "watches",
+     "/ˈwɒtʃɪz/"
+    ],
+    [
+     "pages",
+     "/ˈpeɪdʒɪz/"
+    ],
+    [
+     "books",
+     "/bʊks/"
+    ],
+    [
+     "months",
+     "/mʌnθs/"
+    ],
+    [
+     "laughs",
+     "/lɑːfs/ (gh đọc /f/)"
+    ],
+    [
+     "plays",
+     "/pleɪz/"
+    ],
+    [
+     "dogs",
+     "/dɒɡz/"
+    ],
+    [
+     "lives",
+     "/lɪvz/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Đuôi -s trong \"stops\" đọc là gì?",
+     "o": [
+      "/s/",
+      "/z/",
+      "/ɪz/"
+     ],
+     "a": 0,
+     "w": "\"stop\" kết thúc bằng /p/ không rung nên đuôi đọc /s/."
+    },
+    {
+     "q": "Từ nào có đuôi đọc là /ɪz/?",
+     "o": [
+      "changes",
+      "friends",
+      "maps",
+      "shows"
+     ],
+     "a": 0,
+     "w": "\"change\" kết thúc bằng âm /dʒ/, là âm xuýt, nên thêm /ɪz/: /ˈtʃeɪndʒɪz/."
+    },
+    {
+     "q": "Đuôi -s trong \"cities\" đọc là gì?",
+     "o": [
+      "/s/",
+      "/z/",
+      "/ɪz/"
+     ],
+     "a": 1,
+     "w": "\"city\" kết thúc bằng nguyên âm /i/ nên đuôi đọc /z/: /ˈsɪtiz/."
+    }
+   ]
+  },
+  {
+   "id": "ed",
+   "title": "Cách đọc đuôi -ed",
+   "body": "Đuôi -ed của động từ quá khứ và phân từ có ba cách đọc, dựa vào âm cuối của động từ gốc.\n\n1. /ɪd/ khi động từ kết thúc bằng âm /t/ hoặc /d/. Đuôi thêm một âm tiết: wanted, needed, decided.\n2. /t/ khi động từ kết thúc bằng phụ âm không rung /p/, /k/, /f/, /s/, /ʃ/, /tʃ/, /θ/: stopped, worked, laughed, missed, washed, watched.\n3. /d/ sau nguyên âm và các phụ âm rung còn lại: played, cleaned, lived, changed.\n\nLỗi thường gặp của người Việt: đọc mọi đuôi -ed thành \"ed\" (worked thành \"wơ-kéd\"), hoặc bỏ hẳn đuôi, khiến câu kể quá khứ nghe như hiện tại. Với /t/ và /d/, đuôi không tạo thêm âm tiết: worked chỉ có một âm tiết /wɜːkt/.\n\nMột số tính từ đuôi -ed đọc /ɪd/ ngoại lệ: naked, wicked, beloved, learned (uyên bác), aged (già).",
+   "examples": [
+    [
+     "wanted",
+     "/ˈwɒntɪd/"
+    ],
+    [
+     "decided",
+     "/dɪˈsaɪdɪd/"
+    ],
+    [
+     "worked",
+     "/wɜːkt/"
+    ],
+    [
+     "watched",
+     "/wɒtʃt/"
+    ],
+    [
+     "laughed",
+     "/lɑːft/"
+    ],
+    [
+     "played",
+     "/pleɪd/"
+    ],
+    [
+     "changed",
+     "/tʃeɪndʒd/"
+    ],
+    [
+     "naked",
+     "/ˈneɪkɪd/ (tính từ, ngoại lệ)"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Đuôi -ed trong \"finished\" đọc là gì?",
+     "o": [
+      "/t/",
+      "/d/",
+      "/ɪd/"
+     ],
+     "a": 0,
+     "w": "\"finish\" kết thúc bằng /ʃ/ không rung nên -ed đọc /t/: /ˈfɪnɪʃt/."
+    },
+    {
+     "q": "Từ nào có đuôi -ed đọc là /ɪd/?",
+     "o": [
+      "started",
+      "opened",
+      "helped",
+      "moved"
+     ],
+     "a": 0,
+     "w": "\"start\" kết thúc bằng /t/ nên thêm /ɪd/: /ˈstɑːtɪd/."
+    },
+    {
+     "q": "\"improved\" có mấy âm tiết?",
+     "o": [
+      "2",
+      "3",
+      "4"
+     ],
+     "a": 0,
+     "w": "/ɪmˈpruːvd/ chỉ có 2 âm tiết. Đuôi -ed sau /v/ đọc /d/ và không tạo âm tiết mới."
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "title": "Phụ âm cuối: không được bỏ",
+   "body": "Tiếng Việt chỉ có vài phụ âm cuối (c, ch, m, n, ng, nh, p, t) và chúng đều không bật hơi. Tiếng Anh thì hầu hết phụ âm đều có thể đứng cuối, và phụ âm cuối thường mang nghĩa: bỏ /t/ trong \"light\" thì thành \"lie\", bỏ /d/ trong \"need\" thì thành \"knee\".\n\nCách luyện:\n1. Luôn đọc trọn phụ âm cuối, nhất là /s/, /z/, /t/, /d/, /l/, /v/, /dʒ/, /tʃ/, /k/.\n2. Với /p/, /t/, /k/ cuối, có thể chỉ khép miệng mà không bật mạnh, nhưng phải dừng hơi rõ.\n3. Phân biệt phụ âm cuối rung và không rung bằng độ dài nguyên âm phía trước: nguyên âm trước âm rung dài hơn (bed dài hơn bet, rise dài hơn rice).\n4. Không thêm nguyên âm \"ơ\" sau phụ âm cuối (book không phải \"bú-cơ\").\n5. Khi từ sau bắt đầu bằng nguyên âm, nối phụ âm cuối sang: \"lived in\" thành /lɪv dɪn/, rất dễ nghe.",
+   "examples": [
+    [
+     "light vs lie",
+     "/laɪt/ - /laɪ/"
+    ],
+    [
+     "need vs knee",
+     "/niːd/ - /niː/"
+    ],
+    [
+     "bed vs bet",
+     "/bed/ (nguyên âm dài hơn) - /bet/"
+    ],
+    [
+     "rise vs rice",
+     "/raɪz/ - /raɪs/"
+    ],
+    [
+     "school",
+     "/skuːl/ (đọc rõ /l/ cuối)"
+    ],
+    [
+     "five",
+     "/faɪv/ (đọc rõ /v/ cuối)"
+    ],
+    [
+     "page",
+     "/peɪdʒ/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Bỏ phụ âm cuối của \"write\" sẽ thành từ nào?",
+     "o": [
+      "why",
+      "white",
+      "ride",
+      "rye"
+     ],
+     "a": 3,
+     "w": "write /raɪt/ bỏ /t/ còn /raɪ/, đó là cách đọc của \"rye\" (lúa mạch đen)."
+    },
+    {
+     "q": "Trong cặp \"seat - seed\", nguyên âm của từ nào dài hơn?",
+     "o": [
+      "seat",
+      "seed",
+      "bằng nhau"
+     ],
+     "a": 1,
+     "w": "Nguyên âm đứng trước phụ âm rung /d/ được kéo dài hơn trước phụ âm không rung /t/."
+    },
+    {
+     "q": "Cách đọc nào của \"book\" là đúng?",
+     "o": [
+      "/bʊk/ dừng gọn ở /k/",
+      "/bʊkə/ thêm \"ơ\" cuối",
+      "/bʊ/ bỏ /k/"
+     ],
+     "a": 0,
+     "w": "Phụ âm cuối phải đọc trọn nhưng không thêm nguyên âm phía sau."
+    }
+   ]
+  },
+  {
+   "id": "clusters",
+   "title": "Cụm phụ âm",
+   "body": "Tiếng Anh có nhiều cụm phụ âm liền nhau ở đầu từ (str-, spl-, scr-) và cuối từ (-sks, -ksts, -ndz, -lpt). Tiếng Việt không có cụm phụ âm nên người Việt thường làm một trong ba cách sai: bỏ bớt phụ âm (asked thành \"át\"), chèn nguyên âm vào giữa (street thành \"xơ-tơ-rít\"), hoặc bỏ cả cụm cuối.\n\nCách luyện:\n1. Đọc cụm phụ âm liền một hơi, không chèn \"ơ\". Luyện chậm: s - st - str - street.\n2. Với cụm cuối, đọc từ gốc trước rồi thêm dần: ask - asked /ɑːskt/; text - texts /teksts/.\n3. Trong nói nhanh, người bản xứ có thể lược /t/ hoặc /d/ ở giữa cụm ba phụ âm (next day -> /neks deɪ/, months -> /mʌns/), nhưng người học nên đọc đủ trước khi học cách lược.",
+   "examples": [
+    [
+     "street",
+     "/striːt/"
+    ],
+    [
+     "splash",
+     "/splæʃ/"
+    ],
+    [
+     "screen",
+     "/skriːn/"
+    ],
+    [
+     "asked",
+     "/ɑːskt/"
+    ],
+    [
+     "texts",
+     "/teksts/"
+    ],
+    [
+     "sixths",
+     "/sɪksθs/"
+    ],
+    [
+     "helped",
+     "/helpt/"
+    ],
+    [
+     "friends",
+     "/frendz/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Cách đọc nào của \"spring\" là đúng?",
+     "o": [
+      "/sprɪŋ/",
+      "/səprɪŋ/",
+      "/sɪprɪŋ/"
+     ],
+     "a": 0,
+     "w": "Cụm /spr/ đọc liền một hơi, không chèn nguyên âm."
+    },
+    {
+     "q": "\"tasks\" kết thúc bằng cụm phụ âm nào?",
+     "o": [
+      "/sks/",
+      "/ks/",
+      "/s/"
+     ],
+     "a": 0,
+     "w": "task /tɑːsk/ thêm /s/ thành /tɑːsks/, có ba phụ âm cuối."
+    },
+    {
+     "q": "Lỗi nào là chèn nguyên âm vào cụm phụ âm?",
+     "o": [
+      "đọc \"class\" thành \"cơ-lát\"",
+      "đọc \"class\" thành \"cla\"",
+      "đọc \"class\" là /klɑːs/"
+     ],
+     "a": 0,
+     "w": "Chèn \"ơ\" giữa /k/ và /l/ tạo thêm âm tiết sai. Phương án 2 là lỗi bỏ phụ âm cuối."
+    }
+   ]
+  },
+  {
+   "id": "th",
+   "title": "Âm /θ/ và /ð/",
+   "body": "Chữ \"th\" có hai cách đọc, cả hai đều không có trong tiếng Việt.\n\n/θ/ (không rung): đặt đầu lưỡi nhẹ giữa hai hàm răng, thổi hơi. Có trong think, three, health, month, both.\n/ð/ (rung): cùng vị trí nhưng dây thanh rung. Có trong the, this, that, they, mother, with (thường đọc /wɪð/).\n\nNgười Việt hay thay /θ/ bằng \"th\" tiếng Việt, /t/ hoặc /s/, và thay /ð/ bằng \"đ\", /d/ hoặc /z/. Kết quả: think nghe như sink, three như tree, they như day.\n\nQuy luật gợi ý: các từ chức năng (the, this, that, these, those, than, then, there, though) dùng /ð/. Phần lớn danh từ, tính từ, động từ mang nghĩa (think, thing, theory, thank, thick) dùng /θ/. Danh từ dùng /θ/ nhưng động từ tương ứng dùng /ð/: bath /bɑːθ/ - bathe /beɪð/, breath /breθ/ - breathe /briːð/.",
+   "examples": [
+    [
+     "think",
+     "/θɪŋk/"
+    ],
+    [
+     "three",
+     "/θriː/"
+    ],
+    [
+     "health",
+     "/helθ/"
+    ],
+    [
+     "this",
+     "/ðɪs/"
+    ],
+    [
+     "mother",
+     "/ˈmʌðə/"
+    ],
+    [
+     "breath (n)",
+     "/breθ/"
+    ],
+    [
+     "breathe (v)",
+     "/briːð/"
+    ],
+    [
+     "clothes",
+     "/kləʊðz/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Âm \"th\" trong \"weather\" là gì?",
+     "o": [
+      "/θ/",
+      "/ð/",
+      "/t/"
+     ],
+     "a": 1,
+     "w": "weather /ˈweðə/ dùng /ð/ có rung."
+    },
+    {
+     "q": "Từ nào dùng /θ/?",
+     "o": [
+      "method",
+      "these",
+      "father",
+      "without"
+     ],
+     "a": 0,
+     "w": "method /ˈmeθəd/ dùng /θ/. Ba từ còn lại đều dùng /ð/."
+    },
+    {
+     "q": "Vị trí đúng của lưỡi khi đọc /θ/ là gì?",
+     "o": [
+      "Đầu lưỡi giữa hai hàm răng",
+      "Đầu lưỡi chạm lợi trên",
+      "Sau lưỡi chạm vòm mềm"
+     ],
+     "a": 0,
+     "w": "Lưỡi đặt nhẹ giữa hai răng (hoặc sát sau răng cửa trên) rồi thổi hơi."
+    }
+   ]
+  },
+  {
+   "id": "sh_s",
+   "title": "Phân biệt /ʃ/ và /s/",
+   "body": "/s/: môi dẹt, kéo sang hai bên, đầu lưỡi gần lợi trên, tiếng xì sắc và cao.\n/ʃ/: môi tròn chu ra trước, lưỡi lùi về sau, tiếng \"suỵt\" trầm hơn.\n\nNgười miền Bắc thường đọc \"s\" và \"x\" như nhau nên dễ lẫn: she thành see, ship thành sip, social thành \"sâu-xồ\". Mẹo kiểm tra: soi gương, khi đọc /ʃ/ môi phải chu như đang nói \"suỵt\".\n\nCác chữ cái thường cho âm /ʃ/: sh (ship), -tion (nation), -sion sau phụ âm (mission, tension), -cial, -cian (social, musician), ch trong một số từ gốc Pháp (machine, chef), su trong sure, sugar.",
+   "examples": [
+    [
+     "see - she",
+     "/siː/ - /ʃiː/"
+    ],
+    [
+     "save - shave",
+     "/seɪv/ - /ʃeɪv/"
+    ],
+    [
+     "nation",
+     "/ˈneɪʃn/"
+    ],
+    [
+     "social",
+     "/ˈsəʊʃl/"
+    ],
+    [
+     "machine",
+     "/məˈʃiːn/"
+    ],
+    [
+     "sure",
+     "/ʃɔː/ hoặc /ʃʊə/"
+    ],
+    [
+     "sustainable",
+     "/səˈsteɪnəbl/ (chỉ có /s/)"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Từ nào có âm /ʃ/?",
+     "o": [
+      "special",
+      "system",
+      "sector",
+      "basic"
+     ],
+     "a": 0,
+     "w": "special /ˈspeʃl/: -cial đọc /ʃl/."
+    },
+    {
+     "q": "Khi đọc /ʃ/, môi thế nào?",
+     "o": [
+      "Tròn, chu ra trước",
+      "Dẹt, kéo sang hai bên",
+      "Khép chặt"
+     ],
+     "a": 0,
+     "w": "/ʃ/ cần môi tròn chu ra trước, /s/ thì môi dẹt."
+    },
+    {
+     "q": "\"pressure\" chứa âm nào ở giữa?",
+     "o": [
+      "/ʃ/",
+      "/s/",
+      "/z/"
+     ],
+     "a": 0,
+     "w": "pressure /ˈpreʃə/: chữ \"ss\" trước \"ure\" đọc /ʃ/."
+    }
+   ]
+  },
+  {
+   "id": "l_n",
+   "title": "Phân biệt /l/ và /n/",
+   "body": "Cả /l/ và /n/ đều đặt đầu lưỡi ở lợi sau răng cửa trên. Khác biệt nằm ở đường đi của hơi:\n/n/: hơi đi qua mũi. Bịt mũi lại sẽ không đọc được.\n/l/: hơi đi qua hai bên lưỡi, không qua mũi. Bịt mũi vẫn đọc bình thường.\n\nNgười ở một số vùng phía Bắc lẫn hai âm này trong tiếng Việt, và mang lỗi sang tiếng Anh: light nghe như night, low như know.\n\nVấn đề lớn thứ hai là /l/ cuối từ. Tiếng Việt không có \"l\" cuối, nên feel, school, will, people thường bị đọc thành \"phiu\", \"xờ-cu\", \"uy\", \"pi-pồ\". Ở cuối từ, /l/ là \"l tối\": đầu lưỡi vẫn chạm lợi, phần sau lưỡi nâng lên. Hãy để đầu lưỡi chạm lên lợi ở cuối từ, đừng chỉ tròn môi.",
+   "examples": [
+    [
+     "light - night",
+     "/laɪt/ - /naɪt/"
+    ],
+    [
+     "collect - connect",
+     "/kəˈlekt/ - /kəˈnekt/"
+    ],
+    [
+     "feel",
+     "/fiːl/"
+    ],
+    [
+     "school",
+     "/skuːl/"
+    ],
+    [
+     "people",
+     "/ˈpiːpl/"
+    ],
+    [
+     "milk",
+     "/mɪlk/"
+    ],
+    [
+     "little",
+     "/ˈlɪtl/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Cách tự kiểm tra /n/ hay /l/ nhanh nhất là gì?",
+     "o": [
+      "Bịt mũi khi đọc",
+      "Đặt tay lên cổ họng",
+      "Soi gương xem môi"
+     ],
+     "a": 0,
+     "w": "/n/ là âm mũi nên bịt mũi sẽ chặn âm. /l/ không bị ảnh hưởng."
+    },
+    {
+     "q": "Lỗi phổ biến khi đọc \"hospital\" là gì?",
+     "o": [
+      "Bỏ /l/ cuối",
+      "Thêm /n/ cuối",
+      "Đọc /h/ câm"
+     ],
+     "a": 0,
+     "w": "/ˈhɒspɪtl/ kết thúc bằng /l/, người Việt hay bỏ âm này."
+    },
+    {
+     "q": "Ở cuối \"feel\", đầu lưỡi làm gì?",
+     "o": [
+      "Chạm lợi sau răng cửa trên",
+      "Đặt giữa hai răng",
+      "Không chạm đâu"
+     ],
+     "a": 0,
+     "w": "/l/ cuối vẫn cần đầu lưỡi chạm lợi, đồng thời sau lưỡi nâng lên tạo âm \"l tối\"."
+    }
+   ]
+  },
+  {
+   "id": "stress_suffix",
+   "title": "Trọng âm theo hậu tố",
+   "body": "Mỗi từ có từ hai âm tiết trở lên đều có một âm tiết nhấn mạnh hơn (đọc to, dài, cao hơn). Nhấn sai trọng âm khiến người nghe khó nhận ra từ, kể cả khi từng âm đều đúng. Hậu tố là manh mối tốt nhất.\n\n1. Nhấn ngay trước hậu tố: -tion, -sion, -ic, -ical, -ity, -ian, -ious, -ial, -ify. Ví dụ: eduˈcation, ecoˈnomic, uniˈversity, poliˈtician.\n2. Nhấn vào chính hậu tố: -ee, -eer, -ese, -ique, -oo, -ette. Ví dụ: emploˈyee, engiˈneer, Vietnaˈmese, uˈnique.\n3. Nhấn cách hậu tố hai âm tiết (âm tiết thứ ba tính từ cuối): -ate, -ise/-ize, -graphy, -logy. Ví dụ: comˈmunicate, ˈorganise, phoˈtography, biˈology.\n4. Hậu tố không làm đổi trọng âm: -ment, -ness, -ful, -less, -er, -ly, -able. Ví dụ: deˈvelop -> deˈvelopment, ˈcare -> ˈcareful.\n\nChú ý cả họ từ: ˈphotograph, phoˈtographer, photoˈgraphic. Trọng âm di chuyển theo hậu tố.",
+   "examples": [
+    [
+     "education",
+     "/ˌedʒuˈkeɪʃn/"
+    ],
+    [
+     "economic",
+     "/ˌiːkəˈnɒmɪk/"
+    ],
+    [
+     "university",
+     "/ˌjuːnɪˈvɜːsəti/"
+    ],
+    [
+     "employee",
+     "/ɪmˈplɔɪiː/ hoặc /ˌemplɔɪˈiː/"
+    ],
+    [
+     "Vietnamese",
+     "/ˌvjetnəˈmiːz/"
+    ],
+    [
+     "communicate",
+     "/kəˈmjuːnɪkeɪt/"
+    ],
+    [
+     "photography",
+     "/fəˈtɒɡrəfi/"
+    ],
+    [
+     "development",
+     "/dɪˈveləpmənt/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Trọng âm của \"opportunity\" rơi vào âm tiết nào?",
+     "o": [
+      "op",
+      "por",
+      "tu",
+      "ni"
+     ],
+     "a": 2,
+     "w": "Hậu tố -ity làm trọng âm rơi ngay trước nó: oppor-TU-nity /ˌɒpəˈtjuːnəti/."
+    },
+    {
+     "q": "Từ nào nhấn vào âm tiết cuối?",
+     "o": [
+      "refugee",
+      "manager",
+      "happiness",
+      "comfortable"
+     ],
+     "a": 0,
+     "w": "-ee là hậu tố nhận trọng âm: refuˈgee."
+    },
+    {
+     "q": "Trọng âm của \"technology\" là gì?",
+     "o": [
+      "TECH-no-lo-gy",
+      "tech-NO-lo-gy",
+      "tech-no-LO-gy"
+     ],
+     "a": 1,
+     "w": "-logy làm trọng âm rơi vào âm tiết thứ ba tính từ cuối: /tekˈnɒlədʒi/."
+    }
+   ]
+  },
+  {
+   "id": "stress_nv",
+   "title": "Trọng âm danh từ và động từ (record)",
+   "body": "Nhiều từ hai âm tiết vừa là danh từ vừa là động từ, viết giống nhau nhưng nhấn khác nhau:\n- Danh từ (và tính từ) thường nhấn âm tiết đầu: a ˈrecord, an ˈincrease, a ˈpresent.\n- Động từ thường nhấn âm tiết sau: to reˈcord, to inˈcrease, to preˈsent.\n\nKhi trọng âm chuyển đi, nguyên âm ở âm tiết không nhấn thường yếu thành /ə/ hoặc /ɪ/: ˈrecord /ˈrekɔːd/ (n) nhưng reˈcord /rɪˈkɔːd/ (v).\n\nNhững cặp hay gặp trong IELTS: record, increase, decrease, export, import, present, produce, progress, object, project, permit, conflict, contrast, protest, desert. Nhóm này rất hữu ích khi mô tả biểu đồ trong Speaking hoặc khi nói về xu hướng.\n\nNgoại lệ: một số từ giữ nguyên trọng âm cho cả hai từ loại, như reˈport, reˈply, ˈpicture, ˈpromise.",
+   "examples": [
+    [
+     "record (n)",
+     "/ˈrekɔːd/"
+    ],
+    [
+     "record (v)",
+     "/rɪˈkɔːd/"
+    ],
+    [
+     "increase (n)",
+     "/ˈɪŋkriːs/"
+    ],
+    [
+     "increase (v)",
+     "/ɪnˈkriːs/"
+    ],
+    [
+     "present (n/adj)",
+     "/ˈpreznt/"
+    ],
+    [
+     "present (v)",
+     "/prɪˈzent/"
+    ],
+    [
+     "export (n)",
+     "/ˈekspɔːt/"
+    ],
+    [
+     "export (v)",
+     "/ɪkˈspɔːt/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Trong câu \"Prices may increase next year\", increase nhấn âm tiết nào?",
+     "o": [
+      "IN-crease",
+      "in-CREASE"
+     ],
+     "a": 1,
+     "w": "increase ở đây là động từ nên nhấn âm tiết sau: /ɪnˈkriːs/."
+    },
+    {
+     "q": "Trong câu \"There was a sharp decrease in sales\", decrease đọc thế nào?",
+     "o": [
+      "/ˈdiːkriːs/",
+      "/dɪˈkriːs/"
+     ],
+     "a": 0,
+     "w": "Sau \"a sharp\" là danh từ, nhấn âm tiết đầu."
+    },
+    {
+     "q": "Từ nào giữ trọng âm ở âm tiết sau cho cả danh từ và động từ?",
+     "o": [
+      "report",
+      "project",
+      "object",
+      "permit"
+     ],
+     "a": 0,
+     "w": "report luôn nhấn reˈport. Ba từ còn lại đổi trọng âm theo từ loại."
+    }
+   ]
+  },
+  {
+   "id": "weak",
+   "title": "Trọng âm câu và dạng yếu (schwa)",
+   "body": "Tiếng Anh là ngôn ngữ có nhịp theo trọng âm: các từ mang nghĩa (danh từ, động từ chính, tính từ, trạng từ, từ phủ định, từ để hỏi) được nhấn rõ, còn các từ chức năng (mạo từ, giới từ, đại từ, trợ động từ, liên từ) đọc nhanh, nhẹ, thường rút gọn thành dạng yếu với nguyên âm /ə/.\n\nTiếng Việt thì mỗi âm tiết đều đọc rõ như nhau, nên người Việt nói tiếng Anh thường nghe đều đều, \"từng chữ một\". Học dạng yếu giúp bạn nói trôi chảy hơn và nghe hiểu Listening tốt hơn.\n\nDạng yếu thường gặp:\na /ə/, an /ən/, the /ðə/, and /ən/, but /bət/, of /əv/, to /tə/, for /fə/, from /frəm/, at /ət/, can /kən/, was /wəz/, were /wə/, have /əv/, some /səm/, them /ðəm/.\n\nLưu ý: dùng dạng mạnh khi từ đứng cuối câu (What are you looking at? /æt/) hoặc khi muốn nhấn mạnh (I CAN swim).",
+   "examples": [
+    [
+     "a cup of tea",
+     "/ə ˈkʌp əv ˈtiː/"
+    ],
+    [
+     "I want to go",
+     "/aɪ ˈwɒnt tə ˈɡəʊ/"
+    ],
+    [
+     "fish and chips",
+     "/ˈfɪʃ ən ˈtʃɪps/"
+    ],
+    [
+     "I can swim",
+     "/aɪ kən ˈswɪm/"
+    ],
+    [
+     "Yes, I can",
+     "/ˈjes aɪ ˈkæn/ (dạng mạnh ở cuối câu)"
+    ],
+    [
+     "It was raining",
+     "/ɪt wəz ˈreɪnɪŋ/"
+    ],
+    [
+     "What are you looking at?",
+     "/æt/ dạng mạnh vì đứng cuối"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Trong \"I'd like a glass of water\", từ nào thường không được nhấn?",
+     "o": [
+      "of",
+      "like",
+      "glass",
+      "water"
+     ],
+     "a": 0,
+     "w": "\"of\" là giới từ, đọc yếu /əv/ hoặc chỉ /ə/. Các từ còn lại mang nghĩa nên được nhấn."
+    },
+    {
+     "q": "Dạng yếu của \"for\" trong \"This is for you\" là gì?",
+     "o": [
+      "/fə/",
+      "/fɔː/",
+      "/fɔːr/"
+     ],
+     "a": 0,
+     "w": "\"for\" ở giữa câu và không nhấn đọc /fə/."
+    },
+    {
+     "q": "Khi nào \"can\" đọc dạng mạnh /kæn/?",
+     "o": [
+      "Đứng cuối câu như \"Yes, I can\"",
+      "Đứng trước động từ như \"I can swim\"",
+      "Luôn luôn"
+     ],
+     "a": 0,
+     "w": "Ở cuối câu hoặc khi nhấn mạnh, trợ động từ dùng dạng mạnh."
+    }
+   ]
+  },
+  {
+   "id": "linking",
+   "title": "Nối âm",
+   "body": "Người bản xứ không dừng giữa các từ trong một cụm ý mà nối liền chúng. Đây là lý do Listening khó với người Việt, vì tiếng Việt dừng rõ sau mỗi âm tiết.\n\n1. Phụ âm + nguyên âm: phụ âm cuối của từ trước nối sang nguyên âm đầu của từ sau. turn off -> /tɜː nɒf/, look at it -> /lʊ kə tɪt/.\n2. Nguyên âm + nguyên âm: chèn một âm nhẹ /j/ hoặc /w/. Sau /iː/, /eɪ/, /aɪ/, /ɔɪ/ thì chèn /j/: I am -> /aɪ jæm/. Sau /uː/, /əʊ/, /aʊ/ thì chèn /w/: go out -> /ɡəʊ waʊt/.\n3. Âm /r/ nối (giọng Anh): \"r\" cuối từ vốn không đọc, nhưng được đọc khi từ sau bắt đầu bằng nguyên âm. far away -> /fɑː rəˈweɪ/, there is -> /ðeə rɪz/.\n4. Hai phụ âm giống nhau: chỉ đọc một lần nhưng giữ lâu hơn. bad dog, big girl.\n5. Đồng hóa: /t/, /d/ + /j/ thành /tʃ/, /dʒ/. Don't you -> /dəʊntʃu/, Did you -> /dɪdʒu/.",
+   "examples": [
+    [
+     "pick it up",
+     "/pɪ kɪ ˈtʌp/"
+    ],
+    [
+     "an apple",
+     "/ə ˈnæpl/"
+    ],
+    [
+     "I agree",
+     "/aɪ jəˈɡriː/"
+    ],
+    [
+     "do it",
+     "/duː wɪt/"
+    ],
+    [
+     "far away",
+     "/fɑː rəˈweɪ/"
+    ],
+    [
+     "want to",
+     "/ˈwɒntə/ (nói nhanh)"
+    ],
+    [
+     "Did you",
+     "/ˈdɪdʒu/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Trong \"go out\", âm nào được chèn vào giữa?",
+     "o": [
+      "/w/",
+      "/j/",
+      "/r/"
+     ],
+     "a": 0,
+     "w": "Sau /əʊ/ chèn /w/: /ɡəʊ waʊt/."
+    },
+    {
+     "q": "Trong giọng Anh, \"r\" của \"more\" được đọc trong cụm nào?",
+     "o": [
+      "more often",
+      "more people",
+      "more"
+     ],
+     "a": 0,
+     "w": "\"r\" nối chỉ xuất hiện khi từ sau bắt đầu bằng nguyên âm: /mɔː ˈrɒfn/."
+    },
+    {
+     "q": "\"Would you\" khi nói nhanh thường đọc là gì?",
+     "o": [
+      "/wʊdʒu/",
+      "/wʊd juː/ tách rời",
+      "/wʊ ju/"
+     ],
+     "a": 0,
+     "w": "/d/ + /j/ đồng hóa thành /dʒ/."
+    }
+   ]
+  },
+  {
+   "id": "intonation",
+   "title": "Ngữ điệu: câu hỏi và liệt kê",
+   "body": "Ngữ điệu là sự lên xuống của giọng trong câu. Tiếng Việt dùng thanh điệu cho từng chữ, nên người Việt ít chú ý ngữ điệu câu và hay nói đều giọng, nghe như thiếu cảm xúc.\n\n1. Câu hỏi Wh- (what, where, why, how...): giọng đi xuống ở cuối. Where do you live? (xuống ở live)\n2. Câu hỏi Yes/No: giọng thường đi lên ở cuối. Do you like coffee? (lên ở coffee)\n3. Câu hỏi đuôi: lên giọng nếu thật sự hỏi (không chắc), xuống giọng nếu chỉ muốn người nghe đồng ý. It's cold, isn't it? (chắc chắn, xuống giọng ở isn't it).\n4. Liệt kê: lên giọng ở mỗi mục, xuống giọng ở mục cuối để báo hết danh sách. I bought apples (lên), bananas (lên) and grapes (xuống).\n5. Câu trần thuật: xuống giọng ở cuối. Lên giọng giữa câu để báo còn tiếp ý.\n6. Câu hỏi lựa chọn với \"or\": lên ở lựa chọn đầu, xuống ở lựa chọn cuối. Tea (lên) or coffee (xuống)?\n\nTrong Speaking, ngữ điệu tự nhiên giúp ý rõ ràng hơn và được tính vào tiêu chí Pronunciation.",
+   "examples": [
+    [
+     "Where do you live?",
+     "giọng xuống ở \"live\""
+    ],
+    [
+     "Are you a student?",
+     "giọng lên ở \"student\""
+    ],
+    [
+     "red, green and blue",
+     "lên ở red, green; xuống ở blue"
+    ],
+    [
+     "It's nice, isn't it?",
+     "xuống ở \"isn't it\" khi mong người nghe đồng ý"
+    ],
+    [
+     "Would you like tea or coffee?",
+     "lên ở tea, xuống ở coffee"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Câu \"What do you do?\" thường có ngữ điệu nào ở cuối?",
+     "o": [
+      "Đi xuống",
+      "Đi lên",
+      "Đều đều"
+     ],
+     "a": 0,
+     "w": "Câu hỏi Wh- thường xuống giọng ở cuối."
+    },
+    {
+     "q": "Trong \"I study maths, physics and chemistry\", giọng xuống ở đâu?",
+     "o": [
+      "chemistry",
+      "maths",
+      "physics"
+     ],
+     "a": 0,
+     "w": "Khi liệt kê, mục cuối cùng xuống giọng để báo kết thúc danh sách."
+    },
+    {
+     "q": "\"You're from Hanoi, aren't you?\" lên giọng ở cuối nghĩa là gì?",
+     "o": [
+      "Người nói thật sự không chắc và đang hỏi",
+      "Người nói chắc chắn, chỉ muốn xác nhận",
+      "Người nói đang tức giận"
+     ],
+     "a": 0,
+     "w": "Câu hỏi đuôi lên giọng là hỏi thật; xuống giọng là mong người nghe đồng ý."
+    }
+   ]
+  },
+  {
+   "id": "silent",
+   "title": "Chữ câm",
+   "body": "Chính tả tiếng Anh có nhiều chữ cái được viết nhưng không đọc. Đọc cả chữ câm là lỗi rất dễ bị nhận ra.\n\n- b câm sau m hoặc trước t: climb, comb, bomb, debt, doubt, subtle.\n- k câm trước n ở đầu từ: know, knee, knife, knowledge.\n- w câm trước r và trong một số từ: write, wrong, answer, sword, who, whole.\n- g câm trước n: sign, design, foreign, campaign (nhưng signature thì đọc /ɡ/).\n- gh câm hoặc đọc /f/: night, daughter, thought câm; laugh, enough, tough đọc /f/.\n- h câm: hour, honest, honour, heir, và thường câm trong \"wh\" (what, when).\n- l câm: walk, talk, half, calm, could, should, would, salmon.\n- t câm: listen, castle, often (cũng có thể đọc /t/), Christmas, fasten.\n- p câm: psychology, receipt, cupboard.\n- Trong giọng Anh, r câm khi không có nguyên âm theo sau: car, word, teacher.\n\nMột số từ hay đọc sai trong IELTS: Wednesday /ˈwenzdeɪ/, vegetable /ˈvedʒtəbl/, comfortable /ˈkʌmftəbl/, interesting /ˈɪntrəstɪŋ/, business /ˈbɪznəs/. Các từ này mất một âm tiết so với chính tả.",
+   "examples": [
+    [
+     "climb",
+     "/klaɪm/"
+    ],
+    [
+     "knowledge",
+     "/ˈnɒlɪdʒ/"
+    ],
+    [
+     "foreign",
+     "/ˈfɒrən/"
+    ],
+    [
+     "honest",
+     "/ˈɒnɪst/"
+    ],
+    [
+     "could",
+     "/kʊd/"
+    ],
+    [
+     "listen",
+     "/ˈlɪsn/"
+    ],
+    [
+     "psychology",
+     "/saɪˈkɒlədʒi/"
+    ],
+    [
+     "Wednesday",
+     "/ˈwenzdeɪ/"
+    ],
+    [
+     "vegetable",
+     "/ˈvedʒtəbl/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Chữ nào câm trong \"doubt\"?",
+     "o": [
+      "b",
+      "d",
+      "t"
+     ],
+     "a": 0,
+     "w": "doubt /daʊt/: chữ b không đọc."
+    },
+    {
+     "q": "Từ nào không có chữ câm?",
+     "o": [
+      "signal",
+      "sign",
+      "design",
+      "foreign"
+     ],
+     "a": 0,
+     "w": "signal /ˈsɪɡnəl/ đọc rõ /ɡ/. Ba từ còn lại có g câm."
+    },
+    {
+     "q": "\"comfortable\" thường được đọc với bao nhiêu âm tiết?",
+     "o": [
+      "3",
+      "4",
+      "5"
+     ],
+     "a": 0,
+     "w": "/ˈkʌmftəbl/ có 3 âm tiết, phần \"or\" gần như không được đọc."
+    }
+   ]
+  },
+  {
+   "id": "contractions",
+   "title": "Dạng rút gọn",
+   "body": "Trong văn nói, người bản xứ gần như luôn dùng dạng rút gọn: I'm, you're, he's, we've, they'll, I'd, isn't, don't, can't, won't. Dùng dạng rút gọn khi nói giúp Speaking tự nhiên và trôi chảy hơn. Nghe được dạng rút gọn là kỹ năng then chốt cho Listening.\n\nCách đọc cần nhớ:\n- I'm /aɪm/, you're /jɔː/, we're /wɪə/, they're /ðeə/ (giống there).\n- it's /ɪts/, what's /wɒts/, he's /hiːz/.\n- I've /aɪv/, we'll /wiːl/, I'd /aɪd/: phải đọc rõ phụ âm cuối, nếu không người nghe không biết bạn nói thì nào.\n- can't /kɑːnt/ (giọng Anh, nguyên âm dài) khác can /kən/. Trong giọng Anh, sự khác biệt nằm ở nguyên âm nhiều hơn là ở /t/.\n- won't /wəʊnt/ khác want /wɒnt/.\n- Dạng rút gọn kép trong nói nhanh: wouldn't've, shouldn't've.\n\nTrong IELTS Writing thì không dùng dạng rút gọn, vì văn phong học thuật cần viết đầy đủ.",
+   "examples": [
+    [
+     "I'm",
+     "/aɪm/"
+    ],
+    [
+     "they're",
+     "/ðeə/"
+    ],
+    [
+     "I've",
+     "/aɪv/"
+    ],
+    [
+     "we'll",
+     "/wiːl/"
+    ],
+    [
+     "can't",
+     "/kɑːnt/"
+    ],
+    [
+     "won't",
+     "/wəʊnt/"
+    ],
+    [
+     "shouldn't",
+     "/ˈʃʊdnt/"
+    ],
+    [
+     "it'd",
+     "/ˈɪtəd/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Phân biệt \"I can go\" và \"I can't go\" trong giọng Anh chủ yếu dựa vào đâu?",
+     "o": [
+      "Nguyên âm: /kən/ so với /kɑːnt/",
+      "Chỉ dựa vào âm /t/",
+      "Không phân biệt được"
+     ],
+     "a": 0,
+     "w": "Giọng Anh: can yếu là /kən/, can't là /kɑːnt/ với nguyên âm dài, nên nghe khác rõ."
+    },
+    {
+     "q": "\"won't\" đọc là gì?",
+     "o": [
+      "/wəʊnt/",
+      "/wɒnt/",
+      "/wɔːnt/"
+     ],
+     "a": 0,
+     "w": "won't /wəʊnt/ có nguyên âm đôi /əʊ/, khác want /wɒnt/."
+    },
+    {
+     "q": "Có nên dùng dạng rút gọn trong IELTS Writing Task 2 không?",
+     "o": [
+      "Không, nên viết đầy đủ",
+      "Có, để tự nhiên hơn",
+      "Chỉ dùng trong phần kết bài"
+     ],
+     "a": 0,
+     "w": "Văn phong học thuật tránh dạng rút gọn. Trong Speaking thì nên dùng."
+    }
+   ]
+  },
+  {
+   "id": "vowel_length",
+   "title": "Nguyên âm dài và ngắn",
+   "body": "Tiếng Anh phân biệt nguyên âm dài (có dấu ː trong IPA) và nguyên âm ngắn, và sự khác biệt này đổi nghĩa từ. Các cặp chính: /iː/ - /ɪ/ (sheep - ship), /uː/ - /ʊ/ (pool - pull), /ɔː/ - /ɒ/ (port - pot), /ɑː/ - /ʌ/ (cart - cut).\n\nThực ra không chỉ khác độ dài mà còn khác độ căng: nguyên âm dài căng cơ miệng hơn, nguyên âm ngắn thả lỏng hơn. Người Việt thường đọc mọi nguyên âm ở độ dài trung bình nên các cặp này nghe như nhau.\n\nMẹo luyện: đọc cặp từ thật chậm, phóng đại độ dài của nguyên âm dài và độ ngắn, lỏng của nguyên âm ngắn. Sau đó luyện với các bài cặp tối thiểu.",
+   "examples": [
+    [
+     "sheep - ship",
+     "/ʃiːp/ - /ʃɪp/"
+    ],
+    [
+     "pool - pull",
+     "/puːl/ - /pʊl/"
+    ],
+    [
+     "port - pot",
+     "/pɔːt/ - /pɒt/"
+    ],
+    [
+     "cart - cut",
+     "/kɑːt/ - /kʌt/"
+    ],
+    [
+     "leave - live",
+     "/liːv/ - /lɪv/"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Từ nào chứa nguyên âm dài?",
+     "o": [
+      "seat",
+      "sit",
+      "set",
+      "sat"
+     ],
+     "a": 0,
+     "w": "seat /siːt/ có /iː/ dài."
+    },
+    {
+     "q": "\"full\" chứa nguyên âm nào?",
+     "o": [
+      "/ʊ/",
+      "/uː/",
+      "/ʌ/"
+     ],
+     "a": 0,
+     "w": "full /fʊl/ có /ʊ/ ngắn; fool /fuːl/ mới là /uː/."
+    },
+    {
+     "q": "Ngoài độ dài, nguyên âm dài khác nguyên âm ngắn ở điểm nào?",
+     "o": [
+      "Cơ miệng căng hơn",
+      "Luôn có thanh cao hơn",
+      "Luôn có âm mũi"
+     ],
+     "a": 0,
+     "w": "Nguyên âm dài căng hơn, nguyên âm ngắn thả lỏng và vị trí lưỡi cũng khác một chút."
+    }
+   ]
+  }
+ ],
+ "minimal": [
+  {
+   "id": "i_ii",
+   "contrast": "/ɪ/ vs /iː/",
+   "pairs": [
+    [
+     "ship",
+     "sheep"
+    ],
+    [
+     "bit",
+     "beat"
+    ],
+    [
+     "live",
+     "leave"
+    ],
+    [
+     "fill",
+     "feel"
+    ],
+    [
+     "hit",
+     "heat"
+    ],
+    [
+     "sit",
+     "seat"
+    ],
+    [
+     "chip",
+     "cheap"
+    ],
+    [
+     "slip",
+     "sleep"
+    ]
+   ]
+  },
+  {
+   "id": "ae_e",
+   "contrast": "/æ/ vs /e/",
+   "pairs": [
+    [
+     "bad",
+     "bed"
+    ],
+    [
+     "man",
+     "men"
+    ],
+    [
+     "sat",
+     "set"
+    ],
+    [
+     "pan",
+     "pen"
+    ],
+    [
+     "had",
+     "head"
+    ],
+    [
+     "bag",
+     "beg"
+    ],
+    [
+     "land",
+     "lend"
+    ],
+    [
+     "sand",
+     "send"
+    ]
+   ]
+  },
+  {
+   "id": "uh_aa",
+   "contrast": "/ʌ/ vs /ɑː/",
+   "pairs": [
+    [
+     "cut",
+     "cart"
+    ],
+    [
+     "hut",
+     "heart"
+    ],
+    [
+     "much",
+     "march"
+    ],
+    [
+     "cup",
+     "carp"
+    ],
+    [
+     "bun",
+     "barn"
+    ],
+    [
+     "come",
+     "calm"
+    ],
+    [
+     "duck",
+     "dark"
+    ],
+    [
+     "buck",
+     "bark"
+    ]
+   ]
+  },
+  {
+   "id": "o_oo",
+   "contrast": "/ɒ/ vs /ɔː/",
+   "pairs": [
+    [
+     "cot",
+     "caught"
+    ],
+    [
+     "pot",
+     "port"
+    ],
+    [
+     "shot",
+     "short"
+    ],
+    [
+     "spot",
+     "sport"
+    ],
+    [
+     "don",
+     "dawn"
+    ],
+    [
+     "fox",
+     "forks"
+    ],
+    [
+     "cod",
+     "cord"
+    ],
+    [
+     "stock",
+     "stalk"
+    ]
+   ]
+  },
+  {
+   "id": "u_uu",
+   "contrast": "/ʊ/ vs /uː/",
+   "pairs": [
+    [
+     "full",
+     "fool"
+    ],
+    [
+     "pull",
+     "pool"
+    ],
+    [
+     "look",
+     "Luke"
+    ],
+    [
+     "could",
+     "cooed"
+    ],
+    [
+     "should",
+     "shoed"
+    ],
+    [
+     "wood",
+     "wooed"
+    ],
+    [
+     "hood",
+     "who'd"
+    ],
+    [
+     "soot",
+     "suit"
+    ]
+   ]
+  },
+  {
+   "id": "er_or",
+   "contrast": "/ɜː/ vs /ɔː/",
+   "pairs": [
+    [
+     "work",
+     "walk"
+    ],
+    [
+     "word",
+     "ward"
+    ],
+    [
+     "shirt",
+     "short"
+    ],
+    [
+     "firm",
+     "form"
+    ],
+    [
+     "bird",
+     "board"
+    ],
+    [
+     "burn",
+     "born"
+    ],
+    [
+     "curt",
+     "court"
+    ],
+    [
+     "turn",
+     "torn"
+    ]
+   ]
+  },
+  {
+   "id": "ei_e",
+   "contrast": "/eɪ/ vs /e/",
+   "pairs": [
+    [
+     "late",
+     "let"
+    ],
+    [
+     "sail",
+     "sell"
+    ],
+    [
+     "pain",
+     "pen"
+    ],
+    [
+     "wait",
+     "wet"
+    ],
+    [
+     "taste",
+     "test"
+    ],
+    [
+     "gate",
+     "get"
+    ],
+    [
+     "main",
+     "men"
+    ],
+    [
+     "rake",
+     "wreck"
+    ]
+   ]
+  },
+  {
+   "id": "ou_oo",
+   "contrast": "/əʊ/ vs /ɔː/",
+   "pairs": [
+    [
+     "coat",
+     "caught"
+    ],
+    [
+     "low",
+     "law"
+    ],
+    [
+     "so",
+     "saw"
+    ],
+    [
+     "boat",
+     "bought"
+    ],
+    [
+     "hole",
+     "hall"
+    ],
+    [
+     "choke",
+     "chalk"
+    ],
+    [
+     "woke",
+     "walk"
+    ],
+    [
+     "cold",
+     "called"
+    ]
+   ]
+  },
+  {
+   "id": "s_sh",
+   "contrast": "/s/ vs /ʃ/",
+   "pairs": [
+    [
+     "see",
+     "she"
+    ],
+    [
+     "sip",
+     "ship"
+    ],
+    [
+     "sell",
+     "shell"
+    ],
+    [
+     "seat",
+     "sheet"
+    ],
+    [
+     "sock",
+     "shock"
+    ],
+    [
+     "save",
+     "shave"
+    ],
+    [
+     "sort",
+     "short"
+    ],
+    [
+     "mass",
+     "mash"
+    ]
+   ]
+  },
+  {
+   "id": "th_s",
+   "contrast": "/θ/ vs /s/",
+   "pairs": [
+    [
+     "think",
+     "sink"
+    ],
+    [
+     "thick",
+     "sick"
+    ],
+    [
+     "thumb",
+     "sum"
+    ],
+    [
+     "path",
+     "pass"
+    ],
+    [
+     "mouth",
+     "mouse"
+    ],
+    [
+     "faith",
+     "face"
+    ],
+    [
+     "worth",
+     "worse"
+    ],
+    [
+     "theme",
+     "seem"
+    ]
+   ]
+  },
+  {
+   "id": "th_t",
+   "contrast": "/θ/ vs /t/",
+   "pairs": [
+    [
+     "three",
+     "tree"
+    ],
+    [
+     "thin",
+     "tin"
+    ],
+    [
+     "thank",
+     "tank"
+    ],
+    [
+     "tenth",
+     "tent"
+    ],
+    [
+     "both",
+     "boat"
+    ],
+    [
+     "theme",
+     "team"
+    ],
+    [
+     "thought",
+     "taught"
+    ],
+    [
+     "through",
+     "true"
+    ]
+   ]
+  },
+  {
+   "id": "dh_d",
+   "contrast": "/ð/ vs /d/",
+   "pairs": [
+    [
+     "they",
+     "day"
+    ],
+    [
+     "then",
+     "den"
+    ],
+    [
+     "though",
+     "dough"
+    ],
+    [
+     "there",
+     "dare"
+    ],
+    [
+     "breathe",
+     "breed"
+    ],
+    [
+     "worthy",
+     "wordy"
+    ],
+    [
+     "those",
+     "doze"
+    ],
+    [
+     "other",
+     "udder"
+    ]
+   ]
+  },
+  {
+   "id": "l_n",
+   "contrast": "/l/ vs /n/",
+   "pairs": [
+    [
+     "light",
+     "night"
+    ],
+    [
+     "low",
+     "know"
+    ],
+    [
+     "lot",
+     "not"
+    ],
+    [
+     "line",
+     "nine"
+    ],
+    [
+     "lead",
+     "need"
+    ],
+    [
+     "collect",
+     "connect"
+    ],
+    [
+     "lap",
+     "nap"
+    ],
+    [
+     "lame",
+     "name"
+    ]
+   ]
+  },
+  {
+   "id": "r_l",
+   "contrast": "/r/ vs /l/",
+   "pairs": [
+    [
+     "right",
+     "light"
+    ],
+    [
+     "read",
+     "lead"
+    ],
+    [
+     "rock",
+     "lock"
+    ],
+    [
+     "wrong",
+     "long"
+    ],
+    [
+     "fry",
+     "fly"
+    ],
+    [
+     "pray",
+     "play"
+    ],
+    [
+     "crowd",
+     "cloud"
+    ],
+    [
+     "grass",
+     "glass"
+    ]
+   ]
+  },
+  {
+   "id": "v_w",
+   "contrast": "/v/ vs /w/",
+   "pairs": [
+    [
+     "vest",
+     "west"
+    ],
+    [
+     "vine",
+     "wine"
+    ],
+    [
+     "vet",
+     "wet"
+    ],
+    [
+     "veil",
+     "whale"
+    ],
+    [
+     "verse",
+     "worse"
+    ],
+    [
+     "vile",
+     "while"
+    ],
+    [
+     "vary",
+     "wary"
+    ],
+    [
+     "viper",
+     "wiper"
+    ]
+   ]
+  },
+  {
+   "id": "p_b_fin",
+   "contrast": "/p/ vs /b/ cuối từ",
+   "pairs": [
+    [
+     "cap",
+     "cab"
+    ],
+    [
+     "rope",
+     "robe"
+    ],
+    [
+     "tap",
+     "tab"
+    ],
+    [
+     "cup",
+     "cub"
+    ],
+    [
+     "mop",
+     "mob"
+    ],
+    [
+     "lap",
+     "lab"
+    ],
+    [
+     "rip",
+     "rib"
+    ],
+    [
+     "pup",
+     "pub"
+    ]
+   ]
+  },
+  {
+   "id": "t_d_fin",
+   "contrast": "/t/ vs /d/ cuối từ",
+   "pairs": [
+    [
+     "cart",
+     "card"
+    ],
+    [
+     "bet",
+     "bed"
+    ],
+    [
+     "hat",
+     "had"
+    ],
+    [
+     "sent",
+     "send"
+    ],
+    [
+     "wrote",
+     "road"
+    ],
+    [
+     "white",
+     "wide"
+    ],
+    [
+     "seat",
+     "seed"
+    ],
+    [
+     "bright",
+     "bride"
+    ]
+   ]
+  },
+  {
+   "id": "k_g_fin",
+   "contrast": "/k/ vs /g/ cuối từ",
+   "pairs": [
+    [
+     "back",
+     "bag"
+    ],
+    [
+     "pick",
+     "pig"
+    ],
+    [
+     "lock",
+     "log"
+    ],
+    [
+     "duck",
+     "dug"
+    ],
+    [
+     "buck",
+     "bug"
+    ],
+    [
+     "peck",
+     "peg"
+    ],
+    [
+     "tuck",
+     "tug"
+    ],
+    [
+     "frock",
+     "frog"
+    ]
+   ]
+  },
+  {
+   "id": "s_none",
+   "contrast": "có /s/ cuối vs không có",
+   "pairs": [
+    [
+     "book",
+     "books"
+    ],
+    [
+     "plan",
+     "plans"
+    ],
+    [
+     "week",
+     "weeks"
+    ],
+    [
+     "friend",
+     "friends"
+    ],
+    [
+     "result",
+     "results"
+    ],
+    [
+     "cost",
+     "costs"
+    ],
+    [
+     "pay",
+     "pace"
+    ],
+    [
+     "my",
+     "mice"
+    ]
+   ]
+  },
+  {
+   "id": "s_z_fin",
+   "contrast": "/s/ vs /z/ cuối từ",
+   "pairs": [
+    [
+     "rice",
+     "rise"
+    ],
+    [
+     "ice",
+     "eyes"
+    ],
+    [
+     "price",
+     "prize"
+    ],
+    [
+     "bus",
+     "buzz"
+    ],
+    [
+     "peace",
+     "peas"
+    ],
+    [
+     "loose",
+     "lose"
+    ],
+    [
+     "race",
+     "raise"
+    ],
+    [
+     "place",
+     "plays"
+    ]
+   ]
+  },
+  {
+   "id": "n_ng",
+   "contrast": "/n/ vs /ŋ/ cuối từ",
+   "pairs": [
+    [
+     "sin",
+     "sing"
+    ],
+    [
+     "thin",
+     "thing"
+    ],
+    [
+     "ban",
+     "bang"
+    ],
+    [
+     "ran",
+     "rang"
+    ],
+    [
+     "win",
+     "wing"
+    ],
+    [
+     "sun",
+     "sung"
+    ],
+    [
+     "ton",
+     "tongue"
+    ],
+    [
+     "kin",
+     "king"
+    ]
+   ]
+  },
+  {
+   "id": "ch_sh",
+   "contrast": "/tʃ/ vs /ʃ/",
+   "pairs": [
+    [
+     "chip",
+     "ship"
+    ],
+    [
+     "cheap",
+     "sheep"
+    ],
+    [
+     "chair",
+     "share"
+    ],
+    [
+     "chop",
+     "shop"
+    ],
+    [
+     "watch",
+     "wash"
+    ],
+    [
+     "catch",
+     "cash"
+    ],
+    [
+     "match",
+     "mash"
+    ],
+    [
+     "cheat",
+     "sheet"
+    ]
+   ]
+  },
+  {
+   "id": "j_z",
+   "contrast": "/dʒ/ vs /z/",
+   "pairs": [
+    [
+     "rage",
+     "raise"
+    ],
+    [
+     "page",
+     "pays"
+    ],
+    [
+     "wage",
+     "ways"
+    ],
+    [
+     "siege",
+     "seas"
+    ],
+    [
+     "jest",
+     "zest"
+    ],
+    [
+     "budge",
+     "buzz"
+    ],
+    [
+     "huge",
+     "hues"
+    ],
+    [
+     "stage",
+     "stays"
+    ]
+   ]
+  }
+ ]
+}

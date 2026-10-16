@@ -1,0 +1,978 @@
+[
+ {
+  "id": "w1a01",
+  "title": "Water consumption in three cities",
+  "chart": {
+   "type": "line",
+   "title": "Average daily water consumption per person in three cities, 1995-2020",
+   "unit": "litres",
+   "x": [
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+   ],
+   "series": [
+    {
+     "name": "Northbridge",
+     "values": [
+      310,
+      295,
+      270,
+      240,
+      215,
+      190
+     ]
+    },
+    {
+     "name": "Ravenport",
+     "values": [
+      180,
+      195,
+      210,
+      220,
+      225,
+      230
+     ]
+    },
+    {
+     "name": "Calden",
+     "values": [
+      120,
+      140,
+      175,
+      205,
+      245,
+      260
+     ]
+    }
+   ]
+  },
+  "prompt": "The graph below shows the average amount of water used per person per day in three cities between 1995 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph compares the average amount of water used per person each day in three cities, Northbridge, Ravenport and Calden, between 1995 and 2020.\n\nOverall, consumption in Northbridge fell steadily, whereas it rose in the other two cities, with Calden showing by far the sharpest increase. As a result, the ranking of the three cities was completely reversed over the period.\n\nAt the start of the period, in 1995, a typical resident of Northbridge used 310 litres of water a day, considerably more than people in Ravenport (180 litres) and Calden (120 litres). Over the following 25 years, the Northbridge figure declined without interruption, dropping to 240 litres in 2010 and reaching a low of 190 litres in 2020.\n\nBy contrast, daily use in Ravenport grew gradually, from 195 litres in 2000 to 220 litres in 2010, before levelling off at 225 litres in 2015 and 230 litres in 2020. Calden recorded the most dramatic change, with consumption more than doubling. It climbed from 140 litres in 2000 to 205 litres in 2010 and then overtook both of the other cities, reaching 245 litres in 2015 and 260 litres by the end of the period, the highest daily figure recorded in any of the three cities.",
+  "overview": "Overall, consumption in Northbridge fell steadily, whereas it rose in the other two cities, with Calden showing by far the sharpest increase.",
+  "notes": "Mở bài: viết lại đề bằng từ khác (water used per person each day). Tổng quan: nêu 2 xu hướng ngược nhau (Northbridge giảm, hai thành phố còn lại tăng) và việc thứ hạng bị đảo ngược hoàn toàn, không đưa số liệu. Thân bài 1: Northbridge, đi từ số cao nhất năm 1995 (310) xuống 190. Thân bài 2: gộp Ravenport và Calden vì cùng tăng; nhấn mạnh Calden tăng hơn gấp đôi và vượt cả hai thành phố kia vào năm 2015. Không cần liệt kê mọi mốc năm, chỉ chọn điểm đầu, điểm cuối và điểm giao cắt.",
+  "phrases": [
+   [
+    "decline without interruption",
+    "giảm liên tục, không có lúc nào tăng lại"
+   ],
+   [
+    "reach a low of",
+    "chạm mức thấp nhất là (dùng cho điểm cuối của xu hướng giảm)"
+   ],
+   [
+    "level off at",
+    "chững lại, đi ngang ở mức"
+   ],
+   [
+    "more than double",
+    "tăng hơn gấp đôi"
+   ],
+   [
+    "overtake",
+    "vượt qua (dùng khi hai đường cắt nhau)"
+   ],
+   [
+    "the ranking was completely reversed",
+    "thứ hạng bị đảo ngược hoàn toàn, câu hay cho phần tổng quan"
+   ],
+   [
+    "by the end of the period",
+    "vào cuối giai đoạn, tránh lặp lại năm 2020"
+   ]
+  ]
+ },
+ {
+  "id": "w1a02",
+  "title": "Visitors to tourist attractions",
+  "chart": {
+   "type": "line",
+   "title": "Number of visitors to three types of attraction in one country, 2008-2023",
+   "unit": "million visitors",
+   "x": [
+    "2008",
+    "2011",
+    "2014",
+    "2017",
+    "2020",
+    "2023"
+   ],
+   "series": [
+    {
+     "name": "Museums",
+     "values": [
+      12.4,
+      13.1,
+      14.0,
+      15.2,
+      6.3,
+      14.8
+     ]
+    },
+    {
+     "name": "Theme parks",
+     "values": [
+      8.5,
+      9.8,
+      11.6,
+      12.9,
+      4.1,
+      13.5
+     ]
+    },
+    {
+     "name": "National parks",
+     "values": [
+      5.2,
+      5.6,
+      6.1,
+      7.4,
+      9.0,
+      10.7
+     ]
+    }
+   ]
+  },
+  "prompt": "The graph below shows the number of visitors to three types of tourist attraction in one country between 2008 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph illustrates how many people visited three kinds of tourist attraction in one country, namely museums, theme parks and national parks, from 2008 to 2023.\n\nOverall, all three attractions became more popular in the long term, and museums received the most visitors in most years. The most striking feature is the sharp fall in visits to museums and theme parks in 2020, a year in which national parks continued to grow.\n\nMuseums received 12.4 million visitors in 2008, and this number rose steadily to 15.2 million in 2017. Theme parks followed a similar pattern, increasing from 8.5 million to 12.9 million over the same period. In 2020, however, both figures collapsed, to 6.3 million and 4.1 million respectively. Both types of attraction recovered quickly afterwards, however, with museums reaching 14.8 million in 2023 and theme parks a record 13.5 million.\n\nNational parks, by contrast, started from the lowest base of 5.2 million and grew slowly to 7.4 million in 2017. Their popularity then accelerated, and in 2020 they were the most visited attraction, with 9.0 million visitors. Growth continued over the next three years, and by 2023 the figure had more than doubled since 2008, reaching 10.7 million.",
+  "overview": "Overall, all three attractions became more popular in the long term, and museums received the most visitors in most years.",
+  "notes": "Tổng quan gồm 2 ý: xu hướng chung là tăng, và đặc điểm nổi bật nhất là cú sụt giảm năm 2020 của museums và theme parks. Thân bài 1: gộp museums và theme parks vì có cùng hình dạng (tăng đều, sụt mạnh năm 2020, phục hồi). Thân bài 2: national parks là ngoại lệ, tăng liên tục và trở thành điểm đến đông nhất năm 2020. Dùng 'respectively' để báo hai số trong một câu. Chú ý: museums năm 2023 (14.8) vẫn thấp hơn đỉnh 2017 (15.2), nên không viết là đạt kỷ lục.",
+  "phrases": [
+   [
+    "namely",
+    "cụ thể là, dùng để liệt kê ngay sau một danh từ chung"
+   ],
+   [
+    "the most striking feature is",
+    "đặc điểm nổi bật nhất là"
+   ],
+   [
+    "follow a similar pattern",
+    "có xu hướng tương tự"
+   ],
+   [
+    "collapse to",
+    "sụt giảm mạnh xuống còn"
+   ],
+   [
+    "respectively",
+    "lần lượt (theo thứ tự đã nêu)"
+   ],
+   [
+    "start from the lowest base of",
+    "xuất phát từ mức thấp nhất là"
+   ],
+   [
+    "popularity accelerated",
+    "mức độ phổ biến tăng nhanh hơn"
+   ]
+  ]
+ },
+ {
+  "id": "w1a03",
+  "title": "Sources of electricity",
+  "chart": {
+   "type": "line",
+   "title": "Electricity generation by source in one country, 2000-2020",
+   "unit": "% of total electricity",
+   "x": [
+    "2000",
+    "2004",
+    "2008",
+    "2012",
+    "2016",
+    "2020"
+   ],
+   "series": [
+    {
+     "name": "Coal",
+     "values": [
+      58,
+      54,
+      47,
+      35,
+      22,
+      12
+     ]
+    },
+    {
+     "name": "Gas",
+     "values": [
+      30,
+      33,
+      36,
+      38,
+      35,
+      31
+     ]
+    },
+    {
+     "name": "Renewables",
+     "values": [
+      7,
+      9,
+      13,
+      22,
+      38,
+      52
+     ]
+    },
+    {
+     "name": "Nuclear",
+     "values": [
+      5,
+      4,
+      4,
+      5,
+      5,
+      5
+     ]
+    }
+   ]
+  },
+  "prompt": "The graph below shows the percentage of electricity generated from different sources in one country between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph shows the proportion of electricity produced from four sources, coal, gas, renewables and nuclear power, in one country between 2000 and 2020.\n\nOverall, the country moved away from coal and towards renewable energy, which went from being a minor source to the largest one. Gas remained important throughout, while nuclear power made a small and stable contribution.\n\nIn 2000, coal was the dominant source, generating 58% of the country's electricity. Its share fell continuously throughout the following two decades, to 47% in 2008 and just 12% in 2020. Gas, which accounted for 30% at the start of the period, rose gradually to a peak of 38% in 2012, overtaking coal along the way, but it then slipped back to 31% by 2020.\n\nRenewables showed the opposite trend to coal. Their share was only 7% in 2000 and increased slowly to 13% in 2008, after which growth accelerated markedly. They supplied 22% of electricity in 2012 and 38% in 2016, surpassing both fossil fuels, and by 2020 more than half of the country's power (52%) came from renewable sources. Nuclear power, meanwhile, fluctuated only slightly, between 4% and 5%, for the entire period.",
+  "overview": "Overall, the country moved away from coal and towards renewable energy, which went from being a minor source to the largest one.",
+  "notes": "Biểu đồ có 4 đường, nên phải gộp nhóm. Tổng quan: chuyển dịch từ than sang năng lượng tái tạo (hai đường ngược nhau), khí đốt giữ vai trò quan trọng, hạt nhân nhỏ và ổn định. Thân bài 1: hai nguồn hóa thạch (coal giảm liên tục, gas tăng đến đỉnh 2012 rồi giảm). Thân bài 2: renewables tăng tốc sau 2008, vượt cả coal và gas vào năm 2016, đạt 52%; nuclear chỉ cần một câu. Đơn vị là %, khi nói về mức thay đổi nên dùng 'percentage points'.",
+  "phrases": [
+   [
+    "the dominant source",
+    "nguồn chiếm ưu thế"
+   ],
+   [
+    "move away from ... towards ...",
+    "chuyển dịch từ ... sang ..."
+   ],
+   [
+    "rise gradually to a peak of",
+    "tăng dần đến đỉnh là"
+   ],
+   [
+    "slip back to",
+    "giảm nhẹ trở lại mức"
+   ],
+   [
+    "show the opposite trend to",
+    "có xu hướng ngược lại với"
+   ],
+   [
+    "growth accelerated markedly",
+    "tốc độ tăng nhanh lên rõ rệt"
+   ],
+   [
+    "surpass",
+    "vượt qua"
+   ],
+   [
+    "fluctuate between ... and ...",
+    "dao động trong khoảng ... đến ..."
+   ]
+  ]
+ },
+ {
+  "id": "w1a04",
+  "title": "Leisure time by age group",
+  "chart": {
+   "type": "bar",
+   "title": "Average hours per week spent on leisure activities, by age group",
+   "unit": "hours per week",
+   "x": [
+    "16-24",
+    "25-44",
+    "45-64",
+    "65+"
+   ],
+   "series": [
+    {
+     "name": "Social media",
+     "values": [
+      14,
+      9,
+      5,
+      2
+     ]
+    },
+    {
+     "name": "Watching TV",
+     "values": [
+      8,
+      10,
+      13,
+      21
+     ]
+    },
+    {
+     "name": "Sport/exercise",
+     "values": [
+      6,
+      4,
+      3,
+      3
+     ]
+    },
+    {
+     "name": "Reading",
+     "values": [
+      2,
+      3,
+      5,
+      8
+     ]
+    }
+   ]
+  },
+  "prompt": "The chart below shows the average number of hours per week that people in different age groups spend on four leisure activities. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart compares the average number of hours per week that people in four age groups spend on four leisure activities: using social media, watching television, doing sport or exercise, and reading.\n\nOverall, time spent on social media and sport decreases with age, whereas television and reading become more popular as people get older. Television is the main pastime for every group except the youngest.\n\nThe 16-24 age group spends 14 hours a week on social media, the highest figure for that group. This falls to 9 hours for people aged 25 to 44, 5 hours for those aged 45 to 64 and only 2 hours for the over-65s. A similar but less pronounced decline can be seen for sport and exercise, which drops from 6 hours among the youngest group to 4 hours for 25-44-year-olds and then stays at 3 hours for the two oldest groups.\n\nTelevision viewing follows the opposite pattern. Young people watch 8 hours a week, and the figure rises to 10 and 13 hours for the two middle groups, before jumping to 21 hours for those aged 65 and over, the highest figure in the chart. Reading is the least common pastime among the young, at just 2 hours, but the over-65s spend 8 hours a week on it.",
+  "overview": "Overall, time spent on social media and sport decreases with age, whereas television and reading become more popular as people get older.",
+  "notes": "Biểu đồ cột không có thời gian, nên dùng thì hiện tại đơn và so sánh giữa các nhóm tuổi. Cách gộp nhóm hiệu quả: các hoạt động giảm theo tuổi (social media, sport) ở thân bài 1, các hoạt động tăng theo tuổi (TV, reading) ở thân bài 2. Tổng quan nêu hai xu hướng ngược nhau và việc TV là hoạt động chính của mọi nhóm trừ nhóm 16-24. Nêu số cao nhất của cả biểu đồ (21 giờ xem TV của nhóm 65+).",
+  "phrases": [
+   [
+    "the over-65s",
+    "những người trên 65 tuổi"
+   ],
+   [
+    "25-44-year-olds",
+    "những người từ 25 đến 44 tuổi (dùng như danh từ)"
+   ],
+   [
+    "a similar but less pronounced decline",
+    "sự sụt giảm tương tự nhưng ít rõ rệt hơn"
+   ],
+   [
+    "follow the opposite pattern",
+    "diễn biến theo chiều ngược lại"
+   ],
+   [
+    "jump to",
+    "tăng vọt lên"
+   ],
+   [
+    "the main pastime",
+    "hoạt động giải trí chính"
+   ],
+   [
+    "become more popular as people get older",
+    "trở nên phổ biến hơn khi người ta lớn tuổi hơn"
+   ]
+  ]
+ },
+ {
+  "id": "w1a05",
+  "title": "International students in five countries",
+  "chart": {
+   "type": "bar",
+   "title": "International students enrolled at universities, 2012 and 2022",
+   "unit": "thousand students",
+   "x": [
+    "Canada",
+    "Germany",
+    "Japan",
+    "Australia",
+    "Netherlands"
+   ],
+   "series": [
+    {
+     "name": "2012",
+     "values": [
+      120,
+      210,
+      135,
+      230,
+      60
+     ]
+    },
+    {
+     "name": "2022",
+     "values": [
+      410,
+      365,
+      180,
+      330,
+      125
+     ]
+    }
+   ]
+  },
+  "prompt": "The chart below shows the number of international students enrolled at universities in five countries in 2012 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart compares the number of international students enrolled at universities in five countries in 2012 and 2022.\n\nOverall, every country saw an increase in international enrolments over the decade, but the scale of growth varied greatly. Canada experienced by far the largest rise and replaced Australia as the most popular destination.\n\nIn 2012, Australia hosted the greatest number of overseas students, at 230,000, followed closely by Germany with 210,000. Japan and Canada, the two countries in the middle of the ranking, had similar numbers, at 135,000 and 120,000 respectively, while the Netherlands attracted only 60,000, the lowest figure on the chart.\n\nTen years later, the picture had changed considerably, and the order of the top three countries was different. Canada's figure more than tripled to 410,000, making it the leading host country. Germany also grew strongly to 365,000, moving into second place ahead of Australia, which rose by 100,000 to 330,000. Enrolments in the Netherlands more than doubled to 125,000, although the country remained at the bottom of the ranking. Japan recorded the smallest increase, from 135,000 to 180,000, and as a result it fell from third to fourth place.",
+  "overview": "Overall, every country saw an increase in international enrolments over the decade, but the scale of growth varied greatly.",
+  "notes": "Hai năm, năm nước: chia thân bài theo năm. Thân bài 1 mô tả thứ hạng năm 2012 (quá khứ đơn). Thân bài 2 mô tả năm 2022 kèm mức thay đổi (tripled, doubled, rose by) và sự thay đổi thứ hạng. Tổng quan: tất cả đều tăng nhưng mức tăng khác nhau, Canada tăng mạnh nhất và lên vị trí số 1. Đơn vị là nghìn sinh viên, nên viết 410,000 chứ không viết 410.",
+  "phrases": [
+   [
+    "host",
+    "tiếp nhận (sinh viên, khách)"
+   ],
+   [
+    "followed closely by",
+    "theo sát phía sau là"
+   ],
+   [
+    "the picture had changed considerably",
+    "bức tranh đã thay đổi đáng kể"
+   ],
+   [
+    "more than triple",
+    "tăng hơn gấp ba"
+   ],
+   [
+    "move into second place ahead of",
+    "vươn lên vị trí thứ hai, vượt qua"
+   ],
+   [
+    "remain at the bottom of the ranking",
+    "vẫn đứng cuối bảng xếp hạng"
+   ],
+   [
+    "record the smallest increase",
+    "có mức tăng nhỏ nhất"
+   ],
+   [
+    "the scale of growth varied greatly",
+    "mức độ tăng trưởng rất khác nhau"
+   ]
+  ]
+ },
+ {
+  "id": "w1a06",
+  "title": "Seasonal sales at seaside cafés",
+  "chart": {
+   "type": "bar",
+   "title": "Sales of three products at a chain of seaside cafés, by season",
+   "unit": "thousand units",
+   "x": [
+    "Spring",
+    "Summer",
+    "Autumn",
+    "Winter"
+   ],
+   "series": [
+    {
+     "name": "Ice cream",
+     "values": [
+      42,
+      96,
+      30,
+      8
+     ]
+    },
+    {
+     "name": "Hot drinks",
+     "values": [
+      55,
+      24,
+      68,
+      110
+     ]
+    },
+    {
+     "name": "Umbrellas",
+     "values": [
+      3.5,
+      1.2,
+      6.8,
+      5.4
+     ]
+    }
+   ]
+  },
+  "prompt": "The chart below shows the sales of three products at a chain of seaside cafés in each season of one year. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart shows the number of ice creams, hot drinks and umbrellas sold by a chain of seaside cafés in each of the four seasons.\n\nOverall, sales of ice cream and hot drinks moved in opposite directions across the year, with ice cream peaking in summer and hot drinks in winter. Umbrella sales were very small by comparison and were highest in autumn.\n\nIce cream was the best-selling product in summer, when 96,000 units were sold, four times the number of hot drinks sold in the same season (24,000). In spring, by contrast, hot drinks were slightly more popular, at 55,000 compared with 42,000 ice creams. As the weather cooled, ice cream sales fell sharply to 30,000 in autumn and just 8,000 in winter.\n\nHot drinks showed the reverse pattern. After their summer low, sales rose to 68,000 in autumn and reached 110,000 in winter, the highest figure for any product in any season. Umbrellas sold in much smaller quantities throughout the year. Only 1,200 were bought in summer, compared with 3,500 in spring, but the figure climbed to 6,800 in autumn before falling slightly to 5,400 in winter.",
+  "overview": "Overall, sales of ice cream and hot drinks moved in opposite directions across the year, with ice cream peaking in summer and hot drinks in winter.",
+  "notes": "Tổng quan: kem và đồ uống nóng diễn biến ngược nhau, ô bán rất ít và cao nhất vào mùa thu. Thân bài 1: kem (đỉnh mùa hè, so sánh trực tiếp với đồ uống nóng cùng mùa). Thân bài 2: đồ uống nóng (đỉnh mùa đông, cũng là số cao nhất toàn biểu đồ) và ô. Đơn vị là nghìn sản phẩm, nên 3.5 phải viết là 3,500. Không đoán nguyên nhân (ví dụ mùa thu mưa nhiều) vì biểu đồ không cho thông tin đó.",
+  "phrases": [
+   [
+    "move in opposite directions",
+    "diễn biến theo hai chiều ngược nhau"
+   ],
+   [
+    "peak in summer",
+    "đạt đỉnh vào mùa hè"
+   ],
+   [
+    "four times the number of",
+    "gấp bốn lần số lượng"
+   ],
+   [
+    "very small by comparison",
+    "rất nhỏ nếu so sánh"
+   ],
+   [
+    "show the reverse pattern",
+    "có xu hướng ngược lại"
+   ],
+   [
+    "after their summer low",
+    "sau mức thấp nhất vào mùa hè"
+   ],
+   [
+    "the highest figure for any product in any season",
+    "số cao nhất của mọi sản phẩm trong mọi mùa"
+   ]
+  ]
+ },
+ {
+  "id": "w1a07",
+  "title": "Household spending",
+  "chart": {
+   "type": "pie",
+   "title": "Average household spending in one country, 1990 and 2020",
+   "unit": "%",
+   "x": [
+    "Housing",
+    "Food",
+    "Transport",
+    "Leisure",
+    "Clothing",
+    "Other"
+   ],
+   "series": [
+    {
+     "name": "1990",
+     "values": [
+      22,
+      31,
+      12,
+      9,
+      14,
+      12
+     ]
+    },
+    {
+     "name": "2020",
+     "values": [
+      34,
+      17,
+      15,
+      16,
+      6,
+      12
+     ]
+    }
+   ]
+  },
+  "prompt": "The pie charts below show how the average household in one country spent its money in 1990 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The pie charts compare how the average household in one country divided its spending among six categories in 1990 and 2020.\n\nOverall, housing replaced food as the largest area of expenditure, and leisure became considerably more important, while the share spent on clothing fell markedly.\n\nIn 1990, food took the biggest proportion of household budgets, at 31%, followed by housing at 22%. Clothing accounted for 14%, while transport and the \"other\" category each made up 12%. Leisure was the smallest category of all, representing just 9% of total household spending.\n\nThirty years later, the pattern of spending had shifted noticeably, with some categories growing and others shrinking. The share devoted to housing rose by 12 percentage points to 34%, making it by far the largest expense. Spending on food, in contrast, almost halved, falling to 17%. Leisure also grew significantly, from 9% to 16%, so that it was almost level with food. Transport increased modestly to 15%, whereas clothing dropped from 14% to only 6%, becoming the smallest category. The proportion spent on other items was the only one that remained unchanged, at 12% in both years.",
+  "overview": "Overall, housing replaced food as the largest area of expenditure, and leisure became considerably more important, while the share spent on clothing fell markedly.",
+  "notes": "Hai biểu đồ tròn ở hai năm: thân bài 1 mô tả cơ cấu năm 1990 theo thứ tự lớn đến nhỏ, thân bài 2 mô tả năm 2020 và mức thay đổi. Tổng quan nêu thay đổi lớn nhất: housing thay food ở vị trí số 1, leisure tăng, clothing giảm. Với số %, khi nói mức tăng giảm dùng 'percentage points' (22% lên 34% là tăng 12 percentage points, không phải 12%). Thay đổi cách diễn đạt: took, accounted for, made up, represented, the share devoted to.",
+  "phrases": [
+   [
+    "area of expenditure",
+    "khoản chi tiêu"
+   ],
+   [
+    "take the biggest proportion of",
+    "chiếm tỷ lệ lớn nhất trong"
+   ],
+   [
+    "account for / make up / represent",
+    "chiếm (dùng luân phiên để tránh lặp)"
+   ],
+   [
+    "the share devoted to",
+    "tỷ lệ dành cho"
+   ],
+   [
+    "rise by 12 percentage points",
+    "tăng 12 điểm phần trăm"
+   ],
+   [
+    "almost halve",
+    "giảm gần một nửa"
+   ],
+   [
+    "almost level with",
+    "gần ngang bằng với"
+   ],
+   [
+    "remain unchanged at",
+    "giữ nguyên ở mức"
+   ]
+  ]
+ },
+ {
+  "id": "w1a08",
+  "title": "What happens to a city's waste",
+  "chart": {
+   "type": "pie",
+   "title": "Destination of municipal waste in one city, 2005 and 2025",
+   "unit": "%",
+   "x": [
+    "Landfill",
+    "Recycling",
+    "Composting",
+    "Incineration with energy recovery",
+    "Other"
+   ],
+   "series": [
+    {
+     "name": "2005",
+     "values": [
+      64,
+      18,
+      5,
+      11,
+      2
+     ]
+    },
+    {
+     "name": "2025",
+     "values": [
+      21,
+      41,
+      14,
+      22,
+      2
+     ]
+    }
+   ]
+  },
+  "prompt": "The pie charts below show how the municipal waste in one city was dealt with in 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The two pie charts show what happened to the municipal waste produced in a city in 2005 and 2025.\n\nOverall, the city became far less dependent on landfill over the 20-year period. In 2005 most rubbish was buried, but by 2025 recycling had become the most common method of disposal, and every alternative to landfill had grown in importance.\n\nIn 2005, almost two-thirds of the city's waste (64%) was sent to landfill sites. Recycling was a distant second, accounting for 18%, while 11% was burned in incinerators that generated energy. Composting dealt with only a small fraction of the waste, just 5%, and the remaining 2% was handled in other ways.\n\nBy 2025, the proportion going to landfill had plummeted to 21%, roughly a third of its earlier level. Recycling, on the other hand, more than doubled to 41%, making it the main destination for the city's rubbish. Incineration with energy recovery also doubled, rising to 22%, so that slightly more waste was burned than buried. Composting nearly tripled, increasing from 5% to 14%. Finally, the small share of waste classified as other stayed exactly the same, at 2% in both years.",
+  "overview": "Overall, the city became far less dependent on landfill over the 20-year period.",
+  "notes": "Tổng quan: thành phố giảm phụ thuộc vào chôn lấp, tái chế trở thành phương thức chính, mọi phương án thay thế đều tăng. Thân bài 1: năm 2005, dùng câu bị động (was sent, was burned) vì nói về rác. Thân bài 2: năm 2025 với các từ chỉ mức thay đổi (plummeted, more than doubled, nearly tripled). Có thể dùng phân số thay cho % để đa dạng (64% = almost two-thirds, 21% = roughly a third of 64%). So sánh chéo: năm 2025 rác đốt (22%) nhiều hơn rác chôn (21%).",
+  "phrases": [
+   [
+    "become less dependent on",
+    "bớt phụ thuộc vào"
+   ],
+   [
+    "a distant second",
+    "đứng thứ hai nhưng cách xa vị trí số một"
+   ],
+   [
+    "almost two-thirds of",
+    "gần hai phần ba"
+   ],
+   [
+    "plummet to",
+    "giảm mạnh xuống"
+   ],
+   [
+    "roughly a third of its earlier level",
+    "khoảng một phần ba so với mức trước đó"
+   ],
+   [
+    "the main destination for",
+    "nơi tiếp nhận chính của"
+   ],
+   [
+    "nearly triple",
+    "tăng gần gấp ba"
+   ],
+   [
+    "grow in importance",
+    "ngày càng quan trọng hơn"
+   ]
+  ]
+ },
+ {
+  "id": "w1a09",
+  "title": "Public transport in four cities",
+  "chart": {
+   "type": "table",
+   "title": "Annual passenger journeys on public transport in four cities, 2023",
+   "unit": "million journeys",
+   "x": [
+    "Arlon",
+    "Bressen",
+    "Coraval",
+    "Dunmere"
+   ],
+   "series": [
+    {
+     "name": "Bus",
+     "values": [
+      210,
+      145,
+      320,
+      95
+     ]
+    },
+    {
+     "name": "Metro",
+     "values": [
+      480,
+      0,
+      260,
+      150
+     ]
+    },
+    {
+     "name": "Tram",
+     "values": [
+      60,
+      190,
+      0,
+      85
+     ]
+    },
+    {
+     "name": "Total",
+     "values": [
+      750,
+      335,
+      580,
+      330
+     ]
+    }
+   ]
+  },
+  "prompt": "The table below shows the number of passenger journeys made on three types of public transport in four cities in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table gives information about the number of passenger journeys made by bus, metro and tram in four cities, Arlon, Bressen, Coraval and Dunmere, in 2023.\n\nOverall, Arlon had by far the busiest public transport system, while Bressen and Dunmere had the smallest. In three of the four cities, either the metro or the bus network was the most heavily used mode.\n\nArlon recorded a total of 750 million journeys, more than twice the figures for Bressen (335 million) and Dunmere (330 million). The majority of these journeys, 480 million, were made on the metro, while buses accounted for 210 million and trams for only 60 million. Coraval had the second highest total, at 580 million, and it was the city with the heaviest bus use, at 320 million journeys. Its metro carried 260 million passengers, but the city had no tram network.\n\nThe two smaller systems differed considerably. Bressen, which had no metro, relied mainly on trams, which carried 190 million passengers, the highest tram figure in the table, with the remaining 145 million journeys made by bus. In Dunmere, by contrast, the metro was the most popular option, with 150 million journeys, compared with 95 million by bus and 85 million by tram.",
+  "overview": "Overall, Arlon had by far the busiest public transport system, while Bressen and Dunmere had the smallest.",
+  "notes": "Bảng có nhiều số, không cần nêu hết. Tổng quan dựa vào cột Total (Arlon lớn nhất, Bressen và Dunmere nhỏ nhất) và phương tiện chính của mỗi thành phố. Gộp nhóm theo quy mô: thân bài 1 là hai hệ thống lớn (Arlon, Coraval), thân bài 2 là hai hệ thống nhỏ (Bressen, Dunmere). Số 0 trong bảng nghĩa là thành phố không có loại phương tiện đó, nên viết 'had no metro' thay vì '0 journeys'. Năm 2023 đã qua nên dùng quá khứ đơn.",
+  "phrases": [
+   [
+    "by far the busiest",
+    "đông đúc nhất, bỏ xa các thành phố khác"
+   ],
+   [
+    "the most heavily used mode",
+    "phương tiện được sử dụng nhiều nhất"
+   ],
+   [
+    "more than twice the figures for",
+    "hơn gấp đôi số liệu của"
+   ],
+   [
+    "the majority of these journeys",
+    "phần lớn các chuyến đi này"
+   ],
+   [
+    "rely mainly on",
+    "chủ yếu dựa vào"
+   ],
+   [
+    "the remaining 145 million",
+    "145 triệu còn lại"
+   ],
+   [
+    "differ considerably",
+    "khác nhau đáng kể"
+   ]
+  ]
+ },
+ {
+  "id": "w1a10",
+  "title": "Physical activity by age and sex",
+  "chart": {
+   "type": "table",
+   "title": "Adults meeting recommended physical activity levels, by age and sex, 2004 and 2024",
+   "unit": "%",
+   "x": [
+    "18-34",
+    "35-54",
+    "55-74",
+    "75+"
+   ],
+   "series": [
+    {
+     "name": "Men 2004",
+     "values": [
+      52,
+      41,
+      30,
+      14
+     ]
+    },
+    {
+     "name": "Men 2024",
+     "values": [
+      58,
+      49,
+      42,
+      25
+     ]
+    },
+    {
+     "name": "Women 2004",
+     "values": [
+      38,
+      33,
+      25,
+      9
+     ]
+    },
+    {
+     "name": "Women 2024",
+     "values": [
+      55,
+      47,
+      40,
+      21
+     ]
+    }
+   ]
+  },
+  "prompt": "The table below shows the percentage of men and women in different age groups who met the recommended level of physical activity in 2004 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table shows the percentage of men and women in four age groups who met the recommended level of physical activity in 2004 and 2024.\n\nOverall, the proportion of adults meeting the guidelines increased in every category, and activity levels declined with age for both sexes. Although men were more active than women in both years, the gap between them narrowed considerably.\n\nIn 2004, just over half of men aged 18 to 34 (52%) were sufficiently active, compared with 38% of women in the same age group. The figures fell steadily with age, and among people aged 75 and over, only 14% of men and 9% of women met the recommended level.\n\nBy 2024, women had made much greater progress than men. The figure for young women rose by 17 percentage points to 55%, only slightly below that for young men, which had increased to 58%. Similar improvements were seen among women aged 35 to 54 and 55 to 74, whose rates climbed to 47% and 40%, compared with 49% and 42% for men. The oldest age group also improved notably: the proportion of active men rose from 14% to 25%, and that of women more than doubled to 21%.",
+  "overview": "Overall, the proportion of adults meeting the guidelines increased in every category, and activity levels declined with age for both sexes.",
+  "notes": "Bảng có ba biến (tuổi, giới tính, năm), nên tổng quan cần ba ý: tất cả đều tăng, càng lớn tuổi càng ít vận động, khoảng cách nam nữ thu hẹp. Thân bài 1: năm 2004, so sánh nam và nữ ở nhóm trẻ nhất và nhóm già nhất. Thân bài 2: năm 2024, tập trung vào việc nữ giới tiến bộ nhanh hơn. Dùng 'percentage points' khi nói mức tăng của tỷ lệ phần trăm. Có thể gộp hai nhóm tuổi giữa trong một câu bằng 'respectively' hoặc 'compared with'.",
+  "phrases": [
+   [
+    "meet the recommended level",
+    "đạt mức khuyến nghị"
+   ],
+   [
+    "sufficiently active",
+    "vận động đủ"
+   ],
+   [
+    "decline with age",
+    "giảm dần theo độ tuổi"
+   ],
+   [
+    "both sexes",
+    "cả hai giới"
+   ],
+   [
+    "the gap narrowed considerably",
+    "khoảng cách thu hẹp đáng kể"
+   ],
+   [
+    "make much greater progress",
+    "tiến bộ nhiều hơn hẳn"
+   ],
+   [
+    "only slightly below that for",
+    "chỉ thấp hơn một chút so với số liệu của"
+   ],
+   [
+    "just over half of",
+    "hơn một nửa một chút"
+   ]
+  ]
+ },
+ {
+  "id": "w1a11",
+  "title": "How black tea is produced",
+  "chart": {
+   "type": "process",
+   "title": "The production of black tea",
+   "steps": [
+    "Picking: the top two leaves and a bud are picked by hand from each tea bush",
+    "Collection: leaves are carried to the factory in baskets and weighed",
+    "Withering: leaves are spread on racks and exposed to warm air for 12-18 hours (about 60% of moisture lost)",
+    "Rolling: machines roll the leaves, breaking the cell walls and releasing natural juices",
+    "Oxidation: leaves are left in a humid room for 1-3 hours and turn from green to copper brown",
+    "Drying: hot-air dryers at around 100°C for 20 minutes",
+    "Sorting: vibrating sieves separate the tea into different leaf sizes",
+    "Grading: professional tasters grade each batch",
+    "Packing: tea is packed into foil-lined sacks or tea bags",
+    "Distribution: packed tea is shipped to wholesalers and shops"
+   ]
+  },
+  "prompt": "The diagram below shows how black tea is produced. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The diagram illustrates the stages involved in producing black tea, from picking the fresh leaves to delivering the finished product to shops.\n\nOverall, the process consists of ten stages, beginning in the tea fields and ending with distribution. Most of the steps take place in a factory, where the leaves are withered, rolled, oxidised and dried before being sorted, graded and packed.\n\nFirst, the top two leaves and a bud are picked by hand from each tea bush. These leaves are carried in baskets to the factory, where they are weighed. They are then spread out on racks and exposed to warm air for 12 to 18 hours and lose about 60% of their moisture. Next, the withered leaves are rolled by machine, which breaks their cell walls and releases their natural juices.\n\nAfter rolling, the leaves are left in a humid room for one to three hours to oxidise, and their colour changes from green to copper brown. They are subsequently dried in hot-air dryers at around 100°C for 20 minutes. The dried tea is passed through vibrating sieves to separate it into different leaf sizes, and each batch is graded by tasters. Finally, the tea is packed and shipped to wholesalers and shops.",
+  "overview": "Overall, the process consists of ten stages, beginning in the tea fields and ending with distribution.",
+  "notes": "Quy trình dùng thì hiện tại đơn và chủ yếu là câu bị động (are picked, are weighed, is graded). Tổng quan: số bước, điểm bắt đầu và kết thúc, nơi diễn ra phần lớn quy trình. Chia thân bài làm hai nửa: thân bài 1 từ hái lá đến cán (bước 1-4), thân bài 2 từ oxy hóa đến phân phối (bước 5-10). Dùng từ nối thứ tự đa dạng: First, then, Next, After rolling, subsequently, Finally. Giữ nguyên các thông số trong sơ đồ (12-18 giờ, 60%, 100°C, 20 phút).",
+  "phrases": [
+   [
+    "the stages involved in",
+    "các giai đoạn trong (quy trình)"
+   ],
+   [
+    "the process consists of ten stages",
+    "quy trình gồm mười giai đoạn"
+   ],
+   [
+    "beginning with ... and ending with ...",
+    "bắt đầu bằng ... và kết thúc bằng ..."
+   ],
+   [
+    "during which time",
+    "trong khoảng thời gian đó"
+   ],
+   [
+    "after rolling",
+    "sau khi cán (after + V-ing để nối bước)"
+   ],
+   [
+    "subsequently",
+    "sau đó (trang trọng hơn then)"
+   ],
+   [
+    "separate it into",
+    "phân tách thành"
+   ],
+   [
+    "be shipped to",
+    "được vận chuyển đến"
+   ]
+  ]
+ },
+ {
+  "id": "w1a12",
+  "title": "Changes to Ashford village",
+  "chart": {
+   "type": "map",
+   "title": "The village of Ashford in 1995 and 2025",
+   "before": {
+    "year": "1995",
+    "items": [
+     "Farmland covering all the land north of the river",
+     "One road bridge across the river in the centre of the village",
+     "Small fishing harbour on the east bank",
+     "Row of 12 houses along Main Road, south of the river",
+     "Primary school beside Main Road",
+     "Forest in the south-west corner",
+     "Railway line along the southern edge, with no station"
+    ]
+   },
+   "after": {
+    "year": "2025",
+    "items": [
+     "Housing estate of about 200 homes on the former farmland north of the river",
+     "Original road bridge kept; new footbridge to the east of it",
+     "Harbour converted into a marina with a café",
+     "Row of 12 houses on Main Road unchanged",
+     "Primary school extended, with a new sports field behind it",
+     "Eastern half of the forest cleared for a car park; western half kept",
+     "New railway station on the southern edge, next to the car park",
+     "Supermarket opposite the station"
+    ]
+   }
+  },
+  "prompt": "The maps below show the village of Ashford in 1995 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The maps illustrate the changes that took place in the riverside village of Ashford between 1995 and 2025.\n\nOverall, Ashford developed from a small rural settlement into a larger, better-connected community. The most significant changes were a large housing estate, a railway station and a new marina, although several original features were retained.\n\nIn 1995, the land north of the river was used entirely for farming. By 2025, this farmland had been replaced by a housing estate of about 200 homes. A footbridge was built across the river to the east of the original road bridge, which was kept. On the east bank, the small fishing harbour was converted into a marina with a café.\n\nSouth of the river, the row of 12 houses along Main Road remained unchanged, but the primary school was extended and a sports field was added behind it. The eastern half of the forest in the south-west corner made way for a car park, while the western half was preserved. Finally, although a railway line already ran along the southern edge of the village in 1995, there was no station until a new one was built next to the car park, with a supermarket opposite.",
+  "overview": "Overall, Ashford developed from a small rural settlement into a larger, better-connected community.",
+  "notes": "Bản đồ so sánh: dùng quá khứ đơn bị động và quá khứ hoàn thành (had been replaced) vì có mốc 'By 2025'. Tổng quan: xu hướng chung (từ làng nông thôn thành khu dân cư lớn hơn, giao thông tốt hơn) và 2-3 thay đổi lớn nhất. Chia thân bài theo vị trí: phía bắc sông và bờ sông ở thân bài 1, phía nam sông ở thân bài 2. Nhắc cả những gì giữ nguyên (cầu cũ, dãy 12 nhà, nửa khu rừng). Dùng từ chỉ phương hướng: north of, on the east bank, in the south-west corner, opposite.",
+  "phrases": [
+   [
+    "take place",
+    "diễn ra"
+   ],
+   [
+    "develop from ... into ...",
+    "phát triển từ ... thành ..."
+   ],
+   [
+    "be replaced by",
+    "được thay thế bằng"
+   ],
+   [
+    "be converted into",
+    "được chuyển đổi thành"
+   ],
+   [
+    "make way for",
+    "bị dỡ bỏ để nhường chỗ cho"
+   ],
+   [
+    "be retained / be preserved",
+    "được giữ lại"
+   ],
+   [
+    "remain unchanged",
+    "vẫn giữ nguyên"
+   ],
+   [
+    "to the east of / opposite",
+    "ở phía đông của / đối diện"
+   ]
+  ]
+ }
+]

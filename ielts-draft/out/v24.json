@@ -1,0 +1,1652 @@
+[
+ {
+  "w": "gut",
+  "ipa": "/ɡʌt/",
+  "pos": "n, adj",
+  "vi": "ruột, bụng; trực giác (gut feeling)",
+  "ex": "Scientists now believe that bacteria in the gut can strongly affect our mood and health.",
+  "exvi": "Các nhà khoa học hiện tin rằng vi khuẩn trong ruột có thể ảnh hưởng mạnh đến tâm trạng và sức khỏe của chúng ta.",
+  "col": [
+   "gut feeling",
+   "gut instinct",
+   "gut bacteria"
+  ],
+  "fam": "gutsy (adj), gutless (adj)",
+  "em": ""
+ },
+ {
+  "w": "consultation",
+  "ipa": "/ˌkɒnsəlˈteɪʃn/",
+  "pos": "n",
+  "vi": "sự tham khảo ý kiến, sự tham vấn; buổi khám, buổi tư vấn",
+  "ex": "The council made the decision after a long public consultation with local residents.",
+  "exvi": "Hội đồng đưa ra quyết định sau một đợt lấy ý kiến công chúng kéo dài với cư dân địa phương.",
+  "col": [
+   "public consultation",
+   "in consultation with",
+   "a consultation with a doctor"
+  ],
+  "fam": "consult (v), consultant (n), consultative (adj)",
+  "em": ""
+ },
+ {
+  "w": "auction",
+  "ipa": "/ˈɔːkʃn/",
+  "pos": "n, v",
+  "vi": "cuộc bán đấu giá; bán đấu giá (v)",
+  "ex": "The famous painting was sold at auction for more than ten million dollars.",
+  "exvi": "Bức tranh nổi tiếng đã được bán đấu giá với giá hơn mười triệu đô la.",
+  "col": [
+   "sell at auction",
+   "an online auction",
+   "auction off"
+  ],
+  "fam": "auctioneer (n)",
+  "em": "🔨"
+ },
+ {
+  "w": "republic",
+  "ipa": "/rɪˈpʌblɪk/",
+  "pos": "n",
+  "vi": "nước cộng hòa, nền cộng hòa",
+  "ex": "The country became a republic after the king gave up his power in 1946.",
+  "exvi": "Đất nước trở thành một nước cộng hòa sau khi nhà vua từ bỏ quyền lực vào năm 1946.",
+  "col": [
+   "a democratic republic",
+   "the People's Republic",
+   "declare a republic"
+  ],
+  "fam": "republican (adj, n)",
+  "em": ""
+ },
+ {
+  "w": "mortality",
+  "ipa": "/mɔːˈtæləti/",
+  "pos": "n",
+  "vi": "tỷ lệ tử vong; sự chết, tính không bất tử",
+  "ex": "Infant mortality has fallen sharply thanks to better healthcare and clean water.",
+  "exvi": "Tỷ lệ tử vong ở trẻ sơ sinh đã giảm mạnh nhờ chăm sóc y tế tốt hơn và nước sạch.",
+  "col": [
+   "infant mortality",
+   "mortality rate",
+   "child mortality"
+  ],
+  "fam": "mortal (adj, n), immortal (adj), immortality (n)",
+  "em": ""
+ },
+ {
+  "w": "overhead",
+  "ipa": "/ˈəʊvəhed/",
+  "pos": "adj, adv, n",
+  "vi": "ở trên đầu, trên cao (adj, adv); chi phí chung, chi phí vận hành (n)",
+  "ex": "Working from home helps small companies reduce overheads such as rent and electricity.",
+  "exvi": "Làm việc tại nhà giúp các công ty nhỏ giảm chi phí vận hành như tiền thuê và tiền điện.",
+  "col": [
+   "reduce overheads",
+   "overhead costs",
+   "fly overhead"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "formally",
+  "ipa": "/ˈfɔːməli/",
+  "pos": "adv",
+  "vi": "một cách chính thức; một cách trang trọng",
+  "ex": "The new library will be formally opened by the mayor next month.",
+  "exvi": "Thư viện mới sẽ được thị trưởng chính thức khánh thành vào tháng tới.",
+  "col": [
+   "formally announce",
+   "formally recognised",
+   "dress formally"
+  ],
+  "fam": "formal (adj), formality (n), informally (adv)",
+  "em": ""
+ },
+ {
+  "w": "verbal",
+  "ipa": "/ˈvɜːbl/",
+  "pos": "adj",
+  "vi": "bằng lời nói; thuộc về từ ngữ",
+  "ex": "Good verbal communication skills are essential for most jobs in customer service.",
+  "exvi": "Kỹ năng giao tiếp bằng lời tốt là điều thiết yếu đối với hầu hết công việc chăm sóc khách hàng.",
+  "col": [
+   "verbal communication",
+   "verbal agreement",
+   "verbal abuse"
+  ],
+  "fam": "verbally (adv), non-verbal (adj)",
+  "em": ""
+ },
+ {
+  "w": "ideology",
+  "ipa": "/ˌaɪdiˈɒlədʒi/",
+  "pos": "n",
+  "vi": "hệ tư tưởng, ý thức hệ",
+  "ex": "Political ideology often influences how people view issues like taxation and welfare.",
+  "exvi": "Hệ tư tưởng chính trị thường ảnh hưởng đến cách mọi người nhìn nhận các vấn đề như thuế và phúc lợi.",
+  "col": [
+   "political ideology",
+   "dominant ideology",
+   "a clash of ideologies"
+  ],
+  "fam": "ideological (adj), ideologically (adv)",
+  "em": ""
+ },
+ {
+  "w": "practitioner",
+  "ipa": "/prækˈtɪʃənə(r)/",
+  "pos": "n",
+  "vi": "người hành nghề (y, luật...); người thực hành",
+  "ex": "Patients should always consult a qualified medical practitioner before taking new medicine.",
+  "exvi": "Bệnh nhân nên luôn hỏi ý kiến một người hành nghề y có chuyên môn trước khi dùng thuốc mới.",
+  "col": [
+   "medical practitioner",
+   "general practitioner",
+   "health practitioner"
+  ],
+  "fam": "practise (v), practice (n), practical (adj)",
+  "em": ""
+ },
+ {
+  "w": "minimal",
+  "ipa": "/ˈmɪnɪml/",
+  "pos": "adj",
+  "vi": "tối thiểu, rất ít",
+  "ex": "The new solar panels can be installed with minimal disruption to the building.",
+  "exvi": "Các tấm pin mặt trời mới có thể được lắp đặt mà chỉ gây xáo trộn tối thiểu cho tòa nhà.",
+  "col": [
+   "minimal cost",
+   "minimal impact",
+   "minimal effort"
+  ],
+  "fam": "minimum (n, adj), minimise (v), minimally (adv)",
+  "em": ""
+ },
+ {
+  "w": "goodness",
+  "ipa": "/ˈɡʊdnəs/",
+  "pos": "n",
+  "vi": "lòng tốt, sự tốt đẹp; chất bổ (trong thức ăn)",
+  "ex": "Many people believe in the basic goodness of human nature despite the bad news.",
+  "exvi": "Nhiều người tin vào bản chất tốt đẹp cơ bản của con người bất chấp những tin xấu.",
+  "col": [
+   "human goodness",
+   "thank goodness",
+   "natural goodness"
+  ],
+  "fam": "good (adj, n)",
+  "em": ""
+ },
+ {
+  "w": "loop",
+  "ipa": "/luːp/",
+  "pos": "n, v",
+  "vi": "vòng, vòng lặp; vòng lại, quấn vòng (v)",
+  "ex": "Teachers should keep parents in the loop about their children's progress at school.",
+  "exvi": "Giáo viên nên thường xuyên cập nhật cho phụ huynh về sự tiến bộ của con em họ ở trường.",
+  "col": [
+   "keep somebody in the loop",
+   "feedback loop",
+   "a closed loop"
+  ],
+  "fam": "",
+  "em": "🔁"
+ },
+ {
+  "w": "allocation",
+  "ipa": "/ˌæləˈkeɪʃn/",
+  "pos": "n",
+  "vi": "sự phân bổ, sự phân phối; phần được phân bổ",
+  "ex": "The fair allocation of resources between schools remains a major challenge for the government.",
+  "exvi": "Việc phân bổ nguồn lực công bằng giữa các trường vẫn là thách thức lớn đối với chính phủ.",
+  "col": [
+   "resource allocation",
+   "budget allocation",
+   "allocation of funds"
+  ],
+  "fam": "allocate (v)",
+  "em": ""
+ },
+ {
+  "w": "mechanical",
+  "ipa": "/məˈkænɪkl/",
+  "pos": "adj",
+  "vi": "thuộc về máy móc, cơ khí; máy móc, theo thói quen",
+  "ex": "The flight was delayed for three hours because of a mechanical problem with the engine.",
+  "exvi": "Chuyến bay bị hoãn ba tiếng vì một sự cố cơ khí ở động cơ.",
+  "col": [
+   "mechanical engineering",
+   "mechanical failure",
+   "mechanical device"
+  ],
+  "fam": "mechanic (n), mechanism (n), mechanically (adv), mechanics (n)",
+  "em": "⚙️"
+ },
+ {
+  "w": "straightforward",
+  "ipa": "/ˌstreɪtˈfɔːwəd/",
+  "pos": "adj",
+  "vi": "đơn giản, dễ hiểu; thẳng thắn",
+  "ex": "Applying for a student visa is fairly straightforward if you prepare all the documents.",
+  "exvi": "Xin thị thực du học khá đơn giản nếu bạn chuẩn bị đầy đủ giấy tờ.",
+  "col": [
+   "a straightforward process",
+   "fairly straightforward",
+   "a straightforward answer"
+  ],
+  "fam": "straightforwardly (adv)",
+  "em": ""
+ },
+ {
+  "w": "chemistry",
+  "ipa": "/ˈkemɪstri/",
+  "pos": "n",
+  "vi": "hóa học; sự ăn ý, sự hợp nhau",
+  "ex": "She decided to study chemistry at university because she wanted to develop new medicines.",
+  "exvi": "Cô ấy quyết định học hóa học ở đại học vì muốn phát triển các loại thuốc mới.",
+  "col": [
+   "organic chemistry",
+   "a chemistry lab",
+   "good chemistry"
+  ],
+  "fam": "chemical (adj, n), chemist (n), chemically (adv)",
+  "em": "🧪"
+ },
+ {
+  "w": "obscure",
+  "ipa": "/əbˈskjʊə(r)/",
+  "pos": "adj, v",
+  "vi": "ít người biết, khó hiểu (adj); che khuất, làm mờ đi (v)",
+  "ex": "The article was written in obscure language that most readers found difficult to follow.",
+  "exvi": "Bài báo được viết bằng ngôn ngữ khó hiểu mà hầu hết người đọc thấy khó theo dõi.",
+  "col": [
+   "an obscure reason",
+   "relatively obscure",
+   "obscure the view"
+  ],
+  "fam": "obscurity (n)",
+  "em": ""
+ },
+ {
+  "w": "powder",
+  "ipa": "/ˈpaʊdə(r)/",
+  "pos": "n",
+  "vi": "bột, phấn",
+  "ex": "Mix the milk powder with warm water before giving it to the baby.",
+  "exvi": "Pha sữa bột với nước ấm trước khi cho em bé uống.",
+  "col": [
+   "milk powder",
+   "washing powder",
+   "chilli powder"
+  ],
+  "fam": "powdered (adj), powdery (adj)",
+  "em": ""
+ },
+ {
+  "w": "alien",
+  "ipa": "/ˈeɪliən/",
+  "pos": "adj, n",
+  "vi": "xa lạ, khác biệt (adj); người nước ngoài; người ngoài hành tinh (n)",
+  "ex": "Living in a big city felt completely alien to him after growing up on a farm.",
+  "exvi": "Sống ở thành phố lớn khiến anh ấy cảm thấy hoàn toàn xa lạ sau khi lớn lên ở trang trại.",
+  "col": [
+   "alien to somebody",
+   "an alien culture",
+   "alien species"
+  ],
+  "fam": "alienate (v), alienation (n)",
+  "em": "👽"
+ },
+ {
+  "w": "neutral",
+  "ipa": "/ˈnjuːtrəl/",
+  "pos": "adj",
+  "vi": "trung lập; trung tính, không thiên vị",
+  "ex": "Journalists are expected to remain neutral when reporting on political conflicts.",
+  "exvi": "Các nhà báo được kỳ vọng giữ thái độ trung lập khi đưa tin về các cuộc xung đột chính trị.",
+  "col": [
+   "remain neutral",
+   "carbon neutral",
+   "neutral colours"
+  ],
+  "fam": "neutrality (n), neutralise (v)",
+  "em": ""
+ },
+ {
+  "w": "historically",
+  "ipa": "/hɪˈstɒrɪkli/",
+  "pos": "adv",
+  "vi": "trong lịch sử, xét về mặt lịch sử",
+  "ex": "Historically, women have had fewer opportunities to study science and engineering.",
+  "exvi": "Trong lịch sử, phụ nữ có ít cơ hội học khoa học và kỹ thuật hơn.",
+  "col": [
+   "historically important",
+   "historically accurate",
+   "historically low"
+  ],
+  "fam": "history (n), historic (adj), historical (adj), historian (n)",
+  "em": ""
+ },
+ {
+  "w": "compensate",
+  "ipa": "/ˈkɒmpenseɪt/",
+  "pos": "v",
+  "vi": "bồi thường; bù đắp",
+  "ex": "The airline agreed to compensate passengers whose flights were cancelled.",
+  "exvi": "Hãng hàng không đồng ý bồi thường cho những hành khách bị hủy chuyến bay.",
+  "col": [
+   "compensate for",
+   "compensate somebody for",
+   "fully compensate"
+  ],
+  "fam": "compensation (n), compensatory (adj)",
+  "em": ""
+ },
+ {
+  "w": "accumulate",
+  "ipa": "/əˈkjuːmjəleɪt/",
+  "pos": "v",
+  "vi": "tích lũy, gom góp; dồn lại",
+  "ex": "Plastic waste continues to accumulate in the oceans at an alarming rate.",
+  "exvi": "Rác thải nhựa tiếp tục tích tụ trong đại dương với tốc độ đáng báo động.",
+  "col": [
+   "accumulate wealth",
+   "accumulate evidence",
+   "accumulate knowledge"
+  ],
+  "fam": "accumulation (n), accumulative (adj)",
+  "em": ""
+ },
+ {
+  "w": "marker",
+  "ipa": "/ˈmɑːkə(r)/",
+  "pos": "n",
+  "vi": "bút dạ, bút đánh dấu; dấu hiệu, chỉ dấu",
+  "ex": "High blood pressure can be an early marker of heart disease.",
+  "exvi": "Huyết áp cao có thể là một dấu hiệu sớm của bệnh tim.",
+  "col": [
+   "a marker pen",
+   "a genetic marker",
+   "an important marker"
+  ],
+  "fam": "mark (n, v)",
+  "em": "🖍️"
+ },
+ {
+  "w": "utilize",
+  "ipa": "/ˈjuːtəlaɪz/",
+  "pos": "v",
+  "vi": "tận dụng, sử dụng",
+  "ex": "Farmers can utilize modern technology to reduce water waste.",
+  "exvi": "Nông dân có thể tận dụng công nghệ hiện đại để giảm lãng phí nước.",
+  "col": [
+   "fully utilize",
+   "utilize resources",
+   "utilize technology"
+  ],
+  "fam": "utilization (n), utility (n)",
+  "em": ""
+ },
+ {
+  "w": "surgeon",
+  "ipa": "/ˈsɜːdʒən/",
+  "pos": "n",
+  "vi": "bác sĩ phẫu thuật",
+  "ex": "The surgeon successfully removed the tumour during a six-hour operation.",
+  "exvi": "Bác sĩ phẫu thuật đã cắt bỏ thành công khối u trong ca mổ kéo dài sáu tiếng.",
+  "col": [
+   "a heart surgeon",
+   "a plastic surgeon",
+   "a senior surgeon"
+  ],
+  "fam": "surgery (n), surgical (adj)",
+  "em": "🧑‍⚕️"
+ },
+ {
+  "w": "pulse",
+  "ipa": "/pʌls/",
+  "pos": "n, v",
+  "vi": "mạch, nhịp đập; đập theo nhịp (v)",
+  "ex": "The nurse checked his pulse and blood pressure before the operation.",
+  "exvi": "Y tá kiểm tra mạch và huyết áp của anh ấy trước ca phẫu thuật.",
+  "col": [
+   "take somebody's pulse",
+   "pulse rate",
+   "a weak pulse"
+  ],
+  "fam": "pulsate (v)",
+  "em": ""
+ },
+ {
+  "w": "embed",
+  "ipa": "/ɪmˈbed/",
+  "pos": "v",
+  "vi": "gắn vào, nhúng vào; ăn sâu, in sâu",
+  "ex": "Respect for elders is deeply embedded in many Asian cultures.",
+  "exvi": "Sự tôn trọng người lớn tuổi đã ăn sâu vào nhiều nền văn hóa châu Á.",
+  "col": [
+   "deeply embedded",
+   "embed in",
+   "embedded system"
+  ],
+  "fam": "embedded (adj), embedment (n)",
+  "em": ""
+ },
+ {
+  "w": "bleed",
+  "ipa": "/bliːd/",
+  "pos": "v",
+  "vi": "chảy máu; rút cạn (tiền, tài nguyên)",
+  "ex": "If a small cut keeps bleeding for a long time, you should see a doctor.",
+  "exvi": "Nếu một vết cắt nhỏ cứ chảy máu lâu, bạn nên đi khám bác sĩ.",
+  "col": [
+   "bleed heavily",
+   "bleed to death",
+   "start bleeding"
+  ],
+  "fam": "blood (n), bleeding (n), bloody (adj)",
+  "em": "🩸"
+ },
+ {
+  "w": "ruler",
+  "ipa": "/ˈruːlə(r)/",
+  "pos": "n",
+  "vi": "người cai trị, vua chúa; thước kẻ",
+  "ex": "The ancient ruler built a huge temple to show the power of his empire.",
+  "exvi": "Vị vua cổ đại đã xây một ngôi đền khổng lồ để thể hiện quyền lực của đế chế mình.",
+  "col": [
+   "a powerful ruler",
+   "a military ruler",
+   "a 30-centimetre ruler"
+  ],
+  "fam": "rule (n, v), ruling (adj, n)",
+  "em": "📏"
+ },
+ {
+  "w": "leaf",
+  "ipa": "/liːf/",
+  "pos": "n",
+  "vi": "lá cây; tờ (giấy, sách)",
+  "ex": "In autumn, the leaves turn yellow and red before falling from the trees.",
+  "exvi": "Vào mùa thu, lá cây chuyển sang màu vàng và đỏ trước khi rụng khỏi cành.",
+  "col": [
+   "fallen leaves",
+   "tea leaves",
+   "turn over a new leaf"
+  ],
+  "fam": "leafy (adj), leaflet (n)",
+  "em": "🍃"
+ },
+ {
+  "w": "partially",
+  "ipa": "/ˈpɑːʃəli/",
+  "pos": "adv",
+  "vi": "một phần, không hoàn toàn",
+  "ex": "The road was partially closed while workers repaired the damage caused by the flood.",
+  "exvi": "Con đường bị đóng một phần trong khi công nhân sửa chữa thiệt hại do lũ gây ra.",
+  "col": [
+   "partially responsible",
+   "partially successful",
+   "partially sighted"
+  ],
+  "fam": "partial (adj), part (n)",
+  "em": ""
+ },
+ {
+  "w": "aggregate",
+  "ipa": "/ˈæɡrɪɡət/",
+  "pos": "n, adj, v",
+  "vi": "tổng số, tổng thể (n, adj); gộp lại, tổng hợp (v)",
+  "ex": "The researchers aggregated data from more than fifty studies to reach their conclusion.",
+  "exvi": "Các nhà nghiên cứu tổng hợp dữ liệu từ hơn năm mươi nghiên cứu để đưa ra kết luận.",
+  "col": [
+   "in aggregate",
+   "aggregate demand",
+   "aggregate data"
+  ],
+  "fam": "aggregation (n)",
+  "em": ""
+ },
+ {
+  "w": "thesis",
+  "ipa": "/ˈθiːsɪs/",
+  "pos": "n",
+  "vi": "luận văn, luận án; luận điểm",
+  "ex": "She spent two years writing her thesis on renewable energy in developing countries.",
+  "exvi": "Cô ấy dành hai năm viết luận văn về năng lượng tái tạo ở các nước đang phát triển.",
+  "col": [
+   "a doctoral thesis",
+   "write a thesis",
+   "the central thesis"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "monkey",
+  "ipa": "/ˈmʌŋki/",
+  "pos": "n",
+  "vi": "con khỉ",
+  "ex": "Tourists are warned not to feed the monkeys in the national park.",
+  "exvi": "Du khách được cảnh báo không cho khỉ ăn trong vườn quốc gia.",
+  "col": [
+   "a wild monkey",
+   "monkey business",
+   "a group of monkeys"
+  ],
+  "fam": "",
+  "em": "🐒"
+ },
+ {
+  "w": "activate",
+  "ipa": "/ˈæktɪveɪt/",
+  "pos": "v",
+  "vi": "kích hoạt, làm cho hoạt động",
+  "ex": "You need to activate your student account before you can access the online library.",
+  "exvi": "Bạn cần kích hoạt tài khoản sinh viên trước khi có thể truy cập thư viện trực tuyến.",
+  "col": [
+   "activate an account",
+   "activate an alarm",
+   "be activated by"
+  ],
+  "fam": "activation (n), active (adj), activity (n)",
+  "em": ""
+ },
+ {
+  "w": "conceive",
+  "ipa": "/kənˈsiːv/",
+  "pos": "v",
+  "vi": "hình thành (ý tưởng), nghĩ ra; hình dung; thụ thai",
+  "ex": "The idea for the app was first conceived by two university students.",
+  "exvi": "Ý tưởng cho ứng dụng lần đầu được hai sinh viên đại học nghĩ ra.",
+  "col": [
+   "conceive an idea",
+   "conceive of",
+   "difficult to conceive"
+  ],
+  "fam": "conception (n), concept (n), conceivable (adj), inconceivable (adj)",
+  "em": ""
+ },
+ {
+  "w": "intensive",
+  "ipa": "/ɪnˈtensɪv/",
+  "pos": "adj",
+  "vi": "chuyên sâu, cấp tốc; tập trung nhiều (lao động, vốn)",
+  "ex": "She took an intensive English course for six weeks before moving to Australia.",
+  "exvi": "Cô ấy học một khóa tiếng Anh cấp tốc trong sáu tuần trước khi chuyển đến Úc.",
+  "col": [
+   "intensive care",
+   "an intensive course",
+   "labour-intensive"
+  ],
+  "fam": "intensify (v), intense (adj), intensity (n), intensively (adv)",
+  "em": ""
+ },
+ {
+  "w": "overlap",
+  "ipa": "/ˌəʊvəˈlæp/",
+  "pos": "v, n",
+  "vi": "trùng lặp, chồng lên nhau (v); sự trùng lặp (n)",
+  "ex": "There is a lot of overlap between the two subjects, so students often study both.",
+  "exvi": "Hai môn học có nhiều phần trùng lặp, vì vậy sinh viên thường học cả hai.",
+  "col": [
+   "overlap with",
+   "a degree of overlap",
+   "overlapping interests"
+  ],
+  "fam": "overlapping (adj)",
+  "em": ""
+ },
+ {
+  "w": "manipulate",
+  "ipa": "/məˈnɪpjuleɪt/",
+  "pos": "v",
+  "vi": "thao túng, lôi kéo; điều khiển, xử lý (dữ liệu, đồ vật)",
+  "ex": "Some advertisements manipulate children into wanting unhealthy food.",
+  "exvi": "Một số quảng cáo thao túng trẻ em khiến chúng muốn ăn đồ ăn không lành mạnh.",
+  "col": [
+   "manipulate data",
+   "manipulate public opinion",
+   "easily manipulated"
+  ],
+  "fam": "manipulation (n), manipulative (adj)",
+  "em": ""
+ },
+ {
+  "w": "skip",
+  "ipa": "/skɪp/",
+  "pos": "v, n",
+  "vi": "bỏ qua, bỏ (bữa, lớp); nhảy nhót (v)",
+  "ex": "Many students skip breakfast, which can affect their concentration in class.",
+  "exvi": "Nhiều học sinh bỏ bữa sáng, điều này có thể ảnh hưởng đến khả năng tập trung trong lớp.",
+  "col": [
+   "skip breakfast",
+   "skip a class",
+   "skip a step"
+  ],
+  "fam": "",
+  "em": "⏭️"
+ },
+ {
+  "w": "orientation",
+  "ipa": "/ˌɔːriənˈteɪʃn/",
+  "pos": "n",
+  "vi": "định hướng, xu hướng; buổi định hướng (cho người mới)",
+  "ex": "All new students must attend an orientation session during their first week.",
+  "exvi": "Tất cả sinh viên mới phải tham dự một buổi định hướng trong tuần đầu tiên.",
+  "col": [
+   "orientation week",
+   "career orientation",
+   "sexual orientation"
+  ],
+  "fam": "orient (v), orientate (v), oriented (adj)",
+  "em": ""
+ },
+ {
+  "w": "equality",
+  "ipa": "/iˈkwɒləti/",
+  "pos": "n",
+  "vi": "sự bình đẳng",
+  "ex": "Gender equality in the workplace has improved, but women still earn less than men.",
+  "exvi": "Bình đẳng giới ở nơi làm việc đã được cải thiện, nhưng phụ nữ vẫn kiếm ít tiền hơn nam giới.",
+  "col": [
+   "gender equality",
+   "equality of opportunity",
+   "racial equality"
+  ],
+  "fam": "equal (adj), equally (adv), inequality (n), equalise (v)",
+  "em": ""
+ },
+ {
+  "w": "developmental",
+  "ipa": "/dɪˌveləpˈmentl/",
+  "pos": "adj",
+  "vi": "thuộc về sự phát triển",
+  "ex": "Playing with other children is important for a child's developmental progress.",
+  "exvi": "Chơi với những đứa trẻ khác rất quan trọng đối với quá trình phát triển của trẻ.",
+  "col": [
+   "developmental stage",
+   "developmental psychology",
+   "developmental delay"
+  ],
+  "fam": "develop (v), development (n), developing (adj)",
+  "em": ""
+ },
+ {
+  "w": "articulate",
+  "ipa": "/ɑːˈtɪkjuleɪt/",
+  "pos": "v, adj",
+  "vi": "diễn đạt rõ ràng (v); nói năng lưu loát, rõ ràng (adj, /ɑːˈtɪkjələt/)",
+  "ex": "Good leaders can articulate their ideas clearly to people at every level.",
+  "exvi": "Những nhà lãnh đạo giỏi có thể diễn đạt ý tưởng của mình rõ ràng với mọi người ở mọi cấp bậc.",
+  "col": [
+   "articulate a vision",
+   "clearly articulated",
+   "highly articulate"
+  ],
+  "fam": "articulation (n), articulately (adv)",
+  "em": ""
+ },
+ {
+  "w": "ethical",
+  "ipa": "/ˈeθɪkl/",
+  "pos": "adj",
+  "vi": "thuộc về đạo đức; có đạo đức, đúng đắn",
+  "ex": "Testing new products on animals raises serious ethical questions.",
+  "exvi": "Việc thử nghiệm sản phẩm mới trên động vật đặt ra những câu hỏi nghiêm túc về đạo đức.",
+  "col": [
+   "ethical issues",
+   "ethical standards",
+   "ethical consumer"
+  ],
+  "fam": "ethics (n), ethically (adv), unethical (adj)",
+  "em": ""
+ },
+ {
+  "w": "weave",
+  "ipa": "/wiːv/",
+  "pos": "v",
+  "vi": "dệt, đan; len lỏi; lồng ghép (câu chuyện)",
+  "ex": "Women in this village still weave traditional cloth by hand.",
+  "exvi": "Phụ nữ ở ngôi làng này vẫn dệt vải truyền thống bằng tay.",
+  "col": [
+   "weave cloth",
+   "weave a story",
+   "weave through traffic"
+  ],
+  "fam": "weaver (n), woven (adj)",
+  "em": "🧶"
+ },
+ {
+  "w": "locally",
+  "ipa": "/ˈləʊkəli/",
+  "pos": "adv",
+  "vi": "tại địa phương, ở gần đây",
+  "ex": "Buying food that is grown locally reduces the pollution caused by transport.",
+  "exvi": "Mua thực phẩm được trồng tại địa phương giúp giảm ô nhiễm do vận chuyển.",
+  "col": [
+   "locally grown",
+   "locally produced",
+   "work locally"
+  ],
+  "fam": "local (adj, n), locality (n), localise (v)",
+  "em": ""
+ },
+ {
+  "w": "presume",
+  "ipa": "/prɪˈzjuːm/",
+  "pos": "v",
+  "vi": "cho là, đoán chắc, coi như",
+  "ex": "People often presume that older workers cannot learn new technology quickly.",
+  "exvi": "Mọi người thường cho rằng người lao động lớn tuổi không thể học công nghệ mới nhanh chóng.",
+  "col": [
+   "presume that",
+   "presumed innocent",
+   "I presume"
+  ],
+  "fam": "presumption (n), presumably (adv), presumptuous (adj)",
+  "em": ""
+ },
+ {
+  "w": "parental",
+  "ipa": "/pəˈrentl/",
+  "pos": "adj",
+  "vi": "thuộc về cha mẹ",
+  "ex": "Parental involvement has a strong influence on children's success at school.",
+  "exvi": "Sự tham gia của cha mẹ có ảnh hưởng lớn đến thành công của trẻ ở trường.",
+  "col": [
+   "parental leave",
+   "parental involvement",
+   "parental control"
+  ],
+  "fam": "parent (n), parenting (n), parenthood (n)",
+  "em": ""
+ },
+ {
+  "w": "peasant",
+  "ipa": "/ˈpeznt/",
+  "pos": "n",
+  "vi": "nông dân (nghèo, thời xưa)",
+  "ex": "In the past, most peasants worked on land owned by wealthy families.",
+  "exvi": "Ngày xưa, hầu hết nông dân làm việc trên đất của những gia đình giàu có.",
+  "col": [
+   "a poor peasant",
+   "peasant farmers",
+   "peasant uprising"
+  ],
+  "fam": "peasantry (n)",
+  "em": ""
+ },
+ {
+  "w": "chronic",
+  "ipa": "/ˈkrɒnɪk/",
+  "pos": "adj",
+  "vi": "mãn tính, kinh niên; trầm trọng, kéo dài",
+  "ex": "Lack of exercise increases the risk of chronic diseases such as diabetes.",
+  "exvi": "Thiếu vận động làm tăng nguy cơ mắc các bệnh mãn tính như tiểu đường.",
+  "col": [
+   "chronic disease",
+   "chronic pain",
+   "chronic shortage"
+  ],
+  "fam": "chronically (adv)",
+  "em": ""
+ },
+ {
+  "w": "flip",
+  "ipa": "/flɪp/",
+  "pos": "v, n",
+  "vi": "lật, búng, lật nhanh; chuyển đổi nhanh (v)",
+  "ex": "Before the match, the referee flipped a coin to decide which team would start.",
+  "exvi": "Trước trận đấu, trọng tài tung đồng xu để quyết định đội nào được đá trước.",
+  "col": [
+   "flip a coin",
+   "flip through a book",
+   "the flip side"
+  ],
+  "fam": "flippant (adj)",
+  "em": "🪙"
+ },
+ {
+  "w": "sensation",
+  "ipa": "/senˈseɪʃn/",
+  "pos": "n",
+  "vi": "cảm giác; sự náo động, cơn sốt",
+  "ex": "Some patients reported a burning sensation after taking the medicine.",
+  "exvi": "Một số bệnh nhân cho biết có cảm giác nóng rát sau khi uống thuốc.",
+  "col": [
+   "a burning sensation",
+   "cause a sensation",
+   "an overnight sensation"
+  ],
+  "fam": "sensational (adj), sense (n, v), sensory (adj)",
+  "em": ""
+ },
+ {
+  "w": "organism",
+  "ipa": "/ˈɔːɡənɪzəm/",
+  "pos": "n",
+  "vi": "sinh vật, cơ thể sống",
+  "ex": "Tiny organisms in the soil help break down dead plants and animals.",
+  "exvi": "Những sinh vật nhỏ bé trong đất giúp phân hủy xác thực vật và động vật.",
+  "col": [
+   "living organism",
+   "genetically modified organism",
+   "marine organisms"
+  ],
+  "fam": "organic (adj), organ (n)",
+  "em": "🦠"
+ },
+ {
+  "w": "acute",
+  "ipa": "/əˈkjuːt/",
+  "pos": "adj",
+  "vi": "nghiêm trọng, gay gắt; cấp tính; nhạy bén",
+  "ex": "There is an acute shortage of nurses in many rural hospitals.",
+  "exvi": "Nhiều bệnh viện nông thôn đang thiếu y tá nghiêm trọng.",
+  "col": [
+   "an acute shortage",
+   "acute pain",
+   "acute awareness"
+  ],
+  "fam": "acutely (adv), acuteness (n)",
+  "em": ""
+ },
+ {
+  "w": "unity",
+  "ipa": "/ˈjuːnəti/",
+  "pos": "n",
+  "vi": "sự đoàn kết, sự thống nhất",
+  "ex": "The festival helps promote national unity among people from different backgrounds.",
+  "exvi": "Lễ hội giúp thúc đẩy sự đoàn kết dân tộc giữa những người có xuất thân khác nhau.",
+  "col": [
+   "national unity",
+   "a sense of unity",
+   "unity and solidarity"
+  ],
+  "fam": "unite (v), united (adj), unify (v)",
+  "em": ""
+ },
+ {
+  "w": "tumor",
+  "ipa": "/ˈtjuːmə(r)/",
+  "pos": "n",
+  "vi": "khối u",
+  "ex": "Doctors found a small tumor in her lung during a routine check-up.",
+  "exvi": "Các bác sĩ phát hiện một khối u nhỏ trong phổi của cô ấy trong một lần khám định kỳ.",
+  "col": [
+   "a brain tumor",
+   "a malignant tumor",
+   "remove a tumor"
+  ],
+  "fam": "tumorous (adj)",
+  "em": ""
+ },
+ {
+  "w": "trait",
+  "ipa": "/treɪt/",
+  "pos": "n",
+  "vi": "đặc điểm, nét tính cách",
+  "ex": "Patience is an important personality trait for anyone who wants to become a teacher.",
+  "exvi": "Kiên nhẫn là một nét tính cách quan trọng đối với bất kỳ ai muốn trở thành giáo viên.",
+  "col": [
+   "personality trait",
+   "genetic trait",
+   "a common trait"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "compact",
+  "ipa": "/kəmˈpækt/",
+  "pos": "adj, v, n",
+  "vi": "nhỏ gọn, chặt chẽ (adj); nén chặt (v)",
+  "ex": "Compact cars are popular in big cities because they are easy to park.",
+  "exvi": "Xe ô tô nhỏ gọn được ưa chuộng ở các thành phố lớn vì dễ đỗ.",
+  "col": [
+   "a compact car",
+   "compact design",
+   "compact disc"
+  ],
+  "fam": "compactly (adv), compactness (n)",
+  "em": ""
+ },
+ {
+  "w": "commentary",
+  "ipa": "/ˈkɒməntri/",
+  "pos": "n",
+  "vi": "lời bình luận, bài bình luận; tường thuật (thể thao)",
+  "ex": "The documentary includes a commentary by a leading expert on climate change.",
+  "exvi": "Bộ phim tài liệu có lời bình của một chuyên gia hàng đầu về biến đổi khí hậu.",
+  "col": [
+   "live commentary",
+   "social commentary",
+   "provide a commentary"
+  ],
+  "fam": "comment (n, v), commentator (n), commentate (v)",
+  "em": ""
+ },
+ {
+  "w": "configuration",
+  "ipa": "/kənˌfɪɡəˈreɪʃn/",
+  "pos": "n",
+  "vi": "cấu hình; cách sắp xếp, bố trí",
+  "ex": "The computer's configuration can be changed to improve its performance.",
+  "exvi": "Cấu hình máy tính có thể được thay đổi để cải thiện hiệu suất.",
+  "col": [
+   "system configuration",
+   "network configuration",
+   "a different configuration"
+  ],
+  "fam": "configure (v)",
+  "em": ""
+ },
+ {
+  "w": "modification",
+  "ipa": "/ˌmɒdɪfɪˈkeɪʃn/",
+  "pos": "n",
+  "vi": "sự sửa đổi, sự điều chỉnh",
+  "ex": "A few modifications to the design made the building much more energy-efficient.",
+  "exvi": "Một vài sửa đổi trong thiết kế đã giúp tòa nhà tiết kiệm năng lượng hơn nhiều.",
+  "col": [
+   "minor modification",
+   "genetic modification",
+   "behaviour modification"
+  ],
+  "fam": "modify (v), modified (adj)",
+  "em": ""
+ },
+ {
+  "w": "instinct",
+  "ipa": "/ˈɪnstɪŋkt/",
+  "pos": "n",
+  "vi": "bản năng; trực giác",
+  "ex": "Birds know by instinct when it is time to fly south for the winter.",
+  "exvi": "Chim biết theo bản năng khi nào đến lúc bay về phương nam tránh rét.",
+  "col": [
+   "by instinct",
+   "survival instinct",
+   "trust your instincts"
+  ],
+  "fam": "instinctive (adj), instinctively (adv)",
+  "em": ""
+ },
+ {
+  "w": "container",
+  "ipa": "/kənˈteɪnə(r)/",
+  "pos": "n",
+  "vi": "đồ đựng, hộp, thùng; công-te-nơ",
+  "ex": "Restaurants are being encouraged to replace plastic containers with paper ones.",
+  "exvi": "Các nhà hàng đang được khuyến khích thay hộp đựng bằng nhựa bằng hộp giấy.",
+  "col": [
+   "plastic container",
+   "shipping container",
+   "an airtight container"
+  ],
+  "fam": "contain (v), containment (n)",
+  "em": "📦"
+ },
+ {
+  "w": "likelihood",
+  "ipa": "/ˈlaɪklihʊd/",
+  "pos": "n",
+  "vi": "khả năng xảy ra",
+  "ex": "Regular exercise reduces the likelihood of developing heart problems.",
+  "exvi": "Tập thể dục đều đặn làm giảm khả năng mắc các vấn đề về tim.",
+  "col": [
+   "in all likelihood",
+   "increase the likelihood",
+   "the likelihood of"
+  ],
+  "fam": "likely (adj), unlikely (adj)",
+  "em": ""
+ },
+ {
+  "w": "conception",
+  "ipa": "/kənˈsepʃn/",
+  "pos": "n",
+  "vi": "quan niệm, khái niệm; sự hình thành (ý tưởng); sự thụ thai",
+  "ex": "Children often have a very different conception of time from adults.",
+  "exvi": "Trẻ em thường có quan niệm về thời gian rất khác so với người lớn.",
+  "col": [
+   "a clear conception",
+   "from conception to completion",
+   "popular conception"
+  ],
+  "fam": "conceive (v), concept (n), conceptual (adj)",
+  "em": ""
+ },
+ {
+  "w": "biology",
+  "ipa": "/baɪˈɒlədʒi/",
+  "pos": "n",
+  "vi": "sinh học",
+  "ex": "Students who study biology learn how living things grow and interact with their environment.",
+  "exvi": "Học sinh học sinh học sẽ tìm hiểu cách sinh vật phát triển và tương tác với môi trường.",
+  "col": [
+   "marine biology",
+   "human biology",
+   "molecular biology"
+  ],
+  "fam": "biological (adj), biologist (n), biologically (adv)",
+  "em": "🧬"
+ },
+ {
+  "w": "metaphor",
+  "ipa": "/ˈmetəfə(r)/",
+  "pos": "n",
+  "vi": "phép ẩn dụ; hình ảnh tượng trưng",
+  "ex": "The writer uses the river as a metaphor for the passing of time.",
+  "exvi": "Nhà văn dùng dòng sông như một ẩn dụ cho sự trôi qua của thời gian.",
+  "col": [
+   "a metaphor for",
+   "use a metaphor",
+   "mixed metaphor"
+  ],
+  "fam": "metaphorical (adj), metaphorically (adv)",
+  "em": ""
+ },
+ {
+  "w": "audio",
+  "ipa": "/ˈɔːdiəʊ/",
+  "pos": "adj, n",
+  "vi": "thuộc về âm thanh; âm thanh, bản ghi âm",
+  "ex": "Many museums now offer audio guides in several languages for foreign visitors.",
+  "exvi": "Nhiều bảo tàng hiện cung cấp thiết bị hướng dẫn bằng âm thanh bằng nhiều ngôn ngữ cho du khách nước ngoài.",
+  "col": [
+   "audio guide",
+   "audio recording",
+   "audio file"
+  ],
+  "fam": "audible (adj), audience (n)",
+  "em": "🎧"
+ },
+ {
+  "w": "closure",
+  "ipa": "/ˈkləʊʒə(r)/",
+  "pos": "n",
+  "vi": "sự đóng cửa; sự khép lại (cảm xúc)",
+  "ex": "The closure of the local factory left hundreds of people without jobs.",
+  "exvi": "Việc nhà máy địa phương đóng cửa khiến hàng trăm người mất việc.",
+  "col": [
+   "factory closure",
+   "road closure",
+   "school closure"
+  ],
+  "fam": "close (v), closed (adj)",
+  "em": ""
+ },
+ {
+  "w": "dilemma",
+  "ipa": "/dɪˈlemə/",
+  "pos": "n",
+  "vi": "tình thế khó xử, thế tiến thoái lưỡng nan",
+  "ex": "Many graduates face the dilemma of choosing between a well-paid job and one they enjoy.",
+  "exvi": "Nhiều sinh viên tốt nghiệp đối mặt với tình thế khó xử giữa một công việc lương cao và một công việc họ yêu thích.",
+  "col": [
+   "face a dilemma",
+   "a moral dilemma",
+   "ethical dilemma"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "colonial",
+  "ipa": "/kəˈləʊniəl/",
+  "pos": "adj",
+  "vi": "thuộc địa, thời thuộc địa",
+  "ex": "Many buildings in the city centre date back to the colonial period.",
+  "exvi": "Nhiều tòa nhà ở trung tâm thành phố có từ thời thuộc địa.",
+  "col": [
+   "colonial rule",
+   "colonial period",
+   "colonial architecture"
+  ],
+  "fam": "colony (n), colonise (v), colonialism (n)",
+  "em": ""
+ },
+ {
+  "w": "diagnose",
+  "ipa": "/ˈdaɪəɡnəʊz/",
+  "pos": "v",
+  "vi": "chẩn đoán",
+  "ex": "Early tests can diagnose the disease before any symptoms appear.",
+  "exvi": "Các xét nghiệm sớm có thể chẩn đoán bệnh trước khi bất kỳ triệu chứng nào xuất hiện.",
+  "col": [
+   "diagnose with",
+   "be diagnosed with",
+   "correctly diagnose"
+  ],
+  "fam": "diagnosis (n), diagnostic (adj)",
+  "em": ""
+ },
+ {
+  "w": "invade",
+  "ipa": "/ɪnˈveɪd/",
+  "pos": "v",
+  "vi": "xâm lược, xâm chiếm; xâm phạm",
+  "ex": "Some people feel that social media apps invade their privacy.",
+  "exvi": "Một số người cảm thấy các ứng dụng mạng xã hội xâm phạm quyền riêng tư của họ.",
+  "col": [
+   "invade a country",
+   "invade privacy",
+   "invade territory"
+  ],
+  "fam": "invasion (n), invader (n), invasive (adj)",
+  "em": ""
+ },
+ {
+  "w": "accurately",
+  "ipa": "/ˈækjərətli/",
+  "pos": "adv",
+  "vi": "một cách chính xác",
+  "ex": "It is difficult to predict accurately how the climate will change over the next century.",
+  "exvi": "Rất khó dự đoán chính xác khí hậu sẽ thay đổi thế nào trong thế kỷ tới.",
+  "col": [
+   "accurately predict",
+   "accurately reflect",
+   "measure accurately"
+  ],
+  "fam": "accurate (adj), accuracy (n), inaccurately (adv)",
+  "em": ""
+ },
+ {
+  "w": "stereotype",
+  "ipa": "/ˈsteriətaɪp/",
+  "pos": "n, v",
+  "vi": "khuôn mẫu, định kiến (n); rập khuôn, gán định kiến (v)",
+  "ex": "Films sometimes reinforce negative stereotypes about certain groups of people.",
+  "exvi": "Phim ảnh đôi khi củng cố những định kiến tiêu cực về một số nhóm người.",
+  "col": [
+   "gender stereotype",
+   "negative stereotype",
+   "challenge stereotypes"
+  ],
+  "fam": "stereotypical (adj), stereotyped (adj)",
+  "em": ""
+ },
+ {
+  "w": "specialty",
+  "ipa": "/ˈspeʃəlti/",
+  "pos": "n",
+  "vi": "đặc sản; chuyên môn, chuyên ngành",
+  "ex": "Grilled fish is a specialty of this coastal town.",
+  "exvi": "Cá nướng là một đặc sản của thị trấn ven biển này.",
+  "col": [
+   "local specialty",
+   "medical specialty",
+   "a specialty of the house"
+  ],
+  "fam": "special (adj), specialise (v), specialist (n)",
+  "em": ""
+ },
+ {
+  "w": "positively",
+  "ipa": "/ˈpɒzətɪvli/",
+  "pos": "adv",
+  "vi": "một cách tích cực; thực sự, hoàn toàn",
+  "ex": "Most employees responded positively to the idea of a four-day working week.",
+  "exvi": "Hầu hết nhân viên phản hồi tích cực với ý tưởng tuần làm việc bốn ngày.",
+  "col": [
+   "respond positively",
+   "think positively",
+   "positively affect"
+  ],
+  "fam": "positive (adj), positivity (n)",
+  "em": ""
+ },
+ {
+  "w": "threshold",
+  "ipa": "/ˈθreʃhəʊld/",
+  "pos": "n",
+  "vi": "ngưỡng; ngưỡng cửa",
+  "ex": "Families whose income falls below a certain threshold can receive free healthcare.",
+  "exvi": "Các gia đình có thu nhập dưới một ngưỡng nhất định có thể được chăm sóc y tế miễn phí.",
+  "col": [
+   "on the threshold of",
+   "pain threshold",
+   "a low threshold"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "systematic",
+  "ipa": "/ˌsɪstəˈmætɪk/",
+  "pos": "adj",
+  "vi": "có hệ thống, có phương pháp",
+  "ex": "A systematic approach to revision can help students remember more information.",
+  "exvi": "Cách ôn tập có hệ thống có thể giúp học sinh nhớ được nhiều thông tin hơn.",
+  "col": [
+   "a systematic approach",
+   "systematic review",
+   "systematic study"
+  ],
+  "fam": "system (n), systematically (adv), systemic (adj)",
+  "em": ""
+ },
+ {
+  "w": "inject",
+  "ipa": "/ɪnˈdʒekt/",
+  "pos": "v",
+  "vi": "tiêm; đưa vào, bơm vào (tiền, sinh khí)",
+  "ex": "The government plans to inject more money into public transport.",
+  "exvi": "Chính phủ có kế hoạch bơm thêm tiền vào giao thông công cộng.",
+  "col": [
+   "inject money into",
+   "inject a drug",
+   "inject new life into"
+  ],
+  "fam": "injection (n)",
+  "em": "💉"
+ },
+ {
+  "w": "likewise",
+  "ipa": "/ˈlaɪkwaɪz/",
+  "pos": "adv",
+  "vi": "tương tự, cũng vậy",
+  "ex": "Cars produce a lot of pollution; likewise, planes contribute heavily to carbon emissions.",
+  "exvi": "Ô tô gây ra nhiều ô nhiễm; tương tự, máy bay đóng góp lớn vào lượng khí thải carbon.",
+  "col": [
+   "do likewise",
+   "and likewise",
+   "likewise for"
+  ],
+  "fam": "like (prep, adj)",
+  "em": ""
+ },
+ {
+  "w": "liver",
+  "ipa": "/ˈlɪvə(r)/",
+  "pos": "n",
+  "vi": "gan",
+  "ex": "Drinking too much alcohol over many years can seriously damage the liver.",
+  "exvi": "Uống quá nhiều rượu trong nhiều năm có thể gây tổn thương nghiêm trọng cho gan.",
+  "col": [
+   "liver disease",
+   "liver damage",
+   "liver failure"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "hormone",
+  "ipa": "/ˈhɔːməʊn/",
+  "pos": "n",
+  "vi": "hormone, nội tiết tố",
+  "ex": "Stress hormones can affect sleep, appetite and the immune system.",
+  "exvi": "Hormone căng thẳng có thể ảnh hưởng đến giấc ngủ, sự thèm ăn và hệ miễn dịch.",
+  "col": [
+   "growth hormone",
+   "stress hormone",
+   "hormone levels"
+  ],
+  "fam": "hormonal (adj)",
+  "em": ""
+ },
+ {
+  "w": "thumb",
+  "ipa": "/θʌm/",
+  "pos": "n",
+  "vi": "ngón tay cái",
+  "ex": "As a rule of thumb, you should drink about two litres of water a day.",
+  "exvi": "Theo kinh nghiệm chung, bạn nên uống khoảng hai lít nước mỗi ngày.",
+  "col": [
+   "rule of thumb",
+   "thumbs up",
+   "under somebody's thumb"
+  ],
+  "fam": "thumbnail (n)",
+  "em": "👍"
+ },
+ {
+  "w": "quotation",
+  "ipa": "/kwəʊˈteɪʃn/",
+  "pos": "n",
+  "vi": "trích dẫn, câu trích dẫn; bảng báo giá",
+  "ex": "Students should use quotation marks when they copy words from another writer.",
+  "exvi": "Học sinh nên dùng dấu ngoặc kép khi chép lại lời của một tác giả khác.",
+  "col": [
+   "quotation marks",
+   "a direct quotation",
+   "get a quotation"
+  ],
+  "fam": "quote (v, n)",
+  "em": ""
+ },
+ {
+  "w": "independently",
+  "ipa": "/ˌɪndɪˈpendəntli/",
+  "pos": "adv",
+  "vi": "một cách độc lập",
+  "ex": "University students are expected to study independently without constant guidance.",
+  "exvi": "Sinh viên đại học được kỳ vọng tự học một cách độc lập mà không cần hướng dẫn thường xuyên.",
+  "col": [
+   "work independently",
+   "live independently",
+   "independently of"
+  ],
+  "fam": "independent (adj), independence (n)",
+  "em": ""
+ },
+ {
+  "w": "cheat",
+  "ipa": "/tʃiːt/",
+  "pos": "v, n",
+  "vi": "gian lận, lừa đảo (v); kẻ gian lận (n)",
+  "ex": "Students who cheat in exams may be expelled from the university.",
+  "exvi": "Sinh viên gian lận trong kỳ thi có thể bị đuổi khỏi trường đại học.",
+  "col": [
+   "cheat in an exam",
+   "cheat on somebody",
+   "feel cheated"
+  ],
+  "fam": "cheating (n), cheater (n)",
+  "em": ""
+ },
+ {
+  "w": "super",
+  "ipa": "/ˈsuːpə(r)/",
+  "pos": "adj, adv",
+  "vi": "tuyệt vời; cực kỳ, siêu",
+  "ex": "The new train is super fast and connects the two cities in under an hour.",
+  "exvi": "Tàu mới cực kỳ nhanh và nối liền hai thành phố trong chưa đầy một giờ.",
+  "col": [
+   "super fast",
+   "super rich",
+   "a super idea"
+  ],
+  "fam": "superb (adj), superior (adj)",
+  "em": ""
+ },
+ {
+  "w": "individually",
+  "ipa": "/ˌɪndɪˈvɪdʒuəli/",
+  "pos": "adv",
+  "vi": "một cách riêng lẻ, từng người một",
+  "ex": "The teacher spoke to each student individually about their exam results.",
+  "exvi": "Giáo viên nói chuyện riêng với từng học sinh về kết quả thi của các em.",
+  "col": [
+   "individually wrapped",
+   "work individually",
+   "individually tailored"
+  ],
+  "fam": "individual (adj, n), individuality (n), individualism (n)",
+  "em": ""
+ },
+ {
+  "w": "reproduce",
+  "ipa": "/ˌriːprəˈdjuːs/",
+  "pos": "v",
+  "vi": "sinh sản; tái tạo, sao chép",
+  "ex": "Some fish travel thousands of kilometres to reproduce in the river where they were born.",
+  "exvi": "Một số loài cá di chuyển hàng nghìn km để sinh sản ở con sông nơi chúng ra đời.",
+  "col": [
+   "reproduce results",
+   "reproduce sexually",
+   "be reproduced without permission"
+  ],
+  "fam": "reproduction (n), reproductive (adj)",
+  "em": ""
+ },
+ {
+  "w": "immune",
+  "ipa": "/ɪˈmjuːn/",
+  "pos": "adj",
+  "vi": "miễn dịch; không bị ảnh hưởng",
+  "ex": "A healthy diet and enough sleep help keep the immune system strong.",
+  "exvi": "Chế độ ăn lành mạnh và ngủ đủ giấc giúp giữ cho hệ miễn dịch khỏe mạnh.",
+  "col": [
+   "immune system",
+   "immune to",
+   "immune response"
+  ],
+  "fam": "immunity (n), immunise (v), immunisation (n)",
+  "em": ""
+ },
+ {
+  "w": "sphere",
+  "ipa": "/sfɪə(r)/",
+  "pos": "n",
+  "vi": "lĩnh vực, phạm vi; hình cầu",
+  "ex": "Women are playing a larger role in the political sphere than ever before.",
+  "exvi": "Phụ nữ đang đóng vai trò lớn hơn bao giờ hết trong lĩnh vực chính trị.",
+  "col": [
+   "public sphere",
+   "political sphere",
+   "sphere of influence"
+  ],
+  "fam": "spherical (adj), hemisphere (n)",
+  "em": "🔵"
+ },
+ {
+  "w": "clay",
+  "ipa": "/kleɪ/",
+  "pos": "n",
+  "vi": "đất sét",
+  "ex": "Traditional pots in this region are made from local clay.",
+  "exvi": "Những chiếc nồi truyền thống ở vùng này được làm từ đất sét địa phương.",
+  "col": [
+   "clay pot",
+   "modelling clay",
+   "clay soil"
+  ],
+  "fam": "clayey (adj)",
+  "em": "🏺"
+ },
+ {
+  "w": "dictate",
+  "ipa": "/dɪkˈteɪt/",
+  "pos": "v",
+  "vi": "ra lệnh, áp đặt; quyết định, chi phối; đọc cho chép",
+  "ex": "Customer demand usually dictates which products a company decides to make.",
+  "exvi": "Nhu cầu khách hàng thường quyết định sản phẩm nào một công ty sẽ sản xuất.",
+  "col": [
+   "dictate terms",
+   "dictate a letter",
+   "circumstances dictate"
+  ],
+  "fam": "dictation (n), dictator (n), dictatorship (n)",
+  "em": ""
+ },
+ {
+  "w": "nucleus",
+  "ipa": "/ˈnjuːkliəs/",
+  "pos": "n",
+  "vi": "hạt nhân, nhân (tế bào, nguyên tử); trung tâm, nòng cốt",
+  "ex": "The nucleus contains most of the cell's genetic information.",
+  "exvi": "Nhân tế bào chứa phần lớn thông tin di truyền của tế bào.",
+  "col": [
+   "cell nucleus",
+   "atomic nucleus",
+   "the nucleus of a team"
+  ],
+  "fam": "nuclear (adj)",
+  "em": ""
+ },
+ {
+  "w": "noisy",
+  "ipa": "/ˈnɔɪzi/",
+  "pos": "adj",
+  "vi": "ồn ào",
+  "ex": "It is hard to concentrate on studying in a noisy dormitory.",
+  "exvi": "Rất khó tập trung học trong một ký túc xá ồn ào.",
+  "col": [
+   "noisy neighbours",
+   "a noisy street",
+   "noisy traffic"
+  ],
+  "fam": "noise (n), noisily (adv)",
+  "em": "🔊"
+ },
+ {
+  "w": "slavery",
+  "ipa": "/ˈsleɪvəri/",
+  "pos": "n",
+  "vi": "chế độ nô lệ, sự nô lệ",
+  "ex": "Slavery was officially abolished in the British Empire in 1833.",
+  "exvi": "Chế độ nô lệ chính thức bị bãi bỏ ở Đế quốc Anh vào năm 1833.",
+  "col": [
+   "abolish slavery",
+   "modern slavery",
+   "the end of slavery"
+  ],
+  "fam": "slave (n), enslave (v)",
+  "em": ""
+ },
+ {
+  "w": "justification",
+  "ipa": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+  "pos": "n",
+  "vi": "lý do chính đáng, sự biện minh",
+  "ex": "There is no justification for cutting the education budget when schools are already struggling.",
+  "exvi": "Không có lý do chính đáng nào để cắt giảm ngân sách giáo dục khi các trường đã gặp khó khăn.",
+  "col": [
+   "justification for",
+   "provide justification",
+   "without justification"
+  ],
+  "fam": "justify (v), justifiable (adj), just (adj)",
+  "em": ""
+ },
+ {
+  "w": "symbolic",
+  "ipa": "/sɪmˈbɒlɪk/",
+  "pos": "adj",
+  "vi": "mang tính biểu tượng, tượng trưng",
+  "ex": "The opening of the bridge was a symbolic moment for the two countries.",
+  "exvi": "Lễ khánh thành cây cầu là một khoảnh khắc mang tính biểu tượng đối với hai quốc gia.",
+  "col": [
+   "symbolic meaning",
+   "symbolic gesture",
+   "highly symbolic"
+  ],
+  "fam": "symbol (n), symbolise (v), symbolism (n), symbolically (adv)",
+  "em": ""
+ },
+ {
+  "w": "broadly",
+  "ipa": "/ˈbrɔːdli/",
+  "pos": "adv",
+  "vi": "nhìn chung, đại thể; rộng rãi",
+  "ex": "Broadly speaking, people in cities have better access to healthcare than those in rural areas.",
+  "exvi": "Nhìn chung, người dân thành phố được tiếp cận y tế tốt hơn người ở nông thôn.",
+  "col": [
+   "broadly speaking",
+   "broadly similar",
+   "broadly agree"
+  ],
+  "fam": "broad (adj), breadth (n), broaden (v)",
+  "em": ""
+ },
+ {
+  "w": "adjacent",
+  "ipa": "/əˈdʒeɪsnt/",
+  "pos": "adj",
+  "vi": "liền kề, kế bên",
+  "ex": "The new car park will be built on land adjacent to the hospital.",
+  "exvi": "Bãi đỗ xe mới sẽ được xây trên khu đất liền kề bệnh viện.",
+  "col": [
+   "adjacent to",
+   "adjacent rooms",
+   "adjacent areas"
+  ],
+  "fam": "adjacency (n)",
+  "em": ""
+ },
+ {
+  "w": "specimen",
+  "ipa": "/ˈspesɪmən/",
+  "pos": "n",
+  "vi": "mẫu vật; mẫu (xét nghiệm)",
+  "ex": "The museum has a large collection of plant specimens from around the world.",
+  "exvi": "Bảo tàng có một bộ sưu tập lớn các mẫu thực vật từ khắp nơi trên thế giới.",
+  "col": [
+   "blood specimen",
+   "collect specimens",
+   "a fine specimen"
+  ],
+  "fam": "",
+  "em": ""
+ },
+ {
+  "w": "behavioral",
+  "ipa": "/bɪˈheɪvjərəl/",
+  "pos": "adj",
+  "vi": "thuộc về hành vi",
+  "ex": "Behavioral problems in children are sometimes linked to a lack of sleep.",
+  "exvi": "Các vấn đề về hành vi ở trẻ em đôi khi có liên quan đến việc thiếu ngủ.",
+  "col": [
+   "behavioral change",
+   "behavioral problems",
+   "behavioral science"
+  ],
+  "fam": "behave (v), behavior (n)",
+  "em": ""
+ },
+ {
+  "w": "ancestor",
+  "ipa": "/ˈænsestə(r)/",
+  "pos": "n",
+  "vi": "tổ tiên",
+  "ex": "Many Vietnamese families keep an altar at home to honour their ancestors.",
+  "exvi": "Nhiều gia đình Việt Nam đặt bàn thờ trong nhà để tưởng nhớ tổ tiên.",
+  "col": [
+   "distant ancestor",
+   "common ancestor",
+   "honour ancestors"
+  ],
+  "fam": "ancestry (n), ancestral (adj)",
+  "em": ""
+ },
+ {
+  "w": "hierarchy",
+  "ipa": "/ˈhaɪərɑːki/",
+  "pos": "n",
+  "vi": "hệ thống cấp bậc, thứ bậc",
+  "ex": "Some companies have a strict hierarchy, while others give all employees an equal voice.",
+  "exvi": "Một số công ty có hệ thống cấp bậc nghiêm ngặt, trong khi số khác cho mọi nhân viên tiếng nói ngang nhau.",
+  "col": [
+   "social hierarchy",
+   "a rigid hierarchy",
+   "management hierarchy"
+  ],
+  "fam": "hierarchical (adj)",
+  "em": ""
+ },
+ {
+  "w": "electron",
+  "ipa": "/ɪˈlektrɒn/",
+  "pos": "n",
+  "vi": "electron, điện tử",
+  "ex": "An electron carries a negative electric charge.",
+  "exvi": "Một electron mang điện tích âm.",
+  "col": [
+   "electron microscope",
+   "free electrons",
+   "electron beam"
+  ],
+  "fam": "electronic (adj), electronics (n)",
+  "em": ""
+ },
+ {
+  "w": "rhetoric",
+  "ipa": "/ˈretərɪk/",
+  "pos": "n",
+  "vi": "lời lẽ hoa mỹ, lời nói suông; thuật hùng biện",
+  "ex": "Voters are tired of political rhetoric and want real action on climate change.",
+  "exvi": "Cử tri đã chán những lời lẽ chính trị suông và muốn hành động thực sự về biến đổi khí hậu.",
+  "col": [
+   "political rhetoric",
+   "empty rhetoric",
+   "the rhetoric of"
+  ],
+  "fam": "rhetorical (adj), rhetorically (adv)",
+  "em": ""
+ }
+]

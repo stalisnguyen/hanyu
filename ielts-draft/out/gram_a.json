@@ -1,0 +1,2984 @@
+[
+ {
+  "id": "g01",
+  "lv": 1,
+  "cat": "Thì",
+  "title": "Quá khứ đơn khi mô tả số liệu",
+  "en": "Past simple for describing past data",
+  "form": "S + V-ed / V2 (rose, fell, grew) + mốc thời gian đã kết thúc (in 2010, between 1990 and 2000)",
+  "explain": "Khi biểu đồ chỉ có các năm trong quá khứ, gần như mọi câu mô tả đều dùng quá khứ đơn. Tiếng Việt không chia động từ theo thời gian nên người học hay viết 'increase' cho mọi năm. Cần nhớ dạng bất quy tắc hay gặp: rise -> rose, fall -> fell, grow -> grew, stand -> stood. Động từ có quy tắc thì thêm -ed: increased, decreased, dropped (gấp đôi phụ âm p).",
+  "ex": [
+   [
+    "The number of visitors rose sharply between 2005 and 2010.",
+    "Số lượng du khách tăng mạnh trong giai đoạn 2005 đến 2010."
+   ],
+   [
+    "In 1995, coal accounted for 40% of electricity production.",
+    "Năm 1995, than đá chiếm 40% sản lượng điện."
+   ],
+   [
+    "Sales fell to 200 units in March and then stood at that level until June.",
+    "Doanh số giảm xuống 200 sản phẩm vào tháng Ba rồi giữ nguyên mức đó đến tháng Sáu."
+   ]
+  ],
+  "mistakes": [
+   [
+    "In 2000, the price increase to $5.",
+    "In 2000, the price increased to $5.",
+    "Năm 2000 đã qua nên động từ phải ở quá khứ: increased."
+   ],
+   [
+    "Car ownership rised steadily over the period.",
+    "Car ownership rose steadily over the period.",
+    "'Rise' là động từ bất quy tắc: rise, rose, risen. Không có dạng 'rised'."
+   ],
+   [
+    "The figure was decreased to 30% in 2015.",
+    "The figure decreased to 30% in 2015.",
+    "'Decrease' ở đây là nội động từ, không dùng bị động 'was decreased' khi chủ ngữ là con số tự giảm."
+   ]
+  ],
+  "ielts": "Giám khảo chấm độ chính xác của thì trong từng câu. Bài Task 1 sai thì quá khứ lặp lại nhiều lần sẽ bị giữ ở band 5 cho Grammatical Range and Accuracy dù từ vựng tốt. Dùng đúng và đa dạng động từ bất quy tắc (rose, fell, grew) cho thấy bạn kiểm soát được ngữ pháp cơ bản.",
+  "quiz": [
+   {
+    "s": "Between 1990 and 2000, the population of the city ___ by nearly a million.",
+    "o": [
+     "grow",
+     "grew",
+     "has grown",
+     "is growing"
+    ],
+    "a": 1,
+    "w": "Khoảng thời gian 1990 đến 2000 đã kết thúc nên dùng quá khứ đơn 'grew'."
+   },
+   {
+    "s": "Oil prices ___ dramatically in 2008 before recovering the following year.",
+    "o": [
+     "fell",
+     "falled",
+     "fall",
+     "have fallen"
+    ],
+    "a": 0,
+    "w": "'Fall' bất quy tắc: fell. Mốc 2008 đã qua."
+   },
+   {
+    "s": "In 2012, the company ___ 15,000 people.",
+    "o": [
+     "employs",
+     "has employed",
+     "employed",
+     "is employing"
+    ],
+    "a": 2,
+    "w": "Mốc thời gian cụ thể trong quá khứ (in 2012) -> quá khứ đơn."
+   },
+   {
+    "s": "Unemployment ___ at 7% for three consecutive years in the 1980s.",
+    "o": [
+     "stands",
+     "stood",
+     "standed",
+     "has stood"
+    ],
+    "a": 1,
+    "w": "'Stand' bất quy tắc: stood. 'Stand at' nghĩa là đứng ở mức."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The share of renewable energy rise to 12% in 2018.",
+    "a": "The share of renewable energy rose to 12% in 2018.",
+    "w": "Năm 2018 đã qua, và chủ ngữ số ít cũng không đi với 'rise'. Dạng đúng là quá khứ 'rose'."
+   },
+   {
+    "s": "Exports drop slightly in 2001 and then grew again.",
+    "a": "Exports dropped slightly in 2001 and then grew again.",
+    "w": "Hai động từ trong cùng một chuỗi sự kiện quá khứ phải cùng thì: dropped ... grew."
+   }
+  ]
+ },
+ {
+  "id": "g02",
+  "lv": 1,
+  "cat": "Thì",
+  "title": "Hiện tại hoàn thành cơ bản",
+  "en": "Present perfect basics",
+  "form": "S + have/has + V3 (since + mốc / for + khoảng thời gian / so far / recently)",
+  "explain": "Hiện tại hoàn thành nối quá khứ với hiện tại: hành động bắt đầu trước đây và còn kéo dài, hoặc kết quả còn liên quan đến bây giờ. Dấu hiệu thường gặp là since, for, so far, recently, in recent years. Nếu câu có mốc thời gian đã kết thúc như 'in 2010' hay 'last year' thì không dùng hiện tại hoàn thành. Người Việt hay dùng 'đã' cho cả hai thì, nên cần nhìn vào mốc thời gian để chọn.",
+  "ex": [
+   [
+    "The number of online shoppers has doubled since 2015.",
+    "Số người mua sắm trực tuyến đã tăng gấp đôi kể từ năm 2015."
+   ],
+   [
+    "I have lived in Da Nang for six years.",
+    "Tôi đã sống ở Đà Nẵng được sáu năm (và vẫn đang sống)."
+   ],
+   [
+    "In recent years, many cities have introduced bike-sharing schemes.",
+    "Trong những năm gần đây, nhiều thành phố đã triển khai dịch vụ xe đạp công cộng."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I have visited Hue last summer.",
+    "I visited Hue last summer.",
+    "'Last summer' là mốc đã kết thúc nên dùng quá khứ đơn, không dùng hiện tại hoàn thành."
+   ],
+   [
+    "I live here since 2019.",
+    "I have lived here since 2019.",
+    "Có 'since' và hành động còn tiếp diễn đến nay -> have lived."
+   ],
+   [
+    "Air pollution has became a serious problem.",
+    "Air pollution has become a serious problem.",
+    "Sau have/has phải là V3: become (không phải became)."
+   ]
+  ],
+  "ielts": "Trong Speaking Part 1, dùng đúng 'I have lived/worked/studied ... for/since' là cách đơn giản để thể hiện nhiều thì. Trong Writing Task 2, mở bài kiểu 'In recent years, X has become...' rất tự nhiên. Dùng nhầm với quá khứ đơn là lỗi giám khảo nhận ra ngay.",
+  "quiz": [
+   {
+    "s": "She ___ English for ten years, and she still takes classes.",
+    "o": [
+     "studied",
+     "has studied",
+     "studies",
+     "is studying"
+    ],
+    "a": 1,
+    "w": "'For ten years' và việc vẫn còn tiếp tục -> hiện tại hoàn thành."
+   },
+   {
+    "s": "We ___ to Singapore in 2019.",
+    "o": [
+     "have gone",
+     "have been",
+     "went",
+     "go"
+    ],
+    "a": 2,
+    "w": "'In 2019' là mốc đã qua -> quá khứ đơn."
+   },
+   {
+    "s": "Smartphones ___ the way people communicate.",
+    "o": [
+     "have changed",
+     "changed in 2005",
+     "has changed",
+     "are change"
+    ],
+    "a": 0,
+    "w": "Chủ ngữ số nhiều 'smartphones' -> have changed; kết quả còn ảnh hưởng hiện tại."
+   },
+   {
+    "s": "So far, the government ___ three new hospitals.",
+    "o": [
+     "builds",
+     "built",
+     "has built",
+     "have built"
+    ],
+    "a": 2,
+    "w": "'So far' là dấu hiệu hiện tại hoàn thành; 'the government' số ít -> has built."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Tourism has grown rapidly in 2010.",
+    "a": "Tourism grew rapidly in 2010.",
+    "w": "'In 2010' là mốc đã kết thúc, nên dùng quá khứ đơn."
+   },
+   {
+    "s": "My brother works at this bank for five years.",
+    "a": "My brother has worked at this bank for five years.",
+    "w": "'For five years' tính đến hiện tại -> has worked."
+   }
+  ]
+ },
+ {
+  "id": "g03",
+  "lv": 1,
+  "cat": "Thì",
+  "title": "Cách nói về tương lai và dự báo",
+  "en": "Future forms for predictions",
+  "form": "will + V | be expected/predicted/projected to + V | be going to + V",
+  "explain": "Biểu đồ Task 1 có năm trong tương lai (ví dụ 2030) cần cách nói dự báo. 'Will' dùng được nhưng lặp lại nhiều thì đơn điệu, nên thêm 'is expected to', 'is predicted to', 'is projected to'. Sau 'to' luôn là động từ nguyên mẫu. Người học hay quên 'to' hoặc chia động từ sau 'will'.",
+  "ex": [
+   [
+    "By 2030, the figure is expected to reach 50 million.",
+    "Đến năm 2030, con số này dự kiến đạt 50 triệu."
+   ],
+   [
+    "The proportion of elderly people will continue to rise.",
+    "Tỉ lệ người cao tuổi sẽ tiếp tục tăng."
+   ],
+   [
+    "Car sales are projected to fall slightly over the next decade.",
+    "Doanh số ô tô được dự báo sẽ giảm nhẹ trong thập kỷ tới."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The population will increases to 9 million.",
+    "The population will increase to 9 million.",
+    "Sau 'will' là động từ nguyên mẫu, không thêm -s."
+   ],
+   [
+    "Coal use is expected decline after 2025.",
+    "Coal use is expected to decline after 2025.",
+    "Cấu trúc là 'be expected to + V', không được bỏ 'to'."
+   ],
+   [
+    "In 2040, the number predicted to double.",
+    "In 2040, the number is predicted to double.",
+    "Cần động từ 'is' trước 'predicted'; thiếu 'is' câu không có động từ chính."
+   ]
+  ],
+  "ielts": "Biết đổi cách diễn đạt tương lai (will, is expected to, is likely to) giúp tăng Grammatical Range trong Task 1 có dự báo. Câu đúng cấu trúc bị động kiểu 'is projected to' cũng cho thấy bạn kiểm soát được câu phức tạp hơn.",
+  "quiz": [
+   {
+    "s": "By 2050, the share of solar power is expected ___ 30%.",
+    "o": [
+     "reach",
+     "to reach",
+     "reaching",
+     "reached"
+    ],
+    "a": 1,
+    "w": "'Be expected to + V nguyên mẫu' -> to reach."
+   },
+   {
+    "s": "Experts say that prices ___ next year.",
+    "o": [
+     "will rise",
+     "will rises",
+     "rising",
+     "rose"
+    ],
+    "a": 0,
+    "w": "Dự báo tương lai: will + V nguyên mẫu."
+   },
+   {
+    "s": "The number of students ___ to fall after 2025.",
+    "o": [
+     "projected",
+     "is projecting",
+     "is projected",
+     "project"
+    ],
+    "a": 2,
+    "w": "Con số 'được dự báo' -> bị động 'is projected to'."
+   },
+   {
+    "s": "Look at those dark clouds. It ___ rain.",
+    "o": [
+     "is going to",
+     "will to",
+     "going",
+     "is go to"
+    ],
+    "a": 0,
+    "w": "Có dấu hiệu rõ ràng ngay trước mắt -> be going to."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Water consumption is predicted to rising by 2030.",
+    "a": "Water consumption is predicted to rise by 2030.",
+    "w": "Sau 'to' dùng động từ nguyên mẫu: rise."
+   },
+   {
+    "s": "The figure will to remain stable.",
+    "a": "The figure will remain stable.",
+    "w": "'Will' đi thẳng với động từ nguyên mẫu, không có 'to'."
+   }
+  ]
+ },
+ {
+  "id": "g04",
+  "lv": 1,
+  "cat": "Mạo từ",
+  "title": "Mạo từ a và an",
+  "en": "Indefinite articles a/an",
+  "form": "a + danh từ đếm được số ít bắt đầu bằng phụ âm (âm) | an + ... bắt đầu bằng nguyên âm (âm)",
+  "explain": "Tiếng Việt không có mạo từ nên người học hay bỏ hẳn: 'I am student'. Danh từ đếm được số ít khi nhắc lần đầu hoặc nói chung chung phải có a/an. Chọn a hay an dựa vào ÂM đầu tiên, không phải chữ cái: an hour (h câm), a university (đọc /juː/), an MBA (đọc /em/).",
+  "ex": [
+   [
+    "My sister is an engineer.",
+    "Chị tôi là kỹ sư."
+   ],
+   [
+    "It took me an hour to get there.",
+    "Tôi mất một tiếng để đến đó."
+   ],
+   [
+    "She studies at a university in Hanoi.",
+    "Cô ấy học ở một trường đại học tại Hà Nội."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I am student at a local college.",
+    "I am a student at a local college.",
+    "'Student' là danh từ đếm được số ít, cần 'a' phía trước."
+   ],
+   [
+    "He wants to buy a expensive car.",
+    "He wants to buy an expensive car.",
+    "'Expensive' bắt đầu bằng âm nguyên âm /ɪ/ nên dùng 'an'."
+   ],
+   [
+    "It is an useful skill.",
+    "It is a useful skill.",
+    "'Useful' đọc /ˈjuːs-/, bắt đầu bằng âm phụ âm /j/ nên dùng 'a'."
+   ]
+  ],
+  "ielts": "Thiếu mạo từ là lỗi phổ biến nhất ở người Việt và lặp lại trong mọi đoạn văn. Giám khảo coi đây là lỗi làm giảm tính chính xác. Sửa được lỗi này trong Speaking Part 1 ('I'm a student', 'I work as an accountant') là cách nhanh nhất để câu nghe tự nhiên hơn.",
+  "quiz": [
+   {
+    "s": "My father works as ___ accountant.",
+    "o": [
+     "a",
+     "an",
+     "the",
+     "(không có)"
+    ],
+    "a": 1,
+    "w": "'Accountant' bắt đầu bằng âm nguyên âm -> an."
+   },
+   {
+    "s": "It was ___ honour to meet her.",
+    "o": [
+     "a",
+     "an",
+     "(không có)",
+     "one"
+    ],
+    "a": 1,
+    "w": "Chữ h trong 'honour' câm, âm đầu là nguyên âm -> an."
+   },
+   {
+    "s": "She has ___ European passport.",
+    "o": [
+     "an",
+     "a",
+     "(không có)",
+     "the"
+    ],
+    "a": 1,
+    "w": "'European' đọc /jʊə/, âm phụ âm -> a."
+   },
+   {
+    "s": "I live in ___ small flat near the centre.",
+    "o": [
+     "(không có)",
+     "an",
+     "a",
+     "some"
+    ],
+    "a": 2,
+    "w": "'Flat' đếm được số ít, nhắc lần đầu, 'small' bắt đầu bằng phụ âm -> a."
+   }
+  ],
+  "fix": [
+   {
+    "s": "My mother is teacher at a primary school.",
+    "a": "My mother is a teacher at a primary school.",
+    "w": "Nghề nghiệp đi với danh từ số ít đếm được cần 'a/an'."
+   },
+   {
+    "s": "This is a unusual situation.",
+    "a": "This is an unusual situation.",
+    "w": "'Unusual' đọc /ʌn-/, âm nguyên âm -> an."
+   }
+  ]
+ },
+ {
+  "id": "g05",
+  "lv": 1,
+  "cat": "Mạo từ",
+  "title": "Mạo từ the",
+  "en": "Definite article the",
+  "form": "the + danh từ đã xác định (nhắc lần hai, duy nhất, có cụm bổ nghĩa phía sau, so sánh nhất)",
+  "explain": "Dùng 'the' khi người nghe biết đang nói đến cái nào: vật đã nhắc trước đó, vật duy nhất (the sun, the internet), danh từ có cụm 'of' hoặc mệnh đề bổ nghĩa phía sau (the number of..., the price of...), và trước so sánh nhất. Khi nói chung chung về một loại, dùng danh từ số nhiều hoặc không đếm được KHÔNG có 'the': 'Children need sleep', không phải 'The children need the sleep'. Người Việt hay thêm 'the' vào mọi danh từ khi nói chung.",
+  "ex": [
+   [
+    "The number of tourists increased in 2019.",
+    "Số lượng du khách tăng vào năm 2019."
+   ],
+   [
+    "Technology has changed education.",
+    "Công nghệ đã thay đổi giáo dục (nói chung, không dùng 'the')."
+   ],
+   [
+    "I bought a laptop and a phone. The laptop was cheaper.",
+    "Tôi mua một laptop và một điện thoại. Cái laptop rẻ hơn."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The pollution is a big problem in the big cities.",
+    "Pollution is a big problem in big cities.",
+    "Nói chung chung về ô nhiễm và các thành phố lớn nói chung thì không dùng 'the'."
+   ],
+   [
+    "Number of cars rose sharply.",
+    "The number of cars rose sharply.",
+    "'Number of...' có cụm 'of' xác định phía sau, cần 'the'."
+   ],
+   [
+    "It is most popular sport in Vietnam.",
+    "It is the most popular sport in Vietnam.",
+    "So sánh nhất luôn đi với 'the'."
+   ]
+  ],
+  "ielts": "Mạo từ là phần giám khảo dùng để phân biệt band 6 và 7: bài band 7 vẫn có thể sai vài chỗ nhưng không có lỗi hệ thống. Trong Task 1, 'the number of', 'the proportion of', 'the highest' xuất hiện liên tục nên cần dùng đúng.",
+  "quiz": [
+   {
+    "s": "___ proportion of women in the workforce rose to 48%.",
+    "o": [
+     "A",
+     "The",
+     "(không có)",
+     "An"
+    ],
+    "a": 1,
+    "w": "'Proportion of women' đã xác định bằng cụm 'of' -> The."
+   },
+   {
+    "s": "___ education is the key to a better future.",
+    "o": [
+     "The",
+     "An",
+     "(không có)",
+     "A"
+    ],
+    "a": 2,
+    "w": "Nói về giáo dục nói chung -> không dùng mạo từ."
+   },
+   {
+    "s": "Vietnam has one of ___ fastest-growing economies in Asia.",
+    "o": [
+     "a",
+     "the",
+     "(không có)",
+     "an"
+    ],
+    "a": 1,
+    "w": "'One of the + so sánh nhất'."
+   },
+   {
+    "s": "I saw a dog in the park. ___ dog was chasing a ball.",
+    "o": [
+     "A",
+     "The",
+     "(không có)",
+     "One"
+    ],
+    "a": 1,
+    "w": "Con chó đã được nhắc đến ở câu trước -> The."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The smartphones have made the life easier.",
+    "a": "Smartphones have made life easier.",
+    "w": "Nói chung chung về điện thoại thông minh và cuộc sống: bỏ 'the'."
+   },
+   {
+    "s": "Price of petrol fell in 2015.",
+    "a": "The price of petrol fell in 2015.",
+    "w": "'Price of petrol' đã xác định nên cần 'the'."
+   }
+  ]
+ },
+ {
+  "id": "g06",
+  "lv": 1,
+  "cat": "Danh từ",
+  "title": "Danh từ đếm được và không đếm được",
+  "en": "Countable and uncountable nouns",
+  "form": "Đếm được: a/an, số nhiều -s, many, a few | Không đếm được: không -s, không a/an, much, a little",
+  "explain": "Một số danh từ đếm được trong tiếng Việt nhưng không đếm được trong tiếng Anh: information, advice, equipment, furniture, research, homework, knowledge, traffic, luggage, news. Những từ này không thêm -s và không đi với 'a'. Muốn đếm thì dùng 'a piece of', 'some', 'a lot of'. Động từ đi sau ở dạng số ít: 'The information is useful'.",
+  "ex": [
+   [
+    "She gave me some useful advice.",
+    "Cô ấy cho tôi vài lời khuyên hữu ích."
+   ],
+   [
+    "There is too much traffic in the city centre.",
+    "Trung tâm thành phố có quá nhiều xe cộ."
+   ],
+   [
+    "Scientists have done a lot of research on this topic.",
+    "Các nhà khoa học đã nghiên cứu nhiều về chủ đề này."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Can you give me some informations about the course?",
+    "Can you give me some information about the course?",
+    "'Information' không đếm được, không thêm -s."
+   ],
+   [
+    "My teacher gave me an advice.",
+    "My teacher gave me a piece of advice.",
+    "'Advice' không đếm được nên không dùng 'an'; dùng 'a piece of advice' hoặc 'some advice'."
+   ],
+   [
+    "The new equipments are very expensive.",
+    "The new equipment is very expensive.",
+    "'Equipment' không đếm được, không có -s, động từ chia số ít."
+   ]
+  ],
+  "ielts": "Lỗi 'informations', 'advices', 'researches' rất dễ bị trừ điểm vì đây là từ vựng học thuật hay dùng trong Task 2. Dùng đúng 'much/little' với danh từ không đếm được cũng là điểm cộng cho độ chính xác.",
+  "quiz": [
+   {
+    "s": "How much ___ do you have tonight?",
+    "o": [
+     "homeworks",
+     "homework",
+     "a homework",
+     "homework's"
+    ],
+    "a": 1,
+    "w": "'Homework' không đếm được, đi với 'how much'."
+   },
+   {
+    "s": "There ___ a lot of new furniture in the office.",
+    "o": [
+     "are",
+     "is",
+     "were",
+     "have"
+    ],
+    "a": 1,
+    "w": "'Furniture' không đếm được -> động từ số ít 'is'."
+   },
+   {
+    "s": "I have ___ friends in London.",
+    "o": [
+     "a little",
+     "much",
+     "a few",
+     "a piece of"
+    ],
+    "a": 2,
+    "w": "'Friends' đếm được số nhiều -> a few."
+   },
+   {
+    "s": "The news ___ very surprising.",
+    "o": [
+     "were",
+     "are",
+     "was",
+     "have been"
+    ],
+    "a": 2,
+    "w": "'News' trông như số nhiều nhưng không đếm được -> was."
+   }
+  ],
+  "fix": [
+   {
+    "s": "We need more knowledges to solve this problem.",
+    "a": "We need more knowledge to solve this problem.",
+    "w": "'Knowledge' không đếm được, không thêm -s."
+   },
+   {
+    "s": "Travellers should not carry too many luggage.",
+    "a": "Travellers should not carry too much luggage.",
+    "w": "'Luggage' không đếm được -> much, không dùng many."
+   }
+  ]
+ },
+ {
+  "id": "g07",
+  "lv": 1,
+  "cat": "Danh từ",
+  "title": "Danh từ số nhiều và đuôi -s",
+  "en": "Plural nouns and the -s ending",
+  "form": "số đếm > 1 / many / several / a number of / one of the + danh từ số nhiều (-s, -es, bất quy tắc)",
+  "explain": "Tiếng Việt chỉ thêm 'những', 'các' mà không đổi hình dạng danh từ, nên người Việt rất hay quên -s sau số đếm: 'three country', 'many student'. Sau 'one of the' cũng phải là số nhiều. Một số danh từ số nhiều bất quy tắc cần nhớ: people, children, women, men, phenomena, criteria. Lưu ý 'people' đã là số nhiều nên không thêm -s khi nói về người nói chung.",
+  "ex": [
+   [
+    "The survey was carried out in five countries.",
+    "Cuộc khảo sát được thực hiện ở năm quốc gia."
+   ],
+   [
+    "Many children spend hours on their phones.",
+    "Nhiều trẻ em dành hàng giờ cho điện thoại."
+   ],
+   [
+    "Hanoi is one of the oldest cities in Asia.",
+    "Hà Nội là một trong những thành phố lâu đời nhất châu Á."
+   ]
+  ],
+  "mistakes": [
+   [
+    "There are many student in my class.",
+    "There are many students in my class.",
+    "Sau 'many' danh từ đếm được phải ở số nhiều."
+   ],
+   [
+    "She is one of the best teacher in my school.",
+    "She is one of the best teachers in my school.",
+    "'One of the' + danh từ số nhiều."
+   ],
+   [
+    "Most peoples in my town work in farming.",
+    "Most people in my town work in farming.",
+    "'People' đã là số nhiều, không thêm -s khi nói về người nói chung."
+   ]
+  ],
+  "ielts": "Thiếu -s là lỗi lặp lại nhiều nhất trong bài viết và bài nói của người Việt. Ở Speaking, phát âm rõ âm /s/ /z/ cuối từ giúp cả điểm Pronunciation lẫn Grammar. Một bài viết ít lỗi số nhiều đọc trôi hơn hẳn với giám khảo.",
+  "quiz": [
+   {
+    "s": "The chart compares four ___.",
+    "o": [
+     "region",
+     "regions",
+     "regiones",
+     "region's"
+    ],
+    "a": 1,
+    "w": "Sau số 'four' cần danh từ số nhiều: regions."
+   },
+   {
+    "s": "Several ___ were injured in the accident.",
+    "o": [
+     "woman",
+     "womans",
+     "women",
+     "womens"
+    ],
+    "a": 2,
+    "w": "Số nhiều bất quy tắc của 'woman' là 'women'."
+   },
+   {
+    "s": "It is one of the most important ___ in the world.",
+    "o": [
+     "issue",
+     "issues",
+     "issuees",
+     "an issue"
+    ],
+    "a": 1,
+    "w": "'One of the most + adj' + danh từ số nhiều."
+   },
+   {
+    "s": "A lot of ___ prefer online shopping now.",
+    "o": [
+     "peoples",
+     "person",
+     "people",
+     "persons'"
+    ],
+    "a": 2,
+    "w": "'People' là số nhiều của 'person', dùng cho người nói chung."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Two million car were sold in 2020.",
+    "a": "Two million cars were sold in 2020.",
+    "w": "Sau 'two million' danh từ phải ở số nhiều: cars."
+   },
+   {
+    "s": "I have visited many beautiful place in Vietnam.",
+    "a": "I have visited many beautiful places in Vietnam.",
+    "w": "'Many' + danh từ số nhiều: places."
+   }
+  ]
+ },
+ {
+  "id": "g08",
+  "lv": 1,
+  "cat": "Danh từ",
+  "title": "Hòa hợp chủ ngữ và động từ",
+  "en": "Subject-verb agreement",
+  "form": "Chủ ngữ số ít (he/she/it, danh từ số ít, V-ing) + V-s/es, is, has | Chủ ngữ số nhiều + V, are, have",
+  "explain": "Ở thì hiện tại, động từ phải đổi theo chủ ngữ: chủ ngữ số ít ngôi thứ ba thêm -s/-es. Khi chủ ngữ dài, hãy tìm danh từ chính: trong 'The number of students is rising', danh từ chính là 'number' nên động từ số ít. Danh động từ (V-ing) làm chủ ngữ cũng tính là số ít: 'Reading books helps...'. 'Everyone', 'each' đi với động từ số ít.",
+  "ex": [
+   [
+    "My brother works in a bank.",
+    "Anh trai tôi làm việc ở ngân hàng."
+   ],
+   [
+    "The number of cars on the roads is increasing.",
+    "Số lượng ô tô trên đường đang tăng."
+   ],
+   [
+    "Learning a new language takes time.",
+    "Học một ngôn ngữ mới cần thời gian."
+   ]
+  ],
+  "mistakes": [
+   [
+    "She don't like spicy food.",
+    "She doesn't like spicy food.",
+    "Chủ ngữ 'she' số ít -> doesn't."
+   ],
+   [
+    "The quality of the products are very high.",
+    "The quality of the products is very high.",
+    "Danh từ chính là 'quality' (số ít), không phải 'products'."
+   ],
+   [
+    "Playing sports make people healthier.",
+    "Playing sports makes people healthier.",
+    "Chủ ngữ là danh động từ 'playing sports', tính là số ít -> makes."
+   ]
+  ],
+  "ielts": "Lỗi hòa hợp chủ ngữ và động từ thuộc nhóm lỗi cơ bản mà giám khảo chú ý nhất ở band 5 đến 6. Sửa được lỗi này với chủ ngữ dài (the number of..., one of the...) cho thấy bạn kiểm soát được câu phức.",
+  "quiz": [
+   {
+    "s": "Each student ___ a laptop.",
+    "o": [
+     "have",
+     "has",
+     "having",
+     "are having"
+    ],
+    "a": 1,
+    "w": "'Each student' là số ít -> has."
+   },
+   {
+    "s": "The people in my village ___ very friendly.",
+    "o": [
+     "is",
+     "are",
+     "was",
+     "be"
+    ],
+    "a": 1,
+    "w": "'People' là số nhiều -> are."
+   },
+   {
+    "s": "One of my friends ___ in Australia.",
+    "o": [
+     "live",
+     "lives",
+     "are living",
+     "have lived"
+    ],
+    "a": 1,
+    "w": "Chủ ngữ chính là 'one' (số ít) -> lives."
+   },
+   {
+    "s": "Watching films in English ___ my listening.",
+    "o": [
+     "improve",
+     "are improving",
+     "improves",
+     "have improved"
+    ],
+    "a": 2,
+    "w": "Danh động từ làm chủ ngữ là số ít -> improves."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The price of houses in big cities are rising.",
+    "a": "The price of houses in big cities is rising.",
+    "w": "Danh từ chính là 'price' số ít -> is."
+   },
+   {
+    "s": "My mother go to the market every morning.",
+    "a": "My mother goes to the market every morning.",
+    "w": "Chủ ngữ ngôi thứ ba số ít -> goes."
+   }
+  ]
+ },
+ {
+  "id": "g09",
+  "lv": 1,
+  "cat": "Cấu trúc câu",
+  "title": "There is / There are",
+  "en": "There is / there are",
+  "form": "There is/was + danh từ số ít hoặc không đếm được | There are/were + danh từ số nhiều",
+  "explain": "Người Việt nói 'Ở thành phố tôi có nhiều công viên' rồi dịch thành 'In my city has many parks'. Tiếng Anh dùng 'There are many parks in my city' hoặc 'My city has many parks'. Không ghép 'There' với 'have'. Động từ 'be' chia theo danh từ đứng ngay sau nó.",
+  "ex": [
+   [
+    "There are three universities in my hometown.",
+    "Quê tôi có ba trường đại học."
+   ],
+   [
+    "There was a sharp increase in sales in May.",
+    "Doanh số tăng mạnh vào tháng Năm."
+   ],
+   [
+    "There is not much traffic at night.",
+    "Ban đêm không có nhiều xe cộ."
+   ]
+  ],
+  "mistakes": [
+   [
+    "In my city has a lot of street food.",
+    "There is a lot of street food in my city.",
+    "Không dùng 'In + nơi chốn + has'. Dùng 'There is' hoặc 'My city has'."
+   ],
+   [
+    "There have many reasons for this problem.",
+    "There are many reasons for this problem.",
+    "'There' đi với 'be', không đi với 'have'."
+   ],
+   [
+    "There is many tourists in summer.",
+    "There are many tourists in summer.",
+    "'Tourists' số nhiều -> There are."
+   ]
+  ],
+  "ielts": "Cấu trúc 'There was a + adj + noun' (There was a dramatic rise in...) là cách quan trọng để đổi cấu trúc câu trong Task 1. Trong Speaking Part 1 khi tả quê hương, dùng đúng 'There are...' thay cho 'In my hometown has...' giúp tránh một lỗi rất dễ nhận ra.",
+  "quiz": [
+   {
+    "s": "___ a slight fall in prices last month.",
+    "o": [
+     "There was",
+     "There were",
+     "It had",
+     "There had"
+    ],
+    "a": 0,
+    "w": "'A slight fall' số ít, tháng trước -> There was."
+   },
+   {
+    "s": "___ two hospitals near my house.",
+    "o": [
+     "There is",
+     "It has",
+     "There are",
+     "Have"
+    ],
+    "a": 2,
+    "w": "'Two hospitals' số nhiều -> There are."
+   },
+   {
+    "s": "___ a lot of information on the website.",
+    "o": [
+     "There are",
+     "There is",
+     "There have",
+     "It have"
+    ],
+    "a": 1,
+    "w": "'Information' không đếm được -> There is."
+   },
+   {
+    "s": "In 1990, ___ only 200 cars in the town.",
+    "o": [
+     "there was",
+     "there were",
+     "it had",
+     "there are"
+    ],
+    "a": 1,
+    "w": "'200 cars' số nhiều, năm 1990 -> there were."
+   }
+  ],
+  "fix": [
+   {
+    "s": "In my school have a big library.",
+    "a": "There is a big library in my school.",
+    "w": "Thay cấu trúc 'In ... have' bằng 'There is'."
+   },
+   {
+    "s": "There were a significant drop in 2008.",
+    "a": "There was a significant drop in 2008.",
+    "w": "'A significant drop' số ít -> was."
+   }
+  ]
+ },
+ {
+  "id": "g10",
+  "lv": 1,
+  "cat": "Giới từ",
+  "title": "Giới từ chỉ thời gian in, on, at",
+  "en": "Prepositions of time: in, on, at",
+  "form": "in + tháng/năm/mùa/thế kỷ/buổi | on + thứ/ngày cụ thể | at + giờ, at night, at the weekend (BrE)",
+  "explain": "Quy tắc đi từ rộng đến hẹp: in (khoảng lớn: in 2010, in May, in the morning), on (một ngày: on Monday, on 5 June), at (thời điểm: at 7 o'clock, at night). Không dùng giới từ trước 'last', 'next', 'this', 'every': 'last year', không phải 'in last year'. Trong tiếng Anh Anh nói 'at the weekend'.",
+  "ex": [
+   [
+    "The museum opened in 1998.",
+    "Bảo tàng mở cửa năm 1998."
+   ],
+   [
+    "I usually go jogging on Sunday mornings.",
+    "Tôi thường chạy bộ vào sáng Chủ nhật."
+   ],
+   [
+    "The figure peaked at midnight.",
+    "Con số đạt đỉnh lúc nửa đêm."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I was born on 1994.",
+    "I was born in 1994.",
+    "Năm dùng 'in'."
+   ],
+   [
+    "We will meet in next Monday.",
+    "We will meet next Monday.",
+    "Không dùng giới từ trước 'next'."
+   ],
+   [
+    "I often study in the night.",
+    "I often study at night.",
+    "Cụm cố định: 'at night', nhưng 'in the morning/afternoon/evening'."
+   ]
+  ],
+  "ielts": "Giới từ sai không làm câu khó hiểu nhưng lặp lại nhiều lần sẽ bị tính là lỗi thường xuyên. Trong Task 1 bạn sẽ viết rất nhiều cụm thời gian (in 2005, in the morning, at 6 pm), nên đây là chỗ dễ lấy điểm chính xác.",
+  "quiz": [
+   {
+    "s": "Electricity demand was highest ___ 6 pm.",
+    "o": [
+     "in",
+     "on",
+     "at",
+     "by"
+    ],
+    "a": 2,
+    "w": "Giờ cụ thể dùng 'at'."
+   },
+   {
+    "s": "The festival takes place ___ 2 September every year.",
+    "o": [
+     "in",
+     "on",
+     "at",
+     "(không có)"
+    ],
+    "a": 1,
+    "w": "Ngày cụ thể dùng 'on'."
+   },
+   {
+    "s": "I moved to Ho Chi Minh City ___ last year.",
+    "o": [
+     "in",
+     "on",
+     "at",
+     "(không có)"
+    ],
+    "a": 3,
+    "w": "Không dùng giới từ trước 'last year'."
+   },
+   {
+    "s": "Many people go to the beach ___ summer.",
+    "o": [
+     "on",
+     "at",
+     "in",
+     "by"
+    ],
+    "a": 2,
+    "w": "Mùa dùng 'in'."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Consumption was lowest on the afternoon.",
+    "a": "Consumption was lowest in the afternoon.",
+    "w": "Buổi trong ngày dùng 'in the afternoon'."
+   },
+   {
+    "s": "I like to relax in the weekend.",
+    "a": "I like to relax at the weekend.",
+    "w": "Tiếng Anh Anh dùng 'at the weekend' (tiếng Anh Mỹ là 'on the weekend')."
+   }
+  ]
+ },
+ {
+  "id": "g11",
+  "lv": 1,
+  "cat": "Giới từ",
+  "title": "Giới từ chỉ nơi chốn in, on, at",
+  "en": "Prepositions of place: in, on, at",
+  "form": "in + không gian bao quanh, thành phố, quốc gia | on + bề mặt, tầng, đường (BrE: on Le Loi Street) | at + điểm cụ thể, địa chỉ có số nhà",
+  "explain": "'In' dùng cho không gian có ranh giới: in the room, in Hanoi, in Vietnam. 'On' dùng cho bề mặt và tầng: on the table, on the third floor. 'At' dùng cho một điểm hoặc nơi diễn ra hoạt động: at the station, at school, at 25 Tran Phu Street. Trong bài bản đồ Task 1 có thêm: in the north of, to the east of, next to, opposite.",
+  "ex": [
+   [
+    "My office is on the fifth floor.",
+    "Văn phòng tôi ở tầng năm."
+   ],
+   [
+    "She is waiting for you at the bus stop.",
+    "Cô ấy đang đợi bạn ở trạm xe buýt."
+   ],
+   [
+    "A new hospital was built in the north of the town.",
+    "Một bệnh viện mới được xây ở phía bắc thị trấn."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I live in the third floor.",
+    "I live on the third floor.",
+    "Tầng nhà dùng 'on'."
+   ],
+   [
+    "I am studying in Hanoi University of Science.",
+    "I am studying at Hanoi University of Science.",
+    "Nơi học tập, làm việc như một địa điểm thường dùng 'at'."
+   ],
+   [
+    "The park is on the south of the river.",
+    "The park is to the south of the river.",
+    "Vị trí so với một vật khác dùng 'to the south of'; 'in the south of' nghĩa là nằm bên trong phần phía nam."
+   ]
+  ],
+  "ielts": "Bài bản đồ Task 1 phụ thuộc hoàn toàn vào giới từ nơi chốn. Dùng chính xác 'in the north of' và 'to the north of' cho thấy bạn hiểu sắc thái nghĩa, giúp cả điểm Grammar lẫn Task Achievement.",
+  "quiz": [
+   {
+    "s": "There is a picture ___ the wall.",
+    "o": [
+     "in",
+     "on",
+     "at",
+     "to"
+    ],
+    "a": 1,
+    "w": "Bề mặt tường -> on."
+   },
+   {
+    "s": "He works ___ a hospital in District 3.",
+    "o": [
+     "on",
+     "at",
+     "to",
+     "by"
+    ],
+    "a": 1,
+    "w": "Nơi làm việc như một địa điểm -> at (cũng có thể 'in' nhưng 'at' tự nhiên hơn ở đây)."
+   },
+   {
+    "s": "The airport is located 20 km ___ the east of the city.",
+    "o": [
+     "in",
+     "on",
+     "to",
+     "at"
+    ],
+    "a": 2,
+    "w": "Nằm bên ngoài, so với thành phố -> to the east of."
+   },
+   {
+    "s": "My grandparents live ___ a small village.",
+    "o": [
+     "at",
+     "on",
+     "in",
+     "to"
+    ],
+    "a": 2,
+    "w": "Làng là khu vực có ranh giới -> in."
+   }
+  ],
+  "fix": [
+   {
+    "s": "We met in the airport.",
+    "a": "We met at the airport.",
+    "w": "Gặp nhau tại một địa điểm cụ thể -> at the airport."
+   },
+   {
+    "s": "The new shops are in the left of the road.",
+    "a": "The new shops are on the left of the road.",
+    "w": "Cụm cố định: 'on the left/right'."
+   }
+  ]
+ },
+ {
+  "id": "g12",
+  "lv": 1,
+  "cat": "So sánh",
+  "title": "So sánh hơn và so sánh nhất",
+  "en": "Comparatives and superlatives",
+  "form": "adj ngắn + -er than / the + adj-est | more/most + adj dài | good -> better -> the best, bad -> worse -> the worst",
+  "explain": "Tính từ một âm tiết thêm -er/-est (cheap, cheaper, the cheapest). Tính từ hai âm tiết kết thúc bằng -y đổi y thành i (busy, busier). Tính từ dài dùng more/most (more expensive). Không dùng cả hai cùng lúc: 'more cheaper' là sai. So sánh nhất cần 'the' và thường có 'in/of' phía sau.",
+  "ex": [
+   [
+    "Train tickets are cheaper than plane tickets.",
+    "Vé tàu rẻ hơn vé máy bay."
+   ],
+   [
+    "Life in the city is more stressful than in the countryside.",
+    "Cuộc sống ở thành phố căng thẳng hơn ở nông thôn."
+   ],
+   [
+    "Coal was the most important source of energy in 1980.",
+    "Than đá là nguồn năng lượng quan trọng nhất năm 1980."
+   ]
+  ],
+  "mistakes": [
+   [
+    "This method is more easier than the old one.",
+    "This method is easier than the old one.",
+    "Không dùng 'more' với tính từ đã thêm -er."
+   ],
+   [
+    "Hanoi is colder Ho Chi Minh City in winter.",
+    "Hanoi is colder than Ho Chi Minh City in winter.",
+    "So sánh hơn cần 'than'."
+   ],
+   [
+    "It was the worse year for the company.",
+    "It was the worst year for the company.",
+    "So sánh nhất của 'bad' là 'the worst'; 'worse' là so sánh hơn."
+   ]
+  ],
+  "ielts": "Task 1 gần như luôn yêu cầu so sánh. Dùng đúng và đa dạng (higher than, the highest, more popular than) là nền tảng. Ở Speaking, so sánh quá khứ và hiện tại ('My town is busier than it used to be') giúp câu trả lời dài và chính xác hơn.",
+  "quiz": [
+   {
+    "s": "Germany had ___ unemployment rate of the five countries.",
+    "o": [
+     "the lower",
+     "the lowest",
+     "lowest",
+     "more low"
+    ],
+    "a": 1,
+    "w": "So sánh nhất trong nhóm 'of the five countries' -> the lowest."
+   },
+   {
+    "s": "Online courses are ___ than traditional classes.",
+    "o": [
+     "flexibler",
+     "more flexible",
+     "most flexible",
+     "more flexibler"
+    ],
+    "a": 1,
+    "w": "'Flexible' là tính từ dài -> more flexible."
+   },
+   {
+    "s": "My English is ___ now than it was last year.",
+    "o": [
+     "good",
+     "gooder",
+     "better",
+     "best"
+    ],
+    "a": 2,
+    "w": "So sánh hơn bất quy tắc của 'good' là 'better'."
+   },
+   {
+    "s": "July was the ___ month of the year.",
+    "o": [
+     "hotest",
+     "hottest",
+     "most hot",
+     "hotter"
+    ],
+    "a": 1,
+    "w": "'Hot' gấp đôi t: hottest."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Buses are more cheap than taxis.",
+    "a": "Buses are cheaper than taxis.",
+    "w": "'Cheap' một âm tiết -> cheaper."
+   },
+   {
+    "s": "This is the more beautiful beach in Vietnam.",
+    "a": "This is the most beautiful beach in Vietnam.",
+    "w": "Có 'the' và phạm vi 'in Vietnam' -> so sánh nhất 'the most'."
+   }
+  ]
+ },
+ {
+  "id": "g13",
+  "lv": 1,
+  "cat": "Động từ khuyết thiếu",
+  "title": "Động từ khuyết thiếu cơ bản",
+  "en": "Basic modal verbs",
+  "form": "can/could/should/must/may/might + V nguyên mẫu (không to, không -s)",
+  "explain": "Động từ khuyết thiếu không chia theo chủ ngữ và luôn theo sau bởi động từ nguyên mẫu không 'to'. 'Should' dùng để khuyên, 'must' diễn tả bắt buộc mạnh, 'can' là khả năng, 'may/might' là khả năng không chắc chắn. Người Việt hay viết 'can to', 'should to' vì dịch 'nên' thành 'should to'.",
+  "ex": [
+   [
+    "The government should invest more in public transport.",
+    "Chính phủ nên đầu tư nhiều hơn vào giao thông công cộng."
+   ],
+   [
+    "Students must wear a uniform at my school.",
+    "Học sinh trường tôi phải mặc đồng phục."
+   ],
+   [
+    "Working from home can save a lot of time.",
+    "Làm việc ở nhà có thể tiết kiệm nhiều thời gian."
+   ]
+  ],
+  "mistakes": [
+   [
+    "People should to recycle more.",
+    "People should recycle more.",
+    "Sau 'should' là động từ nguyên mẫu, không có 'to'."
+   ],
+   [
+    "She cans speak three languages.",
+    "She can speak three languages.",
+    "Động từ khuyết thiếu không thêm -s."
+   ],
+   [
+    "Children must not playing on the road.",
+    "Children must not play on the road.",
+    "Sau 'must not' dùng động từ nguyên mẫu: play."
+   ]
+  ],
+  "ielts": "Task 2 thường yêu cầu đề xuất giải pháp, nên 'should', 'could', 'must' xuất hiện nhiều. Dùng đúng dạng và chọn đúng mức độ (must mạnh hơn should) giúp lập luận rõ ràng và chính xác.",
+  "quiz": [
+   {
+    "s": "You ___ see a doctor if the pain continues.",
+    "o": [
+     "should",
+     "should to",
+     "shoulds",
+     "are should"
+    ],
+    "a": 0,
+    "w": "Lời khuyên: should + V nguyên mẫu."
+   },
+   {
+    "s": "Drivers ___ stop at a red light. It is the law.",
+    "o": [
+     "might",
+     "must",
+     "could",
+     "may"
+    ],
+    "a": 1,
+    "w": "Bắt buộc theo luật -> must."
+   },
+   {
+    "s": "It ___ rain later, so take an umbrella just in case.",
+    "o": [
+     "must",
+     "might",
+     "should to",
+     "can to"
+    ],
+    "a": 1,
+    "w": "Khả năng không chắc chắn -> might."
+   },
+   {
+    "s": "My grandfather ___ swim when he was five.",
+    "o": [
+     "can",
+     "could",
+     "cans",
+     "could to"
+    ],
+    "a": 1,
+    "w": "Khả năng trong quá khứ -> could."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The school can to provide free lunches.",
+    "a": "The school can provide free lunches.",
+    "w": "Bỏ 'to' sau 'can'."
+   },
+   {
+    "s": "Everyone musts follow the rules.",
+    "a": "Everyone must follow the rules.",
+    "w": "'Must' không thêm -s."
+   }
+  ]
+ },
+ {
+  "id": "g14",
+  "lv": 1,
+  "cat": "Cấu trúc câu",
+  "title": "Câu thiếu thành phần và câu dính liền",
+  "en": "Sentence fragments and run-on sentences",
+  "form": "Câu hoàn chỉnh = chủ ngữ + động từ chia + (ý trọn vẹn) | Nối hai câu: dấu chấm, dấu chấm phẩy, hoặc liên từ (and, but, so, because)",
+  "explain": "Câu thiếu thành phần (fragment) là cụm từ thiếu chủ ngữ hoặc động từ, hoặc chỉ có mệnh đề phụ như 'Because it is cheap.' đứng một mình. Câu dính liền (run-on) là hai câu hoàn chỉnh nối bằng dấu phẩy hoặc không có gì: 'Prices rose, sales fell.' Tiếng Việt cho phép nối nhiều ý bằng dấu phẩy nên lỗi này rất phổ biến. Cách sửa: tách bằng dấu chấm, hoặc thêm liên từ.",
+  "ex": [
+   [
+    "Many people prefer cycling because it is cheap.",
+    "Nhiều người thích đi xe đạp vì nó rẻ."
+   ],
+   [
+    "Prices rose sharply; as a result, sales fell.",
+    "Giá tăng mạnh; kết quả là doanh số giảm."
+   ],
+   [
+    "The figure for Japan was low. However, it doubled by 2010.",
+    "Số liệu của Nhật thấp. Tuy nhiên, nó tăng gấp đôi vào năm 2010."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Because public transport is cheap. Many people use it.",
+    "Because public transport is cheap, many people use it.",
+    "'Because...' là mệnh đề phụ, không đứng một mình được; nối với mệnh đề chính bằng dấu phẩy."
+   ],
+   [
+    "Technology is useful, it also has some drawbacks.",
+    "Technology is useful, but it also has some drawbacks.",
+    "Hai câu hoàn chỉnh không được nối bằng dấu phẩy; thêm 'but' hoặc dùng dấu chấm."
+   ],
+   [
+    "For example, the rise of online shopping.",
+    "For example, online shopping has risen sharply.",
+    "Câu thiếu động từ chính; cần thêm động từ chia."
+   ]
+  ],
+  "ielts": "Giám khảo đánh giá cả dấu câu trong Grammatical Range and Accuracy. Band 6 yêu cầu câu phức được viết đúng; nhiều câu dính liền bằng dấu phẩy là dấu hiệu của band 5. Kiểm tra mỗi câu có đủ chủ ngữ và động từ chính trước khi nộp bài.",
+  "quiz": [
+   {
+    "s": "Which sentence is correct?___",
+    "o": [
+     "Sales rose, profits fell.",
+     "Sales rose, but profits fell.",
+     "Sales rose but, profits fell.",
+     "Sales rose. But profits, fell."
+    ],
+    "a": 1,
+    "w": "Hai mệnh đề độc lập nối bằng ', but' là đúng."
+   },
+   {
+    "s": "Although the city is crowded ___ I enjoy living there.",
+    "o": [
+     ".",
+     ",",
+     ";",
+     "(không có gì)"
+    ],
+    "a": 1,
+    "w": "Mệnh đề 'Although...' đứng trước thì nối với mệnh đề chính bằng dấu phẩy."
+   },
+   {
+    "s": "Which is a complete sentence?___",
+    "o": [
+     "Such as cars and motorbikes.",
+     "Because it saves time.",
+     "Many students study abroad.",
+     "The reason why people move."
+    ],
+    "a": 2,
+    "w": "Chỉ câu C có chủ ngữ và động từ chính, ý trọn vẹn."
+   },
+   {
+    "s": "The weather was bad ___ the flight was cancelled.",
+    "o": [
+     ",",
+     ", so",
+     "so,",
+     ". So,"
+    ],
+    "a": 1,
+    "w": "Nối hai mệnh đề độc lập chỉ kết quả: ', so'."
+   }
+  ],
+  "fix": [
+   {
+    "s": "My hometown is small, it is very peaceful.",
+    "a": "My hometown is small, but it is very peaceful.",
+    "w": "Nối hai câu độc lập bằng dấu phẩy là lỗi; thêm 'but'."
+   },
+   {
+    "s": "Many young people moving to big cities.",
+    "a": "Many young people are moving to big cities.",
+    "w": "Thiếu trợ động từ 'are' nên câu không có động từ chính."
+   }
+  ]
+ },
+ {
+  "id": "g15",
+  "lv": 1,
+  "cat": "Từ loại",
+  "title": "Tính từ hay trạng từ",
+  "en": "Adjectives vs adverbs",
+  "form": "adj + noun (a sharp rise) | V + adv (rose sharply) | be/seem/become + adj",
+  "explain": "Tính từ bổ nghĩa cho danh từ, trạng từ bổ nghĩa cho động từ. Trong Task 1 có hai cách diễn đạt cùng một ý: 'rose sharply' (động từ + trạng từ) và 'a sharp rise' (tính từ + danh từ). Người Việt hay viết 'increased significant' vì tiếng Việt không đổi hình thức từ. Sau động từ 'be', 'become', 'seem' dùng tính từ: 'The trend became clear'.",
+  "ex": [
+   [
+    "The number of users increased dramatically.",
+    "Số người dùng tăng mạnh."
+   ],
+   [
+    "There was a dramatic increase in the number of users.",
+    "Có sự tăng mạnh về số người dùng."
+   ],
+   [
+    "Sales remained stable throughout the year.",
+    "Doanh số giữ ổn định suốt năm."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The price rose significant in 2015.",
+    "The price rose significantly in 2015.",
+    "Bổ nghĩa cho động từ 'rose' cần trạng từ."
+   ],
+   [
+    "There was a gradually decline in sales.",
+    "There was a gradual decline in sales.",
+    "Bổ nghĩa cho danh từ 'decline' cần tính từ."
+   ],
+   [
+    "She speaks English very good.",
+    "She speaks English very well.",
+    "Trạng từ của 'good' là 'well'."
+   ]
+  ],
+  "ielts": "Biết chuyển qua lại giữa 'rose sharply' và 'a sharp rise' là kỹ thuật quan trọng nhất để đa dạng cấu trúc câu trong Task 1. Sai từ loại ở đây vừa mất điểm Grammar vừa mất điểm Lexical Resource.",
+  "quiz": [
+   {
+    "s": "Unemployment fell ___ between 2010 and 2015.",
+    "o": [
+     "steady",
+     "steadily",
+     "steadiness",
+     "more steady"
+    ],
+    "a": 1,
+    "w": "Bổ nghĩa cho động từ 'fell' -> trạng từ steadily."
+   },
+   {
+    "s": "There was a ___ drop in oil prices.",
+    "o": [
+     "sudden",
+     "suddenly",
+     "suddenness",
+     "sudden's"
+    ],
+    "a": 0,
+    "w": "Bổ nghĩa cho danh từ 'drop' -> tính từ sudden."
+   },
+   {
+    "s": "The figures remained ___ until 2020.",
+    "o": [
+     "constantly",
+     "constant",
+     "constancy",
+     "constants"
+    ],
+    "a": 1,
+    "w": "Sau 'remain' (động từ nối) dùng tính từ."
+   },
+   {
+    "s": "He finished the test very ___.",
+    "o": [
+     "quick",
+     "quickness",
+     "quickly",
+     "quicker than"
+    ],
+    "a": 2,
+    "w": "Bổ nghĩa cho động từ 'finished' -> quickly."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The population grew rapid in the 1990s.",
+    "a": "The population grew rapidly in the 1990s.",
+    "w": "Bổ nghĩa cho 'grew' cần trạng từ 'rapidly'."
+   },
+   {
+    "s": "There was a slightly increase in 2003.",
+    "a": "There was a slight increase in 2003.",
+    "w": "Bổ nghĩa cho danh từ 'increase' cần tính từ 'slight'."
+   }
+  ]
+ },
+ {
+  "id": "g16",
+  "lv": 2,
+  "cat": "Giới từ",
+  "title": "Giới từ đi với số liệu: to, by, from, at, of",
+  "en": "Prepositions with numbers",
+  "form": "rise/fall to + mức mới | rise/fall by + mức thay đổi | from X to Y | stand/peak at + mức | a rise of + mức thay đổi",
+  "explain": "Đây là cặp dễ nhầm nhất trong Task 1. 'To' chỉ con số cuối cùng đạt được, 'by' chỉ lượng chênh lệch. Ví dụ giá từ 20 lên 30: 'rose to 30' hoặc 'rose by 10'. Với danh từ, lượng thay đổi đi với 'of': 'a rise of 10%'. 'At' dùng khi nêu một mức tại một thời điểm: 'stood at 50%', 'peaked at 80'.",
+  "ex": [
+   [
+    "The price rose from $20 to $30.",
+    "Giá tăng từ 20 lên 30 đô la."
+   ],
+   [
+    "The price rose by $10.",
+    "Giá tăng thêm 10 đô la."
+   ],
+   [
+    "Unemployment peaked at 12% in 1993.",
+    "Tỉ lệ thất nghiệp đạt đỉnh 12% năm 1993."
+   ],
+   [
+    "There was a fall of 5% in exports.",
+    "Xuất khẩu giảm 5%."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Sales increased 20% to 30% in 2010.",
+    "Sales increased from 20% to 30% in 2010.",
+    "Thiếu 'from' khi nêu điểm đầu và điểm cuối."
+   ],
+   [
+    "The figure rose by 50%, from 30% to 80%.",
+    "The figure rose by 50 percentage points, from 30% to 80%.",
+    "Từ 30% lên 80% là tăng 50 điểm phần trăm; 'by 50%' sẽ hiểu là tăng thêm một nửa (lên 45%)."
+   ],
+   [
+    "There was an increase by 15% in demand.",
+    "There was an increase of 15% in demand.",
+    "Sau danh từ 'increase' dùng 'of' cho lượng thay đổi, 'in' cho thứ thay đổi."
+   ]
+  ],
+  "ielts": "Dùng sai to/by làm sai nghĩa số liệu, ảnh hưởng cả Task Achievement lẫn Grammar. Dùng đúng và đa dạng (rose to, rose by, stood at, a rise of) giúp câu mô tả chính xác như band 7.",
+  "quiz": [
+   {
+    "s": "The number of visitors fell from 500 ___ 300.",
+    "o": [
+     "by",
+     "to",
+     "at",
+     "of"
+    ],
+    "a": 1,
+    "w": "Mức cuối cùng sau 'from X' -> to."
+   },
+   {
+    "s": "Profits rose ___ 15%, reaching $2 million.",
+    "o": [
+     "to",
+     "at",
+     "by",
+     "of"
+    ],
+    "a": 2,
+    "w": "15% là lượng thay đổi -> by."
+   },
+   {
+    "s": "Consumption stood ___ 40 litres per person in 2000.",
+    "o": [
+     "by",
+     "of",
+     "to",
+     "at"
+    ],
+    "a": 3,
+    "w": "Nêu mức tại một thời điểm -> stood at."
+   },
+   {
+    "s": "There was a decrease ___ 8% in car sales.",
+    "o": [
+     "of",
+     "by",
+     "at",
+     "to"
+    ],
+    "a": 0,
+    "w": "Danh từ 'decrease' + of + lượng thay đổi."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Rice production reached a peak by 5 million tonnes.",
+    "a": "Rice production reached a peak of 5 million tonnes.",
+    "w": "'A peak of' + mức (hoặc 'peaked at')."
+   },
+   {
+    "s": "The rate dropped to 3%, from 10% to 7%.",
+    "a": "The rate dropped by 3%, from 10% to 7%.",
+    "w": "3% ở đây là lượng giảm, nên dùng 'by'."
+   }
+  ]
+ },
+ {
+  "id": "g17",
+  "lv": 2,
+  "cat": "So sánh",
+  "title": "So sánh với số lần và mức độ",
+  "en": "Comparing numbers: multiples and degree",
+  "form": "twice/three times as + adj + as | twice/three times + more/higher than | much/far/slightly + so sánh hơn | the second/third + so sánh nhất",
+  "explain": "Khi số liệu chênh nhau nhiều lần, dùng 'twice as many as', 'three times higher than', hoặc 'double/triple'. Để nói mức độ chênh lệch, đặt 'much, far, considerably, slightly' trước so sánh hơn: 'far higher', 'slightly lower'. Không dùng 'very' trước so sánh hơn. 'The second highest' dùng để xếp hạng. Chú ý many với danh từ đếm được, much với không đếm được.",
+  "ex": [
+   [
+    "Men spent twice as much time on sport as women.",
+    "Nam giới dành thời gian cho thể thao gấp đôi nữ giới."
+   ],
+   [
+    "The figure for Canada was three times higher than that for Mexico.",
+    "Số liệu của Canada cao gấp ba lần của Mexico."
+   ],
+   [
+    "Rail travel was slightly more popular than coach travel.",
+    "Đi tàu phổ biến hơn đi xe khách một chút."
+   ],
+   [
+    "France had the second highest number of tourists.",
+    "Pháp có số du khách cao thứ hai."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The price in 2020 was very higher than in 2010.",
+    "The price in 2020 was much higher than in 2010.",
+    "Không dùng 'very' trước so sánh hơn; dùng much/far/considerably."
+   ],
+   [
+    "China produced two times as much rice than India.",
+    "China produced twice as much rice as India.",
+    "Cấu trúc là 'as ... as', và 'gấp hai' thường dùng 'twice'."
+   ],
+   [
+    "Japan had the second high rate.",
+    "Japan had the second highest rate.",
+    "Xếp hạng: the second + so sánh nhất."
+   ]
+  ],
+  "ielts": "So sánh có số lần và mức độ là dấu hiệu của band 7 trong Task 1 vì nó vừa chính xác vừa cô đọng. Dùng 'that for' và 'those of' để tránh lặp danh từ cũng cho thấy kiểm soát ngữ pháp tốt.",
+  "quiz": [
+   {
+    "s": "Women read ___ books as men in 2015.",
+    "o": [
+     "twice as many",
+     "twice as much",
+     "two times more",
+     "twice many"
+    ],
+    "a": 0,
+    "w": "'Books' đếm được -> twice as many ... as."
+   },
+   {
+    "s": "Spending on food was ___ higher than spending on clothes.",
+    "o": [
+     "very",
+     "much",
+     "more",
+     "most"
+    ],
+    "a": 1,
+    "w": "Nhấn mạnh so sánh hơn dùng 'much', không dùng 'very'."
+   },
+   {
+    "s": "The USA had ___ number of cars, after Germany.",
+    "o": [
+     "the second largest",
+     "the second larger",
+     "second large",
+     "the two largest"
+    ],
+    "a": 0,
+    "w": "Xếp hạng thứ hai: the second largest."
+   },
+   {
+    "s": "The population of Lagos was almost ___ that of Cairo.",
+    "o": [
+     "double",
+     "doubled",
+     "twice as",
+     "two times of"
+    ],
+    "a": 0,
+    "w": "'Double that of' = gấp đôi số liệu của."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Oil consumption was three times as high than gas consumption.",
+    "a": "Oil consumption was three times as high as gas consumption.",
+    "w": "Cấu trúc 'as ... as', không dùng 'than'."
+   },
+   {
+    "s": "The figure for boys was a little more higher than girls.",
+    "a": "The figure for boys was a little higher than that for girls.",
+    "w": "Bỏ 'more' trước 'higher' và so sánh 'the figure' với 'that for girls'."
+   }
+  ]
+ },
+ {
+  "id": "g18",
+  "lv": 2,
+  "cat": "Động từ",
+  "title": "Danh động từ và động từ nguyên mẫu",
+  "en": "Gerunds vs infinitives",
+  "form": "enjoy/avoid/consider/suggest/mind/keep + V-ing | want/decide/plan/hope/afford/refuse + to V | giới từ + V-ing | be used to + V-ing",
+  "explain": "Một số động từ chỉ đi với V-ing, một số chỉ đi với to V, cần học theo nhóm. Sau giới từ (in, of, about, at, by, without) luôn dùng V-ing: 'interested in learning'. 'Look forward to' và 'be used to' có 'to' là giới từ nên đi với V-ing. Một số động từ như stop, remember, try đổi nghĩa: 'stop smoking' (bỏ hút thuốc) khác 'stop to smoke' (dừng lại để hút thuốc).",
+  "ex": [
+   [
+    "I enjoy reading books in English.",
+    "Tôi thích đọc sách tiếng Anh."
+   ],
+   [
+    "Many families cannot afford to buy a house in the city.",
+    "Nhiều gia đình không đủ tiền mua nhà ở thành phố."
+   ],
+   [
+    "I am interested in working abroad.",
+    "Tôi quan tâm đến việc làm việc ở nước ngoài."
+   ],
+   [
+    "I look forward to hearing from you.",
+    "Tôi mong nhận được hồi âm của anh/chị."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I suggest to take the bus.",
+    "I suggest taking the bus.",
+    "'Suggest' đi với V-ing."
+   ],
+   [
+    "I look forward to meet you.",
+    "I look forward to meeting you.",
+    "'To' trong 'look forward to' là giới từ -> V-ing."
+   ],
+   [
+    "She is good at cook Vietnamese food.",
+    "She is good at cooking Vietnamese food.",
+    "Sau giới từ 'at' dùng V-ing."
+   ]
+  ],
+  "ielts": "Đây là chỗ giám khảo dễ nhận ra lỗi trong Speaking (I enjoy to...) và trong thư GT ('I look forward to hear...'). Dùng đúng các cặp này giúp câu nghe tự nhiên, đặc biệt khi kết hợp với cấu trúc dài như 'Instead of driving, people should consider cycling'.",
+  "quiz": [
+   {
+    "s": "Would you mind ___ the window?",
+    "o": [
+     "to open",
+     "opening",
+     "open",
+     "opened"
+    ],
+    "a": 1,
+    "w": "'Mind' đi với V-ing."
+   },
+   {
+    "s": "The government decided ___ taxes on sugary drinks.",
+    "o": [
+     "raising",
+     "raise",
+     "to raise",
+     "raised"
+    ],
+    "a": 2,
+    "w": "'Decide' đi với to V."
+   },
+   {
+    "s": "She left without ___ goodbye.",
+    "o": [
+     "say",
+     "to say",
+     "saying",
+     "said"
+    ],
+    "a": 2,
+    "w": "Sau giới từ 'without' dùng V-ing."
+   },
+   {
+    "s": "I'm not used to ___ up so early.",
+    "o": [
+     "get",
+     "getting",
+     "got",
+     "to getting"
+    ],
+    "a": 1,
+    "w": "'Be used to' + V-ing."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Young people should avoid to spend too much time online.",
+    "a": "Young people should avoid spending too much time online.",
+    "w": "'Avoid' đi với V-ing."
+   },
+   {
+    "s": "I hope seeing you soon.",
+    "a": "I hope to see you soon.",
+    "w": "'Hope' đi với to V."
+   }
+  ]
+ },
+ {
+  "id": "g19",
+  "lv": 2,
+  "cat": "Bị động",
+  "title": "Câu bị động cơ bản",
+  "en": "Passive voice basics",
+  "form": "be (chia theo thì) + V3 (+ by ...) | is made / was built / has been introduced / will be opened / can be used",
+  "explain": "Câu bị động dùng khi hành động quan trọng hơn người làm, hoặc người làm không rõ. Đây là cấu trúc bắt buộc trong bài quy trình Task 1 và rất hay dùng trong văn học thuật. Động từ 'be' mang thì, động từ chính luôn ở V3. Người Việt hay quên 'be' ('The bridge built in 1990') hoặc dùng V2 thay V3 ('was wrote'). Nội động từ như happen, rise, occur, die không có bị động.",
+  "ex": [
+   [
+    "The leaves are dried and then crushed.",
+    "Lá được phơi khô rồi nghiền nát."
+   ],
+   [
+    "The bridge was built in 1995.",
+    "Cây cầu được xây năm 1995."
+   ],
+   [
+    "A new park has been opened near the river.",
+    "Một công viên mới đã được mở gần sông."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The new airport built in 2010.",
+    "The new airport was built in 2010.",
+    "Thiếu 'was'; sân bay không tự xây."
+   ],
+   [
+    "The letter was wrote by my teacher.",
+    "The letter was written by my teacher.",
+    "Bị động dùng V3: written."
+   ],
+   [
+    "The accident was happened at night.",
+    "The accident happened at night.",
+    "'Happen' là nội động từ, không có dạng bị động."
+   ]
+  ],
+  "ielts": "Bài quy trình Task 1 gần như không thể đạt band 6 nếu không dùng bị động chính xác. Trong Task 2, kết hợp bị động với nhiều thì (should be banned, has been criticised) cho thấy Grammatical Range rộng.",
+  "quiz": [
+   {
+    "s": "After that, the bottles ___ to a factory.",
+    "o": [
+     "transport",
+     "are transported",
+     "are transport",
+     "transported"
+    ],
+    "a": 1,
+    "w": "Bị động hiện tại đơn: are + V3."
+   },
+   {
+    "s": "The museum ___ in 1902.",
+    "o": [
+     "opened by",
+     "was opened",
+     "has opened",
+     "is opened"
+    ],
+    "a": 1,
+    "w": "Mốc quá khứ 1902, bị động: was opened."
+   },
+   {
+    "s": "Smoking should ___ in all public places.",
+    "o": [
+     "ban",
+     "be ban",
+     "be banned",
+     "banned"
+    ],
+    "a": 2,
+    "w": "Bị động với động từ khuyết thiếu: should be + V3."
+   },
+   {
+    "s": "Many changes ___ to the town since 2000.",
+    "o": [
+     "have made",
+     "have been made",
+     "were made",
+     "has been made"
+    ],
+    "a": 1,
+    "w": "'Since 2000' -> hiện tại hoàn thành; 'changes' số nhiều -> have been made."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Finally, the coffee beans are pack into bags.",
+    "a": "Finally, the coffee beans are packed into bags.",
+    "w": "Bị động cần V3: packed."
+   },
+   {
+    "s": "The school was rebuilt by the local council in last year.",
+    "a": "The school was rebuilt by the local council last year.",
+    "w": "Câu bị động đúng nhưng không dùng 'in' trước 'last year'."
+   }
+  ]
+ },
+ {
+  "id": "g20",
+  "lv": 2,
+  "cat": "Mệnh đề quan hệ",
+  "title": "Mệnh đề quan hệ xác định",
+  "en": "Defining relative clauses",
+  "form": "danh từ + who (người) / which, that (vật) / where (nơi) / whose (sở hữu) + mệnh đề, không có dấu phẩy",
+  "explain": "Mệnh đề quan hệ xác định cho biết đang nói đến người hoặc vật nào, nên không có dấu phẩy. 'Who' cho người, 'which' hoặc 'that' cho vật, 'where' cho nơi chốn, 'whose' cho sở hữu. Người Việt hay lặp lại đại từ trong mệnh đề ('the book which I bought it') vì tiếng Việt nói 'cuốn sách mà tôi mua nó'. Khi đại từ quan hệ là tân ngữ có thể bỏ: 'the book (that) I bought'.",
+  "ex": [
+   [
+    "People who exercise regularly tend to live longer.",
+    "Những người tập thể dục đều đặn thường sống lâu hơn."
+   ],
+   [
+    "This is the town where I grew up.",
+    "Đây là thị trấn nơi tôi lớn lên."
+   ],
+   [
+    "Students whose parents read to them often do better at school.",
+    "Học sinh có bố mẹ đọc sách cho nghe thường học tốt hơn."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The man which lives next door is a doctor.",
+    "The man who lives next door is a doctor.",
+    "Dùng 'who' cho người."
+   ],
+   [
+    "The phone that I bought it last week is broken.",
+    "The phone that I bought last week is broken.",
+    "'That' đã thay cho 'the phone', không lặp lại 'it'."
+   ],
+   [
+    "Students, who study hard, will pass.",
+    "Students who study hard will pass.",
+    "Mệnh đề xác định (chỉ những học sinh chăm học) không dùng dấu phẩy."
+   ]
+  ],
+  "ielts": "Mệnh đề quan hệ là một trong những cách dễ nhất để tạo câu phức, yêu cầu của band 6 trở lên. Dùng đúng giúp câu cô đọng: 'Countries which invest in education...' thay cho hai câu ngắn.",
+  "quiz": [
+   {
+    "s": "A pharmacist is a person ___ prepares medicine.",
+    "o": [
+     "which",
+     "who",
+     "where",
+     "whose"
+    ],
+    "a": 1,
+    "w": "Chỉ người -> who."
+   },
+   {
+    "s": "The city ___ I was born is famous for its seafood.",
+    "o": [
+     "which",
+     "that",
+     "where",
+     "who"
+    ],
+    "a": 2,
+    "w": "Nơi chốn, theo sau là mệnh đề đầy đủ -> where."
+   },
+   {
+    "s": "The company ___ products are sold worldwide is based in Seoul.",
+    "o": [
+     "who",
+     "which",
+     "whose",
+     "that its"
+    ],
+    "a": 2,
+    "w": "Sở hữu (sản phẩm của công ty) -> whose."
+   },
+   {
+    "s": "Is this the bag ___ you lost yesterday?",
+    "o": [
+     "which",
+     "who",
+     "where",
+     "whose"
+    ],
+    "a": 0,
+    "w": "Chỉ vật, làm tân ngữ -> which (hoặc that)."
+   }
+  ],
+  "fix": [
+   {
+    "s": "I have a friend who she works in Japan.",
+    "a": "I have a friend who works in Japan.",
+    "w": "'Who' đã là chủ ngữ, bỏ 'she'."
+   },
+   {
+    "s": "Jobs which requires creativity are hard to automate.",
+    "a": "Jobs which require creativity are hard to automate.",
+    "w": "Động từ chia theo 'jobs' (số nhiều) -> require."
+   }
+  ]
+ },
+ {
+  "id": "g21",
+  "lv": 2,
+  "cat": "Liên từ",
+  "title": "Nhượng bộ: although, though, despite, in spite of",
+  "en": "Concession: although vs despite",
+  "form": "Although/Though + S + V, ... | Despite/In spite of + N / V-ing, ... | Despite the fact that + S + V",
+  "explain": "Cả hai nhóm đều nghĩa là 'mặc dù', nhưng 'although' đi với một mệnh đề có chủ ngữ và động từ, còn 'despite' đi với danh từ hoặc V-ing. Lỗi phổ biến nhất của người Việt là dùng 'although ... but' vì tiếng Việt nói 'mặc dù ... nhưng'. Trong tiếng Anh chỉ dùng một trong hai.",
+  "ex": [
+   [
+    "Although the city is expensive, many young people move there.",
+    "Mặc dù thành phố đắt đỏ, nhiều người trẻ vẫn chuyển đến đó."
+   ],
+   [
+    "Despite the high cost, the project was completed.",
+    "Mặc dù chi phí cao, dự án vẫn được hoàn thành."
+   ],
+   [
+    "In spite of feeling tired, she kept working.",
+    "Dù cảm thấy mệt, cô ấy vẫn tiếp tục làm việc."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Although it was raining, but we went out.",
+    "Although it was raining, we went out.",
+    "Không dùng 'although' và 'but' trong cùng một câu."
+   ],
+   [
+    "Despite it was expensive, I bought it.",
+    "Although it was expensive, I bought it.",
+    "'Despite' không đi với mệnh đề; dùng 'although' hoặc 'despite the high price'."
+   ],
+   [
+    "Despite of the traffic, we arrived on time.",
+    "Despite the traffic, we arrived on time.",
+    "'Despite' không có 'of'; 'in spite of' thì có."
+   ]
+  ],
+  "ielts": "Câu nhượng bộ là công cụ chính để thể hiện lập luận hai chiều trong Task 2, và là câu phức mà giám khảo tìm kiếm ở band 6.5 trở lên. Sửa được lỗi 'although ... but' giúp bỏ một lỗi lặp lại rất đặc trưng của người Việt.",
+  "quiz": [
+   {
+    "s": "___ his age, he still runs every morning.",
+    "o": [
+     "Although",
+     "Despite",
+     "Even though",
+     "Though"
+    ],
+    "a": 1,
+    "w": "'His age' là cụm danh từ -> Despite."
+   },
+   {
+    "s": "___ the weather was terrible, the match continued.",
+    "o": [
+     "Despite",
+     "In spite of",
+     "Although",
+     "Despite of"
+    ],
+    "a": 2,
+    "w": "Theo sau là mệnh đề -> Although."
+   },
+   {
+    "s": "Although online learning is flexible, ___ students miss face-to-face contact.",
+    "o": [
+     "but many",
+     "many",
+     "however many",
+     "so many"
+    ],
+    "a": 1,
+    "w": "Không thêm 'but' sau mệnh đề 'although'."
+   },
+   {
+    "s": "In spite of ___ hard, he failed the exam.",
+    "o": [
+     "he studied",
+     "study",
+     "studying",
+     "studied"
+    ],
+    "a": 2,
+    "w": "'In spite of' + V-ing."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Despite the government has tried, pollution is still a problem.",
+    "a": "Despite the government's efforts, pollution is still a problem.",
+    "w": "'Despite' cần cụm danh từ, không đi với mệnh đề."
+   },
+   {
+    "s": "Though the job is stressful, but the salary is good.",
+    "a": "Though the job is stressful, the salary is good.",
+    "w": "Bỏ 'but' vì đã có 'though'."
+   }
+  ]
+ },
+ {
+  "id": "g22",
+  "lv": 2,
+  "cat": "Liên từ",
+  "title": "Đối lập: whereas, while, however, on the other hand",
+  "en": "Contrast: whereas, while, however",
+  "form": "S1 + V, whereas/while + S2 + V | S1 + V. However, S2 + V. | In contrast, ...",
+  "explain": "'Whereas' và 'while' nối hai mệnh đề trong cùng một câu để so sánh hai đối tượng khác nhau: rất hữu ích cho Task 1. 'However' là trạng từ nối câu, thường đứng đầu câu mới sau dấu chấm và theo sau bởi dấu phẩy, không dùng để nối hai mệnh đề bằng dấu phẩy. 'In contrast' và 'On the other hand' cũng đứng đầu câu.",
+  "ex": [
+   [
+    "The number of male students rose, whereas the number of female students fell.",
+    "Số nam sinh tăng, trong khi số nữ sinh giảm."
+   ],
+   [
+    "While Spain relied on tourism, Germany focused on manufacturing.",
+    "Trong khi Tây Ban Nha dựa vào du lịch, Đức tập trung vào sản xuất."
+   ],
+   [
+    "Rents in the city centre are high. However, transport costs are lower.",
+    "Tiền thuê nhà ở trung tâm cao. Tuy nhiên, chi phí đi lại thấp hơn."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Prices rose, however sales remained stable.",
+    "Prices rose; however, sales remained stable.",
+    "'However' không nối hai mệnh đề bằng dấu phẩy; dùng dấu chấm phẩy hoặc dấu chấm, và thêm dấu phẩy sau 'however'."
+   ],
+   [
+    "Whereas the USA had the highest figure.",
+    "Whereas the USA had the highest figure, Japan had the lowest.",
+    "Mệnh đề 'whereas' không đứng một mình; cần mệnh đề thứ hai."
+   ],
+   [
+    "On the other hand, but some people disagree.",
+    "On the other hand, some people disagree.",
+    "Không dùng thêm 'but' sau 'On the other hand'."
+   ]
+  ],
+  "ielts": "Task 1 yêu cầu 'make comparisons where relevant', và 'whereas/while' là cách tự nhiên nhất để so sánh hai nhóm trong một câu. Dùng đúng dấu câu với 'however' là chi tiết nhỏ nhưng giám khảo dùng để phân biệt band 6 và 7.",
+  "quiz": [
+   {
+    "s": "Coffee consumption increased, ___ tea consumption declined.",
+    "o": [
+     "however",
+     "whereas",
+     "despite",
+     "in contrast"
+    ],
+    "a": 1,
+    "w": "Nối hai mệnh đề trong cùng câu bằng dấu phẩy -> whereas."
+   },
+   {
+    "s": "Car use fell sharply. ___, bicycle use doubled.",
+    "o": [
+     "Whereas",
+     "While",
+     "In contrast",
+     "Although"
+    ],
+    "a": 2,
+    "w": "Đứng đầu câu mới, sau đó là dấu phẩy -> In contrast."
+   },
+   {
+    "s": "___ urban areas have good hospitals, rural areas often lack basic services.",
+    "o": [
+     "However",
+     "While",
+     "Despite",
+     "On the other hand"
+    ],
+    "a": 1,
+    "w": "Nối hai mệnh đề đối lập trong một câu -> While."
+   },
+   {
+    "s": "The plan is cheap. ___, it may take longer to complete.",
+    "o": [
+     "However",
+     "Whereas",
+     "Although",
+     "But,"
+    ],
+    "a": 0,
+    "w": "Đầu câu mới + dấu phẩy -> However."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Boys preferred football, however girls preferred swimming.",
+    "a": "Boys preferred football, whereas girls preferred swimming.",
+    "w": "Nối hai mệnh đề bằng dấu phẩy cần 'whereas' hoặc 'while', không dùng 'however'."
+   },
+   {
+    "s": "Exports rose. Whereas imports fell.",
+    "a": "Exports rose, whereas imports fell.",
+    "w": "'Whereas imports fell' không đứng riêng được; nối vào câu trước."
+   }
+  ]
+ },
+ {
+  "id": "g23",
+  "lv": 2,
+  "cat": "Liên từ",
+  "title": "Nguyên nhân và kết quả: because, because of, due to, so, therefore",
+  "en": "Cause and effect linkers",
+  "form": "because/as/since + S + V | because of/due to/owing to + N / V-ing | S + V, so + S + V | S + V. Therefore/As a result, S + V.",
+  "explain": "'Because' đi với mệnh đề, còn 'because of' và 'due to' đi với danh từ. 'So' nối hai mệnh đề trong một câu (có dấu phẩy trước), còn 'therefore' và 'as a result' thường mở đầu câu mới. Lỗi kiểu Việt là dùng 'because ... so' cùng lúc (vì ... nên). Trong tiếng Anh chỉ dùng một liên từ.",
+  "ex": [
+   [
+    "Many flights were cancelled because of the storm.",
+    "Nhiều chuyến bay bị hủy vì cơn bão."
+   ],
+   [
+    "As housing is expensive, many young people live with their parents.",
+    "Vì nhà ở đắt đỏ, nhiều người trẻ sống cùng bố mẹ."
+   ],
+   [
+    "Fuel prices rose sharply. As a result, more people used public transport.",
+    "Giá nhiên liệu tăng mạnh. Kết quả là nhiều người đi phương tiện công cộng hơn."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Because the traffic is bad, so I leave home early.",
+    "Because the traffic is bad, I leave home early.",
+    "Không dùng 'because' và 'so' cùng lúc."
+   ],
+   [
+    "The match was cancelled because the heavy rain.",
+    "The match was cancelled because of the heavy rain.",
+    "'The heavy rain' là cụm danh từ -> because of."
+   ],
+   [
+    "Due to people work longer hours, they have less free time.",
+    "Because people work longer hours, they have less free time.",
+    "'Due to' không đi với mệnh đề; dùng 'because' hoặc 'due to longer working hours'."
+   ]
+  ],
+  "ielts": "Task 2 đánh giá lập luận có nguyên nhân và kết quả rõ ràng. Dùng đa dạng 'due to', 'as a result', 'therefore' với đúng cấu trúc cho thấy Grammatical Range tốt, và bỏ lỗi 'because ... so' giúp câu đúng chuẩn.",
+  "quiz": [
+   {
+    "s": "The road was closed ___ an accident.",
+    "o": [
+     "because",
+     "due to",
+     "so",
+     "therefore"
+    ],
+    "a": 1,
+    "w": "'An accident' là danh từ -> due to."
+   },
+   {
+    "s": "___ he was ill, he stayed at home.",
+    "o": [
+     "Because of",
+     "Due to",
+     "Since",
+     "Therefore"
+    ],
+    "a": 2,
+    "w": "Theo sau là mệnh đề -> Since (= because)."
+   },
+   {
+    "s": "Prices are rising, ___ people are spending less.",
+    "o": [
+     "so",
+     "because of",
+     "therefore",
+     "due to"
+    ],
+    "a": 0,
+    "w": "Nối hai mệnh đề trong cùng câu bằng dấu phẩy -> so."
+   },
+   {
+    "s": "The factory closed. ___, 500 workers lost their jobs.",
+    "o": [
+     "Because",
+     "So that",
+     "As a result",
+     "Due to"
+    ],
+    "a": 2,
+    "w": "Mở đầu câu mới chỉ kết quả -> As a result."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Because of the price is high, few people buy it.",
+    "a": "Because the price is high, few people buy it.",
+    "w": "Mệnh đề có động từ 'is' -> because, không dùng 'because of'."
+   },
+   {
+    "s": "Because I like animals so I want to be a vet.",
+    "a": "Because I like animals, I want to be a vet.",
+    "w": "Bỏ 'so' vì đã có 'because'."
+   }
+  ]
+ },
+ {
+  "id": "g24",
+  "lv": 2,
+  "cat": "Thì",
+  "title": "Quá khứ đơn và hiện tại hoàn thành trong cùng bài",
+  "en": "Past simple vs present perfect",
+  "form": "Mốc đã kết thúc (in 2010, ago, last, when) -> quá khứ đơn | since, for (đến nay), recently, ever, yet, so far -> hiện tại hoàn thành",
+  "explain": "Nhiều người học biết từng thì riêng lẻ nhưng nhầm khi kết hợp. Quy tắc: nếu câu gắn với một thời điểm cụ thể đã kết thúc, dùng quá khứ đơn; nếu khoảng thời gian kéo dài đến hiện tại hoặc không nêu thời điểm, dùng hiện tại hoàn thành. Trong Speaking, một câu trả lời tự nhiên thường dùng cả hai: 'I have been to Japan twice. The first time, I went with my family.'",
+  "ex": [
+   [
+    "I have worked here since 2021. Before that, I worked in a hotel.",
+    "Tôi làm ở đây từ năm 2021. Trước đó tôi làm ở khách sạn."
+   ],
+   [
+    "She has never tried sushi, but she ate kimchi last week.",
+    "Cô ấy chưa từng ăn sushi, nhưng tuần trước đã ăn kim chi."
+   ],
+   [
+    "The city has changed a lot. Ten years ago, there were no high-rise buildings.",
+    "Thành phố đã thay đổi nhiều. Mười năm trước chưa có nhà cao tầng."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I have been to Hoi An two years ago.",
+    "I went to Hoi An two years ago.",
+    "'Ago' luôn đi với quá khứ đơn."
+   ],
+   [
+    "When have you started learning English?",
+    "When did you start learning English?",
+    "Câu hỏi 'When' hỏi thời điểm cụ thể -> quá khứ đơn."
+   ],
+   [
+    "Since I was a child, I loved music.",
+    "Since I was a child, I have loved music.",
+    "Mệnh đề chính với 'since' kéo dài đến hiện tại -> have loved."
+   ]
+  ],
+  "ielts": "Speaking Part 1 và Part 2 thường hỏi về trải nghiệm. Kết hợp đúng hai thì này trong một câu trả lời là một trong những dấu hiệu rõ nhất của band 6.5 đến 7 về Grammatical Range and Accuracy.",
+  "quiz": [
+   {
+    "s": "I ___ my wallet. I can't find it anywhere.",
+    "o": [
+     "lost",
+     "have lost",
+     "was losing",
+     "lose"
+    ],
+    "a": 1,
+    "w": "Kết quả còn ảnh hưởng hiện tại, không có mốc thời gian -> have lost."
+   },
+   {
+    "s": "We ___ the film last night.",
+    "o": [
+     "have seen",
+     "have watched",
+     "watched",
+     "watch"
+    ],
+    "a": 2,
+    "w": "'Last night' -> quá khứ đơn."
+   },
+   {
+    "s": "How long ___ in this city?",
+    "o": [
+     "did you live",
+     "have you lived",
+     "you lived",
+     "are you living"
+    ],
+    "a": 1,
+    "w": "'How long' tính đến hiện tại -> have you lived."
+   },
+   {
+    "s": "Unemployment ___ since 2015, after it ___ in 2014.",
+    "o": [
+     "fell / peaked",
+     "has fallen / peaked",
+     "has fallen / has peaked",
+     "fell / has peaked"
+    ],
+    "a": 1,
+    "w": "'Since 2015' -> has fallen; 'in 2014' -> peaked."
+   }
+  ],
+  "fix": [
+   {
+    "s": "I have finished university in 2018.",
+    "a": "I finished university in 2018.",
+    "w": "'In 2018' là mốc đã kết thúc -> quá khứ đơn."
+   },
+   {
+    "s": "My town grew a lot since I moved away.",
+    "a": "My town has grown a lot since I moved away.",
+    "w": "Mệnh đề chính kéo dài đến hiện tại -> has grown; mệnh đề 'since' vẫn dùng quá khứ đơn."
+   }
+  ]
+ },
+ {
+  "id": "g25",
+  "lv": 2,
+  "cat": "Động từ khuyết thiếu",
+  "title": "Động từ khuyết thiếu để nói thận trọng",
+  "en": "Modals for hedging and speculation",
+  "form": "may/might/could + V | may/might/could have + V3 | it is likely that / tend to + V",
+  "explain": "Văn học thuật tránh khẳng định tuyệt đối. Thay vì 'Social media makes teenagers depressed', người viết band 7 sẽ viết 'Social media may contribute to depression among teenagers'. 'Could have + V3' dùng để phỏng đoán về quá khứ. Người Việt hay viết 'may be' (hai từ, có thể là) và 'maybe' (trạng từ, có lẽ) lẫn lộn, và hay dùng 'can' cho khả năng không chắc chắn.",
+  "ex": [
+   [
+    "This policy may reduce traffic in the short term.",
+    "Chính sách này có thể giảm ùn tắc trong ngắn hạn."
+   ],
+   [
+    "Older people tend to prefer traditional media.",
+    "Người lớn tuổi có xu hướng thích phương tiện truyền thông truyền thống."
+   ],
+   [
+    "The fall in sales might have been caused by the new tax.",
+    "Doanh số giảm có thể đã do loại thuế mới gây ra."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Video games make children violent.",
+    "Video games may make some children more aggressive.",
+    "Khẳng định tuyệt đối dễ bị coi là lập luận yếu; dùng 'may' và 'some' để thận trọng hơn."
+   ],
+   [
+    "Maybe this is a good solution.",
+    "This may be a good solution.",
+    "Trong văn viết học thuật, 'may be' (động từ) trang trọng hơn 'maybe' (trạng từ, văn nói)."
+   ],
+   [
+    "He might forgot the meeting.",
+    "He might have forgotten the meeting.",
+    "Phỏng đoán về quá khứ: might have + V3."
+   ]
+  ],
+  "ielts": "Giám khảo đánh giá cao câu có mức độ chắc chắn phù hợp, vì nó thể hiện tư duy học thuật và kiểm soát được động từ khuyết thiếu phức tạp. Dùng 'could have + V3' trong Speaking Part 3 khi bàn về quá khứ là điểm cộng rõ rệt.",
+  "quiz": [
+   {
+    "s": "Working from home ___ improve productivity for some employees.",
+    "o": [
+     "can to",
+     "may",
+     "maybe",
+     "might to"
+    ],
+    "a": 1,
+    "w": "Khả năng không chắc chắn: may + V."
+   },
+   {
+    "s": "She didn't answer. She ___ asleep.",
+    "o": [
+     "might have been",
+     "might be been",
+     "must to be",
+     "may was"
+    ],
+    "a": 0,
+    "w": "Phỏng đoán về quá khứ: might have been."
+   },
+   {
+    "s": "Young people ___ spend more time online than older people.",
+    "o": [
+     "tend to",
+     "tend",
+     "are tend to",
+     "tending"
+    ],
+    "a": 0,
+    "w": "'Tend to + V' = có xu hướng."
+   },
+   {
+    "s": "___ the problem is more serious than we think.",
+    "o": [
+     "May be",
+     "Maybe",
+     "Might",
+     "Could"
+    ],
+    "a": 1,
+    "w": "Đứng đầu câu với nghĩa 'có lẽ' -> trạng từ Maybe."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Higher taxes could reduced smoking.",
+    "a": "Higher taxes could reduce smoking.",
+    "w": "Sau 'could' dùng V nguyên mẫu."
+   },
+   {
+    "s": "The drop may be caused by the economic crisis in 2008.",
+    "a": "The drop may have been caused by the economic crisis in 2008.",
+    "w": "Phỏng đoán nguyên nhân trong quá khứ: may have been + V3."
+   }
+  ]
+ },
+ {
+  "id": "g26",
+  "lv": 2,
+  "cat": "Danh từ",
+  "title": "Lượng từ: much, many, a few, a little, a number of, an amount of",
+  "en": "Quantifiers",
+  "form": "many/a few/few/a number of + danh từ đếm được số nhiều | much/a little/little/an amount of + danh từ không đếm được | a lot of/some/most + cả hai",
+  "explain": "Chọn lượng từ phụ thuộc vào danh từ đếm được hay không. 'A few' và 'a little' mang nghĩa tích cực (có một ít), còn 'few' và 'little' mang nghĩa tiêu cực (hầu như không có). 'A number of' + số nhiều + động từ số nhiều, nhưng 'the number of' + số nhiều + động từ số ít. Người Việt hay viết 'the amount of people' trong Task 1; với người phải dùng 'the number of'.",
+  "ex": [
+   [
+    "A number of students have complained about the canteen.",
+    "Một số học sinh đã phàn nàn về căng tin."
+   ],
+   [
+    "The amount of plastic waste has increased.",
+    "Lượng rác thải nhựa đã tăng."
+   ],
+   [
+    "Few people can afford a house in central London.",
+    "Rất ít người đủ tiền mua nhà ở trung tâm London."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The amount of tourists rose in 2019.",
+    "The number of tourists rose in 2019.",
+    "'Tourists' đếm được -> the number of."
+   ],
+   [
+    "The number of cars are increasing.",
+    "The number of cars is increasing.",
+    "Chủ ngữ chính là 'the number' (số ít) -> is."
+   ],
+   [
+    "I don't have many money.",
+    "I don't have much money.",
+    "'Money' không đếm được -> much."
+   ]
+  ],
+  "ielts": "Task 1 dùng liên tục 'the number of' và 'the amount of'; dùng sai là lỗi lặp lại trong cả bài. Phân biệt 'few' và 'a few' giúp diễn đạt chính xác ý tích cực hay tiêu cực trong Task 2.",
+  "quiz": [
+   {
+    "s": "The chart shows ___ water used by households.",
+    "o": [
+     "the number of",
+     "the amount of",
+     "many",
+     "a few"
+    ],
+    "a": 1,
+    "w": "'Water' không đếm được -> the amount of."
+   },
+   {
+    "s": "___ of employees work from home now.",
+    "o": [
+     "A number",
+     "An amount",
+     "Much",
+     "A little"
+    ],
+    "a": 0,
+    "w": "'Employees' đếm được -> a number of."
+   },
+   {
+    "s": "There is ___ evidence to support this claim, so most scientists reject it.",
+    "o": [
+     "a little",
+     "little",
+     "few",
+     "a few"
+    ],
+    "a": 1,
+    "w": "Nghĩa tiêu cực (hầu như không có), danh từ không đếm được -> little."
+   },
+   {
+    "s": "The number of international students ___ doubled since 2010.",
+    "o": [
+     "have",
+     "has",
+     "are",
+     "were"
+    ],
+    "a": 1,
+    "w": "'The number' số ít -> has."
+   }
+  ],
+  "fix": [
+   {
+    "s": "A number of factories has closed recently.",
+    "a": "A number of factories have closed recently.",
+    "w": "'A number of' + danh từ số nhiều + động từ số nhiều."
+   },
+   {
+    "s": "There were much changes to the town centre.",
+    "a": "There were many changes to the town centre.",
+    "w": "'Changes' đếm được -> many."
+   }
+  ]
+ },
+ {
+  "id": "g27",
+  "lv": 2,
+  "cat": "Cấu trúc câu",
+  "title": "Chủ ngữ giả It và cấu trúc It is + adj + to V",
+  "en": "Dummy subject it",
+  "form": "It is + adj + to V / that + S + V | It takes + (sb) + time + to V | It is said/believed that ...",
+  "explain": "Tiếng Việt cho phép câu không có chủ ngữ ('Là quan trọng để học tiếng Anh', 'Mất hai tiếng để đến đó') nên người Việt hay viết 'Is important to...' hoặc 'Takes two hours...'. Câu tiếng Anh luôn cần chủ ngữ, nên dùng 'It' làm chủ ngữ giả. Cấu trúc 'It is widely believed that...' rất hữu ích trong văn học thuật.",
+  "ex": [
+   [
+    "It is important to learn a second language.",
+    "Học một ngôn ngữ thứ hai là quan trọng."
+   ],
+   [
+    "It takes about two hours to get to Vung Tau by car.",
+    "Đi ô tô đến Vũng Tàu mất khoảng hai tiếng."
+   ],
+   [
+    "It is widely believed that exercise improves mental health.",
+    "Nhiều người tin rằng tập thể dục cải thiện sức khỏe tinh thần."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Is very difficult to find a job in my town.",
+    "It is very difficult to find a job in my town.",
+    "Câu tiếng Anh cần chủ ngữ; dùng 'It' làm chủ ngữ giả."
+   ],
+   [
+    "This is necessary for children to learn how to swim.",
+    "It is necessary for children to learn how to swim.",
+    "Cấu trúc chủ ngữ giả dùng 'It', không dùng 'This'."
+   ],
+   [
+    "It takes me to go to school 30 minutes.",
+    "It takes me 30 minutes to go to school.",
+    "Trật tự đúng: It takes + người + thời gian + to V."
+   ]
+  ],
+  "ielts": "Cấu trúc chủ ngữ giả giúp câu Task 2 trang trọng và đa dạng hơn ('It could be argued that...'). Bỏ được lỗi thiếu chủ ngữ là bỏ một lỗi cơ bản mà giám khảo thường gặp ở người Việt.",
+  "quiz": [
+   {
+    "s": "___ is essential to protect endangered species.",
+    "o": [
+     "This",
+     "It",
+     "There",
+     "(không có)"
+    ],
+    "a": 1,
+    "w": "Chủ ngữ giả trước 'is + adj + to V' -> It."
+   },
+   {
+    "s": "It ___ me three years to save enough money.",
+    "o": [
+     "took",
+     "spent",
+     "made",
+     "cost to"
+    ],
+    "a": 0,
+    "w": "'It takes/took + người + thời gian + to V'."
+   },
+   {
+    "s": "It is often argued ___ university education should be free.",
+    "o": [
+     "what",
+     "that",
+     "which",
+     "to"
+    ],
+    "a": 1,
+    "w": "'It is argued that + mệnh đề'."
+   },
+   {
+    "s": "___ was a great pleasure to meet you.",
+    "o": [
+     "There",
+     "This",
+     "It",
+     "That it"
+    ],
+    "a": 2,
+    "w": "Chủ ngữ giả: It was a pleasure to..."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Is not easy to change people's habits.",
+    "a": "It is not easy to change people's habits.",
+    "w": "Thêm chủ ngữ giả 'It'."
+   },
+   {
+    "s": "It is believed that technology make life easier.",
+    "a": "It is believed that technology makes life easier.",
+    "w": "Cấu trúc đúng, nhưng 'technology' số ít -> makes."
+   }
+  ]
+ },
+ {
+  "id": "g28",
+  "lv": 2,
+  "cat": "Từ loại",
+  "title": "Vị trí trạng từ và trật tự tính từ",
+  "en": "Position of adverbs and order of adjectives",
+  "form": "trạng từ tần suất / also / only: trước động từ thường, sau be | Opinion + Size + Age + Shape + Colour + Origin + Material + Purpose + Noun",
+  "explain": "Trạng từ tần suất (always, usually, often, never) và 'also' đứng trước động từ thường nhưng sau 'be' và sau trợ động từ đầu tiên: 'I often go', 'She is always late', 'They have never tried'. Người Việt hay đặt trạng từ ở cuối hoặc giữa động từ và tân ngữ: 'I like very much football'. Khi có nhiều tính từ, thứ tự thường là ý kiến, kích thước, tuổi, hình dạng, màu sắc, nguồn gốc, chất liệu, mục đích.",
+  "ex": [
+   [
+    "I usually have breakfast at home.",
+    "Tôi thường ăn sáng ở nhà."
+   ],
+   [
+    "Public transport is also cheaper.",
+    "Giao thông công cộng cũng rẻ hơn."
+   ],
+   [
+    "She bought a beautiful old Vietnamese silk dress.",
+    "Cô ấy mua một chiếc váy lụa Việt Nam cũ rất đẹp."
+   ]
+  ],
+  "mistakes": [
+   [
+    "I like very much football.",
+    "I like football very much.",
+    "'Very much' đứng sau tân ngữ, không chen giữa động từ và tân ngữ."
+   ],
+   [
+    "She goes always to the gym after work.",
+    "She always goes to the gym after work.",
+    "Trạng từ tần suất đứng trước động từ thường."
+   ],
+   [
+    "It is a wooden big table.",
+    "It is a big wooden table.",
+    "Kích thước (big) đứng trước chất liệu (wooden)."
+   ]
+  ],
+  "ielts": "Lỗi trật tự từ làm câu nghe 'dịch từ tiếng Việt' và giám khảo nhận ra ngay trong Speaking. Đặt đúng 'also', 'often', 'only' giúp câu tự nhiên và chính xác, ảnh hưởng trực tiếp đến Accuracy.",
+  "quiz": [
+   {
+    "s": "My father ___ to work by motorbike.",
+    "o": [
+     "goes usually",
+     "usually goes",
+     "go usually",
+     "usually go"
+    ],
+    "a": 1,
+    "w": "Trạng từ tần suất trước động từ thường; chủ ngữ số ít -> usually goes."
+   },
+   {
+    "s": "They ___ late for class.",
+    "o": [
+     "never are",
+     "are never",
+     "never is",
+     "is never"
+    ],
+    "a": 1,
+    "w": "Trạng từ tần suất đứng sau 'be'."
+   },
+   {
+    "s": "I bought a ___ bag.",
+    "o": [
+     "leather small black",
+     "black small leather",
+     "small black leather",
+     "small leather black"
+    ],
+    "a": 2,
+    "w": "Thứ tự: kích thước, màu sắc, chất liệu."
+   },
+   {
+    "s": "Online learning is cheaper, and it ___ saves travelling time.",
+    "o": [
+     "also",
+     "too",
+     "as well",
+     "either"
+    ],
+    "a": 0,
+    "w": "'Also' đứng trước động từ thường 'saves'."
+   }
+  ],
+  "fix": [
+   {
+    "s": "I speak English quite well and I can speak also French.",
+    "a": "I speak English quite well and I can also speak French.",
+    "w": "'Also' đứng sau trợ động từ đầu tiên 'can', trước động từ chính."
+   },
+   {
+    "s": "We have a Japanese new car.",
+    "a": "We have a new Japanese car.",
+    "w": "Tuổi (new) đứng trước nguồn gốc (Japanese)."
+   }
+  ]
+ },
+ {
+  "id": "g29",
+  "lv": 2,
+  "cat": "Văn phong học thuật",
+  "title": "Tránh lặp danh từ: that of, those of, the former, the latter",
+  "en": "Avoiding repetition with that of / those of",
+  "form": "the + N1 of X ... than that of Y (số ít) / those of Y (số nhiều) | the figure for X ... than that for Y",
+  "explain": "Khi so sánh trong Task 1, câu 'The population of Hanoi is higher than Hue' sai về logic vì so sánh dân số với một thành phố. Cách đúng là so sánh hai thứ cùng loại: 'than that of Hue' (that thay cho 'the population'). Dùng 'those' khi danh từ được thay là số nhiều. Với 'figure', đi với 'for': 'the figure for men ... that for women'.",
+  "ex": [
+   [
+    "The population of Tokyo is larger than that of London.",
+    "Dân số Tokyo lớn hơn dân số London."
+   ],
+   [
+    "Prices in 2020 were higher than those in 2010.",
+    "Giá năm 2020 cao hơn giá năm 2010."
+   ],
+   [
+    "The figure for men was 40%, compared with 55% for women.",
+    "Số liệu của nam là 40%, so với 55% của nữ."
+   ]
+  ],
+  "mistakes": [
+   [
+    "The salary of doctors is higher than teachers.",
+    "The salary of doctors is higher than that of teachers.",
+    "So sánh lương với lương: thêm 'that of'."
+   ],
+   [
+    "The exports of Vietnam were higher than that of Thailand.",
+    "The exports of Vietnam were higher than those of Thailand.",
+    "'Exports' số nhiều -> those of."
+   ],
+   [
+    "The figure of women was higher than men.",
+    "The figure for women was higher than that for men.",
+    "'The figure for' + nhóm, và so sánh với 'that for men'."
+   ]
+  ],
+  "ielts": "So sánh logic và không lặp danh từ là dấu hiệu của người viết kiểm soát tốt câu phức. Giám khảo band 7 kỳ vọng thấy 'that of/those of' trong Task 1 có nhiều so sánh.",
+  "quiz": [
+   {
+    "s": "The literacy rate in Kenya was higher than ___ in Uganda.",
+    "o": [
+     "this",
+     "that",
+     "those",
+     "it"
+    ],
+    "a": 1,
+    "w": "Thay cho 'the literacy rate' (số ít) -> that."
+   },
+   {
+    "s": "The living costs in Singapore are higher than ___ in Bangkok.",
+    "o": [
+     "that",
+     "it",
+     "those",
+     "they"
+    ],
+    "a": 2,
+    "w": "Thay cho 'the living costs' (số nhiều) -> those."
+   },
+   {
+    "s": "The average income of men was higher than ___ women.",
+    "o": [
+     "that of",
+     "those of",
+     "of",
+     "women's that"
+    ],
+    "a": 0,
+    "w": "'Income' số ít -> that of."
+   },
+   {
+    "s": "The figure ___ teenagers was twice as high as that for adults.",
+    "o": [
+     "of",
+     "for",
+     "at",
+     "to"
+    ],
+    "a": 1,
+    "w": "'The figure for' + nhóm người."
+   }
+  ],
+  "fix": [
+   {
+    "s": "The unemployment rate of Spain was higher than Italy.",
+    "a": "The unemployment rate of Spain was higher than that of Italy.",
+    "w": "So sánh hai tỉ lệ thất nghiệp: thêm 'that of'."
+   },
+   {
+    "s": "House prices in London are higher than that in Manchester.",
+    "a": "House prices in London are higher than those in Manchester.",
+    "w": "'House prices' số nhiều -> those."
+   }
+  ]
+ },
+ {
+  "id": "g30",
+  "lv": 2,
+  "cat": "Liên từ",
+  "title": "Từ nối câu và dấu câu: however, moreover, therefore, for example",
+  "en": "Linking adverbs and punctuation",
+  "form": "Câu 1. However/Moreover/Therefore, câu 2. | Câu 1; however, câu 2. | S, however, V ... | for example, + mệnh đề / such as + danh từ",
+  "explain": "Các từ nối như however, moreover, therefore, furthermore là trạng từ, không phải liên từ, nên không nối hai mệnh đề bằng dấu phẩy. Chúng mở đầu câu mới (có dấu phẩy sau) hoặc đứng sau dấu chấm phẩy. 'For example' đi với mệnh đề hoặc ví dụ đầy đủ, còn 'such as' đi với danh từ ngay sau và đứng trong câu. Dùng quá nhiều từ nối ở đầu mỗi câu cũng làm bài viết máy móc.",
+  "ex": [
+   [
+    "Cars are convenient. However, they cause serious pollution.",
+    "Ô tô tiện lợi. Tuy nhiên, chúng gây ô nhiễm nghiêm trọng."
+   ],
+   [
+    "The scheme is cheap; moreover, it is easy to run.",
+    "Kế hoạch này rẻ; hơn nữa, nó dễ vận hành."
+   ],
+   [
+    "Some sports, such as swimming and cycling, are good for the heart.",
+    "Một số môn thể thao, như bơi và đạp xe, tốt cho tim."
+   ]
+  ],
+  "mistakes": [
+   [
+    "Online learning is flexible, however it can be lonely.",
+    "Online learning is flexible. However, it can be lonely.",
+    "'However' không nối hai mệnh đề bằng dấu phẩy; tách câu và thêm dấu phẩy sau 'however'."
+   ],
+   [
+    "Many cities have problems. For example traffic and pollution.",
+    "Many cities have problems such as traffic and pollution.",
+    "'For example' + cụm danh từ đứng riêng tạo câu thiếu thành phần; dùng 'such as' trong câu."
+   ],
+   [
+    "Moreover, besides, it also saves money.",
+    "Moreover, it saves money.",
+    "Không xếp chồng nhiều từ nối cùng nghĩa trong một câu."
+   ]
+  ],
+  "ielts": "Coherence and Cohesion chấm cách dùng từ nối, còn Grammatical Range and Accuracy chấm dấu câu đi kèm. Dùng đúng dấu câu với however và therefore, và thay đổi vị trí từ nối (đầu câu, sau chủ ngữ), giúp bài viết tự nhiên như band 7.",
+  "quiz": [
+   {
+    "s": "The hotel was expensive. ___, the service was excellent.",
+    "o": [
+     "Although",
+     "However",
+     "Despite",
+     "Whereas"
+    ],
+    "a": 1,
+    "w": "Đầu câu mới, đối lập -> However."
+   },
+   {
+    "s": "He didn't study. ___, he failed the exam.",
+    "o": [
+     "Therefore",
+     "Because",
+     "Although",
+     "Such as"
+    ],
+    "a": 0,
+    "w": "Kết quả, đầu câu mới -> Therefore."
+   },
+   {
+    "s": "Fast food, ___ burgers and fries, is high in fat.",
+    "o": [
+     "for example,",
+     "such as",
+     "for instance,",
+     "like as"
+    ],
+    "a": 1,
+    "w": "Đứng ngay trước danh từ trong câu -> such as."
+   },
+   {
+    "s": "The plan is affordable; ___, it creates jobs.",
+    "o": [
+     "moreover",
+     "although",
+     "because",
+     "whereas"
+    ],
+    "a": 0,
+    "w": "Sau dấu chấm phẩy, bổ sung ý -> moreover."
+   }
+  ],
+  "fix": [
+   {
+    "s": "Prices rose, therefore demand fell.",
+    "a": "Prices rose; therefore, demand fell.",
+    "w": "'Therefore' không nối hai mệnh đề bằng dấu phẩy; dùng dấu chấm phẩy hoặc tách câu."
+   },
+   {
+    "s": "Some jobs, for example doctors and nurses are very stressful.",
+    "a": "Some jobs, for example nursing and teaching, are very stressful.",
+    "w": "Cụm chèn giữa câu phải có dấu phẩy ở cả hai đầu, và ví dụ phải là công việc (nursing, teaching), không phải người."
+   }
+  ]
+ }
+]

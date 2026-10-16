@@ -1,0 +1,1860 @@
+[
+ {
+  "id": "l3p1",
+  "test": 3,
+  "part": 1,
+  "title": "Joining a badminton club",
+  "setting": "Một người mới chuyển đến gọi điện cho câu lạc bộ cầu lông để đăng ký làm hội viên.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Club secretary",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Daniel",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good evening, Riverside Badminton Club, Helen speaking. How can I help?"
+   ],
+   [
+    "B",
+    "Oh, hi. I'm ringing because I'd like to join the club. I've just moved to the area, and I saw on a poster that you take new members in the autumn."
+   ],
+   [
+    "A",
+    "We do, yes. I can take a few details now, if that's convenient, and then I'll tell you about the sessions and the fees."
+   ],
+   [
+    "B",
+    "Great, that'd be perfect."
+   ],
+   [
+    "A",
+    "Right. Could I have your name first, please?"
+   ],
+   [
+    "B",
+    "Sure. It's Daniel Kowalski."
+   ],
+   [
+    "A",
+    "Could you spell the surname for me?"
+   ],
+   [
+    "B",
+    "Yeah, it's K-O-W-A-L-S-K-I."
+   ],
+   [
+    "A",
+    "Thank you. And what's your address, Daniel?"
+   ],
+   [
+    "B",
+    "I'm at 14 Thornbury Road. That's T-H-O-R-N-B-U-R-Y."
+   ],
+   [
+    "A",
+    "Lovely, I know it. That's just behind the leisure centre, isn't it?"
+   ],
+   [
+    "B",
+    "That's right, it's about five minutes' walk from there."
+   ],
+   [
+    "A",
+    "And may I ask what you do for a living? We only ask because some of our sessions take place during the day."
+   ],
+   [
+    "B",
+    "I used to be a pharmacist, actually, but I retrained a couple of years ago. Now I'm a nurse at the city hospital, so I work shifts."
+   ],
+   [
+    "A",
+    "Oh, interesting. Now, how would you describe your level of play? We have beginner, intermediate and advanced groups."
+   ],
+   [
+    "B",
+    "Well, I played in a league back home in Perth, so I was going to say advanced."
+   ],
+   [
+    "B",
+    "But to be honest, I haven't played for about three years. Put me down as intermediate for now."
+   ],
+   [
+    "A",
+    "That's sensible. You can always move up once the coaches have seen you play."
+   ],
+   [
+    "B",
+    "Sounds good."
+   ],
+   [
+    "A",
+    "The intermediate group meets twice a week, on Tuesday evenings and on Thursday evenings. Do you have a preference?"
+   ],
+   [
+    "B",
+    "Tuesday would suit me best, I think."
+   ],
+   [
+    "A",
+    "Ah, I'm afraid the Tuesday group is completely full at the moment. There's a waiting list, though."
+   ],
+   [
+    "B",
+    "Oh, right. Well, in that case, Thursday is fine. My shifts usually finish early on Thursdays anyway."
+   ],
+   [
+    "A",
+    "I'll put you down for Thursday evenings, then. Now, membership. We have three types. Full membership lets you use the courts at any time."
+   ],
+   [
+    "B",
+    "And how much is that?"
+   ],
+   [
+    "A",
+    "That's 210 pounds a year. Then there's off-peak membership, which covers weekday evenings after eight o'clock, and weekends."
+   ],
+   [
+    "B",
+    "Hmm. The group sessions start at eight, don't they?"
+   ],
+   [
+    "A",
+    "The Thursday group starts at a quarter past eight, so off-peak would cover it."
+   ],
+   [
+    "B",
+    "Then I'll go for off-peak. What does that cost?"
+   ],
+   [
+    "A",
+    "It's 165 pounds a year. The third option is pay as you play, but that works out more expensive if you come every week."
+   ],
+   [
+    "B",
+    "No, off-peak sounds right for me."
+   ],
+   [
+    "A",
+    "Do you have your own racket?"
+   ],
+   [
+    "B",
+    "Yes, I brought two with me when I moved."
+   ],
+   [
+    "A",
+    "Good. The only other thing you need is a pair of indoor shoes. Running shoes with black soles leave marks on the floor, so we don't allow them."
+   ],
+   [
+    "B",
+    "OK, indoor shoes. I'll have to buy some."
+   ],
+   [
+    "A",
+    "There's a sports shop on the high street that sells them quite cheaply. Now, just for our records, how did you hear about the club? Was it through our website?"
+   ],
+   [
+    "B",
+    "No, I haven't looked at the website yet. I saw your poster on the noticeboard at the library."
+   ],
+   [
+    "A",
+    "Oh, that's nice to know someone reads them! When you arrive for your first session, ask for our head coach, Marcus Ferreira."
+   ],
+   [
+    "B",
+    "Could you spell Ferreira?"
+   ],
+   [
+    "A",
+    "F-E-R-R-E-I-R-A."
+   ],
+   [
+    "B",
+    "Got it. And where's the best place to park?"
+   ],
+   [
+    "A",
+    "The car park at the front is often full, so use the one behind the bakery on Mill Lane. It's free after six."
+   ],
+   [
+    "B",
+    "Behind the bakery. Brilliant. Thanks so much, Helen."
+   ],
+   [
+    "A",
+    "You're welcome, Daniel. See you on Thursday."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-10. Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Riverside Badminton Club - New member. Surname: ___",
+      "a": "Kowalski",
+      "why": "Daniel đánh vần họ của mình: \"it's K-O-W-A-L-S-K-I\"."
+     },
+     {
+      "q": "Address: 14 ___ Road",
+      "a": "Thornbury",
+      "why": "\"I'm at 14 Thornbury Road. That's T-H-O-R-N-B-U-R-Y.\""
+     },
+     {
+      "q": "Occupation: ___",
+      "a": "nurse",
+      "why": "Bẫy: trước đây anh ấy là pharmacist. Hiện tại: \"Now I'm a nurse at the city hospital\"."
+     },
+     {
+      "q": "Level: ___",
+      "a": "intermediate",
+      "why": "Anh ấy định nói advanced nhưng đổi ý: \"Put me down as intermediate for now.\""
+     },
+     {
+      "q": "Group session: ___ evenings",
+      "a": "Thursday",
+      "why": "Tuesday đã kín chỗ (\"completely full\"), nên chọn Thursday: \"I'll put you down for Thursday evenings\"."
+     },
+     {
+      "q": "Membership type: ___",
+      "a": "off-peak",
+      "why": "\"Then I'll go for off-peak.\" Full membership chỉ là phương án được giới thiệu trước."
+     },
+     {
+      "q": "Annual fee: £___",
+      "a": "165",
+      "why": "Bẫy: 210 bảng là giá full membership. Giá off-peak: \"It's 165 pounds a year.\""
+     },
+     {
+      "q": "Must bring: a pair of ___",
+      "a": "indoor shoes",
+      "why": "\"The only other thing you need is a pair of indoor shoes.\" Vợt thì anh ấy đã có."
+     },
+     {
+      "q": "Heard about the club from: a poster at the ___",
+      "a": "library",
+      "why": "Không phải qua website: \"I saw your poster on the noticeboard at the library.\""
+     },
+     {
+      "q": "Parking: use the car park behind the ___",
+      "a": "bakery",
+      "why": "Bãi phía trước thường đầy: \"use the one behind the bakery on Mill Lane\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l3p2",
+  "test": 3,
+  "part": 2,
+  "title": "A tour of a textile museum",
+  "setting": "Hướng dẫn viên giới thiệu với khách tham quan về một bảo tàng dệt may đặt trong một nhà máy cũ.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Museum guide",
+    "voice": "f",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning, everyone, and welcome to the Kingsbridge Textile Museum. My name's Fiona, and I'll be your guide for the next hour or so."
+   ],
+   [
+    "A",
+    "Before we set off, a few practical points. This building was a working mill until 1968, so some of the floors are uneven. Please watch your step, especially on the stairs."
+   ],
+   [
+    "A",
+    "You're welcome to take photographs anywhere in the museum. The only thing I'd ask is that you switch off your flash in the dyeing room."
+   ],
+   [
+    "A",
+    "That's not because the room is dark, although it is a little gloomy. It's because the old fabric samples on display there fade very easily in bright light."
+   ],
+   [
+    "A",
+    "Now, a little history. The mill was built in 1821 by a local family, the Ashworths. A lot of visitors assume it always made cotton, but for its first fifty years it actually produced wool."
+   ],
+   [
+    "A",
+    "You'll sometimes read that the switch happened because the wool trade collapsed. That isn't really true, as wool sales in the region stayed fairly steady."
+   ],
+   [
+    "A",
+    "What changed things was the railway. Once it reached the town in the 1870s, it became far cheaper to bring raw cotton up from the port, and the Ashworths took advantage of that."
+   ],
+   [
+    "A",
+    "One more thing before we start. Some of you may have heard that we were planning to open a rooftop café this year. Sadly, that's been delayed until next spring."
+   ],
+   [
+    "A",
+    "We're also still raising money for an audio guide. What we have launched this year is a trail for children, with a stamp to collect in every room. The children's booklets are at the front desk."
+   ],
+   [
+    "A",
+    "Right, let's look at the map on your leaflet so you know what's where. We'll begin downstairs in the Engine House."
+   ],
+   [
+    "A",
+    "The steam engine there is the heart of the building. We only run it on the first Sunday of each month, so you won't see it moving today, I'm afraid."
+   ],
+   [
+    "A",
+    "But there's a short film playing on a loop in the corner. It shows how our volunteers spent ten years restoring the engine and the rest of the mill, and it's well worth ten minutes."
+   ],
+   [
+    "A",
+    "Next door is the Weaving Hall, where you'll find twenty of the original looms. One of them is switched on every day, at eleven and again at three. Be warned, the noise is incredible."
+   ],
+   [
+    "A",
+    "Upstairs is the Dyeing Room. Along the walls there are jars of the plants that were used to make dyes. Please feel free to pick the jars up and smell them, and you can touch the pieces of dyed wool too."
+   ],
+   [
+    "A",
+    "We did run dyeing workshops in that room for a while, but they were too messy, so we stopped."
+   ],
+   [
+    "A",
+    "Across the yard are the Workers' Cottages, furnished as they would have been in the 1890s. If you sit on the bench by the fireplace and press the button, you'll hear interviews recorded in the 1970s with people who worked here as teenagers."
+   ],
+   [
+    "A",
+    "And finally, on the top floor, there's the Archive Room. It holds the mill's account books, but that's not the main reason to go up."
+   ],
+   [
+    "A",
+    "On most days, one of our volunteers sits up there with a spinning wheel. She'll show you how wool was spun by hand, and then she'll let you have a go yourself."
+   ],
+   [
+    "A",
+    "By the way, you might hear people mention a model of the town as it was in 1850. That's not in the Archive Room any more, it's been moved down to the gift shop."
+   ],
+   [
+    "A",
+    "When we finish, you'll have free time. There's a guidebook on sale, but to be honest, most of what's in it I'll have told you already."
+   ],
+   [
+    "A",
+    "What I really would recommend is a walk along the canal path behind the mill. It's where the cotton barges used to unload, and it's lovely at this time of year."
+   ],
+   [
+    "A",
+    "And if you can, do come back on the first Sunday of a month, when the engine is running. It's a completely different experience when the whole building shakes."
+   ],
+   [
+    "A",
+    "Right, if everyone's ready, follow me down the stairs, and mind the second step."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-13. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Visitors should not use a flash in the dyeing room because",
+      "o": [
+       "the room is too dark for good photographs.",
+       "it may disturb other visitors.",
+       "the fabric on display can be damaged by light."
+      ],
+      "a": 2,
+      "why": "Fiona nói rõ không phải vì phòng tối: \"It's because the old fabric samples on display there fade very easily in bright light.\""
+     },
+     {
+      "q": "According to the guide, the mill started producing cotton because",
+      "o": [
+       "the demand for wool fell.",
+       "transport became less expensive.",
+       "the Ashworth family sold the mill."
+      ],
+      "a": 1,
+      "why": "Ý wool trade collapsed bị bác bỏ (\"That isn't really true\"). Lý do thật: \"it became far cheaper to bring raw cotton up from the port\" nhờ đường sắt."
+     },
+     {
+      "q": "What is new at the museum this year?",
+      "o": [
+       "a rooftop café",
+       "an audio guide",
+       "an activity trail for children"
+      ],
+      "a": 2,
+      "why": "Café bị hoãn, audio guide vẫn đang gây quỹ. \"What we have launched this year is a trail for children\"."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 14-18. What can visitors find in each area of the museum? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 14-18.",
+    "opts": [
+     "a machine that is switched on every day",
+     "recordings of former workers",
+     "a chance to try a traditional skill",
+     "objects visitors are allowed to handle",
+     "a scale model of the town",
+     "a film about the building's restoration",
+     "a display of children's clothing"
+    ],
+    "items": [
+     {
+      "q": "Engine House",
+      "a": 5,
+      "why": "Máy hơi nước chỉ chạy mỗi tháng một lần, nhưng có \"a short film... how our volunteers spent ten years restoring the engine and the rest of the mill\"."
+     },
+     {
+      "q": "Weaving Hall",
+      "a": 0,
+      "why": "\"One of them is switched on every day, at eleven and again at three.\""
+     },
+     {
+      "q": "Dyeing Room",
+      "a": 3,
+      "why": "\"feel free to pick the jars up and smell them, and you can touch the pieces of dyed wool too\". Workshop nhuộm đã dừng, nên không phải C."
+     },
+     {
+      "q": "Workers' Cottages",
+      "a": 1,
+      "why": "\"you'll hear interviews recorded in the 1970s with people who worked here as teenagers\"."
+     },
+     {
+      "q": "Archive Room",
+      "a": 2,
+      "why": "Tình nguyện viên dạy kéo sợi: \"she'll let you have a go yourself\". Mô hình thị trấn đã chuyển xuống gift shop."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 19-20. Choose TWO letters, A-E.",
+    "items": [
+     {
+      "q": "Which TWO things does the guide recommend visitors do?",
+      "o": [
+       "buy the guidebook",
+       "visit the gift shop",
+       "walk along the canal",
+       "return when the engine is running",
+       "join the museum's mailing list"
+      ],
+      "a": [
+       2,
+       3
+      ],
+      "why": "\"What I really would recommend is a walk along the canal path\" và \"do come back on the first Sunday of a month, when the engine is running\". Guidebook thì cô ấy cho là không cần thiết."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l3p3",
+  "test": 3,
+  "part": 3,
+  "title": "Planning a presentation on cycling to campus",
+  "setting": "Hai sinh viên ngành địa lý giao thông bàn kế hoạch cho bài thuyết trình về khảo sát việc đạp xe đến trường.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Maya",
+    "voice": "f",
+    "accent": "en-US"
+   },
+   {
+    "id": "B",
+    "name": "Tom",
+    "voice": "m",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Hi, Tom. Have you got half an hour to sort out the presentation? It's only two weeks away now."
+   ],
+   [
+    "B",
+    "Yeah, sure. I've brought the survey results with me."
+   ],
+   [
+    "A",
+    "Brilliant. I've been worried about it all week. I keep thinking we haven't got enough to say."
+   ],
+   [
+    "B",
+    "Honestly, I think we've got too much, if anything. We'll have to be quite strict about what goes in."
+   ],
+   [
+    "A",
+    "Great. So how many responses did we get in the end?"
+   ],
+   [
+    "B",
+    "Well, 240 people started the questionnaire, but about thirty of them stopped halfway through. So really we've got 210 that we can use."
+   ],
+   [
+    "A",
+    "That's still more than the 180 we were aiming for. I'm pleased with that."
+   ],
+   [
+    "B",
+    "Me too. And the results themselves are quite interesting."
+   ],
+   [
+    "A",
+    "Did the online version work better than the paper one in the end?"
+   ],
+   [
+    "B",
+    "Much better. Almost everyone did it on their phone. We only got about fifteen paper copies back."
+   ],
+   [
+    "A",
+    "Go on, what stood out for you?"
+   ],
+   [
+    "B",
+    "I expected the number of students who cycle to be low, and it was, only about twelve percent. That didn't surprise me at all."
+   ],
+   [
+    "B",
+    "What I didn't expect was the reason people gave for not cycling. I assumed they'd say the hills, or the weather."
+   ],
+   [
+    "A",
+    "And they didn't?"
+   ],
+   [
+    "B",
+    "No. The number one reason was that there's nowhere safe to leave a bike. Hardly anyone mentioned the rain."
+   ],
+   [
+    "A",
+    "That really surprised me too, when I looked at the comments. The age of the cyclists was pretty much what I'd guessed, mostly postgraduates."
+   ],
+   [
+    "A",
+    "OK. What about the interviews? Should we play some of the recordings during the talk?"
+   ],
+   [
+    "B",
+    "I'm not sure. We did most of them in the café, and the sound quality is terrible. You can hear the coffee machine over everything."
+   ],
+   [
+    "A",
+    "That's true. But some of the things people said were brilliant. It'd be a shame to lose them completely."
+   ],
+   [
+    "B",
+    "Agreed. Why don't we just pick a few short quotations and put them on a slide?"
+   ],
+   [
+    "A",
+    "Perfect. That's much easier than editing audio, too."
+   ],
+   [
+    "B",
+    "Now, Dr Hassan gave us some feedback on the outline, didn't she?"
+   ],
+   [
+    "A",
+    "She did. Her main point was that our draft spends far too long explaining how we carried out the survey. She wants that part cut down to a minute or so."
+   ],
+   [
+    "B",
+    "Fair enough. Didn't she also say something about comparing our results with another university?"
+   ],
+   [
+    "A",
+    "She mentioned it, but she said it was optional. And honestly, we don't have time to find the data."
+   ],
+   [
+    "B",
+    "No. We were always going to finish with recommendations anyway, so that doesn't change."
+   ],
+   [
+    "A",
+    "Right. So shall we divide up the work? I'm happy to do the introduction. I've already written some notes for it."
+   ],
+   [
+    "B",
+    "Great, that's yours then. I'll do the charts, since I've got all the figures in my spreadsheet."
+   ],
+   [
+    "A",
+    "OK. And what about the map showing where the bike racks are? I could do that."
+   ],
+   [
+    "B",
+    "If you like."
+   ],
+   [
+    "A",
+    "Actually, wait. You cycle in every day, so you know the campus much better than I do. It makes more sense for you to do it."
+   ],
+   [
+    "B",
+    "Fair point. I'll do the map as well, then."
+   ],
+   [
+    "A",
+    "Then there's the slide with the quotations."
+   ],
+   [
+    "B",
+    "We each did half of the interviews, so why don't we both choose the best quotes from our own ones and put them together?"
+   ],
+   [
+    "A",
+    "Good idea. That's a joint job. And the recommendations?"
+   ],
+   [
+    "B",
+    "I was thinking we should both write those too."
+   ],
+   [
+    "A",
+    "Hmm, I think it'll get messy with two people writing the same section. Since I'm doing the introduction, and the recommendations need to link back to it, why don't I draft them? You can comment afterwards."
+   ],
+   [
+    "B",
+    "That makes sense. So that's you."
+   ],
+   [
+    "A",
+    "The last thing is booking a room for a practice run. Shall I do that? I'm in the library tomorrow anyway, and I can book at the desk."
+   ],
+   [
+    "B",
+    "Please do. Thursday afternoon would be ideal for me."
+   ],
+   [
+    "A",
+    "I'll try for Thursday, then."
+   ],
+   [
+    "B",
+    "And let's agree to have everything finished by Tuesday, so we can put the slides together before the practice."
+   ],
+   [
+    "A",
+    "Tuesday it is. I'll send you a message to remind you."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-24. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "How many survey responses can the students use?",
+      "o": [
+       "180",
+       "210",
+       "240"
+      ],
+      "a": 1,
+      "why": "240 người bắt đầu nhưng khoảng 30 bỏ dở: \"So really we've got 210 that we can use.\" 180 là mục tiêu ban đầu."
+     },
+     {
+      "q": "What surprised both students most about the results?",
+      "o": [
+       "how few students cycle",
+       "the main reason for not cycling",
+       "the age of the cyclists"
+      ],
+      "a": 1,
+      "why": "Tom: \"What I didn't expect was the reason people gave for not cycling\", Maya: \"That really surprised me too\". Tỷ lệ thấp và độ tuổi thì đúng như dự đoán."
+     },
+     {
+      "q": "What do the students decide to do with the interview material?",
+      "o": [
+       "show short quotations",
+       "play edited recordings",
+       "leave it out completely"
+      ],
+      "a": 0,
+      "why": "Âm thanh ghi ở café quá ồn, nên Tom đề xuất \"pick a few short quotations and put them on a slide\" và Maya đồng ý \"Perfect\"."
+     },
+     {
+      "q": "What did their tutor tell them to do?",
+      "o": [
+       "spend less time on their methods",
+       "compare their results with another university",
+       "end with some recommendations"
+      ],
+      "a": 0,
+      "why": "\"our draft spends far too long explaining how we carried out the survey. She wants that part cut down\". So sánh với trường khác chỉ là tùy chọn, còn phần khuyến nghị là kế hoạch sẵn có của họ."
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 25-30. Who will be responsible for each part of the presentation? Choose the correct letter, A, B or C. You may use any letter more than once.",
+    "opts": [
+     "Maya",
+     "Tom",
+     "both Maya and Tom"
+    ],
+    "items": [
+     {
+      "q": "the introduction",
+      "a": 0,
+      "why": "Maya: \"I'm happy to do the introduction\", Tom: \"that's yours then\"."
+     },
+     {
+      "q": "the charts",
+      "a": 1,
+      "why": "Tom: \"I'll do the charts, since I've got all the figures in my spreadsheet.\""
+     },
+     {
+      "q": "the map of bike racks",
+      "a": 1,
+      "why": "Maya định làm nhưng đổi ý vì Tom hiểu khuôn viên hơn. Tom: \"I'll do the map as well, then.\""
+     },
+     {
+      "q": "the slide of quotations",
+      "a": 2,
+      "why": "\"why don't we both choose the best quotes from our own ones\", Maya: \"That's a joint job.\""
+     },
+     {
+      "q": "the recommendations",
+      "a": 0,
+      "why": "Tom muốn cả hai cùng viết nhưng Maya đề xuất \"why don't I draft them?\" và Tom đồng ý \"So that's you.\""
+     },
+     {
+      "q": "booking a practice room",
+      "a": 0,
+      "why": "Maya: \"Shall I do that? ... I can book at the desk.\" Tom: \"Please do.\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l3p4",
+  "test": 3,
+  "part": 4,
+  "title": "The history of paper",
+  "setting": "Bài giảng về lịch sử của giấy, từ Trung Quốc cổ đại đến ngành giấy hiện đại.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "m",
+    "accent": "en-GB"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good morning. Today we're looking at a material most of us take completely for granted, and that's paper. I want to trace its journey from ancient China to the modern recycling plant."
+   ],
+   [
+    "A",
+    "Let's start with what people used before paper existed. In China, documents were written either on strips of bamboo, which were heavy and awkward to store, or on silk."
+   ],
+   [
+    "A",
+    "Silk was light and pleasant to write on, but it was extremely expensive, so it was only really used by the wealthy and by the imperial court."
+   ],
+   [
+    "A",
+    "The traditional story credits a court official called Cai Lun with inventing paper in the year 105. In fact, archaeologists have found fragments of paper that are older than that, so it's more accurate to say he improved and standardised the process."
+   ],
+   [
+    "A",
+    "According to the records, Cai Lun used tree bark, hemp, old rags, and even worn-out fishing nets. These were soaked and beaten into a pulp."
+   ],
+   [
+    "A",
+    "The wet pulp was then spread thinly onto a screen, a frame with fine cloth stretched across it, and left in the sun to dry. That basic method hasn't really changed in almost two thousand years."
+   ],
+   [
+    "A",
+    "For several centuries, the technique stayed largely within China and its neighbours. It reached the city of Samarkand, in Central Asia, in the eighth century."
+   ],
+   [
+    "A",
+    "The papermakers there faced a practical problem, which was that the plants used in China didn't grow locally. So instead of bark, they used linen rags, which were cheap and widely available."
+   ],
+   [
+    "A",
+    "There's a well-known story that the secret came west with Chinese papermakers who were captured in a battle in 751. Historians now doubt this, but the dates fit reasonably well."
+   ],
+   [
+    "A",
+    "From Samarkand, the craft spread to Baghdad, where a paper mill was operating by the end of the eighth century."
+   ],
+   [
+    "A",
+    "This had an enormous effect on how the state was run. Officials in Baghdad began to use paper for government records, partly because it was harder to alter than parchment without leaving a mark."
+   ],
+   [
+    "A",
+    "Paper arrived in Europe through Spain, where the first mills were set up in the twelfth century. But its reception was surprisingly cool."
+   ],
+   [
+    "A",
+    "Monks and lawyers didn't trust it. They preferred parchment, made from animal skin, because they believed it would last far longer. One emperor even banned paper for official documents."
+   ],
+   [
+    "A",
+    "Attitudes only really changed after the printing press appeared in the fifteenth century. Printers needed a cheap material in huge quantities, and parchment simply couldn't supply that."
+   ],
+   [
+    "A",
+    "To give you an idea of the scale, a single copy of a large Bible printed on parchment needed the skins of more than a hundred animals. On paper, the cost fell dramatically."
+   ],
+   [
+    "A",
+    "Now, this success created its own problem. By the eighteenth and nineteenth centuries, demand was so high that there was a serious shortage of rags. Some mills even advertised, asking households to save their old clothes."
+   ],
+   [
+    "A",
+    "The solution came in the 1840s, when inventors in Germany and Canada found ways of making paper from wood pulp. Suddenly, paper became cheap enough for daily newspapers and school exercise books."
+   ],
+   [
+    "A",
+    "But wood pulp paper had a hidden weakness. Because of the chemicals used to process it, it contained acid, and over time this acid breaks the fibres down."
+   ],
+   [
+    "A",
+    "That's why so many books from the late nineteenth century have turned yellow and brittle, while some much older books printed on rag paper are still in excellent condition."
+   ],
+   [
+    "A",
+    "Libraries today spend a great deal of money treating these books to stop the damage. And since the 1980s, most good-quality paper has been made acid-free, so the problem is much smaller than it was."
+   ],
+   [
+    "A",
+    "Finally, what about paper today? Many people predicted that computers would create the paperless office. Office paper use has fallen, but overall the industry is still enormous."
+   ],
+   [
+    "A",
+    "The biggest use of paper now isn't printing at all. It's packaging, and the main driver of that is online shopping, with all those cardboard boxes arriving at our doors."
+   ],
+   [
+    "A",
+    "The good news is that paper is one of the most recycled materials we have. The fibres can be reused up to seven times before they become too short and weak to hold together."
+   ],
+   [
+    "A",
+    "After that, they're usually burned to produce energy. In our next session, we'll look at whether that's really as green as it sounds."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "note",
+    "instr": "Questions 31-40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Before paper: Chinese documents were written on bamboo or on ___, which was very expensive.",
+      "a": "silk",
+      "why": "\"either on strips of bamboo... or on silk\", và \"Silk... was extremely expensive\"."
+     },
+     {
+      "q": "Cai Lun (105): used bark, hemp, rags and old fishing ___",
+      "a": "nets",
+      "why": "\"tree bark, hemp, old rags, and even worn-out fishing nets\"."
+     },
+     {
+      "q": "The pulp was spread on a ___ and dried in the sun.",
+      "a": "screen",
+      "why": "\"The wet pulp was then spread thinly onto a screen\"."
+     },
+     {
+      "q": "Samarkand (8th century): papermakers used ___ rags instead of bark.",
+      "a": "linen",
+      "why": "\"instead of bark, they used linen rags\"."
+     },
+     {
+      "q": "Baghdad: paper was used for government ___",
+      "a": "records",
+      "why": "\"Officials in Baghdad began to use paper for government records\"."
+     },
+     {
+      "q": "Europe: monks and lawyers preferred ___ because they thought it was more durable.",
+      "a": "parchment",
+      "why": "\"They preferred parchment... because they believed it would last far longer.\""
+     },
+     {
+      "q": "18th-19th centuries: there was a shortage of ___",
+      "a": "rags",
+      "why": "\"there was a serious shortage of rags\"."
+     },
+     {
+      "q": "Wood pulp paper contained ___, which damages the fibres.",
+      "a": "acid",
+      "why": "\"it contained acid, and over time this acid breaks the fibres down\"."
+     },
+     {
+      "q": "Today: the largest use of paper is for ___",
+      "a": "packaging",
+      "why": "\"The biggest use of paper now isn't printing at all. It's packaging\"."
+     },
+     {
+      "q": "Paper fibres can be recycled up to ___ times.",
+      "a": "seven|7",
+      "why": "\"The fibres can be reused up to seven times\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l4p1",
+  "test": 4,
+  "part": 1,
+  "title": "Reporting lost property",
+  "setting": "Một du khách gọi đến văn phòng đồ thất lạc của bến xe khách để báo mất ba lô.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lost property clerk",
+    "voice": "m",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Rachel",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon, Central Coach Station, lost property office. How can I help you?"
+   ],
+   [
+    "B",
+    "Hi there. I think I left my bag on one of your coaches this morning, and I'm hoping someone handed it in."
+   ],
+   [
+    "A",
+    "I'm sorry to hear that. Nothing matching has come in yet today, but I'll fill in a report, and then we'll contact you as soon as it turns up. Can I take your name?"
+   ],
+   [
+    "B",
+    "Sure. It's Rachel Ashdown."
+   ],
+   [
+    "A",
+    "Is that A-S-H-D-O-W-N?"
+   ],
+   [
+    "B",
+    "That's right."
+   ],
+   [
+    "A",
+    "And are you local, Rachel, or visiting?"
+   ],
+   [
+    "B",
+    "I'm visiting from the States. I'm here until Friday, staying at the Grantley Hotel."
+   ],
+   [
+    "A",
+    "Could you spell the name of the hotel?"
+   ],
+   [
+    "B",
+    "Yes, it's G-R-A-N-T-L-E-Y. It's on Queen Street."
+   ],
+   [
+    "A",
+    "And is there a phone number where we can reach you?"
+   ],
+   [
+    "B",
+    "My cell phone doesn't work very well over here, so it's probably best to call the hotel and ask for room 304. They'll pass on a message."
+   ],
+   [
+    "A",
+    "That's fine, I'll note that down."
+   ],
+   [
+    "A",
+    "Thank you. Now, can you describe the bag for me?"
+   ],
+   [
+    "B",
+    "It's a backpack, a medium-sized one. It's dark blue. Oh, no, sorry, I'm thinking of my husband's. Mine is grey, with a red zip on the front pocket."
+   ],
+   [
+    "A",
+    "A grey backpack with a red zip. And which coach were you on?"
+   ],
+   [
+    "B",
+    "We came in from Bristol this morning. We'd been staying with friends there."
+   ],
+   [
+    "A",
+    "Do you remember what time the coach left Bristol?"
+   ],
+   [
+    "B",
+    "I think it was the 9:40. No, wait, we missed that one, because the taxi was late. So we caught the next one, which was at 10:15."
+   ],
+   [
+    "A",
+    "The 10:15 from Bristol. That's helpful. Do you remember where you were sitting?"
+   ],
+   [
+    "B",
+    "Yes, we were near the back, in row 12. I put the bag on the floor under the seat in front, and I just forgot to pick it up."
+   ],
+   [
+    "A",
+    "It happens a lot, believe me. And what was inside the bag?"
+   ],
+   [
+    "B",
+    "Let me think. There was a paperback book, a water bottle, and a pair of binoculars. The binoculars are the important thing. They belonged to my father."
+   ],
+   [
+    "A",
+    "I see. No passport or wallet?"
+   ],
+   [
+    "B",
+    "Oh, and there's a luggage tag on the handle with my name on it, so that might help."
+   ],
+   [
+    "A",
+    "It certainly will. Bags without a name take much longer to match up."
+   ],
+   [
+    "B",
+    "No, thank goodness. Those were in my handbag."
+   ],
+   [
+    "A",
+    "Good. Now, when the bag is found, we can either post it to you, or you can come and collect it here."
+   ],
+   [
+    "B",
+    "How long does posting take?"
+   ],
+   [
+    "A",
+    "Usually three to five working days, and there's a charge for it."
+   ],
+   [
+    "B",
+    "Then I'd better collect it. I fly home on Friday, so it might not arrive in time."
+   ],
+   [
+    "A",
+    "Collection it is. The office is open from eight till six, Monday to Friday."
+   ],
+   [
+    "B",
+    "And on Saturdays? Just in case."
+   ],
+   [
+    "A",
+    "Normally we close at twelve on Saturdays, but over the summer we stay open until four."
+   ],
+   [
+    "B",
+    "Oh, that's good to know. Will I need to bring anything with me when I collect it? My coach ticket, maybe?"
+   ],
+   [
+    "A",
+    "You don't need the ticket, and you won't need a copy of this report either. But you will need some photo identification, so a passport or a driving licence."
+   ],
+   [
+    "B",
+    "OK, I'll bring my passport. Thank you so much for your help."
+   ],
+   [
+    "A",
+    "One more thing. Your reference number is L-4-7-2, if you want to call us and check."
+   ],
+   [
+    "B",
+    "Great, I've written that down."
+   ],
+   [
+    "A",
+    "Not at all. We'll call you at the hotel as soon as we hear anything."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "form",
+    "instr": "Questions 1-7. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Lost Property Report. Name: Rachel ___",
+      "a": "Ashdown",
+      "why": "Nhân viên đánh vần và Rachel xác nhận: \"Is that A-S-H-D-O-W-N?\" \"That's right.\""
+     },
+     {
+      "q": "Staying at: the ___ Hotel, Queen Street",
+      "a": "Grantley",
+      "why": "\"it's G-R-A-N-T-L-E-Y. It's on Queen Street.\""
+     },
+     {
+      "q": "Item: ___ backpack with a red zip",
+      "a": "grey",
+      "why": "Bẫy: cô ấy nói dark blue rồi sửa lại: \"I'm thinking of my husband's. Mine is grey\"."
+     },
+     {
+      "q": "Coach travelling from: ___",
+      "a": "Bristol",
+      "why": "\"We came in from Bristol this morning.\""
+     },
+     {
+      "q": "Departure time: ___",
+      "a": "10:15|10.15",
+      "why": "Bẫy: chuyến 9:40 bị lỡ. \"So we caught the next one, which was at 10:15.\""
+     },
+     {
+      "q": "Seat: row ___",
+      "a": "12",
+      "why": "\"we were near the back, in row 12\"."
+     },
+     {
+      "q": "Contents: a book, a water bottle and a pair of ___",
+      "a": "binoculars",
+      "why": "\"a paperback book, a water bottle, and a pair of binoculars\"."
+     }
+    ]
+   },
+   {
+    "kind": "mcq",
+    "instr": "Questions 8-10. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Rachel decides to collect the bag because",
+      "o": [
+       "posting is too expensive.",
+       "it might not arrive before she leaves.",
+       "the hotel cannot accept parcels."
+      ],
+      "a": 1,
+      "why": "\"I fly home on Friday, so it might not arrive in time.\" Phí gửi có được nhắc nhưng không phải lý do cô ấy đưa ra."
+     },
+     {
+      "q": "During the summer, the office closes on Saturdays at",
+      "o": [
+       "12 noon.",
+       "4 pm.",
+       "6 pm."
+      ],
+      "a": 1,
+      "why": "\"Normally we close at twelve on Saturdays, but over the summer we stay open until four.\""
+     },
+     {
+      "q": "What must Rachel bring when she collects the bag?",
+      "o": [
+       "photo identification",
+       "her coach ticket",
+       "a copy of the report"
+      ],
+      "a": 0,
+      "why": "\"You don't need the ticket, and you won't need a copy of this report either. But you will need some photo identification\"."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l4p2",
+  "test": 4,
+  "part": 2,
+  "title": "Coastal conservation volunteers",
+  "setting": "Điều phối viên giới thiệu chương trình tình nguyện bảo vệ bờ biển cho nhóm tình nguyện viên mới.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Volunteer coordinator",
+    "voice": "m",
+    "accent": "en-AU"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Morning, everyone, and thanks for coming along. I'm Liam, and I coordinate the Coastcare volunteer programme here at Banksia Bay. I'll run through how the programme works, and then there's time for questions."
+   ],
+   [
+    "A",
+    "The programme has been running for about twelve years now. We started with five people and a few rubbish bags, and these days we've got over two hundred volunteers on our list."
+   ],
+   [
+    "A",
+    "First, what are we actually trying to do? People often think we're mainly a beach-cleaning group, and yes, we do collect a lot of rubbish."
+   ],
+   [
+    "A",
+    "But our main goal is to protect the sand dunes. The dunes are what stop the sea from washing away the coast road, and they're also where most of our wildlife lives."
+   ],
+   [
+    "A",
+    "A quick note on age. Volunteers under eighteen are very welcome. You don't need to come with a parent, but we do need a consent form signed by one before your first session."
+   ],
+   [
+    "A",
+    "OK, let's go through the weekly timetable. You'll find it on the sheet in your folder, though some details are missing, so you might want to fill them in."
+   ],
+   [
+    "A",
+    "On Mondays we do the big beach clean. We provide the bags and the litter pickers, but please bring your own gloves. We used to hand them out, but people kept taking them home."
+   ],
+   [
+    "A",
+    "We weigh everything we collect, and the figures go to the local council. Last year it came to just under three tonnes, most of it plastic."
+   ],
+   [
+    "A",
+    "On Wednesdays it's planting. We grow native seedlings in our nursery, and then we plant them on the parts of the dunes that have been damaged by storms."
+   ],
+   [
+    "A",
+    "It's hard work, I won't pretend otherwise, but it's very satisfying to come back a few months later and see the plants holding the sand in place."
+   ],
+   [
+    "A",
+    "Friday is turtle nest monitoring, which is usually the most popular day. It starts early, at six. We'll meet at the lighthouse, not the car park, because that's much closer to the nesting area."
+   ],
+   [
+    "A",
+    "You'll walk along the beach with an experienced volunteer, checking the nests for any damage and recording what you see. Numbers on Fridays are limited, so put your name on the list in advance."
+   ],
+   [
+    "A",
+    "Then on Saturdays, we run a session where school groups visit and we show them around. Volunteers help to lead small groups of children, so it's great if you enjoy that kind of thing."
+   ],
+   [
+    "A",
+    "Now, what do you get out of it, apart from fresh air? Well, everyone receives a uniform T-shirt, so the public can see you're part of the team. You'll get that today, before you leave."
+   ],
+   [
+    "A",
+    "And once you've completed twenty hours, we'll give you a certificate, which a lot of students find useful for job applications."
+   ],
+   [
+    "A",
+    "I should say what we can't offer. We don't provide transport, I'm afraid, so you'll need to get here yourselves. And please bring your own lunch."
+   ],
+   [
+    "A",
+    "Some of you may have heard about a discount at the shops in town. That scheme ended last year, unfortunately."
+   ],
+   [
+    "A",
+    "A few rules, then. Photos are fine, and we love seeing them. But please never post the location of a turtle nest online. Sadly, people do go looking for them."
+   ],
+   [
+    "A",
+    "And even if your dog is very well behaved, please don't bring it on volunteer days. Dogs can smell the nests, and they frighten the birds."
+   ],
+   [
+    "A",
+    "You can walk on the dunes as long as you stay on the marked paths. And sunscreen is absolutely fine, in fact we insist on it."
+   ],
+   [
+    "A",
+    "Last thing. If you can't make a session, just send a text to the volunteer phone. You don't need to give a reason."
+   ],
+   [
+    "A",
+    "We'd just rather know, so the team leaders aren't waiting around on the beach for you at six in the morning."
+   ],
+   [
+    "A",
+    "Right, any questions so far?"
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 11-12. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "What is the main aim of the programme?",
+      "o": [
+       "to remove rubbish from the beach",
+       "to protect the sand dunes",
+       "to teach children about wildlife"
+      ],
+      "a": 1,
+      "why": "Nhặt rác chỉ là việc mọi người hay nghĩ đến. \"But our main goal is to protect the sand dunes.\""
+     },
+     {
+      "q": "Volunteers under eighteen must",
+      "o": [
+       "come with a parent.",
+       "have a form signed by a parent.",
+       "join the Saturday sessions only."
+      ],
+      "a": 1,
+      "why": "\"You don't need to come with a parent, but we do need a consent form signed by one\"."
+     }
+    ]
+   },
+   {
+    "kind": "table",
+    "instr": "Questions 13-16. Complete the table below. Write ONE WORD ONLY for each answer.",
+    "items": [
+     {
+      "q": "Monday - beach clean - volunteers bring their own ___",
+      "a": "gloves",
+      "why": "\"please bring your own gloves\". Túi và kẹp gắp rác thì đã được cung cấp."
+     },
+     {
+      "q": "Wednesday - planting native ___ on damaged dunes",
+      "a": "seedlings",
+      "why": "\"We grow native seedlings in our nursery, and then we plant them\"."
+     },
+     {
+      "q": "Friday - turtle nest monitoring - meet at the ___ at 6 am",
+      "a": "lighthouse",
+      "why": "\"We'll meet at the lighthouse, not the car park\"."
+     },
+     {
+      "q": "Saturday - helping with visits by ___ groups",
+      "a": "school",
+      "why": "\"we run a session where school groups visit\"."
+     }
+    ]
+   },
+   {
+    "kind": "multi",
+    "instr": "Questions 17-20. Choose TWO letters, A-E, for each question.",
+    "items": [
+     {
+      "q": "Which TWO things do volunteers receive?",
+      "o": [
+       "free transport",
+       "a T-shirt",
+       "a certificate",
+       "a free lunch",
+       "a discount at local shops"
+      ],
+      "a": [
+       1,
+       2
+      ],
+      "why": "\"everyone receives a uniform T-shirt\" và \"once you've completed twenty hours, we'll give you a certificate\". Không có transport, phải tự mang lunch, discount đã kết thúc."
+     },
+     {
+      "q": "Which TWO things are volunteers asked NOT to do?",
+      "o": [
+       "take photographs",
+       "walk on the dunes",
+       "share nest locations online",
+       "bring dogs",
+       "wear sunscreen"
+      ],
+      "a": [
+       2,
+       3
+      ],
+      "why": "\"please never post the location of a turtle nest online\" và \"please don't bring it on volunteer days\" (nói về chó). Chụp ảnh, đi trên lối đi có đánh dấu và dùng kem chống nắng đều được phép."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l4p3",
+  "test": 4,
+  "part": 3,
+  "title": "A project on kelp farming",
+  "setting": "Hai sinh viên sinh học biển thảo luận với giảng viên về đề tài nuôi tảo bẹ để hấp thụ carbon.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Dr Lawson",
+    "voice": "f",
+    "accent": "en-GB"
+   },
+   {
+    "id": "B",
+    "name": "Priya",
+    "voice": "f",
+    "accent": "en-AU"
+   },
+   {
+    "id": "C",
+    "name": "Josh",
+    "voice": "m",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Come in, both of you. So, you've chosen kelp farming as a way of capturing carbon. Tell me why you went for that topic."
+   ],
+   [
+    "B",
+    "Well, we'd both seen a documentary about kelp forests last year, and that got us interested."
+   ],
+   [
+    "C",
+    "But honestly, the main reason is that we both want to work in aquaculture after we graduate. So it felt like a project that would actually help us get a job."
+   ],
+   [
+    "B",
+    "And there's a lot of interest in it at the moment. Several companies are already selling carbon credits based on kelp farms."
+   ],
+   [
+    "A",
+    "There is, and that's exactly why it needs careful, critical work. Some of those claims are rather optimistic."
+   ],
+   [
+    "A",
+    "That's a very good reason. Now, I've read your draft. Let's start with the data. Where did your growth figures come from?"
+   ],
+   [
+    "B",
+    "Mostly from three studies of kelp farms. They're all fairly recent, within the last five years."
+   ],
+   [
+    "A",
+    "Recent is good. The trouble is that all three were done off the coast of Norway. Kelp grows very differently in warmer water, so you can't really generalise from one region."
+   ],
+   [
+    "C",
+    "We did wonder about that. We thought the measurements might be the issue, but they all used the same method."
+   ],
+   [
+    "A",
+    "The method's fine. It's the location that worries me. And that leads me to your conclusion."
+   ],
+   [
+    "B",
+    "Is it too vague? We weren't sure how strong to make it."
+   ],
+   [
+    "A",
+    "Quite the opposite. You say kelp farming could solve the problem of carbon emissions. That's far more certain than your evidence allows. It does link to your data, but you've pushed it too far."
+   ],
+   [
+    "C",
+    "OK, so we need to tone it down."
+   ],
+   [
+    "A",
+    "Something like 'kelp farming may make a modest contribution' would be much closer to what the evidence shows."
+   ],
+   [
+    "B",
+    "That does sound more academic, actually."
+   ],
+   [
+    "A",
+    "Yes. And I think you need to be clearer about what happens to the carbon after the kelp is harvested. That's where a lot of these claims fall apart."
+   ],
+   [
+    "B",
+    "Right. Because if it's eaten, the carbon goes back into the atmosphere fairly quickly."
+   ],
+   [
+    "A",
+    "Exactly. And the same is true if it's used as fertiliser, which is where most farmed kelp in Europe actually ends up. Most of the carbon is released again within a year or two."
+   ],
+   [
+    "C",
+    "So the carbon is only really locked away if the kelp sinks to the deep ocean."
+   ],
+   [
+    "A",
+    "That's right, and nobody knows yet how much farmed kelp does that. Make that point clearly."
+   ],
+   [
+    "B",
+    "Would it help to include a diagram showing the carbon cycle? I think it'd be easier to follow than a long paragraph."
+   ],
+   [
+    "A",
+    "Yes, please do. And while we're talking about length, your literature review is too long. I'd cut it by around 500 words."
+   ],
+   [
+    "C",
+    "That much? OK, we'll manage."
+   ],
+   [
+    "B",
+    "We could probably lose the section on the history of seaweed harvesting. It's interesting, but it doesn't really support our argument."
+   ],
+   [
+    "A",
+    "I agree. Keep the focus on carbon."
+   ],
+   [
+    "A",
+    "Now, quickly, the sources you've listed. What did you make of the government report?"
+   ],
+   [
+    "B",
+    "It was easy to read, but it didn't really go into detail. It covers every kind of ocean farming in about twenty pages."
+   ],
+   [
+    "C",
+    "Yeah, it was too general to be much use for us, really."
+   ],
+   [
+    "A",
+    "And the website run by the seaweed industry association?"
+   ],
+   [
+    "C",
+    "It had lots of figures, but obviously they want to sell kelp. Every single study they mention is positive. I didn't trust it."
+   ],
+   [
+    "B",
+    "I agree. It's very one-sided."
+   ],
+   [
+    "A",
+    "And the journal article by Chen?"
+   ],
+   [
+    "B",
+    "That was the best thing we found. The statistics were hard going at first, but once we got through them, it answered almost all our questions."
+   ],
+   [
+    "C",
+    "It was really useful. We should probably rely on it more."
+   ],
+   [
+    "A",
+    "Good. Then I suggest you do. And try to find at least one study from warmer waters, perhaps from Australia or South Africa, to deal with the problem we discussed earlier."
+   ],
+   [
+    "C",
+    "We'll look this afternoon."
+   ],
+   [
+    "A",
+    "Excellent. Send me a new draft by the end of next week, and we'll meet again after that."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 21-23. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Why did the students choose kelp farming as their topic?",
+      "o": [
+       "Their tutor suggested it.",
+       "They had watched a documentary.",
+       "It is connected to their career plans."
+      ],
+      "a": 2,
+      "why": "Phim tài liệu chỉ khơi gợi hứng thú. Josh: \"the main reason is that we both want to work in aquaculture after we graduate\"."
+     },
+     {
+      "q": "What problem does the tutor see with the students' data?",
+      "o": [
+       "It is out of date.",
+       "It comes from one region only.",
+       "It was measured in different ways."
+      ],
+      "a": 1,
+      "why": "\"all three were done off the coast of Norway... you can't really generalise from one region\". Dữ liệu mới và cùng phương pháp đo."
+     },
+     {
+      "q": "What does the tutor think about the students' conclusion?",
+      "o": [
+       "It is too confident.",
+       "It is too vague.",
+       "It is not related to their data."
+      ],
+      "a": 0,
+      "why": "Priya hỏi có quá mơ hồ không, cô trả lời \"Quite the opposite... far more certain than your evidence allows\"."
+     }
+    ]
+   },
+   {
+    "kind": "sentcomp",
+    "instr": "Questions 24-27. Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Most farmed kelp in Europe is used as ___.",
+      "a": "fertiliser|fertilizer",
+      "why": "\"if it's used as fertiliser, which is where most farmed kelp in Europe actually ends up\"."
+     },
+     {
+      "q": "Carbon is only stored long-term if the kelp sinks to the ___.",
+      "a": "deep ocean",
+      "why": "Josh: \"the carbon is only really locked away if the kelp sinks to the deep ocean\"."
+     },
+     {
+      "q": "The students will add a ___ to explain the carbon cycle.",
+      "a": "diagram",
+      "why": "Priya: \"include a diagram showing the carbon cycle\", giảng viên đồng ý \"Yes, please do\"."
+     },
+     {
+      "q": "The literature review should be shortened by about ___ words.",
+      "a": "500",
+      "why": "\"I'd cut it by around 500 words.\""
+     }
+    ]
+   },
+   {
+    "kind": "matching",
+    "instr": "Questions 28-30. What opinion do the students give about each source? Choose THREE answers from the box and write the correct letter, A-E, next to Questions 28-30.",
+    "opts": [
+     "out of date",
+     "too general",
+     "biased",
+     "very helpful",
+     "too technical to use"
+    ],
+    "items": [
+     {
+      "q": "the government report",
+      "a": 1,
+      "why": "\"it didn't really go into detail\", Josh: \"it was too general to be much use\"."
+     },
+     {
+      "q": "the industry association website",
+      "a": 2,
+      "why": "\"they want to sell kelp. Every single study they mention is positive\", Priya: \"It's very one-sided.\""
+     },
+     {
+      "q": "the journal article by Chen",
+      "a": 3,
+      "why": "\"That was the best thing we found\", \"It was really useful\". Số liệu khó lúc đầu nhưng họ đã hiểu, nên không phải E."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "l4p4",
+  "test": 4,
+  "part": 4,
+  "title": "Urban heat islands",
+  "setting": "Bài giảng về hiện tượng đảo nhiệt đô thị: nguyên nhân, đối tượng chịu ảnh hưởng và các giải pháp làm mát thành phố.",
+  "speakers": [
+   {
+    "id": "A",
+    "name": "Lecturer",
+    "voice": "f",
+    "accent": "en-US"
+   }
+  ],
+  "lines": [
+   [
+    "A",
+    "Good afternoon. Today's topic is something many of you will have felt on a summer evening, even if you didn't have a name for it. It's called the urban heat island."
+   ],
+   [
+    "A",
+    "Put simply, cities are warmer than the countryside around them. On a calm summer day, the difference can be several degrees."
+   ],
+   [
+    "A",
+    "And it isn't only big capital cities. Even towns of fifty thousand people show the effect clearly, if you measure carefully."
+   ],
+   [
+    "A",
+    "The idea isn't new. In the early nineteenth century, an English chemist called Luke Howard kept careful temperature records in and around London."
+   ],
+   [
+    "A",
+    "He found that the city was warmer than the surrounding villages, which you might expect. But what was surprising was when the difference was greatest. It wasn't at midday, it was at night."
+   ],
+   [
+    "A",
+    "And that's still the pattern we see today. Cities heat up during the day, and then they're very slow to cool down after dark."
+   ],
+   [
+    "A",
+    "So why does this happen? You might think it's mainly the heat given off by cars, factories and air conditioners. That does contribute, but in most cities it's a fairly small part of the picture."
+   ],
+   [
+    "A",
+    "The main cause is the materials cities are built from. Concrete, brick and asphalt absorb the sun's energy during the day and store it, and then release it slowly through the night."
+   ],
+   [
+    "A",
+    "Compare that with a field or a forest. There, much of the sun's energy goes into evaporating water from the soil and from plants, rather than heating the ground."
+   ],
+   [
+    "A",
+    "Tall buildings make it worse by trapping that heat and blocking the wind, but the materials are the starting point."
+   ],
+   [
+    "A",
+    "Why does it matter? Higher temperatures mean more energy used for cooling, and worse air quality. But the most serious effect is on health."
+   ],
+   [
+    "A",
+    "Outdoor workers and young children are certainly at risk. However, studies of major heatwaves have consistently found that the highest death rates are among older people who live alone. They're often less aware of the danger and less likely to ask for help."
+   ],
+   [
+    "A",
+    "Climate change makes all of this more urgent. Heatwaves are becoming longer and more frequent, and more than half of the world's population now lives in cities."
+   ],
+   [
+    "A",
+    "So what can cities do? Let me go through some of the main approaches."
+   ],
+   [
+    "A",
+    "The first is the cool roof. This simply means painting a roof white or a very light colour, so that it reflects sunlight instead of absorbing it."
+   ],
+   [
+    "A",
+    "On a hot afternoon, a cool roof can be up to 30 degrees cooler than a dark one. It's cheap, and it's quick to do."
+   ],
+   [
+    "A",
+    "Several cities, including New York, have run programmes where volunteers paint thousands of roofs each summer."
+   ],
+   [
+    "A",
+    "There is a drawback, though. In places with cold winters, a reflective roof means the building gets less free warmth from the sun, so heating costs can go up."
+   ],
+   [
+    "A",
+    "The second approach is the green roof, which is covered in plants. Plants cool the air around them mainly through evaporation, as water passes out through their leaves."
+   ],
+   [
+    "A",
+    "Green roofs have another advantage. They hold rainwater and release it slowly, which helps to reduce flooding during heavy storms."
+   ],
+   [
+    "A",
+    "The downside is cost. A green roof is much more expensive than a cool roof, and many older buildings simply aren't strong enough to carry the weight of wet soil."
+   ],
+   [
+    "A",
+    "The third approach, and probably the most effective, is planting trees along streets. Trees provide shade for pedestrians and for buildings, and they cool the air too."
+   ],
+   [
+    "A",
+    "But choosing the right species is critical. Hotter summers usually mean less rain, so planners need trees that can survive drought."
+   ],
+   [
+    "A",
+    "A good example is the city of Medellín in Colombia. It created a network of green corridors along roads and streams, and in those areas, temperatures have fallen by about 2 degrees."
+   ],
+   [
+    "A",
+    "That may not sound like much, but on a dangerous day it can make a real difference."
+   ],
+   [
+    "A",
+    "The corridors also gave people pleasant routes for walking and cycling, which the city had not really expected."
+   ],
+   [
+    "A",
+    "To finish, one problem that all of these approaches share. Most cities only have temperature measurements from a few weather stations. What planners really need is better data at street level, so they know exactly where to act first."
+   ],
+   [
+    "A",
+    "That's where we'll pick up next week."
+   ]
+  ],
+  "groups": [
+   {
+    "kind": "mcq",
+    "instr": "Questions 31-33. Choose the correct letter, A, B or C.",
+    "items": [
+     {
+      "q": "Luke Howard found that the difference between London and the countryside was greatest",
+      "o": [
+       "at night.",
+       "at midday.",
+       "in winter."
+      ],
+      "a": 0,
+      "why": "\"It wasn't at midday, it was at night.\""
+     },
+     {
+      "q": "According to the lecturer, the main cause of the urban heat island is",
+      "o": [
+       "heat from vehicles and machines.",
+       "the materials used in buildings and roads.",
+       "tall buildings blocking the wind."
+      ],
+      "a": 1,
+      "why": "Xe cộ chỉ là \"a fairly small part\", nhà cao tầng làm tệ hơn nhưng \"The main cause is the materials cities are built from\"."
+     },
+     {
+      "q": "Studies of heatwaves show the highest death rates among",
+      "o": [
+       "outdoor workers.",
+       "young children.",
+       "older people living alone."
+      ],
+      "a": 2,
+      "why": "\"the highest death rates are among older people who live alone\". Hai nhóm kia cũng có nguy cơ nhưng không cao nhất."
+     }
+    ]
+   },
+   {
+    "kind": "note",
+    "instr": "Questions 34-40. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+    "items": [
+     {
+      "q": "Cool roofs: can be up to ___ degrees cooler than dark roofs",
+      "a": "30",
+      "why": "\"a cool roof can be up to 30 degrees cooler than a dark one\"."
+     },
+     {
+      "q": "Drawback: may increase ___ costs in cold places",
+      "a": "heating",
+      "why": "\"so heating costs can go up\"."
+     },
+     {
+      "q": "Green roofs: plants cool the air through ___",
+      "a": "evaporation",
+      "why": "\"Plants cool the air around them mainly through evaporation\"."
+     },
+     {
+      "q": "Green roofs also help to reduce ___",
+      "a": "flooding",
+      "why": "\"which helps to reduce flooding during heavy storms\"."
+     },
+     {
+      "q": "Street trees: choose species that can survive ___",
+      "a": "drought",
+      "why": "\"planners need trees that can survive drought\"."
+     },
+     {
+      "q": "Medellín: green corridors lowered temperatures by about ___ degrees",
+      "a": "2|two",
+      "why": "\"temperatures have fallen by about 2 degrees\"."
+     },
+     {
+      "q": "Shared problem: planners need better street-level ___",
+      "a": "data",
+      "why": "\"What planners really need is better data at street level\"."
+     }
+    ]
+   }
+  ]
+ }
+]
