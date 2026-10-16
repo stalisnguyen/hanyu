@@ -792,7 +792,7 @@ const SCEN=[
  {id:'debate',e:'🗣️',t:'Tranh luận một chủ đề',d:'Nêu quan điểm, phản biện, kết luận.',lv:6},
  {id:'news',e:'📰',t:'Bàn về tin tức',d:'Tóm tắt và bình luận một vấn đề xã hội.',lv:6}
 ];
-let chat={scen:SCEN[0],lv:null,msgs:[],busy:false,showVi:false};
+let chat={scen:SCEN[0],lv:null,msgs:[],busy:false,showVi:false,mode:'voice',handsfree:false,voice:false};
 function renderTalk(el){
   if(!chat.lv)chat.lv=Math.max(...P.settings.lv);
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện hội thoại</h2>${levelChips([chat.lv],s=>{chat.lv=s[0];renderTalk(el);},{multi:false,id:'clv'})}</div>
@@ -800,53 +800,70 @@ function renderTalk(el){
    <div class="chat need-ai"><div class="scen">${SCEN.map(s=>`<button data-s="${s.id}" aria-pressed="${chat.scen.id===s.id}"><span class="e">${s.e}</span><span><b>${esc(s.t)}</b><br><span class="small muted">${esc(s.d)}</span></span></button>`).join('')}</div>
     <div class="convo"><div class="spread" style="padding:10px 14px;border-bottom:1px solid var(--line)"><b>${chat.scen.e} ${esc(chat.scen.t)}</b><div class="row"><button class="icon-btn" id="cVi" aria-pressed="${chat.showVi}">Hiện nghĩa</button><button class="icon-btn" id="cReset">Bắt đầu lại</button></div></div>
      <div class="msgs" id="msgs"></div>
-     <div class="composer"><div class="hints" id="hints"></div><div class="row"><textarea id="cin" rows="2" class="han" placeholder="Gõ tiếng Trung (chữ Hán hoặc pinyin). Bí quá thì gõ tiếng Việt, Claude sẽ chỉ cách nói."></textarea><button class="btn" id="cMic" hidden title="Nói">🎤</button><button class="btn primary" id="cSend">Gửi</button></div></div></div></div></div>`;
+     <div class="composer"><div class="hints" id="hints"></div>
+       <div class="voicebar" id="voicebar">
+         <div class="live han" id="live"></div>
+         <div class="vrow"><label class="small row" style="gap:6px"><input type="checkbox" id="cHf" ${chat.handsfree?'checked':''}> Rảnh tay</label>
+           <button class="micbtn" id="cMic" aria-label="Bấm để nói"><svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+           <button class="icon-btn" id="cKb" aria-pressed="${chat.mode==='text'}">Gõ phím</button></div>
+         <div class="small muted" id="micHint">Bấm micro rồi nói tiếng Trung. Nói xong app tự gửi.</div>
+       </div>
+       <div class="row" id="textbar" ${chat.mode==='text'?'':'hidden'}><textarea id="cin" rows="2" class="han" placeholder="Gõ tiếng Trung (chữ Hán hoặc pinyin). Bí quá thì gõ tiếng Việt, Claude sẽ chỉ cách nói."></textarea><button class="btn primary" id="cSend">Gửi</button></div></div></div></div></div></div></div>`;
   refreshAIBits();
   $$('[data-s]',el).forEach(b=>b.onclick=()=>{chat.scen=SCEN.find(s=>s.id===b.dataset.s);chat.msgs=[];renderTalk(el);});
   $('#cVi').onclick=()=>{chat.showVi=!chat.showVi;renderTalk(el);};
   $('#cReset').onclick=()=>{chat.msgs=[];renderTalk(el);};
-  $('#cSend').onclick=send; $('#cin').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}};
+  $('#cSend').onclick=()=>send(); $('#cin').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}};
+  $('#cKb').onclick=()=>{chat.mode=chat.mode==='text'?'voice':'text';$('#textbar').hidden=chat.mode!=='text';$('#cKb').setAttribute('aria-pressed',chat.mode==='text');if(chat.mode==='text')$('#cin').focus();};
+  $('#cHf').onchange=e=>{chat.handsfree=e.target.checked;};
   setupMic();
   drawMsgs();
   if(AI&&!chat.msgs.length)turn(null);
 }
 function drawMsgs(){
   const box=$('#msgs');if(!box)return;
-  box.innerHTML=chat.msgs.map((m,i)=>m.role==='user'?`<div class="msg me"><div class="bubble"><div class="zh han">${esc(m.text)}</div></div>${m.fix?`<div class="fix"><b>Sửa:</b> <span class="han">${esc(m.fix.better)}</span><br>${esc(m.fix.note)}</div>`:''}</div>`
+  box.innerHTML=chat.msgs.map((m,i)=>m.role==='user'?`<div class="msg me"><div class="bubble"><div class="zh han">${m.voice?'🎤 ':''}${esc(m.text)}</div></div>${m.fix?`<div class="fix"><b>Sửa:</b> <span class="han">${esc(m.fix.better)}</span><br>${esc(m.fix.note)}</div>`:''}</div>`
     :`<div class="msg"><div class="bubble"><div class="zh">${P.settings.py?rubyHTML(m.zh):colorText(m.zh)}</div>${chat.showVi||m.open?`<div class="vi">${esc(m.vi)}</div>`:''}</div><div class="row" style="gap:4px"><button class="spk" data-say="${esc(m.zh)}" aria-label="Nghe">${SPK}</button>${chat.showVi?'':`<button class="btn ghost sm" data-open="${i}">Nghĩa</button>`}</div></div>`).join('')+(chat.busy?'<div class="typing">Claude đang trả lời...</div>':'');
   $$('[data-open]',box).forEach(b=>b.onclick=()=>{chat.msgs[+b.dataset.open].open=true;drawMsgs();});
   box.scrollTop=box.scrollHeight;
   const last=[...chat.msgs].reverse().find(m=>m.role==='ai');
-  $('#hints').innerHTML=last&&last.hints?last.hints.map(h=>`<button data-h="${esc(h)}">${esc(h)}</button>`).join(''):'';
-  $$('#hints [data-h]').forEach(b=>b.onclick=()=>{$('#cin').value=b.dataset.h;$('#cin').focus();});
+  $('#hints').innerHTML=last&&last.hints&&last.hints.length?'<span class="small muted">Gợi ý (bấm để nghe):</span>'+last.hints.map(h=>`<button data-h="${esc(h)}">${esc(h)}</button>`).join(''):'';
+  $$('#hints [data-h]').forEach(b=>b.onclick=()=>{if(chat.mode==='text'){$('#cin').value=b.dataset.h;$('#cin').focus();}else{say(b.dataset.h);const h=$('#micHint');if(h)h.innerHTML='Nghe xong thì bấm micro và nói lại: <span class="han">'+esc(b.dataset.h)+'</span>';}});
 }
-function send(){const v=$('#cin').value.trim();if(!v||chat.busy)return;$('#cin').value='';chat.msgs.push({role:'user',text:v});turn(v);}
-async function turn(userText){
+function send(text,byVoice){const v=(text!=null?text:$('#cin').value).trim();if(!v||chat.busy)return;if(text==null)$('#cin').value='';chat.msgs.push({role:'user',text:v,voice:!!byVoice});turn(v,!!byVoice);}
+async function turn(userText,byVoice){
   chat.busy=true;drawMsgs();
   const lv=chat.lv; const s=chat.scen;
   const history=chat.msgs.slice(-14).map(m=>m.role==='user'?'Học viên: '+m.text:'Bạn: '+m.zh).join('\n');
   const prompt=`Bạn là bạn luyện nói tiếng Trung cho một người Việt đang học HSK ${lv}. Tình huống: ${s.t} (${s.d}). Bạn đóng vai người bản xứ phù hợp tình huống (nhân viên, bác sĩ, nhà tuyển dụng, đối tác...), nói tự nhiên, câu ngắn, chỉ dùng từ vựng và ngữ pháp trong phạm vi HSK ${lv}${lv<=2?', câu rất ngắn và đơn giản':''}. Mỗi lượt chỉ nói 1-3 câu và luôn kết thúc bằng một câu hỏi hoặc gợi mở để học viên trả lời.
 ${userText===null?'Hãy mở đầu cuộc hội thoại.':'Hội thoại đến giờ:\n'+history}
-${userText!==null?`Câu mới nhất của học viên: "${userText}". Nếu câu đó có lỗi (ngữ pháp, từ dùng sai, trật tự từ, hoặc học viên viết tiếng Việt/pinyin), điền "fix" để chỉ cách nói đúng; nếu câu đã đúng và tự nhiên thì "fix" là null.`:''}
+${userText!==null?`Câu mới nhất của học viên: "${userText}".${byVoice?' Câu này được máy nhận giọng chuyển thành chữ, nên nếu có chữ lạ hoặc không hợp ngữ cảnh thì nhiều khả năng học viên phát âm sai từ đó (sai thanh điệu hoặc phụ âm): khi đó ghi trong fix.note từ nào có thể bị phát âm sai và nên đọc thế nào (kèm pinyin).':''} Nếu câu đó có lỗi (ngữ pháp, từ dùng sai, trật tự từ, hoặc học viên viết tiếng Việt/pinyin), điền "fix" để chỉ cách nói đúng; nếu câu đã đúng và tự nhiên thì "fix" là null.`:''}
 Trả về DUY NHẤT JSON: {"zh":"lời bạn nói, chữ Hán giản thể","vi":"dịch tiếng Việt","fix":${userText===null?'null':'{"better":"câu đúng bằng chữ Hán","note":"giải thích ngắn bằng tiếng Việt"} hoặc null'},"hints":["3 câu trả lời mẫu ngắn bằng chữ Hán mà học viên có thể nói tiếp"]}`;
   try{
     const r=await askJSON(prompt,{cache:false,modelTier:'default'});
     if(userText!==null&&r.fix&&r.fix.better){const u=[...chat.msgs].reverse().find(m=>m.role==='user');if(u)u.fix=r.fix;}
     chat.msgs.push({role:'ai',zh:String(r.zh||''),vi:String(r.vi||''),hints:Array.isArray(r.hints)?r.hints.slice(0,3):[]});
-    chat.busy=false;drawMsgs();say(String(r.zh||''));
+    chat.busy=false;drawMsgs();await say(String(r.zh||''));
+    if(chat.handsfree&&chat.mode==='voice'&&current==='speak'&&$('#cMic')&&!chat.listening)$('#cMic').click();
   }catch(e){chat.busy=false;drawMsgs();toast(aiError(e));}
 }
 function setupMic(){
-  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const b=$('#cMic');if(!SR||!b)return;
-  b.hidden=false;let rec=null;
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const b=$('#cMic'),hint=$('#micHint'),live=$('#live');if(!b)return;
+  const noVoice=msg=>{b.disabled=true;hint.innerHTML=msg;chat.mode='text';$('#textbar').hidden=false;$('#cKb').setAttribute('aria-pressed','true');};
+  if(IN_ARTIFACT){noVoice('Trong khung Claude không dùng được micro. Mở <a href="https://hanyu-ecru.vercel.app/#speak" target="_blank" rel="noopener">bản web</a> để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
+  if(!SR){noVoice('Trình duyệt này chưa hỗ trợ nhận giọng. Dùng Chrome, Edge hoặc Safari để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
+  let rec=null,finalText='',sent=false;
+  const stop=()=>{if(rec){try{rec.stop();}catch(e){}}};
   b.onclick=()=>{
-    if(rec){rec.stop();return;}
-    try{rec=new SR();rec.lang='zh-CN';rec.interimResults=true;
-      rec.onresult=e=>{$('#cin').value=[...e.results].map(r=>r[0].transcript).join('');};
-      rec.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed'){b.hidden=true;toast('Trình duyệt không cho dùng micro ở đây. Hãy gõ chữ.');}};
-      rec.onend=()=>{rec=null;b.textContent='🎤';};
-      rec.start();b.textContent='⏹';
-    }catch(e){b.hidden=true;}
+    if(chat.busy)return;
+    if(rec){stop();return;}
+    stopSay();finalText='';sent=false;
+    try{rec=new SR();rec.lang='zh-CN';rec.interimResults=true;rec.continuous=false;rec.maxAlternatives=1;}catch(e){noVoice('Không mở được nhận giọng. Gõ phím bên dưới.');return;}
+    rec.onresult=e=>{let interim='';finalText='';for(const r of e.results){if(r.isFinal)finalText+=r[0].transcript;else interim+=r[0].transcript;}live.textContent=finalText+interim;};
+    rec.onerror=ev=>{if(ev.error==='not-allowed'||ev.error==='service-not-allowed')noVoice('Trình duyệt chưa cho dùng micro. Bấm biểu tượng ổ khóa trên thanh địa chỉ, cho phép Micro rồi tải lại trang.');else if(ev.error==='no-speech')hint.textContent='Chưa nghe thấy gì. Bấm micro và nói to, rõ hơn.';};
+    rec.onend=()=>{rec=null;chat.listening=false;b.classList.remove('on');const t=(finalText||live.textContent||'').trim();live.textContent='';
+      if(t&&!sent){sent=true;hint.textContent='Bấm micro rồi nói tiếng Trung. Nói xong app tự gửi.';send(t,true);}};
+    try{rec.start();chat.listening=true;b.classList.add('on');hint.textContent='Đang nghe... nói xong dừng một chút, app tự gửi. Bấm lại để dừng.';}catch(e){rec=null;}
   };
 }
 
