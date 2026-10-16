@@ -765,6 +765,8 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 .fr-r b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .fr-r.me b{color:var(--accent)}
 .fr-mc svg{display:block}
+.rnav{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:4px 0 8px}
+.rnav .btn{min-width:0}
 
 </style>
 </head><body>
@@ -1922,6 +1924,10 @@ function wordSpans(text){
 }
 function drawReader(el,r){
   let showVi=false,reading=false;
+  const sib=RD.filter(x=>x.lv===r.lv&&!String(x.id).startsWith('ai')), idx=sib.indexOf(r);
+  const prev=idx>0?sib[idx-1]:null, next=idx>=0&&idx<sib.length-1?sib[idx+1]:null;
+  const upLv=!next&&LVS.includes(r.lv+1)?r.lv+1:null;
+  const openR=x=>{stopSay();reading=false;rdOpen=x.id;drawReader(el,x);window.scrollTo(0,0);};
   const draw=()=>{
     el.innerHTML=`<div class="view reader"><div class="spread"><button class="btn sm" id="rBack">Danh sách bài</button><div class="row"><button class="icon-btn" id="rVi" aria-pressed="${showVi}">Hiện bản dịch</button><button class="icon-btn" id="rPy" aria-pressed="${P.settings.py}">Pinyin</button><button class="btn sm" id="rPlay">${reading?'<svg class="i"><use href="#i-square"/></svg> Dừng':'<svg class="i"><use href="#i-play"/></svg> Nghe cả bài'}</button></div></div>
      <div><span class="pill">HSK ${lvN(r.lv)}</span> <span class="pill">${esc(r.genre||'')}</span></div>
@@ -1930,15 +1936,20 @@ function drawReader(el,r){
      <div id="rLook" class="rlook" hidden></div>
      ${r.gloss&&r.gloss.length?`<div class="panel"><h3>Từ cần chú ý</h3><div class="pexs">${r.gloss.map(g=>`<button class="pex" data-say="${esc(g[0])}"><span class="han">${esc(g[0])}</span> <span class="py t${toneOf(g[1])}">${esc(g[1])}</span> <span class="muted">${esc(g[2])}</span></button>`).join('')}</div></div>`:''}
      <div class="panel"><h3>Câu hỏi đọc hiểu</h3>${r.q.map((q,i)=>`<div class="q" id="rq${i}"><div class="han stmt">${i+1}. ${esc(q.q)}</div><div class="opts">${q.o.map((o,k)=>`<button class="opt han" data-q="${i}" data-k="${k}">${esc(o)}</button>`).join('')}</div><div class="w" hidden></div></div>`).join('')}
-      <div class="row"><button class="btn primary" id="rCheck">Chấm điểm</button><span id="rScore"></span></div></div></div>`;
+      <div class="row"><button class="btn primary" id="rCheck">Chấm điểm</button><span id="rScore"></span></div></div>
+     <div class="rnav">${prev?`<button class="btn" id="rPrev"><svg class="i"><use href="#i-chevron-left"/></svg> Bài trước</button>`:'<span></span>'}<span class="small muted num">${idx>=0?`Bài ${idx+1}/${sib.length}`:''}</span>${next?`<button class="btn" id="rNext">Bài tiếp theo <svg class="i"><use href="#i-chevron-right"/></svg></button>`:upLv?`<button class="btn" id="rUp">Sang HSK ${lvN(upLv)} <svg class="i"><use href="#i-chevron-right"/></svg></button>`:'<span></span>'}</div></div>`;
     const ans={};
     $('#rBack').onclick=()=>{stopSay();reading=false;rdOpen=null;renderRead(el);};
+    const pv=$('#rPrev');if(pv)pv.onclick=()=>openR(prev);
+    const nx=$('#rNext');if(nx)nx.onclick=()=>openR(next);
+    const up=$('#rUp');if(up)up.onclick=()=>{stopSay();reading=false;rdLv=upLv;const f=RD.find(x=>x.lv===upLv);rdOpen=f?f.id:null;renderRead(el);window.scrollTo(0,0);};
     $('#rVi').onclick=()=>{showVi=!showVi;draw();};
     $('#rPy').onclick=()=>{P.settings.py=!P.settings.py;touch('main');applySettings();draw();};
     $('#rPlay').onclick=async()=>{if(reading){reading=false;stopSay();draw();return;}reading=true;draw();for(const p of r.paras){if(!reading)break;await say(p[0]);}reading=false;draw();};
     $$('[data-q]',el).forEach(b=>b.onclick=()=>{const qi=+b.dataset.q;ans[qi]=+b.dataset.k;$$(`[data-q="${qi}"]`,el).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $('#rCheck').onclick=()=>{let ok=0;r.q.forEach((q,i)=>{const box=$('#rq'+i);$$(`[data-q="${i}"]`,box).forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add('right');else if(ans[i]===k)x.classList.add('wrong');});if(ans[i]===q.a)ok++;const w=$('.w',box);w.hidden=false;w.textContent=q.w;});
-      const pct=r.q.length?Math.round(ok/r.q.length*100):0;$('#rScore').innerHTML=`<b>${ok}/${r.q.length}</b> câu đúng`;if(!String(r.id).startsWith('ai')){P.reads=P.reads||{};P.reads[r.id]=pct;}window.__award&&window.__award('read',1);touch('main');};
+      const pct=r.q.length?Math.round(ok/r.q.length*100):0;$('#rScore').innerHTML=`<b>${ok}/${r.q.length}</b> câu đúng`;$('#rCheck').hidden=true;
+      const nb=$('#rNext')||$('#rUp');if(nb){nb.classList.add('primary');nb.scrollIntoView({block:'center',behavior:'smooth'});}if(!String(r.id).startsWith('ai')){P.reads=P.reads||{};P.reads[r.id]=pct;}window.__award&&window.__award('read',1);touch('main');};
     $$('.rw',el).forEach(sp=>sp.onclick=e=>{e.stopPropagation();lookup(sp.dataset.rw,sp);});
   };
   draw();
