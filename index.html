@@ -574,7 +574,8 @@ function pyLine(text){ // plain pinyin line for a sentence
 function sentPyHTML(s){return String(s).split(/(\s+)/).map(t=>/^\s+$/.test(t)?t:`<span class="t${toneOf(t)}">${esc(t)}</span>`).join('');}
 
 /* ================= data ================= */
-const W=[]; const WI=new Map(); const LV_COUNT=[0,0,0,0,0,0,0]; let loadedLv=new Set();
+const LVS=[1,2,3,4,5,6,7]; const lvN=L=>L===7?'7-9':String(L);
+const W=[]; const WI=new Map(); const LV_COUNT=[0,0,0,0,0,0,0,0]; let loadedLv=new Set();
 let GRAM=[]; const TESTS={}; let STROKE_IDX=null; const STROKE_CACHE={};
 async function loadLevel(L){
   if(loadedLv.has(L))return;
@@ -583,7 +584,7 @@ async function loadLevel(L){
   rows.forEach((x,i)=>{const w={h:x[0],p:x[1].split(' '),hv:x[2],vi:x[3],em:x[4],ex:x[5],exp:x[6],exvi:x[7],cl:x[8]||[],lv:L,i};W.push(w);WI.set(w.h,w);});
   LV_COUNT[L]=rows.length; loadedLv.add(L);
 }
-async function loadAllWords(){for(let L=1;L<=6;L++)await loadLevel(L);}
+async function loadAllWords(){for(const L of LVS)await loadLevel(L);}
 async function loadGrammar(){if(!GRAM.length){GRAM=await (await fetch('data/grammar.json')).json();}return GRAM;}
 async function loadTests(L){if(!TESTS[L])TESTS[L]=await (await fetch('data/tests/hsk'+L+'.json')).json();return TESTS[L];}
 async function strokeData(ch){
@@ -894,7 +895,7 @@ function applySettings(){
 
 /* ================= level chips ================= */
 function levelChips(sel,onChange,{multi=true,id='lvc'}={}){
-  const html=`<div class="row" id="${id}"><span class="label">HSK</span>${[1,2,3,4,5,6].map(L=>`<button class="chip" data-l="${L}" aria-pressed="${sel.includes(L)}">${L}</button>`).join('')}</div>`;
+  const html=`<div class="row" id="${id}"><span class="label">HSK</span>${LVS.map(L=>`<button class="chip" data-l="${L}" aria-pressed="${sel.includes(L)}">${lvN(L)}</button>`).join('')}</div>`;
   setTimeout(()=>{$$('#'+id+' .chip').forEach(b=>b.onclick=()=>{
     const L=+b.dataset.l; let s;
     if(multi){s=sel.includes(L)?sel.filter(x=>x!==L):[...sel,L].sort();if(!s.length)return;} else s=[L];
@@ -915,14 +916,14 @@ function renderHome(el){
       <div class="label" style="color:inherit;opacity:.85">Hôm nay</div>
       <div class="stats"><div><div class="big">${due}</div><span>thẻ cần ôn</span></div><div><div class="big">${nw}</div><span>từ mới</span></div><div><div class="big">${st}</div><span>ngày liên tiếp</span></div></div>
       <button class="btn" id="hStart">${due+nw?'Bắt đầu ôn '+(due+Math.min(nw,P.settings.newPerDay))+' thẻ':'Học thêm từ mới'}</button>
-      <div class="small" style="opacity:.85">Đã ôn ${todayN} lượt hôm nay. Đang học HSK ${lv.join(', ')}.</div>
+      <div class="small" style="opacity:.85">Đã ôn ${todayN} lượt hôm nay. Đang học HSK ${lv.map(lvN).join(', ')}.</div>
     </div>
     <div class="panel">${wd?`<span class="label">Từ của ngày</span><div class="wotd"><span class="em">${wd.em}</span><div><div class="h han">${hanHTML(wd)}</div><div class="py">${pyHTML(wd)} <span class="muted small">${esc(wd.hv)}</span></div><div>${esc(wd.vi)}</div></div><button class="spk" data-say="${esc(wd.h)}" aria-label="Nghe">${SPK}</button></div><div class="small muted han">${esc(wd.ex)}</div><button class="btn sm" id="hWd" style="align-self:flex-start">Xem chi tiết</button>`:'<span class="note">Đang tải từ vựng...</span>'}</div>
    </div>
    <div class="grid2">
     <div class="panel"><div class="spread"><h3>Tiến độ theo cấp</h3><span class="note">thuộc = ôn đạt khoảng cách >= 7 ngày</span></div>
-      ${[1,2,3,4,5,6].map(L=>{const ws=W.filter(w=>w.lv===L);const k=ws.filter(w=>known(w.h)).length;const s=ws.filter(w=>seen(w.h)).length;const tot=ws.length||LV_COUNT[L]||1;
-        return `<div class="lvrow"><b>HSK ${L}</b><span class="bar-track"><i style="width:${k/tot*100}%"></i></span><span class="num muted">${k}/${tot}${s>k?' <span class="small">(+'+(s-k)+')</span>':''}</span></div>`;}).join('')}
+      ${LVS.map(L=>{const ws=W.filter(w=>w.lv===L);const k=ws.filter(w=>known(w.h)).length;const s=ws.filter(w=>seen(w.h)).length;const tot=ws.length||LV_COUNT[L]||1;
+        return `<div class="lvrow"><b>HSK ${lvN(L)}</b><span class="bar-track"><i style="width:${k/tot*100}%"></i></span><span class="num muted">${k}/${tot}${s>k?' <span class="small">(+'+(s-k)+')</span>':''}</span></div>`;}).join('')}
     </div>
     <div class="panel"><h3>12 tuần gần đây</h3><div class="heat">${heat.map(c=>`<i class="${c}"></i>`).join('')}</div>
       <div class="spread"><span class="note">Mỗi ô là một ngày, càng đậm càng ôn nhiều.</span></div>
@@ -981,7 +982,7 @@ function drawCard(){
      ${P.settings.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="mean">${esc(w.vi)}</div>
      ${w.cl&&w.cl.length?`<div class="small muted">Lượng từ: <span class="han">${esc(w.cl.join(', '))}</span></div>`:''}
      <div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="zh han">${colorText(w.ex)}</div><div class="pyl py">${sentPyHTML(w.exp)}</div><div class="vil">${esc(w.exvi)}</div></div></div>`;
-  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">HSK ${w.lv}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
+  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">HSK ${lvN(w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
     <div class="corner-r"><button class="spk" data-say="${esc(w.h)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết" title="Chi tiết">i</button></div>
     ${revealed?back:front}
     ${revealed?'':'<button class="btn primary" id="cFlip" style="margin-top:auto">Lật thẻ <span class="kbd">Space</span></button>'}
@@ -1008,7 +1009,7 @@ document.addEventListener('keydown',e=>{
 });
 
 /* ================= DICTIONARY ================= */
-let dq='',dlv=[1,2,3,4,5,6],dshow=80,dfilter='all';
+let dq='',dlv=LVS,dshow=80,dfilter='all';
 function renderDict(el){
   el.innerHTML=`<div class="view"><div class="spread"><h2>Từ điển HSK</h2><span class="note num" id="dCount"></span></div>
    <div class="dict-tools"><input type="search" id="dq" placeholder="Tìm chữ Hán, pinyin (không dấu cũng được), Hán Việt hoặc nghĩa tiếng Việt" value="${esc(dq)}">
@@ -1067,7 +1068,7 @@ function modal(html){
 function openWord(h){
   const w=WI.get(h);if(!w)return; const c=P.srs[h];
   const m=modal(`<div class="wd-head">${w.em?`<span class="em">${w.em}</span>`:''}<div><div class="h han">${hanHTML(w)}</div></div>
-     <div style="display:flex;flex-direction:column;gap:2px"><div class="py" style="font-size:22px">${pyHTML(w)}</div><div class="muted" style="text-transform:uppercase;letter-spacing:.08em;font-size:13px">Hán Việt: ${esc(w.hv)}</div><div class="row"><span class="pill">HSK ${w.lv}</span>${c?`<span class="pill ai">${known(h)?'Đã thuộc':'Đang học'} - ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</span>`:''}</div></div>
+     <div style="display:flex;flex-direction:column;gap:2px"><div class="py" style="font-size:22px">${pyHTML(w)}</div><div class="muted" style="text-transform:uppercase;letter-spacing:.08em;font-size:13px">Hán Việt: ${esc(w.hv)}</div><div class="row"><span class="pill">HSK ${lvN(w.lv)}</span>${c?`<span class="pill ai">${known(h)?'Đã thuộc':'Đang học'} - ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</span>`:''}</div></div>
      <button class="spk" data-say="${esc(w.h)}" aria-label="Nghe" style="margin-left:auto">${SPK}</button></div>
    <div style="font-size:19px;font-weight:600">${esc(w.vi)}</div>
    ${w.cl.length?`<div class="small muted">Lượng từ đi kèm: <span class="han" style="font-size:16px">${esc(w.cl.join(', '))}</span></div>`:''}
@@ -1096,7 +1097,7 @@ function openWord(h){
   };
   $('#wdMore',m.el).onclick=async e=>{
     const b=e.currentTarget;b.disabled=true;const out=$('#wdAiOut',m.el);out.innerHTML='<div class="ai-out">AI đang viết...</div>';
-    try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt, trình độ học viên đang học HSK ${w.lv}. Giải thích từ ${w.h} (${w.p.join(' ')}, Hán Việt: ${w.hv}, nghĩa: ${w.vi}) bằng tiếng Việt tự nhiên, ngắn gọn:
+    try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt, trình độ học viên đang học HSK ${lvN(w.lv)}. Giải thích từ ${w.h} (${w.p.join(' ')}, Hán Việt: ${w.hv}, nghĩa: ${w.vi}) bằng tiếng Việt tự nhiên, ngắn gọn:
 1. Cách dùng chính và sắc thái (trang trọng hay khẩu ngữ).
 2. 3 cụm từ đi kèm thường gặp, mỗi cụm kèm pinyin và nghĩa.
 3. 3 câu ví dụ mới, mỗi câu: chữ Hán / pinyin / nghĩa tiếng Việt.
@@ -1177,7 +1178,7 @@ async function renderGrammar(el){
     const list=GRAM.filter(g=>glv.includes(g.lv)&&(!gcat||g.cat===gcat)&&(!q||viFold(g.t+' '+g.f+' '+g.d+' '+g.ex.map(e=>e[0]).join(' ')).includes(q)));
     const done=list.filter(g=>P.gram[g.id]).length;
     $('#gCount').textContent=`${list.length} điểm, đã nắm ${done}`;
-    $('#gl').innerHTML=list.map(g=>`<details class="g" data-id="${g.id}"><summary><span class="check ${P.gram[g.id]?'on':''}">${P.gram[g.id]?'✓':''}</span><span class="pill">HSK ${g.lv}</span><span class="t">${esc(g.t)}</span><span class="small muted">${esc(g.cat)}</span></summary><div class="body"></div></details>`).join('')||'<div class="empty">Không có điểm ngữ pháp nào khớp.</div>';
+    $('#gl').innerHTML=list.map(g=>`<details class="g" data-id="${g.id}"><summary><span class="check ${P.gram[g.id]?'on':''}">${P.gram[g.id]?'✓':''}</span><span class="pill">HSK ${lvN(g.lv)}</span><span class="t">${esc(g.t)}</span><span class="small muted">${esc(g.cat)}</span></summary><div class="body"></div></details>`).join('')||'<div class="empty">Không có điểm ngữ pháp nào khớp.</div>';
     $$('#gl details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open&&!d.dataset.r){d.dataset.r=1;fill(d);}}));
   }
   function fill(d){
@@ -1192,7 +1193,7 @@ async function renderGrammar(el){
     $('.gdone',b).onclick=()=>{P.gram[g.id]=P.gram[g.id]?0:1;if(!P.gram[g.id])delete P.gram[g.id];else window.__award&&window.__award('grammar',1);touch('main');const c=$('.check',d);c.classList.toggle('on',!!P.gram[g.id]);c.textContent=P.gram[g.id]?'✓':'';$('.gdone',b).textContent=P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm';};
     $('.gorder',b).onclick=()=>runTest({id:'gram-'+Date.now(),title:g.t,minutes:0,sections:[{type:'write',title:'Sắp xếp câu',parts:[{instr:'Dùng mẫu: '+g.f,items:g.ex.map(e=>orderItem(e[0],e[2]))}]}]},null);
     $('.gask',b).onclick=async e=>{const out=$('.gai',b);e.currentTarget.disabled=true;
-      try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt. Điểm ngữ pháp HSK ${g.lv}: ${g.t}. Công thức: ${g.f}. Hãy đưa 5 câu ví dụ mới, tự nhiên, đúng trình độ, mỗi câu 3 dòng: chữ Hán / pinyin có dấu / nghĩa tiếng Việt. Sau đó thêm 2 lỗi người Việt hay mắc với mẫu này (ghi Sai: ... Đúng: ...). Văn bản thuần, không markdown, không gạch ngang dài.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
+      try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt. Điểm ngữ pháp HSK ${lvN(g.lv)}: ${g.t}. Công thức: ${g.f}. Hãy đưa 5 câu ví dụ mới, tự nhiên, đúng trình độ, mỗi câu 3 dòng: chữ Hán / pinyin có dấu / nghĩa tiếng Việt. Sau đó thêm 2 lỗi người Việt hay mắc với mẫu này (ghi Sai: ... Đúng: ...). Văn bản thuần, không markdown, không gạch ngang dài.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
       catch(err){out.innerHTML=`<p class="note">${esc(aiError(err))}</p>`;}};
   }
   let t;$('#gq').oninput=e=>{gq=e.target.value;clearTimeout(t);t=setTimeout(draw,150);};
@@ -1212,20 +1213,20 @@ async function renderTest(el){
   el.innerHTML=`<div class="view"><h2>Thi thử HSK</h2>
    ${levelChips([tlv],s=>{tlv=s[0];renderTest(el);},{multi:false,id:'tlv'})}
    <div class="grid3">${T.tests.map(t=>{const n=t.sections.reduce((a,s)=>a+s.parts.reduce((b,p)=>b+p.items.length,0),0);const best=P.tests.filter(x=>x.id===t.id).reduce((m,x)=>Math.max(m,x.pct),-1);
-     return `<div class="panel tcard"><span class="label">HSK ${tlv}</span><h3>${esc(t.title)}</h3><span class="note">${n} câu, ${t.minutes} phút. ${t.sections.map(s=>esc(s.title)).join(', ')}.</span>${best>=0?`<span class="small">Điểm cao nhất: <b>${best}%</b></span>`:''}<button class="btn primary sm" data-t="${t.id}" style="align-self:flex-start">Làm bài</button></div>`;}).join('')}
+     return `<div class="panel tcard"><span class="label">HSK ${lvN(tlv)}</span><h3>${esc(t.title)}</h3><span class="note">${n} câu, ${t.minutes} phút. ${t.sections.map(s=>esc(s.title)).join(', ')}.</span>${best>=0?`<span class="small">Điểm cao nhất: <b>${best}%</b></span>`:''}<button class="btn primary sm" data-t="${t.id}" style="align-self:flex-start">Làm bài</button></div>`;}).join('')}
      <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Mỗi lần bấm là một đề rút gọn mới theo đúng cấp độ, khoảng 15 câu.</span><button class="btn sm" id="tAi" style="align-self:flex-start">Soạn đề mới</button></div>
      <div class="panel tcard no-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Cần bật AI (thêm API key trong Vercel) để AI soạn đề mới.</span></div>
    </div>
-   <div class="panel"><h3>Lịch sử làm bài HSK ${tlv}</h3>${hist.length?hist.map(h=>`<div class="spread small"><span>${esc(h.title)}</span><span class="num">${new Date(h.date).toLocaleDateString('vi-VN')} - <b>${h.pct}%</b> ${h.pct>=60?'<span class="pill ai">Đạt</span>':'<span class="pill">Chưa đạt</span>'}</span></div>`).join(''):'<p class="note">Chưa làm đề nào ở cấp này.</p>'}
+   <div class="panel"><h3>Lịch sử làm bài HSK ${lvN(tlv)}</h3>${hist.length?hist.map(h=>`<div class="spread small"><span>${esc(h.title)}</span><span class="num">${new Date(h.date).toLocaleDateString('vi-VN')} - <b>${h.pct}%</b> ${h.pct>=60?'<span class="pill ai">Đạt</span>':'<span class="pill">Chưa đạt</span>'}</span></div>`).join(''):'<p class="note">Chưa làm đề nào ở cấp này.</p>'}
    <p class="note">Mức đạt tham khảo: 60% tổng điểm. Phần nghe dùng giọng đọc của trình duyệt, mỗi bài được nghe tối đa 2 lần như khi thi thật.</p></div></div>`;
   refreshAIBits();
   $$('[data-t]',el).forEach(b=>b.onclick=()=>runTest(T.tests.find(t=>t.id===b.dataset.t),tlv));
   const ai=$('#tAi');if(ai)ai.onclick=async()=>{ai.disabled=true;ai.textContent='AI đang soạn đề (khoảng 1 phút)...';
     try{const words=W.filter(w=>w.lv<=tlv);const sample=shuffle(words.filter(w=>w.lv===tlv)).slice(0,60).map(w=>w.h).join('、');
       const t=await askJSON(`Soạn một đề thi thử HSK cấp ${tlv} (chuẩn HSK mới 2026) rút gọn, nội dung hoàn toàn mới, dành cho người Việt.
-Dùng từ vựng trong phạm vi HSK ${tlv}, ưu tiên các từ sau: ${sample}.
+Dùng từ vựng trong phạm vi HSK ${lvN(tlv)}, ưu tiên các từ sau: ${sample}.
 Trả về DUY NHẤT một JSON object theo đúng cấu trúc:
-{"id":"ai","title":"Đề AI soạn - HSK ${tlv}","minutes":15,"sections":[
+{"id":"ai","title":"Đề AI soạn - HSK ${lvN(tlv)}","minutes":15,"sections":[
  {"type":"listen","title":"Nghe hiểu","parts":[{"instr":"Nghe đoạn hội thoại và chọn đáp án đúng","items":[ ... 5 câu dạng {"k":"lc","audio":[["男","..."],["女","..."]],"q":"câu hỏi tiếng Trung","o":["A","B","C","D"],"a":0,"w":"giải thích tiếng Việt"} ]}]},
  {"type":"read","title":"Đọc hiểu","parts":[{"instr":"Chọn từ điền vào chỗ trống","items":[ ... 4 câu {"k":"fill","s":"câu có ___","o":[...4],"a":0,"w":"..."} ]},{"instr":"Đọc và trả lời","items":[ ... 3 câu {"k":"rc","text":"đoạn văn","q":"câu hỏi","o":[...4],"a":0,"w":"..."} ]}]}${tlv>=3?`,
  {"type":"write","title":"Viết","parts":[{"instr":"Sắp xếp thành câu đúng","items":[ ... 3 câu {"k":"order","pieces":["mảnh1","mảnh2","..."],"a":"câu đúng đầy đủ có dấu câu","w":"..."} ]}]}`:''}
@@ -1373,7 +1374,7 @@ async function turn(userText,byVoice){
   chat.busy=true;drawMsgs();
   const lv=chat.lv; const s=chat.scen;
   const history=chat.msgs.slice(-14).map(m=>m.role==='user'?'Học viên: '+m.text:'Bạn: '+m.zh).join('\n');
-  const prompt=`Bạn là bạn luyện nói tiếng Trung cho một người Việt đang học HSK ${lv}. Tình huống: ${s.t} (${s.d}). Bạn đóng vai người bản xứ phù hợp tình huống (nhân viên, bác sĩ, nhà tuyển dụng, đối tác...), nói tự nhiên, câu ngắn, chỉ dùng từ vựng và ngữ pháp trong phạm vi HSK ${lv}${lv<=2?', câu rất ngắn và đơn giản':''}. Mỗi lượt chỉ nói 1-3 câu và luôn kết thúc bằng một câu hỏi hoặc gợi mở để học viên trả lời.
+  const prompt=`Bạn là bạn luyện nói tiếng Trung cho một người Việt đang học HSK ${lvN(lv)}. Tình huống: ${s.t} (${s.d}). Bạn đóng vai người bản xứ phù hợp tình huống (nhân viên, bác sĩ, nhà tuyển dụng, đối tác...), nói tự nhiên, câu ngắn, chỉ dùng từ vựng và ngữ pháp trong phạm vi HSK ${lvN(lv)}${lv<=2?', câu rất ngắn và đơn giản':''}. Mỗi lượt chỉ nói 1-3 câu và luôn kết thúc bằng một câu hỏi hoặc gợi mở để học viên trả lời.
 ${userText===null?'Hãy mở đầu cuộc hội thoại.':'Hội thoại đến giờ:\n'+history}
 ${userText!==null?`Câu mới nhất của học viên: "${userText}".${byVoice?' Câu này được máy nhận giọng chuyển thành chữ, nên nếu có chữ lạ hoặc không hợp ngữ cảnh thì nhiều khả năng học viên phát âm sai từ đó (sai thanh điệu hoặc phụ âm): khi đó ghi trong fix.note từ nào có thể bị phát âm sai và nên đọc thế nào (kèm pinyin).':''} Nếu câu đó có lỗi (ngữ pháp, từ dùng sai, trật tự từ, hoặc học viên viết tiếng Việt/pinyin), điền "fix" để chỉ cách nói đúng; nếu câu đã đúng và tự nhiên thì "fix" là null.`:''}
 Trả về DUY NHẤT JSON: {"zh":"lời bạn nói, chữ Hán giản thể","vi":"dịch tiếng Việt","fix":${userText===null?'null':'{"better":"câu đúng bằng chữ Hán","note":"giải thích ngắn bằng tiếng Việt"} hoặc null'},"hints":["3 câu trả lời mẫu ngắn bằng chữ Hán mà học viên có thể nói tiếp"]}`;
@@ -1643,13 +1644,13 @@ async function renderRead(el){
    <p class="note">Mỗi cấp có 10 bài. Bấm vào bất kỳ từ nào trong bài để xem nghĩa. Đọc xong làm câu hỏi để kiểm tra mức hiểu.</p>
    <div class="grid3">${list.map(r=>{const sc=P.reads[r.id];const n=r.paras.reduce((a,p)=>a+[...p[0].replace(PUNCT,'')].length,0);
      return `<button class="panel tcard" style="text-align:left" data-rid="${r.id}"><span class="label">${esc(r.genre)} - ${n} chữ</span><h3 class="han" style="font-size:20px">${esc(r.title)}</h3><span class="note">${esc(r.tvi)}</span>${sc!=null?`<span class="small">Đã đọc: <b>${sc}%</b> câu hỏi đúng</span>`:''}</button>`;}).join('')}
-     <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Bài đọc mới</h3><span class="note">Nhập chủ đề bạn thích, AI viết bài đúng cấp HSK ${rdLv}.</span><div class="row"><input type="text" id="rTopic" placeholder="Ví dụ: du lịch Đà Lạt, nuôi mèo" style="flex:1 1 140px"><button class="btn sm" id="rGen">Soạn</button></div></div>
+     <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Bài đọc mới</h3><span class="note">Nhập chủ đề bạn thích, AI viết bài đúng cấp HSK ${lvN(rdLv)}.</span><div class="row"><input type="text" id="rTopic" placeholder="Ví dụ: du lịch Đà Lạt, nuôi mèo" style="flex:1 1 140px"><button class="btn sm" id="rGen">Soạn</button></div></div>
    </div></div>`;
   refreshAIBits();
   $$('[data-rid]',el).forEach(b=>b.onclick=()=>{rdOpen=b.dataset.rid;renderRead(el);window.scrollTo(0,0);});
   const g=$('#rGen');if(g)g.onclick=async()=>{const topic=$('#rTopic').value.trim()||'đời sống hằng ngày';g.disabled=true;g.textContent='Đang viết...';
     try{const len={1:'50',2:'90',3:'160',4:'250',5:'380',6:'550'}[rdLv];
-      const r=await askJSON(`Viết một bài đọc tiếng Trung giản thể mới cho người Việt học HSK ${rdLv} (chuẩn HSK 2026), chủ đề: "${topic}". Khoảng ${len} chữ Hán, chỉ dùng từ vựng trong phạm vi HSK ${rdLv}. Trả JSON đúng cấu trúc:
+      const r=await askJSON(`Viết một bài đọc tiếng Trung giản thể mới cho người Việt học HSK ${lvN(rdLv)} (chuẩn HSK 2026), chủ đề: "${topic}". Khoảng ${len} chữ Hán, chỉ dùng từ vựng trong phạm vi HSK ${lvN(rdLv)}. Trả JSON đúng cấu trúc:
 {"id":"ai","lv":${rdLv},"title":"tiêu đề tiếng Trung","tvi":"tiêu đề tiếng Việt","genre":"thể loại tiếng Việt","paras":[["đoạn tiếng Trung","bản dịch tiếng Việt"]],"gloss":[["từ","pinyin","nghĩa tiếng Việt"]],"q":[{"q":"câu hỏi tiếng Trung","o":["A","B","C","D"],"a":0,"w":"giải thích tiếng Việt"}]}
 Có 4 câu hỏi, đáp án phân bố đều. Không dùng gạch ngang dài.`,{modelTier:'default'});
       if(!r||!Array.isArray(r.paras))throw {code:'bad_json'};r.id='ai-'+Date.now();r.lv=rdLv;r.q=r.q||[];r.gloss=r.gloss||[];RD.push(r);rdOpen=r.id;renderRead(el);}
@@ -1663,7 +1664,7 @@ function drawReader(el,r){
   let showVi=false,reading=false;
   const draw=()=>{
     el.innerHTML=`<div class="view reader"><div class="spread"><button class="btn sm" id="rBack">Danh sách bài</button><div class="row"><button class="icon-btn" id="rVi" aria-pressed="${showVi}">Hiện bản dịch</button><button class="icon-btn" id="rPy" aria-pressed="${P.settings.py}">Pinyin</button><button class="btn sm" id="rPlay">${reading?'⏹ Dừng':'▶ Nghe cả bài'}</button></div></div>
-     <div><span class="pill">HSK ${r.lv}</span> <span class="pill">${esc(r.genre||'')}</span></div>
+     <div><span class="pill">HSK ${lvN(r.lv)}</span> <span class="pill">${esc(r.genre||'')}</span></div>
      <h2 class="han" style="font-size:28px">${wordSpans(r.title)}</h2><div class="muted">${esc(r.tvi||'')}</div>
      <article class="rtext">${r.paras.map((p,i)=>`<div class="rpara"><p class="han">${wordSpans(p[0])} <button class="spk" data-say="${esc(p[0])}" aria-label="Nghe đoạn">${SPK}</button></p>${showVi?`<p class="rvi">${esc(p[1])}</p>`:''}</div>`).join('')}</article>
      <div id="rLook" class="rlook" hidden></div>
@@ -1688,7 +1689,7 @@ function lookup(seg,anchor){
   const sub=!w&&chars.length>1?chars.map(c=>WI.get(c)).filter(Boolean):[];
   box.hidden=false;
   box.innerHTML=`<div class="spread"><div class="row"><span class="han" style="font-size:28px;font-weight:700">${w?hanHTML(w):colorText(seg)}</span><span class="py">${w?pyHTML(w):esc(pyLine(seg))}</span>${w&&w.hv?`<span class="muted small">${esc(w.hv)}</span>`:''}</div><div class="row"><button class="spk" data-say="${esc(seg)}" aria-label="Nghe">${SPK}</button><button class="spk" id="lkX" aria-label="Đóng">✕</button></div></div>
-   <div>${w?esc(w.vi)+` <span class="pill">HSK ${w.lv}</span>`:sub.length?sub.map(x=>`<span class="han">${esc(x.h)}</span>: ${esc(x.vi)}`).join('; '):'<span class="muted">Từ này không có trong danh sách HSK.</span>'}</div>
+   <div>${w?esc(w.vi)+` <span class="pill">HSK ${lvN(w.lv)}</span>`:sub.length?sub.map(x=>`<span class="han">${esc(x.h)}</span>: ${esc(x.vi)}`).join('; '):'<span class="muted">Từ này không có trong danh sách HSK.</span>'}</div>
    <div class="row">${w?`<button class="btn sm" id="lkMore">Chi tiết</button>${P.srs[seg]?'':'<button class="btn sm" id="lkAdd">Thêm vào ôn tập</button>'}`:''}${!w&&AI?'<button class="btn sm" id="lkAi">Hỏi AI nghĩa</button>':''}</div><div id="lkOut" class="small"></div>`;
   $('#lkX').onclick=()=>box.hidden=true;
   const m=$('#lkMore');if(m)m.onclick=()=>openWord(seg);
@@ -1723,7 +1724,7 @@ function renderWrite(el){
     $('#tCheck').onclick=async()=>{const v=$('#tIn').value.trim();if(!v)return;const r=compareZh(w.ex,v);window.__award&&window.__award('write',1);
       $('#tRes').innerHTML=`<div class="q"><div class="small muted">Câu tham khảo:</div><div class="han" style="font-size:21px">${colorText(w.ex)}</div><div class="py small">${sentPyHTML(w.exp)}</div><div class="small">Trùng với câu tham khảo: <b>${r.pct}%</b>. Câu khác cách diễn đạt vẫn có thể đúng.</div><div id="tAi"></div></div>`;
       if(AI){const out=$('#tAi');out.innerHTML='<div class="ai-out">AI đang nhận xét...</div>';
-        try{await ask(`Học viên người Việt trình độ HSK ${WR.lv} dịch câu "${w.exvi}" sang tiếng Trung thành: "${v}". Câu tham khảo: "${w.ex}". Nhận xét ngắn bằng tiếng Việt: câu của học viên đúng hay sai, tự nhiên chưa; nếu sai thì ghi "Sai: ... Đúng: ..." kèm lý do ngắn. Tối đa 5 dòng, văn bản thuần, không gạch ngang dài.`,{modelTier:'quick',onText:({text})=>{out.innerHTML=`<div class="ai-out">${esc(text)}</div>`;}});}
+        try{await ask(`Học viên người Việt trình độ HSK ${lvN(WR.lv)} dịch câu "${w.exvi}" sang tiếng Trung thành: "${v}". Câu tham khảo: "${w.ex}". Nhận xét ngắn bằng tiếng Việt: câu của học viên đúng hay sai, tự nhiên chưa; nếu sai thì ghi "Sai: ... Đúng: ..." kèm lý do ngắn. Tối đa 5 dòng, văn bản thuần, không gạch ngang dài.`,{modelTier:'quick',onText:({text})=>{out.innerHTML=`<div class="ai-out">${esc(text)}</div>`;}});}
         catch(e){out.innerHTML=`<p class="note">${esc(aiError(e))}</p>`;}}};
     return;
   }
@@ -1740,7 +1741,7 @@ function renderWrite(el){
   $('#eText').oninput=cnt;$('#eTopic').oninput=cnt;
   $$('[data-tp]',box).forEach(b=>b.onclick=()=>{$('#eTopic').value=b.dataset.tp;cnt();});
   const g=$('#eGrade');if(g)g.onclick=async()=>{const t=$('#eText').value.trim();if([...t].filter(isHan).length<5){toast('Viết thêm vài câu đã.');return;}const out=$('#eOut');g.disabled=true;out.innerHTML='<div class="ai-out">AI đang chấm...</div>';
-    window.__award&&window.__award('write',2);try{await ask(`Bạn là giáo viên tiếng Trung chấm bài viết cho học viên người Việt trình độ HSK ${WR.lv}. Đề: "${$('#eTopic').value}". Bài viết:\n${t}\n\nTrả lời bằng tiếng Việt, văn bản thuần, không markdown, không gạch ngang dài:\n1. Điểm trên thang 100 và nhận xét chung 2 câu.\n2. Liệt kê từng lỗi theo dạng "Sai: ... Đúng: ..." kèm lý do ngắn (ngữ pháp, từ dùng sai, trật tự từ).\n3. Bài đã sửa hoàn chỉnh bằng chữ Hán.\n4. 3 từ hoặc mẫu câu HSK ${WR.lv} nên dùng để bài hay hơn, kèm pinyin và nghĩa.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
+    window.__award&&window.__award('write',2);try{await ask(`Bạn là giáo viên tiếng Trung chấm bài viết cho học viên người Việt trình độ HSK ${lvN(WR.lv)}. Đề: "${$('#eTopic').value}". Bài viết:\n${t}\n\nTrả lời bằng tiếng Việt, văn bản thuần, không markdown, không gạch ngang dài:\n1. Điểm trên thang 100 và nhận xét chung 2 câu.\n2. Liệt kê từng lỗi theo dạng "Sai: ... Đúng: ..." kèm lý do ngắn (ngữ pháp, từ dùng sai, trật tự từ).\n3. Bài đã sửa hoàn chỉnh bằng chữ Hán.\n4. 3 từ hoặc mẫu câu HSK ${lvN(WR.lv)} nên dùng để bài hay hơn, kèm pinyin và nghĩa.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
     catch(e){out.innerHTML=`<p class="note">${esc(aiError(e))}</p>`;}g.disabled=false;};
 }
 function orderItem(sentence,vi,extra){
@@ -1809,7 +1810,7 @@ window.__award=award;
 function plCfg(){P.plan=P.plan||{target:4,minutes:30,start:today(),auto:true};return P.plan;}
 function plGoalXP(){return Math.round(plCfg().minutes*3.5);}
 function plNewPerDay(){const m=plCfg().minutes;return m>=90?35:m>=60?25:m>=45?18:m>=30?12:8;}
-function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=[1,2,3,4,5,6].filter(L=>L<=c.target);P.settings.newPerDay=plNewPerDay();}
+function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=LVS.filter(L=>L<=c.target);P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
   const due=dueList(P.settings.lv).length, nw=Math.max(0,P.settings.newPerDay-newToday());
@@ -1843,7 +1844,7 @@ function plPanelHTML(){
         <div class="small muted">Chuỗi ${streak()} ngày. 7 ngày qua: ${wk.xp} XP, ${wk.nw} từ mới, học ${wk.act}/7 ngày.</div></div>
       <button class="btn sm" id="plSet">Lộ trình</button></div>
     <div class="pl-tasks">${tasks.map(x=>`<button class="pl-task ${x.done?'done':''}" data-go="${x.go}"><span class="check ${x.done?'on':''}">${x.done?'✓':''}</span><span><b>${esc(x.t)}</b>${x.n?` <span class="num muted">${Math.min(x.n[0],x.n[1])}/${x.n[1]}</span>`:''}<br><span class="small muted">${esc(x.sub)}</span></span></button>`).join('')}</div>
-    <div class="small muted">Mục tiêu HSK ${c.target}, ${c.minutes} phút/ngày, ${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left}/${pr.total} từ chưa học, dự kiến học hết vào <b style="color:var(--ink)">${pr.date.toLocaleDateString('vi-VN')}</b> (${pr.days} ngày).</div>
+    <div class="small muted">Mục tiêu HSK ${lvN(c.target)}, ${c.minutes} phút/ngày, ${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left}/${pr.total} từ chưa học, dự kiến học hết vào <b style="color:var(--ink)">${pr.date.toLocaleDateString('vi-VN')}</b> (${pr.days} ngày).</div>
     <div class="row small"><button class="lnk" data-go="mistakes">Sổ lỗi sai</button><button class="lnk" data-go="culture">Văn hóa</button><button class="lnk" data-go="games">Trò chơi</button><button class="lnk" data-go="placement">Xếp lớp lại</button><button class="lnk" id="plRep">Báo lỗi đã ghi</button></div>
     ${Object.keys(P.srs).length<20&&!P.placed?`<div class="vn">Bạn từng học tiếng Trung. Làm <button class="lnk" id="plPlace">bài xếp lớp 10 phút</button> để bỏ qua những từ còn nhớ, tiết kiệm vài trăm thẻ.</div>`:''}
   </div>`;
@@ -1857,11 +1858,11 @@ function plBind(){
 function plSettings(){
   const c=plCfg();
   const m=modal(`<h2>Lộ trình học</h2>
-    <label class="label">Mục tiêu</label><div class="row">${[1,2,3,4,5,6].map(L=>`<button class="chip" data-t="${L}" aria-pressed="${c.target===L}">HSK ${L}</button>`).join('')}</div>
+    <label class="label">Mục tiêu</label><div class="row">${LVS.map(L=>`<button class="chip" data-t="${L}" aria-pressed="${c.target===L}">HSK ${lvN(L)}</button>`).join('')}</div>
     <label class="label">Số phút mỗi ngày</label><div class="row">${[15,30,45,60,90].map(n=>`<button class="chip" data-m="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
     <p class="note" id="plInfo"></p>
     <label class="row small"><input type="checkbox" id="plAuto" ${c.auto?'checked':''}> Tự đặt cấp đang học và số từ mới theo lộ trình</label>`);
-  const info=()=>{plApply();const pr=plProjection();$('#plInfo',m.el).textContent=`${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left} từ đến hết HSK ${c.target}, dự kiến ${pr.days} ngày (đến ${pr.date.toLocaleDateString('vi-VN')}). Mỗi ngày mục tiêu ${plGoalXP()} XP.`;};info();
+  const info=()=>{plApply();const pr=plProjection();$('#plInfo',m.el).textContent=`${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left} từ đến hết HSK ${lvN(c.target)}, dự kiến ${pr.days} ngày (đến ${pr.date.toLocaleDateString('vi-VN')}). Mỗi ngày mục tiêu ${plGoalXP()} XP.`;};info();
   $$('[data-t]',m.el).forEach(b=>b.onclick=()=>{c.target=+b.dataset.t;$$('[data-t]',m.el).forEach(x=>x.setAttribute('aria-pressed',x===b));info();touch('main');});
   $$('[data-m]',m.el).forEach(b=>b.onclick=()=>{c.minutes=+b.dataset.m;$$('[data-m]',m.el).forEach(x=>x.setAttribute('aria-pressed',x===b));info();touch('main');});
   $('#plAuto',m.el).onchange=e=>{c.auto=e.target.checked;info();touch('main');};
@@ -1878,10 +1879,10 @@ VIEWS.placement=el=>{
   const c=plCfg();
   const start=()=>{const pool=W.filter(w=>w.lv===PLC.L&&!P.srs[w.h]);PLC.items=shuffle(pool).slice(0,15);PLC.i=0;PLC.stats[PLC.L]={yes:0,ok:0,chk:0,n:0};draw();};
   const finishLevel=()=>{const st=PLC.stats[PLC.L];const ratio=st.n?st.yes/st.n:0;const acc=st.chk?st.ok/st.chk:1;
-    el.innerHTML=`<div class="view"><h2>Bài xếp lớp - HSK ${PLC.L}</h2><div class="panel"><p>Bạn nhận ra <b>${st.yes}/${st.n}</b> từ mẫu${st.chk?`, kiểm tra lại đúng ${st.ok}/${st.chk}`:''}.</p>
-      ${ratio*acc>=0.8?`<p>Có vẻ bạn nắm khá chắc HSK ${PLC.L}. Có thể đánh dấu cả cấp là đã biết. Các từ này vẫn sẽ quay lại rải rác trong vài tuần để kiểm tra, từ nào quên thì học lại.</p><div class="row"><button class="btn primary" id="pcAll">Đánh dấu cả HSK ${PLC.L} đã biết</button><button class="btn" id="pcNext">Chỉ giữ những từ vừa chọn, sang cấp tiếp</button></div>`
-        :ratio*acc>=0.4?`<p>Bạn nhớ một phần HSK ${PLC.L}. Những từ bạn chọn "Biết" đã được đánh dấu, phần còn lại sẽ học như từ mới.</p><div class="row"><button class="btn primary" id="pcEnd">Xong, bắt đầu học</button>${PLC.L<c.target?'<button class="btn" id="pcNext">Thử cấp tiếp</button>':''}</div>`
-        :`<p>Nên bắt đầu học từ HSK ${PLC.L}. Những từ bạn đã biết đã được đánh dấu.</p><button class="btn primary" id="pcEnd">Bắt đầu học</button>`}</div></div>`;
+    el.innerHTML=`<div class="view"><h2>Bài xếp lớp - HSK ${lvN(PLC.L)}</h2><div class="panel"><p>Bạn nhận ra <b>${st.yes}/${st.n}</b> từ mẫu${st.chk?`, kiểm tra lại đúng ${st.ok}/${st.chk}`:''}.</p>
+      ${ratio*acc>=0.8?`<p>Có vẻ bạn nắm khá chắc HSK ${lvN(PLC.L)}. Có thể đánh dấu cả cấp là đã biết. Các từ này vẫn sẽ quay lại rải rác trong vài tuần để kiểm tra, từ nào quên thì học lại.</p><div class="row"><button class="btn primary" id="pcAll">Đánh dấu cả HSK ${lvN(PLC.L)} đã biết</button><button class="btn" id="pcNext">Chỉ giữ những từ vừa chọn, sang cấp tiếp</button></div>`
+        :ratio*acc>=0.4?`<p>Bạn nhớ một phần HSK ${lvN(PLC.L)}. Những từ bạn chọn "Biết" đã được đánh dấu, phần còn lại sẽ học như từ mới.</p><div class="row"><button class="btn primary" id="pcEnd">Xong, bắt đầu học</button>${PLC.L<c.target?'<button class="btn" id="pcNext">Thử cấp tiếp</button>':''}</div>`
+        :`<p>Nên bắt đầu học từ HSK ${lvN(PLC.L)}. Những từ bạn đã biết đã được đánh dấu.</p><button class="btn primary" id="pcEnd">Bắt đầu học</button>`}</div></div>`;
     const all=$('#pcAll');if(all)all.onclick=()=>{let n=0;W.filter(w=>w.lv===PLC.L&&!P.srs[w.h]).forEach(w=>{const iv=5+Math.floor(Math.random()*25);P.srs[w.h]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};n++;});PLC.marked+=n;touch('srs');touch('main');next();};
     const nx=$('#pcNext');if(nx)nx.onclick=next; const en=$('#pcEnd');if(en)en.onclick=end;};
   const next=()=>{if(PLC.L>=Math.min(6,Math.max(c.target,4))){end();return;}PLC.L++;start();};
@@ -1889,7 +1890,7 @@ VIEWS.placement=el=>{
   const draw=()=>{
     const w=PLC.items[PLC.i]; if(!w){finishLevel();return;}
     const st=PLC.stats[PLC.L];
-    el.innerHTML=`<div class="view"><div class="spread"><h2>Bài xếp lớp - HSK ${PLC.L}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
+    el.innerHTML=`<div class="view"><div class="spread"><h2>Bài xếp lớp - HSK ${lvN(PLC.L)}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
       <p class="note">Nhìn chữ, nếu biết nghĩa thì bấm "Biết". Thỉnh thoảng app hỏi lại để kiểm tra. Cứ trả lời thật, không đoán.</p>
       <div class="card" style="min-height:240px"><div class="big han">${esc(w.h)}</div><div class="row" style="margin-top:auto"><button class="btn" id="pcNo">Không biết <span class="kbd">1</span></button><button class="btn primary" id="pcYes">Biết <span class="kbd">2</span></button></div></div>
       <button class="btn ghost sm" id="pcSkip">Dừng xếp lớp</button></div>`;
@@ -2064,7 +2065,7 @@ async function lpDaily(box){
   const learning=W.filter(w=>P.srs[w.h]&&w.lv<=LS.lv).sort((a,b)=>(P.srs[b.h].first||0)-(P.srs[a.h].first||0)).slice(0,25).map(w=>w.h);
   const extra=learning.length<8?shuffle(W.filter(w=>w.lv===LS.lv)).slice(0,15).map(w=>w.h):[];
   try{
-    const d=await askJSON(`Soạn một đoạn hội thoại tiếng Trung giản thể tự nhiên giữa hai người (một nam, một nữ) cho người Việt học HSK ${LS.lv}. Dùng nhiều nhất có thể các từ: ${learning.concat(extra).join('、')}. Chỉ dùng từ vựng trong phạm vi HSK ${LS.lv}. Độ dài: ${LS.lv<=2?'6-8':LS.lv<=4?'8-10':'10-12'} lượt nói. Tình huống đời thường, có chút hài hước hoặc bất ngờ.
+    const d=await askJSON(`Soạn một đoạn hội thoại tiếng Trung giản thể tự nhiên giữa hai người (một nam, một nữ) cho người Việt học HSK ${lvN(LS.lv)}. Dùng nhiều nhất có thể các từ: ${learning.concat(extra).join('、')}. Chỉ dùng từ vựng trong phạm vi HSK ${lvN(LS.lv)}. Độ dài: ${LS.lv<=2?'6-8':LS.lv<=4?'8-10':'10-12'} lượt nói. Tình huống đời thường, có chút hài hước hoặc bất ngờ.
 Trả DUY NHẤT JSON: {"title":"tiêu đề tiếng Việt ngắn","lines":[["男 hoặc 女","câu tiếng Trung","dịch tiếng Việt"]],"q":[{"q":"câu hỏi nghe hiểu tiếng Trung","o":["A","B","C","D"],"a":0,"w":"giải thích tiếng Việt ngắn"}]}
 Có 3 câu hỏi, đáp án phân bố đều. Không dùng gạch ngang dài.`,{modelTier:'default'});
     if(!d||!Array.isArray(d.lines))throw {code:'bad_json'};
@@ -2177,7 +2178,7 @@ async function renderGames(el){
   if(GM.lv.some(L=>!loadedLv.has(L))){el.innerHTML='<div class="view"><p class="note">Đang tải từ vựng...</p></div>';await Promise.all(GM.lv.map(loadLevel));if(current!=='games')return;}
   const g=gmData(),n=gmPool().length;
   el.innerHTML=`<div class="view"><div class="spread"><h2>Trò chơi</h2>${levelChips(GM.lv,s=>{GM.lv=s;renderGames(el);},{id:'gmlv'})}</div>
-   <p class="note">Đang dùng ${n} từ của HSK ${GM.lv.join(', ')}. Chọn thêm cấp ở trên để trộn từ.</p>
+   <p class="note">Đang dùng ${n} từ của HSK ${GM.lv.map(lvN).join(', ')}. Chọn thêm cấp ở trên để trộn từ.</p>
    <div class="gm-cards">${GM_GAMES.map(x=>`<button class="gm-card" data-g="${x.id}"><span class="gm-ic han">${x.icon}</span><span class="gm-ct"><b>${x.name}</b><span class="note">${x.desc}</span><span class="kbd">${x.keys}</span></span></button>`).join('')}</div>
    <div class="panel"><div class="spread"><h3>Bảng kỷ lục</h3><button class="btn ghost sm" id="gmMute" aria-pressed="${!g.mute}">Âm hiệu: ${g.mute?'tắt':'bật'}</button></div>
     <div class="gm-board">${GM_GAMES.map(x=>`<div class="gm-brow"><span class="gm-bic han">${x.icon}</span><span class="gm-bname">${x.name}<span class="small muted">${g.plays[x.id]?g.plays[x.id]+' lượt chơi':'Chưa chơi'}</span></span><b class="num">${g.best[x.id]||0}</b></div>`).join('')}</div></div></div>`;

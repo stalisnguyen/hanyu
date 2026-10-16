@@ -17,7 +17,7 @@ window.__award=award;
 function plCfg(){P.plan=P.plan||{target:4,minutes:30,start:today(),auto:true};return P.plan;}
 function plGoalXP(){return Math.round(plCfg().minutes*3.5);}
 function plNewPerDay(){const m=plCfg().minutes;return m>=90?35:m>=60?25:m>=45?18:m>=30?12:8;}
-function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=[1,2,3,4,5,6].filter(L=>L<=c.target);P.settings.newPerDay=plNewPerDay();}
+function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=LVS.filter(L=>L<=c.target);P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
   const due=dueList(P.settings.lv).length, nw=Math.max(0,P.settings.newPerDay-newToday());
@@ -51,7 +51,7 @@ function plPanelHTML(){
         <div class="small muted">Chuỗi ${streak()} ngày. 7 ngày qua: ${wk.xp} XP, ${wk.nw} từ mới, học ${wk.act}/7 ngày.</div></div>
       <button class="btn sm" id="plSet">Lộ trình</button></div>
     <div class="pl-tasks">${tasks.map(x=>`<button class="pl-task ${x.done?'done':''}" data-go="${x.go}"><span class="check ${x.done?'on':''}">${x.done?'✓':''}</span><span><b>${esc(x.t)}</b>${x.n?` <span class="num muted">${Math.min(x.n[0],x.n[1])}/${x.n[1]}</span>`:''}<br><span class="small muted">${esc(x.sub)}</span></span></button>`).join('')}</div>
-    <div class="small muted">Mục tiêu HSK ${c.target}, ${c.minutes} phút/ngày, ${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left}/${pr.total} từ chưa học, dự kiến học hết vào <b style="color:var(--ink)">${pr.date.toLocaleDateString('vi-VN')}</b> (${pr.days} ngày).</div>
+    <div class="small muted">Mục tiêu HSK ${lvN(c.target)}, ${c.minutes} phút/ngày, ${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left}/${pr.total} từ chưa học, dự kiến học hết vào <b style="color:var(--ink)">${pr.date.toLocaleDateString('vi-VN')}</b> (${pr.days} ngày).</div>
     <div class="row small"><button class="lnk" data-go="mistakes">Sổ lỗi sai</button><button class="lnk" data-go="culture">Văn hóa</button><button class="lnk" data-go="games">Trò chơi</button><button class="lnk" data-go="placement">Xếp lớp lại</button><button class="lnk" id="plRep">Báo lỗi đã ghi</button></div>
     ${Object.keys(P.srs).length<20&&!P.placed?`<div class="vn">Bạn từng học tiếng Trung. Làm <button class="lnk" id="plPlace">bài xếp lớp 10 phút</button> để bỏ qua những từ còn nhớ, tiết kiệm vài trăm thẻ.</div>`:''}
   </div>`;
@@ -65,11 +65,11 @@ function plBind(){
 function plSettings(){
   const c=plCfg();
   const m=modal(`<h2>Lộ trình học</h2>
-    <label class="label">Mục tiêu</label><div class="row">${[1,2,3,4,5,6].map(L=>`<button class="chip" data-t="${L}" aria-pressed="${c.target===L}">HSK ${L}</button>`).join('')}</div>
+    <label class="label">Mục tiêu</label><div class="row">${LVS.map(L=>`<button class="chip" data-t="${L}" aria-pressed="${c.target===L}">HSK ${lvN(L)}</button>`).join('')}</div>
     <label class="label">Số phút mỗi ngày</label><div class="row">${[15,30,45,60,90].map(n=>`<button class="chip" data-m="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
     <p class="note" id="plInfo"></p>
     <label class="row small"><input type="checkbox" id="plAuto" ${c.auto?'checked':''}> Tự đặt cấp đang học và số từ mới theo lộ trình</label>`);
-  const info=()=>{plApply();const pr=plProjection();$('#plInfo',m.el).textContent=`${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left} từ đến hết HSK ${c.target}, dự kiến ${pr.days} ngày (đến ${pr.date.toLocaleDateString('vi-VN')}). Mỗi ngày mục tiêu ${plGoalXP()} XP.`;};info();
+  const info=()=>{plApply();const pr=plProjection();$('#plInfo',m.el).textContent=`${P.settings.newPerDay} từ mới/ngày. Còn ${pr.left} từ đến hết HSK ${lvN(c.target)}, dự kiến ${pr.days} ngày (đến ${pr.date.toLocaleDateString('vi-VN')}). Mỗi ngày mục tiêu ${plGoalXP()} XP.`;};info();
   $$('[data-t]',m.el).forEach(b=>b.onclick=()=>{c.target=+b.dataset.t;$$('[data-t]',m.el).forEach(x=>x.setAttribute('aria-pressed',x===b));info();touch('main');});
   $$('[data-m]',m.el).forEach(b=>b.onclick=()=>{c.minutes=+b.dataset.m;$$('[data-m]',m.el).forEach(x=>x.setAttribute('aria-pressed',x===b));info();touch('main');});
   $('#plAuto',m.el).onchange=e=>{c.auto=e.target.checked;info();touch('main');};
@@ -86,10 +86,10 @@ VIEWS.placement=el=>{
   const c=plCfg();
   const start=()=>{const pool=W.filter(w=>w.lv===PLC.L&&!P.srs[w.h]);PLC.items=shuffle(pool).slice(0,15);PLC.i=0;PLC.stats[PLC.L]={yes:0,ok:0,chk:0,n:0};draw();};
   const finishLevel=()=>{const st=PLC.stats[PLC.L];const ratio=st.n?st.yes/st.n:0;const acc=st.chk?st.ok/st.chk:1;
-    el.innerHTML=`<div class="view"><h2>Bài xếp lớp - HSK ${PLC.L}</h2><div class="panel"><p>Bạn nhận ra <b>${st.yes}/${st.n}</b> từ mẫu${st.chk?`, kiểm tra lại đúng ${st.ok}/${st.chk}`:''}.</p>
-      ${ratio*acc>=0.8?`<p>Có vẻ bạn nắm khá chắc HSK ${PLC.L}. Có thể đánh dấu cả cấp là đã biết. Các từ này vẫn sẽ quay lại rải rác trong vài tuần để kiểm tra, từ nào quên thì học lại.</p><div class="row"><button class="btn primary" id="pcAll">Đánh dấu cả HSK ${PLC.L} đã biết</button><button class="btn" id="pcNext">Chỉ giữ những từ vừa chọn, sang cấp tiếp</button></div>`
-        :ratio*acc>=0.4?`<p>Bạn nhớ một phần HSK ${PLC.L}. Những từ bạn chọn "Biết" đã được đánh dấu, phần còn lại sẽ học như từ mới.</p><div class="row"><button class="btn primary" id="pcEnd">Xong, bắt đầu học</button>${PLC.L<c.target?'<button class="btn" id="pcNext">Thử cấp tiếp</button>':''}</div>`
-        :`<p>Nên bắt đầu học từ HSK ${PLC.L}. Những từ bạn đã biết đã được đánh dấu.</p><button class="btn primary" id="pcEnd">Bắt đầu học</button>`}</div></div>`;
+    el.innerHTML=`<div class="view"><h2>Bài xếp lớp - HSK ${lvN(PLC.L)}</h2><div class="panel"><p>Bạn nhận ra <b>${st.yes}/${st.n}</b> từ mẫu${st.chk?`, kiểm tra lại đúng ${st.ok}/${st.chk}`:''}.</p>
+      ${ratio*acc>=0.8?`<p>Có vẻ bạn nắm khá chắc HSK ${lvN(PLC.L)}. Có thể đánh dấu cả cấp là đã biết. Các từ này vẫn sẽ quay lại rải rác trong vài tuần để kiểm tra, từ nào quên thì học lại.</p><div class="row"><button class="btn primary" id="pcAll">Đánh dấu cả HSK ${lvN(PLC.L)} đã biết</button><button class="btn" id="pcNext">Chỉ giữ những từ vừa chọn, sang cấp tiếp</button></div>`
+        :ratio*acc>=0.4?`<p>Bạn nhớ một phần HSK ${lvN(PLC.L)}. Những từ bạn chọn "Biết" đã được đánh dấu, phần còn lại sẽ học như từ mới.</p><div class="row"><button class="btn primary" id="pcEnd">Xong, bắt đầu học</button>${PLC.L<c.target?'<button class="btn" id="pcNext">Thử cấp tiếp</button>':''}</div>`
+        :`<p>Nên bắt đầu học từ HSK ${lvN(PLC.L)}. Những từ bạn đã biết đã được đánh dấu.</p><button class="btn primary" id="pcEnd">Bắt đầu học</button>`}</div></div>`;
     const all=$('#pcAll');if(all)all.onclick=()=>{let n=0;W.filter(w=>w.lv===PLC.L&&!P.srs[w.h]).forEach(w=>{const iv=5+Math.floor(Math.random()*25);P.srs[w.h]={iv,ef:2.5,n:2,l:0,due:today()+iv*DAY,s:2,first:Date.now(),pl:1};n++;});PLC.marked+=n;touch('srs');touch('main');next();};
     const nx=$('#pcNext');if(nx)nx.onclick=next; const en=$('#pcEnd');if(en)en.onclick=end;};
   const next=()=>{if(PLC.L>=Math.min(6,Math.max(c.target,4))){end();return;}PLC.L++;start();};
@@ -97,7 +97,7 @@ VIEWS.placement=el=>{
   const draw=()=>{
     const w=PLC.items[PLC.i]; if(!w){finishLevel();return;}
     const st=PLC.stats[PLC.L];
-    el.innerHTML=`<div class="view"><div class="spread"><h2>Bài xếp lớp - HSK ${PLC.L}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
+    el.innerHTML=`<div class="view"><div class="spread"><h2>Bài xếp lớp - HSK ${lvN(PLC.L)}</h2><span class="note num">${PLC.i+1}/${PLC.items.length}</span></div>
       <p class="note">Nhìn chữ, nếu biết nghĩa thì bấm "Biết". Thỉnh thoảng app hỏi lại để kiểm tra. Cứ trả lời thật, không đoán.</p>
       <div class="card" style="min-height:240px"><div class="big han">${esc(w.h)}</div><div class="row" style="margin-top:auto"><button class="btn" id="pcNo">Không biết <span class="kbd">1</span></button><button class="btn primary" id="pcYes">Biết <span class="kbd">2</span></button></div></div>
       <button class="btn ghost sm" id="pcSkip">Dừng xếp lớp</button></div>`;

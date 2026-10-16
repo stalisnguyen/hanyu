@@ -50,7 +50,7 @@ async function lpDaily(box){
   const learning=W.filter(w=>P.srs[w.h]&&w.lv<=LS.lv).sort((a,b)=>(P.srs[b.h].first||0)-(P.srs[a.h].first||0)).slice(0,25).map(w=>w.h);
   const extra=learning.length<8?shuffle(W.filter(w=>w.lv===LS.lv)).slice(0,15).map(w=>w.h):[];
   try{
-    const d=await askJSON(`Soạn một đoạn hội thoại tiếng Trung giản thể tự nhiên giữa hai người (một nam, một nữ) cho người Việt học HSK ${LS.lv}. Dùng nhiều nhất có thể các từ: ${learning.concat(extra).join('、')}. Chỉ dùng từ vựng trong phạm vi HSK ${LS.lv}. Độ dài: ${LS.lv<=2?'6-8':LS.lv<=4?'8-10':'10-12'} lượt nói. Tình huống đời thường, có chút hài hước hoặc bất ngờ.
+    const d=await askJSON(`Soạn một đoạn hội thoại tiếng Trung giản thể tự nhiên giữa hai người (một nam, một nữ) cho người Việt học HSK ${lvN(LS.lv)}. Dùng nhiều nhất có thể các từ: ${learning.concat(extra).join('、')}. Chỉ dùng từ vựng trong phạm vi HSK ${lvN(LS.lv)}. Độ dài: ${LS.lv<=2?'6-8':LS.lv<=4?'8-10':'10-12'} lượt nói. Tình huống đời thường, có chút hài hước hoặc bất ngờ.
 Trả DUY NHẤT JSON: {"title":"tiêu đề tiếng Việt ngắn","lines":[["男 hoặc 女","câu tiếng Trung","dịch tiếng Việt"]],"q":[{"q":"câu hỏi nghe hiểu tiếng Trung","o":["A","B","C","D"],"a":0,"w":"giải thích tiếng Việt ngắn"}]}
 Có 3 câu hỏi, đáp án phân bố đều. Không dùng gạch ngang dài.`,{modelTier:'default'});
     if(!d||!Array.isArray(d.lines))throw {code:'bad_json'};

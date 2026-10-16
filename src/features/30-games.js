@@ -58,7 +58,7 @@ async function renderGames(el){
   if(GM.lv.some(L=>!loadedLv.has(L))){el.innerHTML='<div class="view"><p class="note">Đang tải từ vựng...</p></div>';await Promise.all(GM.lv.map(loadLevel));if(current!=='games')return;}
   const g=gmData(),n=gmPool().length;
   el.innerHTML=`<div class="view"><div class="spread"><h2>Trò chơi</h2>${levelChips(GM.lv,s=>{GM.lv=s;renderGames(el);},{id:'gmlv'})}</div>
-   <p class="note">Đang dùng ${n} từ của HSK ${GM.lv.join(', ')}. Chọn thêm cấp ở trên để trộn từ.</p>
+   <p class="note">Đang dùng ${n} từ của HSK ${GM.lv.map(lvN).join(', ')}. Chọn thêm cấp ở trên để trộn từ.</p>
    <div class="gm-cards">${GM_GAMES.map(x=>`<button class="gm-card" data-g="${x.id}"><span class="gm-ic han">${x.icon}</span><span class="gm-ct"><b>${x.name}</b><span class="note">${x.desc}</span><span class="kbd">${x.keys}</span></span></button>`).join('')}</div>
    <div class="panel"><div class="spread"><h3>Bảng kỷ lục</h3><button class="btn ghost sm" id="gmMute" aria-pressed="${!g.mute}">Âm hiệu: ${g.mute?'tắt':'bật'}</button></div>
     <div class="gm-board">${GM_GAMES.map(x=>`<div class="gm-brow"><span class="gm-bic han">${x.icon}</span><span class="gm-bname">${x.name}<span class="small muted">${g.plays[x.id]?g.plays[x.id]+' lượt chơi':'Chưa chơi'}</span></span><b class="num">${g.best[x.id]||0}</b></div>`).join('')}</div></div></div>`;

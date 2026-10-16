@@ -1,6 +1,6 @@
 # Sổ Tay Hán Ngữ
 
-Web học tiếng Trung HSK 1-6 cho người Việt, theo danh sách từ HSK 3.0 bản điều chỉnh 2026 (5.181 từ).
+Web học tiếng Trung HSK 1-9 (chuẩn mới, gồm cả bậc 7-9) cho người Việt, theo danh sách từ HSK 3.0 bản điều chỉnh 2026 (5.181 từ).
 
 ## Tính năng
 
@@ -23,7 +23,7 @@ Khi mở trong Claude (bản artifact) có thêm:
 
 - `src/` mã nguồn: `shell.html`, `app.css`, `app.js`
 - `build.py` gộp thành `index.html` (web tĩnh) và `app.html` (artifact Claude)
-- `data/words-1..6.json` từ vựng theo cấp: `[chữ, pinyin, Hán Việt, nghĩa, emoji, ví dụ, pinyin ví dụ, nghĩa ví dụ, lượng từ]`
+- `data/words-1..7.json` (7 là bậc 7-9) từ vựng theo cấp: `[chữ, pinyin, Hán Việt, nghĩa, emoji, ví dụ, pinyin ví dụ, nghĩa ví dụ, lượng từ]`
 - `data/grammar.json`, `data/tests/hsk1..6.json`, `data/strokes/` dữ liệu nét chữ
 
 Sửa nội dung: sửa file trong `data/` hoặc `src/`, chạy `python3 build.py`, rồi commit.

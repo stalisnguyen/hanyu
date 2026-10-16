@@ -7,7 +7,7 @@ root = Path(__file__).parent
 idx = json.load(open(root / "data/audio-index.json"))
 have = set(idx["w"])
 os.makedirs(root / "data/audio", exist_ok=True)
-for L in range(1, 7):
+for L in range(1, 8):
     words = json.load(open(root / f"data/words-{L}.json"))
     codes = ["-".join("%x" % ord(c) for c in w[0]) for w in words]
     b = {c: base64.b64encode((root / f"audio/w/{c}.mp3").read_bytes()).decode() for c in codes if c in have}
