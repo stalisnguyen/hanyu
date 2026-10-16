@@ -16,8 +16,8 @@ assert marker in js, "boot marker missing"
 js = js.replace(marker, feats + marker, 1)
 body = shell.replace("/*CSS*/", css).replace("/*JS*/", js)
 
-(root / "app.html").write_text(body, encoding="utf-8")
-head, rest = body.split('<header', 1)
+(root / "app.html").write_text(body.replace("<!--BODY-->", ""), encoding="utf-8")
+head, rest = body.split('<!--BODY-->', 1)
 (root / "index.html").write_text(
     '<!doctype html><html lang="vi"><head><meta charset="utf-8">'
     '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
@@ -25,8 +25,8 @@ head, rest = body.split('<header', 1)
     "img{max-width:100%}[hidden]{display:none!important}</style>"
     '<link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0E6E55">'
     '<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes">'
-    '<meta name="apple-mobile-web-app-title" content="Hán Ngữ">'
-    + head + "</head><body><header" + rest + "</body></html>",
+    '<meta name="apple-mobile-web-app-title" content="Stalong">'
+    + head + "</head><body>" + rest + "</body></html>",
     encoding="utf-8",
 )
 print("built app.html and index.html")

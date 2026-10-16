@@ -1,6 +1,8 @@
-# Sổ Tay Hán Ngữ
+# Stalong 思龙 (Stalis's Hànyǔ)
 
 Web học tiếng Trung HSK 1-9 (chuẩn mới, gồm cả bậc 7-9) cho người Việt, theo danh sách từ HSK 3.0 bản điều chỉnh 2026 (5.181 từ).
+
+Linh vật: rồng con Tiểu Long 小龙, đội mũ mới theo danh hiệu (Đồng sinh -> Trạng nguyên). Vẽ bằng SVG trong `src/features/05-mascot.js`. Icon giao diện: [Lucide](https://lucide.dev) (ISC).
 
 ## Tính năng
 

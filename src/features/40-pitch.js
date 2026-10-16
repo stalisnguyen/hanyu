@@ -295,7 +295,7 @@ function PT_drawItem(){
   if(!it){b.innerHTML='';return;}
   const ch=[...it.h];
   b.innerHTML=`<div class="pt-word">${it.h?`<span class="han pt-h">${ch.map((c,i)=>`<span class="t${it.t[i]||5}">${esc(c)}</span>`).join('')}</span>`:''}<span class="py pt-p">${it.py.map((p,i)=>`<span class="t${it.t[i]}">${esc(p)}</span>`).join(' ')}</span>${it.kind==='w'&&WI.get(it.h)?`<span class="small muted">${esc(WI.get(it.h).vi)}</span>`:''}</div>
-   <div class="pt-btns"><button class="btn" id="ptRef">▶ Nghe mẫu</button>
+   <div class="pt-btns"><button class="btn" id="ptRef"><svg class="i"><use href="#i-play"/></svg> Nghe mẫu</button>
    <button class="btn primary ${PT.recording?'pt-on':''}" id="ptRec">${PT.recording?'<i class="pt-dot"></i>Đang thu, bấm để dừng':'Thu giọng'}</button>
    <button class="btn" id="ptMe" ${PT.recBuf&&!PT.recording?'':'disabled'}>Nghe lại bản thu</button></div>
    ${PT.recording?'<div class="bar-track pt-bar"><i id="ptBar" style="width:0%"></i></div>':''}

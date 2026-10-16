@@ -9,8 +9,9 @@ function award(kind,n){
   d.xp=(d.xp||0)+Math.round((PL_W[kind]||1)*n);
   const k=ymd(Date.now()); P.hist[k]=(P.hist[k]||0)+n; touch('main');
   const a=plRank(before).r, b=plRank(plXPTotal()).r;
-  if(b!==a)toast('Lên danh hiệu mới: '+b[2]+' ('+b[1]+')',4000);
-  const goal=plGoalXP(); if(d.xp>=goal&&d.xp-Math.round((PL_W[kind]||1)*n)<goal)toast('Đã đạt mục tiêu hôm nay. Giỏi lắm!',3500);
+  const gain=Math.round((PL_W[kind]||1)*n); window.__xpFly&&window.__xpFly(gain);
+  if(b!==a){if(window.__rankUp)window.__rankUp(b);else toast('Lên danh hiệu mới: '+b[2]+' ('+b[1]+')',4000);}
+  const goal=plGoalXP(); if(d.xp>=goal&&d.xp-gain<goal){if(window.__goalDone)setTimeout(window.__goalDone,b!==a?2500:600);else toast('Đã đạt mục tiêu hôm nay. Giỏi lắm!',3500);}
   plTick();
 }
 window.__award=award;
@@ -204,14 +205,14 @@ drawCard=function(){
 
 /* ---------- error reports ---------- */
 function reportForm(h){
-  const m=modal(`<h2>Báo lỗi: <span class="han">${esc(h)}</span></h2><p class="note">Ghi chỗ sai (nghĩa, pinyin, Hán Việt, câu ví dụ, âm thanh...). Báo cáo được lưu trong tiến độ của bạn, gửi danh sách này cho Claude trong chat để sửa theo đợt.</p>
+  const m=modal(`<h2>Báo lỗi: <span class="han">${esc(h)}</span></h2><p class="note">Ghi chỗ sai (nghĩa, pinyin, Hán Việt, câu ví dụ, âm thanh...). Báo lỗi được lưu trong tiến độ của bạn. Gửi danh sách này trong chat để sửa theo đợt.</p>
     <textarea id="rpT" rows="3" placeholder="Ví dụ: nghĩa tiếng Việt nên là ..."></textarea><div class="row"><button class="btn primary" id="rpS">Lưu báo lỗi</button></div>`);
-  $('#rpS',m.el).onclick=()=>{const t=$('#rpT',m.el).value.trim();if(!t)return;P.reports=P.reports||[];P.reports.push({h,t,d:Date.now()});touch('main');m.close();toast('Đã lưu. Xem lại ở Tổng quan -> Báo lỗi đã ghi.');};
+  $('#rpS',m.el).onclick=()=>{const t=$('#rpT',m.el).value.trim();if(!t)return;P.reports=P.reports||[];P.reports.push({h,t,d:Date.now()});touch('main');m.close();toast('Đã lưu. Xem lại ở Tôi -> Báo lỗi đã ghi.');};
 }
 function reportsList(){
   const r=P.reports||[];
   const txt=r.map(x=>`${x.h}: ${x.t}`).join('\n');
-  const m=modal(`<h2>Báo lỗi đã ghi (${r.length})</h2>${r.length?`<textarea rows="10" readonly id="rpAll">${esc(txt)}</textarea><div class="row"><button class="btn primary" id="rpCp">Sao chép tất cả</button><button class="btn" id="rpClr">Xóa danh sách</button></div><p class="note">Dán danh sách này vào chat với Claude để sửa dữ liệu.</p>`:'<p class="note">Chưa có báo lỗi nào.</p>'}`);
+  const m=modal(`<h2>Báo lỗi đã ghi (${r.length})</h2>${r.length?`<textarea rows="10" readonly id="rpAll">${esc(txt)}</textarea><div class="row"><button class="btn primary" id="rpCp">Sao chép tất cả</button><button class="btn" id="rpClr">Xóa danh sách</button></div><p class="note">Dán danh sách này vào chat để sửa dữ liệu.</p>`:'<p class="note">Chưa có báo lỗi nào.</p>'}`);
   const cp=$('#rpCp',m.el);if(cp)cp.onclick=()=>{const ta=$('#rpAll',m.el);navigator.clipboard.writeText(txt).then(()=>toast('Đã sao chép.')).catch(()=>{ta.select();toast('Bấm Ctrl/Cmd+C để sao chép.');});};
   const cl=$('#rpClr',m.el);if(cl)cl.onclick=()=>{cl.outerHTML='<span class="small">Xóa hết?</span> <button class="btn sm" id="rpY">Xóa</button>';$('#rpY',m.el).onclick=()=>{P.reports=[];touch('main');m.close();};};
 }

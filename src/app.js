@@ -126,7 +126,7 @@ async function initPlatform(){
 function askPassword(wrong){
   return new Promise(res=>{
     const m=modal(`<h2>Mật khẩu ứng dụng</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Phần AI và đồng bộ dùng mật khẩu bạn đặt trong Vercel (biến APP_PASSWORD). Chỉ cần nhập một lần trên mỗi máy.'}</p>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mật khẩu của app để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form>`);
     let done=false;
     const fin=v=>{if(done)return;done=true;res(v);};
@@ -277,7 +277,7 @@ function sayLocal(text,{rate,alt=false}={}){
       const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=rate||P.settings.voiceRate;
       const v=pickVoice(alt); if(v)u.voice=v; if(alt&&voices.length<2)u.pitch=0.7;
       u.onend=res;u.onerror=res;speechSynthesis.speak(u);
-      if(!voices.length&&!window.__ttsWarned)setTimeout(()=>{loadVoices();if(!voices.length&&!window.__ttsWarned){window.__ttsWarned=1;toast('Máy chưa có giọng đọc tiếng Trung. Mở "Giọng đọc" ở góc trên để xem cách cài.',5000);}},600);
+      if(!voices.length&&!window.__ttsWarned)setTimeout(()=>{loadVoices();if(!voices.length&&!window.__ttsWarned){window.__ttsWarned=1;window.__voiceBanner&&window.__voiceBanner();}},600);
     }catch(e){res();}
   });
 }
@@ -346,13 +346,13 @@ function go(v){if(v===current){route();return;}current=v;try{history.pushState(n
 window.addEventListener('popstate',()=>{const h=(location.hash||'').slice(1)||'home';if(VIEWS[h]&&h!==current){current=h;route();}});
 window.addEventListener('hashchange',()=>{const h=(location.hash||'').slice(1)||'home';if(VIEWS[h]&&h!==current){current=h;route();}});
 function route(soft){
-  $$('nav.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===current));
+  uiNav();
   if(soft&&['test','talk','write'].includes(current))return;
   stopSay(); (VIEWS[current]||renderHome)($('#view'));
 }
 function applySettings(){
   document.body.classList.toggle('mono',!P.settings.color);
-  $('#tgPy').setAttribute('aria-pressed',P.settings.py);$('#tgColor').setAttribute('aria-pressed',P.settings.color);
+  if(P.settings.theme)document.documentElement.dataset.theme=P.settings.theme;else delete document.documentElement.dataset.theme;
 }
 
 /* ================= level chips ================= */
@@ -445,7 +445,7 @@ function drawCard(){
      ${w.cl&&w.cl.length?`<div class="small muted">Lượng từ: <span class="han">${esc(w.cl.join(', '))}</span></div>`:''}
      <div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="zh han">${colorText(w.ex)}</div><div class="pyl py">${sentPyHTML(w.exp)}</div><div class="vil">${esc(w.exvi)}</div></div></div>`;
   box.innerHTML=`<div class="card"><div class="corner"><span class="pill">HSK ${lvN(w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
-    <div class="corner-r"><button class="spk" data-say="${esc(w.h)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết" title="Chi tiết">i</button></div>
+    <div class="corner-r"><button class="spk" data-say="${esc(w.h)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết" title="Chi tiết"><svg class="i"><use href="#i-book-open"/></svg></button></div>
     ${revealed?back:front}
     ${revealed?'':'<button class="btn primary" id="cFlip" style="margin-top:auto">Lật thẻ <span class="kbd">Space</span></button>'}
   </div>
@@ -522,7 +522,7 @@ function renderDict(el){
 
 /* word detail modal */
 function modal(html){
-  const bg=document.createElement('div');bg.className='modal-bg';bg.innerHTML=`<div class="modal" role="dialog" aria-modal="true"><button class="spk x" aria-label="Đóng">✕</button>${html}</div>`;
+  const bg=document.createElement('div');bg.className='modal-bg';bg.innerHTML=`<div class="modal" role="dialog" aria-modal="true"><button class="spk x" aria-label="Đóng"><svg class="i"><use href="#i-x"/></svg></button>${html}</div>`;
   document.body.appendChild(bg);const close=()=>{bg.remove();stopSay();document.removeEventListener('keydown',onk);};
   const onk=e=>{if(e.key==='Escape')close();};document.addEventListener('keydown',onk);
   bg.addEventListener('click',e=>{if(e.target===bg)close();});$('.x',bg).onclick=close;return {el:$('.modal',bg),close};
@@ -539,7 +539,7 @@ function openWord(h){
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào ôn tập</button>'}<button class="btn sm" id="wdWrite">Luyện viết</button>
      <button class="btn sm need-ai" id="wdIll">Vẽ minh họa</button><button class="btn sm need-ai" id="wdMore">AI giải thích thêm</button></div>
    <div id="wdIllOut"></div><div id="wdAiOut"></div>
-   <p class="note no-ai">Phần vẽ minh họa và giải thích thêm cần bật AI (thêm API key trong Vercel).</p>`);
+`);
   refreshAIBits();
   const sbox=$('#wdStrokes',m.el);
   [...w.h].forEach(ch=>{const d=document.createElement('div');d.className='box';d.title='Bấm để xem lại';sbox.appendChild(d);
@@ -677,7 +677,6 @@ async function renderTest(el){
    <div class="grid3">${T.tests.map(t=>{const n=t.sections.reduce((a,s)=>a+s.parts.reduce((b,p)=>b+p.items.length,0),0);const best=P.tests.filter(x=>x.id===t.id).reduce((m,x)=>Math.max(m,x.pct),-1);
      return `<div class="panel tcard"><span class="label">HSK ${lvN(tlv)}</span><h3>${esc(t.title)}</h3><span class="note">${n} câu, ${t.minutes} phút. ${t.sections.map(s=>esc(s.title)).join(', ')}.</span>${best>=0?`<span class="small">Điểm cao nhất: <b>${best}%</b></span>`:''}<button class="btn primary sm" data-t="${t.id}" style="align-self:flex-start">Làm bài</button></div>`;}).join('')}
      <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Mỗi lần bấm là một đề rút gọn mới theo đúng cấp độ, khoảng 15 câu.</span><button class="btn sm" id="tAi" style="align-self:flex-start">Soạn đề mới</button></div>
-     <div class="panel tcard no-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Cần bật AI (thêm API key trong Vercel) để AI soạn đề mới.</span></div>
    </div>
    <div class="panel"><h3>Lịch sử làm bài HSK ${lvN(tlv)}</h3>${hist.length?hist.map(h=>`<div class="spread small"><span>${esc(h.title)}</span><span class="num">${new Date(h.date).toLocaleDateString('vi-VN')} - <b>${h.pct}%</b> ${h.pct>=60?'<span class="pill ai">Đạt</span>':'<span class="pill">Chưa đạt</span>'}</span></div>`).join(''):'<p class="note">Chưa làm đề nào ở cấp này.</p>'}
    <p class="note">Mức đạt tham khảo: 60% tổng điểm. Phần nghe dùng giọng đọc của trình duyệt, mỗi bài được nghe tối đa 2 lần như khi thi thật.</p></div></div>`;
@@ -717,7 +716,7 @@ function runTest(t,lv){
     const pyOn=P.settings.py&&lv&&lv<=3;
     const zh=s=>pyOn?`<span class="han">${rubyHTML(s)}</span>`:`<span class="han">${esc(s)}</span>`;
     let body='';
-    const audioBtn=it.audio?`<div class="play"><button class="btn sm" data-play="${i}" ${!show&&x.plays>=2?'disabled':''}>▶ Nghe${show?'':' ('+(2-x.plays)+' lần)'}</button>${show?`<div class="audio-lines han">${it.audio.map(([sp,l])=>`<div>${sp&&sp!=='问'?esc(sp)+'：':''}${esc(l)}</div>`).join('')}</div>`:''}</div>`:'';
+    const audioBtn=it.audio?`<div class="play"><button class="btn sm" data-play="${i}" ${!show&&x.plays>=2?'disabled':''}><svg class="i"><use href="#i-play"/></svg> Nghe${show?'':' ('+(2-x.plays)+' lần)'}</button>${show?`<div class="audio-lines han">${it.audio.map(([sp,l])=>`<div>${sp&&sp!=='问'?esc(sp)+'：':''}${esc(l)}</div>`).join('')}</div>`:''}</div>`:'';
     const options=(o,cls='')=>`<div class="opts">${o.map((op,k)=>`<button class="opt ${cls} ${show&&k===it.a?'right':''} ${show&&x.ans===k&&k!==it.a?'wrong':''}" data-k="${k}" aria-pressed="${x.ans===k}" ${show?'disabled':''}><span class="zh">${String.fromCharCode(65+k)}. ${zh(op)}</span></button>`).join('')}</div>`;
     if(it.k==='lc'){body=audioBtn+(it.q?`<div class="stmt">${zh(it.q)}</div>`:'')+options(it.o);}
     else if(it.k==='tf'){body=(it.audio?audioBtn:`<div class="text">${zh(it.text||'')}</div>`)+`<div class="stmt">★ ${zh(it.s)}</div><div class="opts">${[true,false].map(v=>`<button class="opt ${show&&v===it.a?'right':''} ${show&&x.ans===v&&v!==it.a?'wrong':''}" data-tf="${v}" aria-pressed="${x.ans===v}" ${show?'disabled':''}>${v?'Đúng (✓)':'Sai (✗)'}</button>`).join('')}</div>`;}
@@ -797,7 +796,7 @@ let chat={scen:SCEN[0],lv:null,msgs:[],busy:false,showVi:false,mode:'voice',hand
 function renderTalk(el){
   if(!chat.lv)chat.lv=Math.max(...P.settings.lv);
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện hội thoại</h2>${levelChips([chat.lv],s=>{chat.lv=s[0];renderTalk(el);},{multi:false,id:'clv'})}</div>
-   <div class="no-ai empty">Phần hội thoại cần bật AI: thêm GROQ_API_KEY (miễn phí) và APP_PASSWORD trong Vercel rồi deploy lại. Các phần khác vẫn dùng bình thường.</div>
+   <div class="no-ai empty">Phần hội thoại cần trợ lý AI. Vào <b>Tôi</b>, mục Cài đặt, để mở khóa bằng mật khẩu của app.</div>
    <div class="chat need-ai"><div class="scen">${SCEN.map(s=>`<button data-s="${s.id}" aria-pressed="${chat.scen.id===s.id}"><span class="e">${s.e}</span><span><b>${esc(s.t)}</b><br><span class="small muted">${esc(s.d)}</span></span></button>`).join('')}</div>
     <div class="convo"><div class="spread" style="padding:10px 14px;border-bottom:1px solid var(--line)"><b>${chat.scen.e} ${esc(chat.scen.t)}</b><div class="row"><button class="icon-btn" id="cVi" aria-pressed="${chat.showVi}">Hiện nghĩa</button><button class="icon-btn" id="cReset">Bắt đầu lại</button></div></div>
      <div class="msgs" id="msgs"></div>
@@ -823,7 +822,7 @@ function renderTalk(el){
 }
 function drawMsgs(){
   const box=$('#msgs');if(!box)return;
-  box.innerHTML=chat.msgs.map((m,i)=>m.role==='user'?`<div class="msg me"><div class="bubble"><div class="zh han">${m.voice?'🎤 ':''}${esc(m.text)}</div></div>${m.fix?`<div class="fix"><b>Sửa:</b> <span class="han">${esc(m.fix.better)}</span><br>${esc(m.fix.note)}</div>`:''}</div>`
+  box.innerHTML=chat.msgs.map((m,i)=>m.role==='user'?`<div class="msg me"><div class="bubble"><div class="zh han">${m.voice?'<svg class="i"><use href="#i-mic"/></svg> ':''}${esc(m.text)}</div></div>${m.fix?`<div class="fix"><b>Sửa:</b> <span class="han">${esc(m.fix.better)}</span><br>${esc(m.fix.note)}</div>`:''}</div>`
     :`<div class="msg"><div class="bubble"><div class="zh">${P.settings.py?rubyHTML(m.zh):colorText(m.zh)}</div>${chat.showVi||m.open?`<div class="vi">${esc(m.vi)}</div>`:''}</div><div class="row" style="gap:4px"><button class="spk" data-say="${esc(m.zh)}" aria-label="Nghe">${SPK}</button>${chat.showVi?'':`<button class="btn ghost sm" data-open="${i}">Nghĩa</button>`}</div></div>`).join('')+(chat.busy?'<div class="typing">Trợ lý AI đang trả lời...</div>':'');
   $$('[data-open]',box).forEach(b=>b.onclick=()=>{chat.msgs[+b.dataset.open].open=true;drawMsgs();});
   box.scrollTop=box.scrollHeight;
@@ -931,7 +930,7 @@ async function renderPinyin(el){
   const toned=(syl,n)=>{let x=syl.replace(/ü/g,'v');const pos=x.includes('a')?x.indexOf('a'):x.includes('e')?x.indexOf('e'):x.includes('ou')?x.indexOf('o'):(()=>{for(let k=x.length-1;k>=0;k--)if('aoeiuv'.includes(x[k]))return k;return -1;})();
     if(pos<0)return syl;return (x.slice(0,pos)+MARK[x[pos]][n-1]+x.slice(pos+1)).replace(/v/g,'ü');};
   $$('[data-cell]',el).forEach(b=>b.onclick=()=>{const syl=b.dataset.cell, base=stripTone(syl);const st=$('#pStrip');st.hidden=false;
-    st.innerHTML=`<div class="spread"><b class="py" style="font-size:20px">${esc(syl)}</b><span class="note">Chữ ví dụ: <span class="han" style="font-size:18px">${esc(b.dataset.c)}</span> <button class="btn ghost sm" data-say="${esc(b.dataset.c)}">▶</button></span></div><div class="tonebtns">${[1,2,3,4].map(n=>`<button class="btn" data-syl="${base}${n}"><span class="py t${n}">${toned(syl,n)}</span></button>`).join('')}</div>`;
+    st.innerHTML=`<div class="spread"><b class="py" style="font-size:20px">${esc(syl)}</b><span class="note">Chữ ví dụ: <span class="han" style="font-size:18px">${esc(b.dataset.c)}</span> <button class="btn ghost sm" data-say="${esc(b.dataset.c)}"><svg class="i"><use href="#i-play"/></svg></button></span></div><div class="tonebtns">${[1,2,3,4].map(n=>`<button class="btn" data-syl="${base}${n}"><span class="py t${n}">${toned(syl,n)}</span></button>`).join('')}</div>`;
     saySyl(base+'1');st.scrollIntoView({block:'nearest',behavior:'smooth'});});
 }
 
@@ -1029,7 +1028,7 @@ function drawListen(){
   const b=$('#lBox');if(!b)return; const it=LS.items[LS.i];
   if(!it){b.innerHTML=`<div class="done"><div class="big num">${LS.score}/${LS.items.length}</div><p>${LS.mode==='dict'?'Điểm chính tả trung bình':'Câu đúng'}</p><button class="btn primary" id="lAgain">Làm lượt mới</button></div>`;$('#lAgain').onclick=()=>{newListen();drawListen();};return;}
   const head=`<div class="spread"><span class="label">Câu ${LS.i+1}/${LS.items.length}</span><span class="small muted num">${LS.mode==='dict'?'Điểm':'Đúng'}: ${LS.score}</span></div>
-    <div class="row"><button class="btn primary" id="lPlay">▶ Nghe</button><button class="btn" id="lSlow">Nghe chậm</button></div>`;
+    <div class="row"><button class="btn primary" id="lPlay"><svg class="i"><use href="#i-play"/></svg> Nghe</button><button class="btn" id="lSlow">Nghe chậm</button></div>`;
   if(LS.mode==='dict'){
     b.innerHTML=head+`<p class="note">Gõ lại câu vừa nghe bằng chữ Hán, hoặc bằng pinyin không dấu nếu chưa gõ được chữ Hán.</p>
       <textarea id="lIn" rows="2" class="han" style="font-size:20px" placeholder="Câu bạn nghe được"></textarea>
@@ -1067,8 +1066,8 @@ function drawShadow(){
   if(!SP.cur){const w=pick(sentencePool(SP.lv));SP.cur={zh:w.ex,py:w.exp,vi:w.exvi,h:w.h};}
   const c=SP.cur; const SR=window.SpeechRecognition||window.webkitSpeechRecognition; const canRec=!!(navigator.mediaDevices&&window.MediaRecorder);
   b.innerHTML=`<div class="han" style="font-size:26px;line-height:1.8">${P.settings.py?rubyHTML(c.zh):colorText(c.zh)}</div><div class="muted">${esc(c.vi)}</div>
-    <div class="row"><button class="btn" id="shPlay">▶ Nghe mẫu</button><button class="btn" id="shSlow">Nghe chậm</button>
-    ${SR?'<button class="btn primary" id="shRec">🎤 Nói</button>':''}${canRec?'<button class="btn" id="shSelf">⏺ Thu giọng mình</button>':''}<button class="btn ghost" id="shNext">Câu khác</button></div>
+    <div class="row"><button class="btn" id="shPlay"><svg class="i"><use href="#i-play"/></svg> Nghe mẫu</button><button class="btn" id="shSlow">Nghe chậm</button>
+    ${SR?'<button class="btn primary" id="shRec"><svg class="i"><use href="#i-mic"/></svg> Nói</button>':''}${canRec?'<button class="btn" id="shSelf">⏺ Thu giọng mình</button>':''}<button class="btn ghost" id="shNext">Câu khác</button></div>
     <div id="shRes"></div>${!SR?'<p class="note">Trình duyệt này không có nhận giọng. Dùng Chrome hoặc Edge trên máy tính để được chấm tự động.</p>':''}`;
   $('#shPlay').onclick=()=>say(c.zh);$('#shSlow').onclick=()=>say(c.zh,{rate:0.55});
   $('#shNext').onclick=()=>{SP.cur=null;drawShadow();};
@@ -1076,11 +1075,11 @@ function drawShadow(){
     const btn=$('#shRec');stopSay();let rec;try{rec=new SR();}catch(e){return;}
     rec.lang='zh-CN';rec.interimResults=true;rec.maxAlternatives=3;let heard='';
     rec.onresult=e=>{heard=[...e.results].map(r=>r[0].transcript).join('');$('#shRes').innerHTML=`<div class="muted han">${esc(heard)}</div>`;};
-    rec.onerror=ev=>{btn.textContent='🎤 Nói';if(/not-allowed|service-not-allowed/.test(ev.error))$('#shRes').innerHTML='<p class="note">Trình duyệt chưa cho dùng micro. Bấm biểu tượng ổ khóa trên thanh địa chỉ để cho phép.</p>';};
-    rec.onend=()=>{btn.textContent='🎤 Nói';if(!heard)return;const r=compareZh(c.zh,heard);
+    rec.onerror=ev=>{btn.innerHTML='<svg class="i"><use href="#i-mic"/></svg> Nói';if(/not-allowed|service-not-allowed/.test(ev.error))$('#shRes').innerHTML='<p class="note">Trình duyệt chưa cho dùng micro. Bấm biểu tượng ổ khóa trên thanh địa chỉ để cho phép.</p>';};
+    rec.onend=()=>{btn.innerHTML='<svg class="i"><use href="#i-mic"/></svg> Nói';if(!heard)return;const r=compareZh(c.zh,heard);
       $('#shRes').innerHTML=`<div class="q ${r.pct>=80?'r-ok':'r-bad'}"><div class="han" style="font-size:24px">${markHTML(r)}</div><div class="small muted">Máy nghe được: <span class="han">${esc(heard)}</span></div><b>${r.pct}% rõ</b> ${r.pct>=90?'Rất tốt.':r.pct>=70?'Khá. Luyện thêm các chữ màu đỏ.':'Nghe mẫu chậm rồi đọc lại từng cụm.'}</div>`;
       window.__award&&window.__award('speak',1);};
-    rec.start();btn.textContent='⏹ Đang nghe...';
+    rec.start();btn.innerHTML='<svg class="i"><use href="#i-square"/></svg> Đang nghe...';
   };
   if(canRec)$('#shSelf').onclick=async()=>{
     const btn=$('#shSelf');
@@ -1088,7 +1087,7 @@ function drawShadow(){
     try{const st=await navigator.mediaDevices.getUserMedia({audio:true});const ch=[];const mr=new MediaRecorder(st);SP.mr=mr;
       mr.ondataavailable=e=>ch.push(e.data);mr.onstop=()=>{st.getTracks().forEach(t=>t.stop());btn.textContent='⏺ Thu giọng mình';const url=URL.createObjectURL(new Blob(ch,{type:mr.mimeType}));
         const d=document.createElement('div');d.className='row';d.innerHTML=`<span class="small muted">Bản thu của bạn:</span>`;const a=document.createElement('audio');a.controls=true;a.src=url;d.appendChild(a);const mb=document.createElement('button');mb.className='btn sm';mb.textContent='Nghe mẫu để so';mb.onclick=()=>say(c.zh);d.appendChild(mb);$('#shRes').appendChild(d);};
-      mr.start();btn.textContent='⏹ Dừng thu';}
+      mr.start();btn.innerHTML='<svg class="i"><use href="#i-square"/></svg> Dừng thu';}
     catch(e){toast('Không mở được micro ở trang này.');}
   };
 }
@@ -1125,7 +1124,7 @@ function wordSpans(text){
 function drawReader(el,r){
   let showVi=false,reading=false;
   const draw=()=>{
-    el.innerHTML=`<div class="view reader"><div class="spread"><button class="btn sm" id="rBack">Danh sách bài</button><div class="row"><button class="icon-btn" id="rVi" aria-pressed="${showVi}">Hiện bản dịch</button><button class="icon-btn" id="rPy" aria-pressed="${P.settings.py}">Pinyin</button><button class="btn sm" id="rPlay">${reading?'⏹ Dừng':'▶ Nghe cả bài'}</button></div></div>
+    el.innerHTML=`<div class="view reader"><div class="spread"><button class="btn sm" id="rBack">Danh sách bài</button><div class="row"><button class="icon-btn" id="rVi" aria-pressed="${showVi}">Hiện bản dịch</button><button class="icon-btn" id="rPy" aria-pressed="${P.settings.py}">Pinyin</button><button class="btn sm" id="rPlay">${reading?'<svg class="i"><use href="#i-square"/></svg> Dừng':'<svg class="i"><use href="#i-play"/></svg> Nghe cả bài'}</button></div></div>
      <div><span class="pill">HSK ${lvN(r.lv)}</span> <span class="pill">${esc(r.genre||'')}</span></div>
      <h2 class="han" style="font-size:28px">${wordSpans(r.title)}</h2><div class="muted">${esc(r.tvi||'')}</div>
      <article class="rtext">${r.paras.map((p,i)=>`<div class="rpara"><p class="han">${wordSpans(p[0])} <button class="spk" data-say="${esc(p[0])}" aria-label="Nghe đoạn">${SPK}</button></p>${showVi?`<p class="rvi">${esc(p[1])}</p>`:''}</div>`).join('')}</article>
@@ -1237,7 +1236,7 @@ async function playDrill(){const c=drill.cur;const syl=stripTone(c[1])+c[2];if(!
 function renderTones(el){
   el.innerHTML=`<div class="view"><h2>Thanh điệu</h2><div class="tones">${TONES.map(t=>`<button class="tone" data-syl="${stripTone(t.py)}${t.n===5?5:t.n}" data-fb="${t.ch}"><span class="tn t${t.n}">${t.name}</span>${contour(t)}<span class="row"><span class="han t${t.n}" style="font-size:30px;font-weight:700">${t.ch}</span><span class="py t${t.n}" style="font-size:18px">${t.py}</span></span><span class="small muted"><b style="color:var(--ink)">${t.vi}</b>. ${t.d}</span></button>`).join('')}</div>
    <p class="note">Thang 5 mức của Triệu Nguyên Nhậm: thanh 1 = 55, thanh 2 = 35, thanh 3 = 214, thanh 4 = 51.</p>
-   <div class="grid2"><div class="panel"><div class="spread"><h3>Biến điệu cần nhớ</h3><button class="btn sm" id="toRules">Xem đủ quy tắc đọc</button></div>${RULES.map(r=>`<div><b>${r[0]}</b><div class="note">${r[1]}</div><div><span class="han" style="font-size:18px">${r[2]}</span> <span class="py">${r[3]}</span> <button class="btn ghost sm" data-say="${r[2]}">▶</button></div></div>`).join('')}</div>
+   <div class="grid2"><div class="panel"><div class="spread"><h3>Biến điệu cần nhớ</h3><button class="btn sm" id="toRules">Xem đủ quy tắc đọc</button></div>${RULES.map(r=>`<div><b>${r[0]}</b><div class="note">${r[1]}</div><div><span class="han" style="font-size:18px">${r[2]}</span> <span class="py">${r[3]}</span> <button class="btn ghost sm" data-say="${r[2]}"><svg class="i"><use href="#i-play"/></svg></button></div></div>`).join('')}</div>
    <div class="panel" id="drill" style="align-items:center;text-align:center"></div></div></div>`;
   drawDrill();
   const tr=$('#toRules');if(tr)tr.onclick=()=>{window.__pySub=4;go('pinyin');};
@@ -1255,10 +1254,7 @@ function drawDrill(){
 
 /* ================= boot ================= */
 async function boot(){
-  $('#tgVoice').onclick=openVoice;
-  $('#tgPy').onclick=()=>{P.settings.py=!P.settings.py;touch('main');applySettings();route();};
-  $('#tgColor').onclick=()=>{P.settings.color=!P.settings.color;touch('main');applySettings();};
-  $$('nav.tabs button').forEach(b=>b.onclick=()=>go(b.dataset.v));
+  uiInit();
   applySettings();
   const h=(location.hash||'').slice(1); if(VIEWS[h])current=h;
   $('#view').innerHTML='<div class="view"><p class="note">Đang tải từ vựng...</p></div>';
@@ -1266,7 +1262,8 @@ async function boot(){
   route();
   initPlatform();
   await loadAllWords();
-  if(['home','dict','study'].includes(current)&&!$('.modal-bg'))route(true);
+  if(['home','dict','study','progress'].includes(current)&&!$('.modal-bg'))route(true);
+  setTimeout(()=>{if(!$('.modal-bg'))uiIntro();},700);
 }
 if(!IN_ARTIFACT&&'serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
 boot().catch(e=>{console.error(e);$('#view').innerHTML='<div class="empty">Không tải được dữ liệu. Tải lại trang thử xem.</div>';});

@@ -9,7 +9,7 @@ async function lpPassage(box){
   const st={shown:new Set(),playing:false};
   const draw=()=>{
     box.innerHTML=`<div class="spread"><select id="lpSel">${list.map(x=>`<option value="${x.id}" ${x.id===r.id?'selected':''}>${esc(x.title)} - ${esc(x.tvi)}</option>`).join('')}</select>
-      <div class="row"><button class="btn primary sm" id="lpAll">${st.playing?'⏹ Dừng':'▶ Nghe cả bài'}</button><button class="btn sm" id="lpShow">Hiện hết chữ</button></div></div>
+      <div class="row"><button class="btn primary sm" id="lpAll">${st.playing?'<svg class="i"><use href="#i-square"/></svg> Dừng':'<svg class="i"><use href="#i-play"/></svg> Nghe cả bài'}</button><button class="btn sm" id="lpShow">Hiện hết chữ</button></div></div>
       <p class="note">Nghe từng câu, cố hiểu trước khi bấm "Hiện". Nghe được ý chính rồi mới xem chữ. Xong thì qua tab Đọc làm câu hỏi của bài này.</p>
       <div class="lp-list">${sents.map((t,i)=>`<div class="lp-s"><button class="spk" data-i="${i}" aria-label="Nghe câu ${i+1}">${SPK}</button><span class="num muted small">${i+1}</span>${st.shown.has(i)?`<span class="han lp-t">${P.settings.py?rubyHTML(t):colorText(t)}</span>`:`<button class="btn ghost sm" data-show="${i}">Hiện</button>`}</div>`).join('')}</div>
       <div class="row"><button class="btn sm" id="lpRead">Làm câu hỏi bài này</button></div>`;
@@ -25,12 +25,12 @@ async function lpPassage(box){
   draw();
 }
 async function lpDaily(box){
-  if(!AI){box.innerHTML='<p class="note">Phần này cần bật AI. Trên web: thêm GROQ_API_KEY (miễn phí) và APP_PASSWORD trong Vercel.</p>';return;}
+  if(!AI){box.innerHTML='<p class="note">Phần này cần trợ lý AI. Vào Tôi, mục Cài đặt, để mở khóa bằng mật khẩu của app.</p>';return;}
   P.dlg=P.dlg||{}; const key=ymd(Date.now())+'-'+LS.lv;
   const show=d=>{
     let shown=false;
     const draw=()=>{
-      box.innerHTML=`<div class="spread"><h3>${esc(d.title||'Hội thoại hôm nay')}</h3><div class="row"><button class="btn primary sm" id="ldPlay">▶ Nghe</button><button class="btn sm" id="ldSlow">Nghe chậm</button><button class="btn sm" id="ldShow">${shown?'Ẩn chữ':'Hiện chữ'}</button><button class="btn ghost sm" id="ldNew">Bài khác</button></div></div>
+      box.innerHTML=`<div class="spread"><h3>${esc(d.title||'Hội thoại hôm nay')}</h3><div class="row"><button class="btn primary sm" id="ldPlay"><svg class="i"><use href="#i-play"/></svg> Nghe</button><button class="btn sm" id="ldSlow">Nghe chậm</button><button class="btn sm" id="ldShow">${shown?'Ẩn chữ':'Hiện chữ'}</button><button class="btn ghost sm" id="ldNew">Bài khác</button></div></div>
         <p class="note">Hội thoại do AI soạn từ những từ bạn đang học. Nghe 2 lần rồi trả lời câu hỏi, sau đó mới hiện chữ.</p>
         ${shown?`<div class="audio-lines han">${d.lines.map(l=>`<div><b>${esc(l[0])}：</b>${P.settings.py?rubyHTML(l[1]):colorText(l[1])}<div class="small muted">${esc(l[2]||'')}</div></div>`).join('')}</div>`:''}
         <div class="ld-q">${(d.q||[]).map((q,i)=>`<div class="q" id="ldq${i}"><div class="han stmt">${i+1}. ${esc(q.q)}</div><div class="opts">${q.o.map((o,k)=>`<button class="opt han" data-q="${i}" data-k="${k}">${esc(o)}</button>`).join('')}</div><div class="w" hidden></div></div>`).join('')}</div>`;
