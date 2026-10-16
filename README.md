@@ -34,3 +34,18 @@ Sửa nội dung: sửa file trong `data/` hoặc `src/`, chạy `python3 build.
 - Âm Hán Việt: [hanviet-pinyin-words](https://github.com/ph0ngp/hanviet-pinyin-words) (MIT)
 - Nét chữ: [hanzi-writer-data](https://github.com/chanind/hanzi-writer-data) (Arphic Public License, xem `data/strokes/LICENSE-ARPHIC.txt`)
 - Nghĩa tiếng Việt, câu ví dụ, ngữ pháp và đề thi thử: soạn mới cho dự án này
+
+## Âm thanh
+
+- `audio/w/` từ vựng và `audio/s/` âm tiết: bản thu giọng người thật từ [audio-cmn](https://github.com/hugolpz/audio-cmn) (giọng Yue Tan, Chen Wang; Shtooka), giấy phép CC BY-SA. Đã chuẩn hóa âm lượng và cắt khoảng lặng.
+- Câu và bài đọc dùng giọng đọc của trình duyệt (chọn trong nút "Giọng đọc").
+
+## Chạy phần AI và đồng bộ trên web (Vercel)
+
+Thêm trong Vercel -> project hanyu -> Settings -> Environment Variables:
+
+- `APP_PASSWORD`: mật khẩu tự đặt, nhập một lần trên mỗi máy để mở khóa AI và đồng bộ
+- `ANTHROPIC_API_KEY`: API key từ console.anthropic.com (trả phí theo lượng dùng)
+- Đồng bộ: Vercel -> Storage -> thêm Upstash Redis (gói miễn phí) và kết nối với project; biến `KV_REST_API_URL`, `KV_REST_API_TOKEN` tự được thêm
+
+Sau đó deploy lại.

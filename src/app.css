@@ -278,3 +278,16 @@ textarea{resize:vertical;width:100%}
 .rch{font-size:38px;line-height:1.15}
 .rv{font-size:15px;color:var(--muted);min-height:18px}
 .rhv{font-weight:700;text-transform:capitalize}
+
+.mk-ok{color:var(--ok)} .mk-bad{color:var(--bad);text-decoration:underline wavy;text-underline-offset:5px}
+.reader{max-width:780px}
+.rtext{display:flex;flex-direction:column;gap:14px}
+.rpara p{margin:0}
+.rpara .han{font-size:22px;line-height:2.1}
+.rpara ruby rt{font-family:var(--f-py);font-size:11px;color:var(--muted)}
+.rvi{color:var(--muted);font-size:15px;margin-top:4px!important}
+.rw{cursor:pointer;border-radius:4px}
+.rw:hover{background:var(--accent-soft)}
+.rlook{position:sticky;bottom:calc(12px + env(safe-area-inset-bottom,0px));background:var(--surface);border:1px solid var(--accent);border-radius:14px;padding:12px 14px;box-shadow:0 10px 30px rgba(0,0,0,.18);display:flex;flex-direction:column;gap:6px;z-index:6}
+.rpara .spk{width:28px;height:28px;vertical-align:middle;margin-left:4px}
+.rpara .spk svg{width:13px;height:13px}
