@@ -31,7 +31,7 @@ async function lpDaily(box){
     let shown=false;
     const draw=()=>{
       box.innerHTML=`<div class="spread"><h3>${esc(d.title||'Hội thoại hôm nay')}</h3><div class="row"><button class="btn primary sm" id="ldPlay">▶ Nghe</button><button class="btn sm" id="ldSlow">Nghe chậm</button><button class="btn sm" id="ldShow">${shown?'Ẩn chữ':'Hiện chữ'}</button><button class="btn ghost sm" id="ldNew">Bài khác</button></div></div>
-        <p class="note">Hội thoại do Claude soạn từ những từ bạn đang học. Nghe 2 lần rồi trả lời câu hỏi, sau đó mới hiện chữ.</p>
+        <p class="note">Hội thoại do AI soạn từ những từ bạn đang học. Nghe 2 lần rồi trả lời câu hỏi, sau đó mới hiện chữ.</p>
         ${shown?`<div class="audio-lines han">${d.lines.map(l=>`<div><b>${esc(l[0])}：</b>${P.settings.py?rubyHTML(l[1]):colorText(l[1])}<div class="small muted">${esc(l[2]||'')}</div></div>`).join('')}</div>`:''}
         <div class="ld-q">${(d.q||[]).map((q,i)=>`<div class="q" id="ldq${i}"><div class="han stmt">${i+1}. ${esc(q.q)}</div><div class="opts">${q.o.map((o,k)=>`<button class="opt han" data-q="${i}" data-k="${k}">${esc(o)}</button>`).join('')}</div><div class="w" hidden></div></div>`).join('')}</div>`;
       const lines=d.lines.map(l=>[l[0]==='男'||/男|先生|哥|爸|王/.test(l[0])?'男':'女',l[1]]);
@@ -46,7 +46,7 @@ async function lpDaily(box){
     draw();
   };
   if(P.dlg[key]){show(P.dlg[key]);return;}
-  box.innerHTML='<p class="note">Claude đang soạn hội thoại hôm nay...</p>';
+  box.innerHTML='<p class="note">AI đang soạn hội thoại hôm nay...</p>';
   const learning=W.filter(w=>P.srs[w.h]&&w.lv<=LS.lv).sort((a,b)=>(P.srs[b.h].first||0)-(P.srs[a.h].first||0)).slice(0,25).map(w=>w.h);
   const extra=learning.length<8?shuffle(W.filter(w=>w.lv===LS.lv)).slice(0,15).map(w=>w.h):[];
   try{

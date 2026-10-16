@@ -1,0 +1,3766 @@
+{
+ "sections": [
+  {
+   "id": "sandhi",
+   "title": "Biến điệu",
+   "intro": "Biến điệu là hiện tượng thanh điệu của một chữ thay đổi khi đứng cạnh chữ khác. Pinyin trong từ điển thường ghi thanh gốc, nên người học cần biết quy tắc để đọc đúng.",
+   "rules": [
+    {
+     "t": "Thanh 3 + thanh 3 -> thanh 2 + thanh 3",
+     "d": "Khi hai âm tiết thanh 3 đứng liền nhau trong cùng một từ hoặc cụm từ, âm tiết đầu đọc thành thanh 2, âm tiết sau giữ thanh 3. Pinyin trong từ điển và sách vẫn viết thanh 3 cho cả hai, người học phải tự đổi khi đọc. Quy tắc này áp dụng cả khi âm thứ hai là thanh 3 đọc nhẹ đi trong một số từ (xem quy tắc thanh 3 + thanh nhẹ). Mẹo nhớ: hai thanh 3 không bao giờ đọc trọn vẹn liền nhau, chữ trước phải \"bật lên\".",
+     "ex": [
+      [
+       "你好",
+       "nǐ hǎo",
+       "ní hǎo",
+       "xin chào"
+      ],
+      [
+       "很好",
+       "hěn hǎo",
+       "hén hǎo",
+       "rất tốt"
+      ],
+      [
+       "水果",
+       "shuǐguǒ",
+       "shuíguǒ",
+       "trái cây"
+      ],
+      [
+       "可以",
+       "kěyǐ",
+       "kéyǐ",
+       "có thể, được"
+      ],
+      [
+       "手表",
+       "shǒubiǎo",
+       "shóubiǎo",
+       "đồng hồ đeo tay"
+      ]
+     ],
+     "warn": "Người Việt hay đọc cả hai chữ đều là thanh hỏi kéo dài, hoặc đổi nhầm chữ thứ hai thành thanh 2 (nǐ háo). Chỉ đổi chữ đứng trước."
+    },
+    {
+     "t": "Chuỗi ba thanh 3 - nhóm theo nghĩa",
+     "d": "Khi có ba thanh 3 liên tiếp, cách đọc phụ thuộc vào cách các chữ ghép nghĩa với nhau. Kiểu 2+1 (hai chữ đầu thành một khối, như [展览]馆): hai chữ đầu đều đọc thanh 2, chữ cuối giữ thanh 3. Kiểu 1+2 (chữ đầu đứng riêng, như 小[老虎]): chữ đầu đọc nửa thanh 3, chữ giữa thành thanh 2, chữ cuối giữ thanh 3. Khi nói nhanh, người bản ngữ hay đọc cả kiểu 1+2 thành thanh 2 + thanh 2 + thanh 3, cả hai cách đều nghe tự nhiên. Câu 我很好 có thể ngắt sau 我 (wǒ | hén hǎo) hoặc đọc liền (wó hén hǎo).",
+     "ex": [
+      [
+       "展览馆",
+       "zhǎnlǎnguǎn",
+       "zhánlánguǎn",
+       "nhà triển lãm"
+      ],
+      [
+       "洗脸水",
+       "xǐliǎnshuǐ",
+       "xíliánshuǐ",
+       "nước rửa mặt"
+      ],
+      [
+       "小老虎",
+       "xiǎo lǎohǔ",
+       "xiǎo láohǔ (nói nhanh: xiáo láohǔ)",
+       "con hổ con"
+      ],
+      [
+       "买雨伞",
+       "mǎi yǔsǎn",
+       "mǎi yúsǎn (nói nhanh: mái yúsǎn)",
+       "mua ô"
+      ],
+      [
+       "我很好",
+       "wǒ hěn hǎo",
+       "wǒ hén hǎo / wó hén hǎo",
+       "tôi rất khỏe"
+      ]
+     ],
+     "warn": "Lỗi hay gặp là áp máy móc quy tắc 3+3 từ trái sang phải mà không xét nghĩa, ví dụ đọc 小老虎 thành xiáo lǎohǔ (chữ 老 vẫn thanh 3) là sai."
+    },
+    {
+     "t": "Nửa thanh 3",
+     "d": "Thanh 3 đầy đủ (xuống thấp rồi lên, 214) chỉ xuất hiện khi chữ đứng một mình, cuối câu hoặc khi nhấn mạnh. Khi đứng trước thanh 1, thanh 2, thanh 4 hoặc thanh nhẹ, thanh 3 chỉ đọc nửa đầu: hạ giọng xuống thấp, hơi trầm, không vòng lên (21). Đây là cách thanh 3 xuất hiện nhiều nhất trong lời nói thật. Mẹo nhớ: hình dung thanh 3 là một thanh \"thấp\", không phải thanh \"lượn\"; giống thanh nặng nhưng không bị tắc ở cổ.",
+     "ex": [
+      [
+       "老师",
+       "lǎoshī",
+       "lǎoshī (lǎo thấp, không vòng lên)",
+       "giáo viên"
+      ],
+      [
+       "很忙",
+       "hěn máng",
+       "hěn máng (hěn thấp)",
+       "rất bận"
+      ],
+      [
+       "美国",
+       "Měiguó",
+       "Měiguó (měi thấp)",
+       "nước Mỹ"
+      ],
+      [
+       "好吃",
+       "hǎochī",
+       "hǎochī (hǎo thấp)",
+       "ngon"
+      ],
+      [
+       "可是",
+       "kěshì",
+       "kěshì (kě thấp)",
+       "nhưng"
+      ]
+     ],
+     "warn": "Người Việt hay đọc thanh 3 thành thanh hỏi kéo dài, có đoạn vòng lên rõ, làm câu nghe chậm và lên xuống lủng củng. Trong câu, gần như mọi thanh 3 không ở cuối đều là nửa thanh 3."
+    },
+    {
+     "t": "Thanh 3 + thanh nhẹ gốc thanh 3",
+     "d": "Khi âm tiết thứ hai đọc nhẹ nhưng gốc là thanh 3, âm tiết đầu có hai khả năng. Với danh từ láy chỉ người thân (姐姐, 奶奶, 姥姥) và hậu tố 子, âm đầu giữ nửa thanh 3, âm nhẹ sau đó hơi cao. Với động từ láy (想想, 走走, 等等) và một số từ cố định (小姐, 哪里, 打扫), âm đầu đọc thành thanh 2 như quy tắc 3+3. Không có quy luật hình thức tuyệt đối, cách an toàn là học thuộc theo từ. Ví dụ đối chiếu: 椅子 yǐzi giữ nửa thanh 3, còn 小姐 đọc xiáojie.",
+     "ex": [
+      [
+       "姐姐",
+       "jiějie",
+       "jiějie",
+       "chị gái"
+      ],
+      [
+       "奶奶",
+       "nǎinai",
+       "nǎinai",
+       "bà nội"
+      ],
+      [
+       "椅子",
+       "yǐzi",
+       "yǐzi",
+       "cái ghế"
+      ],
+      [
+       "想想",
+       "xiǎngxiang",
+       "xiángxiang",
+       "nghĩ thử, ngẫm lại"
+      ],
+      [
+       "小姐",
+       "xiǎojie",
+       "xiáojie",
+       "cô (cách gọi phụ nữ trẻ)"
+      ],
+      [
+       "哪里",
+       "nǎli",
+       "náli",
+       "ở đâu; đâu có (khiêm tốn)"
+      ]
+     ],
+     "warn": "Hay gặp nhất là đọc 想想 thành xiǎngxiang (giữ thanh 3) hoặc ngược lại đọc 姐姐 thành jiéjie. Nhớ theo nhóm: người thân giữ thanh 3, động từ láy đổi thanh 2."
+    },
+    {
+     "t": "一 trước thanh 4 -> yí",
+     "d": "Chữ 一 gốc là yī. Khi đứng trước một âm tiết thanh 4, 一 đọc thành thanh 2 (yí). Điều này vẫn đúng khi chữ sau là thanh nhẹ nhưng gốc thanh 4, ví dụ 一个 (个 gốc gè) đọc yí ge. Sách giáo khoa trong nước thường ghi pinyin theo cách đọc thực tế (yí), còn từ điển ghi yī, cả hai đều gặp.",
+     "ex": [
+      [
+       "一样",
+       "yīyàng",
+       "yíyàng",
+       "giống nhau"
+      ],
+      [
+       "一定",
+       "yīdìng",
+       "yídìng",
+       "nhất định"
+      ],
+      [
+       "一下",
+       "yīxià",
+       "yíxià",
+       "một chút, một lát"
+      ],
+      [
+       "一个",
+       "yī gè",
+       "yí ge",
+       "một cái, một người"
+      ],
+      [
+       "一共",
+       "yīgòng",
+       "yígòng",
+       "tổng cộng"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 一个 thành yì ge vì thấy 个 đọc nhẹ. Phải xét thanh gốc của chữ sau: 个 gốc thanh 4 nên 一 đọc yí."
+    },
+    {
+     "t": "一 trước thanh 1, 2, 3 -> yì",
+     "d": "Khi đứng trước âm tiết thanh 1, thanh 2 hoặc thanh 3, 一 đọc thành thanh 4 (yì). Đây là trường hợp phổ biến nhất trong lượng từ và các cụm \"một + danh từ\". Mẹo nhớ: 一 luôn \"ngược\" với chữ sau: sau là thanh 4 thì 一 lên (yí), sau là thanh khác thì 一 xuống (yì).",
+     "ex": [
+      [
+       "一天",
+       "yī tiān",
+       "yì tiān",
+       "một ngày"
+      ],
+      [
+       "一年",
+       "yī nián",
+       "yì nián",
+       "một năm"
+      ],
+      [
+       "一起",
+       "yīqǐ",
+       "yìqǐ",
+       "cùng nhau"
+      ],
+      [
+       "一点儿",
+       "yīdiǎnr",
+       "yìdiǎnr",
+       "một chút"
+      ],
+      [
+       "一边",
+       "yībiān",
+       "yìbiān",
+       "vừa... (vừa...)"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "一 giữ nguyên yī",
+     "d": "一 giữ thanh 1 khi đứng một mình, khi đếm số (一、二、三), khi là số thứ tự (第一, 一月, 一楼), khi đứng cuối từ hoặc cuối câu (统一, 唯一, 十一), và khi đọc từng chữ số. Trong số điện thoại, số phòng, số xe buýt, người ta thường đọc 一 thành yāo để khỏi nhầm với 七 qī. Mẹo nhớ: khi 一 mang nghĩa \"số 1\" chứ không phải \"một cái gì đó\" thì không biến điệu.",
+     "ex": [
+      [
+       "第一",
+       "dì yī",
+       "dì yī",
+       "thứ nhất"
+      ],
+      [
+       "一月",
+       "yīyuè",
+       "yīyuè",
+       "tháng một"
+      ],
+      [
+       "统一",
+       "tǒngyī",
+       "tǒngyī",
+       "thống nhất"
+      ],
+      [
+       "十一",
+       "shíyī",
+       "shíyī",
+       "mười một"
+      ],
+      [
+       "一一零",
+       "yī yī líng",
+       "yāo yāo líng (cũng nói yī yī líng)",
+       "số 110 (cảnh sát)"
+      ]
+     ],
+     "warn": "Người học sau khi thuộc quy tắc biến điệu thường áp quá tay, đọc 一月 thành yíyuè hay 第一天 thành dì yì tiān. Hai trường hợp này đều giữ yī."
+    },
+    {
+     "t": "一 đọc nhẹ trong V一V",
+     "d": "Trong cấu trúc động từ lặp có 一 ở giữa (V一V, nghĩa là \"thử làm một chút\"), 一 đọc thanh nhẹ, ngắn và nhẹ, không biến điệu theo chữ sau. Động từ thứ hai thường cũng đọc nhẹ hơn động từ đầu. Nếu động từ là thanh 3 (想一想), động từ đầu vẫn là nửa thanh 3.",
+     "ex": [
+      [
+       "看一看",
+       "kàn yī kàn",
+       "kàn yi kàn",
+       "xem thử"
+      ],
+      [
+       "试一试",
+       "shì yī shì",
+       "shì yi shì",
+       "thử một chút"
+      ],
+      [
+       "想一想",
+       "xiǎng yī xiǎng",
+       "xiǎng yi xiǎng",
+       "nghĩ một chút"
+      ],
+      [
+       "听一听",
+       "tīng yī tīng",
+       "tīng yi tīng",
+       "nghe thử"
+      ]
+     ],
+     "warn": "Lỗi hay gặp là đọc kàn yí kàn (áp quy tắc thanh 4). Trong V一V, 一 chỉ là âm đệm ngắn."
+    },
+    {
+     "t": "不 trước thanh 4 -> bú",
+     "d": "Chữ 不 gốc là bù (thanh 4). Khi đứng trước âm tiết thanh 4, 不 đổi thành thanh 2 (bú). Trước thanh 1, 2, 3, 不 giữ bù. Cũng như 一, phải xét thanh gốc của chữ sau, kể cả khi chữ đó đọc nhẹ (不客气, 不是).",
+     "ex": [
+      [
+       "不是",
+       "bù shì",
+       "bú shì",
+       "không phải"
+      ],
+      [
+       "不对",
+       "bù duì",
+       "bú duì",
+       "không đúng"
+      ],
+      [
+       "不要",
+       "bù yào",
+       "bú yào",
+       "đừng; không cần"
+      ],
+      [
+       "不客气",
+       "bù kèqi",
+       "bú kèqi",
+       "không có gì"
+      ],
+      [
+       "不好",
+       "bù hǎo",
+       "bù hǎo",
+       "không tốt"
+      ],
+      [
+       "不来",
+       "bù lái",
+       "bù lái",
+       "không đến"
+      ]
+     ],
+     "warn": "Người Việt hay giữ bù trước mọi chữ, nghe như hai thanh 4 dập liền nhau (bù shì). Hãy tập 不是 bú shì như một khối."
+    },
+    {
+     "t": "不 đọc nhẹ trong V不V và bổ ngữ khả năng",
+     "d": "不 đọc thanh nhẹ khi nằm giữa câu hỏi chính phản (V不V, A不A: 去不去, 好不好, 是不是) và khi nằm trong bổ ngữ khả năng phủ định (看不懂, 听不见, 来不及). Một số từ cố định cũng đọc nhẹ: 对不起 duìbuqǐ, 差不多 chàbuduō. Khi nói chậm, rõ ràng, có người vẫn đọc 不 theo thanh biến điệu (qù bú qù), nghe cũng không sai.",
+     "ex": [
+      [
+       "去不去",
+       "qù bù qù",
+       "qù bu qù",
+       "có đi không"
+      ],
+      [
+       "好不好",
+       "hǎo bù hǎo",
+       "hǎo bu hǎo",
+       "được không"
+      ],
+      [
+       "是不是",
+       "shì bù shì",
+       "shì bu shì",
+       "có phải không"
+      ],
+      [
+       "看不懂",
+       "kàn bù dǒng",
+       "kàn bu dǒng",
+       "xem không hiểu"
+      ],
+      [
+       "对不起",
+       "duìbuqǐ",
+       "duìbuqǐ",
+       "xin lỗi"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "七 và 八 trước thanh 4",
+     "d": "Trước đây, 七 qī và 八 bā trước thanh 4 thường đọc thành thanh 2 (qí, bá), giống 一. Hiện nay, trong tiếng phổ thông chuẩn và sách giáo khoa, cách đọc phổ biến là giữ nguyên qī, bā. Cách cũ vẫn nghe thấy ở một số người lớn tuổi và vùng phương Bắc. Cả hai cách đều không bị coi là sai trong giao tiếp và thi HSK, nhưng người học nên dùng cách giữ nguyên.",
+     "ex": [
+      [
+       "七月",
+       "qīyuè",
+       "qīyuè (cách cũ: qíyuè)",
+       "tháng bảy"
+      ],
+      [
+       "八岁",
+       "bā suì",
+       "bā suì (cách cũ: bá suì)",
+       "tám tuổi"
+      ],
+      [
+       "七块",
+       "qī kuài",
+       "qī kuài (cách cũ: qí kuài)",
+       "bảy tệ"
+      ],
+      [
+       "八个",
+       "bā gè",
+       "bā ge (cách cũ: bá ge)",
+       "tám cái"
+      ]
+     ],
+     "warn": "Không cần áp quy tắc biến điệu cho 七, 八 như với 一, 不."
+    },
+    {
+     "t": "Láy tính từ AA儿",
+     "d": "Theo cách đọc truyền thống phương Bắc (Bắc Kinh), tính từ đơn âm lặp lại có thêm 儿 thì chữ thứ hai đọc thành thanh 1 và cuốn lưỡi, ví dụ 好好儿 hǎohāor, 慢慢儿 mànmānr. Hiện nay nhiều người, nhất là người miền Nam, giữ thanh gốc (hǎohǎor đọc thành háohǎor theo quy tắc 3+3, mànmànr). Khi không có 儿 (好好学习, 慢慢走), chữ thứ hai thường giữ thanh gốc. Người học có thể dùng cả hai cách, nhận ra được là đủ.",
+     "ex": [
+      [
+       "好好儿",
+       "hǎohǎor",
+       "hǎohāor (cũng nói háohǎor)",
+       "cho tử tế, cho đàng hoàng"
+      ],
+      [
+       "慢慢儿",
+       "mànmànr",
+       "mànmānr (cũng nói mànmànr)",
+       "từ từ"
+      ],
+      [
+       "早早儿",
+       "zǎozǎor",
+       "zǎozāor",
+       "sớm sớm"
+      ],
+      [
+       "好好学习",
+       "hǎohǎo xuéxí",
+       "háohǎo xuéxí",
+       "học hành chăm chỉ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Láy ABB",
+     "d": "Tính từ dạng ABB (绿油油, 沉甸甸) theo truyền thống đọc hai chữ láy thành thanh 1, dù thanh gốc là thanh khác. Từ điển Hiện đại Hán ngữ bản mới (từ bản 6) ghi nhiều từ này theo thanh gốc, kèm chú thích \"khẩu ngữ cũng đọc thanh 1\", nghĩa là cả hai cách đều được chấp nhận. Nếu hai chữ láy vốn đã là thanh 1 (热乎乎, 亮晶晶) thì không có gì thay đổi.",
+     "ex": [
+      [
+       "绿油油",
+       "lǜyóuyóu",
+       "lǜyōuyōu (cũng đọc lǜyóuyóu)",
+       "xanh mơn mởn"
+      ],
+      [
+       "沉甸甸",
+       "chéndiàndiàn",
+       "chéndiāndiān (cũng đọc chéndiàndiàn)",
+       "nặng trịch"
+      ],
+      [
+       "红彤彤",
+       "hóngtóngtóng",
+       "hóngtōngtōng (cũng đọc hóngtóngtóng)",
+       "đỏ rực"
+      ],
+      [
+       "热乎乎",
+       "rèhūhū",
+       "rèhūhū",
+       "nóng hổi, ấm áp"
+      ],
+      [
+       "亮晶晶",
+       "liàngjīngjīng",
+       "liàngjīngjīng",
+       "lấp lánh"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Láy AABB",
+     "d": "Khi từ hai âm tiết AB được láy thành AABB (高兴 -> 高高兴兴), chữ thứ hai (A thứ hai) thường đọc nhẹ, hai chữ BB đọc rõ, chữ cuối hơi nặng. Nếu từ gốc có âm thứ hai đọc nhẹ (舒服 shūfu, 漂亮 piàoliang), khi láy BB thường lấy lại thanh gốc. Cách đọc truyền thống Bắc Kinh còn đổi BB thành thanh 1, nhưng hiện nay ít dùng.",
+     "ex": [
+      [
+       "高高兴兴",
+       "gāogāoxìngxìng",
+       "gāogaoxìngxìng",
+       "vui vui vẻ vẻ"
+      ],
+      [
+       "干干净净",
+       "gāngānjìngjìng",
+       "gānganjìngjìng",
+       "sạch sẽ tinh tươm"
+      ],
+      [
+       "清清楚楚",
+       "qīngqīngchǔchǔ",
+       "qīngqingchǔchǔ",
+       "rõ ràng rành mạch"
+      ],
+      [
+       "舒舒服服",
+       "shūshūfúfú",
+       "shūshufúfú",
+       "thoải mái dễ chịu"
+      ],
+      [
+       "漂漂亮亮",
+       "piàopiàoliàngliàng",
+       "piàopiaoliàngliàng",
+       "xinh xinh đẹp đẹp"
+      ]
+     ],
+     "warn": "Người Việt quen láy kiểu tiếng Việt, đọc bốn chữ đều nhau. Hãy để chữ thứ hai lướt qua."
+    }
+   ]
+  },
+  {
+   "id": "neutral",
+   "title": "Thanh nhẹ",
+   "intro": "Thanh nhẹ (轻声) là âm tiết đọc ngắn, nhẹ, mất đường nét thanh gốc. Pinyin ghi không dấu. Thanh nhẹ làm câu nói nghe tự nhiên và trong một số từ còn phân biệt nghĩa.",
+   "rules": [
+    {
+     "t": "Trợ từ luôn đọc nhẹ",
+     "d": "Các trợ từ kết cấu 的, 地, 得, trợ từ động thái 了, 着, 过 và trợ từ ngữ khí 吗, 呢, 吧, 啊 hầu như luôn đọc thanh nhẹ: ngắn, nhẹ, không có đường nét thanh riêng. Lưu ý 了 trong 了解 (liǎojiě), 得 trong 得到 (dédào), 着 trong 着急 (zháojí) không phải trợ từ nên đọc đủ thanh.",
+     "ex": [
+      [
+       "我的",
+       "wǒ de",
+       "wǒ de",
+       "của tôi"
+      ],
+      [
+       "吃了",
+       "chī le",
+       "chī le",
+       "ăn rồi"
+      ],
+      [
+       "看着",
+       "kàn zhe",
+       "kàn zhe",
+       "đang nhìn"
+      ],
+      [
+       "去过",
+       "qù guo",
+       "qù guo",
+       "đã từng đi"
+      ],
+      [
+       "好吗",
+       "hǎo ma",
+       "hǎo ma",
+       "được không, khỏe không"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 的 thành \"đơ\" có thanh rõ, hoặc kéo dài 吗 như \"ma\" ngang. Các trợ từ này phải ngắn hơn hẳn các chữ xung quanh."
+    },
+    {
+     "t": "Hậu tố 子, 头, 们, 么",
+     "d": "Khi 子, 头 là hậu tố tạo danh từ (không mang nghĩa \"con\", \"đầu\"), chúng đọc nhẹ: 桌子, 石头. 们 sau đại từ và danh từ chỉ người luôn nhẹ. 么 trong 什么, 怎么, 这么, 那么 luôn nhẹ. Ngoại lệ: khi 子, 头 mang nghĩa thật thì đọc đủ thanh, ví dụ 孔子 Kǒngzǐ, 男子 nánzǐ, 电子 diànzǐ, 点头 diǎntóu, 开头 kāitóu.",
+     "ex": [
+      [
+       "桌子",
+       "zhuōzi",
+       "zhuōzi",
+       "cái bàn"
+      ],
+      [
+       "石头",
+       "shítou",
+       "shítou",
+       "hòn đá"
+      ],
+      [
+       "我们",
+       "wǒmen",
+       "wǒmen",
+       "chúng tôi"
+      ],
+      [
+       "什么",
+       "shénme",
+       "shénme",
+       "cái gì"
+      ],
+      [
+       "电子",
+       "diànzǐ",
+       "diànzǐ",
+       "điện tử (子 không nhẹ)"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Láy danh từ người thân và láy động từ",
+     "d": "Danh từ chỉ người thân dạng láy (妈妈, 爸爸, 哥哥, 弟弟, 妹妹, 爷爷) có chữ thứ hai đọc nhẹ. Động từ đơn âm lặp lại (看看, 试试, 说说) cũng có chữ thứ hai đọc nhẹ. Nếu chữ gốc là thanh 3, xem quy tắc thanh 3 + thanh nhẹ ở mục Biến điệu.",
+     "ex": [
+      [
+       "妈妈",
+       "māma",
+       "māma",
+       "mẹ"
+      ],
+      [
+       "爸爸",
+       "bàba",
+       "bàba",
+       "bố"
+      ],
+      [
+       "哥哥",
+       "gēge",
+       "gēge",
+       "anh trai"
+      ],
+      [
+       "爷爷",
+       "yéye",
+       "yéye",
+       "ông nội"
+      ],
+      [
+       "看看",
+       "kànkan",
+       "kànkan",
+       "xem thử"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Bổ ngữ xu hướng",
+     "d": "来, 去 và các bổ ngữ xu hướng kép (上来, 下去, 出来, 起来...) đứng sau động từ thường đọc nhẹ. Khi giữa động từ và bổ ngữ có 得 hoặc 不 (拿得出来, 进不去), phần bổ ngữ vẫn thường nhẹ, còn 得/不 cũng nhẹ. Khi 来, 去 là động từ chính đứng một mình (我去, 他来了) thì đọc đủ thanh.",
+     "ex": [
+      [
+       "进来",
+       "jìnlái",
+       "jìnlai",
+       "đi vào (về phía người nói)"
+      ],
+      [
+       "出去",
+       "chūqù",
+       "chūqu",
+       "đi ra ngoài"
+      ],
+      [
+       "回去",
+       "huíqù",
+       "huíqu",
+       "quay về"
+      ],
+      [
+       "拿出来",
+       "ná chūlái",
+       "ná chulai",
+       "lấy ra"
+      ],
+      [
+       "站起来",
+       "zhàn qǐlái",
+       "zhàn qilai",
+       "đứng dậy"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Từ phương vị",
+     "d": "Các từ chỉ vị trí như 上, 下, 里 đứng sau danh từ (桌子上, 家里) và các hậu tố 边, 面 trong 里边, 外边, 上面, 下面 thường đọc nhẹ. Khi 上, 下, 里 đứng đầu và mang nghĩa đầy đủ (上班, 下雨), chúng đọc đủ thanh.",
+     "ex": [
+      [
+       "里边",
+       "lǐbian",
+       "lǐbian",
+       "bên trong"
+      ],
+      [
+       "上面",
+       "shàngmian",
+       "shàngmian",
+       "phía trên"
+      ],
+      [
+       "外边",
+       "wàibian",
+       "wàibian",
+       "bên ngoài"
+      ],
+      [
+       "家里",
+       "jiā li",
+       "jiā li",
+       "trong nhà"
+      ],
+      [
+       "桌子上",
+       "zhuōzi shang",
+       "zhuōzi shang",
+       "trên bàn"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Từ hai âm tiết cố định có âm sau nhẹ",
+     "d": "Nhiều từ hai âm tiết thông dụng có âm thứ hai đọc nhẹ theo thói quen, không có quy luật hình thức, phải học thuộc theo từ. Trong từ điển, âm nhẹ được ghi không dấu. Những từ hay gặp ở HSK 1-4: 先生, 衣服, 朋友, 认识, 告诉, 喜欢, 漂亮, 明白, 意思, 休息, 时候, 知道, 客气, 谢谢, 舒服, 东西, 消息.",
+     "ex": [
+      [
+       "朋友",
+       "péngyou",
+       "péngyou",
+       "bạn bè"
+      ],
+      [
+       "认识",
+       "rènshi",
+       "rènshi",
+       "quen biết"
+      ],
+      [
+       "喜欢",
+       "xǐhuan",
+       "xǐhuan",
+       "thích"
+      ],
+      [
+       "漂亮",
+       "piàoliang",
+       "piàoliang",
+       "đẹp"
+      ],
+      [
+       "明白",
+       "míngbai",
+       "míngbai",
+       "hiểu rõ"
+      ],
+      [
+       "告诉",
+       "gàosu",
+       "gàosu",
+       "nói cho biết"
+      ]
+     ],
+     "warn": "Người Việt thường đọc đủ thanh cho cả hai chữ (péngyǒu, xǐhuān) vì nhìn mặt chữ. Với nhóm từ này, nên nghe và bắt chước âm thanh, không đọc theo thanh gốc."
+    },
+    {
+     "t": "Lượng từ 个 đọc nhẹ",
+     "d": "个 gốc là gè, nhưng khi làm lượng từ (一个, 两个, 这个, 那个, 几个) thường đọc nhẹ. Thanh gốc thanh 4 vẫn quyết định biến điệu của 一: 一个 đọc yí ge. Khi nhấn mạnh hoặc đọc chậm, 个 có thể đọc đủ gè.",
+     "ex": [
+      [
+       "一个",
+       "yī gè",
+       "yí ge",
+       "một cái"
+      ],
+      [
+       "两个",
+       "liǎng gè",
+       "liǎng ge",
+       "hai cái"
+      ],
+      [
+       "这个",
+       "zhège",
+       "zhège / zhèige",
+       "cái này"
+      ],
+      [
+       "几个",
+       "jǐ gè",
+       "jǐ ge",
+       "mấy cái"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Cao độ của thanh nhẹ phụ thuộc âm trước",
+     "d": "Thanh nhẹ không có cao độ cố định. Sau thanh 1 và thanh 2, âm nhẹ ở mức trung bình hơi thấp. Sau thanh 4, âm nhẹ rơi xuống thấp nhất. Sau thanh 3 (nửa thanh 3, giọng đang ở thấp), âm nhẹ bật lên hơi cao, mức trung bình hơi cao. Mẹo nhớ: thanh nhẹ là \"phần đuôi\" của âm trước, giọng đi tới đâu thì nó nằm ở đó.",
+     "ex": [
+      [
+       "妈妈",
+       "māma",
+       "māma (ma sau cao, nhẹ hơi thấp)",
+       "mẹ"
+      ],
+      [
+       "爷爷",
+       "yéye",
+       "yéye (nhẹ ở mức trung)",
+       "ông nội"
+      ],
+      [
+       "姐姐",
+       "jiějie",
+       "jiějie (nhẹ bật hơi cao)",
+       "chị gái"
+      ],
+      [
+       "爸爸",
+       "bàba",
+       "bàba (nhẹ rơi thấp)",
+       "bố"
+      ]
+     ],
+     "warn": "Người Việt hay đọc mọi thanh nhẹ ở cùng một độ cao như thanh ngang, đặc biệt sai ở sau thanh 3: 我的, 姐姐 cần bật lên nhẹ."
+    },
+    {
+     "t": "Thanh nhẹ phân biệt nghĩa",
+     "d": "Một số từ có hai cách đọc: âm sau đọc đủ thanh và âm sau đọc nhẹ, nghĩa khác nhau. Đây là những cặp nên học thuộc vì đọc sai sẽ đổi nghĩa.",
+     "ex": [
+      [
+       "东西",
+       "dōngxi",
+       "dōngxi",
+       "đồ vật (dōngxī: đông và tây)"
+      ],
+      [
+       "大意",
+       "dàyi",
+       "dàyi",
+       "sơ ý, cẩu thả (dàyì: ý chính)"
+      ],
+      [
+       "地道",
+       "dìdao",
+       "dìdao",
+       "chính gốc, chuẩn (dìdào: đường hầm)"
+      ],
+      [
+       "兄弟",
+       "xiōngdi",
+       "xiōngdi",
+       "em trai, anh em thân (xiōngdì: anh và em)"
+      ],
+      [
+       "精神",
+       "jīngshen",
+       "jīngshen",
+       "tỉnh táo, có sức sống (jīngshén: tinh thần)"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Thanh nhẹ không bắt buộc và khác biệt vùng miền",
+     "d": "Mức độ dùng thanh nhẹ khác nhau theo vùng. Người phương Bắc, nhất là Bắc Kinh, đọc nhẹ rất nhiều; người miền Nam Trung Quốc và Đài Loan đọc nhẹ ít hơn hẳn, nhiều từ vẫn giữ thanh gốc. Từ điển ghi một số từ là \"thường đọc nhẹ, đôi khi đọc đủ\", ví dụ 学生, 太阳, 工夫. Bài thi HSK chấp nhận cả hai cách với những từ này, nhưng với các từ cố định như 朋友, 东西 (đồ vật) thì nên đọc nhẹ.",
+     "ex": [
+      [
+       "学生",
+       "xuésheng",
+       "xuésheng / xuéshēng",
+       "học sinh"
+      ],
+      [
+       "太阳",
+       "tàiyang",
+       "tàiyang / tàiyáng",
+       "mặt trời"
+      ],
+      [
+       "因为",
+       "yīnwèi",
+       "yīnwèi / yīnwei",
+       "bởi vì"
+      ],
+      [
+       "已经",
+       "yǐjīng",
+       "yǐjīng / yǐjing",
+       "đã"
+      ]
+     ],
+     "warn": ""
+    }
+   ]
+  },
+  {
+   "id": "erhua",
+   "title": "Âm 儿 (儿化)",
+   "intro": "儿化 là cách cuốn lưỡi ở cuối âm tiết khi có hậu tố 儿, rất đặc trưng cho giọng phương Bắc. Chữ viết và cách đọc thực tế của 儿化 khác nhau khá nhiều.",
+   "rules": [
+    {
+     "t": "Nguyên tắc chung của 儿化",
+     "d": "儿化 là hiện tượng chữ 儿 không đọc thành một âm tiết riêng mà nhập vào âm tiết trước, biến thành động tác cuốn lưỡi ở cuối vần. Pinyin chỉ thêm chữ r: 花儿 huār. Với vần kết thúc bằng a, o, e, u, chỉ cần cuốn lưỡi ngay ở cuối: 花儿, 歌儿. Chữ 儿 đứng riêng có nghĩa (儿子 érzi, 女儿 nǚ'ér) thì vẫn đọc ér đầy đủ.",
+     "ex": [
+      [
+       "花儿",
+       "huār",
+       "huār",
+       "bông hoa"
+      ],
+      [
+       "哪儿",
+       "nǎr",
+       "nǎr",
+       "ở đâu"
+      ],
+      [
+       "这儿",
+       "zhèr",
+       "zhèr",
+       "ở đây"
+      ],
+      [
+       "歌儿",
+       "gēr",
+       "gēr",
+       "bài hát"
+      ],
+      [
+       "女儿",
+       "nǚ'ér",
+       "nǚ'ér (không phải 儿化)",
+       "con gái"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 儿 thành một âm riêng: \"hoa ơ\", \"na ơ\". 儿化 chỉ là một âm tiết."
+    },
+    {
+     "t": "Vần kết thúc -n và -i: rụng âm cuối",
+     "d": "Khi vần kết thúc bằng -n hoặc -i (an, en, ian, uan, ai, ei, ui...), âm cuối -n, -i rụng đi rồi mới cuốn lưỡi. Pinyin vẫn viết đủ (yìdiǎnr) nhưng khi đọc gần như yìdiǎr. Đây là chỗ khác biệt lớn nhất giữa chữ viết và âm thực tế của 儿化.",
+     "ex": [
+      [
+       "一点儿",
+       "yīdiǎnr",
+       "yìdiǎr",
+       "một chút"
+      ],
+      [
+       "玩儿",
+       "wánr",
+       "wár",
+       "chơi"
+      ],
+      [
+       "一块儿",
+       "yīkuàir",
+       "yíkuàr",
+       "cùng nhau"
+      ],
+      [
+       "小孩儿",
+       "xiǎoháir",
+       "xiǎohár",
+       "trẻ con"
+      ],
+      [
+       "一会儿",
+       "yīhuìr",
+       "yíhuèr",
+       "một lát"
+      ]
+     ],
+     "warn": "Lỗi hay gặp là đọc rõ -n rồi mới cuốn lưỡi (wán-r), nghe nặng nề và không tự nhiên."
+    },
+    {
+     "t": "Vần kết thúc -ng: mũi hóa",
+     "d": "Khi vần kết thúc bằng -ng, âm -ng không đóng hẳn mà nguyên âm phía trước được đọc qua mũi (mũi hóa) đồng thời cuốn lưỡi. Không được bỏ hẳn âm mũi, cũng không được đóng -ng rồi mới thêm r.",
+     "ex": [
+      [
+       "空儿",
+       "kòngr",
+       "kòngr (o mũi hóa + cuốn lưỡi)",
+       "thời gian rảnh"
+      ],
+      [
+       "有空儿",
+       "yǒu kòngr",
+       "yǒu kòngr",
+       "có thời gian rảnh"
+      ],
+      [
+       "电影儿",
+       "diànyǐngr",
+       "diànyǐngr (i mũi hóa)",
+       "phim"
+      ],
+      [
+       "蛋黄儿",
+       "dànhuángr",
+       "dànhuángr",
+       "lòng đỏ trứng"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Vần -i (zhi, shi, zi...) và i, ü: thêm âm ơ cuốn lưỡi",
+     "d": "Với các âm tiết zhi, chi, shi, ri, zi, ci, si, nguyên âm -i được thay bằng âm \"ơ\" cuốn lưỡi: 事儿 đọc gần shèr. Với vần i, ü đứng cuối (ji, yu...), giữ i/ü rồi thêm âm \"ơ\" cuốn lưỡi: 小鸡儿 gần xiǎojiēr, 金鱼儿 gần jīnyúer.",
+     "ex": [
+      [
+       "事儿",
+       "shìr",
+       "shèr",
+       "việc, chuyện"
+      ],
+      [
+       "词儿",
+       "cír",
+       "cér",
+       "từ ngữ, lời"
+      ],
+      [
+       "小鸡儿",
+       "xiǎojīr",
+       "xiǎojiēr",
+       "gà con"
+      ],
+      [
+       "金鱼儿",
+       "jīnyúr",
+       "jīnyúer",
+       "cá vàng"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "儿化 có khi đổi nghĩa, có khi không",
+     "d": "Trong đa số trường hợp, có hay không có 儿 không đổi nghĩa, chỉ khác giọng vùng miền: 一点 và 一点儿 đều là \"một chút\". Nhưng một số cặp có nghĩa hoặc từ loại khác nhau: 哪 nǎ là \"nào\", 哪儿 nǎr là \"ở đâu\"; 画 huà là động từ \"vẽ\", 画儿 huàr là danh từ \"bức tranh\"; 头 tóu là \"đầu\", 头儿 tóur là \"sếp, người đứng đầu\".",
+     "ex": [
+      [
+       "哪 / 哪儿",
+       "nǎ / nǎr",
+       "nǎ / nǎr",
+       "nào / ở đâu"
+      ],
+      [
+       "画 / 画儿",
+       "huà / huàr",
+       "huà / huàr",
+       "vẽ / bức tranh"
+      ],
+      [
+       "头 / 头儿",
+       "tóu / tóur",
+       "tóu / tóur",
+       "cái đầu / sếp"
+      ],
+      [
+       "一点 / 一点儿",
+       "yīdiǎn / yīdiǎnr",
+       "yìdiǎn / yìdiǎr",
+       "một chút (cùng nghĩa)"
+      ]
+     ],
+     "warn": "Người Việt hay nhầm 哪 (nào) với 哪儿 (đâu) khi nghe. 哪个 là \"cái nào\", 哪儿 là \"ở đâu\"."
+    },
+    {
+     "t": "儿化 theo vùng miền",
+     "d": "Người Bắc Kinh và phương Bắc dùng 儿化 rất nhiều. Người miền Nam Trung Quốc, Đài Loan và người Hoa ở Đông Nam Á gần như không dùng, thay bằng dạng không có 儿: 哪里 thay cho 哪儿, 这里 thay cho 这儿, 一点 thay cho 一点儿. Bài thi HSK chấp nhận cả hai cách. Người học chỉ cần nghe hiểu 儿化, khi nói có thể chọn một phong cách và dùng nhất quán.",
+     "ex": [
+      [
+       "哪儿 / 哪里",
+       "nǎr / nǎlǐ",
+       "nǎr / náli",
+       "ở đâu"
+      ],
+      [
+       "这儿 / 这里",
+       "zhèr / zhèlǐ",
+       "zhèr / zhèli",
+       "ở đây"
+      ],
+      [
+       "玩儿 / 玩",
+       "wánr / wán",
+       "wár / wán",
+       "chơi"
+      ]
+     ],
+     "warn": ""
+    }
+   ]
+  },
+  {
+   "id": "a",
+   "title": "Biến âm của 啊",
+   "intro": "Trợ từ ngữ khí 啊 ở cuối câu thay đổi âm đầu tùy theo âm cuối của chữ đứng trước. Một số biến âm có chữ viết riêng (呀, 哇, 哪).",
+   "rules": [
+    {
+     "t": "Sau a, o, e, i, ü, ê -> ya (呀)",
+     "d": "Trợ từ 啊 cuối câu bị âm cuối của chữ trước \"nối\" vào. Khi chữ trước kết thúc bằng nguyên âm a, o, e, i, ü hoặc ê (bao gồm ie, üe, ei, ai, uo), 啊 đọc thành ya, có thể viết thành 呀. Lưu ý vần ao và ou tuy viết bằng o nhưng thật ra kết thúc bằng âm u, nên thuộc nhóm wa.",
+     "ex": [
+      [
+       "你啊",
+       "nǐ a",
+       "nǐ ya",
+       "bạn đấy"
+      ],
+      [
+       "他啊",
+       "tā a",
+       "tā ya",
+       "anh ấy đấy"
+      ],
+      [
+       "谁啊",
+       "shéi a",
+       "shéi ya",
+       "ai thế"
+      ],
+      [
+       "喝啊",
+       "hē a",
+       "hē ya",
+       "uống đi"
+      ],
+      [
+       "写啊",
+       "xiě a",
+       "xiě ya",
+       "viết đi"
+      ],
+      [
+       "去啊",
+       "qù a",
+       "qù ya",
+       "đi đi"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Sau u, ao, ou -> wa (哇)",
+     "d": "Khi chữ trước kết thúc bằng âm u, bao gồm cả vần ao và ou (phát âm thật là [au], [ou]), 啊 đọc thành wa, có thể viết 哇. Đây là trường hợp người học hay đoán sai vì nhìn chữ o trong hǎo.",
+     "ex": [
+      [
+       "好啊",
+       "hǎo a",
+       "hǎo wa",
+       "được đấy, hay đấy"
+      ],
+      [
+       "走啊",
+       "zǒu a",
+       "zǒu wa",
+       "đi thôi"
+      ],
+      [
+       "哭啊",
+       "kū a",
+       "kū wa",
+       "khóc à"
+      ],
+      [
+       "有啊",
+       "yǒu a",
+       "yǒu wa",
+       "có chứ"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 好啊 thành hǎo ya vì nghĩ hǎo kết thúc bằng o. Âm cuối thật là u nên phải là wa."
+    },
+    {
+     "t": "Sau -n -> na (哪)",
+     "d": "Khi chữ trước kết thúc bằng phụ âm mũi -n, âm n nối sang 啊 thành na, có thể viết 哪. Quy tắc này giống hiện tượng nối âm trong tiếng Anh.",
+     "ex": [
+      [
+       "天啊",
+       "tiān a",
+       "tiān na",
+       "trời ơi"
+      ],
+      [
+       "难啊",
+       "nán a",
+       "nán na",
+       "khó quá"
+      ],
+      [
+       "看啊",
+       "kàn a",
+       "kàn na",
+       "nhìn kìa"
+      ],
+      [
+       "您啊",
+       "nín a",
+       "nín na",
+       "là ông/bà đấy ạ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Sau -ng -> nga",
+     "d": "Khi chữ trước kết thúc bằng -ng, âm ng nối sang 啊 thành nga. Chữ viết vẫn là 啊, không có chữ riêng. Người Việt có sẵn âm \"ng\" đầu nên đọc nga khá dễ.",
+     "ex": [
+      [
+       "唱啊",
+       "chàng a",
+       "chàng nga",
+       "hát đi"
+      ],
+      [
+       "行啊",
+       "xíng a",
+       "xíng nga",
+       "được chứ"
+      ],
+      [
+       "冷啊",
+       "lěng a",
+       "lěng nga",
+       "lạnh quá"
+      ],
+      [
+       "忙啊",
+       "máng a",
+       "máng nga",
+       "bận thật"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Sau zhi, chi, shi, ri và er -> ra",
+     "d": "Khi chữ trước là zhi, chi, shi, ri (nguyên âm -i đầu lưỡi cong) hoặc kết thúc bằng er, 啊 đọc thành ra, với r là âm cuốn lưỡi của tiếng Trung. Chữ viết vẫn là 啊.",
+     "ex": [
+      [
+       "是啊",
+       "shì a",
+       "shì ra",
+       "đúng thế"
+      ],
+      [
+       "吃啊",
+       "chī a",
+       "chī ra",
+       "ăn đi"
+      ],
+      [
+       "老师啊",
+       "lǎoshī a",
+       "lǎoshī ra",
+       "thầy/cô ơi"
+      ],
+      [
+       "二啊",
+       "èr a",
+       "èr ra",
+       "hai đấy"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Sau zi, ci, si -> [z]a",
+     "d": "Khi chữ trước là zi, ci, si (nguyên âm -i đầu lưỡi thẳng), 啊 đọc thành một âm gần \"za\", với [z] là âm xát hữu thanh đầu lưỡi, giống z trong tiếng Anh \"zoo\". Pinyin không có ký hiệu cho âm này nên sách thường ghi [z]a. Chữ viết vẫn là 啊.",
+     "ex": [
+      [
+       "字啊",
+       "zì a",
+       "zì [z]a",
+       "chữ đấy"
+      ],
+      [
+       "次啊",
+       "cì a",
+       "cì [z]a",
+       "lần đấy"
+      ],
+      [
+       "四啊",
+       "sì a",
+       "sì [z]a",
+       "bốn đấy"
+      ]
+     ],
+     "warn": "Lỗi hay gặp là đọc thành ra hoặc ya. Nhóm z c s khác nhóm zh ch sh."
+    },
+    {
+     "t": "Biến âm của 啊 là tự nhiên, không bắt buộc",
+     "d": "Các biến âm trên xảy ra tự nhiên khi nói liền, do miệng chuyển từ âm cuối chữ trước sang a. Khi nói chậm, ngắt rời, đọc a vẫn đúng. Người học không cần cố nhớ để \"tạo\" biến âm, chỉ cần nói liền, không ngắt giữa chữ trước và 啊, biến âm sẽ tự đến. Quan trọng hơn là nhận ra 呀, 哇, 哪 khi đọc văn bản đều là 啊.",
+     "ex": [
+      [
+       "好啊",
+       "hǎo a",
+       "hǎo wa / hǎo a",
+       "được đấy"
+      ],
+      [
+       "天啊",
+       "tiān a",
+       "tiān na / tiān a",
+       "trời ơi"
+      ],
+      [
+       "你呀",
+       "nǐ ya",
+       "nǐ ya",
+       "bạn đấy (viết bằng 呀)"
+      ]
+     ],
+     "warn": ""
+    }
+   ]
+  },
+  {
+   "id": "spelling",
+   "title": "Viết một đằng đọc một nẻo",
+   "intro": "Pinyin là hệ thống chữ viết có quy ước rút gọn, nhiều chữ cái đọc khác với chữ quốc ngữ. Hiểu các quy ước này giúp đọc pinyin đúng ngay từ đầu.",
+   "rules": [
+    {
+     "t": "iu là viết tắt của iou",
+     "d": "Vần iu khi có phụ âm đầu (liu, jiu, niu, qiu) thật ra là iou, chữ o bị lược khi viết. Ở thanh 3 và thanh 4, âm o nghe rõ (jiǔ gần \"chiểu\" kéo dài thành \"chi-ầu\"); ở thanh 1 và thanh 2, o yếu đi, nghe gần \"iu\". Khi không có phụ âm đầu thì viết đủ: 有 yǒu.",
+     "ex": [
+      [
+       "六",
+       "liù",
+       "liòu",
+       "số sáu"
+      ],
+      [
+       "九",
+       "jiǔ",
+       "jiǒu",
+       "số chín"
+      ],
+      [
+       "牛",
+       "niú",
+       "nióu (o yếu)",
+       "con bò"
+      ],
+      [
+       "有",
+       "yǒu",
+       "yǒu",
+       "có"
+      ]
+     ],
+     "warn": "Người Việt đọc iu như vần \"iu\" tiếng Việt (\"liu\", \"chiu\"), thiếu âm o ở giữa, nhất là ở thanh 3, thanh 4."
+    },
+    {
+     "t": "ui là viết tắt của uei",
+     "d": "Vần ui khi có phụ âm đầu (dui, gui, hui, shui) thật ra là uei, chữ e bị lược khi viết. Ở thanh 3 và thanh 4, âm e nghe rõ (guǐ gần \"quẩy\"); ở thanh 1, thanh 2 thì e yếu hơn. Khi không có phụ âm đầu thì viết đủ: 为 wèi.",
+     "ex": [
+      [
+       "对",
+       "duì",
+       "duèi",
+       "đúng"
+      ],
+      [
+       "贵",
+       "guì",
+       "guèi",
+       "đắt"
+      ],
+      [
+       "回",
+       "huí",
+       "huéi (e yếu)",
+       "về"
+      ],
+      [
+       "水",
+       "shuǐ",
+       "shuěi",
+       "nước"
+      ],
+      [
+       "为",
+       "wèi",
+       "wèi",
+       "vì"
+      ]
+     ],
+     "warn": "Người Việt hay đọc ui như vần \"uy\" (đuy, quy). Phải có âm e chen giữa: \"uây\"."
+    },
+    {
+     "t": "un là viết tắt của uen",
+     "d": "Sau các phụ âm d, t, n, l, g, k, h, z, c, s, zh, ch, sh, r, vần un thật ra là uen, đọc gần \"uân\". Khi không có phụ âm đầu thì viết đủ: 问 wèn. Lưu ý: sau j, q, x, y thì un là ün (xem quy tắc ü viết thành u).",
+     "ex": [
+      [
+       "论",
+       "lùn",
+       "luèn",
+       "bàn luận"
+      ],
+      [
+       "春",
+       "chūn",
+       "chuēn",
+       "mùa xuân"
+      ],
+      [
+       "困",
+       "kùn",
+       "kuèn",
+       "buồn ngủ"
+      ],
+      [
+       "准",
+       "zhǔn",
+       "zhuěn",
+       "chuẩn, chính xác"
+      ],
+      [
+       "问",
+       "wèn",
+       "wèn",
+       "hỏi"
+      ]
+     ],
+     "warn": "Người Việt đọc un như \"un\" tiếng Việt. Âm đúng gần \"uân\"."
+    },
+    {
+     "t": "ü viết thành u sau j, q, x, y",
+     "d": "Sau j, q, x và khi đứng đầu âm tiết (y), chữ ü được viết thành u vì j q x y không bao giờ đi với u thật, không thể nhầm. Như vậy ju, qu, xu, yu, juan, quan, xuan, yuan, jun, qun, xun, yun, jue, que, xue, yue đều chứa âm ü, môi tròn như khi đọc \"uy\" nhưng chụm và căng hơn, lưỡi ở vị trí i.",
+     "ex": [
+      [
+       "去",
+       "qù",
+       "qǜ",
+       "đi"
+      ],
+      [
+       "鱼",
+       "yú",
+       "ǘ",
+       "con cá"
+      ],
+      [
+       "学",
+       "xué",
+       "xüé",
+       "học"
+      ],
+      [
+       "军",
+       "jūn",
+       "jǖn",
+       "quân đội"
+      ],
+      [
+       "远",
+       "yuǎn",
+       "üǎn",
+       "xa"
+      ]
+     ],
+     "warn": "Người Việt đọc qu như \"qu\" tiếng Việt (\"quơ\"), xu như \"xu\" (\"su\"), yu như \"du\". Tất cả đều sai: đây là âm ü môi tròn, giống \"uy\" khép."
+    },
+    {
+     "t": "nü, lü giữ dấu hai chấm",
+     "d": "Sau n và l, cả u và ü đều có thể xuất hiện, nên phải giữ dấu hai chấm để phân biệt: nü khác nu, lü khác lu. Khi gõ máy tính, ü thường gõ bằng phím v (nv, lv). Các vần nüe, lüe cũng giữ ü.",
+     "ex": [
+      [
+       "女",
+       "nǚ",
+       "nǚ",
+       "nữ"
+      ],
+      [
+       "绿",
+       "lǜ",
+       "lǜ",
+       "xanh lá"
+      ],
+      [
+       "旅游",
+       "lǚyóu",
+       "lǚyóu",
+       "du lịch"
+      ],
+      [
+       "路",
+       "lù",
+       "lù",
+       "con đường (u thường)"
+      ],
+      [
+       "努力",
+       "nǔlì",
+       "nǔlì",
+       "cố gắng (u thường)"
+      ]
+     ],
+     "warn": "Nhiều người Việt đọc 女 và 努, 绿 và 路 giống nhau. Hãy tập tròn môi với lưỡi ở vị trí i cho ü."
+    },
+    {
+     "t": "-i sau z, c, s không phải là i",
+     "d": "Chữ i sau z, c, s không đọc là i. Đây là một nguyên âm đầu lưỡi [ɹ̩]: giữ nguyên vị trí lưỡi của z, c, s rồi cho thanh quản rung, nghe gần \"ư\" rất hẹp. Ví dụ 四 sì gần \"sư\", 字 zì gần \"chư\" không bật hơi, 词 cí gần \"chư\" bật hơi mạnh.",
+     "ex": [
+      [
+       "字",
+       "zì",
+       "zì [tsɹ̩], gần \"chư\" không bật hơi",
+       "chữ"
+      ],
+      [
+       "词",
+       "cí",
+       "cí [tsʰɹ̩], gần \"chư\" bật hơi",
+       "từ"
+      ],
+      [
+       "四",
+       "sì",
+       "sì [sɹ̩], gần \"sư\"",
+       "số bốn"
+      ],
+      [
+       "自己",
+       "zìjǐ",
+       "zìjǐ",
+       "bản thân"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 四 sì thành \"si\" giống 西 xī. Âm i thật chỉ có sau j q x và các phụ âm khác."
+    },
+    {
+     "t": "-i sau zh, ch, sh, r cũng không phải là i",
+     "d": "Chữ i sau zh, ch, sh, r là một nguyên âm uốn lưỡi [ɻ̩]: giữ lưỡi cong lên như khi đọc zh, ch, sh, r rồi kéo dài, nghe gần \"ư\" với lưỡi cong. 是 shì không đọc là \"si\" hay \"sư\" mà là \"sư\" với lưỡi cuộn.",
+     "ex": [
+      [
+       "是",
+       "shì",
+       "shì [ʂɻ̩]",
+       "là"
+      ],
+      [
+       "吃",
+       "chī",
+       "chī [ʈʂʰɻ̩]",
+       "ăn"
+      ],
+      [
+       "知道",
+       "zhīdao",
+       "zhīdao",
+       "biết"
+      ],
+      [
+       "日",
+       "rì",
+       "rì [ʐɻ̩]",
+       "ngày, mặt trời"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "y và w là chữ viết, không phải phụ âm",
+     "d": "Trong pinyin, y và w không phải phụ âm thật mà chỉ là cách viết khi âm tiết bắt đầu bằng i, u, ü. Quy tắc: i -> yi (一 yī), ia -> ya, ie -> ye, in -> yin; u -> wu (五 wǔ), ua -> wa, uo -> wo, uen -> wen; ü -> yu (鱼 yú), üe -> yue. Như vậy 我 wǒ là uǒ, 要 yào là iào.",
+     "ex": [
+      [
+       "一",
+       "yī",
+       "ī",
+       "số một"
+      ],
+      [
+       "五",
+       "wǔ",
+       "ǔ",
+       "số năm"
+      ],
+      [
+       "我",
+       "wǒ",
+       "uǒ",
+       "tôi"
+      ],
+      [
+       "要",
+       "yào",
+       "iào",
+       "muốn, cần"
+      ],
+      [
+       "鱼",
+       "yú",
+       "ǘ",
+       "con cá"
+      ]
+     ],
+     "warn": "Người Việt hay đọc y như \"d\" miền Bắc hoặc w như \"qu\". 五 wǔ chỉ là \"ủ\", không có phụ âm đầu."
+    },
+    {
+     "t": "ian đọc gần \"iên\"",
+     "d": "Vần ian (và yan khi đứng đầu) không đọc \"i-an\" với a mở rộng. Do ảnh hưởng của i phía trước và n phía sau, a được nâng lên thành [ɛ], nghe gần \"iên\" tiếng Việt. Tương tự với các vần chứa ian: jian, qian, xian, tian, dian, mian, lian.",
+     "ex": [
+      [
+       "天",
+       "tiān",
+       "tiēn, gần \"thiên\"",
+       "trời; ngày"
+      ],
+      [
+       "钱",
+       "qián",
+       "qién, gần \"chiên\" bật hơi",
+       "tiền"
+      ],
+      [
+       "点",
+       "diǎn",
+       "diěn, gần \"tiển\"",
+       "giờ; điểm"
+      ],
+      [
+       "见面",
+       "jiànmiàn",
+       "jiènmièn",
+       "gặp mặt"
+      ],
+      [
+       "烟",
+       "yān",
+       "iēn",
+       "khói; thuốc lá"
+      ]
+     ],
+     "warn": "Lỗi rất phổ biến là đọc 天 thành \"thian\", 点 thành \"tian\" với a mở. Hãy nghĩ tới \"thiên\", \"điểm\" trong tiếng Việt."
+    },
+    {
+     "t": "üan / yuan đọc gần \"uyên\"",
+     "d": "Vần üan (viết yuan, juan, quan, xuan) có a nâng lên thành [ɛ] giống ian, đọc gần \"uyên\" tiếng Việt với môi tròn ở đầu. Không đọc \"oan\" hay \"uan\".",
+     "ex": [
+      [
+       "远",
+       "yuǎn",
+       "üěn, gần \"uyển\"",
+       "xa"
+      ],
+      [
+       "选",
+       "xuǎn",
+       "xüěn",
+       "chọn"
+      ],
+      [
+       "全",
+       "quán",
+       "qüén",
+       "toàn bộ"
+      ],
+      [
+       "圆",
+       "yuán",
+       "üén, gần \"uyên\"",
+       "tròn"
+      ]
+     ],
+     "warn": "Người Việt hay đọc 全 quán như \"quan\" tiếng Việt. Âm đúng gần \"chuyên\" bật hơi."
+    },
+    {
+     "t": "bo, po, mo, fo có âm đệm u",
+     "d": "Âm o sau b, p, m, f thật ra có âm đệm u rất ngắn ở đầu, phát âm gần [pwo], tức là \"bua\" khép hơn, hoặc gần \"pua\". Pinyin bỏ u vì sau b p m f không có sự đối lập giữa o và uo. Đừng đọc o như chữ o tiếng Việt mở rộng.",
+     "ex": [
+      [
+       "伯伯",
+       "bóbo",
+       "búo bo",
+       "bác"
+      ],
+      [
+       "婆婆",
+       "pópo",
+       "púo po",
+       "bà; mẹ chồng"
+      ],
+      [
+       "摸",
+       "mō",
+       "muō",
+       "sờ"
+      ],
+      [
+       "佛",
+       "fó",
+       "fúo",
+       "Phật"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Chữ e có nhiều giá trị",
+     "d": "Chữ e trong pinyin đọc khác nhau tùy vị trí. Đứng riêng hoặc sau phụ âm (喝 hē, 饿 è): [ɤ], miệng không tròn, lưỡi lùi sau, gần giữa \"ơ\" và \"ư\". Trong âm tiết nhẹ (了 le, 的 de): [ə], gần \"ơ\" ngắn. Trong ei: gần \"ây\". Trong ie, üe: [ɛ], gần \"ê\" (ie gần \"iê\", üe gần \"uyê\"). Trong en: gần \"ân\". Trong eng: gần \"âng\".",
+     "ex": [
+      [
+       "喝",
+       "hē",
+       "hē, gần \"hưa\"",
+       "uống"
+      ],
+      [
+       "给",
+       "gěi",
+       "gěi, gần \"cẩy\"",
+       "cho"
+      ],
+      [
+       "谢谢",
+       "xièxie",
+       "xiè xie, gần \"xiê\"",
+       "cảm ơn"
+      ],
+      [
+       "学",
+       "xué",
+       "xüé, gần \"xuyê\"",
+       "học"
+      ],
+      [
+       "很冷",
+       "hěn lěng",
+       "hén lěng, gần \"hẩn lẩng\"",
+       "rất lạnh"
+      ]
+     ],
+     "warn": "Người Việt hay đọc mọi chữ e là \"e\" tiếng Việt. Gần như không có trường hợp nào đọc là \"e\" mở."
+    },
+    {
+     "t": "ong đọc gần \"ung\"",
+     "d": "Vần ong trong pinyin đọc là [ʊŋ], gần \"ung\" tiếng Việt, môi tròn vừa phải. Không đọc như \"ong\" tiếng Việt (có ngậm môi cuối). Tương tự iong (用 yòng, 熊 xióng) đọc gần \"iung\".",
+     "ex": [
+      [
+       "中国",
+       "Zhōngguó",
+       "Zhūngguó, ong gần \"ung\"",
+       "Trung Quốc"
+      ],
+      [
+       "红",
+       "hóng",
+       "húng",
+       "đỏ"
+      ],
+      [
+       "东",
+       "dōng",
+       "dūng",
+       "phía đông"
+      ],
+      [
+       "工作",
+       "gōngzuò",
+       "gūngzuò",
+       "công việc"
+      ],
+      [
+       "用",
+       "yòng",
+       "iùng",
+       "dùng"
+      ]
+     ],
+     "warn": "Người Việt đọc 红 thành \"hồng\", 东 thành \"đông\" theo âm Hán Việt. Âm đúng gần \"húng\", \"tung\"."
+    },
+    {
+     "t": "Dấu cách âm '",
+     "d": "Khi một âm tiết bắt đầu bằng a, o, e đứng sau âm tiết khác trong cùng một từ, pinyin dùng dấu ' để tách, tránh đọc nhầm ranh giới. Xī'ān (西安) là hai âm tiết xī + ān, khác xiān (先) là một âm tiết. Khi đọc, hãy ngắt nhẹ ở chỗ có dấu '.",
+     "ex": [
+      [
+       "西安",
+       "Xī'ān",
+       "Xī | ān (hai âm tiết)",
+       "thành phố Tây An"
+      ],
+      [
+       "先",
+       "xiān",
+       "xiān (một âm tiết)",
+       "trước"
+      ],
+      [
+       "天安门",
+       "Tiān'ānmén",
+       "Tiān | ānmén",
+       "Thiên An Môn"
+      ],
+      [
+       "可爱",
+       "kě'ài",
+       "kě | ài",
+       "dễ thương"
+      ],
+      [
+       "女儿",
+       "nǚ'ér",
+       "nǚ | ér",
+       "con gái"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Vị trí dấu thanh",
+     "d": "Dấu thanh đặt trên nguyên âm chính theo thứ tự ưu tiên: a trước tiên; nếu không có a thì đặt trên o hoặc e; nếu chỉ có i, u, ü thì đặt trên nguyên âm đứng sau. Riêng iu và ui luôn đặt trên chữ sau: liù, duì. Khi đặt dấu trên i thì bỏ dấu chấm: ī, í, ǐ, ì.",
+     "ex": [
+      [
+       "好",
+       "hǎo",
+       "hǎo (dấu trên a)",
+       "tốt"
+      ],
+      [
+       "走",
+       "zǒu",
+       "zǒu (dấu trên o)",
+       "đi"
+      ],
+      [
+       "写",
+       "xiě",
+       "xiě (dấu trên e)",
+       "viết"
+      ],
+      [
+       "六",
+       "liù",
+       "liù (dấu trên u, chữ sau)",
+       "số sáu"
+      ],
+      [
+       "对",
+       "duì",
+       "duì (dấu trên i, chữ sau)",
+       "đúng"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Phụ âm viết giống chữ Việt nhưng đọc khác",
+     "d": "Nhiều chữ cái pinyin trông giống chữ quốc ngữ nhưng đọc khác. b, d, g là âm tắc vô thanh không bật hơi, gần \"p\", \"t\", \"c\" tiếng Việt, không phải \"b\", \"đ\". p, t, k là bật hơi mạnh (t gần \"th\"). x gần \"x\" miền Bắc nhưng lưỡi dẹt sát vòm, môi hơi kéo. q gần \"ch\" bật hơi, j gần \"ch\" không bật hơi. z gần \"ch\" (đầu lưỡi thẳng) không bật hơi, c giống z nhưng bật hơi. h gần \"kh\". r là âm uốn lưỡi, không phải \"r\" rung.",
+     "ex": [
+      [
+       "爸爸",
+       "bàba",
+       "bàba, b gần \"p\"",
+       "bố"
+      ],
+      [
+       "大",
+       "dà",
+       "dà, d gần \"t\"",
+       "to"
+      ],
+      [
+       "他",
+       "tā",
+       "tā, t gần \"th\"",
+       "anh ấy"
+      ],
+      [
+       "去",
+       "qù",
+       "qù, q gần \"ch\" bật hơi + ü",
+       "đi"
+      ],
+      [
+       "菜",
+       "cài",
+       "cài, c gần \"ts\" bật hơi",
+       "món ăn"
+      ],
+      [
+       "好",
+       "hǎo",
+       "hǎo, h gần \"kh\"",
+       "tốt"
+      ]
+     ],
+     "warn": "Người Việt hay đọc c như \"c/k\", x như \"s\", d như \"đ\". Đây là nguồn lỗi phát âm lớn nhất khi đọc theo mặt chữ."
+    }
+   ]
+  },
+  {
+   "id": "poly",
+   "title": "Chữ đa âm hay gặp",
+   "intro": "Chữ đa âm (多音字) là chữ có hai cách đọc trở lên, mỗi cách gắn với một nghĩa hoặc chức năng. Cách tốt nhất là học theo từ, không học chữ rời.",
+   "rules": [
+    {
+     "t": "行 háng / xíng",
+     "d": "háng liên quan đến \"hàng, dãy, ngành nghề\" (银行, 行业, 一行字). xíng là \"đi, được, ổn\" (不行, 旅行, 行李, 自行车). Mẹo: có nghĩa \"được không\" hay \"đi\" thì là xíng.",
+     "ex": [
+      [
+       "银行",
+       "yínháng",
+       "yínháng",
+       "ngân hàng"
+      ],
+      [
+       "行业",
+       "hángyè",
+       "hángyè",
+       "ngành nghề"
+      ],
+      [
+       "不行",
+       "bù xíng",
+       "bù xíng",
+       "không được"
+      ],
+      [
+       "旅行",
+       "lǚxíng",
+       "lǚxíng",
+       "du lịch"
+      ],
+      [
+       "行李",
+       "xíngli",
+       "xíngli",
+       "hành lý"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "长 cháng / zhǎng",
+     "d": "cháng là tính từ \"dài\" (长城, 很长, 长期). zhǎng là động từ \"lớn lên, mọc\" và danh từ \"người đứng đầu\" (长大, 校长, 长得很好看). Mẹo: \"dài\" là cháng, \"lớn/trưởng\" là zhǎng.",
+     "ex": [
+      [
+       "长城",
+       "Chángchéng",
+       "Chángchéng",
+       "Vạn Lý Trường Thành"
+      ],
+      [
+       "很长",
+       "hěn cháng",
+       "hěn cháng",
+       "rất dài"
+      ],
+      [
+       "长大",
+       "zhǎngdà",
+       "zhǎngdà",
+       "lớn lên"
+      ],
+      [
+       "校长",
+       "xiàozhǎng",
+       "xiàozhǎng",
+       "hiệu trưởng"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "了 le / liǎo",
+     "d": "le là trợ từ (吃了, 好了), đọc nhẹ. liǎo là động từ \"hiểu, xong, có thể\" (了解, 受不了, 去不了). Mẹo: 了 đứng sau 得/不 trong bổ ngữ khả năng thì là liǎo.",
+     "ex": [
+      [
+       "吃了",
+       "chī le",
+       "chī le",
+       "ăn rồi"
+      ],
+      [
+       "了解",
+       "liǎojiě",
+       "liáojiě",
+       "hiểu rõ"
+      ],
+      [
+       "受不了",
+       "shòu bu liǎo",
+       "shòu bu liǎo",
+       "không chịu nổi"
+      ],
+      [
+       "去不了",
+       "qù bu liǎo",
+       "qù bu liǎo",
+       "không đi được"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "得 de / dé / děi",
+     "d": "de là trợ từ bổ ngữ (跑得快), đọc nhẹ. dé là \"được, đạt\" (得到, 得分). děi là \"phải\" (我得走了). Mẹo: 得 đứng trước động từ, nghĩa \"phải\" thì là děi.",
+     "ex": [
+      [
+       "跑得快",
+       "pǎo de kuài",
+       "pǎo de kuài",
+       "chạy nhanh"
+      ],
+      [
+       "得到",
+       "dédào",
+       "dédào",
+       "đạt được"
+      ],
+      [
+       "记得",
+       "jìde",
+       "jìde",
+       "nhớ"
+      ],
+      [
+       "我得走了",
+       "wǒ děi zǒu le",
+       "wǒ déi zǒu le",
+       "tôi phải đi rồi"
+      ]
+     ],
+     "warn": "děi trước zǒu (thanh 3) đổi thành déi theo quy tắc 3+3."
+    },
+    {
+     "t": "还 hái / huán",
+     "d": "hái là phó từ \"vẫn, còn, hay là\" (还是, 还有, 还没). huán là động từ \"trả lại\" (还书, 还钱). Mẹo: có tân ngữ là đồ vật được trả thì là huán.",
+     "ex": [
+      [
+       "还是",
+       "háishi",
+       "háishi",
+       "vẫn; hay là"
+      ],
+      [
+       "还有",
+       "hái yǒu",
+       "hái yǒu",
+       "còn có"
+      ],
+      [
+       "还书",
+       "huán shū",
+       "huán shū",
+       "trả sách"
+      ],
+      [
+       "还钱",
+       "huán qián",
+       "huán qián",
+       "trả tiền"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "觉 jué / jiào",
+     "d": "jué liên quan đến \"cảm giác\" (觉得, 感觉). jiào chỉ dùng cho \"giấc ngủ\" (睡觉, 午觉). Mẹo: chỉ khi nói về ngủ mới là jiào.",
+     "ex": [
+      [
+       "觉得",
+       "juéde",
+       "juéde",
+       "cảm thấy"
+      ],
+      [
+       "感觉",
+       "gǎnjué",
+       "gǎnjué",
+       "cảm giác"
+      ],
+      [
+       "睡觉",
+       "shuìjiào",
+       "shuìjiào",
+       "ngủ"
+      ],
+      [
+       "午觉",
+       "wǔjiào",
+       "wǔjiào",
+       "giấc ngủ trưa"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "重 zhòng / chóng",
+     "d": "zhòng là \"nặng, quan trọng\" (重要, 很重). chóng là \"lại, lặp lại\" (重新, 重复). Mẹo: nghĩa \"lại lần nữa\" thì là chóng.",
+     "ex": [
+      [
+       "重要",
+       "zhòngyào",
+       "zhòngyào",
+       "quan trọng"
+      ],
+      [
+       "很重",
+       "hěn zhòng",
+       "hěn zhòng",
+       "rất nặng"
+      ],
+      [
+       "重新",
+       "chóngxīn",
+       "chóngxīn",
+       "làm lại từ đầu"
+      ],
+      [
+       "重复",
+       "chóngfù",
+       "chóngfù",
+       "lặp lại"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "好 hǎo / hào",
+     "d": "hǎo là \"tốt, hay\" (你好, 好看). hào là động từ \"thích, ham\" (爱好, 好奇, 好学). Mẹo: nghĩa \"ưa thích\" thì là hào.",
+     "ex": [
+      [
+       "你好",
+       "nǐ hǎo",
+       "ní hǎo",
+       "xin chào"
+      ],
+      [
+       "好看",
+       "hǎokàn",
+       "hǎokàn",
+       "đẹp, hay"
+      ],
+      [
+       "爱好",
+       "àihào",
+       "àihào",
+       "sở thích"
+      ],
+      [
+       "好奇",
+       "hàoqí",
+       "hàoqí",
+       "tò mò"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "乐 lè / yuè",
+     "d": "lè là \"vui\" (快乐, 可乐). yuè là \"âm nhạc\" (音乐, 乐器). Mẹo: liên quan đến nhạc thì là yuè.",
+     "ex": [
+      [
+       "快乐",
+       "kuàilè",
+       "kuàilè",
+       "vui vẻ"
+      ],
+      [
+       "可乐",
+       "kělè",
+       "kělè",
+       "cô ca"
+      ],
+      [
+       "音乐",
+       "yīnyuè",
+       "yīnyuè",
+       "âm nhạc"
+      ],
+      [
+       "乐器",
+       "yuèqì",
+       "yuèqì",
+       "nhạc cụ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "着 zhe / zháo / zhuó",
+     "d": "zhe là trợ từ chỉ trạng thái tiếp diễn (看着), đọc nhẹ. zháo là \"đạt được kết quả, bị\" (睡着, 着急, 找着). zhuó là \"chạm, tiếp xúc\" trong từ sách vở (着陆, 着想). Ở HSK 1-4 chủ yếu gặp zhe và zháo.",
+     "ex": [
+      [
+       "看着",
+       "kàn zhe",
+       "kàn zhe",
+       "đang nhìn"
+      ],
+      [
+       "睡着",
+       "shuìzháo",
+       "shuìzháo",
+       "ngủ thiếp đi"
+      ],
+      [
+       "着急",
+       "zháojí",
+       "zháojí",
+       "sốt ruột"
+      ],
+      [
+       "着陆",
+       "zhuólù",
+       "zhuólù",
+       "hạ cánh"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "地 de / dì",
+     "d": "de là trợ từ trạng ngữ đứng trước động từ (慢慢地走, 认真地), đọc nhẹ. dì là \"đất, nơi chốn\" (地方, 地铁, 地图). Mẹo: đứng sau tính từ, trước động từ thì là de.",
+     "ex": [
+      [
+       "慢慢地",
+       "mànmàn de",
+       "mànmàn de",
+       "một cách chậm rãi"
+      ],
+      [
+       "认真地",
+       "rènzhēn de",
+       "rènzhēn de",
+       "một cách nghiêm túc"
+      ],
+      [
+       "地方",
+       "dìfang",
+       "dìfang",
+       "nơi, chỗ"
+      ],
+      [
+       "地铁",
+       "dìtiě",
+       "dìtiě",
+       "tàu điện ngầm"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "便 biàn / pián",
+     "d": "biàn là \"tiện\" (方便, 随便, 便利). pián chỉ gặp trong 便宜 (rẻ). Mẹo: chỉ cần nhớ 便宜 piányi, còn lại là biàn.",
+     "ex": [
+      [
+       "方便",
+       "fāngbiàn",
+       "fāngbiàn",
+       "tiện lợi"
+      ],
+      [
+       "随便",
+       "suíbiàn",
+       "suíbiàn",
+       "tùy ý"
+      ],
+      [
+       "便宜",
+       "piányi",
+       "piányi",
+       "rẻ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "差 chà / chā / chāi",
+     "d": "chà là \"kém, thiếu\" (很差, 差不多, 差点儿). chā là \"chênh lệch\" (差别, 差距). chāi là \"đi công tác, việc được giao\" (出差). Mẹo: ba nghĩa \"kém\", \"khác biệt\", \"công tác\".",
+     "ex": [
+      [
+       "差不多",
+       "chàbuduō",
+       "chàbuduō",
+       "gần như"
+      ],
+      [
+       "很差",
+       "hěn chà",
+       "hěn chà",
+       "rất kém"
+      ],
+      [
+       "差别",
+       "chābié",
+       "chābié",
+       "sự khác biệt"
+      ],
+      [
+       "出差",
+       "chūchāi",
+       "chūchāi",
+       "đi công tác"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "为 wèi / wéi",
+     "d": "wèi là \"vì, cho\" (为什么, 因为, 为了). wéi là \"làm, thành, là\" (认为, 成为, 以为). Mẹo: nghĩa \"vì\" là wèi, nghĩa \"cho là, trở thành\" là wéi.",
+     "ex": [
+      [
+       "为什么",
+       "wèi shénme",
+       "wèi shénme",
+       "tại sao"
+      ],
+      [
+       "因为",
+       "yīnwèi",
+       "yīnwèi",
+       "bởi vì"
+      ],
+      [
+       "认为",
+       "rènwéi",
+       "rènwéi",
+       "cho rằng"
+      ],
+      [
+       "成为",
+       "chéngwéi",
+       "chéngwéi",
+       "trở thành"
+      ],
+      [
+       "以为",
+       "yǐwéi",
+       "yǐwéi",
+       "tưởng là"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "和 hé / huo / huó / hú",
+     "d": "hé là \"và, hòa\" (我和你, 和平). Trong 暖和, 和 đọc nhẹ huo. huó là \"nhào, trộn bột\" (和面). hú là \"ù\" khi chơi mạt chược. Ở HSK chủ yếu gặp hé và 暖和 nuǎnhuo.",
+     "ex": [
+      [
+       "我和你",
+       "wǒ hé nǐ",
+       "wǒ hé nǐ",
+       "tôi và bạn"
+      ],
+      [
+       "暖和",
+       "nuǎnhuo",
+       "nuǎnhuo",
+       "ấm áp"
+      ],
+      [
+       "和面",
+       "huómiàn",
+       "huómiàn",
+       "nhào bột"
+      ],
+      [
+       "和平",
+       "hépíng",
+       "hépíng",
+       "hòa bình"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "都 dōu / dū",
+     "d": "dōu là phó từ \"đều, cũng\" (都是, 都来了). dū là \"thủ đô, thành phố lớn\" (首都, 成都, 都市). Mẹo: phó từ đứng trước động từ là dōu.",
+     "ex": [
+      [
+       "都是",
+       "dōu shì",
+       "dōu shì",
+       "đều là"
+      ],
+      [
+       "首都",
+       "shǒudū",
+       "shǒudū",
+       "thủ đô"
+      ],
+      [
+       "成都",
+       "Chéngdū",
+       "Chéngdū",
+       "Thành Đô"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "只 zhǐ / zhī",
+     "d": "zhǐ là phó từ \"chỉ\" (只有, 只是). zhī là lượng từ cho động vật và một bên của đồ có đôi (一只猫, 两只手). Mẹo: đứng sau số từ là lượng từ zhī.",
+     "ex": [
+      [
+       "只有",
+       "zhǐyǒu",
+       "zhíyǒu",
+       "chỉ có"
+      ],
+      [
+       "只是",
+       "zhǐshì",
+       "zhǐshì",
+       "chỉ là"
+      ],
+      [
+       "一只猫",
+       "yī zhī māo",
+       "yì zhī māo",
+       "một con mèo"
+      ],
+      [
+       "两只手",
+       "liǎng zhī shǒu",
+       "liǎng zhī shǒu",
+       "hai bàn tay"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "数 shù / shǔ",
+     "d": "shù là danh từ \"số\" (数学, 数字). shǔ là động từ \"đếm\" (数一数, 数钱). Mẹo: hành động đếm là shǔ.",
+     "ex": [
+      [
+       "数学",
+       "shùxué",
+       "shùxué",
+       "toán học"
+      ],
+      [
+       "数字",
+       "shùzì",
+       "shùzì",
+       "chữ số"
+      ],
+      [
+       "数一数",
+       "shǔ yī shǔ",
+       "shǔ yi shǔ",
+       "đếm thử"
+      ],
+      [
+       "数钱",
+       "shǔ qián",
+       "shǔ qián",
+       "đếm tiền"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "教 jiāo / jiào",
+     "d": "jiāo là động từ \"dạy\", thường có tân ngữ (教汉语, 教书). jiào dùng trong từ ghép danh từ (教室, 教育, 教授). Mẹo: hành động dạy một ai đó cái gì là jiāo.",
+     "ex": [
+      [
+       "教汉语",
+       "jiāo Hànyǔ",
+       "jiāo Hànyǔ",
+       "dạy tiếng Trung"
+      ],
+      [
+       "教书",
+       "jiāo shū",
+       "jiāo shū",
+       "dạy học"
+      ],
+      [
+       "教室",
+       "jiàoshì",
+       "jiàoshì",
+       "phòng học"
+      ],
+      [
+       "教育",
+       "jiàoyù",
+       "jiàoyù",
+       "giáo dục"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "种 zhǒng / zhòng",
+     "d": "zhǒng là lượng từ/danh từ \"loại, giống\" (这种, 种类). zhòng là động từ \"trồng\" (种花, 种树). Mẹo: trồng cây là zhòng.",
+     "ex": [
+      [
+       "这种",
+       "zhè zhǒng",
+       "zhè zhǒng",
+       "loại này"
+      ],
+      [
+       "种类",
+       "zhǒnglèi",
+       "zhǒnglèi",
+       "chủng loại"
+      ],
+      [
+       "种花",
+       "zhòng huā",
+       "zhòng huā",
+       "trồng hoa"
+      ],
+      [
+       "种树",
+       "zhòng shù",
+       "zhòng shù",
+       "trồng cây"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "少 shǎo / shào",
+     "d": "shǎo là \"ít\" (很少, 多少, 少一点). shào là \"trẻ\" (少年, 少女). Mẹo: nghĩa \"trẻ tuổi\" thì là shào.",
+     "ex": [
+      [
+       "很少",
+       "hěn shǎo",
+       "hén shǎo",
+       "rất ít"
+      ],
+      [
+       "多少",
+       "duōshao",
+       "duōshao",
+       "bao nhiêu"
+      ],
+      [
+       "少年",
+       "shàonián",
+       "shàonián",
+       "thiếu niên"
+      ],
+      [
+       "少女",
+       "shàonǚ",
+       "shàonǚ",
+       "thiếu nữ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "发 fā / fà",
+     "d": "fā là \"phát, gửi, phát sinh\" (发现, 出发, 发短信). fà là \"tóc\" (头发, 理发). Mẹo: liên quan đến tóc là fà; trong 头发 đọc nhẹ tóufa.",
+     "ex": [
+      [
+       "发现",
+       "fāxiàn",
+       "fāxiàn",
+       "phát hiện"
+      ],
+      [
+       "出发",
+       "chūfā",
+       "chūfā",
+       "xuất phát"
+      ],
+      [
+       "头发",
+       "tóufa",
+       "tóufa",
+       "tóc"
+      ],
+      [
+       "理发",
+       "lǐfà",
+       "lǐfà",
+       "cắt tóc"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "空 kōng / kòng",
+     "d": "kōng là \"trống rỗng, bầu trời, không khí\" (天空, 空气, 空调). kòng là \"thời gian rảnh, chỗ trống\" (有空, 空儿). Mẹo: \"rảnh\" là kòng; 空调 là kōngtiáo.",
+     "ex": [
+      [
+       "天空",
+       "tiānkōng",
+       "tiānkōng",
+       "bầu trời"
+      ],
+      [
+       "空调",
+       "kōngtiáo",
+       "kōngtiáo",
+       "điều hòa"
+      ],
+      [
+       "有空",
+       "yǒu kòng",
+       "yǒu kòng",
+       "có thời gian rảnh"
+      ],
+      [
+       "空儿",
+       "kòngr",
+       "kòngr",
+       "lúc rảnh"
+      ]
+     ],
+     "warn": "Hay nhầm 空调 thành kòngtiáo. Điều hòa là kōngtiáo."
+    },
+    {
+     "t": "调 diào / tiáo",
+     "d": "diào là \"điều động, điệu, tra\" (声调, 调查). tiáo là \"điều chỉnh, pha\" (空调, 调整). Mẹo: \"chỉnh cho vừa\" là tiáo, \"thanh điệu, điều tra\" là diào.",
+     "ex": [
+      [
+       "声调",
+       "shēngdiào",
+       "shēngdiào",
+       "thanh điệu"
+      ],
+      [
+       "调查",
+       "diàochá",
+       "diàochá",
+       "điều tra"
+      ],
+      [
+       "空调",
+       "kōngtiáo",
+       "kōngtiáo",
+       "điều hòa"
+      ],
+      [
+       "调整",
+       "tiáozhěng",
+       "tiáozhěng",
+       "điều chỉnh"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "中 zhōng / zhòng",
+     "d": "zhōng là \"giữa, trung\" (中国, 中间). zhòng là \"trúng\" (中奖, 看中, 打中). Mẹo: nghĩa \"trúng đích\" thì là zhòng.",
+     "ex": [
+      [
+       "中国",
+       "Zhōngguó",
+       "Zhōngguó",
+       "Trung Quốc"
+      ],
+      [
+       "中间",
+       "zhōngjiān",
+       "zhōngjiān",
+       "ở giữa"
+      ],
+      [
+       "中奖",
+       "zhòngjiǎng",
+       "zhòngjiǎng",
+       "trúng thưởng"
+      ],
+      [
+       "看中",
+       "kànzhòng",
+       "kànzhòng",
+       "ưng ý, chấm trúng"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "看 kàn / kān",
+     "d": "kàn là \"nhìn, xem, đọc\" (看书, 看电视). kān là \"trông coi, canh giữ\" (看孩子, 看门). Mẹo: \"trông giữ\" là kān.",
+     "ex": [
+      [
+       "看书",
+       "kàn shū",
+       "kàn shū",
+       "đọc sách"
+      ],
+      [
+       "看电视",
+       "kàn diànshì",
+       "kàn diànshì",
+       "xem tivi"
+      ],
+      [
+       "看孩子",
+       "kān háizi",
+       "kān háizi",
+       "trông trẻ"
+      ],
+      [
+       "看门",
+       "kān mén",
+       "kān mén",
+       "trông cửa"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "要 yào / yāo",
+     "d": "yào là \"muốn, cần, sắp\" (需要, 重要, 要去). yāo là \"yêu cầu, ép\" (要求). Mẹo: chủ yếu chỉ cần nhớ 要求 yāoqiú.",
+     "ex": [
+      [
+       "需要",
+       "xūyào",
+       "xūyào",
+       "cần"
+      ],
+      [
+       "重要",
+       "zhòngyào",
+       "zhòngyào",
+       "quan trọng"
+      ],
+      [
+       "要求",
+       "yāoqiú",
+       "yāoqiú",
+       "yêu cầu"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "相 xiāng / xiàng",
+     "d": "xiāng là \"lẫn nhau\" (相信, 互相, 相同). xiàng là \"tướng mạo, ảnh\" (照相, 相机, 首相). Mẹo: liên quan đến ảnh, ngoại hình là xiàng.",
+     "ex": [
+      [
+       "相信",
+       "xiāngxìn",
+       "xiāngxìn",
+       "tin tưởng"
+      ],
+      [
+       "互相",
+       "hùxiāng",
+       "hùxiāng",
+       "lẫn nhau"
+      ],
+      [
+       "照相",
+       "zhàoxiàng",
+       "zhàoxiàng",
+       "chụp ảnh"
+      ],
+      [
+       "相机",
+       "xiàngjī",
+       "xiàngjī",
+       "máy ảnh"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "处 chù / chǔ",
+     "d": "chù là danh từ \"nơi, chỗ\" (到处, 好处, 用处). chǔ là động từ \"xử lý, ở cùng\" (处理, 相处). Mẹo: danh từ chỉ nơi là chù, động từ là chǔ.",
+     "ex": [
+      [
+       "到处",
+       "dàochù",
+       "dàochù",
+       "khắp nơi"
+      ],
+      [
+       "好处",
+       "hǎochu",
+       "hǎochu",
+       "lợi ích"
+      ],
+      [
+       "处理",
+       "chǔlǐ",
+       "chúlǐ",
+       "xử lý"
+      ],
+      [
+       "相处",
+       "xiāngchǔ",
+       "xiāngchǔ",
+       "chung sống"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "假 jià / jiǎ",
+     "d": "jià là \"kỳ nghỉ\" (放假, 假期, 请假). jiǎ là \"giả\" (假的, 真假, 假如). Mẹo: nghỉ là jià, giả là jiǎ.",
+     "ex": [
+      [
+       "放假",
+       "fàngjià",
+       "fàngjià",
+       "được nghỉ"
+      ],
+      [
+       "请假",
+       "qǐngjià",
+       "qǐngjià",
+       "xin nghỉ"
+      ],
+      [
+       "假的",
+       "jiǎ de",
+       "jiǎ de",
+       "đồ giả"
+      ],
+      [
+       "假如",
+       "jiǎrú",
+       "jiǎrú",
+       "giả sử"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "间 jiān / jiàn",
+     "d": "jiān là \"khoảng, giữa, gian phòng\" (时间, 房间, 中间). jiàn là \"khe hở, cách quãng\" (间接, 间隔). Mẹo: HSK 1-4 hầu hết là jiān; jiàn chủ yếu trong 间接, 间隔.",
+     "ex": [
+      [
+       "时间",
+       "shíjiān",
+       "shíjiān",
+       "thời gian"
+      ],
+      [
+       "房间",
+       "fángjiān",
+       "fángjiān",
+       "căn phòng"
+      ],
+      [
+       "间接",
+       "jiànjiē",
+       "jiànjiē",
+       "gián tiếp"
+      ],
+      [
+       "间隔",
+       "jiàngé",
+       "jiàngé",
+       "khoảng cách"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "角 jiǎo / jué",
+     "d": "jiǎo là \"góc, sừng, hào (tiền)\" (一角, 角度). jué là \"vai diễn\" (主角, 角色). Mẹo: liên quan đến diễn xuất là jué.",
+     "ex": [
+      [
+       "一角",
+       "yī jiǎo",
+       "yì jiǎo",
+       "một hào"
+      ],
+      [
+       "角度",
+       "jiǎodù",
+       "jiǎodù",
+       "góc độ"
+      ],
+      [
+       "主角",
+       "zhǔjué",
+       "zhǔjué",
+       "vai chính"
+      ],
+      [
+       "角色",
+       "juésè",
+       "juésè",
+       "vai trò"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "应 yīng / yìng",
+     "d": "yīng là \"nên\" (应该, 应当). yìng là \"đáp lại, ứng phó\" (答应, 反应, 适应). Mẹo: nghĩa \"nên\" là yīng. Trong 答应, 应 đọc nhẹ.",
+     "ex": [
+      [
+       "应该",
+       "yīnggāi",
+       "yīnggāi",
+       "nên"
+      ],
+      [
+       "答应",
+       "dāying",
+       "dāying",
+       "đồng ý, nhận lời"
+      ],
+      [
+       "反应",
+       "fǎnyìng",
+       "fǎnyìng",
+       "phản ứng"
+      ],
+      [
+       "适应",
+       "shìyìng",
+       "shìyìng",
+       "thích nghi"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "当 dāng / dàng",
+     "d": "dāng là \"làm, đảm nhận, khi\" (当然, 当时, 当老师). dàng là \"thích đáng, coi là, mắc lừa\" (上当, 当作, 恰当). Mẹo: \"bị lừa\" và \"coi như\" là dàng.",
+     "ex": [
+      [
+       "当然",
+       "dāngrán",
+       "dāngrán",
+       "đương nhiên"
+      ],
+      [
+       "当时",
+       "dāngshí",
+       "dāngshí",
+       "lúc đó"
+      ],
+      [
+       "上当",
+       "shàngdàng",
+       "shàngdàng",
+       "mắc lừa"
+      ],
+      [
+       "当作",
+       "dàngzuò",
+       "dàngzuò",
+       "coi như"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "背 bèi / bēi",
+     "d": "bèi là \"lưng, mặt sau, học thuộc\" (后背, 背书, 背单词). bēi là động từ \"cõng, đeo trên lưng\" (背孩子, 背书包). Mẹo: hành động mang trên lưng là bēi.",
+     "ex": [
+      [
+       "后背",
+       "hòubèi",
+       "hòubèi",
+       "lưng"
+      ],
+      [
+       "背单词",
+       "bèi dāncí",
+       "bèi dāncí",
+       "học thuộc từ"
+      ],
+      [
+       "背孩子",
+       "bēi háizi",
+       "bēi háizi",
+       "cõng con"
+      ],
+      [
+       "背书包",
+       "bēi shūbāo",
+       "bēi shūbāo",
+       "đeo cặp"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "干 gān / gàn",
+     "d": "gān là \"khô\" (干净, 饼干, 干燥). gàn là \"làm\" (干什么, 能干, 干活). Mẹo: \"làm việc\" là gàn. Hai nghĩa này vốn là hai chữ phồn thể khác nhau (乾 và 幹).",
+     "ex": [
+      [
+       "干净",
+       "gānjìng",
+       "gānjìng / gānjing",
+       "sạch sẽ"
+      ],
+      [
+       "饼干",
+       "bǐnggān",
+       "bǐnggān",
+       "bánh quy"
+      ],
+      [
+       "干什么",
+       "gàn shénme",
+       "gàn shénme",
+       "làm gì"
+      ],
+      [
+       "能干",
+       "nénggàn",
+       "nénggàn",
+       "giỏi giang"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "难 nán / nàn",
+     "d": "nán là \"khó\" (困难, 难过, 很难). nàn là \"tai họa\" (灾难, 难民). Mẹo: HSK 1-4 hầu hết là nán.",
+     "ex": [
+      [
+       "很难",
+       "hěn nán",
+       "hěn nán",
+       "rất khó"
+      ],
+      [
+       "困难",
+       "kùnnan",
+       "kùnnan",
+       "khó khăn"
+      ],
+      [
+       "灾难",
+       "zāinàn",
+       "zāinàn",
+       "tai họa"
+      ],
+      [
+       "难民",
+       "nànmín",
+       "nànmín",
+       "người tị nạn"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "量 liàng / liáng",
+     "d": "liàng là danh từ \"lượng\" (数量, 质量). liáng là động từ \"đo\" (量体温). Trong 商量, 量 đọc nhẹ. Mẹo: hành động đo là liáng.",
+     "ex": [
+      [
+       "数量",
+       "shùliàng",
+       "shùliàng",
+       "số lượng"
+      ],
+      [
+       "质量",
+       "zhìliàng",
+       "zhìliàng",
+       "chất lượng"
+      ],
+      [
+       "量体温",
+       "liáng tǐwēn",
+       "liáng tǐwēn",
+       "đo nhiệt độ"
+      ],
+      [
+       "商量",
+       "shāngliang",
+       "shāngliang",
+       "bàn bạc"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "大 dà / dài",
+     "d": "dà là \"to, lớn\" (大学, 很大). dài chỉ gặp trong vài từ như 大夫 (bác sĩ). Mẹo: chỉ cần nhớ 大夫 dàifu.",
+     "ex": [
+      [
+       "大学",
+       "dàxué",
+       "dàxué",
+       "đại học"
+      ],
+      [
+       "很大",
+       "hěn dà",
+       "hěn dà",
+       "rất to"
+      ],
+      [
+       "大夫",
+       "dàifu",
+       "dàifu",
+       "bác sĩ"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "会 huì / kuài",
+     "d": "huì là \"biết, sẽ, họp\" (会说, 开会, 机会). kuài chỉ gặp trong 会计 (kế toán). Mẹo: chỉ cần nhớ 会计 kuàijì.",
+     "ex": [
+      [
+       "会说",
+       "huì shuō",
+       "huì shuō",
+       "biết nói"
+      ],
+      [
+       "开会",
+       "kāihuì",
+       "kāihuì",
+       "họp"
+      ],
+      [
+       "会计",
+       "kuàijì",
+       "kuàijì",
+       "kế toán"
+      ]
+     ],
+     "warn": ""
+    }
+   ]
+  },
+  {
+   "id": "stress",
+   "title": "Trọng âm và ngữ điệu",
+   "intro": "Ngoài thanh điệu của từng chữ, tiếng Trung còn có trọng âm từ và ngữ điệu câu. Khác với tiếng Việt, ngữ điệu câu không được làm mất thanh điệu.",
+   "rules": [
+    {
+     "t": "Từ hai âm tiết: nhẹ - nặng",
+     "d": "Đa số từ hai âm tiết không có thanh nhẹ được đọc với âm thứ hai rõ hơn, dài hơn một chút (gọi là \"trung - nặng\"). Âm đầu vẫn giữ đủ thanh nhưng ngắn hơn. Ngược lại, từ có âm sau là thanh nhẹ (妈妈, 朋友) thì nặng ở âm đầu. Đây là xu hướng chung, không phải luật cứng, khác biệt không lớn như trong tiếng Anh.",
+     "ex": [
+      [
+       "学习",
+       "xuéxí",
+       "xuéxí (xí rõ và dài hơn)",
+       "học tập"
+      ],
+      [
+       "汉语",
+       "Hànyǔ",
+       "Hànyǔ (yǔ rõ hơn)",
+       "tiếng Hán"
+      ],
+      [
+       "电话",
+       "diànhuà",
+       "diànhuà (huà rõ hơn)",
+       "điện thoại"
+      ],
+      [
+       "朋友",
+       "péngyou",
+       "péngyou (nặng ở péng)",
+       "bạn bè"
+      ]
+     ],
+     "warn": "Người Việt đọc từng âm tiết đều nhau, mỗi chữ một nhịp, nghe như đánh vần. Hãy để âm sau \"chốt\" từ."
+    },
+    {
+     "t": "Từ ba âm tiết: trung - nhẹ - nặng",
+     "d": "Từ ba âm tiết thường đọc âm đầu ở mức trung bình, âm giữa ngắn và nhẹ nhất, âm cuối rõ và dài nhất. Âm giữa vẫn giữ thanh, chỉ là lướt nhanh. Nếu âm cuối là thanh nhẹ (小伙子) thì trọng âm dồn về âm giữa.",
+     "ex": [
+      [
+       "图书馆",
+       "túshūguǎn",
+       "túshūguǎn (nhấn guǎn, shū lướt nhanh)",
+       "thư viện"
+      ],
+      [
+       "电视机",
+       "diànshìjī",
+       "diànshìjī (nhấn jī, shì lướt nhanh)",
+       "máy tivi"
+      ],
+      [
+       "出租车",
+       "chūzūchē",
+       "chūzūchē (nhấn chē, zū lướt nhanh)",
+       "taxi"
+      ],
+      [
+       "星期天",
+       "xīngqītiān",
+       "xīngqītiān (nhấn tiān, qī lướt nhanh)",
+       "chủ nhật"
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Câu hỏi với 吗: không lên giọng như tiếng Việt",
+     "d": "Trong tiếng Trung, thanh điệu của từng chữ vẫn phải giữ nguyên trong câu hỏi; ngữ điệu chỉ làm cả câu cao lên một chút. 吗 đọc nhẹ, ngắn. Không được kéo cao chữ cuối như câu hỏi tiếng Việt, vì như vậy sẽ phá thanh của chữ cuối (đặc biệt chữ thanh 4, thanh 3).",
+     "ex": [
+      [
+       "你是老师吗？",
+       "Nǐ shì lǎoshī ma?",
+       "Nǐ shì lǎoshī ma? (ma nhẹ, ngắn)",
+       "Bạn là giáo viên à?"
+      ],
+      [
+       "你好吗？",
+       "Nǐ hǎo ma?",
+       "Ní hǎo ma?",
+       "Bạn khỏe không?"
+      ],
+      [
+       "他去吗？",
+       "Tā qù ma?",
+       "Tā qù ma? (qù vẫn đi xuống)",
+       "Anh ấy có đi không?"
+      ]
+     ],
+     "warn": "Người Việt hay kéo cao cả chữ trước 吗, ví dụ đọc qù thành thanh 2. Thanh 4 trước 吗 vẫn phải đi xuống."
+    },
+    {
+     "t": "Câu hỏi có từ để hỏi: nhấn vào từ để hỏi",
+     "d": "Câu dùng từ để hỏi (谁, 什么, 哪儿, 怎么, 为什么, 几, 多少) không có 吗 ở cuối, và trọng âm rơi vào từ để hỏi. Cuối câu không cần lên giọng.",
+     "ex": [
+      [
+       "你去哪儿？",
+       "Nǐ qù nǎr?",
+       "Nǐ qù nǎr? (nhấn nǎr)",
+       "Bạn đi đâu?"
+      ],
+      [
+       "这是什么？",
+       "Zhè shì shénme?",
+       "Zhè shì shénme? (nhấn shén)",
+       "Đây là cái gì?"
+      ],
+      [
+       "谁是你的老师？",
+       "Shéi shì nǐ de lǎoshī?",
+       "Shéi shì nǐ de lǎoshī? (nhấn shéi)",
+       "Ai là giáo viên của bạn?"
+      ]
+     ],
+     "warn": "Lỗi hay gặp là thêm 吗 vào câu đã có từ để hỏi (你去哪儿吗? là sai)."
+    },
+    {
+     "t": "Nhấn mạnh bằng 是...的 và bằng trọng âm",
+     "d": "Để nhấn mạnh thời gian, nơi chốn, cách thức của một việc đã xảy ra, dùng cấu trúc 是...的, phần ở giữa được nhấn giọng. Ngoài ra có thể nhấn mạnh bất kỳ thành phần nào bằng cách đọc to, rõ, dài hơn chữ đó, nghĩa ngầm của câu thay đổi theo chỗ nhấn. Khi nhấn, thanh điệu của chữ được phóng to (cao càng cao, thấp càng thấp), không bị đổi.",
+     "ex": [
+      [
+       "我是昨天来的。",
+       "Wǒ shì zuótiān lái de.",
+       "Wǒ shì zuótiān lái de. (nhấn 昨天)",
+       "Tôi đến hôm qua (chứ không phải hôm nay)."
+      ],
+      [
+       "我是坐飞机来的。",
+       "Wǒ shì zuò fēijī lái de.",
+       "Wǒ shì zuò fēijī lái de. (nhấn 飞机)",
+       "Tôi đến bằng máy bay."
+      ],
+      [
+       "我喜欢他。",
+       "Wǒ xǐhuan tā.",
+       "Wǒ xǐhuan tā. (nhấn 我: chính tôi thích, không phải người khác)",
+       "Tôi thích anh ấy."
+      ]
+     ],
+     "warn": ""
+    },
+    {
+     "t": "Tốc độ và ngắt nhịp theo cụm ý",
+     "d": "Câu tiếng Trung được nói theo từng cụm nghĩa (chủ ngữ, trạng ngữ, cụm động từ), không ngắt sau mỗi chữ. Trong một cụm, các chữ đọc liền, biến điệu (3+3, 一, 不) xảy ra trong cụm; giữa hai cụm có thể ngắt nhẹ, khi đó biến điệu có thể không xảy ra qua chỗ ngắt. Ví dụ 我 | 很想 | 买 có thể đọc wǒ | hén xiǎng | mǎi.",
+     "ex": [
+      [
+       "我们明天去北京。",
+       "Wǒmen míngtiān qù Běijīng.",
+       "Wǒmen | míngtiān | qù Běijīng.",
+       "Ngày mai chúng tôi đi Bắc Kinh."
+      ],
+      [
+       "他的中文老师是北京人。",
+       "Tā de Zhōngwén lǎoshī shì Běijīng rén.",
+       "Tā de Zhōngwén lǎoshī | shì Běijīng rén.",
+       "Giáo viên tiếng Trung của anh ấy là người Bắc Kinh."
+      ],
+      [
+       "我很想买。",
+       "Wǒ hěn xiǎng mǎi.",
+       "Wǒ | hén xiǎng mǎi.",
+       "Tôi rất muốn mua."
+      ]
+     ],
+     "warn": "Người Việt hay đọc từng chữ một nhịp đều, mỗi chữ dừng lại, làm biến điệu và thanh nhẹ biến mất. Hãy tập đọc theo cụm."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "zh": "你好",
+   "written": "nǐ hǎo",
+   "o": [
+    "ní hǎo",
+    "nǐ hǎo (đọc đủ hai thanh 3)",
+    "ní háo",
+    "nǐ háo"
+   ],
+   "a": 0,
+   "w": "Thanh 3 + thanh 3: chữ đầu đổi thành thanh 2, chữ sau giữ thanh 3."
+  },
+  {
+   "zh": "展览馆",
+   "written": "zhǎnlǎnguǎn",
+   "o": [
+    "zhǎnlánguǎn",
+    "zhánlǎnguǎn",
+    "zhǎnlǎnguǎn",
+    "zhánlánguǎn"
+   ],
+   "a": 3,
+   "w": "Ba thanh 3 kiểu 2+1 ([展览]馆): hai chữ đầu đều thành thanh 2."
+  },
+  {
+   "zh": "小老虎",
+   "written": "xiǎo lǎohǔ",
+   "o": [
+    "xiáo lǎohǔ",
+    "xiǎo lǎohú",
+    "xiǎo láohǔ",
+    "xiáo láohú"
+   ],
+   "a": 2,
+   "w": "Ba thanh 3 kiểu 1+2 (小[老虎]): 小 nửa thanh 3, 老 thành thanh 2, 虎 giữ thanh 3."
+  },
+  {
+   "zh": "一定",
+   "written": "yīdìng",
+   "o": [
+    "yìdìng",
+    "yídìng",
+    "yīdìng",
+    "yidìng"
+   ],
+   "a": 1,
+   "w": "一 trước thanh 4 đọc thành thanh 2: yí."
+  },
+  {
+   "zh": "一起",
+   "written": "yīqǐ",
+   "o": [
+    "yíqǐ",
+    "yìqǐ",
+    "yīqǐ",
+    "yíqí"
+   ],
+   "a": 1,
+   "w": "一 trước thanh 3 (cũng như thanh 1, 2) đọc thành thanh 4: yì."
+  },
+  {
+   "zh": "第一",
+   "written": "dì yī",
+   "o": [
+    "dì yī",
+    "dì yí",
+    "dì yì",
+    "dì yi"
+   ],
+   "a": 0,
+   "w": "一 là số thứ tự (第一) thì giữ nguyên yī."
+  },
+  {
+   "zh": "不客气",
+   "written": "bù kèqi",
+   "o": [
+    "bù kèqi",
+    "bú kéqi",
+    "bu kèqì",
+    "bú kèqi"
+   ],
+   "a": 3,
+   "w": "不 trước 客 (thanh 4) đổi thành bú; 气 đọc nhẹ."
+  },
+  {
+   "zh": "看不懂",
+   "written": "kàn bù dǒng",
+   "o": [
+    "kàn bú dǒng",
+    "kàn bù dóng",
+    "kàn bu dǒng",
+    "kán bu dǒng"
+   ],
+   "a": 2,
+   "w": "Trong bổ ngữ khả năng, 不 đọc thanh nhẹ."
+  },
+  {
+   "zh": "想想",
+   "written": "xiǎngxiang",
+   "o": [
+    "xiǎngxiang (giữ nửa thanh 3)",
+    "xiǎngxiǎng",
+    "xiángxiang",
+    "xiāngxiang"
+   ],
+   "a": 2,
+   "w": "Động từ láy thanh 3 + thanh nhẹ gốc thanh 3: chữ đầu đọc thành thanh 2."
+  },
+  {
+   "zh": "姐姐",
+   "written": "jiějie",
+   "o": [
+    "jiéjie",
+    "jiějie",
+    "jiějiě",
+    "jiējie"
+   ],
+   "a": 1,
+   "w": "Danh từ láy chỉ người thân: chữ đầu giữ nửa thanh 3, chữ sau đọc nhẹ, hơi cao."
+  },
+  {
+   "zh": "东西 (đồ vật)",
+   "written": "dōngxi",
+   "o": [
+    "dōngxi",
+    "dōngxī",
+    "dóngxi",
+    "dōngxì"
+   ],
+   "a": 0,
+   "w": "Nghĩa \"đồ vật\" thì 西 đọc nhẹ; dōngxī là \"đông và tây\"."
+  },
+  {
+   "zh": "大意 (sơ ý)",
+   "written": "dàyi",
+   "o": [
+    "dàyì",
+    "dáyi",
+    "dàyí",
+    "dàyi"
+   ],
+   "a": 3,
+   "w": "Nghĩa \"sơ ý\" thì 意 đọc nhẹ; dàyì là \"ý chính\"."
+  },
+  {
+   "zh": "朋友",
+   "written": "péngyou",
+   "o": [
+    "péngyǒu",
+    "pēngyou",
+    "péngyóu",
+    "péngyou"
+   ],
+   "a": 3,
+   "w": "朋友 là từ cố định có âm sau đọc nhẹ."
+  },
+  {
+   "zh": "我的",
+   "written": "wǒ de",
+   "o": [
+    "Thanh nhẹ thấp, rơi xuống như thanh 4 ngắn",
+    "Đọc de thành thanh 2 rõ",
+    "Thanh nhẹ hơi cao, sau nửa thanh 3",
+    "Đọc de ngang như thanh 1 dài"
+   ],
+   "a": 2,
+   "w": "Sau thanh 3, giọng đang ở thấp nên thanh nhẹ bật lên hơi cao."
+  },
+  {
+   "zh": "进来",
+   "written": "jìn lái",
+   "o": [
+    "jìnlái",
+    "jìnlai",
+    "jínlai",
+    "jìnlài"
+   ],
+   "a": 1,
+   "w": "Bổ ngữ xu hướng 来 sau động từ đọc nhẹ."
+  },
+  {
+   "zh": "一个",
+   "written": "yī gè",
+   "o": [
+    "yí ge",
+    "yì ge",
+    "yī gè",
+    "yì gè"
+   ],
+   "a": 0,
+   "w": "个 gốc thanh 4 nên 一 đọc yí; 个 làm lượng từ đọc nhẹ."
+  },
+  {
+   "zh": "玩儿",
+   "written": "wánr",
+   "o": [
+    "wár",
+    "wán ér",
+    "wān'ér",
+    "wàr"
+   ],
+   "a": 0,
+   "w": "儿化 với vần -n: âm n rụng rồi cuốn lưỡi, không đọc 儿 thành âm tiết riêng."
+  },
+  {
+   "zh": "空儿",
+   "written": "kòngr",
+   "o": [
+    "kòr, bỏ hẳn âm mũi",
+    "kòng ér, hai âm tiết",
+    "kōngr, thanh 1",
+    "kòngr, nguyên âm mũi hóa rồi cuốn lưỡi"
+   ],
+   "a": 3,
+   "w": "儿化 với vần -ng: nguyên âm đọc qua mũi và cuốn lưỡi; 空 nghĩa \"rảnh\" là kòng."
+  },
+  {
+   "zh": "哪儿",
+   "written": "nǎr",
+   "o": [
+    "nǎ (cái nào)",
+    "nǎ ér (hai âm tiết)",
+    "nǎr (ở đâu)",
+    "nàr (thanh 4)"
+   ],
+   "a": 2,
+   "w": "哪 là \"nào\", 哪儿 là \"ở đâu\"; 儿化 ở đây đổi nghĩa."
+  },
+  {
+   "zh": "事儿",
+   "written": "shìr",
+   "o": [
+    "shì ér",
+    "shèr",
+    "shìr với i đọc như \"i\"",
+    "shǐr"
+   ],
+   "a": 1,
+   "w": "儿化 sau shi: nguyên âm -i được thay bằng âm \"ơ\" cuốn lưỡi."
+  },
+  {
+   "zh": "好啊",
+   "written": "hǎo a",
+   "o": [
+    "hǎo ya",
+    "hǎo wa",
+    "hǎo na",
+    "hǎo ra"
+   ],
+   "a": 1,
+   "w": "hǎo kết thúc bằng âm u (ao = [au]) nên 啊 đọc wa."
+  },
+  {
+   "zh": "天啊",
+   "written": "tiān a",
+   "o": [
+    "tiān na",
+    "tiān ya",
+    "tiān nga",
+    "tiān wa"
+   ],
+   "a": 0,
+   "w": "Sau -n, 啊 đọc na (viết 哪)."
+  },
+  {
+   "zh": "是啊",
+   "written": "shì a",
+   "o": [
+    "shì ya",
+    "shì [z]a",
+    "shì wa",
+    "shì ra"
+   ],
+   "a": 3,
+   "w": "Sau shi (nguyên âm uốn lưỡi), 啊 đọc ra."
+  },
+  {
+   "zh": "唱啊",
+   "written": "chàng a",
+   "o": [
+    "chàng na",
+    "chàng ya",
+    "chàng nga",
+    "chàng wa"
+   ],
+   "a": 2,
+   "w": "Sau -ng, 啊 đọc nga."
+  },
+  {
+   "zh": "字啊",
+   "written": "zì a",
+   "o": [
+    "zì ra",
+    "zì ya",
+    "zì [z]a",
+    "zì wa"
+   ],
+   "a": 2,
+   "w": "Sau zi, ci, si, 啊 đọc [z]a; khác với nhóm zhi chi shi (ra)."
+  },
+  {
+   "zh": "六",
+   "written": "liù",
+   "o": [
+    "l + iu như \"liu\" tiếng Việt",
+    "l + iou: o nghe rõ ở thanh 4",
+    "l + ü",
+    "l + ou, không có i"
+   ],
+   "a": 1,
+   "w": "iu là viết tắt của iou; ở thanh 3 và 4 âm o nghe rõ."
+  },
+  {
+   "zh": "去",
+   "written": "qù",
+   "o": [
+    "q + ü: môi tròn, lưỡi ở vị trí i",
+    "q + u như \"cu\"",
+    "đọc như \"quơ\" tiếng Việt",
+    "q + i"
+   ],
+   "a": 0,
+   "w": "Sau j q x y, chữ u thật ra là ü."
+  },
+  {
+   "zh": "字",
+   "written": "zì",
+   "o": [
+    "z + i như \"di\"",
+    "z + i như \"zi\" tiếng Anh",
+    "z + ơ",
+    "z + nguyên âm đầu lưỡi, gần \"chư\" không bật hơi"
+   ],
+   "a": 3,
+   "w": "-i sau z c s không phải là i mà là nguyên âm đầu lưỡi [ɹ̩]."
+  },
+  {
+   "zh": "西安",
+   "written": "Xī'ān",
+   "o": [
+    "Một âm tiết, giống 先 xiān",
+    "Ba âm tiết: xī + a + n",
+    "Hai âm tiết: xi + yān",
+    "Hai âm tiết: xī + ān"
+   ],
+   "a": 3,
+   "w": "Dấu ' tách âm tiết bắt đầu bằng a, o, e; Xī'ān khác xiān."
+  },
+  {
+   "zh": "对",
+   "written": "duì",
+   "o": [
+    "duy như \"đuy\" tiếng Việt",
+    "dòi",
+    "duèi (u-e-i, e nghe rõ)",
+    "dùi với u rồi i, không có e"
+   ],
+   "a": 2,
+   "w": "ui là viết tắt của uei; ở thanh 4 âm e nghe rõ."
+  },
+  {
+   "zh": "天",
+   "written": "tiān",
+   "o": [
+    "Gần \"thian\" với a mở",
+    "Gần \"thiên\" (a nâng thành ê)",
+    "Gần \"thiêng\"",
+    "Gần \"than\""
+   ],
+   "a": 1,
+   "w": "ian đọc gần \"iên\": a bị nâng lên thành [ɛ]."
+  },
+  {
+   "zh": "银行",
+   "written": "yínháng",
+   "o": [
+    "yínháng",
+    "yínxíng",
+    "yínhàng",
+    "yīnháng"
+   ],
+   "a": 0,
+   "w": "行 nghĩa \"hàng, ngành\" đọc háng."
+  },
+  {
+   "zh": "睡觉",
+   "written": "shuìjiào",
+   "o": [
+    "shuìjiào",
+    "shuìjué",
+    "shuìjiāo",
+    "shuíjiào"
+   ],
+   "a": 0,
+   "w": "觉 chỉ đọc jiào khi nói về giấc ngủ."
+  },
+  {
+   "zh": "长大",
+   "written": "zhǎngdà",
+   "o": [
+    "chángdà",
+    "zhàngdà",
+    "chǎngdà",
+    "zhǎngdà"
+   ],
+   "a": 3,
+   "w": "长 nghĩa \"lớn lên\" đọc zhǎng; nghĩa \"dài\" mới là cháng."
+  },
+  {
+   "zh": "便宜",
+   "written": "piányi",
+   "o": [
+    "biànyi",
+    "biànyí",
+    "piányi",
+    "piānyi"
+   ],
+   "a": 2,
+   "w": "便 chỉ đọc pián trong 便宜; 宜 đọc nhẹ."
+  },
+  {
+   "zh": "音乐",
+   "written": "yīnyuè",
+   "o": [
+    "yīnlè",
+    "yīnyuè",
+    "yīnluè",
+    "yìnyuè"
+   ],
+   "a": 1,
+   "w": "乐 liên quan đến âm nhạc đọc yuè; nghĩa \"vui\" mới là lè."
+  },
+  {
+   "zh": "要求",
+   "written": "yāoqiú",
+   "o": [
+    "yàoqiú",
+    "yāoqiú",
+    "yǎoqiú",
+    "yáoqiú"
+   ],
+   "a": 1,
+   "w": "要 trong 要求 đọc thanh 1: yāo."
+  },
+  {
+   "zh": "你是老师吗？",
+   "written": "Nǐ shì lǎoshī ma?",
+   "o": [
+    "Giữ thanh từng chữ, 吗 nhẹ và ngắn, không kéo cao cuối câu",
+    "Kéo cao giọng ở cuối như câu hỏi tiếng Việt",
+    "Đổi 师 thành thanh 2 để thành câu hỏi",
+    "Đọc 吗 thanh 1 và kéo dài"
+   ],
+   "a": 0,
+   "w": "Ngữ điệu câu hỏi không được phá thanh điệu; 吗 là thanh nhẹ."
+  },
+  {
+   "zh": "你去哪儿？",
+   "written": "Nǐ qù nǎr?",
+   "o": [
+    "Nhấn vào 你",
+    "Nhấn vào 去 và thêm 吗 ở cuối",
+    "Không nhấn chữ nào, chỉ lên giọng cuối câu",
+    "Nhấn vào 哪儿"
+   ],
+   "a": 3,
+   "w": "Câu hỏi có từ để hỏi: trọng âm rơi vào từ để hỏi, không dùng 吗."
+  },
+  {
+   "zh": "图书馆",
+   "written": "túshūguǎn",
+   "o": [
+    "Nặng - nhẹ - nhẹ (nhấn 图)",
+    "Nhẹ - nặng - nhẹ (nhấn 书)",
+    "Trung - nhẹ - nặng (nhấn 馆)",
+    "Ba âm bằng nhau, mỗi chữ một nhịp"
+   ],
+   "a": 2,
+   "w": "Từ ba âm tiết thường có âm giữa nhẹ nhất, âm cuối rõ nhất."
+  }
+ ]
+}

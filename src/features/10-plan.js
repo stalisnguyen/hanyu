@@ -204,7 +204,7 @@ drawCard=function(){
 
 /* ---------- error reports ---------- */
 function reportForm(h){
-  const m=modal(`<h2>Báo lỗi: <span class="han">${esc(h)}</span></h2><p class="note">Ghi chỗ sai (nghĩa, pinyin, Hán Việt, câu ví dụ, âm thanh...). Báo cáo được lưu trong tiến độ của bạn, gửi Claude danh sách này để sửa theo đợt.</p>
+  const m=modal(`<h2>Báo lỗi: <span class="han">${esc(h)}</span></h2><p class="note">Ghi chỗ sai (nghĩa, pinyin, Hán Việt, câu ví dụ, âm thanh...). Báo cáo được lưu trong tiến độ của bạn, gửi danh sách này cho Claude trong chat để sửa theo đợt.</p>
     <textarea id="rpT" rows="3" placeholder="Ví dụ: nghĩa tiếng Việt nên là ..."></textarea><div class="row"><button class="btn primary" id="rpS">Lưu báo lỗi</button></div>`);
   $('#rpS',m.el).onclick=()=>{const t=$('#rpT',m.el).value.trim();if(!t)return;P.reports=P.reports||[];P.reports.push({h,t,d:Date.now()});touch('main');m.close();toast('Đã lưu. Xem lại ở Tổng quan -> Báo lỗi đã ghi.');};
 }

@@ -158,7 +158,7 @@ function parseJSON(text){
 function makeWebAI(){
   const call=async(input,opts={})=>{
     const messages=typeof input==='string'?[{role:'user',content:input}]:input;
-    if(opts.onText)opts.onText({text:'Claude đang viết...',delta:''});
+    if(opts.onText)opts.onText({text:'AI đang viết...',delta:''});
     const j=await api('api/ai',{body:{messages,tier:opts.modelTier||'default'}});
     const text=String(j.text||'');
     if(opts.onText)opts.onText({text,delta:text});
@@ -223,13 +223,13 @@ async function ask(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI(promp
 async function askJSON(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI.json(prompt,opts); }
 function aiError(e){
   const c=e&&e.code;
-  if(c==='not_granted')return WEB?'Cần nhập mật khẩu ứng dụng để dùng phần này.':'Bạn chưa cho phép trang dùng Claude. Mở menu Permissions của artifact để bật lại.';
+  if(c==='not_granted')return WEB?'Cần nhập mật khẩu ứng dụng để dùng phần này.':'Bạn chưa cho phép trang dùng AI. Mở menu Permissions của artifact để bật lại.';
   if(c==='rate_limited')return 'Đã chạm giới hạn lượt dùng miễn phí. Đợi một lúc (hoặc sang ngày mai) rồi thử lại.';
   if(c==='no_key')return 'Chưa có API key cho AI trong Vercel (GROQ_API_KEY, GEMINI_API_KEY hoặc ANTHROPIC_API_KEY).';
   if(c==='no_password')return 'Chưa đặt mật khẩu ứng dụng trong Vercel (biến APP_PASSWORD).';
   if(c==='billing')return 'Tài khoản API hết credit hoặc hết hạn mức miễn phí hôm nay.';
-  if(c==='bad_json')return 'Claude trả kết quả sai định dạng. Bấm thử lại.';
-  return 'Claude chưa trả lời được. Thử lại sau ít phút.';
+  if(c==='bad_json')return 'AI trả kết quả sai định dạng. Bấm thử lại.';
+  return 'AI chưa trả lời được. Thử lại sau ít phút.';
 }
 function refreshAIBits(){$$('.need-ai').forEach(el=>el.hidden=!AI);$$('.no-ai').forEach(el=>el.hidden=!!AI);}
 
@@ -396,7 +396,7 @@ function renderHome(el){
    <div class="grid3">
      <button class="panel" style="text-align:left" data-go="test"><h3>Thi thử HSK</h3><span class="note">12 đề theo format thật, có nghe, đọc, viết và chấm điểm.</span></button>
      <button class="panel" style="text-align:left" data-go="listen"><h3>Nghe</h3><span class="note">Chép chính tả, nghe chọn nghĩa, nghe chọn chữ.</span></button>
-     <button class="panel" style="text-align:left" data-go="speak"><h3>Nói</h3><span class="note">Nhại theo câu mẫu có chấm, hội thoại với Claude.</span></button>
+     <button class="panel" style="text-align:left" data-go="speak"><h3>Nói</h3><span class="note">Nhại theo câu mẫu có chấm, hội thoại với trợ lý AI.</span></button>
      <button class="panel" style="text-align:left" data-go="read"><h3>Đọc</h3><span class="note">60 bài đọc HSK 1-6, bấm từ để tra nghĩa.</span></button>
      <button class="panel" style="text-align:left" data-go="write"><h3>Viết</h3><span class="note">Viết chữ theo nét, sắp xếp câu, dịch câu, viết đoạn văn.</span></button>
      <button class="panel" style="text-align:left" data-go="grammar"><h3>Ngữ pháp</h3><span class="note">183 điểm ngữ pháp HSK 1-6 kèm bài luyện.</span></button>
@@ -477,7 +477,7 @@ function renderDict(el){
     <select id="df"><option value="all">Tất cả</option><option value="new">Chưa học</option><option value="seen">Đang học</option><option value="known">Đã thuộc</option><option value="em">Có hình minh họa</option></select></div>
    ${levelChips(dlv,s=>{dlv=s;dshow=80;draw();},{id:'dlv'})}
    <div class="wlist" id="dl"></div><button class="btn" id="dMore" hidden>Xem thêm</button>
-   <div class="panel"><h3>Thêm từ của riêng bạn</h3><p class="note">Từ ngoài danh sách HSK (tên món ăn, thuật ngữ công việc...). Pinyin tự điền.${AI?' Claude điền giúp nghĩa và câu ví dụ.':''}</p>
+   <div class="panel"><h3>Thêm từ của riêng bạn</h3><p class="note">Từ ngoài danh sách HSK (tên món ăn, thuật ngữ công việc...). Pinyin tự điền.${AI?' AI điền giúp nghĩa và câu ví dụ.':''}</p>
     <div class="row"><input type="text" id="cw" placeholder="Chữ Hán, ví dụ 区块链" style="flex:1 1 160px"><input type="text" id="cv" placeholder="Nghĩa tiếng Việt" style="flex:2 1 200px"><button class="btn sm" id="cAdd">Thêm</button></div>
     <div id="cList" class="row"></div></div></div>`;
   $('#df').value=dfilter;
@@ -508,7 +508,7 @@ function renderDict(el){
   $('#cAdd').onclick=async()=>{
     const h=$('#cw').value.trim();if(!h||![...h].some(isHan)){toast('Nhập chữ Hán trước.');return;}
     let vi=$('#cv').value.trim(); let extra={};
-    if(AI&&!vi){$('#cAdd').disabled=true;$('#cAdd').textContent='Claude đang điền...';
+    if(AI&&!vi){$('#cAdd').disabled=true;$('#cAdd').textContent='AI đang điền...';
       try{extra=await askJSON(`Bạn là từ điển Trung-Việt. Cho từ "${h}", trả JSON {"vi":"nghĩa tiếng Việt ngắn gọn","hv":"âm Hán Việt viết thường","ex":"câu ví dụ tiếng Trung giản thể ngắn","exvi":"dịch câu ví dụ sang tiếng Việt"}. Chỉ trả JSON.`,{modelTier:'quick'});vi=extra.vi||'';}
       catch(e){toast(aiError(e));}
       $('#cAdd').disabled=false;$('#cAdd').textContent='Thêm';}
@@ -536,7 +536,7 @@ function openWord(h){
    <div class="ex" style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="han" style="font-size:20px">${colorText(w.ex)}</div><div class="py small">${sentPyHTML(w.exp)}</div><div class="muted small">${esc(w.exvi)}</div></div></div>
    <div><span class="label">Thứ tự nét</span><div class="strokes" id="wdStrokes"></div></div>
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào ôn tập</button>'}<button class="btn sm" id="wdWrite">Luyện viết</button>
-     <button class="btn sm need-ai" id="wdIll">Vẽ minh họa</button><button class="btn sm need-ai" id="wdMore">Claude giải thích thêm</button></div>
+     <button class="btn sm need-ai" id="wdIll">Vẽ minh họa</button><button class="btn sm need-ai" id="wdMore">AI giải thích thêm</button></div>
    <div id="wdIllOut"></div><div id="wdAiOut"></div>
    <p class="note no-ai">Phần vẽ minh họa và giải thích thêm cần bật AI (thêm API key trong Vercel).</p>`);
   refreshAIBits();
@@ -557,7 +557,7 @@ function openWord(h){
     b.disabled=false;b.textContent='Vẽ lại';
   };
   $('#wdMore',m.el).onclick=async e=>{
-    const b=e.currentTarget;b.disabled=true;const out=$('#wdAiOut',m.el);out.innerHTML='<div class="ai-out">Claude đang viết...</div>';
+    const b=e.currentTarget;b.disabled=true;const out=$('#wdAiOut',m.el);out.innerHTML='<div class="ai-out">AI đang viết...</div>';
     try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt, trình độ học viên đang học HSK ${w.lv}. Giải thích từ ${w.h} (${w.p.join(' ')}, Hán Việt: ${w.hv}, nghĩa: ${w.vi}) bằng tiếng Việt tự nhiên, ngắn gọn:
 1. Cách dùng chính và sắc thái (trang trọng hay khẩu ngữ).
 2. 3 cụm từ đi kèm thường gặp, mỗi cụm kèm pinyin và nghĩa.
@@ -648,7 +648,7 @@ async function renderGrammar(el){
       ${g.ex.map(e=>`<div class="ex" style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px"><button class="spk" data-say="${esc(e[0])}" aria-label="Nghe câu">${SPK}</button><div><div class="han" style="font-size:19px">${colorText(e[0])}</div><div class="py small">${sentPyHTML(e[1])}</div><div class="muted small">${esc(e[2])}</div></div></div>`).join('')}
       ${g.vn?`<div class="vn">${esc(g.vn)}</div>`:''}
       ${g.q?`<div class="gq"><span class="label">Luyện tập</span><div class="han" style="font-size:18px">${colorText(g.q.s)}</div><div class="opts">${g.q.o.map((o,i)=>`<button class="opt han" data-i="${i}">${esc(o)}</button>`).join('')}</div><div class="small gw" hidden></div></div>`:''}
-      <div class="row"><button class="btn sm gdone">${P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm'}</button><button class="btn sm gorder">Luyện sắp xếp câu</button><button class="btn sm need-ai gask">Hỏi Claude thêm ví dụ</button></div><div class="gai"></div>`;
+      <div class="row"><button class="btn sm gdone">${P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm'}</button><button class="btn sm gorder">Luyện sắp xếp câu</button><button class="btn sm need-ai gask">Hỏi AI thêm ví dụ</button></div><div class="gai"></div>`;
     refreshAIBits();
     $$('.opt',b).forEach(o=>o.onclick=()=>{$$('.opt',b).forEach((x,i)=>{x.disabled=true;if(i===g.q.a)x.classList.add('right');});if(+o.dataset.i!==g.q.a){o.classList.add('wrong');window.__mistake&&window.__mistake('q',{k:'fill',s:g.q.s,o:g.q.o,a:g.q.a,w:g.t+'. '+g.q.w});}const w=$('.gw',b);w.hidden=false;w.textContent=g.q.w;});
     $('.gdone',b).onclick=()=>{P.gram[g.id]=P.gram[g.id]?0:1;if(!P.gram[g.id])delete P.gram[g.id];else window.__award&&window.__award('grammar',1);touch('main');const c=$('.check',d);c.classList.toggle('on',!!P.gram[g.id]);c.textContent=P.gram[g.id]?'✓':'';$('.gdone',b).textContent=P.gram[g.id]?'Bỏ đánh dấu':'Đánh dấu đã nắm';};
@@ -675,19 +675,19 @@ async function renderTest(el){
    ${levelChips([tlv],s=>{tlv=s[0];renderTest(el);},{multi:false,id:'tlv'})}
    <div class="grid3">${T.tests.map(t=>{const n=t.sections.reduce((a,s)=>a+s.parts.reduce((b,p)=>b+p.items.length,0),0);const best=P.tests.filter(x=>x.id===t.id).reduce((m,x)=>Math.max(m,x.pct),-1);
      return `<div class="panel tcard"><span class="label">HSK ${tlv}</span><h3>${esc(t.title)}</h3><span class="note">${n} câu, ${t.minutes} phút. ${t.sections.map(s=>esc(s.title)).join(', ')}.</span>${best>=0?`<span class="small">Điểm cao nhất: <b>${best}%</b></span>`:''}<button class="btn primary sm" data-t="${t.id}" style="align-self:flex-start">Làm bài</button></div>`;}).join('')}
-     <div class="panel tcard need-ai"><span class="label">Claude soạn</span><h3>Đề mới không trùng</h3><span class="note">Mỗi lần bấm là một đề rút gọn mới theo đúng cấp độ, khoảng 15 câu.</span><button class="btn sm" id="tAi" style="align-self:flex-start">Soạn đề mới</button></div>
-     <div class="panel tcard no-ai"><span class="label">Claude soạn</span><h3>Đề mới không trùng</h3><span class="note">Cần bật AI (thêm API key trong Vercel) để Claude soạn đề mới.</span></div>
+     <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Mỗi lần bấm là một đề rút gọn mới theo đúng cấp độ, khoảng 15 câu.</span><button class="btn sm" id="tAi" style="align-self:flex-start">Soạn đề mới</button></div>
+     <div class="panel tcard no-ai"><span class="label">AI soạn</span><h3>Đề mới không trùng</h3><span class="note">Cần bật AI (thêm API key trong Vercel) để AI soạn đề mới.</span></div>
    </div>
    <div class="panel"><h3>Lịch sử làm bài HSK ${tlv}</h3>${hist.length?hist.map(h=>`<div class="spread small"><span>${esc(h.title)}</span><span class="num">${new Date(h.date).toLocaleDateString('vi-VN')} - <b>${h.pct}%</b> ${h.pct>=60?'<span class="pill ai">Đạt</span>':'<span class="pill">Chưa đạt</span>'}</span></div>`).join(''):'<p class="note">Chưa làm đề nào ở cấp này.</p>'}
    <p class="note">Mức đạt tham khảo: 60% tổng điểm. Phần nghe dùng giọng đọc của trình duyệt, mỗi bài được nghe tối đa 2 lần như khi thi thật.</p></div></div>`;
   refreshAIBits();
   $$('[data-t]',el).forEach(b=>b.onclick=()=>runTest(T.tests.find(t=>t.id===b.dataset.t),tlv));
-  const ai=$('#tAi');if(ai)ai.onclick=async()=>{ai.disabled=true;ai.textContent='Claude đang soạn đề (khoảng 1 phút)...';
+  const ai=$('#tAi');if(ai)ai.onclick=async()=>{ai.disabled=true;ai.textContent='AI đang soạn đề (khoảng 1 phút)...';
     try{const words=W.filter(w=>w.lv<=tlv);const sample=shuffle(words.filter(w=>w.lv===tlv)).slice(0,60).map(w=>w.h).join('、');
       const t=await askJSON(`Soạn một đề thi thử HSK cấp ${tlv} (chuẩn HSK mới 2026) rút gọn, nội dung hoàn toàn mới, dành cho người Việt.
 Dùng từ vựng trong phạm vi HSK ${tlv}, ưu tiên các từ sau: ${sample}.
 Trả về DUY NHẤT một JSON object theo đúng cấu trúc:
-{"id":"ai","title":"Đề Claude soạn - HSK ${tlv}","minutes":15,"sections":[
+{"id":"ai","title":"Đề AI soạn - HSK ${tlv}","minutes":15,"sections":[
  {"type":"listen","title":"Nghe hiểu","parts":[{"instr":"Nghe đoạn hội thoại và chọn đáp án đúng","items":[ ... 5 câu dạng {"k":"lc","audio":[["男","..."],["女","..."]],"q":"câu hỏi tiếng Trung","o":["A","B","C","D"],"a":0,"w":"giải thích tiếng Việt"} ]}]},
  {"type":"read","title":"Đọc hiểu","parts":[{"instr":"Chọn từ điền vào chỗ trống","items":[ ... 4 câu {"k":"fill","s":"câu có ___","o":[...4],"a":0,"w":"..."} ]},{"instr":"Đọc và trả lời","items":[ ... 3 câu {"k":"rc","text":"đoạn văn","q":"câu hỏi","o":[...4],"a":0,"w":"..."} ]}]}${tlv>=3?`,
  {"type":"write","title":"Viết","parts":[{"instr":"Sắp xếp thành câu đúng","items":[ ... 3 câu {"k":"order","pieces":["mảnh1","mảnh2","..."],"a":"câu đúng đầy đủ có dấu câu","w":"..."} ]}]}`:''}
@@ -760,7 +760,7 @@ function runTest(t,lv){
     items.forEach((x,i)=>{if(x.it.k==='essay'&&AI&&x.ans&&x.ans.trim())gradeEssay(x,i);});
   }
   async function gradeEssay(x,i){
-    const out=$('#eg'+i);if(!out)return;out.innerHTML='<div class="ai-out">Claude đang chấm bài viết...</div>';
+    const out=$('#eg'+i);if(!out)return;out.innerHTML='<div class="ai-out">AI đang chấm bài viết...</div>';
     try{await ask(`Bạn là giám khảo HSK ${lv||''}. Chấm bài viết của học viên người Việt.
 Đề: ${x.it.prompt}${x.it.words?' Từ bắt buộc: '+x.it.words.join('、'):''}${x.it.text?'\nĐoạn văn gốc: '+x.it.text:''}
 Tiêu chí: ${x.it.rubric||''}
@@ -778,7 +778,7 @@ Trả lời bằng tiếng Việt, văn bản thuần: điểm trên thang 100, 
 
 /* ================= TALK ================= */
 const SCEN=[
- {id:'free',e:'💬',t:'Nói chuyện tự do',d:'Chủ đề gì cũng được, Claude theo bạn.',lv:1},
+ {id:'free',e:'💬',t:'Nói chuyện tự do',d:'Chủ đề gì cũng được, trợ lý AI theo bạn.',lv:1},
  {id:'intro',e:'👋',t:'Làm quen',d:'Giới thiệu tên, quê, công việc, sở thích.',lv:1},
  {id:'cafe',e:'☕',t:'Gọi đồ ở quán cà phê',d:'Gọi món, hỏi giá, chọn đá đường.',lv:1},
  {id:'taxi',e:'🚕',t:'Đi taxi và hỏi đường',d:'Nói địa chỉ, hỏi đường, trả tiền.',lv:2},
@@ -808,7 +808,7 @@ function renderTalk(el){
            <button class="icon-btn" id="cKb" aria-pressed="${chat.mode==='text'}">Gõ phím</button></div>
          <div class="small muted" id="micHint">Bấm micro rồi nói tiếng Trung. Nói xong app tự gửi.</div>
        </div>
-       <div class="row" id="textbar" ${chat.mode==='text'?'':'hidden'}><textarea id="cin" rows="2" class="han" placeholder="Gõ tiếng Trung (chữ Hán hoặc pinyin). Bí quá thì gõ tiếng Việt, Claude sẽ chỉ cách nói."></textarea><button class="btn primary" id="cSend">Gửi</button></div></div></div></div></div></div></div>`;
+       <div class="row" id="textbar" ${chat.mode==='text'?'':'hidden'}><textarea id="cin" rows="2" class="han" placeholder="Gõ tiếng Trung (chữ Hán hoặc pinyin). Bí quá thì gõ tiếng Việt, trợ lý AI sẽ chỉ cách nói."></textarea><button class="btn primary" id="cSend">Gửi</button></div></div></div></div></div></div></div>`;
   refreshAIBits();
   $$('[data-s]',el).forEach(b=>b.onclick=()=>{chat.scen=SCEN.find(s=>s.id===b.dataset.s);chat.msgs=[];renderTalk(el);});
   $('#cVi').onclick=()=>{chat.showVi=!chat.showVi;renderTalk(el);};
@@ -823,7 +823,7 @@ function renderTalk(el){
 function drawMsgs(){
   const box=$('#msgs');if(!box)return;
   box.innerHTML=chat.msgs.map((m,i)=>m.role==='user'?`<div class="msg me"><div class="bubble"><div class="zh han">${m.voice?'🎤 ':''}${esc(m.text)}</div></div>${m.fix?`<div class="fix"><b>Sửa:</b> <span class="han">${esc(m.fix.better)}</span><br>${esc(m.fix.note)}</div>`:''}</div>`
-    :`<div class="msg"><div class="bubble"><div class="zh">${P.settings.py?rubyHTML(m.zh):colorText(m.zh)}</div>${chat.showVi||m.open?`<div class="vi">${esc(m.vi)}</div>`:''}</div><div class="row" style="gap:4px"><button class="spk" data-say="${esc(m.zh)}" aria-label="Nghe">${SPK}</button>${chat.showVi?'':`<button class="btn ghost sm" data-open="${i}">Nghĩa</button>`}</div></div>`).join('')+(chat.busy?'<div class="typing">Claude đang trả lời...</div>':'');
+    :`<div class="msg"><div class="bubble"><div class="zh">${P.settings.py?rubyHTML(m.zh):colorText(m.zh)}</div>${chat.showVi||m.open?`<div class="vi">${esc(m.vi)}</div>`:''}</div><div class="row" style="gap:4px"><button class="spk" data-say="${esc(m.zh)}" aria-label="Nghe">${SPK}</button>${chat.showVi?'':`<button class="btn ghost sm" data-open="${i}">Nghĩa</button>`}</div></div>`).join('')+(chat.busy?'<div class="typing">Trợ lý AI đang trả lời...</div>':'');
   $$('[data-open]',box).forEach(b=>b.onclick=()=>{chat.msgs[+b.dataset.open].open=true;drawMsgs();});
   box.scrollTop=box.scrollHeight;
   const last=[...chat.msgs].reverse().find(m=>m.role==='ai');
@@ -850,7 +850,7 @@ Trả về DUY NHẤT JSON: {"zh":"lời bạn nói, chữ Hán giản thể","v
 function setupMic(){
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;const b=$('#cMic'),hint=$('#micHint'),live=$('#live');if(!b)return;
   const noVoice=msg=>{b.disabled=true;hint.innerHTML=msg;chat.mode='text';$('#textbar').hidden=false;$('#cKb').setAttribute('aria-pressed','true');};
-  if(IN_ARTIFACT){noVoice('Trong khung Claude không dùng được micro. Mở <a href="https://hanyu-ecru.vercel.app/#speak" target="_blank" rel="noopener">bản web</a> để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
+  if(IN_ARTIFACT){noVoice('Trong khung chat của Claude không dùng được micro. Mở <a href="https://hanyu-ecru.vercel.app/#speak" target="_blank" rel="noopener">bản web</a> để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
   if(!SR){noVoice('Trình duyệt này chưa hỗ trợ nhận giọng. Dùng Chrome, Edge hoặc Safari để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
   let rec=null,finalText='',sent=false;
   const stop=()=>{if(rec){try{rec.stop();}catch(e){}}};
@@ -913,7 +913,8 @@ async function renderPinyin(el){
   const cell={};PY.table.forEach(t=>{cell[t.i+'|'+t.f]=t;});
   el.innerHTML=`<div class="view"><h2>Bảng chữ cái pinyin</h2>
    <p class="note">Một âm tiết = thanh mẫu (phụ âm đầu) + vận mẫu (vần) + thanh điệu. Ví dụ: <span class="py">m + ā = mā</span>. Bấm vào chữ ví dụ để nghe.</p>
-   <div class="row">${['Thanh mẫu','Vận mẫu','Quy tắc viết','Bảng âm tiết'].map((t,i)=>`<button class="chip" data-ps="${i}" aria-pressed="${i===0}">${t}</button>`).join('')}<a class="chip" href="#tones" data-go2="tones">Thanh điệu</a></div>
+   <div class="row">${['Thanh mẫu','Vận mẫu','Quy tắc viết','Bảng âm tiết','Quy tắc đọc'].map((t,i)=>`<button class="chip" data-ps="${i}" aria-pressed="${i===(window.__pySub||0)}">${t}</button>`).join('')}<a class="chip" href="#tones" data-go2="tones">Thanh điệu</a></div>
+   <div data-pp="4" class="view" hidden></div>
    <div data-pp="0" class="view">${Object.entries(I).map(([g,xs])=>`<h3>${esc(g)}</h3><div class="pgrid">${xs.map(x=>block(x,'i')).join('')}</div>`).join('')}</div>
    <div data-pp="1" class="view" hidden>${Object.entries(F).map(([g,xs])=>`<h3>${esc(g)}</h3><div class="pgrid">${xs.map(x=>block(x,'f')).join('')}</div>`).join('')}</div>
    <div data-pp="2" class="view" hidden>${PY.rules.map(r=>`<div class="panel"><h3>${esc(r.t)}</h3><div>${esc(r.d)}</div>${r.ex?`<div class="py small muted">${esc(r.ex)}</div>`:''}</div>`).join('')}</div>
@@ -921,7 +922,9 @@ async function renderPinyin(el){
      <div class="panel" id="pStrip" hidden></div>
      <div class="ptable-wrap"><table class="ptable"><thead><tr><th></th>${finals.map(f=>`<th class="py">${esc(f)}</th>`).join('')}</tr></thead><tbody>${inits.map(i=>`<tr><th class="py">${i||'∅'}</th>${finals.map(f=>{const t=cell[i+'|'+f];return t?`<td><button class="py" data-cell="${esc(t.s)}" data-c="${esc(t.c)}">${esc(t.s)}</button></td>`:'<td></td>';}).join('')}</tr>`).join('')}</tbody></table></div></div>
   </div>`;
-  $$('[data-ps]',el).forEach(b=>b.onclick=()=>{$$('[data-ps]',el).forEach(x=>x.setAttribute('aria-pressed',x===b));$$('[data-pp]',el).forEach(p=>p.hidden=p.dataset.pp!==b.dataset.ps);});
+  const showSub=k=>{window.__pySub=+k;$$('[data-ps]',el).forEach(x=>x.setAttribute('aria-pressed',x.dataset.ps===String(k)));$$('[data-pp]',el).forEach(p=>p.hidden=p.dataset.pp!==String(k));if(+k===4)pronRender($('[data-pp="4"]',el));};
+  $$('[data-ps]',el).forEach(b=>b.onclick=()=>showSub(b.dataset.ps));
+  if(window.__pySub)showSub(window.__pySub);
   $$('[data-go2]',el).forEach(a=>a.onclick=e=>{e.preventDefault();go(a.dataset.go2);});
   const MARK={a:'āáǎà',o:'ōóǒò',e:'ēéěè',i:'īíǐì',u:'ūúǔù',v:'ǖǘǚǜ'};
   const toned=(syl,n)=>{let x=syl.replace(/ü/g,'v');const pos=x.includes('a')?x.indexOf('a'):x.includes('e')?x.indexOf('e'):x.includes('ou')?x.indexOf('o'):(()=>{for(let k=x.length-1;k>=0;k--)if('aoeiuv'.includes(x[k]))return k;return -1;})();
@@ -1050,7 +1053,7 @@ function drawListen(){
 let SP={sub:'shadow',lv:null,cur:null,src:'ex'};
 function renderSpeak(el){
   if(!SP.lv)SP.lv=skillLv();
-  el.innerHTML=`<div class="view"><h2>Luyện nói</h2>${subTabs('smode',[['shadow','Nhại theo câu mẫu'],['talk','Hội thoại với Claude']],SP.sub,m=>{SP.sub=m;renderSpeak(el);})}<div id="sBox"></div></div>`;
+  el.innerHTML=`<div class="view"><h2>Luyện nói</h2>${subTabs('smode',[['shadow','Nhại theo câu mẫu'],['talk','Hội thoại với trợ lý AI']],SP.sub,m=>{SP.sub=m;renderSpeak(el);})}<div id="sBox"></div></div>`;
   if(SP.sub==='talk'){renderTalk($('#sBox'));return;}
   const box=$('#sBox');
   box.innerHTML=`<div class="view">${levelChips([SP.lv],s=>{SP.lv=s[0];SP.cur=null;renderSpeak(el);},{multi:false,id:'slv2'})}
@@ -1102,7 +1105,7 @@ async function renderRead(el){
    <p class="note">Mỗi cấp có 10 bài. Bấm vào bất kỳ từ nào trong bài để xem nghĩa. Đọc xong làm câu hỏi để kiểm tra mức hiểu.</p>
    <div class="grid3">${list.map(r=>{const sc=P.reads[r.id];const n=r.paras.reduce((a,p)=>a+[...p[0].replace(PUNCT,'')].length,0);
      return `<button class="panel tcard" style="text-align:left" data-rid="${r.id}"><span class="label">${esc(r.genre)} - ${n} chữ</span><h3 class="han" style="font-size:20px">${esc(r.title)}</h3><span class="note">${esc(r.tvi)}</span>${sc!=null?`<span class="small">Đã đọc: <b>${sc}%</b> câu hỏi đúng</span>`:''}</button>`;}).join('')}
-     <div class="panel tcard need-ai"><span class="label">Claude soạn</span><h3>Bài đọc mới</h3><span class="note">Nhập chủ đề bạn thích, Claude viết bài đúng cấp HSK ${rdLv}.</span><div class="row"><input type="text" id="rTopic" placeholder="Ví dụ: du lịch Đà Lạt, nuôi mèo" style="flex:1 1 140px"><button class="btn sm" id="rGen">Soạn</button></div></div>
+     <div class="panel tcard need-ai"><span class="label">AI soạn</span><h3>Bài đọc mới</h3><span class="note">Nhập chủ đề bạn thích, AI viết bài đúng cấp HSK ${rdLv}.</span><div class="row"><input type="text" id="rTopic" placeholder="Ví dụ: du lịch Đà Lạt, nuôi mèo" style="flex:1 1 140px"><button class="btn sm" id="rGen">Soạn</button></div></div>
    </div></div>`;
   refreshAIBits();
   $$('[data-rid]',el).forEach(b=>b.onclick=()=>{rdOpen=b.dataset.rid;renderRead(el);window.scrollTo(0,0);});
@@ -1148,7 +1151,7 @@ function lookup(seg,anchor){
   box.hidden=false;
   box.innerHTML=`<div class="spread"><div class="row"><span class="han" style="font-size:28px;font-weight:700">${w?hanHTML(w):colorText(seg)}</span><span class="py">${w?pyHTML(w):esc(pyLine(seg))}</span>${w&&w.hv?`<span class="muted small">${esc(w.hv)}</span>`:''}</div><div class="row"><button class="spk" data-say="${esc(seg)}" aria-label="Nghe">${SPK}</button><button class="spk" id="lkX" aria-label="Đóng">✕</button></div></div>
    <div>${w?esc(w.vi)+` <span class="pill">HSK ${w.lv}</span>`:sub.length?sub.map(x=>`<span class="han">${esc(x.h)}</span>: ${esc(x.vi)}`).join('; '):'<span class="muted">Từ này không có trong danh sách HSK.</span>'}</div>
-   <div class="row">${w?`<button class="btn sm" id="lkMore">Chi tiết</button>${P.srs[seg]?'':'<button class="btn sm" id="lkAdd">Thêm vào ôn tập</button>'}`:''}${!w&&AI?'<button class="btn sm" id="lkAi">Hỏi Claude nghĩa</button>':''}</div><div id="lkOut" class="small"></div>`;
+   <div class="row">${w?`<button class="btn sm" id="lkMore">Chi tiết</button>${P.srs[seg]?'':'<button class="btn sm" id="lkAdd">Thêm vào ôn tập</button>'}`:''}${!w&&AI?'<button class="btn sm" id="lkAi">Hỏi AI nghĩa</button>':''}</div><div id="lkOut" class="small"></div>`;
   $('#lkX').onclick=()=>box.hidden=true;
   const m=$('#lkMore');if(m)m.onclick=()=>openWord(seg);
   const a=$('#lkAdd');if(a)a.onclick=()=>{P.srs[seg]={iv:0,ef:2.5,n:0,l:0,due:Date.now(),s:1,first:Date.now()};touch('srs');touch('main');a.remove();toast('Đã thêm '+seg+' vào ôn tập.');};
@@ -1181,7 +1184,7 @@ function renderWrite(el){
     $('#tNext').onclick=()=>{WR.tr=null;renderWrite(el);};
     $('#tCheck').onclick=async()=>{const v=$('#tIn').value.trim();if(!v)return;const r=compareZh(w.ex,v);window.__award&&window.__award('write',1);
       $('#tRes').innerHTML=`<div class="q"><div class="small muted">Câu tham khảo:</div><div class="han" style="font-size:21px">${colorText(w.ex)}</div><div class="py small">${sentPyHTML(w.exp)}</div><div class="small">Trùng với câu tham khảo: <b>${r.pct}%</b>. Câu khác cách diễn đạt vẫn có thể đúng.</div><div id="tAi"></div></div>`;
-      if(AI){const out=$('#tAi');out.innerHTML='<div class="ai-out">Claude đang nhận xét...</div>';
+      if(AI){const out=$('#tAi');out.innerHTML='<div class="ai-out">AI đang nhận xét...</div>';
         try{await ask(`Học viên người Việt trình độ HSK ${WR.lv} dịch câu "${w.exvi}" sang tiếng Trung thành: "${v}". Câu tham khảo: "${w.ex}". Nhận xét ngắn bằng tiếng Việt: câu của học viên đúng hay sai, tự nhiên chưa; nếu sai thì ghi "Sai: ... Đúng: ..." kèm lý do ngắn. Tối đa 5 dòng, văn bản thuần, không gạch ngang dài.`,{modelTier:'quick',onText:({text})=>{out.innerHTML=`<div class="ai-out">${esc(text)}</div>`;}});}
         catch(e){out.innerHTML=`<p class="note">${esc(aiError(e))}</p>`;}}};
     return;
@@ -1192,13 +1195,13 @@ function renderWrite(el){
   box.innerHTML=`<div class="view">${lvc}<div class="panel"><span class="label">Chọn đề hoặc tự đặt đề</span><div class="row">${topics.map(t=>`<button class="chip" data-tp="${esc(t)}">${esc(t)}</button>`).join('')}</div>
     <input type="text" id="eTopic" placeholder="Đề bài" value="${esc(draft.topic||topics[0])}">
     <textarea id="eText" rows="8" class="han" style="font-size:18px" placeholder="Viết khoảng ${len} chữ Hán">${esc(draft.text||'')}</textarea>
-    <div class="spread"><span class="small muted"><span class="num" id="eCount">0</span> / ${len} chữ Hán</span><button class="btn primary need-ai" id="eGrade">Claude chấm và sửa</button></div>
-    <p class="note no-ai">Cần bật AI để Claude chấm bài. Bài nháp vẫn được lưu trên máy này.</p><div id="eOut"></div></div></div>`;
+    <div class="spread"><span class="small muted"><span class="num" id="eCount">0</span> / ${len} chữ Hán</span><button class="btn primary need-ai" id="eGrade">AI chấm và sửa</button></div>
+    <p class="note no-ai">Cần bật AI để chấm bài. Bài nháp vẫn được lưu trên máy này.</p><div id="eOut"></div></div></div>`;
   refreshAIBits();
   const cnt=()=>{$('#eCount').textContent=[...$('#eText').value].filter(isHan).length;store.set('hanyu-essay',{topic:$('#eTopic').value,text:$('#eText').value});};cnt();
   $('#eText').oninput=cnt;$('#eTopic').oninput=cnt;
   $$('[data-tp]',box).forEach(b=>b.onclick=()=>{$('#eTopic').value=b.dataset.tp;cnt();});
-  const g=$('#eGrade');if(g)g.onclick=async()=>{const t=$('#eText').value.trim();if([...t].filter(isHan).length<5){toast('Viết thêm vài câu đã.');return;}const out=$('#eOut');g.disabled=true;out.innerHTML='<div class="ai-out">Claude đang chấm...</div>';
+  const g=$('#eGrade');if(g)g.onclick=async()=>{const t=$('#eText').value.trim();if([...t].filter(isHan).length<5){toast('Viết thêm vài câu đã.');return;}const out=$('#eOut');g.disabled=true;out.innerHTML='<div class="ai-out">AI đang chấm...</div>';
     window.__award&&window.__award('write',2);try{await ask(`Bạn là giáo viên tiếng Trung chấm bài viết cho học viên người Việt trình độ HSK ${WR.lv}. Đề: "${$('#eTopic').value}". Bài viết:\n${t}\n\nTrả lời bằng tiếng Việt, văn bản thuần, không markdown, không gạch ngang dài:\n1. Điểm trên thang 100 và nhận xét chung 2 câu.\n2. Liệt kê từng lỗi theo dạng "Sai: ... Đúng: ..." kèm lý do ngắn (ngữ pháp, từ dùng sai, trật tự từ).\n3. Bài đã sửa hoàn chỉnh bằng chữ Hán.\n4. 3 từ hoặc mẫu câu HSK ${WR.lv} nên dùng để bài hay hơn, kèm pinyin và nghĩa.`,{onText:({text})=>{out.innerHTML=`<div class="ai-out han">${esc(text)}</div>`;}});}
     catch(e){out.innerHTML=`<p class="note">${esc(aiError(e))}</p>`;}g.disabled=false;};
 }
@@ -1233,9 +1236,10 @@ async function playDrill(){const c=drill.cur;const syl=stripTone(c[1])+c[2];if(!
 function renderTones(el){
   el.innerHTML=`<div class="view"><h2>Thanh điệu</h2><div class="tones">${TONES.map(t=>`<button class="tone" data-syl="${stripTone(t.py)}${t.n===5?5:t.n}" data-fb="${t.ch}"><span class="tn t${t.n}">${t.name}</span>${contour(t)}<span class="row"><span class="han t${t.n}" style="font-size:30px;font-weight:700">${t.ch}</span><span class="py t${t.n}" style="font-size:18px">${t.py}</span></span><span class="small muted"><b style="color:var(--ink)">${t.vi}</b>. ${t.d}</span></button>`).join('')}</div>
    <p class="note">Thang 5 mức của Triệu Nguyên Nhậm: thanh 1 = 55, thanh 2 = 35, thanh 3 = 214, thanh 4 = 51.</p>
-   <div class="grid2"><div class="panel"><h3>Biến điệu cần nhớ</h3>${RULES.map(r=>`<div><b>${r[0]}</b><div class="note">${r[1]}</div><div><span class="han" style="font-size:18px">${r[2]}</span> <span class="py">${r[3]}</span> <button class="btn ghost sm" data-say="${r[2]}">▶</button></div></div>`).join('')}</div>
+   <div class="grid2"><div class="panel"><div class="spread"><h3>Biến điệu cần nhớ</h3><button class="btn sm" id="toRules">Xem đủ quy tắc đọc</button></div>${RULES.map(r=>`<div><b>${r[0]}</b><div class="note">${r[1]}</div><div><span class="han" style="font-size:18px">${r[2]}</span> <span class="py">${r[3]}</span> <button class="btn ghost sm" data-say="${r[2]}">▶</button></div></div>`).join('')}</div>
    <div class="panel" id="drill" style="align-items:center;text-align:center"></div></div></div>`;
   drawDrill();
+  const tr=$('#toRules');if(tr)tr.onclick=()=>{window.__pySub=4;go('pinyin');};
 }
 function drawDrill(){
   const c=drill.cur,b=$('#drill');if(!b)return;
