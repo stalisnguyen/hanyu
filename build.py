@@ -24,6 +24,7 @@ head, rest = body.split('<!--BODY-->', 1)
     "<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}"
     "img{max-width:100%}[hidden]{display:none!important}</style>"
     '<link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#0E6E55">'
+    '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">'
     '<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes">'
     '<meta name="apple-mobile-web-app-title" content="Stalong">'
     + head + "</head><body>" + rest + "</body></html>",
