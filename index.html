@@ -1051,7 +1051,8 @@ async function audioIndex(){if(!AIDX){try{const j=await (await fetch('data/audio
 async function audioURL(kind,key,lv){
   if(!IN_ARTIFACT)return 'audio/'+kind+'/'+key+'.mp3';
   const b=kind==='s'?'s':'w'+lv;
-  if(!ABUNDLE[b])ABUNDLE[b]=fetch('data/audio/'+b+'.json').then(r=>r.json()).catch(()=>({}));
+  const get=n=>fetch('data/audio/'+n+'.json').then(r=>r.json()).catch(()=>({}));
+  if(!ABUNDLE[b])ABUNDLE[b]=lv===7&&kind!=='s'?Promise.all([get('w7'),get('w7b')]).then(a=>Object.assign({},...a)):get(b);
   const d=(await ABUNDLE[b])[key]; if(!d)return null;
   return 'data:audio/mpeg;base64,'+d;
 }
