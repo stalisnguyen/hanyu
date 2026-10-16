@@ -224,10 +224,10 @@ async function askJSON(prompt,opts={}){ if(!AI)throw {code:'no_ai'}; return AI.j
 function aiError(e){
   const c=e&&e.code;
   if(c==='not_granted')return WEB?'Cần nhập mật khẩu ứng dụng để dùng phần này.':'Bạn chưa cho phép trang dùng Claude. Mở menu Permissions của artifact để bật lại.';
-  if(c==='rate_limited')return 'Đang gửi quá nhiều yêu cầu. Đợi một lúc rồi thử lại.';
-  if(c==='no_key')return 'Chưa có API key Anthropic trong Vercel (biến ANTHROPIC_API_KEY).';
+  if(c==='rate_limited')return 'Đã chạm giới hạn lượt dùng miễn phí. Đợi một lúc (hoặc sang ngày mai) rồi thử lại.';
+  if(c==='no_key')return 'Chưa có API key cho AI trong Vercel (GROQ_API_KEY, GEMINI_API_KEY hoặc ANTHROPIC_API_KEY).';
   if(c==='no_password')return 'Chưa đặt mật khẩu ứng dụng trong Vercel (biến APP_PASSWORD).';
-  if(c==='billing')return 'Tài khoản API Anthropic hết credit. Nạp thêm ở console.anthropic.com.';
+  if(c==='billing')return 'Tài khoản API hết credit hoặc hết hạn mức miễn phí hôm nay.';
   if(c==='bad_json')return 'Claude trả kết quả sai định dạng. Bấm thử lại.';
   return 'Claude chưa trả lời được. Thử lại sau ít phút.';
 }
@@ -796,7 +796,7 @@ let chat={scen:SCEN[0],lv:null,msgs:[],busy:false,showVi:false,mode:'voice',hand
 function renderTalk(el){
   if(!chat.lv)chat.lv=Math.max(...P.settings.lv);
   el.innerHTML=`<div class="view"><div class="spread"><h2>Luyện hội thoại</h2>${levelChips([chat.lv],s=>{chat.lv=s[0];renderTalk(el);},{multi:false,id:'clv'})}</div>
-   <div class="no-ai empty">Phần hội thoại cần bật AI: thêm ANTHROPIC_API_KEY và APP_PASSWORD trong Vercel rồi deploy lại. Các phần khác vẫn dùng bình thường.</div>
+   <div class="no-ai empty">Phần hội thoại cần bật AI: thêm GROQ_API_KEY (miễn phí) và APP_PASSWORD trong Vercel rồi deploy lại. Các phần khác vẫn dùng bình thường.</div>
    <div class="chat need-ai"><div class="scen">${SCEN.map(s=>`<button data-s="${s.id}" aria-pressed="${chat.scen.id===s.id}"><span class="e">${s.e}</span><span><b>${esc(s.t)}</b><br><span class="small muted">${esc(s.d)}</span></span></button>`).join('')}</div>
     <div class="convo"><div class="spread" style="padding:10px 14px;border-bottom:1px solid var(--line)"><b>${chat.scen.e} ${esc(chat.scen.t)}</b><div class="row"><button class="icon-btn" id="cVi" aria-pressed="${chat.showVi}">Hiện nghĩa</button><button class="icon-btn" id="cReset">Bắt đầu lại</button></div></div>
      <div class="msgs" id="msgs"></div>

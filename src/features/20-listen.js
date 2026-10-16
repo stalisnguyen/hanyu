@@ -25,7 +25,7 @@ async function lpPassage(box){
   draw();
 }
 async function lpDaily(box){
-  if(!AI){box.innerHTML='<p class="note">Phần này cần bật AI. Trên web: thêm ANTHROPIC_API_KEY và APP_PASSWORD trong Vercel.</p>';return;}
+  if(!AI){box.innerHTML='<p class="note">Phần này cần bật AI. Trên web: thêm GROQ_API_KEY (miễn phí) và APP_PASSWORD trong Vercel.</p>';return;}
   P.dlg=P.dlg||{}; const key=ymd(Date.now())+'-'+LS.lv;
   const show=d=>{
     let shown=false;

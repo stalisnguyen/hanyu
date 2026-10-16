@@ -45,7 +45,10 @@ Sửa nội dung: sửa file trong `data/` hoặc `src/`, chạy `python3 build.
 Thêm trong Vercel -> project hanyu -> Settings -> Environment Variables:
 
 - `APP_PASSWORD`: mật khẩu tự đặt, nhập một lần trên mỗi máy để mở khóa AI và đồng bộ
-- `ANTHROPIC_API_KEY`: API key từ console.anthropic.com (trả phí theo lượng dùng)
+- Một trong các key AI (app dùng key đầu tiên có trong thứ tự Groq, Gemini, Anthropic; ép bằng `AI_PROVIDER`):
+  - `GROQ_API_KEY`: miễn phí, tạo ở console.groq.com/keys; model mặc định `qwen/qwen3.8-27b`, đổi bằng `GROQ_MODEL`
+  - `GEMINI_API_KEY`: miễn phí với Flash, tạo ở aistudio.google.com/apikey; đổi model bằng `GEMINI_MODEL`
+  - `ANTHROPIC_API_KEY`: Claude, trả phí theo lượng dùng
 - Đồng bộ: Vercel -> Storage -> thêm Upstash Redis (gói miễn phí) và kết nối với project; biến `KV_REST_API_URL`, `KV_REST_API_TOKEN` tự được thêm
 
 Sau đó deploy lại.
