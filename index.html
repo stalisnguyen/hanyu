@@ -1126,6 +1126,10 @@ function playURL(url,rate){
 }
 async function sayWord(h,opts={}){
   stopSay(); const idx=await audioIndex(); const w=WI.get(h); const k=hexOf(h);
+  // a single polyphonic character (还 hái/huán, 好 hǎo/hào...): the word recording may be the other reading,
+  // so play the native syllable recording of the reading this card teaches
+  if(w&&[...h].length===1&&w.p&&w.p[0]){let poly=false;try{poly=/\s/.test(window.pinyinPro.polyphonic(h)[0]||'');}catch(e){}
+    if(poly){const syl=stripTone(w.p[0])+toneOf(w.p[0]);if(idx.s.has(syl)){const u=await audioURL('s',syl);if(u&&await playURL(u,opts.rate))return;}}}
   if(w&&w.lv&&idx.w.has(k)){const u=await audioURL('w',k,w.lv);if(u&&await playURL(u,opts.rate))return;}
   return say(h,opts);
 }
