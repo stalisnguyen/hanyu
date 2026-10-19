@@ -1,7 +1,8 @@
 {
   "cleanUrls": true,
   "functions": {
-    "api/ai.js": { "maxDuration": 60 }
+    "api/ai.js": { "maxDuration": 60 },
+    "api/stt.js": { "maxDuration": 30 }
   },
   "headers": [
     { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
