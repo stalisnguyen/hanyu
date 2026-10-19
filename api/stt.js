@@ -32,7 +32,10 @@ async function whisper(buf, type, lang) {
   const r = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', { method: 'POST', headers: { Authorization: 'Bearer ' + process.env.GROQ_API_KEY }, body: fd });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw Object.assign(new Error('groq ' + r.status + ' ' + JSON.stringify(j).slice(0, 300)), { code: r.status });
-  return String(j.text || '').trim();
+  const t = String(j.text || '').trim();
+  // Whisper invents these on silence or noise; treat them as nothing said
+  if (/^(thank you( (so|very) much)?( for watching)?|thanks for watching|you|bye|okay|\.+|謝謝觀看|谢谢观看|谢谢大家|字幕.*|请不吝点赞.*|明镜与点点栏目.*)[.!。！]*$/i.test(t)) return '';
+  return t;
 }
 
 module.exports = async (req, res) => {
