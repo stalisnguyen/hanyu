@@ -3588,7 +3588,7 @@ async function setProfile(name,pin){
   route();return true;
 }
 function profileForm(fresh){
-  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Thy" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
+  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Stalis" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
     <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
     <p class="pf-n">Dùng tên và PIN này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
 }
