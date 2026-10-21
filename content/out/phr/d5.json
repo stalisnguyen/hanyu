@@ -48,9 +48,9 @@
    "随身行李"
   ],
   "hsk": 5,
-  "ex": "这个箱子太大了，必须托运行李。",
-  "exp": "Zhège xiāngzi tài dà le, bìxū tuōyùn xíngli.",
-  "exvi": "Cái vali này to quá, phải ký gửi hành lý.",
+  "ex": "我先去柜台托运行李，你在这儿等我。",
+  "exp": "Wǒ xiān qù guìtái tuōyùn xíngli, nǐ zài zhèr děng wǒ.",
+  "exvi": "Mình ra quầy ký gửi hành lý trước, bạn đợi mình ở đây nhé.",
   "em": "🧳"
  },
  {
@@ -858,9 +858,9 @@
    "吹笛子"
   ],
   "hsk": 4,
-  "ex": "她每天晚上练一个小时弹钢琴。",
-  "exp": "Tā měi tiān wǎnshang liàn yí gè xiǎoshí tán gāngqín.",
-  "exvi": "Tối nào cô ấy cũng tập đàn piano một tiếng.",
+  "ex": "她每天晚上弹钢琴弹一个小时。",
+  "exp": "Tā měi tiān wǎnshang tán gāngqín tán yí ge xiǎoshí.",
+  "exvi": "Tối nào cô ấy cũng chơi piano một tiếng.",
   "em": "🎹"
  },
  {
@@ -887,7 +887,7 @@
   "p": "xià xiàng qí",
   "hv": "hạ tượng kỳ",
   "vi": "chơi cờ tướng",
-  "note": "Chơi cờ dùng 下, không dùng 玩 hay 打: 下棋, 下围棋.",
+  "note": "Chơi cờ dùng 下: 下棋, 下象棋, 下围棋. Chơi bài thì dùng 打 (打牌).",
   "alt": [
    "下围棋",
    "下棋",
@@ -938,7 +938,7 @@
  {
   "deck": "dp",
   "h": "打发时间",
-  "p": "dǎ fā shí jiān",
+  "p": "dǎ fa shí jiān",
   "hv": "đả phát thời gian",
   "vi": "giết thời gian",
   "note": "打发 ở đây là cho qua, mang sắc thái làm cho hết thời gian rảnh.",
@@ -949,7 +949,7 @@
   ],
   "hsk": 5,
   "ex": "坐火车的时候我看小说打发时间。",
-  "exp": "Zuò huǒchē de shíhou wǒ kàn xiǎoshuō dǎfā shíjiān.",
+  "exp": "Zuò huǒchē de shíhou wǒ kàn xiǎoshuō dǎfa shíjiān.",
   "exvi": "Khi đi tàu hỏa, tôi đọc tiểu thuyết để giết thời gian.",
   "em": "📖"
  },

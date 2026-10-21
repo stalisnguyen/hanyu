@@ -1,20 +1,20 @@
 [
  {
   "deck": "cy",
-  "h": "脚踏实地",
-  "p": "jiǎo tà shí dì",
-  "hv": "cước đạp thực địa",
-  "vi": "(thành ngữ) chân chạm đất thật; làm việc thực tế, chắc chắn",
-  "note": "Nghĩa đen: chân đạp lên đất thật. Dùng để khen người làm việc thực tế, từng bước chắc chắn, không viển vông.",
+  "h": "小肚鸡肠",
+  "p": "xiǎo dù jī cháng",
+  "hv": "tiểu đỗ kê trường",
+  "vi": "(thành ngữ) bụng dạ hẹp hòi, hay chấp nhặt chuyện nhỏ",
+  "note": "Nghĩa đen: bụng nhỏ, ruột gà. Khẩu ngữ, dùng để chê người hay để bụng, so đo chuyện vặt.",
   "alt": [
-   "实事求是",
-   "好高骛远",
-   "一步一个脚印"
+   "心胸狭窄",
+   "斤斤计较",
+   "宽宏大量"
   ],
-  "hsk": 6,
-  "ex": "做事要脚踏实地，不能只想着走捷径。",
-  "exp": "Zuò shì yào jiǎotàshídì, bù néng zhǐ xiǎngzhe zǒu jiéjìng.",
-  "exvi": "Làm việc phải thực tế chắc chắn, không thể chỉ nghĩ đến đường tắt.",
+  "hsk": 7,
+  "ex": "别那么小肚鸡肠，他不是故意的。",
+  "exp": "Bié nàme xiǎodùjīcháng, tā bú shì gùyì de.",
+  "exvi": "Đừng hẹp hòi thế, anh ấy đâu có cố ý.",
   "em": ""
  },
  {
@@ -98,8 +98,8 @@
   "note": "Chỉ cử chỉ, lời nói tự nhiên, tự tin, không e dè. Thường khen phong thái khi giao tiếp, phỏng vấn, lên sân khấu.",
   "alt": [
    "大大方方",
-   "扭扭捏捏",
-   "拘拘束束"
+   "举止大方",
+   "扭扭捏捏"
   ],
   "hsk": 6,
   "ex": "她在面试时落落大方，给人留下了好印象。",
@@ -127,20 +127,20 @@
  },
  {
   "deck": "cy",
-  "h": "三心二意",
-  "p": "sān xīn èr yì",
-  "hv": "tam tâm nhị ý",
-  "vi": "(thành ngữ) không chuyên tâm, lòng dạ không yên; thay lòng đổi dạ",
-  "note": "Nghĩa đen: ba lòng hai ý. Chê người làm việc không tập trung, hoặc trong tình cảm không chung thủy.",
+  "h": "患得患失",
+  "p": "huàn dé huàn shī",
+  "hv": "hoạn đắc hoạn thất",
+  "vi": "(thành ngữ) lo được lo mất; quá bận tâm chuyện được hay mất",
+  "note": "Nghĩa đen: chưa được thì lo không được, được rồi lại lo mất. Dùng để chê hoặc khuyên người quá lo lắng thiệt hơn, thiếu thoải mái.",
   "alt": [
-   "一心一意",
-   "心猿意马",
-   "专心致志"
+   "斤斤计较",
+   "瞻前顾后",
+   "泰然处之"
   ],
-  "hsk": 5,
-  "ex": "学习的时候别三心二意，一边看书一边玩手机。",
-  "exp": "Xuéxí de shíhou bié sānxīn èryì, yìbiān kàn shū yìbiān wán shǒujī.",
-  "exvi": "Lúc học đừng có không tập trung, vừa đọc sách vừa chơi điện thoại.",
+  "hsk": 7,
+  "ex": "谈恋爱不要总是患得患失。",
+  "exp": "Tán liàn'ài búyào zǒngshì huàndéhuànshī.",
+  "exvi": "Yêu đương thì đừng lúc nào cũng lo được lo mất.",
   "em": ""
  },
  {
@@ -693,7 +693,7 @@
   "alt": [
    "多才多艺",
    "出类拔萃",
-   "平庸无奇"
+   "才疏学浅"
   ],
   "hsk": 7,
   "ex": "她是一位才华横溢的年轻作家。",

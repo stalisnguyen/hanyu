@@ -279,7 +279,7 @@ drawCard=function(){
   _uiDrawCard();
   const box=$('#cardBox');if(!box)return;
   if(!qcur){box.innerHTML=`<div class="card"><div class="done">${mascot('yay',120)}<h2>Xong phần ôn hôm nay</h2><p class="note">Giỏi lắm! Quay lại ngày mai, hoặc học thêm vài từ mới.</p><div class="row" style="justify-content:center"><button class="btn primary" id="cdMore">Học 5 từ mới</button><button class="btn" id="cdGame">Chơi Tốc độ 60 giây</button></div></div></div>`;
-    $('#cdMore').onclick=()=>{const extra=newList(studyLv(),200).filter(w=>!queue.includes(w)).slice(0,5);queue.push(...extra);nextCard();};
+    $('#cdMore').onclick=()=>{const extra=newMix(5,queue);queue.push(...extra);nextCard();};
     $('#cdGame').onclick=()=>go('games');return;}
   const card=$('.card',box);
   if(card&&!revealed){card.classList.add('tap');card.onclick=e=>{if(e.target.closest('button'))return;flip();};}

@@ -90,7 +90,7 @@
   "p": "guān kōng tiáo",
   "hv": "quan không điều",
   "vi": "tắt điều hòa",
-  "note": "Bật thiết bị dùng 开, tắt dùng 关: 开空调, 关空调. Không dùng 打 hay 灭 với điều hòa.",
+  "note": "Bật thiết bị dùng 开 hoặc 打开, tắt dùng 关 hoặc 关掉: 开空调, 关空调. 灭 chỉ dùng cho đèn, lửa (灭灯, 灭火), không dùng với điều hòa.",
   "alt": [
    "开空调",
    "关灯"
@@ -940,7 +940,7 @@
   "p": "jià gé hé lǐ",
   "hv": "giá cách hợp lý",
   "vi": "giá cả hợp lý",
-  "note": "价格 trang trọng hơn 价钱. Giá cao thấp chuẩn nhất là 价格高, 价格低; còn 贵, 便宜 nên đi với món đồ: 东西很贵.",
+  "note": "价格 trang trọng hơn 价钱. 合理 là hợp lý, vừa phải; hay dùng 价格合理 để khen giá không đắt.",
   "alt": [
    "价格便宜",
    "价格上涨"
@@ -957,7 +957,7 @@
   "p": "guò shēng rì",
   "hv": "quá sinh nhật",
   "vi": "đón sinh nhật; tổ chức sinh nhật",
-  "note": "Dùng 过 (trải qua): 过生日, 过春节, 过周末. Không nói 做生日.",
+  "note": "Dùng 过 (trải qua): 过生日, 过春节, 过周末. Tổ chức sinh nhật cho người khác nói 给某人过生日.",
   "alt": [
    "过春节",
    "过周末"
@@ -987,20 +987,20 @@
  },
  {
   "deck": "dp",
-  "h": "按时吃药",
-  "p": "àn shí chī yào",
-  "hv": "án thời ngật dược",
-  "vi": "uống thuốc đúng giờ",
-  "note": "Uống thuốc tiếng Trung dùng 吃药, không dùng 喝药 (trừ thuốc nước, thuốc sắc).",
+  "h": "叠衣服",
+  "p": "dié yī fu",
+  "hv": "điệp y phục",
+  "vi": "gấp quần áo",
+  "note": "叠 là gấp cho gọn: 叠衣服, 叠被子. Gấp giấy thì hay dùng 折 (折纸).",
   "alt": [
-   "按时吃饭",
-   "按时完成"
+   "叠被子",
+   "收衣服"
   ],
-  "hsk": 4,
-  "ex": "医生让我每天按时吃药，多休息。",
-  "exp": "Yīshēng ràng wǒ měitiān ànshí chī yào, duō xiūxi.",
-  "exvi": "Bác sĩ dặn mình mỗi ngày uống thuốc đúng giờ, nghỉ ngơi nhiều.",
-  "em": "💊"
+  "hsk": 5,
+  "ex": "收完衣服以后，我坐在沙发上叠衣服。",
+  "exp": "Shōu wán yīfu yǐhòu, wǒ zuò zài shāfā shang dié yīfu.",
+  "exvi": "Thu quần áo vào xong, mình ngồi trên sofa gấp quần áo.",
+  "em": "👕"
  },
  {
   "deck": "dp",

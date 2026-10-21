@@ -105,6 +105,14 @@ const known=h=>{const c=P.srs[h];return c&&c.s===2&&c.iv>=7;};
 const seen=h=>!!P.srs[h];
 function dueList(levels){const now=Date.now();return W.filter(w=>inLv(w,levels)&&P.srs[w.h]&&P.srs[w.h].due<=now).sort((a,b)=>P.srs[a.h].due-P.srs[b.h].due);}
 function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.first>=t).length;}
+/* new cards: when phrase decks are on, half of the new cards come from them, alternating with HSK words */
+function newMix(limit,skip=[]){const ph=P.settings.ph||[];const nl=(lv,n)=>newList(lv,n+skip.length).filter(w=>!skip.includes(w)).slice(0,n);
+  if(!ph.length)return nl(P.settings.lv,limit);
+  /* per deck: its own new rows first (easier HSK first, as built), then 成语 that also sit in HSK 7-9; decks alternate */
+  const fresh=w=>!P.srs[w.h]&&!skip.includes(w), per=ph.map(L=>[...W.filter(w=>w.lv===L&&fresh(w)),...W.filter(w=>w.lv2===L&&fresh(w))]);
+  const a=[];for(let i=0;a.length<Math.ceil(limit/2)&&per.some(d=>i<d.length);i++)per.forEach(d=>{if(i<d.length&&a.length<Math.ceil(limit/2)&&!a.includes(d[i]))a.push(d[i]);});
+  const b=nl(P.settings.lv,limit-a.length).filter(w=>!a.includes(w)), out=[];
+  for(let i=0;out.length<limit&&(i<a.length||i<b.length);i++){if(i<b.length)out.push(b[i]);if(i<a.length&&out.length<limit)out.push(a[i]);}return out;}
 function newList(levels,limit){const out=[];for(const w of W){if(out.length>=limit)break;if(inLv(w,levels)&&!P.srs[w.h])out.push(w);}return out;}
 function streak(){let s=0,t=today();if(!P.hist[ymd(t)])t-=DAY;while(P.hist[ymd(t)]){s++;t-=DAY;}return s;}
 
@@ -547,7 +555,7 @@ function renderHome(el){
 /* ================= STUDY (SRS) ================= */
 let queue=[],qcur=null,revealed=false,sessDone=0;
 function buildQueue(){
-  const lv=studyLv(); const due=dueList(lv); const nw=newList(lv,Math.max(0,P.settings.newPerDay-newToday()));
+  const lv=studyLv(); const due=dueList(lv); const nw=newMix(Math.max(0,P.settings.newPerDay-newToday()));
   queue=[...due,...nw]; sessDone=0;
 }
 function renderStudy(el){
@@ -563,7 +571,7 @@ function renderStudy(el){
   $$('[data-m]',el).forEach(b=>b.onclick=()=>{P.settings.mode=b.dataset.m;touch('main');$$('[data-m]',el).forEach(x=>x.setAttribute('aria-pressed',x.dataset.m===P.settings.mode));nextCard(true);});
   $$('[data-ph]',el).forEach(b=>b.onclick=async()=>{const L=+b.dataset.ph;const a=P.settings.ph=P.settings.ph||[];const i=a.indexOf(L);if(i<0)a.push(L);else a.splice(i,1);touch('main');
     if(a.includes(L)){b.disabled=true;await Promise.all([loadLevel(L),...(L===9?[loadLevel(7)]:[])]);}buildQueue();renderStudy(el);});
-  $('#addNew').onclick=()=>{const extra=newList(studyLv(),200).filter(w=>!queue.includes(w)).slice(0,10);queue.push(...extra);if(!qcur)nextCard();info();toast('Đã thêm '+extra.length+' từ mới vào phiên.');};
+  $('#addNew').onclick=()=>{const extra=newMix(10,queue);queue.push(...extra);if(!qcur)nextCard();info();toast('Đã thêm '+extra.length+' từ mới vào phiên.');};
   nextCard(true);
 }
 function info(){const n=queue.filter(w=>!P.srs[w.h]).length;$('#sessInfo')&&($('#sessInfo').innerHTML=`Còn <b>${queue.length}</b> thẻ (${n} từ mới). Đã ôn <b>${sessDone}</b>.`);}
@@ -582,7 +590,7 @@ function drawCard(){
      ${P.settings.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="mean">${esc(w.vi)}</div>
      ${w.cl&&w.cl.length?`<div class="small muted">Lượng từ: <span class="han">${esc(w.cl.join(', '))}</span></div>`:''}${phExtra(w,true)}
      <div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="zh han">${colorText(w.ex)}</div><div class="pyl py">${sentPyHTML(w.exp)}</div><div class="vil">${esc(w.exvi)}</div></div></div>`;
-  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">${lvLabel(w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
+  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">${lvLabel(w.lv2>=8?w.lv2:w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
     <div class="corner-r"><button class="spk" data-say="${esc(w.h)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết" title="Chi tiết"><svg class="i"><use href="#i-book-open"/></svg></button></div>
     ${revealed?back:front}
     ${revealed?'':'<button class="btn primary" id="cFlip" style="margin-top:auto">Lật thẻ <span class="kbd">Space</span></button>'}

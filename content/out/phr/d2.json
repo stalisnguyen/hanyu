@@ -73,7 +73,7 @@
   "p": "qǔ dé hǎo chéng jì",
   "hv": "thủ đắc hảo thành tích",
   "vi": "đạt kết quả tốt; đạt thành tích tốt",
-  "note": "取得 đi với kết quả tích cực (成绩、进步、成功). Không nói 得到成绩.",
+  "note": "取得 đi với kết quả tích cực (成绩、进步、成功). Văn chuẩn dùng 取得好成绩 nhiều hơn 得到好成绩.",
   "alt": [
    "取得进步",
    "取得成功"
@@ -444,7 +444,7 @@
  {
   "deck": "dp",
   "h": "完成任务",
-  "p": "wán chéng rèn wù",
+  "p": "wán chéng rèn wu",
   "hv": "hoàn thành nhiệm vụ",
   "vi": "hoàn thành nhiệm vụ; xong việc được giao",
   "note": "任务 là việc được giao. Giao việc là 布置任务 hoặc 分配任务.",
@@ -454,26 +454,26 @@
   ],
   "hsk": 4,
   "ex": "我们终于按时完成任务了。",
-  "exp": "Wǒmen zhōngyú ànshí wánchéng rènwù le.",
+  "exp": "Wǒmen zhōngyú ànshí wánchéng rènwu le.",
   "exvi": "Cuối cùng chúng tôi cũng hoàn thành nhiệm vụ đúng hạn.",
   "em": "✅"
  },
  {
   "deck": "dp",
-  "h": "承担责任",
-  "p": "chéng dān zé rèn",
-  "hv": "thừa đảm trách nhiệm",
-  "vi": "chịu trách nhiệm; gánh trách nhiệm",
-  "note": "承担 là gánh vác; cũng có thể nói 负责任. Không nói 拿责任.",
+  "h": "交作业",
+  "p": "jiāo zuò yè",
+  "hv": "giao tác nghiệp",
+  "vi": "nộp bài tập",
+  "note": "Nộp bài, nộp báo cáo dùng 交: 交作业, 交报告. 提交 trang trọng hơn, hay dùng trong thông báo.",
   "alt": [
-   "负责任",
-   "承担风险"
+   "交报告",
+   "交试卷"
   ],
-  "hsk": 5,
-  "ex": "出了问题，我们应该承担责任。",
-  "exp": "Chū le wèntí, wǒmen yīnggāi chéngdān zérèn.",
-  "exvi": "Có sự cố thì chúng ta phải chịu trách nhiệm.",
-  "em": ""
+  "hsk": 3,
+  "ex": "明天上课以前一定要交作业。",
+  "exp": "Míngtiān shàngkè yǐqián yídìng yào jiāo zuòyè.",
+  "exvi": "Trước giờ học ngày mai nhất định phải nộp bài tập.",
+  "em": "📝"
  },
  {
   "deck": "dp",
@@ -511,19 +511,19 @@
  },
  {
   "deck": "dp",
-  "h": "交换意见",
-  "p": "jiāo huàn yì jiàn",
-  "hv": "giao hoán ý kiến",
-  "vi": "trao đổi ý kiến",
-  "note": "交换 là trao qua đổi lại hai chiều. 交换意见 trang trọng hơn, hay dùng trong họp hoặc đàm phán.",
+  "h": "换工作",
+  "p": "huàn gōng zuò",
+  "hv": "hoán công tác",
+  "vi": "đổi việc; chuyển chỗ làm",
+  "note": "换 là đổi cái này sang cái khác: 换工作, 换手机. Nghỉ việc hẳn thì dùng 辞职.",
   "alt": [
-   "交换名片",
-   "交换信息"
+   "换手机",
+   "换专业"
   ],
-  "hsk": 5,
-  "ex": "开会时，大家可以充分交换意见。",
-  "exp": "Kāihuì shí, dàjiā kěyǐ chōngfèn jiāohuàn yìjiàn.",
-  "exvi": "Khi họp, mọi người có thể trao đổi ý kiến thoải mái.",
+  "hsk": 3,
+  "ex": "他觉得工资太低，想换工作。",
+  "exp": "Tā juéde gōngzī tài dī, xiǎng huàn gōngzuò.",
+  "exvi": "Anh ấy thấy lương thấp quá nên muốn đổi việc.",
   "em": ""
  },
  {
@@ -613,20 +613,20 @@
  },
  {
   "deck": "dp",
-  "h": "达成协议",
-  "p": "dá chéng xié yì",
-  "hv": "đạt thành hiệp nghị",
-  "vi": "đạt được thỏa thuận",
-  "note": "Kết hợp trang trọng, hay gặp trong tin tức và đàm phán kinh doanh. Đồng thuận về quan điểm là 达成共识.",
+  "h": "签合同",
+  "p": "qiān hé tong",
+  "hv": "thiêm hợp đồng",
+  "vi": "ký hợp đồng",
+  "note": "合同 đọc hétong, chữ sau thanh nhẹ. Văn trang trọng nói 签订合同; ký tên thì nói 签字 hoặc 签名.",
   "alt": [
-   "达成共识",
-   "签订协议"
+   "签订合同",
+   "签字"
   ],
-  "hsk": 6,
-  "ex": "经过谈判，双方终于达成协议。",
-  "exp": "Jīngguò tánpàn, shuāngfāng zhōngyú dáchéng xiéyì.",
-  "exvi": "Sau đàm phán, cuối cùng hai bên đã đạt được thỏa thuận.",
-  "em": "🤝"
+  "hsk": 5,
+  "ex": "双方下周一正式签合同。",
+  "exp": "Shuāngfāng xià zhōuyī zhèngshì qiān hétong.",
+  "exvi": "Thứ Hai tuần sau hai bên chính thức ký hợp đồng.",
+  "em": "✍️"
  },
  {
   "deck": "dp",
@@ -732,54 +732,54 @@
  },
  {
   "deck": "dp",
-  "h": "浪费时间",
-  "p": "làng fèi shí jiān",
-  "hv": "lãng phí thời gian",
-  "vi": "lãng phí thời gian; phí thời gian",
-  "note": "Trái nghĩa là 节约时间 hoặc 节省时间.",
+  "h": "背生词",
+  "p": "bèi shēng cí",
+  "hv": "bối sinh từ",
+  "vi": "học thuộc từ mới",
+  "note": "背 ở đây đọc bèi, nghĩa là học thuộc lòng: 背生词, 背课文. Nói 记生词 cũng được, nhưng 背 nhấn vào việc học thuộc.",
   "alt": [
-   "节约时间",
-   "浪费钱"
+   "背课文",
+   "记生词"
   ],
   "hsk": 4,
-  "ex": "别在手机上浪费时间了。",
-  "exp": "Bié zài shǒujī shang làngfèi shíjiān le.",
-  "exvi": "Đừng phí thời gian vào điện thoại nữa.",
-  "em": "⏳"
- },
- {
-  "deck": "dp",
-  "h": "培养人才",
-  "p": "péi yǎng rén cái",
-  "hv": "bồi dưỡng nhân tài",
-  "vi": "đào tạo nhân tài; bồi dưỡng người giỏi",
-  "note": "培养 là bồi dưỡng lâu dài (con người, năng lực, hứng thú). Đào tạo ngắn hạn cho nhân viên hay dùng 培训.",
-  "alt": [
-   "培养能力",
-   "培养兴趣"
-  ],
-  "hsk": 5,
-  "ex": "公司很重视培养人才。",
-  "exp": "Gōngsī hěn zhòngshì péiyǎng réncái.",
-  "exvi": "Công ty rất chú trọng đào tạo nhân tài.",
+  "ex": "我每天早上花二十分钟背生词。",
+  "exp": "Wǒ měitiān zǎoshang huā èrshí fēnzhōng bèi shēngcí.",
+  "exvi": "Sáng nào mình cũng dành hai mươi phút học thuộc từ mới.",
   "em": ""
  },
  {
   "deck": "dp",
-  "h": "降低成本",
-  "p": "jiàng dī chéng běn",
-  "hv": "giáng đê thành bản",
-  "vi": "giảm chi phí; cắt giảm giá thành",
-  "note": "降低 là làm giảm (giá, chi phí, rủi ro). 成本 là chi phí làm ra sản phẩm, khác 费用 là khoản phí phải trả.",
+  "h": "参加培训",
+  "p": "cān jiā péi xùn",
+  "hv": "tham gia bồi huấn",
+  "vi": "tham gia khóa đào tạo; đi tập huấn",
+  "note": "培训 là đào tạo ngắn hạn cho công việc, khác 培养 là bồi dưỡng lâu dài. Công ty tổ chức đào tạo là 组织培训.",
   "alt": [
-   "降低价格",
-   "降低风险"
+   "接受培训",
+   "参加会议"
   ],
   "hsk": 5,
-  "ex": "公司想办法降低成本。",
-  "exp": "Gōngsī xiǎng bànfǎ jiàngdī chéngběn.",
-  "exvi": "Công ty tìm cách giảm chi phí.",
+  "ex": "新员工要先参加培训才能上岗。",
+  "exp": "Xīn yuángōng yào xiān cānjiā péixùn cái néng shànggǎng.",
+  "exvi": "Nhân viên mới phải tham gia đào tạo trước rồi mới được nhận việc.",
   "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "谈生意",
+  "p": "tán shēng yi",
+  "hv": "đàm sinh ý",
+  "vi": "bàn chuyện làm ăn",
+  "note": "生意 đọc shēngyi, chữ sau thanh nhẹ. Làm ăn buôn bán nói chung là 做生意.",
+  "alt": [
+   "做生意",
+   "谈合作"
+  ],
+  "hsk": 5,
+  "ex": "他经常去广州跟客户谈生意。",
+  "exp": "Tā jīngcháng qù Guǎngzhōu gēn kèhù tán shēngyi.",
+  "exvi": "Anh ấy thường đi Quảng Châu bàn chuyện làm ăn với khách hàng.",
+  "em": "🤝"
  },
  {
   "deck": "dp",
@@ -970,53 +970,53 @@
  },
  {
   "deck": "dp",
-  "h": "发表意见",
-  "p": "fā biǎo yì jiàn",
-  "hv": "phát biểu ý kiến",
-  "vi": "phát biểu ý kiến; nêu quan điểm",
-  "note": "发表 là nêu ra công khai hoặc đăng bài (发表文章). Nói chuyện thường ngày hay dùng 说说看法.",
+  "h": "上网课",
+  "p": "shàng wǎng kè",
+  "hv": "thượng võng khóa",
+  "vi": "học online; học trực tuyến",
+  "note": "上课 là từ ly hợp nên chen được loại giờ học vào giữa: 上网课, 上汉语课.",
   "alt": [
-   "发表文章",
-   "发表看法"
+   "上汉语课",
+   "听网课"
+  ],
+  "hsk": 4,
+  "ex": "这个学期我们大部分时间都在家上网课。",
+  "exp": "Zhège xuéqī wǒmen dà bùfen shíjiān dōu zài jiā shàng wǎngkè.",
+  "exvi": "Học kỳ này phần lớn thời gian tụi mình học online ở nhà.",
+  "em": "💻"
+ },
+ {
+  "deck": "dp",
+  "h": "读研究生",
+  "p": "dú yán jiū shēng",
+  "hv": "độc nghiên cứu sinh",
+  "vi": "học cao học; học sau đại học",
+  "note": "研究生 là học viên sau đại học (thạc sĩ, tiến sĩ), rộng hơn nghiên cứu sinh trong tiếng Việt vốn thường chỉ tiến sĩ. Theo học một bậc dùng 读 hoặc 上: 读大学, 读研究生.",
+  "alt": [
+   "读大学",
+   "考研究生"
+  ],
+  "hsk": 4,
+  "ex": "大学毕业后，她想出国读研究生。",
+  "exp": "Dàxué bìyè hòu, tā xiǎng chūguó dú yánjiūshēng.",
+  "exvi": "Tốt nghiệp đại học xong, cô ấy muốn ra nước ngoài học cao học.",
+  "em": "🎓"
+ },
+ {
+  "deck": "dp",
+  "h": "分配任务",
+  "p": "fēn pèi rèn wu",
+  "hv": "phân phối nhiệm vụ",
+  "vi": "phân công nhiệm vụ; giao việc",
+  "note": "分配 là chia cho từng người: 分配任务, 分配工作. 任务 đọc rènwu, chữ sau thanh nhẹ.",
+  "alt": [
+   "分配工作",
+   "布置任务"
   ],
   "hsk": 5,
-  "ex": "会上每个人都可以发表意见。",
-  "exp": "Huì shang měi ge rén dōu kěyǐ fābiǎo yìjiàn.",
-  "exvi": "Trong cuộc họp ai cũng có thể phát biểu ý kiến.",
-  "em": ""
- },
- {
-  "deck": "dp",
-  "h": "保持联系",
-  "p": "bǎo chí lián xì",
-  "hv": "bảo trì liên hệ",
-  "vi": "giữ liên lạc",
-  "note": "Câu chào hay dùng khi chia tay: 保持联系！ Mất liên lạc là 失去联系.",
-  "alt": [
-   "保持安静",
-   "失去联系"
-  ],
-  "hsk": 4,
-  "ex": "毕业以后我们要保持联系。",
-  "exp": "Bìyè yǐhòu wǒmen yào bǎochí liánxì.",
-  "exvi": "Ra trường rồi chúng ta nhớ giữ liên lạc nhé.",
-  "em": ""
- },
- {
-  "deck": "dp",
-  "h": "增加收入",
-  "p": "zēng jiā shōu rù",
-  "hv": "tăng gia thu nhập",
-  "vi": "tăng thu nhập",
-  "note": "增加 nói về số lượng tăng lên; nói mức sống, trình độ thì dùng 提高. Cũng có thể nói 提高收入.",
-  "alt": [
-   "提高收入",
-   "增加工资"
-  ],
-  "hsk": 4,
-  "ex": "他想找份兼职增加收入。",
-  "exp": "Tā xiǎng zhǎo fèn jiānzhí zēngjiā shōurù.",
-  "exvi": "Anh ấy muốn tìm việc làm thêm để tăng thu nhập.",
+  "ex": "组长给每个人分配任务。",
+  "exp": "Zǔzhǎng gěi měi ge rén fēnpèi rènwu.",
+  "exvi": "Tổ trưởng phân công nhiệm vụ cho từng người.",
   "em": ""
  }
 ]

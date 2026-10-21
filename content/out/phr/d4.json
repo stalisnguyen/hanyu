@@ -131,7 +131,7 @@
   "p": "miàn lín tiǎo zhàn",
   "hv": "diện lâm khiêu chiến",
   "vi": "đối mặt với thách thức",
-  "note": "面临 đi với tình huống khó: 挑战, 困难, 危机, 压力. Không cần thêm 着 hay 与.",
+  "note": "面临 đi với tình huống khó: 挑战, 困难, 危机, 压力. Hay thêm 着: 面临着挑战; không cần giới từ đi kèm.",
   "alt": [
    "面临困难",
    "面临危机",
@@ -257,7 +257,7 @@
   "p": "jiā qiáng guǎn lǐ",
   "hv": "gia cường quản lý",
   "vi": "tăng cường quản lý",
-  "note": "加强 đi với hoạt động hoặc mối quan hệ: 管理, 合作, 交流, 监督. Không nói 加强能力, nói 提高能力.",
+  "note": "加强 đi với hoạt động hoặc mối quan hệ: 管理, 合作, 交流, 监督. Nói về năng lực cá nhân thì thường dùng 提高能力.",
   "alt": [
    "加强合作",
    "加强交流",
@@ -271,20 +271,19 @@
  },
  {
   "deck": "dp",
-  "h": "承担责任",
-  "p": "chéng dān zé rèn",
-  "hv": "thừa đảm trách nhiệm",
-  "vi": "chịu trách nhiệm; gánh trách nhiệm",
-  "note": "承担 trang trọng hơn 负, cũng đi với 费用, 风险. Có thể nói 负责任 nhưng không nói 承担责.",
+  "h": "发展经济",
+  "p": "fā zhǎn jīng jì",
+  "hv": "phát triển kinh tế",
+  "vi": "phát triển kinh tế",
+  "note": "发展 vừa là động từ vừa là danh từ: 发展经济 (làm cho kinh tế phát triển), 经济发展 (sự phát triển kinh tế).",
   "alt": [
-   "承担风险",
-   "承担费用",
-   "承担后果"
+   "发展教育",
+   "发展旅游业"
   ],
-  "hsk": 5,
-  "ex": "出了问题，公司必须承担责任。",
-  "exp": "Chūle wèntí, gōngsī bìxū chéngdān zérèn.",
-  "exvi": "Có sự cố thì công ty phải chịu trách nhiệm.",
+  "hsk": 4,
+  "ex": "这个地方靠旅游业发展经济。",
+  "exp": "Zhège dìfang kào lǚyóuyè fāzhǎn jīngjì.",
+  "exvi": "Nơi này phát triển kinh tế nhờ ngành du lịch.",
   "em": ""
  },
  {
@@ -347,7 +346,7 @@
   "p": "zēng jiā shōu rù",
   "hv": "tăng gia thu nhập",
   "vi": "tăng thu nhập",
-  "note": "增加 dùng cho số lượng. Không nói 提高收入 sai, nhưng 增加收入 phổ biến hơn khi nói về số tiền.",
+  "note": "增加 dùng cho số lượng. 提高收入 cũng đúng, nhưng 增加收入 phổ biến hơn khi nói về số tiền.",
   "alt": [
    "增加数量",
    "增加压力",
@@ -361,21 +360,20 @@
  },
  {
   "deck": "dp",
-  "h": "减少污染",
-  "p": "jiǎn shǎo wū rǎn",
-  "hv": "giảm thiểu ô nhiễm",
-  "vi": "giảm ô nhiễm",
-  "note": "减少 đi với số lượng, mức độ: 污染, 浪费, 压力. Hay đi kèm 空气污染, 水污染.",
+  "h": "打击犯罪",
+  "p": "dǎ jī fàn zuì",
+  "hv": "đả kích phạm tội",
+  "vi": "trấn áp tội phạm; chống tội phạm",
+  "note": "打击 ở đây là ra tay trấn áp, không phải đả kích (chỉ trích) như tiếng Việt. 打击 còn có nghĩa làm nhụt chí: 受到打击.",
   "alt": [
-   "减少浪费",
-   "减少压力",
-   "减少损失"
+   "打击假货",
+   "预防犯罪"
   ],
-  "hsk": 4,
-  "ex": "多坐地铁能减少污染。",
-  "exp": "Duō zuò dìtiě néng jiǎnshǎo wūrǎn.",
-  "exvi": "Đi tàu điện ngầm nhiều hơn có thể giảm ô nhiễm.",
-  "em": "🏭"
+  "hsk": 6,
+  "ex": "警察正在加大力度打击犯罪。",
+  "exp": "Jǐngchá zhèngzài jiādà lìdù dǎjī fànzuì.",
+  "exvi": "Cảnh sát đang tăng cường trấn áp tội phạm.",
+  "em": "👮"
  },
  {
   "deck": "dp",
@@ -599,7 +597,7 @@
   "p": "fā huī yōu shì",
   "hv": "phát huy ưu thế",
   "vi": "phát huy thế mạnh",
-  "note": "发挥 đi với 优势, 作用, 水平, 特长. Không nói 发挥能力 mà nói 发挥才能 hoặc 提高能力.",
+  "note": "发挥 là đem cái sẵn có ra dùng cho hết, đi với 优势, 作用, 水平, 特长, 能力. Hay nói 充分发挥.",
   "alt": [
    "发挥特长",
    "发挥水平",
@@ -614,7 +612,7 @@
  {
   "deck": "dp",
   "h": "克服困难",
-  "p": "kè fú kùn nán",
+  "p": "kè fú kùn nan",
   "hv": "khắc phục khốn nan",
   "vi": "vượt qua khó khăn",
   "note": "克服 đi với 困难, 缺点, 障碍. Không nói 克服问题; với 问题 dùng 解决.",
@@ -625,7 +623,7 @@
   ],
   "hsk": 4,
   "ex": "只要大家一起努力，就能克服困难。",
-  "exp": "Zhǐyào dàjiā yìqǐ nǔlì, jiù néng kèfú kùnnán.",
+  "exp": "Zhǐyào dàjiā yìqǐ nǔlì, jiù néng kèfú kùnnan.",
   "exvi": "Chỉ cần mọi người cùng cố gắng là có thể vượt qua khó khăn.",
   "em": ""
  },
@@ -739,39 +737,37 @@
  },
  {
   "deck": "dp",
-  "h": "提出建议",
-  "p": "tí chū jiàn yì",
-  "hv": "đề xuất kiến nghị",
-  "vi": "đưa ra đề xuất; góp ý",
-  "note": "提出 đi với 建议, 要求, 问题, 意见. Không nói 给出建议 trong văn trang trọng, dù văn nói vẫn gặp.",
+  "h": "推广普通话",
+  "p": "tuī guǎng pǔ tōng huà",
+  "hv": "thôi quảng phổ thông thoại",
+  "vi": "phổ biến tiếng phổ thông",
+  "note": "推广 là mở rộng cho nhiều người dùng: 推广普通话, 推广新技术, 推广产品.",
   "alt": [
-   "提出要求",
-   "提出问题",
-   "提出意见"
+   "推广新技术",
+   "推广产品"
   ],
-  "hsk": 4,
-  "ex": "专家针对交通问题提出建议。",
-  "exp": "Zhuānjiā zhēnduì jiāotōng wèntí tíchū jiànyì.",
-  "exvi": "Chuyên gia đưa ra đề xuất về vấn đề giao thông.",
-  "em": "💡"
+  "hsk": 5,
+  "ex": "学校一直在大力推广普通话。",
+  "exp": "Xuéxiào yìzhí zài dàlì tuīguǎng Pǔtōnghuà.",
+  "exvi": "Nhà trường luôn ra sức phổ biến tiếng phổ thông.",
+  "em": ""
  },
  {
   "deck": "dp",
-  "h": "征求意见",
-  "p": "zhēng qiú yì jiàn",
-  "hv": "trưng cầu ý kiến",
-  "vi": "lấy ý kiến; hỏi ý kiến",
-  "note": "征求 dùng khi chủ động xin ý kiến người khác, thường trang trọng: 征求意见, 征求同意.",
+  "h": "申请贷款",
+  "p": "shēn qǐng dài kuǎn",
+  "hv": "thân thỉnh thải khoản",
+  "vi": "xin vay vốn; xin vay ngân hàng",
+  "note": "贷款 vừa là động từ vừa là danh từ. Trả khoản vay là 还贷款; vay mua nhà gọi tắt là 房贷.",
   "alt": [
-   "征求同意",
-   "听取意见",
-   "发表意见"
+   "还贷款",
+   "申请信用卡"
   ],
   "hsk": 6,
-  "ex": "政府向市民征求意见。",
-  "exp": "Zhèngfǔ xiàng shìmín zhēngqiú yìjiàn.",
-  "exvi": "Chính quyền lấy ý kiến người dân.",
-  "em": ""
+  "ex": "他向银行申请贷款买房子。",
+  "exp": "Tā xiàng yínháng shēnqǐng dàikuǎn mǎi fángzi.",
+  "exvi": "Anh ấy xin ngân hàng cho vay để mua nhà.",
+  "em": "🏦"
  },
  {
   "deck": "dp",
@@ -883,21 +879,20 @@
  },
  {
   "deck": "dp",
-  "h": "实现目标",
-  "p": "shí xiàn mù biāo",
-  "hv": "thực hiện mục tiêu",
-  "vi": "đạt được mục tiêu; hiện thực hóa mục tiêu",
-  "note": "实现 đi với 目标, 理想, 梦想, 愿望. Không nói 达到梦想; 达到 đi với 标准, 水平.",
+  "h": "物价上涨",
+  "p": "wù jià shàng zhǎng",
+  "hv": "vật giá thượng trướng",
+  "vi": "giá cả tăng; vật giá leo thang",
+  "note": "涨 đọc zhǎng khi nói giá cả, mực nước tăng. Dùng theo kiểu chủ ngữ + vị ngữ; trái nghĩa là 物价下跌.",
   "alt": [
-   "实现理想",
-   "实现梦想",
-   "达到目标"
+   "房价上涨",
+   "物价下跌"
   ],
-  "hsk": 4,
-  "ex": "为了实现目标，他每天学习到深夜。",
-  "exp": "Wèile shíxiàn mùbiāo, tā měitiān xuéxí dào shēnyè.",
-  "exvi": "Để đạt mục tiêu, ngày nào anh ấy cũng học đến khuya.",
-  "em": "🎯"
+  "hsk": 5,
+  "ex": "最近物价上涨得很快，生活压力很大。",
+  "exp": "Zuìjìn wùjià shàngzhǎng de hěn kuài, shēnghuó yālì hěn dà.",
+  "exvi": "Dạo này giá cả tăng nhanh, áp lực cuộc sống rất lớn.",
+  "em": "📈"
  },
  {
   "deck": "dp",
@@ -919,39 +914,37 @@
  },
  {
   "deck": "dp",
-  "h": "浪费资源",
-  "p": "làng fèi zī yuán",
-  "hv": "lãng phí tư nguyên",
-  "vi": "lãng phí tài nguyên",
-  "note": "资源 là tài nguyên, nguồn lực. 浪费 cũng đi với 时间, 钱, 粮食.",
+  "h": "减轻负担",
+  "p": "jiǎn qīng fù dān",
+  "hv": "giảm khinh phụ đảm",
+  "vi": "giảm gánh nặng",
+  "note": "负担 là gánh nặng (tiền bạc, công việc, tâm lý), hay đi với 减轻 hoặc 加重: 减轻家庭负担, 减轻学生负担.",
   "alt": [
-   "浪费时间",
-   "浪费粮食",
-   "节约资源"
+   "加重负担",
+   "减轻压力"
   ],
   "hsk": 5,
-  "ex": "过度包装是在浪费资源。",
-  "exp": "Guòdù bāozhuāng shì zài làngfèi zīyuán.",
-  "exvi": "Đóng gói quá mức là lãng phí tài nguyên.",
-  "em": "🗑️"
+  "ex": "新政策可以减轻负担，让老百姓的日子更好过。",
+  "exp": "Xīn zhèngcè kěyǐ jiǎnqīng fùdān, ràng lǎobǎixìng de rìzi gèng hǎoguò.",
+  "exvi": "Chính sách mới có thể giảm gánh nặng, giúp người dân sống dễ thở hơn.",
+  "em": ""
  },
  {
   "deck": "dp",
-  "h": "节约能源",
-  "p": "jié yuē néng yuán",
-  "hv": "tiết ước năng nguyên",
-  "vi": "tiết kiệm năng lượng",
-  "note": "节约 trang trọng hơn 节省, hay đi với 能源, 用水, 资源. 能源 là năng lượng, không dịch là nguồn năng.",
+  "h": "出口产品",
+  "p": "chū kǒu chǎn pǐn",
+  "hv": "xuất khẩu sản phẩm",
+  "vi": "xuất khẩu sản phẩm; hàng xuất khẩu",
+  "note": "出口 là xuất khẩu, trái nghĩa 进口; cụm này vừa là động từ + tân ngữ vừa là danh từ (hàng xuất khẩu). 出口 còn có nghĩa lối ra.",
   "alt": [
-   "节约用水",
-   "节约资源",
-   "节约时间"
+   "进口产品",
+   "出口商品"
   ],
   "hsk": 5,
-  "ex": "出门前关灯可以节约能源。",
-  "exp": "Chūmén qián guān dēng kěyǐ jiéyuē néngyuán.",
-  "exvi": "Tắt đèn trước khi ra ngoài có thể tiết kiệm năng lượng.",
-  "em": "💡"
+  "ex": "这家工厂的出口产品主要卖到欧洲。",
+  "exp": "Zhè jiā gōngchǎng de chūkǒu chǎnpǐn zhǔyào mài dào Ōuzhōu.",
+  "exvi": "Hàng xuất khẩu của nhà máy này chủ yếu bán sang châu Âu.",
+  "em": "🚢"
  },
  {
   "deck": "dp",
@@ -1045,38 +1038,36 @@
  },
  {
   "deck": "dp",
-  "h": "提高效率",
-  "p": "tí gāo xiào lǜ",
-  "hv": "đề cao hiệu suất",
-  "vi": "nâng cao hiệu quả; tăng năng suất",
-  "note": "效率 là hiệu suất, tốc độ làm việc; 效果 là hiệu quả, kết quả đạt được. Không nói 提高效果 khi muốn nói làm nhanh hơn.",
+  "h": "发生事故",
+  "p": "fā shēng shì gù",
+  "hv": "phát sinh sự cố",
+  "vi": "xảy ra tai nạn; xảy ra sự cố",
+  "note": "事故 là tai nạn, sự cố bất ngờ, hay gặp 交通事故. 发生 đi với sự việc xảy ra ngoài ý muốn: 发生事故, 发生火灾.",
   "alt": [
-   "提高质量",
-   "提高能力",
-   "提高收入"
+   "发生火灾",
+   "交通事故"
   ],
-  "hsk": 4,
-  "ex": "用电脑工作可以提高效率。",
-  "exp": "Yòng diànnǎo gōngzuò kěyǐ tígāo xiàolǜ.",
-  "exvi": "Làm việc bằng máy tính có thể nâng cao hiệu suất.",
-  "em": "⚡"
+  "hsk": 5,
+  "ex": "雨天路滑，很容易发生事故。",
+  "exp": "Yǔtiān lù huá, hěn róngyì fāshēng shìgù.",
+  "exvi": "Trời mưa đường trơn, rất dễ xảy ra tai nạn.",
+  "em": "🚨"
  },
  {
   "deck": "dp",
-  "h": "解决矛盾",
-  "p": "jiě jué máo dùn",
-  "hv": "giải quyết mâu thuẫn",
-  "vi": "giải quyết mâu thuẫn",
-  "note": "矛盾 đi với 解决, 产生, 激化. Hay nói 社会矛盾, 家庭矛盾.",
+  "h": "建立制度",
+  "p": "jiàn lì zhì dù",
+  "hv": "kiến lập chế độ",
+  "vi": "xây dựng quy chế; lập ra cơ chế",
+  "note": "制度 là quy chế, cơ chế vận hành, không chỉ mang nghĩa chế độ chính trị như tiếng Việt. Hay đi với 建立, 完善, 遵守.",
   "alt": [
-   "产生矛盾",
-   "解决纠纷",
-   "化解矛盾"
+   "完善制度",
+   "建立信任"
   ],
   "hsk": 5,
-  "ex": "沟通是解决矛盾的好办法。",
-  "exp": "Gōutōng shì jiějué máodùn de hǎo bànfǎ.",
-  "exvi": "Trò chuyện là cách tốt để giải quyết mâu thuẫn.",
+  "ex": "公司需要建立制度，管理才会更规范。",
+  "exp": "Gōngsī xūyào jiànlì zhìdù, guǎnlǐ cái huì gèng guīfàn.",
+  "exvi": "Công ty cần xây dựng quy chế thì quản lý mới bài bản hơn.",
   "em": ""
  }
 ]

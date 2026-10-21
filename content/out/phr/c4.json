@@ -88,20 +88,20 @@
  },
  {
   "deck": "cy",
-  "h": "塞翁失马",
-  "p": "sài wēng shī mǎ",
-  "hv": "tái ông thất mã",
-  "vi": "(thành ngữ) tái ông mất ngựa; trong họa có phúc",
-  "note": "Điển tích: ông lão ở biên ải mất ngựa, sau ngựa quay về dẫn theo ngựa tốt. Thường nói đủ câu 塞翁失马，焉知非福 để an ủi người gặp chuyện không may.",
+  "h": "叶公好龙",
+  "p": "yè gōng hào lóng",
+  "hv": "diệp công hiếu long",
+  "vi": "(thành ngữ) ngoài miệng nói thích nhưng thật ra không thích",
+  "note": "Điển tích: Diệp công nói rất mê rồng, nhà đâu cũng vẽ rồng, đến khi rồng thật xuống thăm thì sợ hãi bỏ chạy. 好 đọc hào (thích). Dùng để chê người chỉ thích ngoài miệng.",
   "alt": [
-   "因祸得福",
-   "祸兮福所倚"
+   "口是心非",
+   "言行不一"
   ],
-  "hsk": 6,
-  "ex": "没考上也别难过，塞翁失马，焉知非福。",
-  "exp": "Méi kǎoshàng yě bié nánguò, sàiwēngshīmǎ, yān zhī fēi fú.",
-  "exvi": "Thi trượt cũng đừng buồn, tái ông mất ngựa, biết đâu lại là phúc.",
-  "em": "🐎"
+  "hsk": 7,
+  "ex": "说喜欢运动却从来不去，真是叶公好龙。",
+  "exp": "Shuō xǐhuan yùndòng què cónglái bú qù, zhēn shì yègōnghàolóng.",
+  "exvi": "Nói thích thể thao mà chưa bao giờ đi tập, đúng là thích ngoài miệng.",
+  "em": "🐉"
  },
  {
   "deck": "cy",
@@ -118,7 +118,7 @@
   "ex": "光看别人旅行的照片，只能望梅止渴。",
   "exp": "Guāng kàn biérén lǚxíng de zhàopiàn, zhǐ néng wàngméizhǐkě.",
   "exvi": "Chỉ xem ảnh du lịch của người khác thì chỉ là nhìn mơ đỡ khát.",
-  "em": "🍑"
+  "em": ""
  },
  {
   "deck": "cy",
@@ -133,7 +133,7 @@
   ],
   "hsk": 7,
   "ex": "失败以后，他卧薪尝胆，三年后东山再起。",
-  "exp": "Shībài yǐhòu, tā wòxīnchángdǎn, sān nián hòu dōngshān-zàiqǐ.",
+  "exp": "Shībài yǐhòu, tā wòxīnchángdǎn, sān nián hòu dōngshānzàiqǐ.",
   "exvi": "Sau thất bại, anh ấy nằm gai nếm mật, ba năm sau lại vươn lên.",
   "em": ""
  },
@@ -237,7 +237,7 @@
   "ex": "我唱歌不行，只是在合唱团里滥竽充数。",
   "exp": "Wǒ chànggē bù xíng, zhǐshì zài héchàngtuán li lànyúchōngshù.",
   "exvi": "Tôi hát không ra gì, chỉ đứng trong dàn hợp xướng cho đủ số thôi.",
-  "em": "🎷"
+  "em": ""
  },
  {
   "deck": "cy",
@@ -258,19 +258,19 @@
  },
  {
   "deck": "cy",
-  "h": "一鸣惊人",
-  "p": "yì míng jīng rén",
-  "hv": "nhất minh kinh nhân",
-  "vi": "(thành ngữ) đã kêu là làm mọi người kinh ngạc; bỗng dưng thành công lớn",
-  "note": "Điển tích: con chim ba năm không kêu, đã kêu thì khiến người ta sửng sốt. Dùng để khen người vốn im lặng bỗng tạo được thành tích nổi bật.",
+  "h": "毛遂自荐",
+  "p": "máo suì zì jiàn",
+  "hv": "mao toại tự tiến",
+  "vi": "(thành ngữ) tự đề cử mình, tự xin nhận việc",
+  "note": "Điển tích: Mao Toại là môn khách của Bình Nguyên quân nước Triệu, tự xin đi theo sang nước Sở và lập công. Dùng khi ai đó chủ động tiến cử bản thân; sắc thái tích cực, có thể nói vui.",
   "alt": [
-   "一举成名",
-   "脱颖而出"
+   "自告奋勇",
+   "自我推荐"
   ],
-  "hsk": 6,
-  "ex": "这位新导演的第一部电影就一鸣惊人。",
-  "exp": "Zhè wèi xīn dǎoyǎn de dì-yī bù diànyǐng jiù yìmíngjīngrén.",
-  "exvi": "Bộ phim đầu tay của đạo diễn mới này đã gây tiếng vang lớn.",
+  "hsk": 7,
+  "ex": "这次比赛没人报名，我就毛遂自荐了。",
+  "exp": "Zhè cì bǐsài méi rén bàomíng, wǒ jiù máosuìzìjiàn le.",
+  "exvi": "Cuộc thi lần này không ai đăng ký, nên tôi tự xin tham gia.",
   "em": ""
  },
  {
@@ -309,21 +309,21 @@
  },
  {
   "deck": "cy",
-  "h": "水滴石穿",
-  "p": "shuǐ dī shí chuān",
-  "hv": "thủy tích thạch xuyên",
-  "vi": "(thành ngữ) nước chảy đá mòn; kiên trì ắt thành",
-  "note": "Nghĩa đen: giọt nước nhỏ mãi cũng làm thủng đá. Dùng để khuyến khích kiên trì làm việc nhỏ đều đặn; sắc thái tích cực.",
+  "h": "惊弓之鸟",
+  "p": "jīng gōng zhī niǎo",
+  "hv": "kinh cung chi điểu",
+  "vi": "(thành ngữ) chim sợ cành cong; người từng bị dọa nên hễ có động là sợ",
+  "note": "Điển tích: con chim từng bị tên bắn, nghe tiếng dây cung bật là hoảng sợ rơi xuống. Dùng tả người đã gặp chuyện đáng sợ nên nay rất dễ hoảng; hơi văn viết.",
   "alt": [
-   "铁杵成针",
-   "持之以恒",
-   "半途而废"
+   "杯弓蛇影",
+   "草木皆兵",
+   "一朝被蛇咬，十年怕井绳"
   ],
-  "hsk": 5,
-  "ex": "学语言要每天坚持，水滴石穿。",
-  "exp": "Xué yǔyán yào měi tiān jiānchí, shuǐdīshíchuān.",
-  "exvi": "Học ngoại ngữ phải kiên trì mỗi ngày, nước chảy đá mòn.",
-  "em": "💧"
+  "hsk": 7,
+  "ex": "被骗过一次以后，他就成了惊弓之鸟。",
+  "exp": "Bèi piànguo yí cì yǐhòu, tā jiù chéngle jīnggōngzhīniǎo.",
+  "exvi": "Sau một lần bị lừa, anh ấy thành chim sợ cành cong.",
+  "em": ""
  },
  {
   "deck": "cy",
@@ -807,7 +807,7 @@
   "note": "Nghĩa đen: vào làng nào theo tục làng đó. Dùng khi khuyên tôn trọng và làm theo phong tục nơi mình đến.",
   "alt": [
    "入境问俗",
-   "随乡入乡"
+   "入乡随乡"
   ],
   "hsk": 5,
   "ex": "在国外生活，要学会入乡随俗。",

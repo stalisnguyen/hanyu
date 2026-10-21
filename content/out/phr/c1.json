@@ -8,7 +8,7 @@
   "note": "Nghĩa đen: thạo việc thì sinh ra khéo léo. Dùng để khuyên luyện tập đều đặn, gặp cả trong khẩu ngữ lẫn văn viết.",
   "alt": [
    "勤学苦练",
-   "多练就熟"
+   "练多了就熟了"
   ],
   "hsk": 5,
   "ex": "写汉字没有捷径，熟能生巧。",
@@ -103,19 +103,19 @@
  },
  {
   "deck": "cy",
-  "h": "卧薪尝胆",
-  "p": "wò xīn cháng dǎn",
-  "hv": "ngọa tân thường đảm",
-  "vi": "(thành ngữ) nằm gai nếm mật; chịu khổ nuôi chí để làm lại",
-  "note": "Điển tích Câu Tiễn nước Việt nằm trên củi, nếm mật đắng để không quên nhục mất nước. Dùng khen người chịu khổ lâu dài để vươn lên, văn viết.",
+  "h": "勤能补拙",
+  "p": "qín néng bǔ zhuō",
+  "hv": "cần năng bổ chuyết",
+  "vi": "(thành ngữ) chăm chỉ có thể bù cho chỗ vụng về, kém cỏi",
+  "note": "拙 là vụng, kém. Dùng để tự khích lệ hoặc khuyên người biết mình chưa giỏi thì phải chịu khó hơn; khẩu ngữ lẫn văn viết.",
   "alt": [
-   "发愤图强",
-   "忍辱负重"
+   "笨鸟先飞",
+   "勤学苦练"
   ],
-  "hsk": 7,
-  "ex": "输了比赛以后，他们卧薪尝胆，第二年拿了冠军。",
-  "exp": "Shū le bǐsài yǐhòu, tāmen wòxīnchángdǎn, dì-èr nián ná le guànjūn.",
-  "exvi": "Sau khi thua trận, họ nằm gai nếm mật, năm sau giành chức vô địch.",
+  "hsk": 6,
+  "ex": "我不太聪明，但我相信勤能补拙。",
+  "exp": "Wǒ bú tài cōngming, dàn wǒ xiāngxìn qínnéngbǔzhuō.",
+  "exvi": "Tôi không thông minh lắm, nhưng tôi tin chăm chỉ sẽ bù được chỗ kém.",
   "em": ""
  },
  {
@@ -443,19 +443,20 @@
  },
  {
   "deck": "cy",
-  "h": "任劳任怨",
-  "p": "rèn láo rèn yuàn",
-  "hv": "nhậm lao nhậm oán",
-  "vi": "(thành ngữ) chịu khó chịu khổ, không kêu ca",
-  "note": "Nghĩa đen: chịu được vất vả, chịu được cả lời oán trách. Dùng khen nhân viên hoặc cha mẹ chăm chỉ mà không than phiền.",
+  "h": "全神贯注",
+  "p": "quán shén guàn zhù",
+  "hv": "toàn thần quán chú",
+  "vi": "(thành ngữ) dồn toàn bộ tinh thần, hết sức tập trung",
+  "note": "Nghĩa đen: toàn bộ tinh thần dồn vào một chỗ. Dùng tả người đang rất tập trung khi học, làm việc, xem thi đấu; sắc thái khen.",
   "alt": [
-   "兢兢业业",
-   "吃苦耐劳"
+   "聚精会神",
+   "专心致志",
+   "心不在焉"
   ],
-  "hsk": 7,
-  "ex": "她在公司工作十年，一直任劳任怨。",
-  "exp": "Tā zài gōngsī gōngzuò shí nián, yìzhí rènláorènyuàn.",
-  "exvi": "Chị ấy làm ở công ty mười năm, lúc nào cũng chịu khó không kêu ca.",
+  "hsk": 6,
+  "ex": "他全神贯注地听老师讲课。",
+  "exp": "Tā quánshénguànzhù de tīng lǎoshī jiǎngkè.",
+  "exvi": "Cậu ấy tập trung cao độ nghe thầy giảng bài.",
   "em": ""
  },
  {
@@ -804,7 +805,7 @@
   "p": "sān xīn èr yì",
   "hv": "tam tâm nhị ý",
   "vi": "(thành ngữ) không chuyên tâm, lúc thế này lúc thế khác",
-  "note": "Gần với \"ba lòng hai dạ\" nhưng chủ yếu dùng cho việc học, việc làm thiếu tập trung; khẩu ngữ.",
+  "note": "Nghĩa đen: ba lòng hai ý. Chủ yếu chê việc học, việc làm thiếu tập trung hoặc hay đổi ý; khẩu ngữ.",
   "alt": [
    "心不在焉",
    "一心一意"

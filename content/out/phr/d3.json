@@ -37,21 +37,20 @@
  },
  {
   "deck": "dp",
-  "h": "提出建议",
-  "p": "tí chū jiàn yì",
-  "hv": "đề xuất kiến nghị",
-  "vi": "đưa ra đề xuất, góp ý",
-  "note": "建议 đi với 提出 hoặc 提 (提建议). Nhận góp ý thì dùng 接受建议 hoặc 听取建议.",
+  "h": "鼓起勇气",
+  "p": "gǔ qǐ yǒng qì",
+  "hv": "cổ khởi dũng khí",
+  "vi": "lấy hết can đảm; lấy dũng khí",
+  "note": "鼓起 là gom hết sức để làm việc mình ngại. Hay theo mẫu 鼓起勇气 + động từ: 鼓起勇气表白.",
   "alt": [
-   "提出问题",
-   "提出要求",
-   "接受建议"
+   "拿出勇气",
+   "没有勇气"
   ],
-  "hsk": 4,
-  "ex": "开会时，他提出建议，把会议时间缩短一半。",
-  "exp": "Kāihuì shí, tā tíchū jiànyì, bǎ huìyì shíjiān suōduǎn yíbàn.",
-  "exvi": "Trong cuộc họp, anh ấy đề xuất rút ngắn thời gian họp đi một nửa.",
-  "em": "💡"
+  "hsk": 5,
+  "ex": "他终于鼓起勇气向她表白了。",
+  "exp": "Tā zhōngyú gǔqǐ yǒngqì xiàng tā biǎobái le.",
+  "exvi": "Cuối cùng anh ấy cũng lấy hết can đảm tỏ tình với cô ấy.",
+  "em": ""
  },
  {
   "deck": "dp",
@@ -110,7 +109,7 @@
  {
   "deck": "dp",
   "h": "建立关系",
-  "p": "jiàn lì guān xì",
+  "p": "jiàn lì guān xi",
   "hv": "kiến lập quan hệ",
   "vi": "xây dựng mối quan hệ",
   "note": "建立 đi với 关系, 信任, 联系, 家庭. Người Việt hay dịch thẳng 建设关系, nhưng 建设 chỉ dùng cho công trình, đất nước.",
@@ -121,14 +120,14 @@
   ],
   "hsk": 5,
   "ex": "刚到新公司，要先和同事建立关系。",
-  "exp": "Gāng dào xīn gōngsī, yào xiān hé tóngshì jiànlì guānxì.",
+  "exp": "Gāng dào xīn gōngsī, yào xiān hé tóngshì jiànlì guānxi.",
   "exvi": "Mới đến công ty mới, trước hết phải xây dựng quan hệ với đồng nghiệp.",
   "em": "🤝"
  },
  {
   "deck": "dp",
   "h": "改善关系",
-  "p": "gǎi shàn guān xì",
+  "p": "gǎi shàn guān xi",
   "hv": "cải thiện quan hệ",
   "vi": "cải thiện mối quan hệ",
   "note": "改善 dùng cho thứ đang chưa tốt: 关系, 环境, 条件, 生活. Không nói 改善水平, nói 提高水平.",
@@ -139,7 +138,7 @@
   ],
   "hsk": 5,
   "ex": "他们想通过这次旅行改善关系。",
-  "exp": "Tāmen xiǎng tōngguò zhè cì lǚxíng gǎishàn guānxì.",
+  "exp": "Tāmen xiǎng tōngguò zhè cì lǚxíng gǎishàn guānxi.",
   "exvi": "Họ muốn cải thiện quan hệ qua chuyến du lịch này.",
   "em": ""
  },
@@ -211,7 +210,7 @@
   ],
   "hsk": 4,
   "ex": "朋友之间最重要的是互相理解。",
-  "exp": "Péngyǒu zhījiān zuì zhòngyào de shì hùxiāng lǐjiě.",
+  "exp": "Péngyou zhījiān zuì zhòngyào de shì hùxiāng lǐjiě.",
   "exvi": "Giữa bạn bè, quan trọng nhất là thấu hiểu lẫn nhau.",
   "em": ""
  },
@@ -257,7 +256,7 @@
   "p": "guān xīn jiā rén",
   "hv": "quan tâm gia nhân",
   "vi": "quan tâm đến người nhà",
-  "note": "关心 là động từ, đi thẳng với tân ngữ: 关心家人. Không thêm 到 theo kiểu 'quan tâm đến': không nói 关心到家人.",
+  "note": "关心 là động từ, đi thẳng với tân ngữ: 关心家人. Không cần thêm giới từ hay 到 như khi dịch 'quan tâm đến'.",
   "alt": [
    "关心别人",
    "关心健康",
@@ -380,18 +379,18 @@
  {
   "deck": "dp",
   "h": "发脾气",
-  "p": "fā pí qì",
+  "p": "fā pí qi",
   "hv": "phát tỳ khí",
   "vi": "nổi nóng, cáu giận",
   "note": "发脾气 là cụm li hợp: 发了一顿脾气, 对他发脾气. Không nói 发脾气他.",
   "alt": [
+   "乱发脾气",
    "脾气很好",
-   "脾气很大",
-   "耐心很好"
+   "脾气很大"
   ],
   "hsk": 4,
   "ex": "他累的时候很容易发脾气。",
-  "exp": "Tā lèi de shíhou hěn róngyì fā píqì.",
+  "exp": "Tā lèi de shíhou hěn róngyì fā píqi.",
   "exvi": "Lúc mệt anh ấy rất dễ nổi nóng.",
   "em": "😠"
  },
@@ -758,7 +757,7 @@
  {
   "deck": "dp",
   "h": "说得有道理",
-  "p": "shuō de yǒu dào lǐ",
+  "p": "shuō de yǒu dào li",
   "hv": "thuyết đắc hữu đạo lý",
   "vi": "nói có lý",
   "note": "Câu đồng tình rất hay dùng: 你说得有道理. 得 nối động từ với bổ ngữ trình độ, không viết 的.",
@@ -769,7 +768,7 @@
   ],
   "hsk": 4,
   "ex": "你说得有道理，我们就按你的办法做。",
-  "exp": "Nǐ shuō de yǒu dàolǐ, wǒmen jiù àn nǐ de bànfǎ zuò.",
+  "exp": "Nǐ shuō de yǒu dàoli, wǒmen jiù àn nǐ de bànfǎ zuò.",
   "exvi": "Bạn nói có lý, chúng ta cứ làm theo cách của bạn.",
   "em": "👌"
  },
@@ -877,14 +876,14 @@
   ],
   "hsk": 4,
   "ex": "跟朋友聊聊天可以减轻压力。",
-  "exp": "Gēn péngyǒu liáoliao tiān kěyǐ jiǎnqīng yālì.",
+  "exp": "Gēn péngyou liáoliao tiān kěyǐ jiǎnqīng yālì.",
   "exvi": "Trò chuyện với bạn bè có thể giảm áp lực.",
   "em": "😌"
  },
  {
   "deck": "dp",
   "h": "结交朋友",
-  "p": "jié jiāo péng yǒu",
+  "p": "jié jiāo péng you",
   "hv": "kết giao bằng hữu",
   "vi": "kết bạn",
   "note": "Văn phong viết; khẩu ngữ thường nói 交朋友. Không nói 做朋友 với nghĩa kết thêm bạn mới (做朋友 là làm bạn với một người cụ thể).",
@@ -895,7 +894,7 @@
   ],
   "hsk": 5,
   "ex": "参加社团是结交朋友的好办法。",
-  "exp": "Cānjiā shètuán shì jiéjiāo péngyǒu de hǎo bànfǎ.",
+  "exp": "Cānjiā shètuán shì jiéjiāo péngyou de hǎo bànfǎ.",
   "exvi": "Tham gia câu lạc bộ là cách hay để kết bạn.",
   "em": "🧑‍🤝‍🧑"
  },
@@ -967,7 +966,7 @@
   ],
   "hsk": 5,
   "ex": "一个好朋友应该遵守承诺。",
-  "exp": "Yí gè hǎo péngyǒu yīnggāi zūnshǒu chéngnuò.",
+  "exp": "Yí gè hǎo péngyou yīnggāi zūnshǒu chéngnuò.",
   "exvi": "Một người bạn tốt nên giữ lời hứa.",
   "em": ""
  },
@@ -1010,7 +1009,7 @@
  {
   "deck": "dp",
   "h": "安慰朋友",
-  "p": "ān wèi péng yǒu",
+  "p": "ān wèi péng you",
   "hv": "an úy bằng hữu",
   "vi": "an ủi bạn bè",
   "note": "安慰 + người. Cũng dùng làm danh từ: 给他一些安慰.",
@@ -1020,9 +1019,9 @@
    "得到安慰"
   ],
   "hsk": 5,
-  "ex": "她失恋了，我们一起去安慰朋友。",
-  "exp": "Tā shīliàn le, wǒmen yìqǐ qù ānwèi péngyǒu.",
-  "exvi": "Cô ấy thất tình, chúng tôi cùng đi an ủi bạn.",
+  "ex": "我不太会安慰朋友，只能陪着她。",
+  "exp": "Wǒ bú tài huì ānwèi péngyou, zhǐ néng péizhe tā.",
+  "exvi": "Mình không giỏi an ủi bạn bè, chỉ biết ở bên cạnh cô ấy.",
   "em": "🫂"
  },
  {
