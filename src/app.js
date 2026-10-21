@@ -37,13 +37,19 @@ function sentPyHTML(s){return String(s).split(/(\s+)/).map(t=>/^\s+$/.test(t)?t:
 
 /* ================= data ================= */
 const LVS=[1,2,3,4,5,6,7]; const lvN=L=>L===7?'7-9':String(L);
-const W=[]; const WI=new Map(); const LV_COUNT=[0,0,0,0,0,0,0,0]; let loadedLv=new Set();
+/* phrase decks: 8 = 搭配 (collocations), 9 = 成语 (idioms). Chosen in P.settings.ph, kept apart from the HSK levels */
+const PH_DECKS=[[8,'Cụm từ 搭配'],[9,'Thành ngữ 成语']]; const PH_NAME={8:'Cụm từ',9:'Thành ngữ'};
+const lvLabel=L=>PH_NAME[L]||'HSK '+lvN(L);
+const studyLv=()=>[...P.settings.lv,...(P.settings.ph||[])];
+const inLv=(w,levels)=>levels.includes(w.lv)||(w.lv2!=null&&levels.includes(w.lv2));
+const W=[]; const WI=new Map(); const LV_COUNT=[0,0,0,0,0,0,0,0,0,0]; let loadedLv=new Set();
 let GRAM=[]; const TESTS={}; let STROKE_IDX=null; const STROKE_CACHE={};
 async function loadLevel(L){
   if(loadedLv.has(L))return;
   const r=await fetch('data/words-'+L+'.json'); const rows=await r.json();
   if(loadedLv.has(L))return;
-  rows.forEach((x,i)=>{const w={h:x[0],p:x[1].split(' '),hv:x[2],vi:x[3],em:x[4],ex:x[5],exp:x[6],exvi:x[7],cl:x[8]||[],lv:L,i};W.push(w);WI.set(w.h,w);});
+  rows.forEach((x,i)=>{const o=WI.get(x[0]);if(o){if(o.lv!==L)o.lv2=L;if(!o.note&&x[9])o.note=x[9];if(!o.alt&&x[10])o.alt=x[10];return;} /* same word in an HSK level and a phrase deck */
+    const w={h:x[0],p:x[1].split(' '),hv:x[2],vi:x[3],em:x[4],ex:x[5],exp:x[6],exvi:x[7],cl:x[8]||[],note:x[9]||'',alt:x[10]||null,lv:L,i};W.push(w);WI.set(w.h,w);});
   LV_COUNT[L]=rows.length; loadedLv.add(L);
 }
 async function loadAllWords(){for(const L of LVS)await loadLevel(L);}
@@ -55,9 +61,13 @@ async function strokeData(ch){
   if(!STROKE_CACHE[L])STROKE_CACHE[L]=fetch('data/strokes/s'+L+'.json').then(r=>r.json());
   return (await STROKE_CACHE[L])[ch]||null;
 }
+function phExtra(w,card){
+  const alt=w.alt&&w.alt.length?`<div class="small"><span class="muted">${w.lv===8?'Cùng kiểu kết hợp':'Gần nghĩa, trái nghĩa'}:</span> ${w.alt.map(a=>WI.get(a)?`<button class="lnk han" data-phw="${esc(a)}">${esc(a)}</button>`:`<span class="han">${esc(a)}</span>`).join(', ')}</div>`:'';
+  return (w.note?`<div class="small ph-note">${esc(w.note)}</div>`:'')+alt;
+}
 function pyHTML(w){return w.p.map(s=>`<span class="t${toneOf(s)}">${esc(s)}</span>`).join('');}
 function hanHTML(w){const ch=[...w.h];if(ch.length!==w.p.length)return esc(w.h);return ch.map((c,i)=>`<span class="t${toneOf(w.p[i])}">${c}</span>`).join('');}
-function wordsAt(levels){return W.filter(w=>levels.includes(w.lv)).concat(P.custom.filter(()=>levels.includes(0)));}
+function wordsAt(levels){return W.filter(w=>inLv(w,levels)).concat(P.custom.filter(()=>levels.includes(0)));}
 
 /* ================= progress state ================= */
 const DEFAULT={v:1,upd:0,settings:{lv:[1],newPerDay:10,py:true,color:true,hv:true,mode:'hz',voiceRate:0.75,voice:''},srs:{},hist:{},gram:{},tests:[],custom:[]};
@@ -93,9 +103,9 @@ function ivLabel(h,r){
 }
 const known=h=>{const c=P.srs[h];return c&&c.s===2&&c.iv>=7;};
 const seen=h=>!!P.srs[h];
-function dueList(levels){const now=Date.now();return W.filter(w=>levels.includes(w.lv)&&P.srs[w.h]&&P.srs[w.h].due<=now).sort((a,b)=>P.srs[a.h].due-P.srs[b.h].due);}
+function dueList(levels){const now=Date.now();return W.filter(w=>inLv(w,levels)&&P.srs[w.h]&&P.srs[w.h].due<=now).sort((a,b)=>P.srs[a.h].due-P.srs[b.h].due);}
 function newToday(){const t=today();return Object.values(P.srs).filter(c=>c.first>=t).length;}
-function newList(levels,limit){const out=[];for(const w of W){if(out.length>=limit)break;if(levels.includes(w.lv)&&!P.srs[w.h])out.push(w);}return out;}
+function newList(levels,limit){const out=[];for(const w of W){if(out.length>=limit)break;if(inLv(w,levels)&&!P.srs[w.h])out.push(w);}return out;}
 function streak(){let s=0,t=today();if(!P.hist[ymd(t)])t-=DAY;while(P.hist[ymd(t)]){s++;t-=DAY;}return s;}
 
 /* ================= platform =================
@@ -493,7 +503,7 @@ function levelChips(sel,onChange,{multi=true,id='lvc'}={}){
 
 /* ================= HOME ================= */
 function renderHome(el){
-  const lv=P.settings.lv; const due=dueList(lv).length; const nw=Math.max(0,P.settings.newPerDay-newToday());
+  const lv=studyLv(); const due=dueList(lv).length; const nw=Math.max(0,P.settings.newPerDay-newToday());
   const st=streak(); const todayN=P.hist[ymd(Date.now())]||0;
   const pool=W.filter(w=>w.em&&lv.includes(w.lv)); const wd=pool.length?pool[(Math.floor(Date.now()/DAY))%pool.length]:null;
   const heat=[];const start=today()-83*DAY;for(let i=0;i<84;i++){const n=P.hist[ymd(start+i*DAY)]||0;heat.push(n===0?'':n<10?'h1':n<25?'h2':n<50?'h3':'h4');}
@@ -537,20 +547,23 @@ function renderHome(el){
 /* ================= STUDY (SRS) ================= */
 let queue=[],qcur=null,revealed=false,sessDone=0;
 function buildQueue(){
-  const lv=P.settings.lv; const due=dueList(lv); const nw=newList(lv,Math.max(0,P.settings.newPerDay-newToday()));
+  const lv=studyLv(); const due=dueList(lv); const nw=newList(lv,Math.max(0,P.settings.newPerDay-newToday()));
   queue=[...due,...nw]; sessDone=0;
 }
 function renderStudy(el){
-  if(!queue.length||!queue.every(w=>P.settings.lv.includes(w.lv)))buildQueue();
+  if(!queue.length||!queue.every(w=>inLv(w,studyLv())))buildQueue();
   el.innerHTML=`<div class="view"><div class="spread"><h2>Ôn từ vựng</h2>
      <div class="row"><span class="label">Mặt trước</span>${[['hz','Chữ Hán'],['vi','Nghĩa'],['au','Nghe']].map(([m,t])=>`<button class="chip" data-m="${m}" aria-pressed="${P.settings.mode===m}">${t}</button>`).join('')}</div></div>
      ${levelChips(P.settings.lv,s=>{P.settings.lv=s;touch('main');buildQueue();renderStudy(el);},{id:'slv'})}
+     <div class="row" id="sph"><span class="label">Thêm bộ</span>${PH_DECKS.map(([L,t])=>`<button class="chip" data-ph="${L}" aria-pressed="${(P.settings.ph||[]).includes(L)}">${t}</button>`).join('')}</div>
      <div class="study"><div id="cardBox"></div>
      <aside class="panel"><h3>Phiên này</h3><div id="sessInfo" class="small"></div>
       <p class="note">Chấm điểm sau khi lật: Quên thì gặp lại sau 1 phút, các mức còn lại đẩy lần ôn tiếp theo ra xa dần. Phím tắt: Space lật thẻ, 1 2 3 4 chấm điểm.</p>
       <button class="btn sm" id="addNew">Thêm 10 từ mới</button></aside></div></div>`;
   $$('[data-m]',el).forEach(b=>b.onclick=()=>{P.settings.mode=b.dataset.m;touch('main');$$('[data-m]',el).forEach(x=>x.setAttribute('aria-pressed',x.dataset.m===P.settings.mode));nextCard(true);});
-  $('#addNew').onclick=()=>{const extra=newList(P.settings.lv,200).filter(w=>!queue.includes(w)).slice(0,10);queue.push(...extra);if(!qcur)nextCard();info();toast('Đã thêm '+extra.length+' từ mới vào phiên.');};
+  $$('[data-ph]',el).forEach(b=>b.onclick=async()=>{const L=+b.dataset.ph;const a=P.settings.ph=P.settings.ph||[];const i=a.indexOf(L);if(i<0)a.push(L);else a.splice(i,1);touch('main');
+    if(a.includes(L)){b.disabled=true;await Promise.all([loadLevel(L),...(L===9?[loadLevel(7)]:[])]);}buildQueue();renderStudy(el);});
+  $('#addNew').onclick=()=>{const extra=newList(studyLv(),200).filter(w=>!queue.includes(w)).slice(0,10);queue.push(...extra);if(!qcur)nextCard();info();toast('Đã thêm '+extra.length+' từ mới vào phiên.');};
   nextCard(true);
 }
 function info(){const n=queue.filter(w=>!P.srs[w.h]).length;$('#sessInfo')&&($('#sessInfo').innerHTML=`Còn <b>${queue.length}</b> thẻ (${n} từ mới). Đã ôn <b>${sessDone}</b>.`);}
@@ -567,9 +580,9 @@ function drawCard(){
     : `${w.em&&revealed?'':''}<div class="big han">${hanHTML(w)}</div>${P.settings.py?`<div class="bigpy py">${pyHTML(w)}</div>`:''}`;
   const back = `${w.em?`<div class="emo">${w.em}</div>`:''}<div class="big han">${hanHTML(w)}</div><div class="bigpy py">${pyHTML(w)}</div>
      ${P.settings.hv?`<div class="hv">${esc(w.hv)}</div>`:''}<div class="mean">${esc(w.vi)}</div>
-     ${w.cl&&w.cl.length?`<div class="small muted">Lượng từ: <span class="han">${esc(w.cl.join(', '))}</span></div>`:''}
+     ${w.cl&&w.cl.length?`<div class="small muted">Lượng từ: <span class="han">${esc(w.cl.join(', '))}</span></div>`:''}${phExtra(w,true)}
      <div class="ex"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="zh han">${colorText(w.ex)}</div><div class="pyl py">${sentPyHTML(w.exp)}</div><div class="vil">${esc(w.exvi)}</div></div></div>`;
-  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">HSK ${lvN(w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
+  box.innerHTML=`<div class="card"><div class="corner"><span class="pill">${lvLabel(w.lv)}</span>${isNew?'<span class="pill ai">Mới</span>':''}</div>
     <div class="corner-r"><button class="spk" data-say="${esc(w.h)}" aria-label="Nghe">${SPK}</button><button class="spk" id="cInfo" aria-label="Chi tiết" title="Chi tiết"><svg class="i"><use href="#i-book-open"/></svg></button></div>
     ${revealed?back:front}
     ${revealed?'':'<button class="btn primary" id="cFlip" style="margin-top:auto">Lật thẻ <span class="kbd">Space</span></button>'}
@@ -609,7 +622,7 @@ function renderDict(el){
   $('#df').value=dfilter;
   const draw=()=>{
     const q=dq.trim(); const qf=viFold(q); const qs=stripTone(q).replace(/\s+/g,'');
-    let list=W.filter(w=>dlv.includes(w.lv));
+    let list=W.filter(w=>inLv(w,dlv)||(w.lv>=8&&q));
     if(dfilter==='new')list=list.filter(w=>!seen(w.h));else if(dfilter==='seen')list=list.filter(w=>seen(w.h)&&!known(w.h));else if(dfilter==='known')list=list.filter(w=>known(w.h));else if(dfilter==='em')list=list.filter(w=>w.em);
     if(q){
       const han=[...q].some(isHan);
@@ -655,10 +668,10 @@ function modal(html){
 function openWord(h){
   const w=WI.get(h);if(!w)return; const c=P.srs[h];
   const m=modal(`<div class="wd-head">${w.em?`<span class="em">${w.em}</span>`:''}<div><div class="h han">${hanHTML(w)}</div></div>
-     <div style="display:flex;flex-direction:column;gap:2px"><div class="py" style="font-size:22px">${pyHTML(w)}</div><div class="muted" style="text-transform:uppercase;letter-spacing:.08em;font-size:13px">Hán Việt: ${esc(w.hv)}</div><div class="row"><span class="pill">HSK ${lvN(w.lv)}</span>${c?`<span class="pill ai">${known(h)?'Đã thuộc':'Đang học'} - ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</span>`:''}</div></div>
+     <div style="display:flex;flex-direction:column;gap:2px"><div class="py" style="font-size:22px">${pyHTML(w)}</div><div class="muted" style="text-transform:uppercase;letter-spacing:.08em;font-size:13px">Hán Việt: ${esc(w.hv)}</div><div class="row"><span class="pill">${lvLabel(w.lv)}</span>${w.lv2?`<span class="pill">${lvLabel(w.lv2)}</span>`:''}${c?`<span class="pill ai">${known(h)?'Đã thuộc':'Đang học'} - ôn lại sau ${Math.max(0,Math.round((c.due-Date.now())/DAY))} ngày</span>`:''}</div></div>
      <button class="spk" data-say="${esc(w.h)}" aria-label="Nghe" style="margin-left:auto">${SPK}</button></div>
    <div style="font-size:19px;font-weight:600">${esc(w.vi)}</div>
-   ${w.cl.length?`<div class="small muted">Lượng từ đi kèm: <span class="han" style="font-size:16px">${esc(w.cl.join(', '))}</span></div>`:''}
+   ${w.cl.length?`<div class="small muted">Lượng từ đi kèm: <span class="han" style="font-size:16px">${esc(w.cl.join(', '))}</span></div>`:''}${phExtra(w)}
    <div class="ex" style="display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px"><button class="spk" data-say="${esc(w.ex)}" aria-label="Nghe câu">${SPK}</button><div><div class="han" style="font-size:20px">${colorText(w.ex)}</div><div class="py small">${sentPyHTML(w.exp)}</div><div class="muted small">${esc(w.exvi)}</div></div></div>
    <div><span class="label">Thứ tự nét</span><div class="strokes" id="wdStrokes"></div></div>
    <div class="row">${c?'':'<button class="btn sm" id="wdLearn">Thêm vào ôn tập</button>'}<button class="btn sm" id="wdWrite">Luyện viết</button>
@@ -684,7 +697,7 @@ function openWord(h){
   };
   $('#wdMore',m.el).onclick=async e=>{
     const b=e.currentTarget;b.disabled=true;const out=$('#wdAiOut',m.el);out.innerHTML='<div class="ai-out">AI đang viết...</div>';
-    try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt, trình độ học viên đang học HSK ${lvN(w.lv)}. Giải thích từ ${w.h} (${w.p.join(' ')}, Hán Việt: ${w.hv}, nghĩa: ${w.vi}) bằng tiếng Việt tự nhiên, ngắn gọn:
+    try{await ask(`Bạn là giáo viên tiếng Trung cho người Việt, trình độ học viên đang học HSK ${lvN(Math.max(...P.settings.lv))}. Giải thích ${w.lv===9||w.lv2===9?'thành ngữ':w.lv===8?'cụm từ':'từ'} ${w.h} (${w.p.join(' ')}, Hán Việt: ${w.hv}, nghĩa: ${w.vi}) bằng tiếng Việt tự nhiên, ngắn gọn:
 1. Cách dùng chính và sắc thái (trang trọng hay khẩu ngữ).
 2. 3 cụm từ đi kèm thường gặp, mỗi cụm kèm pinyin và nghĩa.
 3. 3 câu ví dụ mới, mỗi câu: chữ Hán / pinyin / nghĩa tiếng Việt.
@@ -1287,7 +1300,7 @@ function lookup(seg,anchor){
   const sub=!w&&chars.length>1?chars.map(c=>WI.get(c)).filter(Boolean):[];
   box.hidden=false;
   box.innerHTML=`<div class="spread"><div class="row"><span class="han" style="font-size:28px;font-weight:700">${w?hanHTML(w):colorText(seg)}</span><span class="py">${w?pyHTML(w):esc(pyLine(seg))}</span>${w&&w.hv?`<span class="muted small">${esc(w.hv)}</span>`:''}</div><div class="row"><button class="spk" data-say="${esc(seg)}" aria-label="Nghe">${SPK}</button><button class="spk" id="lkX" aria-label="Đóng">✕</button></div></div>
-   <div>${w?esc(w.vi)+` <span class="pill">HSK ${lvN(w.lv)}</span>`:sub.length?sub.map(x=>`<span class="han">${esc(x.h)}</span>: ${esc(x.vi)}`).join('; '):'<span class="muted">Từ này không có trong danh sách HSK.</span>'}</div>
+   <div>${w?esc(w.vi)+` <span class="pill">${lvLabel(w.lv)}</span>`:sub.length?sub.map(x=>`<span class="han">${esc(x.h)}</span>: ${esc(x.vi)}`).join('; '):'<span class="muted">Từ này không có trong danh sách HSK.</span>'}</div>
    <div class="row">${w?`<button class="btn sm" id="lkMore">Chi tiết</button>${P.srs[seg]?'':'<button class="btn sm" id="lkAdd">Thêm vào ôn tập</button>'}`:''}${!w&&AI?'<button class="btn sm" id="lkAi">Hỏi AI nghĩa</button>':''}</div><div id="lkOut" class="small"></div>`;
   $('#lkX').onclick=()=>box.hidden=true;
   const m=$('#lkMore');if(m)m.onclick=()=>openWord(seg);
@@ -1399,9 +1412,11 @@ async function boot(){
   route();
   initPlatform();
   await loadAllWords();
+  for(const L of [8,9])try{await loadLevel(L);}catch(e){}
   if(['home','dict','study','progress'].includes(current)&&!$('.modal-bg'))route(true);
   setTimeout(()=>{if(!$('.modal-bg'))uiIntro();},700);
 }
+document.addEventListener('click',e=>{const b=e.target.closest('[data-phw]');if(b){e.preventDefault();e.stopPropagation();const o=$('.modal-bg');if(o)o.remove();openWord(b.dataset.phw);}},true);
 if(!IN_ARTIFACT&&'serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
 boot().catch(e=>{console.error(e);$('#view').innerHTML='<div class="empty">Không tải được dữ liệu. Tải lại trang thử xem.</div>';});
 })();

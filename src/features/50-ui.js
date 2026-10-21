@@ -34,7 +34,7 @@ function uiGoGroup(k){const g=UI_GROUPS.find(x=>x.k===k);const v=UI_LAST[k]&&g.v
 function uiNav(){
   const v=UI_ALIAS[current]||current, g=uiGroupOf(current);
   if(UI_LAST[g.k]!==v){UI_LAST[g.k]=v;store.set('hanyu-lastv',UI_LAST);}
-  const due=(()=>{try{return dueList(P.settings.lv).length;}catch(e){return 0;}})();
+  const due=(()=>{try{return dueList(studyLv()).length;}catch(e){return 0;}})();
   const badge=k=>k==='review'&&due?`<span class="badge num">${due>99?'99+':due}</span>`:'';
   $$('#bnav [data-g]').forEach(b=>{if(b.dataset.g===g.k)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');const old=$('.badge',b);if(old)old.remove();const bd=badge(b.dataset.g);if(bd)b.insertAdjacentHTML('beforeend',bd);});
   $('#sideNav').innerHTML=UI_GROUPS.map(x=>{const on=x.k===g.k;const solo=x.views.length===1;
@@ -74,7 +74,7 @@ function uiHome(el){
   plCfg();plApply();
   const tasks=plTasks(), d=plDay(), goal=plGoalXP(), xpT=plXPTotal(), {r,nx}=plRank(xpT);
   const doneN=tasks.filter(t=>t.done).length, next=tasks.find(t=>!t.done);
-  const due=dueList(P.settings.lv).length, nw=Math.max(0,P.settings.newPerDay-newToday());
+  const due=dueList(studyLv()).length, nw=Math.max(0,P.settings.newPerDay-newToday());
   const label=next?(doneN?'Tiếp tục: ':'Bắt đầu: ')+(next.k==='srs'&&due+nw?`ôn ${due+nw} thẻ`:next.t.charAt(0).toLowerCase()+next.t.slice(1)):'Xong hôm nay. Học thêm?';
   const pool=W.filter(w=>w.em&&P.settings.lv.includes(w.lv)); const wd=pool.length?pool[(Math.floor(Date.now()/DAY))%pool.length]:null;
   const lo=nx?nx[0]-r[0]:1, pr=nx?(xpT-r[0])/lo:1;
@@ -279,7 +279,7 @@ drawCard=function(){
   _uiDrawCard();
   const box=$('#cardBox');if(!box)return;
   if(!qcur){box.innerHTML=`<div class="card"><div class="done">${mascot('yay',120)}<h2>Xong phần ôn hôm nay</h2><p class="note">Giỏi lắm! Quay lại ngày mai, hoặc học thêm vài từ mới.</p><div class="row" style="justify-content:center"><button class="btn primary" id="cdMore">Học 5 từ mới</button><button class="btn" id="cdGame">Chơi Tốc độ 60 giây</button></div></div></div>`;
-    $('#cdMore').onclick=()=>{const extra=newList(P.settings.lv,200).filter(w=>!queue.includes(w)).slice(0,5);queue.push(...extra);nextCard();};
+    $('#cdMore').onclick=()=>{const extra=newList(studyLv(),200).filter(w=>!queue.includes(w)).slice(0,5);queue.push(...extra);nextCard();};
     $('#cdGame').onclick=()=>go('games');return;}
   const card=$('.card',box);
   if(card&&!revealed){card.classList.add('tap');card.onclick=e=>{if(e.target.closest('button'))return;flip();};}
