@@ -4,12 +4,15 @@ const APP = 'hanyu'; // key prefix in Redis
 
 const sha = s => crypto.createHash('sha256').update(String(s)).digest();
 
-// The group password (APP_PASSWORD) set in Vercel.
+const same = (pass, got) => !!pass && !!got && crypto.timingSafeEqual(sha(pass), sha(got));
+// The group password (APP_PASSWORD) or the owner's admin password (ADMIN_PASSWORD), both set in Vercel.
 function isMaster(req) {
-  const pass = process.env.APP_PASSWORD || '';
   const got = String(req.headers['x-app-key'] || '');
-  if (!pass || !got) return false;
-  return crypto.timingSafeEqual(sha(pass), sha(got));
+  return same(process.env.APP_PASSWORD || '', got) || same(process.env.ADMIN_PASSWORD || '', got);
+}
+// Only the owner: manages the invite code. Off until ADMIN_PASSWORD is set.
+function isAdmin(req) {
+  return same(process.env.ADMIN_PASSWORD || '', String(req.headers['x-app-key'] || ''));
 }
 
 // Access: the group password, or a personal access key issued when someone redeemed an invite code (api/ref).
@@ -45,4 +48,4 @@ function userOf(req) {
   return { slug, pin: String(req.headers['x-user-pin'] || '').slice(0, 20) };
 }
 
-module.exports = { APP, sha, isMaster, checkKey, kv, userOf };
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, userOf };

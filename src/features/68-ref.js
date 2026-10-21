@@ -1,7 +1,7 @@
 /* ================= INVITE CODE (REF) =================
    New people unlock AI and sync with a shared invite code (limited places, see api/ref.js) instead of the group password.
    The password box accepts either: an invite code is exchanged for a personal access key, anything else is kept as the password.
-   Whoever holds the group password sees an admin panel in Settings to set the code and the number of places. */
+   Only the owner (device key = ADMIN_PASSWORD, which also unlocks everything) sees the admin panel in Settings. */
 const REF_T={ok:(n,m)=>`Đã mở khóa. Bạn là người thứ ${n}/${m} dùng mã này.`,full:m=>`Mã này đã đủ ${m} người. Bạn nhắn người chia sẻ để xin mã mới nhé.`,slow:'Bạn thử nhiều lần quá. Đợi một lúc rồi nhập lại.',
   title:'Mã mời cho người mới',note:'Người mới nhập mã này thay cho mật khẩu nhóm. Mỗi người nhận một khóa riêng, mã tự khóa khi đủ số suất. Người đang dùng mật khẩu nhóm không bị ảnh hưởng. Đổi sang mã mới thì bắt đầu đếm lại từ 0.',
   used:(u,m)=>`${u}/${m} suất đã dùng`,copy:'Chép lời mời',none:'Chưa có mã mời. Đặt một mã bên dưới (4 đến 24 ký tự, chữ, số hoặc gạch ngang).',ph:'Ví dụ STALIS50',save:'Lưu mã',

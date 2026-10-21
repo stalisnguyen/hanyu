@@ -2,10 +2,10 @@
 // Each person who redeems it gets a personal access key that works like the group password
 // (AI, sync, voices). The group password itself keeps working for everyone who already has it.
 //   POST {action:'redeem', code}            -> {token, n, max}  | 404 invalid | 410 full | 429 too many tries
-//   POST {action:'status'}  (group password) -> {code, max, used, issued}
-//   POST {action:'set', code, max} (group password) -> same as status. A new code starts a new count.
+//   POST {action:'status'}  (ADMIN_PASSWORD) -> {code, max, used, issued}
+//   POST {action:'set', code, max} (ADMIN_PASSWORD) -> same as status. A new code starts a new count.
 const crypto = require('crypto');
-const { APP, sha, isMaster, kv } = require('./_lib');
+const { APP, sha, isAdmin, kv } = require('./_lib');
 const norm = c => String(c || '').trim().toUpperCase().replace(/\s+/g, '');
 
 module.exports = async (req, res) => {
@@ -40,7 +40,7 @@ module.exports = async (req, res) => {
       await db(['INCR', K('issued')]);
       return res.status(200).json({ token, n, max });
     }
-    if (!isMaster(req)) return res.status(403).json({ error: 'admin' });
+    if (!isAdmin(req)) return res.status(403).json({ error: 'admin' });
     if (body.action === 'set') {
       const code = norm(body.code), max = Math.max(1, Math.min(1000, parseInt(body.max, 10) || 50));
       if (!/^[A-Z0-9-]{4,24}$/.test(code)) return res.status(400).json({ error: 'code' });
