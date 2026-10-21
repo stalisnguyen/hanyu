@@ -5,7 +5,7 @@
   "p": "biǎo dá gǎn qíng",
   "hv": "biểu đạt cảm tình",
   "vi": "bày tỏ tình cảm",
-  "note": "表达 đi với 感情, 想法, 意见, 观点. Không nói 表达感谢 mà thường nói 表示感谢.",
+  "note": "表达 đi với 感情, 想法, 意见, 观点, nhấn vào việc diễn đạt ra bằng lời hoặc hành động. Lời cảm ơn thì thường dùng 表示感谢.",
   "alt": [
    "表达想法",
    "表达观点",
@@ -41,7 +41,7 @@
   "p": "tí chū jiàn yì",
   "hv": "đề xuất kiến nghị",
   "vi": "đưa ra đề xuất, góp ý",
-  "note": "建议 đi với 提出 hoặc 提, không nói 给出建议 trong văn phong chuẩn (khẩu ngữ đôi khi vẫn gặp). Nhận góp ý thì dùng 接受建议.",
+  "note": "建议 đi với 提出 hoặc 提 (提建议). Nhận góp ý thì dùng 接受建议 hoặc 听取建议.",
   "alt": [
    "提出问题",
    "提出要求",
@@ -77,7 +77,7 @@
   "p": "bǎo chí lián xì",
   "hv": "bảo trì liên hệ",
   "vi": "giữ liên lạc",
-  "note": "Câu chào tạm biệt rất hay dùng: 我们保持联系. Không nói 保持联络系 hay 保留联系.",
+  "note": "Câu chào tạm biệt rất hay dùng: 我们保持联系. Đừng dùng 保留 (giữ lại đồ vật) thay cho 保持.",
   "alt": [
    "保持距离",
    "保持沉默",
@@ -167,7 +167,7 @@
   "p": "yíng dé xìn rèn",
   "hv": "doanh đắc tín nhiệm",
   "vi": "giành được sự tin tưởng",
-  "note": "赢得 dùng cho thứ phải cố gắng mới có: 信任, 尊重, 支持, 掌声. Đừng nhầm 赢 (thắng) với 嬴.",
+  "note": "赢得 dùng cho thứ phải cố gắng mới có: 信任, 尊重, 支持, 掌声.",
   "alt": [
    "赢得尊重",
    "赢得支持",
@@ -257,7 +257,7 @@
   "p": "guān xīn jiā rén",
   "hv": "quan tâm gia nhân",
   "vi": "quan tâm đến người nhà",
-  "note": "关心 là động từ, đi trực tiếp với tân ngữ: 关心家人. Không nói 对家人关心 như cấu trúc tiếng Việt, dù 对家人很关心 vẫn đúng khi có 很.",
+  "note": "关心 là động từ, đi thẳng với tân ngữ: 关心家人. Không thêm 到 theo kiểu 'quan tâm đến': không nói 关心到家人.",
   "alt": [
    "关心别人",
    "关心健康",
@@ -275,7 +275,7 @@
   "p": "zhào gù hái zi",
   "hv": "chiếu cố hài tử",
   "vi": "chăm sóc con cái",
-  "note": "照顾 = chăm sóc, khác nghĩa 照顾 trong Hán Việt (chiếu cố). Đi với 孩子, 老人, 病人, 自己.",
+  "note": "照顾 nghĩa là chăm sóc, không phải 'chiếu cố' theo nghĩa tiếng Việt. Đi với 孩子, 老人, 病人, 自己.",
   "alt": [
    "照顾老人",
    "照顾病人",
@@ -462,9 +462,9 @@
    "令人失望"
   ],
   "hsk": 4,
-  "ex": "他又迟到了，我对他很感到失望。",
-  "exp": "Tā yòu chídào le, wǒ duì tā hěn gǎndào shīwàng.",
-  "exvi": "Anh ấy lại đến muộn, tôi rất thất vọng về anh ấy.",
+  "ex": "他又迟到了，我对他感到失望。",
+  "exp": "Tā yòu chídào le, wǒ duì tā gǎndào shīwàng.",
+  "exvi": "Anh ấy lại đến muộn, tôi thấy thất vọng về anh ấy.",
   "em": "😞"
  },
  {
@@ -660,9 +660,9 @@
    "化解矛盾"
   ],
   "hsk": 5,
-  "ex": "家人之间的矛盾要好好沟通来解决矛盾。",
-  "exp": "Jiārén zhījiān de máodùn yào hǎohǎo gōutōng lái jiějué máodùn.",
-  "exvi": "Mâu thuẫn giữa người nhà phải trò chuyện tử tế để giải quyết.",
+  "ex": "遇到问题要多沟通，才能解决矛盾。",
+  "exp": "Yùdào wèntí yào duō gōutōng, cái néng jiějué máodùn.",
+  "exvi": "Gặp vấn đề phải trao đổi nhiều thì mới giải quyết được mâu thuẫn.",
   "em": ""
  },
  {
@@ -869,7 +869,7 @@
   "p": "jiǎn qīng yā lì",
   "hv": "giảm khinh áp lực",
   "vi": "giảm áp lực",
-  "note": "压力 đi với 减轻, 缓解, 有, 承受. Không nói 减少压力 với nghĩa giảm stress tự nhiên bằng 减轻.",
+  "note": "压力 đi với 减轻, 缓解, 承受. 减少 thường dùng cho số lượng, nên nói 减轻压力 tự nhiên hơn 减少压力.",
   "alt": [
    "缓解压力",
    "减轻负担",
@@ -912,9 +912,9 @@
    "增进感情"
   ],
   "hsk": 5,
-  "ex": "感情需要两个人慢慢培养感情。",
-  "exp": "Gǎnqíng xūyào liǎng gè rén mànmàn péiyǎng gǎnqíng.",
-  "exvi": "Tình cảm cần hai người từ từ vun đắp.",
+  "ex": "两个人需要时间慢慢培养感情。",
+  "exp": "Liǎng gè rén xūyào shíjiān mànmàn péiyǎng gǎnqíng.",
+  "exvi": "Hai người cần thời gian để từ từ vun đắp tình cảm.",
   "em": ""
  },
  {
@@ -1053,7 +1053,7 @@
   "alt": [
    "情绪激动",
    "情绪低落",
-   "性格稳定"
+   "情绪不稳定"
   ],
   "hsk": 5,
   "ex": "他情绪稳定，很少跟别人吵架。",
@@ -1067,7 +1067,7 @@
   "p": "xià jié lùn",
   "hv": "hạ kết luận",
   "vi": "đưa ra kết luận",
-  "note": "结论 đi với động từ 下 hoặc 得出. Không nói 做结论 trong khẩu ngữ, cũng không dịch thẳng 给结论.",
+  "note": "结论 đi với động từ 下 hoặc 得出. Không dịch thẳng 'đưa ra kết luận' thành 给结论.",
   "alt": [
    "得出结论",
    "下定义",

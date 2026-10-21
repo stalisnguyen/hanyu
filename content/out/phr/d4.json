@@ -30,9 +30,9 @@
    "推动合作"
   ],
   "hsk": 5,
-  "ex": "政府正在推动教育改革。",
-  "exp": "Zhèngfǔ zhèngzài tuīdòng jiàoyù gǎigé.",
-  "exvi": "Chính phủ đang thúc đẩy cải cách giáo dục.",
+  "ex": "这些年轻官员一直在推动改革。",
+  "exp": "Zhèxiē niánqīng guānyuán yìzhí zài tuīdòng gǎigé.",
+  "exvi": "Những quan chức trẻ này luôn thúc đẩy cải cách.",
   "em": ""
  },
  {
@@ -48,9 +48,9 @@
    "制定规则"
   ],
   "hsk": 5,
-  "ex": "国家制定了新的住房政策。",
-  "exp": "Guójiā zhìdìngle xīn de zhùfáng zhèngcè.",
-  "exvi": "Nhà nước đã ban hành chính sách nhà ở mới.",
+  "ex": "政府制定政策时要听取各方意见。",
+  "exp": "Zhèngfǔ zhìdìng zhèngcè shí yào tīngqǔ gè fāng yìjiàn.",
+  "exvi": "Khi xây dựng chính sách, chính phủ cần lắng nghe ý kiến các bên.",
   "em": "📜"
  },
  {
@@ -84,9 +84,9 @@
    "实施法律"
   ],
   "hsk": 6,
-  "ex": "这个计划明年开始实施。实施计划需要很多钱。",
-  "exp": "Zhège jìhuà míngnián kāishǐ shíshī. Shíshī jìhuà xūyào hěn duō qián.",
-  "exvi": "Kế hoạch này bắt đầu triển khai từ năm sau. Thực hiện kế hoạch cần rất nhiều tiền.",
+  "ex": "实施计划之前要先做好调查。",
+  "exp": "Shíshī jìhuà zhīqián yào xiān zuòhǎo diàochá.",
+  "exvi": "Trước khi triển khai kế hoạch cần khảo sát kỹ.",
   "em": ""
  },
  {
@@ -102,9 +102,9 @@
    "引起争论"
   ],
   "hsk": 5,
-  "ex": "这条新闻引起了社会关注。",
-  "exp": "Zhè tiáo xīnwén yǐnqǐle shèhuì guānzhù.",
-  "exvi": "Tin này đã thu hút sự quan tâm của xã hội.",
+  "ex": "这件事很快引起关注，上了新闻。",
+  "exp": "Zhè jiàn shì hěn kuài yǐnqǐ guānzhù, shàngle xīnwén.",
+  "exvi": "Chuyện này nhanh chóng gây chú ý và lên cả bản tin.",
   "em": "👀"
  },
  {
@@ -120,9 +120,9 @@
    "产生问题"
   ],
   "hsk": 4,
-  "ex": "网络对年轻人产生了很大影响。",
-  "exp": "Wǎngluò duì niánqīngrén chǎnshēngle hěn dà yǐngxiǎng.",
-  "exvi": "Mạng internet có ảnh hưởng rất lớn đến giới trẻ.",
+  "ex": "新政策会对房价产生影响。",
+  "exp": "Xīn zhèngcè huì duì fángjià chǎnshēng yǐngxiǎng.",
+  "exvi": "Chính sách mới sẽ ảnh hưởng đến giá nhà.",
   "em": ""
  },
  {
@@ -138,9 +138,9 @@
    "面临压力"
   ],
   "hsk": 5,
-  "ex": "传统行业正面临新的挑战。面临挑战时要冷静。",
-  "exp": "Chuántǒng hángyè zhèng miànlín xīn de tiǎozhàn. Miànlín tiǎozhàn shí yào lěngjìng.",
-  "exvi": "Các ngành truyền thống đang đối mặt thách thức mới. Khi gặp thách thức cần bình tĩnh.",
+  "ex": "传统行业正面临挑战。",
+  "exp": "Chuántǒng hángyè zhèng miànlín tiǎozhàn.",
+  "exvi": "Các ngành truyền thống đang đối mặt thách thức.",
   "em": "⚔️"
  },
  {
@@ -156,9 +156,9 @@
    "缩小规模"
   ],
   "hsk": 5,
-  "ex": "政府希望缩小城乡差距。",
-  "exp": "Zhèngfǔ xīwàng suōxiǎo chéngxiāng chājù.",
-  "exvi": "Chính phủ muốn thu hẹp khoảng cách giữa thành thị và nông thôn.",
+  "ex": "政府希望缩小差距，让农村富起来。",
+  "exp": "Zhèngfǔ xīwàng suōxiǎo chājù, ràng nóngcūn fù qǐlai.",
+  "exvi": "Chính phủ muốn thu hẹp khoảng cách, giúp nông thôn giàu lên.",
   "em": ""
  },
  {
@@ -192,9 +192,9 @@
    "维护秩序"
   ],
   "hsk": 6,
-  "ex": "消费者要学会维护自己的权益。",
-  "exp": "Xiāofèizhě yào xuéhuì wéihù zìjǐ de quányì.",
-  "exvi": "Người tiêu dùng cần học cách bảo vệ quyền lợi của mình.",
+  "ex": "消费者要学会维护权益。",
+  "exp": "Xiāofèizhě yào xuéhuì wéihù quányì.",
+  "exvi": "Người tiêu dùng cần học cách bảo vệ quyền lợi.",
   "em": "⚖️"
  },
  {
@@ -228,9 +228,9 @@
    "改善生活"
   ],
   "hsk": 5,
-  "ex": "学校努力改善学生的学习条件。",
-  "exp": "Xuéxiào nǔlì gǎishàn xuéshēng de xuéxí tiáojiàn.",
-  "exvi": "Nhà trường cố gắng cải thiện điều kiện học tập của học sinh.",
+  "ex": "学校一直在努力改善条件。",
+  "exp": "Xuéxiào yìzhí zài nǔlì gǎishàn tiáojiàn.",
+  "exvi": "Nhà trường luôn cố gắng cải thiện điều kiện.",
   "em": ""
  },
  {
@@ -246,9 +246,9 @@
    "降低标准"
   ],
   "hsk": 5,
-  "ex": "新技术帮助工厂降低了成本。",
-  "exp": "Xīn jìshù bāngzhù gōngchǎng jiàngdīle chéngběn.",
-  "exvi": "Công nghệ mới giúp nhà máy giảm chi phí.",
+  "ex": "用新技术可以降低成本。",
+  "exp": "Yòng xīn jìshù kěyǐ jiàngdī chéngběn.",
+  "exvi": "Dùng công nghệ mới có thể giảm chi phí.",
   "em": "📉"
  },
  {
@@ -264,9 +264,9 @@
    "加强监督"
   ],
   "hsk": 4,
-  "ex": "城市需要加强交通管理。",
-  "exp": "Chéngshì xūyào jiāqiáng jiāotōng guǎnlǐ.",
-  "exvi": "Thành phố cần tăng cường quản lý giao thông.",
+  "ex": "食品安全问题说明要加强管理。",
+  "exp": "Shípǐn ānquán wèntí shuōmíng yào jiāqiáng guǎnlǐ.",
+  "exvi": "Vấn đề an toàn thực phẩm cho thấy cần tăng cường quản lý.",
   "em": ""
  },
  {
@@ -282,9 +282,9 @@
    "承担后果"
   ],
   "hsk": 5,
-  "ex": "企业应该承担社会责任。",
-  "exp": "Qǐyè yīnggāi chéngdān shèhuì zérèn.",
-  "exvi": "Doanh nghiệp nên gánh vác trách nhiệm xã hội.",
+  "ex": "出了问题，公司必须承担责任。",
+  "exp": "Chūle wèntí, gōngsī bìxū chéngdān zérèn.",
+  "exvi": "Có sự cố thì công ty phải chịu trách nhiệm.",
   "em": ""
  },
  {
@@ -300,9 +300,9 @@
    "提供机会"
   ],
   "hsk": 4,
-  "ex": "这家银行为老人提供上门服务。",
-  "exp": "Zhè jiā yínháng wèi lǎorén tígōng shàngmén fúwù.",
-  "exvi": "Ngân hàng này cung cấp dịch vụ tận nhà cho người già.",
+  "ex": "这家银行为老人上门提供服务。",
+  "exp": "Zhè jiā yínháng wèi lǎorén shàngmén tígōng fúwù.",
+  "exvi": "Ngân hàng này đến tận nhà cung cấp dịch vụ cho người già.",
   "em": ""
  },
  {
@@ -372,9 +372,9 @@
    "减少损失"
   ],
   "hsk": 4,
-  "ex": "多坐地铁可以减少空气污染。",
-  "exp": "Duō zuò dìtiě kěyǐ jiǎnshǎo kōngqì wūrǎn.",
-  "exvi": "Đi tàu điện ngầm nhiều hơn có thể giảm ô nhiễm không khí.",
+  "ex": "多坐地铁能减少污染。",
+  "exp": "Duō zuò dìtiě néng jiǎnshǎo wūrǎn.",
+  "exvi": "Đi tàu điện ngầm nhiều hơn có thể giảm ô nhiễm.",
   "em": "🏭"
  },
  {
@@ -390,9 +390,9 @@
    "度过危机"
   ],
   "hsk": 6,
-  "ex": "各国合作应对经济危机。",
-  "exp": "Gè guó hézuò yìngduì jīngjì wēijī.",
-  "exvi": "Các nước hợp tác ứng phó khủng hoảng kinh tế.",
+  "ex": "各国需要合作应对危机。",
+  "exp": "Gè guó xūyào hézuò yìngduì wēijī.",
+  "exvi": "Các nước cần hợp tác ứng phó khủng hoảng.",
   "em": ""
  },
  {
@@ -426,9 +426,9 @@
    "掌握情况"
   ],
   "hsk": 5,
-  "ex": "年轻工人很快就掌握了新技术。",
-  "exp": "Niánqīng gōngrén hěn kuài jiù zhǎngwòle xīn jìshù.",
-  "exvi": "Công nhân trẻ đã nhanh chóng nắm vững kỹ thuật mới.",
+  "ex": "年轻工人很快就能掌握技术。",
+  "exp": "Niánqīng gōngrén hěn kuài jiù néng zhǎngwò jìshù.",
+  "exvi": "Công nhân trẻ có thể nhanh chóng nắm vững kỹ thuật.",
   "em": ""
  },
  {
@@ -444,9 +444,9 @@
    "开发资源"
   ],
   "hsk": 5,
-  "ex": "他们花了两年时间开发这个产品。",
-  "exp": "Tāmen huāle liǎng nián shíjiān kāifā zhège chǎnpǐn.",
-  "exvi": "Họ mất hai năm để phát triển sản phẩm này.",
+  "ex": "他们花了两年开发产品。",
+  "exp": "Tāmen huāle liǎng nián kāifā chǎnpǐn.",
+  "exvi": "Họ mất hai năm để phát triển sản phẩm.",
   "em": "🛠️"
  },
  {
@@ -462,9 +462,9 @@
    "投入使用"
   ],
   "hsk": 6,
-  "ex": "政府在医疗方面投入了大量资金。",
-  "exp": "Zhèngfǔ zài yīliáo fāngmiàn tóurùle dàliàng zījīn.",
-  "exvi": "Chính phủ đã rót nhiều vốn vào lĩnh vực y tế.",
+  "ex": "政府在医疗方面投入资金一百亿元。",
+  "exp": "Zhèngfǔ zài yīliáo fāngmiàn tóurù zījīn yìbǎi yì yuán.",
+  "exvi": "Chính phủ rót mười tỷ tệ vốn vào lĩnh vực y tế.",
   "em": "💵"
  },
  {
@@ -552,9 +552,9 @@
    "保证安全"
   ],
   "hsk": 6,
-  "ex": "新规定是为了保障乘客安全。",
-  "exp": "Xīn guīdìng shì wèile bǎozhàng chéngkè ānquán.",
-  "exvi": "Quy định mới nhằm đảm bảo an toàn cho hành khách.",
+  "ex": "新规定是为了保障安全。",
+  "exp": "Xīn guīdìng shì wèile bǎozhàng ānquán.",
+  "exvi": "Quy định mới nhằm đảm bảo an toàn.",
   "em": "🛡️"
  },
  {
@@ -570,9 +570,9 @@
    "调整心态"
   ],
   "hsk": 5,
-  "ex": "我国正在调整经济结构。",
-  "exp": "Wǒ guó zhèngzài tiáozhěng jīngjì jiégòu.",
-  "exvi": "Nước ta đang điều chỉnh cơ cấu kinh tế.",
+  "ex": "经济要发展，就必须调整结构。",
+  "exp": "Jīngjì yào fāzhǎn, jiù bìxū tiáozhěng jiégòu.",
+  "exvi": "Muốn kinh tế phát triển thì phải điều chỉnh cơ cấu.",
   "em": ""
  },
  {
@@ -588,9 +588,9 @@
    "更新观念"
   ],
   "hsk": 5,
-  "ex": "年轻人的消费观念已经改变了。改变观念不容易。",
-  "exp": "Niánqīngrén de xiāofèi guānniàn yǐjīng gǎibiàn le. Gǎibiàn guānniàn bù róngyì.",
-  "exvi": "Quan niệm tiêu dùng của giới trẻ đã thay đổi. Thay đổi quan niệm không dễ.",
+  "ex": "要解决这个问题，先要改变观念。",
+  "exp": "Yào jiějué zhège wèntí, xiān yào gǎibiàn guānniàn.",
+  "exvi": "Muốn giải quyết vấn đề này, trước hết phải thay đổi tư duy.",
   "em": ""
  },
  {
@@ -606,9 +606,9 @@
    "发挥作用"
   ],
   "hsk": 5,
-  "ex": "每个地区都应该发挥自己的优势。",
-  "exp": "Měi gè dìqū dōu yīnggāi fāhuī zìjǐ de yōushì.",
-  "exvi": "Mỗi vùng đều nên phát huy thế mạnh của mình.",
+  "ex": "每个地区都要发挥优势。",
+  "exp": "Měi gè dìqū dōu yào fāhuī yōushì.",
+  "exvi": "Mỗi vùng đều cần phát huy thế mạnh.",
   "em": "💪"
  },
  {
@@ -624,9 +624,9 @@
    "战胜困难"
   ],
   "hsk": 4,
-  "ex": "大家一起努力克服了很多困难。",
-  "exp": "Dàjiā yìqǐ nǔlì kèfúle hěn duō kùnnán.",
-  "exvi": "Mọi người cùng nhau cố gắng vượt qua nhiều khó khăn.",
+  "ex": "只要大家一起努力，就能克服困难。",
+  "exp": "Zhǐyào dàjiā yìqǐ nǔlì, jiù néng kèfú kùnnán.",
+  "exvi": "Chỉ cần mọi người cùng cố gắng là có thể vượt qua khó khăn.",
   "em": ""
  },
  {
@@ -642,9 +642,9 @@
    "达成一致"
   ],
   "hsk": 6,
-  "ex": "双方在这个问题上达成了共识。",
-  "exp": "Shuāngfāng zài zhège wèntí shang dáchéngle gòngshí.",
-  "exvi": "Hai bên đã đạt được đồng thuận về vấn đề này.",
+  "ex": "经过讨论，双方终于达成共识。",
+  "exp": "Jīngguò tǎolùn, shuāngfāng zhōngyú dáchéng gòngshí.",
+  "exvi": "Sau khi thảo luận, hai bên cuối cùng đã đạt được đồng thuận.",
   "em": "🤝"
  },
  {
@@ -660,9 +660,9 @@
    "遵守协议"
   ],
   "hsk": 5,
-  "ex": "两家公司终于达成了合作协议。",
-  "exp": "Liǎng jiā gōngsī zhōngyú dáchéngle hézuò xiéyì.",
-  "exvi": "Hai công ty cuối cùng đã đạt được thỏa thuận hợp tác.",
+  "ex": "两家公司上周达成协议，决定合作。",
+  "exp": "Liǎng jiā gōngsī shàng zhōu dáchéng xiéyì, juédìng hézuò.",
+  "exvi": "Tuần trước hai công ty đã đạt thỏa thuận và quyết định hợp tác.",
   "em": "🤝"
  },
  {
@@ -678,9 +678,9 @@
    "参加会议"
   ],
   "hsk": 5,
-  "ex": "市政府明天将召开新闻会议。",
-  "exp": "Shì zhèngfǔ míngtiān jiāng zhàokāi xīnwén huìyì.",
-  "exvi": "Ngày mai chính quyền thành phố sẽ tổ chức cuộc họp báo.",
+  "ex": "市政府明天将召开会议讨论交通问题。",
+  "exp": "Shì zhèngfǔ míngtiān jiāng zhàokāi huìyì tǎolùn jiāotōng wèntí.",
+  "exvi": "Ngày mai chính quyền thành phố sẽ họp bàn về vấn đề giao thông.",
   "em": ""
  },
  {
@@ -696,9 +696,9 @@
    "公布数据"
   ],
   "hsk": 5,
-  "ex": "考试结果下周公布。公布结果前不能说。",
-  "exp": "Kǎoshì jiéguǒ xià zhōu gōngbù. Gōngbù jiéguǒ qián bù néng shuō.",
-  "exvi": "Kết quả thi sẽ công bố tuần sau. Trước khi công bố kết quả thì không được nói.",
+  "ex": "考试结束一周后公布结果。",
+  "exp": "Kǎoshì jiéshù yì zhōu hòu gōngbù jiéguǒ.",
+  "exvi": "Một tuần sau khi thi xong sẽ công bố kết quả.",
   "em": "📢"
  },
  {
@@ -732,9 +732,9 @@
    "展开工作"
   ],
   "hsk": 6,
-  "ex": "网友们对这件事展开了讨论。",
-  "exp": "Wǎngyǒumen duì zhè jiàn shì zhǎnkāile tǎolùn.",
-  "exvi": "Cư dân mạng đã bàn luận sôi nổi về chuyện này.",
+  "ex": "网友们就这件事展开讨论。",
+  "exp": "Wǎngyǒumen jiù zhè jiàn shì zhǎnkāi tǎolùn.",
+  "exvi": "Cư dân mạng bàn luận sôi nổi về chuyện này.",
   "em": "💬"
  },
  {
@@ -750,9 +750,9 @@
    "提出意见"
   ],
   "hsk": 4,
-  "ex": "专家对交通问题提出了建议。",
-  "exp": "Zhuānjiā duì jiāotōng wèntí tíchūle jiànyì.",
-  "exvi": "Chuyên gia đã đưa ra đề xuất về vấn đề giao thông.",
+  "ex": "专家针对交通问题提出建议。",
+  "exp": "Zhuānjiā zhēnduì jiāotōng wèntí tíchū jiànyì.",
+  "exvi": "Chuyên gia đưa ra đề xuất về vấn đề giao thông.",
   "em": "💡"
  },
  {
@@ -840,9 +840,9 @@
    "执行政策"
   ],
   "hsk": 6,
-  "ex": "关键是把政策落实到每个家庭。落实政策要靠基层。",
-  "exp": "Guānjiàn shì bǎ zhèngcè luòshí dào měi gè jiātíng. Luòshí zhèngcè yào kào jīcéng.",
-  "exvi": "Điều quan trọng là đưa chính sách đến từng hộ gia đình. Thực hiện chính sách phải dựa vào cơ sở.",
+  "ex": "关键是基层干部要落实政策。",
+  "exp": "Guānjiàn shì jīcéng gànbù yào luòshí zhèngcè.",
+  "exvi": "Điều quan trọng là cán bộ cơ sở phải thực hiện chính sách đến nơi đến chốn.",
   "em": ""
  },
  {
@@ -858,9 +858,9 @@
    "实现突破"
   ],
   "hsk": 6,
-  "ex": "科学家在这项研究上取得了突破。",
-  "exp": "Kēxuéjiā zài zhè xiàng yánjiū shang qǔdéle tūpò.",
-  "exvi": "Các nhà khoa học đã đạt bước đột phá trong nghiên cứu này.",
+  "ex": "科学家在这项研究上取得突破。",
+  "exp": "Kēxuéjiā zài zhè xiàng yánjiū shang qǔdé tūpò.",
+  "exvi": "Các nhà khoa học đạt bước đột phá trong nghiên cứu này.",
   "em": "🚀"
  },
  {
@@ -876,9 +876,9 @@
    "取得成功"
   ],
   "hsk": 5,
-  "ex": "这些年我国在科技方面取得了巨大成就。",
-  "exp": "Zhèxiē nián wǒ guó zài kējì fāngmiàn qǔdéle jùdà chéngjiù.",
-  "exvi": "Những năm qua nước ta đạt thành tựu to lớn về khoa học công nghệ.",
+  "ex": "他在科学方面取得成就，获得了大奖。",
+  "exp": "Tā zài kēxué fāngmiàn qǔdé chéngjiù, huòdéle dàjiǎng.",
+  "exvi": "Ông ấy đạt thành tựu trong khoa học và nhận được giải lớn.",
   "em": "🏆"
  },
  {
@@ -894,9 +894,9 @@
    "达到目标"
   ],
   "hsk": 4,
-  "ex": "公司提前实现了今年的目标。",
-  "exp": "Gōngsī tíqián shíxiànle jīnnián de mùbiāo.",
-  "exvi": "Công ty đã đạt mục tiêu năm nay trước thời hạn.",
+  "ex": "为了实现目标，他每天学习到深夜。",
+  "exp": "Wèile shíxiàn mùbiāo, tā měitiān xuéxí dào shēnyè.",
+  "exvi": "Để đạt mục tiêu, ngày nào anh ấy cũng học đến khuya.",
   "em": "🎯"
  },
  {
@@ -984,9 +984,9 @@
    "开发产品"
   ],
   "hsk": 5,
-  "ex": "这家公司每年都推出新产品。",
-  "exp": "Zhè jiā gōngsī měi nián dōu tuīchū xīn chǎnpǐn.",
-  "exvi": "Công ty này năm nào cũng tung ra sản phẩm mới.",
+  "ex": "这家公司每年秋天推出产品。",
+  "exp": "Zhè jiā gōngsī měi nián qiūtiān tuīchū chǎnpǐn.",
+  "exvi": "Công ty này tung ra sản phẩm vào mùa thu hằng năm.",
   "em": "📱"
  },
  {
@@ -1002,9 +1002,9 @@
    "面临压力"
   ],
   "hsk": 6,
-  "ex": "现在的年轻人承受着很大的压力。",
-  "exp": "Xiànzài de niánqīngrén chéngshòuzhe hěn dà de yālì.",
-  "exvi": "Giới trẻ bây giờ đang chịu áp lực rất lớn.",
+  "ex": "现在的年轻人要承受压力，工作也不好找。",
+  "exp": "Xiànzài de niánqīngrén yào chéngshòu yālì, gōngzuò yě bù hǎo zhǎo.",
+  "exvi": "Giới trẻ bây giờ phải chịu áp lực, việc làm cũng khó tìm.",
   "em": "😓"
  },
  {
@@ -1020,9 +1020,9 @@
    "治疗疾病"
   ],
   "hsk": 5,
-  "ex": "多运动可以预防很多疾病。",
-  "exp": "Duō yùndòng kěyǐ yùfáng hěn duō jíbìng.",
-  "exvi": "Vận động nhiều có thể phòng được nhiều bệnh.",
+  "ex": "多运动可以预防疾病。",
+  "exp": "Duō yùndòng kěyǐ yùfáng jíbìng.",
+  "exvi": "Vận động nhiều có thể phòng bệnh.",
   "em": "🩺"
  },
  {
@@ -1038,9 +1038,9 @@
    "维护利益"
   ],
   "hsk": 6,
-  "ex": "这种做法会损害消费者的利益。",
-  "exp": "Zhè zhǒng zuòfǎ huì sǔnhài xiāofèizhě de lìyì.",
-  "exvi": "Cách làm này sẽ làm tổn hại lợi ích của người tiêu dùng.",
+  "ex": "这种做法会损害利益，大家都不同意。",
+  "exp": "Zhè zhǒng zuòfǎ huì sǔnhài lìyì, dàjiā dōu bù tóngyì.",
+  "exvi": "Cách làm này sẽ làm tổn hại lợi ích nên mọi người đều không đồng ý.",
   "em": ""
  },
  {
