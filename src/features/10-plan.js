@@ -21,7 +21,7 @@ function plNewPerDay(){const m=plCfg().minutes;return m>=90?35:m>=60?25:m>=45?18
 function plApply(){const c=plCfg();if(!c.auto)return;P.settings.lv=LVS.filter(L=>L<=c.target);P.settings.newPerDay=plNewPerDay();}
 function plTasks(){
   const c=plCfg(), d=plDay(), dow=new Date().getDay(), even=Math.floor(today()/DAY)%2===0;
-  const due=dueList(P.settings.lv).length, nw=Math.max(0,P.settings.newPerDay-newToday());
+  const due=dueList(studyLv()).length, nw=Math.max(0,P.settings.newPerDay-newToday());
   const t=[
     {k:'srs',t:'Ôn thẻ và học từ mới',sub:due+nw?`${due} thẻ đến hạn, ${nw} từ mới`:'Đã xong phần thẻ hôm nay',done:due===0&&nw===0,go:'study'},
     {k:'listen',t:'Nghe 10 câu',sub:'Chép chính tả hoặc nghe chọn nghĩa',done:(d.listen||0)>=10,go:'listen',n:[(d.listen||0),10]},

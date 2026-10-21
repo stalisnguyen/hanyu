@@ -1,0 +1,1082 @@
+[
+ {
+  "deck": "dp",
+  "h": "预订机票",
+  "p": "yù dìng jī piào",
+  "hv": "dự đính cơ phiếu",
+  "vi": "đặt vé máy bay",
+  "note": "预订 đi với thứ cần giữ chỗ trước: vé, phòng, bàn. Không nói 买订机票.",
+  "alt": [
+   "预订酒店",
+   "预订房间",
+   "预订座位"
+  ],
+  "hsk": 4,
+  "ex": "放假前我们要早点预订机票。",
+  "exp": "Fàngjià qián wǒmen yào zǎo diǎn yùdìng jīpiào.",
+  "exvi": "Trước kỳ nghỉ chúng ta phải đặt vé máy bay sớm.",
+  "em": "✈️"
+ },
+ {
+  "deck": "dp",
+  "h": "办理登机手续",
+  "p": "bàn lǐ dēng jī shǒu xù",
+  "hv": "biện lý đăng cơ thủ tục",
+  "vi": "làm thủ tục lên máy bay; check-in",
+  "note": "手续 luôn đi với 办理 hoặc 办, không dùng 做手续.",
+  "alt": [
+   "办理入住手续",
+   "办理签证",
+   "办理退房手续"
+  ],
+  "hsk": 5,
+  "ex": "请提前两个小时到机场办理登机手续。",
+  "exp": "Qǐng tíqián liǎng gè xiǎoshí dào jīchǎng bànlǐ dēngjī shǒuxù.",
+  "exvi": "Vui lòng đến sân bay trước hai tiếng để làm thủ tục lên máy bay.",
+  "em": "🛫"
+ },
+ {
+  "deck": "dp",
+  "h": "托运行李",
+  "p": "tuō yùn xíng li",
+  "hv": "thác vận hành lý",
+  "vi": "ký gửi hành lý",
+  "note": "托运 là gửi hành lý theo máy bay hoặc tàu, khác với 随身带 là mang theo người.",
+  "alt": [
+   "托运箱子",
+   "办理托运",
+   "随身行李"
+  ],
+  "hsk": 5,
+  "ex": "我先去柜台托运行李，你在这儿等我。",
+  "exp": "Wǒ xiān qù guìtái tuōyùn xíngli, nǐ zài zhèr děng wǒ.",
+  "exvi": "Mình ra quầy ký gửi hành lý trước, bạn đợi mình ở đây nhé.",
+  "em": "🧳"
+ },
+ {
+  "deck": "dp",
+  "h": "错过航班",
+  "p": "cuò guò háng bān",
+  "hv": "thác quá hàng ban",
+  "vi": "lỡ chuyến bay",
+  "note": "错过 dùng cho chuyến xe, cơ hội, thời điểm đã trôi qua. Người Việt hay nói 迟到航班, không đúng.",
+  "alt": [
+   "错过机会",
+   "错过末班车",
+   "错过时间"
+  ],
+  "hsk": 4,
+  "ex": "路上堵车，我差点儿错过航班。",
+  "exp": "Lùshang dǔchē, wǒ chàdiǎnr cuòguò hángbān.",
+  "exvi": "Trên đường kẹt xe, tôi suýt lỡ chuyến bay.",
+  "em": "⏰"
+ },
+ {
+  "deck": "dp",
+  "h": "欣赏风景",
+  "p": "xīn shǎng fēng jǐng",
+  "hv": "hân thưởng phong cảnh",
+  "vi": "ngắm cảnh; thưởng thức phong cảnh",
+  "note": "欣赏 mang sắc thái thưởng thức cái đẹp, đi với 风景, 音乐, 艺术. Nói thường ngày có thể dùng 看风景.",
+  "alt": [
+   "欣赏音乐",
+   "欣赏艺术",
+   "欣赏美景"
+  ],
+  "hsk": 4,
+  "ex": "我们坐在山顶上欣赏风景。",
+  "exp": "Wǒmen zuò zài shāndǐng shang xīnshǎng fēngjǐng.",
+  "exvi": "Chúng tôi ngồi trên đỉnh núi ngắm cảnh.",
+  "em": "🏞️"
+ },
+ {
+  "deck": "dp",
+  "h": "游览名胜",
+  "p": "yóu lǎn míng shèng",
+  "hv": "du lãm danh thắng",
+  "vi": "tham quan danh lam thắng cảnh",
+  "note": "游览 dùng cho đi ngắm cảnh nơi rộng như thành phố, khu du lịch; vào bảo tàng thì dùng 参观.",
+  "alt": [
+   "游览长城",
+   "游览古迹",
+   "游览市区"
+  ],
+  "hsk": 5,
+  "ex": "这次去北京，我们打算游览名胜。",
+  "exp": "Zhè cì qù Běijīng, wǒmen dǎsuàn yóulǎn míngshèng.",
+  "exvi": "Lần này đi Bắc Kinh, chúng tôi định tham quan danh lam thắng cảnh.",
+  "em": "🏯"
+ },
+ {
+  "deck": "dp",
+  "h": "办理签证",
+  "p": "bàn lǐ qiān zhèng",
+  "hv": "biện lý thiêm chứng",
+  "vi": "làm visa; xin thị thực",
+  "note": "Có thể nói 办签证 hoặc 申请签证. Không nói 做签证.",
+  "alt": [
+   "申请签证",
+   "签证过期",
+   "办理护照"
+  ],
+  "hsk": 4,
+  "ex": "出国留学以前要先办理签证。",
+  "exp": "Chūguó liúxué yǐqián yào xiān bànlǐ qiānzhèng.",
+  "exvi": "Trước khi đi du học phải làm visa trước.",
+  "em": "🛂"
+ },
+ {
+  "deck": "dp",
+  "h": "遵守交通规则",
+  "p": "zūn shǒu jiāo tōng guī zé",
+  "hv": "tuân thủ giao thông quy tắc",
+  "vi": "tuân thủ luật giao thông",
+  "note": "遵守 đi với 规则, 纪律, 法律, 时间. Không dùng 遵守 với người.",
+  "alt": [
+   "遵守纪律",
+   "遵守法律",
+   "遵守规定"
+  ],
+  "hsk": 4,
+  "ex": "开车的时候一定要遵守交通规则。",
+  "exp": "Kāichē de shíhou yídìng yào zūnshǒu jiāotōng guīzé.",
+  "exvi": "Khi lái xe nhất định phải tuân thủ luật giao thông.",
+  "em": "🚦"
+ },
+ {
+  "deck": "dp",
+  "h": "遇到堵车",
+  "p": "yù dào dǔ chē",
+  "hv": "ngộ đáo đổ xa",
+  "vi": "gặp kẹt xe; bị tắc đường",
+  "note": "遇到 dùng cho tình huống bất ngờ gặp phải: 遇到问题, 遇到困难.",
+  "alt": [
+   "遇到问题",
+   "遇到困难",
+   "遇到麻烦"
+  ],
+  "hsk": 4,
+  "ex": "早上上班的时候我又遇到堵车了。",
+  "exp": "Zǎoshang shàngbān de shíhou wǒ yòu yùdào dǔchē le.",
+  "exvi": "Sáng nay đi làm tôi lại gặp kẹt xe.",
+  "em": "🚗"
+ },
+ {
+  "deck": "dp",
+  "h": "乘坐地铁",
+  "p": "chéng zuò dì tiě",
+  "hv": "thừa tọa địa thiết",
+  "vi": "đi tàu điện ngầm",
+  "note": "乘坐 trang trọng hơn 坐, hay gặp trong thông báo, văn viết.",
+  "alt": [
+   "乘坐飞机",
+   "乘坐公交车",
+   "乘坐出租车"
+  ],
+  "hsk": 4,
+  "ex": "乘坐地铁去机场又快又方便。",
+  "exp": "Chéngzuò dìtiě qù jīchǎng yòu kuài yòu fāngbiàn.",
+  "exvi": "Đi tàu điện ngầm ra sân bay vừa nhanh vừa tiện.",
+  "em": "🚇"
+ },
+ {
+  "deck": "dp",
+  "h": "系好安全带",
+  "p": "jì hǎo ān quán dài",
+  "hv": "hệ hảo an toàn đới",
+  "vi": "thắt dây an toàn",
+  "note": "系 ở đây đọc jì, không đọc xì. Hay gặp trên máy bay, ô tô.",
+  "alt": [
+   "系鞋带",
+   "系领带",
+   "系扣子"
+  ],
+  "hsk": 4,
+  "ex": "飞机马上起飞，请系好安全带。",
+  "exp": "Fēijī mǎshàng qǐfēi, qǐng jì hǎo ānquándài.",
+  "exvi": "Máy bay sắp cất cánh, xin hãy thắt dây an toàn.",
+  "em": "💺"
+ },
+ {
+  "deck": "dp",
+  "h": "打车回家",
+  "p": "dǎ chē huí jiā",
+  "hv": "đả xa hồi gia",
+  "vi": "bắt taxi về nhà",
+  "note": "打车 là gọi hoặc bắt taxi, khẩu ngữ rất thông dụng.",
+  "alt": [
+   "打车去机场",
+   "叫出租车",
+   "坐出租车"
+  ],
+  "hsk": 3,
+  "ex": "太晚了，没有公交车，我们打车回家吧。",
+  "exp": "Tài wǎn le, méiyǒu gōngjiāochē, wǒmen dǎchē huí jiā ba.",
+  "exvi": "Muộn quá rồi, không còn xe buýt, chúng ta bắt taxi về nhà đi.",
+  "em": "🚕"
+ },
+ {
+  "deck": "dp",
+  "h": "锻炼身体",
+  "p": "duàn liàn shēn tǐ",
+  "hv": "đoán luyện thân thể",
+  "vi": "rèn luyện thân thể; tập thể dục",
+  "note": "锻炼 đi với 身体, 能力. Không nói 练习身体.",
+  "alt": [
+   "锻炼能力",
+   "坚持锻炼",
+   "参加锻炼"
+  ],
+  "hsk": 3,
+  "ex": "爷爷每天早上去公园锻炼身体。",
+  "exp": "Yéye měi tiān zǎoshang qù gōngyuán duànliàn shēntǐ.",
+  "exvi": "Ông nội sáng nào cũng ra công viên tập thể dục.",
+  "em": "🏃"
+ },
+ {
+  "deck": "dp",
+  "h": "增强体质",
+  "p": "zēng qiáng tǐ zhì",
+  "hv": "tăng cường thể chất",
+  "vi": "nâng cao thể chất; làm cơ thể khỏe hơn",
+  "note": "增强 đi với danh từ trừu tượng như 体质, 信心, 能力. Không nói 增强身体.",
+  "alt": [
+   "增强信心",
+   "增强免疫力",
+   "提高体质"
+  ],
+  "hsk": 5,
+  "ex": "经常游泳可以增强体质。",
+  "exp": "Jīngcháng yóuyǒng kěyǐ zēngqiáng tǐzhì.",
+  "exvi": "Bơi thường xuyên có thể nâng cao thể chất.",
+  "em": "💪"
+ },
+ {
+  "deck": "dp",
+  "h": "保持健康",
+  "p": "bǎo chí jiàn kāng",
+  "hv": "bảo trì kiện khang",
+  "vi": "giữ sức khỏe",
+  "note": "保持 là giữ cho trạng thái tiếp tục, đi với 健康, 安静, 联系.",
+  "alt": [
+   "保持联系",
+   "保持安静",
+   "保持身材"
+  ],
+  "hsk": 4,
+  "ex": "多吃蔬菜水果有助于保持健康。",
+  "exp": "Duō chī shūcài shuǐguǒ yǒuzhù yú bǎochí jiànkāng.",
+  "exvi": "Ăn nhiều rau quả giúp giữ sức khỏe.",
+  "em": "🥗"
+ },
+ {
+  "deck": "dp",
+  "h": "预防感冒",
+  "p": "yù fáng gǎn mào",
+  "hv": "dự phòng cảm mạo",
+  "vi": "phòng cảm cúm",
+  "note": "预防 đi với bệnh, tai nạn, sự cố chưa xảy ra.",
+  "alt": [
+   "预防疾病",
+   "预防近视",
+   "预防火灾"
+  ],
+  "hsk": 5,
+  "ex": "天气变冷了，要注意预防感冒。",
+  "exp": "Tiānqì biàn lěng le, yào zhùyì yùfáng gǎnmào.",
+  "exvi": "Trời trở lạnh rồi, phải chú ý phòng cảm.",
+  "em": "🤧"
+ },
+ {
+  "deck": "dp",
+  "h": "按时吃药",
+  "p": "àn shí chī yào",
+  "hv": "án thời ngật dược",
+  "vi": "uống thuốc đúng giờ",
+  "note": "Tiếng Trung dùng 吃药, không dùng 喝药 cho thuốc viên. Người Việt hay dịch thẳng thành 喝药.",
+  "alt": [
+   "按时睡觉",
+   "按时完成",
+   "按时上课"
+  ],
+  "hsk": 4,
+  "ex": "医生让我按时吃药，多喝水。",
+  "exp": "Yīshēng ràng wǒ ànshí chī yào, duō hē shuǐ.",
+  "exvi": "Bác sĩ bảo tôi uống thuốc đúng giờ, uống nhiều nước.",
+  "em": "💊"
+ },
+ {
+  "deck": "dp",
+  "h": "挂号看病",
+  "p": "guà hào kàn bìng",
+  "hv": "quải hiệu khán bệnh",
+  "vi": "lấy số khám bệnh",
+  "note": "挂号 là lấy số đăng ký ở bệnh viện. 看病 là đi khám, không nói 检查病.",
+  "alt": [
+   "网上挂号",
+   "去医院看病",
+   "排队挂号"
+  ],
+  "hsk": 5,
+  "ex": "他一大早就去医院挂号看病了。",
+  "exp": "Tā yí dà zǎo jiù qù yīyuàn guàhào kànbìng le.",
+  "exvi": "Anh ấy đi bệnh viện lấy số khám bệnh từ sáng sớm.",
+  "em": "🏥"
+ },
+ {
+  "deck": "dp",
+  "h": "缓解压力",
+  "p": "huǎn jiě yā lì",
+  "hv": "hoãn giải áp lực",
+  "vi": "giảm áp lực; giải tỏa căng thẳng",
+  "note": "缓解 đi với 压力, 疼痛, 紧张. Không nói 减压力, nói 减轻压力 hoặc 缓解压力.",
+  "alt": [
+   "减轻压力",
+   "缓解疲劳",
+   "缓解紧张"
+  ],
+  "hsk": 5,
+  "ex": "听音乐是我缓解压力的好办法。",
+  "exp": "Tīng yīnyuè shì wǒ huǎnjiě yālì de hǎo bànfǎ.",
+  "exvi": "Nghe nhạc là cách giải tỏa áp lực hay của tôi.",
+  "em": "😌"
+ },
+ {
+  "deck": "dp",
+  "h": "恢复健康",
+  "p": "huī fù jiàn kāng",
+  "hv": "khôi phục kiện khang",
+  "vi": "hồi phục sức khỏe",
+  "note": "恢复 là trở lại trạng thái cũ, đi với 健康, 正常, 体力.",
+  "alt": [
+   "恢复正常",
+   "恢复体力",
+   "恢复平静"
+  ],
+  "hsk": 5,
+  "ex": "手术以后，他很快就恢复健康了。",
+  "exp": "Shǒushù yǐhòu, tā hěn kuài jiù huīfù jiànkāng le.",
+  "exvi": "Sau ca phẫu thuật, anh ấy đã nhanh chóng hồi phục sức khỏe.",
+  "em": "🩺"
+ },
+ {
+  "deck": "dp",
+  "h": "避免熬夜",
+  "p": "bì miǎn áo yè",
+  "hv": "tị miễn ngao dạ",
+  "vi": "tránh thức khuya",
+  "note": "避免 đi với điều không tốt muốn tránh, thường đứng trước động từ.",
+  "alt": [
+   "避免错误",
+   "避免浪费",
+   "避免发生"
+  ],
+  "hsk": 5,
+  "ex": "为了身体，你最好避免熬夜。",
+  "exp": "Wèile shēntǐ, nǐ zuìhǎo bìmiǎn áoyè.",
+  "exvi": "Vì sức khỏe, bạn tốt nhất nên tránh thức khuya.",
+  "em": "🌙"
+ },
+ {
+  "deck": "dp",
+  "h": "注意饮食",
+  "p": "zhù yì yǐn shí",
+  "hv": "chú ý ẩm thực",
+  "vi": "chú ý ăn uống",
+  "note": "饮食 là chuyện ăn uống nói chung, trang trọng hơn 吃饭.",
+  "alt": [
+   "注意休息",
+   "注意安全",
+   "注意身体"
+  ],
+  "hsk": 5,
+  "ex": "病刚好，你还要注意饮食。",
+  "exp": "Bìng gāng hǎo, nǐ hái yào zhùyì yǐnshí.",
+  "exvi": "Vừa khỏi bệnh, bạn vẫn phải chú ý ăn uống.",
+  "em": "🍲"
+ },
+ {
+  "deck": "dp",
+  "h": "参加比赛",
+  "p": "cān jiā bǐ sài",
+  "hv": "tham gia tỉ tái",
+  "vi": "tham gia cuộc thi; dự thi đấu",
+  "note": "参加 đi với hoạt động, cuộc thi, buổi họp. Không nói 参加比赛跑步.",
+  "alt": [
+   "参加活动",
+   "参加考试",
+   "报名比赛"
+  ],
+  "hsk": 3,
+  "ex": "下个月我要去北京参加比赛。",
+  "exp": "Xià gè yuè wǒ yào qù Běijīng cānjiā bǐsài.",
+  "exvi": "Tháng sau tôi sẽ đi Bắc Kinh tham gia thi đấu.",
+  "em": "🏅"
+ },
+ {
+  "deck": "dp",
+  "h": "赢得比赛",
+  "p": "yíng dé bǐ sài",
+  "hv": "doanh đắc tỉ tái",
+  "vi": "thắng trận đấu; giành chiến thắng",
+  "note": "Có thể nói 赢了比赛. Không nói 胜比赛, nói 比赛胜了 hoặc 战胜对手.",
+  "alt": [
+   "赢得胜利",
+   "赢得掌声",
+   "输掉比赛"
+  ],
+  "hsk": 4,
+  "ex": "我们队最后赢得比赛，大家都很激动。",
+  "exp": "Wǒmen duì zuìhòu yíngdé bǐsài, dàjiā dōu hěn jīdòng.",
+  "exvi": "Cuối cùng đội chúng tôi thắng trận, mọi người đều rất xúc động.",
+  "em": "🏆"
+ },
+ {
+  "deck": "dp",
+  "h": "打破纪录",
+  "p": "dǎ pò jì lù",
+  "hv": "đả phá kỷ lục",
+  "vi": "phá kỷ lục",
+  "note": "Chú ý 纪录 (kỷ lục) khác 记录 (ghi chép). Trong thể thao viết 纪录.",
+  "alt": [
+   "创造纪录",
+   "保持纪录",
+   "刷新纪录"
+  ],
+  "hsk": 5,
+  "ex": "这位运动员又一次打破纪录。",
+  "exp": "Zhè wèi yùndòngyuán yòu yí cì dǎpò jìlù.",
+  "exvi": "Vận động viên này lại một lần nữa phá kỷ lục.",
+  "em": "🥇"
+ },
+ {
+  "deck": "dp",
+  "h": "获得冠军",
+  "p": "huò dé guàn jūn",
+  "hv": "hoạch đắc quán quân",
+  "vi": "giành chức vô địch",
+  "note": "获得 đi với kết quả, giải thưởng: 获得冠军, 获得奖学金. Khẩu ngữ hay nói 拿冠军.",
+  "alt": [
+   "获得成功",
+   "获得奖学金",
+   "拿到冠军"
+  ],
+  "hsk": 5,
+  "ex": "她在全国比赛中获得冠军。",
+  "exp": "Tā zài quánguó bǐsài zhōng huòdé guànjūn.",
+  "exvi": "Cô ấy giành chức vô địch trong cuộc thi toàn quốc.",
+  "em": "🏆"
+ },
+ {
+  "deck": "dp",
+  "h": "进行训练",
+  "p": "jìn xíng xùn liàn",
+  "hv": "tiến hành huấn luyện",
+  "vi": "tập luyện; tiến hành huấn luyện",
+  "note": "进行 đi sau là động từ hai chữ, mang sắc thái trang trọng; không dùng với động từ một chữ.",
+  "alt": [
+   "进行比赛",
+   "进行调查",
+   "进行讨论"
+  ],
+  "hsk": 5,
+  "ex": "球员们每天下午都在操场进行训练。",
+  "exp": "Qiúyuánmen měi tiān xiàwǔ dōu zài cāochǎng jìnxíng xùnliàn.",
+  "exvi": "Các cầu thủ chiều nào cũng tập luyện ở sân.",
+  "em": "⚽"
+ },
+ {
+  "deck": "dp",
+  "h": "坚持锻炼",
+  "p": "jiān chí duàn liàn",
+  "hv": "kiên trì đoán luyện",
+  "vi": "kiên trì tập luyện",
+  "note": "坚持 đi được với động từ: 坚持学习, 坚持跑步.",
+  "alt": [
+   "坚持下去",
+   "坚持学习",
+   "坚持原则"
+  ],
+  "hsk": 4,
+  "ex": "只要坚持锻炼，身体就会越来越好。",
+  "exp": "Zhǐyào jiānchí duànliàn, shēntǐ jiù huì yuè lái yuè hǎo.",
+  "exvi": "Chỉ cần kiên trì tập luyện, cơ thể sẽ ngày càng khỏe.",
+  "em": "🏋️"
+ },
+ {
+  "deck": "dp",
+  "h": "控制体重",
+  "p": "kòng zhì tǐ zhòng",
+  "hv": "khống chế thể trọng",
+  "vi": "kiểm soát cân nặng",
+  "note": "控制 đi với 体重, 情绪, 速度. Tiếng Việt nói giữ cân, tiếng Trung dùng 控制.",
+  "alt": [
+   "控制情绪",
+   "控制速度",
+   "减轻体重"
+  ],
+  "hsk": 5,
+  "ex": "他每天跑步，是为了控制体重。",
+  "exp": "Tā měi tiān pǎobù, shì wèile kòngzhì tǐzhòng.",
+  "exvi": "Anh ấy chạy bộ mỗi ngày là để kiểm soát cân nặng.",
+  "em": "⚖️"
+ },
+ {
+  "deck": "dp",
+  "h": "保护视力",
+  "p": "bǎo hù shì lì",
+  "hv": "bảo hộ thị lực",
+  "vi": "bảo vệ thị lực; giữ mắt",
+  "note": "视力 là thị lực, dùng với 保护, 下降. Không nói 保护眼睛力.",
+  "alt": [
+   "保护眼睛",
+   "视力下降",
+   "保护皮肤"
+  ],
+  "hsk": 5,
+  "ex": "别玩太久手机，要保护视力。",
+  "exp": "Bié wán tài jiǔ shǒujī, yào bǎohù shìlì.",
+  "exvi": "Đừng chơi điện thoại quá lâu, phải bảo vệ thị lực.",
+  "em": "👀"
+ },
+ {
+  "deck": "dp",
+  "h": "发高烧",
+  "p": "fā gāo shāo",
+  "hv": "phát cao thiêu",
+  "vi": "sốt cao",
+  "note": "Nói 发烧 hoặc 发高烧, không nói 有烧.",
+  "alt": [
+   "发烧",
+   "退烧",
+   "发炎"
+  ],
+  "hsk": 4,
+  "ex": "孩子昨天晚上发高烧，妈妈一夜没睡。",
+  "exp": "Háizi zuótiān wǎnshang fā gāoshāo, māma yí yè méi shuì.",
+  "exvi": "Đứa bé tối qua sốt cao, mẹ thức trắng cả đêm.",
+  "em": "🤒"
+ },
+ {
+  "deck": "dp",
+  "h": "放松心情",
+  "p": "fàng sōng xīn qíng",
+  "hv": "phóng tùng tâm tình",
+  "vi": "thả lỏng tâm trạng; thư giãn",
+  "note": "放松 đi với 心情, 身体, 自己. Có thể nói 放松一下.",
+  "alt": [
+   "放松自己",
+   "放松身体",
+   "心情愉快"
+  ],
+  "hsk": 4,
+  "ex": "周末去海边走走，放松心情。",
+  "exp": "Zhōumò qù hǎibiān zǒuzou, fàngsōng xīnqíng.",
+  "exvi": "Cuối tuần ra biển dạo một chút cho thư giãn.",
+  "em": "🌊"
+ },
+ {
+  "deck": "dp",
+  "h": "减少污染",
+  "p": "jiǎn shǎo wū rǎn",
+  "hv": "giảm thiểu ô nhiễm",
+  "vi": "giảm ô nhiễm",
+  "note": "减少 đi với số lượng, 减轻 đi với mức độ. Có thể nói 减少污染 và 减轻污染.",
+  "alt": [
+   "减少浪费",
+   "减少排放",
+   "减轻负担"
+  ],
+  "hsk": 4,
+  "ex": "多坐公交车可以减少污染。",
+  "exp": "Duō zuò gōngjiāochē kěyǐ jiǎnshǎo wūrǎn.",
+  "exvi": "Đi xe buýt nhiều hơn có thể giảm ô nhiễm.",
+  "em": "🏭"
+ },
+ {
+  "deck": "dp",
+  "h": "节约用水",
+  "p": "jié yuē yòng shuǐ",
+  "hv": "tiết ước dụng thủy",
+  "vi": "tiết kiệm nước",
+  "note": "节约 trang trọng hơn 节省, hay dùng trong khẩu hiệu.",
+  "alt": [
+   "节约用电",
+   "节约时间",
+   "节省开支"
+  ],
+  "hsk": 4,
+  "ex": "我们应该从小事做起，节约用水。",
+  "exp": "Wǒmen yīnggāi cóng xiǎoshì zuòqǐ, jiéyuē yòng shuǐ.",
+  "exvi": "Chúng ta nên bắt đầu từ việc nhỏ, tiết kiệm nước.",
+  "em": "💧"
+ },
+ {
+  "deck": "dp",
+  "h": "垃圾分类",
+  "p": "lā jī fēn lèi",
+  "hv": "lạp ngập phân loại",
+  "vi": "phân loại rác",
+  "note": "Dùng như cụm động từ hoặc danh từ, hay đi với 做好, 实行: 做好垃圾分类.",
+  "alt": [
+   "扔垃圾",
+   "倒垃圾",
+   "回收利用"
+  ],
+  "hsk": 4,
+  "ex": "现在很多城市都要求垃圾分类。",
+  "exp": "Xiànzài hěn duō chéngshì dōu yāoqiú lājī fēnlèi.",
+  "exvi": "Bây giờ nhiều thành phố đều yêu cầu phân loại rác.",
+  "em": "♻️"
+ },
+ {
+  "deck": "dp",
+  "h": "爱护动物",
+  "p": "ài hù dòng wù",
+  "hv": "ái hộ động vật",
+  "vi": "yêu quý và bảo vệ động vật",
+  "note": "爱护 vừa yêu vừa giữ gìn, đi với 动物, 公物, 眼睛.",
+  "alt": [
+   "爱护环境",
+   "爱护公物",
+   "保护动物"
+  ],
+  "hsk": 4,
+  "ex": "老师教孩子们要爱护动物。",
+  "exp": "Lǎoshī jiāo háizimen yào àihù dòngwù.",
+  "exvi": "Cô giáo dạy các em phải yêu quý động vật.",
+  "em": "🐼"
+ },
+ {
+  "deck": "dp",
+  "h": "节约能源",
+  "p": "jié yuē néng yuán",
+  "hv": "tiết ước năng nguyên",
+  "vi": "tiết kiệm năng lượng",
+  "note": "能源 là nguồn năng lượng như điện, dầu, khí. Không nhầm với 能量 (năng lượng cơ thể, vật lý).",
+  "alt": [
+   "节约资源",
+   "开发能源",
+   "新能源"
+  ],
+  "hsk": 5,
+  "ex": "出门前关灯，也是节约能源。",
+  "exp": "Chūmén qián guān dēng, yě shì jiéyuē néngyuán.",
+  "exvi": "Tắt đèn trước khi ra ngoài cũng là tiết kiệm năng lượng.",
+  "em": "💡"
+ },
+ {
+  "deck": "dp",
+  "h": "浪费资源",
+  "p": "làng fèi zī yuán",
+  "hv": "lãng phí tư nguyên",
+  "vi": "lãng phí tài nguyên",
+  "note": "浪费 đi với 资源, 时间, 钱, 粮食.",
+  "alt": [
+   "浪费时间",
+   "浪费粮食",
+   "节约资源"
+  ],
+  "hsk": 5,
+  "ex": "用一次性筷子会浪费资源。",
+  "exp": "Yòng yícìxìng kuàizi huì làngfèi zīyuán.",
+  "exvi": "Dùng đũa dùng một lần sẽ lãng phí tài nguyên.",
+  "em": "🗑️"
+ },
+ {
+  "deck": "dp",
+  "h": "应对气候变化",
+  "p": "yìng duì qì hòu biàn huà",
+  "hv": "ứng đối khí hậu biến hóa",
+  "vi": "ứng phó với biến đổi khí hậu",
+  "note": "应对 là đối phó, ứng phó với thử thách, khó khăn; hay gặp trong tin tức.",
+  "alt": [
+   "应对挑战",
+   "应对危机",
+   "适应气候"
+  ],
+  "hsk": 6,
+  "ex": "各国需要一起应对气候变化。",
+  "exp": "Gè guó xūyào yìqǐ yìngduì qìhòu biànhuà.",
+  "exvi": "Các nước cần cùng nhau ứng phó với biến đổi khí hậu.",
+  "em": "🌍"
+ },
+ {
+  "deck": "dp",
+  "h": "呼吸新鲜空气",
+  "p": "hū xī xīn xiān kōng qì",
+  "hv": "hô hấp tân tiên không khí",
+  "vi": "hít thở không khí trong lành",
+  "note": "新鲜 dùng cho không khí, đồ ăn; tiếng Việt nói trong lành nhưng tiếng Trung dùng 新鲜.",
+  "alt": [
+   "新鲜水果",
+   "空气清新",
+   "深呼吸"
+  ],
+  "hsk": 4,
+  "ex": "周末到郊区呼吸新鲜空气吧。",
+  "exp": "Zhōumò dào jiāoqū hūxī xīnxiān kōngqì ba.",
+  "exvi": "Cuối tuần ra ngoại ô hít thở không khí trong lành đi.",
+  "em": "🌳"
+ },
+ {
+  "deck": "dp",
+  "h": "了解文化",
+  "p": "liǎo jiě wén huà",
+  "hv": "liễu giải văn hóa",
+  "vi": "tìm hiểu văn hóa",
+  "note": "了解 là hiểu rõ, tìm hiểu, đi với 情况, 文化, 人. Không dùng 知道 cho nghĩa tìm hiểu sâu.",
+  "alt": [
+   "了解情况",
+   "了解历史",
+   "了解对方"
+  ],
+  "hsk": 3,
+  "ex": "来中国以后，我想多了解文化和历史。",
+  "exp": "Lái Zhōngguó yǐhòu, wǒ xiǎng duō liǎojiě wénhuà hé lìshǐ.",
+  "exvi": "Sau khi đến Trung Quốc, tôi muốn tìm hiểu nhiều hơn về văn hóa và lịch sử.",
+  "em": "🏮"
+ },
+ {
+  "deck": "dp",
+  "h": "庆祝节日",
+  "p": "qìng zhù jié rì",
+  "hv": "khánh chúc tiết nhật",
+  "vi": "ăn mừng ngày lễ",
+  "note": "庆祝 đi với 节日, 生日, 胜利. Không nói 祝贺节日; 祝贺 dùng với người.",
+  "alt": [
+   "庆祝生日",
+   "庆祝胜利",
+   "过节"
+  ],
+  "hsk": 4,
+  "ex": "人们用不同的方式庆祝节日。",
+  "exp": "Rénmen yòng bùtóng de fāngshì qìngzhù jiérì.",
+  "exvi": "Mọi người ăn mừng ngày lễ theo những cách khác nhau.",
+  "em": "🎉"
+ },
+ {
+  "deck": "dp",
+  "h": "尊重习俗",
+  "p": "zūn zhòng xí sú",
+  "hv": "tôn trọng tập tục",
+  "vi": "tôn trọng phong tục",
+  "note": "习俗 là phong tục tập quán của một vùng, gần nghĩa 风俗.",
+  "alt": [
+   "尊重别人",
+   "尊重习惯",
+   "入乡随俗"
+  ],
+  "hsk": 5,
+  "ex": "去外国旅游，一定要尊重习俗。",
+  "exp": "Qù wàiguó lǚyóu, yídìng yào zūnzhòng xísú.",
+  "exvi": "Đi du lịch nước ngoài nhất định phải tôn trọng phong tục.",
+  "em": "🙏"
+ },
+ {
+  "deck": "dp",
+  "h": "传承文化",
+  "p": "chuán chéng wén huà",
+  "hv": "truyền thừa văn hóa",
+  "vi": "gìn giữ và truyền lại văn hóa",
+  "note": "传承 là truyền lại cho thế hệ sau, văn viết, hay đi với 文化, 传统, 技艺.",
+  "alt": [
+   "传承传统",
+   "传承技艺",
+   "发扬文化"
+  ],
+  "hsk": 6,
+  "ex": "年轻人也有责任传承文化。",
+  "exp": "Niánqīngrén yě yǒu zérèn chuánchéng wénhuà.",
+  "exvi": "Người trẻ cũng có trách nhiệm gìn giữ và truyền lại văn hóa.",
+  "em": "📜"
+ },
+ {
+  "deck": "dp",
+  "h": "参观博物馆",
+  "p": "cān guān bó wù guǎn",
+  "hv": "tham quan bác vật quán",
+  "vi": "tham quan bảo tàng",
+  "note": "参观 dùng cho nơi có trưng bày: bảo tàng, nhà máy, trường học. Đi ngắm cảnh thì dùng 游览.",
+  "alt": [
+   "参观工厂",
+   "参观展览",
+   "参观校园"
+  ],
+  "hsk": 4,
+  "ex": "星期天我们一起去参观博物馆吧。",
+  "exp": "Xīngqītiān wǒmen yìqǐ qù cānguān bówùguǎn ba.",
+  "exvi": "Chủ nhật chúng ta cùng đi tham quan bảo tàng nhé.",
+  "em": "🏛️"
+ },
+ {
+  "deck": "dp",
+  "h": "培养爱好",
+  "p": "péi yǎng ài hào",
+  "hv": "bồi dưỡng ái hảo",
+  "vi": "nuôi dưỡng sở thích",
+  "note": "培养 đi với 爱好, 兴趣, 习惯, 人才. Không nói 养爱好.",
+  "alt": [
+   "培养兴趣",
+   "培养习惯",
+   "培养人才"
+  ],
+  "hsk": 4,
+  "ex": "父母应该帮孩子培养爱好。",
+  "exp": "Fùmǔ yīnggāi bāng háizi péiyǎng àihào.",
+  "exvi": "Bố mẹ nên giúp con nuôi dưỡng sở thích.",
+  "em": "🎨"
+ },
+ {
+  "deck": "dp",
+  "h": "收集邮票",
+  "p": "shōu jí yóu piào",
+  "hv": "thu tập bưu phiếu",
+  "vi": "sưu tầm tem",
+  "note": "收集 là gom góp, sưu tầm; khi nói sưu tầm đồ quý có thể dùng 收藏.",
+  "alt": [
+   "收集资料",
+   "收集信息",
+   "收藏古董"
+  ],
+  "hsk": 5,
+  "ex": "我爸爸从小就喜欢收集邮票。",
+  "exp": "Wǒ bàba cóngxiǎo jiù xǐhuan shōují yóupiào.",
+  "exvi": "Bố tôi từ nhỏ đã thích sưu tầm tem.",
+  "em": "📮"
+ },
+ {
+  "deck": "dp",
+  "h": "弹钢琴",
+  "p": "tán gāng qín",
+  "hv": "đàn cương cầm",
+  "vi": "chơi piano; đánh đàn piano",
+  "note": "Đàn phím, đàn dây gảy dùng 弹; đàn kéo dùng 拉; sáo, kèn dùng 吹. Người Việt hay nói 玩钢琴, không đúng.",
+  "alt": [
+   "弹吉他",
+   "拉小提琴",
+   "吹笛子"
+  ],
+  "hsk": 4,
+  "ex": "她每天晚上弹钢琴弹一个小时。",
+  "exp": "Tā měi tiān wǎnshang tán gāngqín tán yí ge xiǎoshí.",
+  "exvi": "Tối nào cô ấy cũng chơi piano một tiếng.",
+  "em": "🎹"
+ },
+ {
+  "deck": "dp",
+  "h": "拉小提琴",
+  "p": "lā xiǎo tí qín",
+  "hv": "lạp tiểu đề cầm",
+  "vi": "chơi violin; kéo đàn vĩ cầm",
+  "note": "Đàn dùng vĩ kéo như violin, nhị dùng 拉, không dùng 弹.",
+  "alt": [
+   "拉二胡",
+   "弹钢琴",
+   "拉手风琴"
+  ],
+  "hsk": 5,
+  "ex": "他拉小提琴拉得特别好听。",
+  "exp": "Tā lā xiǎotíqín lā de tèbié hǎotīng.",
+  "exvi": "Anh ấy kéo violin rất hay.",
+  "em": "🎻"
+ },
+ {
+  "deck": "dp",
+  "h": "下象棋",
+  "p": "xià xiàng qí",
+  "hv": "hạ tượng kỳ",
+  "vi": "chơi cờ tướng",
+  "note": "Chơi cờ dùng 下: 下棋, 下象棋, 下围棋. Chơi bài thì dùng 打 (打牌).",
+  "alt": [
+   "下围棋",
+   "下棋",
+   "打牌"
+  ],
+  "hsk": 5,
+  "ex": "周末爷爷常常和邻居下象棋。",
+  "exp": "Zhōumò yéye chángcháng hé línjū xià xiàngqí.",
+  "exvi": "Cuối tuần ông nội hay chơi cờ tướng với hàng xóm.",
+  "em": "♟️"
+ },
+ {
+  "deck": "dp",
+  "h": "举办展览",
+  "p": "jǔ bàn zhǎn lǎn",
+  "hv": "cử biện triển lãm",
+  "vi": "tổ chức triển lãm",
+  "note": "举办 đi với sự kiện lớn: 展览, 比赛, 晚会, 活动.",
+  "alt": [
+   "举办活动",
+   "举办比赛",
+   "举办晚会"
+  ],
+  "hsk": 5,
+  "ex": "美术馆下个月要举办展览。",
+  "exp": "Měishùguǎn xià gè yuè yào jǔbàn zhǎnlǎn.",
+  "exvi": "Tháng sau bảo tàng mỹ thuật sẽ tổ chức triển lãm.",
+  "em": "🖼️"
+ },
+ {
+  "deck": "dp",
+  "h": "学习书法",
+  "p": "xué xí shū fǎ",
+  "hv": "học tập thư pháp",
+  "vi": "học thư pháp",
+  "note": "Luyện chữ hằng ngày có thể nói 练书法 hoặc 写书法.",
+  "alt": [
+   "练书法",
+   "学画画",
+   "学太极拳"
+  ],
+  "hsk": 5,
+  "ex": "退休以后，奶奶开始学习书法。",
+  "exp": "Tuìxiū yǐhòu, nǎinai kāishǐ xuéxí shūfǎ.",
+  "exvi": "Sau khi nghỉ hưu, bà nội bắt đầu học thư pháp.",
+  "em": "🖌️"
+ },
+ {
+  "deck": "dp",
+  "h": "打发时间",
+  "p": "dǎ fa shí jiān",
+  "hv": "đả phát thời gian",
+  "vi": "giết thời gian",
+  "note": "打发 ở đây là cho qua, mang sắc thái làm cho hết thời gian rảnh.",
+  "alt": [
+   "消磨时间",
+   "浪费时间",
+   "利用时间"
+  ],
+  "hsk": 5,
+  "ex": "坐火车的时候我看小说打发时间。",
+  "exp": "Zuò huǒchē de shíhou wǒ kàn xiǎoshuō dǎfa shíjiān.",
+  "exvi": "Khi đi tàu hỏa, tôi đọc tiểu thuyết để giết thời gian.",
+  "em": "📖"
+ },
+ {
+  "deck": "dp",
+  "h": "享受生活",
+  "p": "xiǎng shòu shēng huó",
+  "hv": "hưởng thụ sinh hoạt",
+  "vi": "tận hưởng cuộc sống",
+  "note": "享受 đi với 生活, 阳光, 美食; mang nghĩa tích cực, không phải ăn chơi.",
+  "alt": [
+   "享受阳光",
+   "享受美食",
+   "享受过程"
+  ],
+  "hsk": 5,
+  "ex": "工作再忙，也要学会享受生活。",
+  "exp": "Gōngzuò zài máng, yě yào xuéhuì xiǎngshòu shēnghuó.",
+  "exvi": "Công việc bận đến đâu cũng phải biết tận hưởng cuộc sống.",
+  "em": "☀️"
+ },
+ {
+  "deck": "dp",
+  "h": "制定旅行计划",
+  "p": "zhì dìng lǚ xíng jì huà",
+  "hv": "chế định lữ hành kế hoạch",
+  "vi": "lập kế hoạch du lịch",
+  "note": "Lập kế hoạch dùng 制定 hoặc 做, không dùng 制造 (chế tạo đồ vật).",
+  "alt": [
+   "制定目标",
+   "制定规则",
+   "安排行程"
+  ],
+  "hsk": 5,
+  "ex": "出发前我们一起制定旅行计划。",
+  "exp": "Chūfā qián wǒmen yìqǐ zhìdìng lǚxíng jìhuà.",
+  "exvi": "Trước khi khởi hành chúng tôi cùng lập kế hoạch du lịch.",
+  "em": "🗺️"
+ },
+ {
+  "deck": "dp",
+  "h": "安排行程",
+  "p": "ān pái xíng chéng",
+  "hv": "an bài hành trình",
+  "vi": "sắp xếp lịch trình",
+  "note": "安排 đi với 时间, 工作, 行程. 行程 là lịch trình chuyến đi.",
+  "alt": [
+   "安排时间",
+   "安排工作",
+   "安排住宿"
+  ],
+  "hsk": 5,
+  "ex": "导游已经帮我们安排行程了。",
+  "exp": "Dǎoyóu yǐjīng bāng wǒmen ānpái xíngchéng le.",
+  "exvi": "Hướng dẫn viên đã sắp xếp lịch trình giúp chúng tôi.",
+  "em": "📅"
+ },
+ {
+  "deck": "dp",
+  "h": "入住酒店",
+  "p": "rù zhù jiǔ diàn",
+  "hv": "nhập trú tửu điếm",
+  "vi": "nhận phòng khách sạn",
+  "note": "入住 là bắt đầu ở, hay dùng cho khách sạn. 酒店 ở đây là khách sạn, không phải quán rượu.",
+  "alt": [
+   "办理入住",
+   "退房",
+   "住宾馆"
+  ],
+  "hsk": 4,
+  "ex": "我们下午两点以后才能入住酒店。",
+  "exp": "Wǒmen xiàwǔ liǎng diǎn yǐhòu cái néng rùzhù jiǔdiàn.",
+  "exvi": "Sau hai giờ chiều chúng tôi mới được nhận phòng khách sạn.",
+  "em": "🏨"
+ },
+ {
+  "deck": "dp",
+  "h": "准时到达",
+  "p": "zhǔn shí dào dá",
+  "hv": "chuẩn thời đáo đạt",
+  "vi": "đến đúng giờ",
+  "note": "到达 trang trọng, hay dùng cho tàu xe, máy bay. Nói thường dùng 准时到.",
+  "alt": [
+   "准时出发",
+   "准时起飞",
+   "到达目的地"
+  ],
+  "hsk": 4,
+  "ex": "火车准时到达上海站。",
+  "exp": "Huǒchē zhǔnshí dàodá Shànghǎi zhàn.",
+  "exvi": "Tàu hỏa đến ga Thượng Hải đúng giờ.",
+  "em": "🚄"
+ },
+ {
+  "deck": "dp",
+  "h": "换乘公交",
+  "p": "huàn chéng gōng jiāo",
+  "hv": "hoán thừa công giao",
+  "vi": "chuyển sang xe buýt",
+  "note": "换乘 là đổi tuyến, đổi phương tiện; hay gặp trong ga tàu điện ngầm.",
+  "alt": [
+   "换乘地铁",
+   "换车",
+   "转车"
+  ],
+  "hsk": 5,
+  "ex": "出了地铁站以后还要换乘公交。",
+  "exp": "Chūle dìtiě zhàn yǐhòu hái yào huànchéng gōngjiāo.",
+  "exvi": "Ra khỏi ga tàu điện ngầm rồi còn phải chuyển sang xe buýt.",
+  "em": "🚌"
+ },
+ {
+  "deck": "dp",
+  "h": "戒烟戒酒",
+  "p": "jiè yān jiè jiǔ",
+  "hv": "giới yên giới tửu",
+  "vi": "bỏ thuốc lá và bỏ rượu",
+  "note": "戒 là bỏ hẳn thói quen xấu, đi với 烟, 酒. Không dùng 停 hay 放 cho nghĩa bỏ thuốc.",
+  "alt": [
+   "戒烟",
+   "戒掉坏习惯",
+   "少喝酒"
+  ],
+  "hsk": 5,
+  "ex": "为了健康，他决定戒烟戒酒。",
+  "exp": "Wèile jiànkāng, tā juédìng jièyān jièjiǔ.",
+  "exvi": "Vì sức khỏe, anh ấy quyết định bỏ thuốc lá và rượu.",
+  "em": "🚭"
+ }
+]

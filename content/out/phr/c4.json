@@ -1,0 +1,871 @@
+[
+ {
+  "deck": "cy",
+  "h": "井底之蛙",
+  "p": "jǐng dǐ zhī wā",
+  "hv": "tỉnh để chi oa",
+  "vi": "(thành ngữ) ếch ngồi đáy giếng; người hiểu biết hạn hẹp",
+  "note": "Nghĩa đen: con ếch dưới đáy giếng, chỉ thấy bầu trời bằng miệng giếng. Dùng để chê người kiến thức hẹp mà tưởng mình biết nhiều, sắc thái khá nặng.",
+  "alt": [
+   "坐井观天",
+   "孤陋寡闻",
+   "见多识广"
+  ],
+  "hsk": 5,
+  "ex": "多出去看看世界，别做井底之蛙。",
+  "exp": "Duō chūqu kànkan shìjiè, bié zuò jǐngdǐzhīwā.",
+  "exvi": "Hãy ra ngoài ngắm thế giới nhiều hơn, đừng làm ếch ngồi đáy giếng.",
+  "em": "🐸"
+ },
+ {
+  "deck": "cy",
+  "h": "掩耳盗铃",
+  "p": "yǎn ěr dào líng",
+  "hv": "yểm nhĩ đạo linh",
+  "vi": "(thành ngữ) bịt tai trộm chuông; tự lừa mình dối người",
+  "note": "Điển tích: kẻ trộm chuông sợ tiếng kêu nên tự bịt tai mình, tưởng người khác cũng không nghe thấy. Dùng để chê việc cố che giấu điều ai cũng biết.",
+  "alt": [
+   "自欺欺人",
+   "此地无银三百两"
+  ],
+  "hsk": 6,
+  "ex": "问题明明存在，不承认就是掩耳盗铃。",
+  "exp": "Wèntí míngmíng cúnzài, bù chéngrèn jiùshì yǎn'ěrdàolíng.",
+  "exvi": "Vấn đề rõ ràng là có, không thừa nhận thì chỉ là tự lừa mình.",
+  "em": "🔔"
+ },
+ {
+  "deck": "cy",
+  "h": "拔苗助长",
+  "p": "bá miáo zhù zhǎng",
+  "hv": "bạt miêu trợ trưởng",
+  "vi": "(thành ngữ) nhổ mạ cho nhanh lớn; nóng vội làm hỏng việc",
+  "note": "Điển tích: người nước Tống sốt ruột kéo cây mạ lên cho cao, kết quả mạ chết hết. Hay dùng khi nói về giáo dục con cái, chê cách làm trái quy luật vì nóng vội.",
+  "alt": [
+   "揠苗助长",
+   "急于求成",
+   "循序渐进"
+  ],
+  "hsk": 5,
+  "ex": "孩子学习要慢慢来，不能拔苗助长。",
+  "exp": "Háizi xuéxí yào mànmàn lái, bù néng bámiáozhùzhǎng.",
+  "exvi": "Con cái học hành phải từ từ, không thể nóng vội ép cho nhanh.",
+  "em": "🌱"
+ },
+ {
+  "deck": "cy",
+  "h": "对牛弹琴",
+  "p": "duì niú tán qín",
+  "hv": "đối ngưu đàn cầm",
+  "vi": "(thành ngữ) đàn gảy tai trâu; nói với người không hiểu",
+  "note": "Nghĩa đen: gảy đàn cho trâu nghe. Dùng để chê người nghe không hiểu, hoặc tự trách mình nói không đúng đối tượng; khẩu ngữ, hơi châm biếm.",
+  "alt": [
+   "白费口舌",
+   "有的放矢"
+  ],
+  "hsk": 5,
+  "ex": "跟他讲道理简直是对牛弹琴。",
+  "exp": "Gēn tā jiǎng dàolǐ jiǎnzhí shì duìniútánqín.",
+  "exvi": "Giảng lý lẽ với anh ta đúng là đàn gảy tai trâu.",
+  "em": "🐂"
+ },
+ {
+  "deck": "cy",
+  "h": "狐假虎威",
+  "p": "hú jiǎ hǔ wēi",
+  "hv": "hồ giả hổ uy",
+  "vi": "(thành ngữ) cáo mượn oai hùm",
+  "note": "Điển tích: con cáo đi trước con hổ, các thú khác sợ hổ bỏ chạy, cáo tưởng chúng sợ mình. Dùng để chê kẻ dựa thế người có quyền để bắt nạt người khác.",
+  "alt": [
+   "仗势欺人",
+   "狗仗人势"
+  ],
+  "hsk": 6,
+  "ex": "他不过是狐假虎威，靠老板撑腰罢了。",
+  "exp": "Tā búguò shì hújiǎhǔwēi, kào lǎobǎn chēngyāo bà le.",
+  "exvi": "Anh ta chẳng qua là cáo mượn oai hùm, dựa vào sếp chống lưng thôi.",
+  "em": "🦊"
+ },
+ {
+  "deck": "cy",
+  "h": "叶公好龙",
+  "p": "yè gōng hào lóng",
+  "hv": "diệp công hiếu long",
+  "vi": "(thành ngữ) ngoài miệng nói thích nhưng thật ra không thích",
+  "note": "Điển tích: Diệp công nói rất mê rồng, nhà đâu cũng vẽ rồng, đến khi rồng thật xuống thăm thì sợ hãi bỏ chạy. 好 đọc hào (thích). Dùng để chê người chỉ thích ngoài miệng.",
+  "alt": [
+   "口是心非",
+   "言行不一"
+  ],
+  "hsk": 7,
+  "ex": "说喜欢运动却从来不去，真是叶公好龙。",
+  "exp": "Shuō xǐhuan yùndòng què cónglái bú qù, zhēn shì yègōnghàolóng.",
+  "exvi": "Nói thích thể thao mà chưa bao giờ đi tập, đúng là thích ngoài miệng.",
+  "em": "🐉"
+ },
+ {
+  "deck": "cy",
+  "h": "望梅止渴",
+  "p": "wàng méi zhǐ kě",
+  "hv": "vọng mai chỉ khát",
+  "vi": "(thành ngữ) nhìn mơ đỡ khát; tự an ủi bằng ảo tưởng",
+  "note": "Điển tích: Tào Tháo nói phía trước có rừng mơ, quân lính nghĩ đến vị chua mà ứa nước bọt, quên cơn khát. Dùng khi nói về sự an ủi suông, không giải quyết được thật.",
+  "alt": [
+   "画饼充饥",
+   "自我安慰"
+  ],
+  "hsk": 6,
+  "ex": "光看别人旅行的照片，只能望梅止渴。",
+  "exp": "Guāng kàn biérén lǚxíng de zhàopiàn, zhǐ néng wàngméizhǐkě.",
+  "exvi": "Chỉ xem ảnh du lịch của người khác thì chỉ là nhìn mơ đỡ khát.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "卧薪尝胆",
+  "p": "wò xīn cháng dǎn",
+  "hv": "ngọa tân thường đảm",
+  "vi": "(thành ngữ) nằm gai nếm mật; chịu khổ nuôi chí",
+  "note": "Điển tích: Việt vương Câu Tiễn sau khi thua trận nằm trên củi, nếm mật đắng để không quên nhục, cuối cùng phục quốc. Dùng để khen sự nhẫn nại, quyết tâm làm lại; trang trọng.",
+  "alt": [
+   "发愤图强",
+   "忍辱负重"
+  ],
+  "hsk": 7,
+  "ex": "失败以后，他卧薪尝胆，三年后东山再起。",
+  "exp": "Shībài yǐhòu, tā wòxīnchángdǎn, sān nián hòu dōngshānzàiqǐ.",
+  "exvi": "Sau thất bại, anh ấy nằm gai nếm mật, ba năm sau lại vươn lên.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "破釜沉舟",
+  "p": "pò fǔ chén zhōu",
+  "hv": "phá phủ trầm chu",
+  "vi": "(thành ngữ) đập nồi dìm thuyền; quyết làm đến cùng",
+  "note": "Điển tích: Hạng Vũ cho đập nồi, đánh chìm thuyền sau khi qua sông để quân không còn đường lui. Dùng khi ai đó quyết tâm dồn hết sức, không chừa đường lùi.",
+  "alt": [
+   "背水一战",
+   "孤注一掷"
+  ],
+  "hsk": 6,
+  "ex": "他辞掉工作，破釜沉舟地去创业。",
+  "exp": "Tā cídiào gōngzuò, pòfǔchénzhōu de qù chuàngyè.",
+  "exvi": "Anh ấy bỏ việc, quyết dồn hết sức đi khởi nghiệp.",
+  "em": "🚢"
+ },
+ {
+  "deck": "cy",
+  "h": "纸上谈兵",
+  "p": "zhǐ shàng tán bīng",
+  "hv": "chỉ thượng đàm binh",
+  "vi": "(thành ngữ) bàn binh trên giấy; lý thuyết suông",
+  "note": "Điển tích: Triệu Quát đọc nhiều binh thư, nói hay nhưng ra trận thì thua nặng. Dùng để chê người chỉ giỏi lý thuyết, không có kinh nghiệm thực tế.",
+  "alt": [
+   "空谈理论",
+   "脚踏实地"
+  ],
+  "hsk": 6,
+  "ex": "计划写得再好，不去做也只是纸上谈兵。",
+  "exp": "Jìhuà xiě de zài hǎo, bú qù zuò yě zhǐshì zhǐshàngtánbīng.",
+  "exvi": "Kế hoạch viết hay đến đâu mà không làm thì cũng chỉ là lý thuyết suông.",
+  "em": "📜"
+ },
+ {
+  "deck": "cy",
+  "h": "三顾茅庐",
+  "p": "sān gù máo lú",
+  "hv": "tam cố mao lư",
+  "vi": "(thành ngữ) ba lần đến lều tranh; thành tâm mời người tài",
+  "note": "Điển tích: Lưu Bị ba lần đến lều tranh mời Gia Cát Lượng ra giúp. Ngày nay dùng khi ai đó nhiều lần thành tâm mời người tài về làm việc; sắc thái khen.",
+  "alt": [
+   "求贤若渴",
+   "礼贤下士"
+  ],
+  "hsk": 6,
+  "ex": "老板三顾茅庐，终于请到了这位专家。",
+  "exp": "Lǎobǎn sāngùmáolú, zhōngyú qǐngdào le zhè wèi zhuānjiā.",
+  "exvi": "Sếp thành tâm mời mấy lần, cuối cùng cũng mời được vị chuyên gia này.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "杞人忧天",
+  "p": "qǐ rén yōu tiān",
+  "hv": "kỷ nhân ưu thiên",
+  "vi": "(thành ngữ) lo bò trắng răng; lo chuyện không đâu",
+  "note": "Điển tích: người nước Kỷ suốt ngày lo trời sập đất lở, ăn ngủ không yên. Dùng để khuyên hoặc chê người lo lắng thái quá về chuyện khó xảy ra.",
+  "alt": [
+   "庸人自扰",
+   "多此一举"
+  ],
+  "hsk": 6,
+  "ex": "这种事不太可能发生，你别杞人忧天了。",
+  "exp": "Zhè zhǒng shì bú tài kěnéng fāshēng, nǐ bié qǐrényōutiān le.",
+  "exvi": "Chuyện này khó mà xảy ra, bạn đừng lo bò trắng răng nữa.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "南辕北辙",
+  "p": "nán yuán běi zhé",
+  "hv": "nam viên bắc triệt",
+  "vi": "(thành ngữ) muốn đi nam lại đánh xe lên bắc; làm trái mục đích",
+  "note": "Điển tích: người muốn đến nước Sở ở phía nam lại đánh xe về phía bắc, ngựa càng tốt càng đi xa. Dùng khi hành động đi ngược với mục tiêu.",
+  "alt": [
+   "背道而驰",
+   "适得其反"
+  ],
+  "hsk": 6,
+  "ex": "想减肥又天天吃夜宵，这不是南辕北辙吗？",
+  "exp": "Xiǎng jiǎnféi yòu tiāntiān chī yèxiāo, zhè bú shì nányuánběizhé ma?",
+  "exvi": "Muốn giảm cân mà ngày nào cũng ăn khuya, chẳng phải làm ngược mục đích sao?",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "滥竽充数",
+  "p": "làn yú chōng shù",
+  "hv": "lạm vu sung số",
+  "vi": "(thành ngữ) không có tài mà đứng vào cho đủ số",
+  "note": "Điển tích: Nam Quách tiên sinh không biết thổi sáo vu vẫn trà trộn trong dàn nhạc của vua Tề, đến khi vua mới bắt thổi từng người thì bỏ trốn. Dùng chê kẻ kém năng lực ngồi lẫn vào; cũng dùng để tự khiêm tốn.",
+  "alt": [
+   "鱼目混珠",
+   "名副其实"
+  ],
+  "hsk": 6,
+  "ex": "我唱歌不行，只是在合唱团里滥竽充数。",
+  "exp": "Wǒ chànggē bù xíng, zhǐshì zài héchàngtuán li lànyúchōngshù.",
+  "exvi": "Tôi hát không ra gì, chỉ đứng trong dàn hợp xướng cho đủ số thôi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "盲人摸象",
+  "p": "máng rén mō xiàng",
+  "hv": "manh nhân mô tượng",
+  "vi": "(thành ngữ) thầy bói xem voi; nhìn phiến diện",
+  "note": "Điển tích: mấy người mù sờ voi, mỗi người sờ một bộ phận rồi cãi nhau voi giống cái quạt, cái cột. Dùng để chê cách nhìn chỉ thấy một phần mà kết luận cả vấn đề.",
+  "alt": [
+   "以偏概全",
+   "一叶障目"
+  ],
+  "hsk": 6,
+  "ex": "只看一份数据就下结论，就像盲人摸象。",
+  "exp": "Zhǐ kàn yí fèn shùjù jiù xià jiélùn, jiù xiàng mángrénmōxiàng.",
+  "exvi": "Chỉ xem một bộ số liệu mà đã kết luận thì chẳng khác gì thầy bói xem voi.",
+  "em": "🐘"
+ },
+ {
+  "deck": "cy",
+  "h": "毛遂自荐",
+  "p": "máo suì zì jiàn",
+  "hv": "mao toại tự tiến",
+  "vi": "(thành ngữ) tự đề cử mình, tự xin nhận việc",
+  "note": "Điển tích: Mao Toại là môn khách của Bình Nguyên quân nước Triệu, tự xin đi theo sang nước Sở và lập công. Dùng khi ai đó chủ động tiến cử bản thân; sắc thái tích cực, có thể nói vui.",
+  "alt": [
+   "自告奋勇",
+   "自我推荐"
+  ],
+  "hsk": 7,
+  "ex": "这次比赛没人报名，我就毛遂自荐了。",
+  "exp": "Zhè cì bǐsài méi rén bàomíng, wǒ jiù máosuìzìjiàn le.",
+  "exvi": "Cuộc thi lần này không ai đăng ký, nên tôi tự xin tham gia.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "班门弄斧",
+  "p": "bān mén nòng fǔ",
+  "hv": "ban môn lộng phủ",
+  "vi": "(thành ngữ) múa rìu qua mắt thợ",
+  "note": "Nghĩa đen: múa rìu trước cửa nhà Lỗ Ban, ông tổ nghề mộc. Thường dùng để tự khiêm tốn khi phải thể hiện trước người giỏi hơn, hoặc chê người khoe tài không đúng chỗ.",
+  "alt": [
+   "关公面前耍大刀",
+   "自不量力"
+  ],
+  "hsk": 6,
+  "ex": "在您这位专家面前讲这个，真是班门弄斧了。",
+  "exp": "Zài nín zhè wèi zhuānjiā miànqián jiǎng zhège, zhēn shì bānménnòngfǔ le.",
+  "exvi": "Nói chuyện này trước mặt chuyên gia như ông, đúng là múa rìu qua mắt thợ.",
+  "em": "🪓"
+ },
+ {
+  "deck": "cy",
+  "h": "负荆请罪",
+  "p": "fù jīng qǐng zuì",
+  "hv": "phụ kinh thỉnh tội",
+  "vi": "(thành ngữ) cõng roi gai đến xin tội; chủ động nhận lỗi",
+  "note": "Điển tích: tướng Liêm Pha cõng roi gai đến nhà Lạn Tương Như xin lỗi vì đã kiêu ngạo. Dùng khi ai đó thành tâm đến nhận lỗi, đôi khi nói vui.",
+  "alt": [
+   "赔礼道歉",
+   "将功补过"
+  ],
+  "hsk": 6,
+  "ex": "他知道自己错了，第二天就来负荆请罪。",
+  "exp": "Tā zhīdào zìjǐ cuò le, dì-èr tiān jiù lái fùjīngqǐngzuì.",
+  "exvi": "Anh ấy biết mình sai, hôm sau liền đến xin lỗi.",
+  "em": "🙇"
+ },
+ {
+  "deck": "cy",
+  "h": "惊弓之鸟",
+  "p": "jīng gōng zhī niǎo",
+  "hv": "kinh cung chi điểu",
+  "vi": "(thành ngữ) chim sợ cành cong; người từng bị dọa nên hễ có động là sợ",
+  "note": "Điển tích: con chim từng bị tên bắn, nghe tiếng dây cung bật là hoảng sợ rơi xuống. Dùng tả người đã gặp chuyện đáng sợ nên nay rất dễ hoảng; hơi văn viết.",
+  "alt": [
+   "杯弓蛇影",
+   "草木皆兵",
+   "一朝被蛇咬，十年怕井绳"
+  ],
+  "hsk": 7,
+  "ex": "被骗过一次以后，他就成了惊弓之鸟。",
+  "exp": "Bèi piànguo yí cì yǐhòu, tā jiù chéngle jīnggōngzhīniǎo.",
+  "exvi": "Sau một lần bị lừa, anh ấy thành chim sợ cành cong.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一言为定",
+  "p": "yì yán wéi dìng",
+  "hv": "nhất ngôn vi định",
+  "vi": "(thành ngữ) nói là làm, quyết vậy nhé",
+  "note": "Nghĩa đen: một lời đã nói là đã định. Dùng trong khẩu ngữ khi hai bên chốt một lời hứa hoặc thỏa thuận.",
+  "alt": [
+   "说话算数",
+   "言而有信"
+  ],
+  "hsk": 5,
+  "ex": "那就周六早上九点见，一言为定！",
+  "exp": "Nà jiù zhōuliù zǎoshang jiǔ diǎn jiàn, yìyánwéidìng!",
+  "exvi": "Vậy hẹn 9 giờ sáng thứ Bảy nhé, chốt vậy!",
+  "em": "🤝"
+ },
+ {
+  "deck": "cy",
+  "h": "无话不谈",
+  "p": "wú huà bù tán",
+  "hv": "vô thoại bất đàm",
+  "vi": "(thành ngữ) chuyện gì cũng nói với nhau; rất thân",
+  "note": "Nghĩa đen: không có chuyện gì là không nói. Dùng để tả quan hệ rất thân thiết, tin tưởng nhau.",
+  "alt": [
+   "推心置腹",
+   "形影不离"
+  ],
+  "hsk": 5,
+  "ex": "我们是大学同学，现在还无话不谈。",
+  "exp": "Wǒmen shì dàxué tóngxué, xiànzài hái wúhuàbùtán.",
+  "exvi": "Chúng tôi là bạn đại học, đến giờ vẫn chuyện gì cũng kể cho nhau.",
+  "em": "💬"
+ },
+ {
+  "deck": "cy",
+  "h": "侃侃而谈",
+  "p": "kǎn kǎn ér tán",
+  "hv": "khản khản nhi đàm",
+  "vi": "(thành ngữ) nói năng hùng hồn, tự tin, trôi chảy",
+  "note": "侃侃 là dáng nói chuyện thẳng thắn, ung dung. Dùng để tả người nói tự tin, lưu loát trước người khác; thường mang ý khen.",
+  "alt": [
+   "滔滔不绝",
+   "口若悬河",
+   "吞吞吐吐"
+  ],
+  "hsk": 6,
+  "ex": "面试时他侃侃而谈，一点儿也不紧张。",
+  "exp": "Miànshì shí tā kǎnkǎn'értán, yìdiǎnr yě bù jǐnzhāng.",
+  "exvi": "Lúc phỏng vấn anh ấy nói năng tự tin trôi chảy, chẳng hề căng thẳng.",
+  "em": "🎤"
+ },
+ {
+  "deck": "cy",
+  "h": "强词夺理",
+  "p": "qiǎng cí duó lǐ",
+  "hv": "cưỡng từ đoạt lý",
+  "vi": "(thành ngữ) cãi chày cãi cối; nói ngang để giành phần lý",
+  "note": "Nghĩa đen: dùng lời gượng ép để cướp lấy lẽ phải. Dùng để chê người rõ ràng sai mà vẫn cãi.",
+  "alt": [
+   "无理取闹",
+   "据理力争"
+  ],
+  "hsk": 6,
+  "ex": "明明是你迟到了，别强词夺理。",
+  "exp": "Míngmíng shì nǐ chídào le, bié qiǎngcíduólǐ.",
+  "exvi": "Rõ ràng là bạn đến muộn, đừng có cãi chày cãi cối.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "据理力争",
+  "p": "jù lǐ lì zhēng",
+  "hv": "cứ lý lực tranh",
+  "vi": "(thành ngữ) dựa vào lẽ phải mà kiên quyết tranh luận",
+  "note": "Nghĩa đen: căn cứ vào lý để ra sức tranh giành. Dùng khi ai đó bảo vệ quyền lợi, quan điểm đúng một cách kiên quyết; sắc thái tích cực.",
+  "alt": [
+   "理直气壮",
+   "强词夺理"
+  ],
+  "hsk": 6,
+  "ex": "遇到不公平的事，我们应该据理力争。",
+  "exp": "Yùdào bù gōngpíng de shì, wǒmen yīnggāi jùlǐlìzhēng.",
+  "exvi": "Gặp chuyện bất công, chúng ta nên dựa vào lẽ phải mà đấu tranh.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一针见血",
+  "p": "yì zhēn jiàn xiě",
+  "hv": "nhất châm kiến huyết",
+  "vi": "(thành ngữ) nói trúng tim đen; đi thẳng vào vấn đề",
+  "note": "Nghĩa đen: một mũi kim đã thấy máu. Dùng để khen lời nhận xét ngắn gọn mà chỉ ra đúng chỗ cốt lõi.",
+  "alt": [
+   "一语道破",
+   "切中要害",
+   "拐弯抹角"
+  ],
+  "hsk": 6,
+  "ex": "老师的评价一针见血，指出了我的问题。",
+  "exp": "Lǎoshī de píngjià yìzhēnjiànxiě, zhǐchū le wǒ de wèntí.",
+  "exvi": "Lời nhận xét của thầy rất trúng, chỉ ra đúng vấn đề của tôi.",
+  "em": "💉"
+ },
+ {
+  "deck": "cy",
+  "h": "吞吞吐吐",
+  "p": "tūn tūn tǔ tǔ",
+  "hv": "thôn thôn thổ thổ",
+  "vi": "(thành ngữ) ấp a ấp úng; nói không dứt khoát",
+  "note": "Nghĩa đen: nuốt vào rồi nhả ra. Tả người muốn nói lại ngại, nói không rõ ràng, thường vì có điều khó nói.",
+  "alt": [
+   "支支吾吾",
+   "欲言又止",
+   "直截了当"
+  ],
+  "hsk": 5,
+  "ex": "有话就直说，别吞吞吐吐的。",
+  "exp": "Yǒu huà jiù zhí shuō, bié tūntūntǔtǔ de.",
+  "exvi": "Có gì thì nói thẳng ra, đừng ấp a ấp úng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "胡说八道",
+  "p": "hú shuō bā dào",
+  "hv": "hồ thuyết bát đạo",
+  "vi": "(thành ngữ) nói bậy nói bạ; nói nhảm",
+  "note": "胡说 là nói bừa, 八道 thêm vào cho mạnh nghĩa. Khẩu ngữ, khá nặng, dùng để bác bỏ lời nói vô căn cứ; tránh dùng với người trên.",
+  "alt": [
+   "信口开河",
+   "一派胡言"
+  ],
+  "hsk": 5,
+  "ex": "你别听他胡说八道，根本没有这回事。",
+  "exp": "Nǐ bié tīng tā húshuōbādào, gēnběn méiyǒu zhè huí shì.",
+  "exvi": "Đừng nghe anh ta nói nhảm, làm gì có chuyện đó.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "甜言蜜语",
+  "p": "tián yán mì yǔ",
+  "hv": "điềm ngôn mật ngữ",
+  "vi": "(thành ngữ) lời ngon tiếng ngọt",
+  "note": "Nghĩa đen: lời ngọt như mật. Thường mang ý cảnh giác, chỉ lời nói dễ nghe để dỗ dành hoặc lừa người.",
+  "alt": [
+   "花言巧语",
+   "忠言逆耳"
+  ],
+  "hsk": 5,
+  "ex": "别被他的甜言蜜语骗了。",
+  "exp": "Bié bèi tā de tiányánmìyǔ piàn le.",
+  "exvi": "Đừng để bị lời ngon tiếng ngọt của anh ta lừa.",
+  "em": "🍯"
+ },
+ {
+  "deck": "cy",
+  "h": "畅所欲言",
+  "p": "chàng suǒ yù yán",
+  "hv": "sướng sở dục ngôn",
+  "vi": "(thành ngữ) nói hết những gì muốn nói, thoải mái phát biểu",
+  "note": "Nghĩa đen: thỏa thích nói điều mình muốn nói. Hay dùng trong họp hành, thảo luận để mời mọi người góp ý tự do; trang trọng vừa phải.",
+  "alt": [
+   "各抒己见",
+   "知无不言",
+   "一言不发"
+  ],
+  "hsk": 6,
+  "ex": "今天的会议大家可以畅所欲言。",
+  "exp": "Jīntiān de huìyì dàjiā kěyǐ chàngsuǒyùyán.",
+  "exvi": "Trong buổi họp hôm nay mọi người cứ thoải mái phát biểu.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "道听途说",
+  "p": "dào tīng tú shuō",
+  "hv": "đạo thính đồ thuyết",
+  "vi": "(thành ngữ) nghe hơi nồi chõ; tin đồn không có căn cứ",
+  "note": "Nghĩa đen: nghe ngoài đường rồi kể lại dọc đường. Dùng để chỉ thông tin nghe lại, chưa kiểm chứng.",
+  "alt": [
+   "捕风捉影",
+   "眼见为实"
+  ],
+  "hsk": 6,
+  "ex": "这些都是道听途说，不一定是真的。",
+  "exp": "Zhèxiē dōu shì dàotīngtúshuō, bù yídìng shì zhēn de.",
+  "exvi": "Mấy chuyện này đều là nghe hơi nồi chõ, chưa chắc đã thật.",
+  "em": "👂"
+ },
+ {
+  "deck": "cy",
+  "h": "言而无信",
+  "p": "yán ér wú xìn",
+  "hv": "ngôn nhi vô tín",
+  "vi": "(thành ngữ) nói mà không giữ lời",
+  "note": "Nghĩa đen: nói ra mà không có chữ tín. Dùng để chê người hứa rồi không làm.",
+  "alt": [
+   "出尔反尔",
+   "言而有信",
+   "一言为定"
+  ],
+  "hsk": 6,
+  "ex": "做生意不能言而无信。",
+  "exp": "Zuò shēngyi bù néng yán'érwúxìn.",
+  "exvi": "Làm ăn thì không thể nói mà không giữ lời.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "欲言又止",
+  "p": "yù yán yòu zhǐ",
+  "hv": "dục ngôn hựu chỉ",
+  "vi": "(thành ngữ) định nói lại thôi",
+  "note": "Nghĩa đen: muốn nói rồi lại dừng. Tả người có điều khó nói, ngập ngừng; hay gặp trong văn viết, truyện.",
+  "alt": [
+   "吞吞吐吐",
+   "难以启齿"
+  ],
+  "hsk": 6,
+  "ex": "她看着我，欲言又止，好像有什么心事。",
+  "exp": "Tā kànzhe wǒ, yùyányòuzhǐ, hǎoxiàng yǒu shénme xīnshì.",
+  "exvi": "Cô ấy nhìn tôi, định nói rồi lại thôi, như có tâm sự gì.",
+  "em": "🤐"
+ },
+ {
+  "deck": "cy",
+  "h": "当机立断",
+  "p": "dāng jī lì duàn",
+  "hv": "đương cơ lập đoạn",
+  "vi": "(thành ngữ) quyết đoán đúng lúc",
+  "note": "Nghĩa đen: đứng trước thời cơ thì quyết ngay. Dùng để khen người ra quyết định nhanh, dứt khoát trong lúc quan trọng.",
+  "alt": [
+   "果断",
+   "犹豫不决",
+   "优柔寡断"
+  ],
+  "hsk": 6,
+  "ex": "情况紧急，经理当机立断，取消了活动。",
+  "exp": "Qíngkuàng jǐnjí, jīnglǐ dāngjīlìduàn, qǔxiāo le huódòng.",
+  "exvi": "Tình hình gấp, quản lý quyết đoán hủy luôn sự kiện.",
+  "em": "⚡"
+ },
+ {
+  "deck": "cy",
+  "h": "举棋不定",
+  "p": "jǔ qí bú dìng",
+  "hv": "cử kỳ bất định",
+  "vi": "(thành ngữ) cầm quân cờ mà chưa biết đi; do dự không quyết",
+  "note": "Nghĩa đen: cầm quân cờ lên mà không quyết định đặt vào đâu. Tả người phân vân, chưa chọn được, khá trung tính.",
+  "alt": [
+   "犹豫不决",
+   "优柔寡断",
+   "当机立断"
+  ],
+  "hsk": 6,
+  "ex": "去哪家公司工作，他到现在还举棋不定。",
+  "exp": "Qù nǎ jiā gōngsī gōngzuò, tā dào xiànzài hái jǔqíbúdìng.",
+  "exvi": "Đi làm công ty nào, đến giờ anh ấy vẫn còn phân vân.",
+  "em": "♟️"
+ },
+ {
+  "deck": "cy",
+  "h": "深思熟虑",
+  "p": "shēn sī shú lǜ",
+  "hv": "thâm tư thục lự",
+  "vi": "(thành ngữ) suy nghĩ kỹ càng, cân nhắc chín chắn",
+  "note": "Nghĩa đen: nghĩ sâu, cân nhắc kỹ. Dùng khi nói một quyết định đã được suy xét cẩn thận; trang trọng.",
+  "alt": [
+   "三思而行",
+   "思前想后",
+   "草率"
+  ],
+  "hsk": 6,
+  "ex": "这是我深思熟虑以后做的决定。",
+  "exp": "Zhè shì wǒ shēnsīshúlǜ yǐhòu zuò de juédìng.",
+  "exvi": "Đây là quyết định tôi đưa ra sau khi suy nghĩ kỹ càng.",
+  "em": "🤔"
+ },
+ {
+  "deck": "cy",
+  "h": "孤注一掷",
+  "p": "gū zhù yí zhì",
+  "hv": "cô chú nhất trịch",
+  "vi": "(thành ngữ) dốc hết vốn liếng vào một lần; được ăn cả ngã về không",
+  "note": "Nghĩa đen: dồn hết tiền cược vào một ván. Dùng khi ai đó liều toàn bộ vào một lựa chọn, thường mang ý mạo hiểm.",
+  "alt": [
+   "破釜沉舟",
+   "铤而走险"
+  ],
+  "hsk": 7,
+  "ex": "他把所有积蓄都投进去，真是孤注一掷。",
+  "exp": "Tā bǎ suǒyǒu jīxù dōu tóu jìnqu, zhēn shì gūzhùyízhì.",
+  "exvi": "Anh ta đổ hết tiền tiết kiệm vào, đúng là được ăn cả ngã về không.",
+  "em": "🎲"
+ },
+ {
+  "deck": "cy",
+  "h": "一意孤行",
+  "p": "yí yì gū xíng",
+  "hv": "nhất ý cô hành",
+  "vi": "(thành ngữ) khăng khăng làm theo ý mình",
+  "note": "Nghĩa đen: một ý riêng mình làm. Dùng để chê người không nghe ai khuyên, cứ làm theo ý mình.",
+  "alt": [
+   "固执己见",
+   "我行我素",
+   "从善如流"
+  ],
+  "hsk": 6,
+  "ex": "大家都反对，他却一意孤行。",
+  "exp": "Dàjiā dōu fǎnduì, tā què yíyìgūxíng.",
+  "exvi": "Mọi người đều phản đối, vậy mà anh ta vẫn khăng khăng làm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "随机应变",
+  "p": "suí jī yìng biàn",
+  "hv": "tùy cơ ứng biến",
+  "vi": "(thành ngữ) tùy cơ ứng biến; linh hoạt theo tình hình",
+  "note": "Nghĩa đen: theo thời cơ mà ứng phó với thay đổi. Dùng để khen người linh hoạt xử lý tình huống bất ngờ.",
+  "alt": [
+   "见机行事",
+   "灵活应变",
+   "墨守成规"
+  ],
+  "hsk": 5,
+  "ex": "出门旅行难免有意外，要学会随机应变。",
+  "exp": "Chūmén lǚxíng nánmiǎn yǒu yìwài, yào xuéhuì suíjīyìngbiàn.",
+  "exvi": "Đi du lịch khó tránh chuyện bất ngờ, phải học cách tùy cơ ứng biến.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "进退两难",
+  "p": "jìn tuì liǎng nán",
+  "hv": "tiến thoái lưỡng nan",
+  "vi": "(thành ngữ) tiến thoái lưỡng nan; tiến lùi đều khó",
+  "note": "Nghĩa đen: tiến cũng khó, lùi cũng khó. Tả hoàn cảnh không biết xử lý thế nào vì lựa chọn nào cũng bất lợi.",
+  "alt": [
+   "左右为难",
+   "骑虎难下"
+  ],
+  "hsk": 6,
+  "ex": "项目做了一半没钱了，公司进退两难。",
+  "exp": "Xiàngmù zuò le yíbàn méi qián le, gōngsī jìntuìliǎngnán.",
+  "exvi": "Dự án làm được một nửa thì hết tiền, công ty tiến thoái lưỡng nan.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "左右为难",
+  "p": "zuǒ yòu wéi nán",
+  "hv": "tả hữu vi nan",
+  "vi": "(thành ngữ) khó xử, bên nào cũng khó",
+  "note": "Nghĩa đen: bên trái bên phải đều khó. Hay dùng khi bị kẹt giữa hai người hoặc hai yêu cầu; khẩu ngữ, rất thông dụng.",
+  "alt": [
+   "进退两难",
+   "两全其美"
+  ],
+  "hsk": 5,
+  "ex": "妈妈和妻子吵架，他夹在中间左右为难。",
+  "exp": "Māma hé qīzi chǎojià, tā jiā zài zhōngjiān zuǒyòuwéinán.",
+  "exvi": "Mẹ và vợ cãi nhau, anh ấy kẹt ở giữa khó xử.",
+  "em": "😣"
+ },
+ {
+  "deck": "cy",
+  "h": "未雨绸缪",
+  "p": "wèi yǔ chóu móu",
+  "hv": "vị vũ trù mâu",
+  "vi": "(thành ngữ) chưa mưa đã lo sửa nhà; lo xa, chuẩn bị trước",
+  "note": "Nghĩa đen: trời chưa mưa đã buộc chặt cửa nẻo. Dùng để khuyên chuẩn bị sớm cho rủi ro; văn viết, trang trọng.",
+  "alt": [
+   "有备无患",
+   "防患于未然",
+   "临时抱佛脚"
+  ],
+  "hsk": 7,
+  "ex": "年轻时就该未雨绸缪，为养老做准备。",
+  "exp": "Niánqīng shí jiù gāi wèiyǔchóumóu, wèi yǎnglǎo zuò zhǔnbèi.",
+  "exvi": "Lúc còn trẻ đã nên lo xa, chuẩn bị cho tuổi già.",
+  "em": "☔"
+ },
+ {
+  "deck": "cy",
+  "h": "有备无患",
+  "p": "yǒu bèi wú huàn",
+  "hv": "hữu bị vô hoạn",
+  "vi": "(thành ngữ) có chuẩn bị thì không lo",
+  "note": "Nghĩa đen: có phòng bị thì không có tai họa. Dùng khi khuyên mang theo, chuẩn bị sẵn thứ gì đó cho chắc; dùng được cả trong khẩu ngữ.",
+  "alt": [
+   "未雨绸缪",
+   "临渴掘井"
+  ],
+  "hsk": 6,
+  "ex": "带把伞吧，有备无患。",
+  "exp": "Dài bǎ sǎn ba, yǒubèiwúhuàn.",
+  "exvi": "Mang theo cái ô đi, có chuẩn bị thì khỏi lo.",
+  "em": "🌂"
+ },
+ {
+  "deck": "cy",
+  "h": "礼尚往来",
+  "p": "lǐ shàng wǎng lái",
+  "hv": "lễ thượng vãng lai",
+  "vi": "(thành ngữ) có qua có lại",
+  "note": "Nghĩa đen: lễ nghĩa coi trọng sự qua lại. Dùng khi đáp lại quà hay sự giúp đỡ của người khác; cũng có thể nói đùa khi trả đũa.",
+  "alt": [
+   "投桃报李",
+   "有来有往"
+  ],
+  "hsk": 6,
+  "ex": "他送了我礼物，礼尚往来，我也要回礼。",
+  "exp": "Tā sòng le wǒ lǐwù, lǐshàngwǎnglái, wǒ yě yào huílǐ.",
+  "exvi": "Anh ấy tặng quà tôi, có qua có lại, tôi cũng phải tặng lại.",
+  "em": "🎁"
+ },
+ {
+  "deck": "cy",
+  "h": "雪中送炭",
+  "p": "xuě zhōng sòng tàn",
+  "hv": "tuyết trung tống thán",
+  "vi": "(thành ngữ) giúp người lúc khó khăn nhất",
+  "note": "Nghĩa đen: trời tuyết mang than đến sưởi. Dùng để khen sự giúp đỡ kịp thời khi người ta đang thật sự cần; hay đi cùng 锦上添花 để so sánh.",
+  "alt": [
+   "患难相助",
+   "锦上添花",
+   "落井下石"
+  ],
+  "hsk": 6,
+  "ex": "在我最困难的时候，是他雪中送炭。",
+  "exp": "Zài wǒ zuì kùnnan de shíhou, shì tā xuězhōngsòngtàn.",
+  "exvi": "Lúc tôi khó khăn nhất, chính anh ấy là người giúp đỡ.",
+  "em": "🔥"
+ },
+ {
+  "deck": "cy",
+  "h": "锦上添花",
+  "p": "jǐn shàng tiān huā",
+  "hv": "cẩm thượng thiêm hoa",
+  "vi": "(thành ngữ) thêu hoa trên gấm; tốt lại càng tốt hơn",
+  "note": "Nghĩa đen: thêm hoa lên tấm gấm vốn đã đẹp. Dùng khi điều gì làm cho việc vốn đã tốt càng hoàn hảo hơn; trung tính hoặc khen.",
+  "alt": [
+   "雪中送炭",
+   "画龙点睛",
+   "雪上加霜"
+  ],
+  "hsk": 6,
+  "ex": "这首音乐让整部电影锦上添花。",
+  "exp": "Zhè shǒu yīnyuè ràng zhěng bù diànyǐng jǐnshàngtiānhuā.",
+  "exvi": "Bản nhạc này làm cho cả bộ phim càng thêm hay.",
+  "em": "💐"
+ },
+ {
+  "deck": "cy",
+  "h": "人山人海",
+  "p": "rén shān rén hǎi",
+  "hv": "nhân sơn nhân hải",
+  "vi": "(thành ngữ) biển người; đông nghịt người",
+  "note": "Nghĩa đen: người như núi như biển. Tả chỗ đông người, rất hay dùng khi nói về lễ hội, điểm du lịch dịp nghỉ lễ.",
+  "alt": [
+   "熙熙攘攘",
+   "水泄不通",
+   "冷冷清清"
+  ],
+  "hsk": 4,
+  "ex": "国庆节的时候，景点到处人山人海。",
+  "exp": "Guóqìng Jié de shíhou, jǐngdiǎn dàochù rénshānrénhǎi.",
+  "exvi": "Dịp Quốc khánh, các điểm du lịch đâu đâu cũng đông nghịt người.",
+  "em": "👥"
+ },
+ {
+  "deck": "cy",
+  "h": "入乡随俗",
+  "p": "rù xiāng suí sú",
+  "hv": "nhập hương tùy tục",
+  "vi": "(thành ngữ) nhập gia tùy tục",
+  "note": "Nghĩa đen: vào làng nào theo tục làng đó. Dùng khi khuyên tôn trọng và làm theo phong tục nơi mình đến.",
+  "alt": [
+   "入境问俗",
+   "入乡随乡"
+  ],
+  "hsk": 5,
+  "ex": "在国外生活，要学会入乡随俗。",
+  "exp": "Zài guówài shēnghuó, yào xuéhuì rùxiāngsuísú.",
+  "exvi": "Sống ở nước ngoài thì phải học cách nhập gia tùy tục.",
+  "em": "🏮"
+ },
+ {
+  "deck": "cy",
+  "h": "人云亦云",
+  "p": "rén yún yì yún",
+  "hv": "nhân vân diệc vân",
+  "vi": "(thành ngữ) người ta nói sao nói vậy; không có chính kiến",
+  "note": "Nghĩa đen: người khác nói thế mình cũng nói thế. Dùng để chê người thiếu suy nghĩ độc lập, hay nghe theo số đông.",
+  "alt": [
+   "随波逐流",
+   "鹦鹉学舌",
+   "独立思考"
+  ],
+  "hsk": 6,
+  "ex": "看问题要有自己的想法，不要人云亦云。",
+  "exp": "Kàn wèntí yào yǒu zìjǐ de xiǎngfǎ, búyào rényúnyìyún.",
+  "exvi": "Nhìn nhận vấn đề phải có suy nghĩ riêng, đừng người ta nói sao mình nói vậy.",
+  "em": "🦜"
+ },
+ {
+  "deck": "cy",
+  "h": "过河拆桥",
+  "p": "guò hé chāi qiáo",
+  "hv": "quá hà sách kiều",
+  "vi": "(thành ngữ) qua cầu rút ván; vắt chanh bỏ vỏ",
+  "note": "Nghĩa đen: qua sông rồi phá cầu. Dùng để chê người được giúp xong thì quay lưng, bỏ rơi người đã giúp mình.",
+  "alt": [
+   "忘恩负义",
+   "卸磨杀驴",
+   "知恩图报"
+  ],
+  "hsk": 6,
+  "ex": "我帮了他那么多，他却过河拆桥。",
+  "exp": "Wǒ bāng le tā nàme duō, tā què guòhéchāiqiáo.",
+  "exvi": "Tôi giúp anh ta nhiều như vậy, vậy mà anh ta lại qua cầu rút ván.",
+  "em": "🌉"
+ },
+ {
+  "deck": "cy",
+  "h": "患难与共",
+  "p": "huàn nàn yǔ gòng",
+  "hv": "hoạn nạn dữ cộng",
+  "vi": "(thành ngữ) cùng nhau chia sẻ hoạn nạn",
+  "note": "Nghĩa đen: cùng nhau trải qua tai họa, khó khăn. Dùng để tả tình bạn, tình vợ chồng gắn bó qua lúc khó; sắc thái trang trọng, cảm động.",
+  "alt": [
+   "同甘共苦",
+   "同舟共济"
+  ],
+  "hsk": 6,
+  "ex": "他们是患难与共的好朋友。",
+  "exp": "Tāmen shì huànnànyǔgòng de hǎo péngyou.",
+  "exvi": "Họ là đôi bạn tốt từng cùng nhau vượt qua hoạn nạn.",
+  "em": ""
+ }
+]

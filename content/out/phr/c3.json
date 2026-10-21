@@ -1,0 +1,878 @@
+[
+ {
+  "deck": "cy",
+  "h": "今非昔比",
+  "p": "jīn fēi xī bǐ",
+  "hv": "kim phi tích tỉ",
+  "vi": "(thành ngữ) nay đã khác xưa nhiều; thay đổi hẳn so với trước",
+  "note": "Nghĩa đen: hôm nay không thể so với ngày xưa. Thường dùng để nói một nơi, một người đã tiến bộ hoặc thay đổi rất lớn, sắc thái trung tính hoặc khen.",
+  "alt": [
+   "今不如昔",
+   "面目一新",
+   "旧貌换新颜"
+  ],
+  "hsk": 6,
+  "ex": "这座小城的变化很大，早已今非昔比了。",
+  "exp": "Zhè zuò xiǎochéng de biànhuà hěn dà, zǎo yǐ jīnfēixībǐ le.",
+  "exvi": "Thành phố nhỏ này thay đổi rất nhiều, giờ đã khác xưa lắm rồi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "物是人非",
+  "p": "wù shì rén fēi",
+  "hv": "vật thị nhân phi",
+  "vi": "(thành ngữ) cảnh vẫn còn đó mà người đã khác; cảnh cũ người xưa không còn",
+  "note": "Nghĩa đen: đồ vật vẫn như cũ, con người thì đã đổi khác. Dùng khi hoài niệm, buồn man mác, thường gặp trong văn viết và lời tâm sự.",
+  "alt": [
+   "人去楼空",
+   "物是人非事事休"
+  ],
+  "hsk": 6,
+  "ex": "回到老家一看，真是物是人非。",
+  "exp": "Huídào lǎojiā yí kàn, zhēn shì wùshìrénfēi.",
+  "exvi": "Về lại quê nhìn một vòng, đúng là cảnh còn đó mà người xưa đã khác.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "时过境迁",
+  "p": "shí guò jìng qiān",
+  "hv": "thời quá cảnh thiên",
+  "vi": "(thành ngữ) thời gian trôi qua, hoàn cảnh đã thay đổi",
+  "note": "Nghĩa đen: thời đã qua, cảnh đã dời. Dùng để nói chuyện cũ không còn như trước, ý kiến hay cảm xúc cũng đã khác, sắc thái trung tính.",
+  "alt": [
+   "今非昔比",
+   "物是人非"
+  ],
+  "hsk": 6,
+  "ex": "时过境迁，那件事早就没人提了。",
+  "exp": "Shíguòjìngqiān, nà jiàn shì zǎo jiù méi rén tí le.",
+  "exvi": "Thời thế đã đổi, chuyện đó từ lâu không còn ai nhắc tới nữa.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "沧海桑田",
+  "p": "cāng hǎi sāng tián",
+  "hv": "thương hải tang điền",
+  "vi": "(thành ngữ) bể dâu, thay đổi to lớn của cuộc đời",
+  "note": "Nghĩa đen: biển xanh biến thành ruộng dâu, chính là thành ngữ \"bể dâu\" trong tiếng Việt. Dùng trong văn viết, khi nói về biến đổi lớn qua thời gian dài.",
+  "alt": [
+   "翻天覆地",
+   "世事无常"
+  ],
+  "hsk": 7,
+  "ex": "几十年过去，这里经历了沧海桑田的变化。",
+  "exp": "Jǐshí nián guòqù, zhèlǐ jīnglìle cānghǎisāngtián de biànhuà.",
+  "exvi": "Mấy chục năm trôi qua, nơi này đã trải qua bao cuộc bể dâu.",
+  "em": "🌊"
+ },
+ {
+  "deck": "cy",
+  "h": "一落千丈",
+  "p": "yí luò qiān zhàng",
+  "hv": "nhất lạc thiên trượng",
+  "vi": "(thành ngữ) tụt dốc thảm hại; giảm sút nghiêm trọng",
+  "note": "Nghĩa đen: rơi một lần xuống nghìn trượng. Dùng cho thành tích, danh tiếng, doanh số giảm mạnh, sắc thái tiêu cực.",
+  "alt": [
+   "每况愈下",
+   "直线下降",
+   "蒸蒸日上"
+  ],
+  "hsk": 6,
+  "ex": "出了那件事以后，他的名声一落千丈。",
+  "exp": "Chūle nà jiàn shì yǐhòu, tā de míngshēng yíluòqiānzhàng.",
+  "exvi": "Sau chuyện đó, danh tiếng của anh ấy tụt dốc không phanh.",
+  "em": "📉"
+ },
+ {
+  "deck": "cy",
+  "h": "蒸蒸日上",
+  "p": "zhēng zhēng rì shàng",
+  "hv": "chưng chưng nhật thượng",
+  "vi": "(thành ngữ) ngày càng phát đạt; ngày một đi lên",
+  "note": "Nghĩa đen: như hơi nước bốc lên, mỗi ngày một cao. Dùng để khen công việc kinh doanh, sự nghiệp phát triển tốt, hay gặp trong lời chúc.",
+  "alt": [
+   "欣欣向荣",
+   "兴旺发达",
+   "一落千丈"
+  ],
+  "hsk": 6,
+  "ex": "祝你们公司的生意蒸蒸日上！",
+  "exp": "Zhù nǐmen gōngsī de shēngyì zhēngzhēngrìshàng!",
+  "exvi": "Chúc công ty các bạn làm ăn ngày càng phát đạt!",
+  "em": "📈"
+ },
+ {
+  "deck": "cy",
+  "h": "每况愈下",
+  "p": "měi kuàng yù xià",
+  "hv": "mỗi huống dũ hạ",
+  "vi": "(thành ngữ) ngày càng tệ đi",
+  "note": "Nghĩa gốc là càng xét xuống dưới càng thấy rõ, sau dùng để nói tình hình càng lúc càng xấu. Dùng cho sức khỏe, kinh tế, chất lượng, sắc thái tiêu cực.",
+  "alt": [
+   "江河日下",
+   "一落千丈",
+   "蒸蒸日上"
+  ],
+  "hsk": 7,
+  "ex": "爷爷这几年的身体每况愈下。",
+  "exp": "Yéye zhè jǐ nián de shēntǐ měikuàngyùxià.",
+  "exvi": "Mấy năm nay sức khỏe của ông nội ngày càng yếu đi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "焕然一新",
+  "p": "huàn rán yì xīn",
+  "hv": "hoán nhiên nhất tân",
+  "vi": "(thành ngữ) đổi mới hoàn toàn; trông mới tinh",
+  "note": "Nghĩa đen: sáng sủa hẳn lên, như mới. Dùng sau khi sửa sang, dọn dẹp nhà cửa, đường phố, sắc thái khen.",
+  "alt": [
+   "面目一新",
+   "耳目一新",
+   "面目全非"
+  ],
+  "hsk": 6,
+  "ex": "装修以后，整个客厅焕然一新。",
+  "exp": "Zhuāngxiū yǐhòu, zhěnggè kètīng huànrányìxīn.",
+  "exvi": "Sau khi sửa sang, cả phòng khách trông mới hẳn.",
+  "em": "✨"
+ },
+ {
+  "deck": "cy",
+  "h": "大势所趋",
+  "p": "dà shì suǒ qū",
+  "hv": "đại thế sở xu",
+  "vi": "(thành ngữ) xu thế chung không thể cưỡng lại",
+  "note": "Nghĩa đen: hướng mà đại thế đang đi tới. Dùng trong văn viết, bàn luận về xã hội, công nghệ, kinh tế.",
+  "alt": [
+   "势不可当",
+   "人心所向"
+  ],
+  "hsk": 7,
+  "ex": "用手机支付已经是大势所趋。",
+  "exp": "Yòng shǒujī zhīfù yǐjīng shì dàshìsuǒqū.",
+  "exvi": "Thanh toán bằng điện thoại đã là xu thế tất yếu.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "如火如荼",
+  "p": "rú huǒ rú tú",
+  "hv": "như hỏa như đồ",
+  "vi": "(thành ngữ) sôi nổi, rầm rộ; đang diễn ra mạnh mẽ",
+  "note": "Nghĩa đen: đỏ như lửa, trắng như hoa cỏ đồ, vốn tả đội quân hùng hậu. Nay dùng cho hoạt động, phong trào đang diễn ra sôi nổi, thường gặp trên báo chí.",
+  "alt": [
+   "轰轰烈烈",
+   "热火朝天"
+  ],
+  "hsk": 7,
+  "ex": "比赛正在如火如荼地进行。",
+  "exp": "Bǐsài zhèngzài rúhuǒrútú de jìnxíng.",
+  "exvi": "Cuộc thi đang diễn ra hết sức sôi nổi.",
+  "em": "🔥"
+ },
+ {
+  "deck": "cy",
+  "h": "风平浪静",
+  "p": "fēng píng làng jìng",
+  "hv": "phong bình lãng tĩnh",
+  "vi": "(thành ngữ) sóng yên gió lặng; mọi chuyện yên ổn",
+  "note": "Nghĩa đen: gió lặng, sóng yên. Dùng cả cho thời tiết trên biển lẫn tình hình, cuộc sống không có biến cố, sắc thái trung tính.",
+  "alt": [
+   "平安无事",
+   "波涛汹涌",
+   "风起云涌"
+  ],
+  "hsk": 5,
+  "ex": "吵了一架以后，家里又风平浪静了。",
+  "exp": "Chǎole yí jià yǐhòu, jiā lǐ yòu fēngpínglàngjìng le.",
+  "exvi": "Cãi nhau một trận xong, trong nhà lại yên ổn như cũ.",
+  "em": "🌊"
+ },
+ {
+  "deck": "cy",
+  "h": "迫在眉睫",
+  "p": "pò zài méi jié",
+  "hv": "bách tại mi tiệp",
+  "vi": "(thành ngữ) cấp bách lắm rồi; nước đến chân",
+  "note": "Nghĩa đen: gấp đến sát lông mày, lông mi. Dùng để nói việc rất gấp, không thể trì hoãn, gần với \"nước đến chân\" trong tiếng Việt.",
+  "alt": [
+   "刻不容缓",
+   "当务之急",
+   "火烧眉毛"
+  ],
+  "hsk": 7,
+  "ex": "考试迫在眉睫，他却还在玩游戏。",
+  "exp": "Kǎoshì pòzàiméijié, tā què hái zài wán yóuxì.",
+  "exvi": "Kỳ thi đã sát nút rồi mà cậu ấy vẫn còn chơi game.",
+  "em": "⏰"
+ },
+ {
+  "deck": "cy",
+  "h": "一波三折",
+  "p": "yì bō sān zhé",
+  "hv": "nhất ba tam chiết",
+  "vi": "(thành ngữ) lắm trắc trở; nhiều lần thay đổi bất ngờ",
+  "note": "Gốc nói về nét chữ trong thư pháp có nhiều chỗ uốn. Nay dùng khi một việc hay câu chuyện gặp nhiều khúc mắc mới xong, sắc thái trung tính.",
+  "alt": [
+   "好事多磨",
+   "一帆风顺",
+   "曲折离奇"
+  ],
+  "hsk": 7,
+  "ex": "这次签证办得一波三折，终于下来了。",
+  "exp": "Zhè cì qiānzhèng bàn de yìbōsānzhé, zhōngyú xiàlái le.",
+  "exvi": "Lần này làm visa trắc trở mãi, cuối cùng cũng được duyệt.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "千载难逢",
+  "p": "qiān zǎi nán féng",
+  "hv": "thiên tải nan phùng",
+  "vi": "(thành ngữ) nghìn năm có một; hiếm có",
+  "note": "Nghĩa đen: nghìn năm khó gặp. Hay đi với 机会, 好机会, sắc thái nhấn mạnh sự quý hiếm.",
+  "alt": [
+   "难得一见",
+   "来之不易",
+   "可遇不可求"
+  ],
+  "hsk": 6,
+  "ex": "这是一个千载难逢的好机会。",
+  "exp": "Zhè shì yí gè qiānzǎinánféng de hǎo jīhuì.",
+  "exvi": "Đây là một cơ hội tốt nghìn năm có một.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "光阴似箭",
+  "p": "guāng yīn sì jiàn",
+  "hv": "quang âm tự tiễn",
+  "vi": "(thành ngữ) thời gian trôi nhanh như tên bay",
+  "note": "Nghĩa đen: bóng thời gian như mũi tên. Hay đi cùng 日月如梭, dùng trong văn viết, bài phát biểu, lời cảm thán.",
+  "alt": [
+   "日月如梭",
+   "白驹过隙",
+   "度日如年"
+  ],
+  "hsk": 5,
+  "ex": "光阴似箭，转眼我们已经毕业十年了。",
+  "exp": "Guāngyīnsìjiàn, zhuǎnyǎn wǒmen yǐjīng bìyè shí nián le.",
+  "exvi": "Thời gian thấm thoắt, chớp mắt chúng tôi đã tốt nghiệp mười năm.",
+  "em": "🏹"
+ },
+ {
+  "deck": "cy",
+  "h": "一朝一夕",
+  "p": "yì zhāo yì xī",
+  "hv": "nhất triêu nhất tịch",
+  "vi": "(thành ngữ) một sớm một chiều; thời gian ngắn",
+  "note": "Nghĩa đen: một buổi sáng một buổi tối. Gần như luôn dùng ở dạng phủ định 不是一朝一夕的事 hoặc 非一朝一夕之功, nói việc cần thời gian dài.",
+  "alt": [
+   "日积月累",
+   "冰冻三尺非一日之寒"
+  ],
+  "hsk": 6,
+  "ex": "学好一门外语不是一朝一夕的事。",
+  "exp": "Xuéhǎo yì mén wàiyǔ bú shì yìzhāoyìxī de shì.",
+  "exvi": "Học giỏi một ngoại ngữ không phải chuyện một sớm một chiều.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "转瞬即逝",
+  "p": "zhuǎn shùn jí shì",
+  "hv": "chuyển thuấn tức thệ",
+  "vi": "(thành ngữ) vụt qua trong chớp mắt",
+  "note": "Nghĩa đen: chớp mắt một cái là mất. Dùng cho cơ hội, thời gian, cảm xúc ngắn ngủi, thường gặp trong văn viết.",
+  "alt": [
+   "稍纵即逝",
+   "昙花一现"
+  ],
+  "hsk": 7,
+  "ex": "好机会往往转瞬即逝，要抓紧。",
+  "exp": "Hǎo jīhuì wǎngwǎng zhuǎnshùnjíshì, yào zhuājǐn.",
+  "exvi": "Cơ hội tốt thường vụt qua rất nhanh, phải nắm lấy.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "日积月累",
+  "p": "rì jī yuè lěi",
+  "hv": "nhật tích nguyệt lũy",
+  "vi": "(thành ngữ) tích lũy dần ngày qua tháng lại",
+  "note": "Nghĩa đen: ngày dồn tháng chứa. Dùng khi nói kiến thức, kinh nghiệm, thói quen hình thành từ từ, sắc thái tích cực, hay dùng khi khuyên học.",
+  "alt": [
+   "积少成多",
+   "聚沙成塔",
+   "一朝一夕"
+  ],
+  "hsk": 6,
+  "ex": "词汇量要靠日积月累。",
+  "exp": "Cíhuìliàng yào kào rìjīyuèlěi.",
+  "exvi": "Vốn từ vựng phải dựa vào tích lũy từng ngày.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "由来已久",
+  "p": "yóu lái yǐ jiǔ",
+  "hv": "do lai dĩ cửu",
+  "vi": "(thành ngữ) có từ lâu rồi",
+  "note": "Nghĩa đen: nguồn gốc đã lâu. Dùng cho phong tục, mâu thuẫn, vấn đề đã tồn tại từ lâu, sắc thái trung tính, văn viết.",
+  "alt": [
+   "源远流长",
+   "历史悠久"
+  ],
+  "hsk": 7,
+  "ex": "他们之间的矛盾由来已久。",
+  "exp": "Tāmen zhījiān de máodùn yóuláiyǐjiǔ.",
+  "exvi": "Mâu thuẫn giữa họ đã có từ lâu.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "久而久之",
+  "p": "jiǔ ér jiǔ zhī",
+  "hv": "cửu nhi cửu chi",
+  "vi": "(thành ngữ) lâu dần; dần dà",
+  "note": "Nghĩa đen: lâu rồi lại lâu. Đứng đầu câu hoặc đầu vế sau để nói kết quả hình thành sau một thời gian dài, dùng được cả khẩu ngữ.",
+  "alt": [
+   "日积月累",
+   "慢慢地"
+  ],
+  "hsk": 5,
+  "ex": "他每天跑步，久而久之就瘦下来了。",
+  "exp": "Tā měitiān pǎobù, jiǔérjiǔzhī jiù shòu xiàlái le.",
+  "exvi": "Ngày nào anh ấy cũng chạy bộ, lâu dần thì gầy đi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一日千里",
+  "p": "yí rì qiān lǐ",
+  "hv": "nhất nhật thiên lý",
+  "vi": "(thành ngữ) tiến triển cực nhanh",
+  "note": "Nghĩa đen: một ngày đi nghìn dặm, vốn khen ngựa tốt. Nay dùng cho tiến bộ, phát triển rất nhanh, sắc thái khen.",
+  "alt": [
+   "突飞猛进",
+   "日新月异",
+   "停滞不前"
+  ],
+  "hsk": 7,
+  "ex": "这几年科技发展一日千里。",
+  "exp": "Zhè jǐ nián kējì fāzhǎn yírìqiānlǐ.",
+  "exvi": "Mấy năm nay khoa học kỹ thuật phát triển vùn vụt.",
+  "em": "🐎"
+ },
+ {
+  "deck": "cy",
+  "h": "屈指可数",
+  "p": "qū zhǐ kě shǔ",
+  "hv": "khuất chỉ khả số",
+  "vi": "(thành ngữ) đếm trên đầu ngón tay; rất ít",
+  "note": "Nghĩa đen: gập ngón tay là đếm được. Giống \"đếm trên đầu ngón tay\" trong tiếng Việt, dùng để nhấn mạnh số lượng rất ít.",
+  "alt": [
+   "寥寥无几",
+   "不计其数",
+   "数不胜数"
+  ],
+  "hsk": 6,
+  "ex": "能考满分的学生屈指可数。",
+  "exp": "Néng kǎo mǎnfēn de xuéshēng qūzhǐkěshǔ.",
+  "exvi": "Học sinh thi được điểm tối đa chỉ đếm trên đầu ngón tay.",
+  "em": "🖐️"
+ },
+ {
+  "deck": "cy",
+  "h": "不计其数",
+  "p": "bú jì qí shù",
+  "hv": "bất kế kỳ số",
+  "vi": "(thành ngữ) nhiều không đếm xuể",
+  "note": "Nghĩa đen: không tính được con số. Dùng làm vị ngữ hoặc định ngữ để nói số lượng cực nhiều, sắc thái trung tính.",
+  "alt": [
+   "数不胜数",
+   "成千上万",
+   "屈指可数"
+  ],
+  "hsk": 6,
+  "ex": "每年来这里旅游的人不计其数。",
+  "exp": "Měinián lái zhèlǐ lǚyóu de rén bújìqíshù.",
+  "exvi": "Mỗi năm người đến đây du lịch nhiều không đếm xuể.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "数不胜数",
+  "p": "shǔ bú shèng shǔ",
+  "hv": "số bất thắng số",
+  "vi": "(thành ngữ) nhiều đến mức đếm không hết",
+  "note": "Nghĩa đen: đếm mãi cũng không đếm hết. Gần nghĩa 不计其数 nhưng hay dùng cho ví dụ, món ăn, cảnh đẹp, mang chút khen ngợi.",
+  "alt": [
+   "不胜枚举",
+   "不计其数",
+   "屈指可数"
+  ],
+  "hsk": 6,
+  "ex": "这条街上的小吃数不胜数。",
+  "exp": "Zhè tiáo jiē shàng de xiǎochī shǔbúshèngshǔ.",
+  "exvi": "Món ăn vặt trên con phố này nhiều vô kể.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "九牛一毛",
+  "p": "jiǔ niú yì máo",
+  "hv": "cửu ngưu nhất mao",
+  "vi": "(thành ngữ) một sợi lông trên chín con trâu; phần rất nhỏ, chẳng đáng là bao",
+  "note": "Nghĩa đen: một sợi lông trong lông của chín con trâu. Dùng khi một khoản rất nhỏ so với cái tổng mà người đó có, như \"chẳng thấm vào đâu\".",
+  "alt": [
+   "微不足道",
+   "沧海一粟"
+  ],
+  "hsk": 7,
+  "ex": "这点钱对他来说只是九牛一毛。",
+  "exp": "Zhè diǎn qián duì tā lái shuō zhǐ shì jiǔniúyìmáo.",
+  "exvi": "Chút tiền này với anh ta chẳng đáng là bao.",
+  "em": "🐂"
+ },
+ {
+  "deck": "cy",
+  "h": "微乎其微",
+  "p": "wēi hū qí wēi",
+  "hv": "vi hồ kỳ vi",
+  "vi": "(thành ngữ) cực kỳ nhỏ; gần như không có",
+  "note": "Nghĩa đen: nhỏ rồi lại nhỏ. Hay đi với 可能性, 影响, 希望 để nói rất thấp, rất ít.",
+  "alt": [
+   "微不足道",
+   "少之又少"
+  ],
+  "hsk": 7,
+  "ex": "他今天能赶到的可能性微乎其微。",
+  "exp": "Tā jīntiān néng gǎndào de kěnéngxìng wēihūqíwēi.",
+  "exvi": "Khả năng hôm nay anh ấy đến kịp là gần như không có.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "绰绰有余",
+  "p": "chuò chuò yǒu yú",
+  "hv": "xước xước hữu dư",
+  "vi": "(thành ngữ) dư dả; thừa sức",
+  "note": "Nghĩa đen: rộng rãi, còn thừa. Dùng khi tiền, thời gian, năng lực thừa đủ cho một việc, khẩu ngữ lẫn văn viết đều dùng.",
+  "alt": [
+   "游刃有余",
+   "捉襟见肘"
+  ],
+  "hsk": 7,
+  "ex": "一个小时做完这些题绰绰有余。",
+  "exp": "Yí gè xiǎoshí zuòwán zhèxiē tí chuòchuòyǒuyú.",
+  "exvi": "Một tiếng đồng hồ làm xong mấy bài này là dư sức.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "无与伦比",
+  "p": "wú yǔ lún bǐ",
+  "hv": "vô dữ luân tỉ",
+  "vi": "(thành ngữ) không gì sánh bằng; có một không hai",
+  "note": "Nghĩa đen: không có gì để so cùng loại. Dùng để khen cực độ về vẻ đẹp, tài năng, trải nghiệm.",
+  "alt": [
+   "独一无二",
+   "举世无双",
+   "首屈一指"
+  ],
+  "hsk": 7,
+  "ex": "站在山顶看日出的感觉无与伦比。",
+  "exp": "Zhàn zài shāndǐng kàn rìchū de gǎnjué wúyǔlúnbǐ.",
+  "exvi": "Cảm giác đứng trên đỉnh núi ngắm mặt trời mọc thật không gì sánh bằng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "登峰造极",
+  "p": "dēng fēng zào jí",
+  "hv": "đăng phong tạo cực",
+  "vi": "(thành ngữ) đạt đến đỉnh cao; tột bậc",
+  "note": "Nghĩa đen: leo lên đỉnh núi, đạt tới chỗ cao nhất. Thường dùng để khen tay nghề, học vấn; đôi khi dùng mỉa cho việc xấu đến cực độ.",
+  "alt": [
+   "炉火纯青",
+   "出神入化"
+  ],
+  "hsk": 7,
+  "ex": "他的书法已经达到登峰造极的地步。",
+  "exp": "Tā de shūfǎ yǐjīng dádào dēngfēngzàojí de dìbù.",
+  "exvi": "Thư pháp của ông ấy đã đạt đến mức tột đỉnh.",
+  "em": "⛰️"
+ },
+ {
+  "deck": "cy",
+  "h": "不胜枚举",
+  "p": "bú shèng méi jǔ",
+  "hv": "bất thắng mai cử",
+  "vi": "(thành ngữ) nhiều không kể xiết",
+  "note": "Nghĩa đen: không thể kể ra từng cái một. Dùng trong văn viết khi nêu ví dụ, kiểu \"những ví dụ như vậy nhiều không kể hết\".",
+  "alt": [
+   "数不胜数",
+   "举不胜举"
+  ],
+  "hsk": 7,
+  "ex": "像这样的例子不胜枚举。",
+  "exp": "Xiàng zhèyàng de lìzi búshèngméijǔ.",
+  "exvi": "Những ví dụ như thế này nhiều không kể xiết.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一清二楚",
+  "p": "yì qīng èr chǔ",
+  "hv": "nhất thanh nhị sở",
+  "vi": "(thành ngữ) rõ ràng rành mạch; biết rõ mồn một",
+  "note": "Nghĩa đen: một là trong, hai là rõ. Rất khẩu ngữ, hay đi với 记得, 知道, 看得.",
+  "alt": [
+   "清清楚楚",
+   "明明白白",
+   "一无所知"
+  ],
+  "hsk": 5,
+  "ex": "那天发生的事我记得一清二楚。",
+  "exp": "Nà tiān fāshēng de shì wǒ jìde yìqīngèrchǔ.",
+  "exvi": "Chuyện xảy ra hôm đó tôi nhớ rõ mồn một.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "山清水秀",
+  "p": "shān qīng shuǐ xiù",
+  "hv": "sơn thanh thủy tú",
+  "vi": "(thành ngữ) non xanh nước biếc; phong cảnh đẹp",
+  "note": "Nghĩa đen: núi trong xanh, nước đẹp. Dùng để khen phong cảnh thiên nhiên, giống \"sơn thủy hữu tình\".",
+  "alt": [
+   "青山绿水",
+   "山明水秀",
+   "风景如画"
+  ],
+  "hsk": 5,
+  "ex": "这个小村子山清水秀，空气也很好。",
+  "exp": "Zhège xiǎo cūnzi shānqīngshuǐxiù, kōngqì yě hěn hǎo.",
+  "exvi": "Ngôi làng nhỏ này non xanh nước biếc, không khí cũng rất trong lành.",
+  "em": "🏞️"
+ },
+ {
+  "deck": "cy",
+  "h": "鸟语花香",
+  "p": "niǎo yǔ huā xiāng",
+  "hv": "điểu ngữ hoa hương",
+  "vi": "(thành ngữ) chim hót hoa thơm",
+  "note": "Nghĩa đen: tiếng chim nói, mùi hoa thơm. Dùng tả cảnh mùa xuân hoặc khu vườn đẹp, hay gặp trong bài văn miêu tả.",
+  "alt": [
+   "春暖花开",
+   "莺歌燕舞"
+  ],
+  "hsk": 5,
+  "ex": "春天的公园里鸟语花香，非常热闹。",
+  "exp": "Chūntiān de gōngyuán lǐ niǎoyǔhuāxiāng, fēicháng rènao.",
+  "exvi": "Công viên mùa xuân chim hót hoa thơm, rất nhộn nhịp.",
+  "em": "🐦"
+ },
+ {
+  "deck": "cy",
+  "h": "春暖花开",
+  "p": "chūn nuǎn huā kāi",
+  "hv": "xuân noãn hoa khai",
+  "vi": "(thành ngữ) xuân về hoa nở",
+  "note": "Nghĩa đen: mùa xuân ấm, hoa nở. Dùng tả thời tiết đẹp mùa xuân, cũng dùng ví thời điểm thuận lợi.",
+  "alt": [
+   "鸟语花香",
+   "万紫千红",
+   "冰天雪地"
+  ],
+  "hsk": 4,
+  "ex": "等到春暖花开的时候，我们去爬山吧。",
+  "exp": "Děngdào chūnnuǎnhuākāi de shíhou, wǒmen qù páshān ba.",
+  "exvi": "Đợi đến lúc xuân về hoa nở, chúng mình đi leo núi nhé.",
+  "em": "🌸"
+ },
+ {
+  "deck": "cy",
+  "h": "万紫千红",
+  "p": "wàn zǐ qiān hóng",
+  "hv": "vạn tử thiên hồng",
+  "vi": "(thành ngữ) muôn hồng nghìn tía; hoa nở rực rỡ",
+  "note": "Nghĩa đen: vạn sắc tím nghìn sắc hồng. Tả cảnh trăm hoa đua nở, cũng ví sự phong phú nhiều màu sắc.",
+  "alt": [
+   "百花齐放",
+   "五颜六色",
+   "姹紫嫣红"
+  ],
+  "hsk": 6,
+  "ex": "花园里的花开得万紫千红。",
+  "exp": "Huāyuán lǐ de huā kāi de wànzǐqiānhóng.",
+  "exvi": "Hoa trong vườn nở rực rỡ muôn màu.",
+  "em": "💐"
+ },
+ {
+  "deck": "cy",
+  "h": "一望无际",
+  "p": "yí wàng wú jì",
+  "hv": "nhất vọng vô tế",
+  "vi": "(thành ngữ) mênh mông bát ngát; nhìn không thấy bờ",
+  "note": "Nghĩa đen: nhìn một lượt không thấy biên. Dùng tả biển, thảo nguyên, cánh đồng rộng lớn.",
+  "alt": [
+   "无边无际",
+   "辽阔无边"
+  ],
+  "hsk": 6,
+  "ex": "眼前是一望无际的大草原。",
+  "exp": "Yǎnqián shì yíwàngwújì de dà cǎoyuán.",
+  "exvi": "Trước mắt là thảo nguyên mênh mông bát ngát.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "波涛汹涌",
+  "p": "bō tāo xiōng yǒng",
+  "hv": "ba đào hung dũng",
+  "vi": "(thành ngữ) sóng cuộn dữ dội",
+  "note": "Nghĩa đen: sóng lớn cuồn cuộn. Tả biển động, cũng ví tình thế hay cảm xúc dâng trào mạnh mẽ.",
+  "alt": [
+   "惊涛骇浪",
+   "风平浪静"
+  ],
+  "hsk": 7,
+  "ex": "台风来了，海面上波涛汹涌。",
+  "exp": "Táifēng lái le, hǎimiàn shàng bōtāoxiōngyǒng.",
+  "exvi": "Bão đến, trên mặt biển sóng cuộn dữ dội.",
+  "em": "🌊"
+ },
+ {
+  "deck": "cy",
+  "h": "秋高气爽",
+  "p": "qiū gāo qì shuǎng",
+  "hv": "thu cao khí sảng",
+  "vi": "(thành ngữ) trời thu cao trong, mát mẻ dễ chịu",
+  "note": "Nghĩa đen: trời thu cao, khí trời sảng khoái. Dùng tả thời tiết mùa thu đẹp, rất hay gặp trong bài văn và lời mời đi chơi.",
+  "alt": [
+   "天高云淡",
+   "风和日丽"
+  ],
+  "hsk": 5,
+  "ex": "秋高气爽，正是出去旅游的好时候。",
+  "exp": "Qiūgāoqìshuǎng, zhèng shì chūqù lǚyóu de hǎo shíhou.",
+  "exvi": "Trời thu mát mẻ trong lành, đúng là lúc đẹp để đi du lịch.",
+  "em": "🍂"
+ },
+ {
+  "deck": "cy",
+  "h": "冰天雪地",
+  "p": "bīng tiān xuě dì",
+  "hv": "băng thiên tuyết địa",
+  "vi": "(thành ngữ) trời băng đất tuyết; lạnh giá khắp nơi",
+  "note": "Nghĩa đen: trời là băng, đất là tuyết. Tả cảnh mùa đông vùng lạnh, dùng được cả khẩu ngữ.",
+  "alt": [
+   "天寒地冻",
+   "春暖花开"
+  ],
+  "hsk": 5,
+  "ex": "哈尔滨的冬天冰天雪地，非常美。",
+  "exp": "Hā'ěrbīn de dōngtiān bīngtiānxuědì, fēicháng měi.",
+  "exvi": "Mùa đông ở Cáp Nhĩ Tân băng tuyết phủ khắp nơi, rất đẹp.",
+  "em": "❄️"
+ },
+ {
+  "deck": "cy",
+  "h": "风调雨顺",
+  "p": "fēng tiáo yǔ shùn",
+  "hv": "phong điều vũ thuận",
+  "vi": "(thành ngữ) mưa thuận gió hòa",
+  "note": "Nghĩa đen: gió điều hòa, mưa thuận theo mùa. Chính là \"mưa thuận gió hòa\" trong tiếng Việt, hay dùng khi nói mùa màng hoặc trong lời chúc năm mới.",
+  "alt": [
+   "五谷丰登",
+   "国泰民安"
+  ],
+  "hsk": 6,
+  "ex": "今年风调雨顺，农民都很高兴。",
+  "exp": "Jīnnián fēngtiáoyǔshùn, nóngmín dōu hěn gāoxìng.",
+  "exvi": "Năm nay mưa thuận gió hòa, nông dân ai cũng vui.",
+  "em": "🌾"
+ },
+ {
+  "deck": "cy",
+  "h": "危在旦夕",
+  "p": "wēi zài dàn xī",
+  "hv": "nguy tại đán tịch",
+  "vi": "(thành ngữ) nguy trong sớm tối; ngàn cân treo sợi tóc",
+  "note": "Nghĩa đen: nguy hiểm trong khoảng sáng hoặc tối nay. Dùng cho tính mạng, tình thế cực kỳ nguy cấp, văn viết.",
+  "alt": [
+   "千钧一发",
+   "岌岌可危",
+   "安然无恙"
+  ],
+  "hsk": 7,
+  "ex": "病人的生命危在旦夕，必须马上手术。",
+  "exp": "Bìngrén de shēngmìng wēizàidànxī, bìxū mǎshàng shǒushù.",
+  "exvi": "Tính mạng bệnh nhân đang nguy kịch, phải phẫu thuật ngay.",
+  "em": "🚨"
+ },
+ {
+  "deck": "cy",
+  "h": "九死一生",
+  "p": "jiǔ sǐ yì shēng",
+  "hv": "cửu tử nhất sinh",
+  "vi": "(thành ngữ) thập tử nhất sinh; sống sót trong gang tấc",
+  "note": "Nghĩa đen: chín phần chết một phần sống. Giống \"thập tử nhất sinh\" trong tiếng Việt, dùng kể lại trải nghiệm cực kỳ nguy hiểm.",
+  "alt": [
+   "死里逃生",
+   "出生入死"
+  ],
+  "hsk": 6,
+  "ex": "他在那场车祸中九死一生。",
+  "exp": "Tā zài nà chǎng chēhuò zhōng jiǔsǐyìshēng.",
+  "exvi": "Trong vụ tai nạn xe đó anh ấy thập tử nhất sinh.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "死里逃生",
+  "p": "sǐ lǐ táo shēng",
+  "hv": "tử lý đào sinh",
+  "vi": "(thành ngữ) thoát chết trong gang tấc",
+  "note": "Nghĩa đen: từ trong cái chết chạy thoát ra để sống. Nhấn mạnh kết quả là đã thoát được, dùng khi kể chuyện tai nạn, thiên tai.",
+  "alt": [
+   "九死一生",
+   "大难不死",
+   "化险为夷"
+  ],
+  "hsk": 6,
+  "ex": "地震时他被困了三天，最后死里逃生。",
+  "exp": "Dìzhèn shí tā bèi kùnle sān tiān, zuìhòu sǐlǐtáoshēng.",
+  "exvi": "Khi động đất anh ấy bị mắc kẹt ba ngày, cuối cùng thoát chết.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "塞翁失马",
+  "p": "sài wēng shī mǎ",
+  "hv": "tái ông thất mã",
+  "vi": "(thành ngữ) tái ông mất ngựa; trong họa có phúc",
+  "note": "Điển tích ông già ở biên ải mất ngựa, sau ngựa lại dẫn ngựa tốt về. Thường nói đủ câu 塞翁失马，焉知非福 để an ủi người gặp chuyện không may.",
+  "alt": [
+   "因祸得福",
+   "祸兮福所倚"
+  ],
+  "hsk": 7,
+  "ex": "别难过了，塞翁失马，焉知非福。",
+  "exp": "Bié nánguò le, sàiwēngshīmǎ, yān zhī fēi fú.",
+  "exvi": "Đừng buồn nữa, tái ông mất ngựa, biết đâu lại là phúc.",
+  "em": "🐴"
+ },
+ {
+  "deck": "cy",
+  "h": "因祸得福",
+  "p": "yīn huò dé fú",
+  "hv": "nhân họa đắc phúc",
+  "vi": "(thành ngữ) nhờ họa mà được phúc; trong cái rủi có cái may",
+  "note": "Nghĩa đen: nhân vì gặp họa mà được phúc. Dùng khi chuyện xấu lại dẫn đến kết quả tốt, gần với \"trong cái rủi có cái may\".",
+  "alt": [
+   "塞翁失马",
+   "祸不单行"
+  ],
+  "hsk": 6,
+  "ex": "他丢了工作，却因祸得福，自己开了公司。",
+  "exp": "Tā diūle gōngzuò, què yīnhuòdéfú, zìjǐ kāile gōngsī.",
+  "exvi": "Anh ấy mất việc nhưng trong rủi có may, tự mở được công ty.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "祸不单行",
+  "p": "huò bù dān xíng",
+  "hv": "họa bất đơn hành",
+  "vi": "(thành ngữ) họa vô đơn chí; xui xẻo dồn dập",
+  "note": "Nghĩa đen: tai họa không đi một mình. Chính là \"họa vô đơn chí\", hay đi cùng 福无双至, dùng khi chuyện xui đến liên tiếp.",
+  "alt": [
+   "雪上加霜",
+   "福无双至",
+   "双喜临门"
+  ],
+  "hsk": 6,
+  "ex": "真是祸不单行，钱包丢了，手机也坏了。",
+  "exp": "Zhēn shì huòbùdānxíng, qiánbāo diū le, shǒujī yě huài le.",
+  "exvi": "Đúng là họa vô đơn chí, mất ví xong điện thoại cũng hỏng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "逢凶化吉",
+  "p": "féng xiōng huà jí",
+  "hv": "phùng hung hóa cát",
+  "vi": "(thành ngữ) gặp dữ hóa lành",
+  "note": "Nghĩa đen: gặp điều hung biến thành điều cát. Dùng trong lời chúc hoặc lời an ủi khi ai đó gặp chuyện chẳng lành.",
+  "alt": [
+   "化险为夷",
+   "转危为安",
+   "吉人天相"
+  ],
+  "hsk": 7,
+  "ex": "别担心，他一定会逢凶化吉的。",
+  "exp": "Bié dānxīn, tā yídìng huì féngxiōnghuàjí de.",
+  "exvi": "Đừng lo, anh ấy nhất định sẽ gặp dữ hóa lành.",
+  "em": "🍀"
+ },
+ {
+  "deck": "cy",
+  "h": "有惊无险",
+  "p": "yǒu jīng wú xiǎn",
+  "hv": "hữu kinh vô hiểm",
+  "vi": "(thành ngữ) hú vía nhưng không sao; một phen hoảng hốt",
+  "note": "Nghĩa đen: có sợ nhưng không có nguy. Dùng khi một tình huống trông đáng sợ nhưng kết cục an toàn, rất hay dùng trong khẩu ngữ và tin tức.",
+  "alt": [
+   "虚惊一场",
+   "安然无恙"
+  ],
+  "hsk": 6,
+  "ex": "飞机遇到了强气流，好在有惊无险。",
+  "exp": "Fēijī yùdàole qiáng qìliú, hǎozài yǒujīngwúxiǎn.",
+  "exvi": "Máy bay gặp nhiễu động mạnh, may mà chỉ hú vía chứ không sao.",
+  "em": "😮‍💨"
+ },
+ {
+  "deck": "cy",
+  "h": "安然无恙",
+  "p": "ān rán wú yàng",
+  "hv": "an nhiên vô dạng",
+  "vi": "(thành ngữ) bình an vô sự",
+  "note": "Nghĩa đen: yên ổn, không bệnh tật hay tổn hại. Dùng sau khi trải qua tai nạn, nguy hiểm mà vẫn an toàn.",
+  "alt": [
+   "平安无事",
+   "毫发无损",
+   "危在旦夕"
+  ],
+  "hsk": 7,
+  "ex": "看到孩子安然无恙，妈妈终于放心了。",
+  "exp": "Kàndào háizi ānránwúyàng, māma zhōngyú fàngxīn le.",
+  "exvi": "Thấy con bình an vô sự, mẹ cuối cùng cũng yên tâm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "岌岌可危",
+  "p": "jí jí kě wēi",
+  "hv": "ngập ngập khả nguy",
+  "vi": "(thành ngữ) lung lay sắp đổ; vô cùng nguy ngập",
+  "note": "Nghĩa đen: cao chênh vênh, rất nguy hiểm. Dùng cho công ty, chính quyền, công trình đang trên bờ sụp đổ, văn viết.",
+  "alt": [
+   "摇摇欲坠",
+   "危在旦夕",
+   "稳如泰山"
+  ],
+  "hsk": 7,
+  "ex": "受疫情影响，这家小店岌岌可危。",
+  "exp": "Shòu yìqíng yǐngxiǎng, zhè jiā xiǎo diàn jíjíkěwēi.",
+  "exvi": "Chịu ảnh hưởng của dịch bệnh, cửa hàng nhỏ này đang lung lay sắp đổ.",
+  "em": ""
+ }
+]

@@ -1,0 +1,902 @@
+[
+ {
+  "deck": "cy",
+  "h": "小肚鸡肠",
+  "p": "xiǎo dù jī cháng",
+  "hv": "tiểu đỗ kê trường",
+  "vi": "(thành ngữ) bụng dạ hẹp hòi, hay chấp nhặt chuyện nhỏ",
+  "note": "Nghĩa đen: bụng nhỏ, ruột gà. Khẩu ngữ, dùng để chê người hay để bụng, so đo chuyện vặt.",
+  "alt": [
+   "心胸狭窄",
+   "斤斤计较",
+   "宽宏大量"
+  ],
+  "hsk": 7,
+  "ex": "别那么小肚鸡肠，他不是故意的。",
+  "exp": "Bié nàme xiǎodùjīcháng, tā bú shì gùyì de.",
+  "exvi": "Đừng hẹp hòi thế, anh ấy đâu có cố ý.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "心胸狭窄",
+  "p": "xīn xiōng xiá zhǎi",
+  "hv": "tâm hung hiệp trách",
+  "vi": "(thành ngữ) bụng dạ hẹp hòi; hay để bụng",
+  "note": "Nghĩa đen: lồng ngực, tấm lòng hẹp. Dùng để chê người hay chấp nhặt, không bao dung.",
+  "alt": [
+   "小肚鸡肠",
+   "宽宏大量",
+   "斤斤计较"
+  ],
+  "hsk": 6,
+  "ex": "他心胸狭窄，一句玩笑就生气了好几天。",
+  "exp": "Tā xīnxiōng xiázhǎi, yí jù wánxiào jiù shēngqìle hǎo jǐ tiān.",
+  "exvi": "Anh ta bụng dạ hẹp hòi, một câu đùa thôi mà giận mấy ngày liền.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "宽宏大量",
+  "p": "kuān hóng dà liàng",
+  "hv": "khoan hoằng đại lượng",
+  "vi": "(thành ngữ) rộng lượng, bao dung",
+  "note": "Nghĩa đen: rộng, lớn, độ lượng lớn. Dùng để khen người dễ tha thứ, không chấp lỗi nhỏ của người khác.",
+  "alt": [
+   "心胸开阔",
+   "心胸狭窄",
+   "小肚鸡肠"
+  ],
+  "hsk": 6,
+  "ex": "谢谢你宽宏大量，原谅了我的错误。",
+  "exp": "Xièxie nǐ kuānhóng dàliàng, yuánliàngle wǒ de cuòwù.",
+  "exvi": "Cảm ơn bạn đã rộng lượng tha thứ lỗi của mình.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "平易近人",
+  "p": "píng yì jìn rén",
+  "hv": "bình dị cận nhân",
+  "vi": "(thành ngữ) dễ gần, giản dị, không làm cao",
+  "note": "Nghĩa đen: bình dị, gần gũi với người. Hay dùng để khen người có địa vị cao (sếp, thầy, người nổi tiếng) mà vẫn dễ gần.",
+  "alt": [
+   "和蔼可亲",
+   "高高在上",
+   "盛气凌人"
+  ],
+  "hsk": 5,
+  "ex": "我们老板很平易近人，常常跟大家一起吃饭。",
+  "exp": "Wǒmen lǎobǎn hěn píngyì jìnrén, chángcháng gēn dàjiā yìqǐ chī fàn.",
+  "exvi": "Sếp tụi mình rất dễ gần, hay ăn cơm cùng mọi người.",
+  "em": "🙂"
+ },
+ {
+  "deck": "cy",
+  "h": "和蔼可亲",
+  "p": "hé ǎi kě qīn",
+  "hv": "hòa ái khả thân",
+  "vi": "(thành ngữ) hiền hậu, dễ mến",
+  "note": "Nghĩa đen: ôn hòa, hiền lành, đáng gần gũi. Thường khen người lớn tuổi, thầy cô, ông bà.",
+  "alt": [
+   "平易近人",
+   "慈眉善目",
+   "冷若冰霜"
+  ],
+  "hsk": 6,
+  "ex": "那位老奶奶和蔼可亲，孩子们都喜欢她。",
+  "exp": "Nà wèi lǎo nǎinai hé'ǎi kěqīn, háizimen dōu xǐhuan tā.",
+  "exvi": "Bà cụ ấy hiền hậu dễ mến, bọn trẻ đều thích bà.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "落落大方",
+  "p": "luò luò dà fāng",
+  "hv": "lạc lạc đại phương",
+  "vi": "(thành ngữ) tự nhiên, đàng hoàng, không rụt rè",
+  "note": "Chỉ cử chỉ, lời nói tự nhiên, tự tin, không e dè. Thường khen phong thái khi giao tiếp, phỏng vấn, lên sân khấu.",
+  "alt": [
+   "大大方方",
+   "举止大方",
+   "扭扭捏捏"
+  ],
+  "hsk": 6,
+  "ex": "她在面试时落落大方，给人留下了好印象。",
+  "exp": "Tā zài miànshì shí luòluò dàfāng, gěi rén liúxiàle hǎo yìnxiàng.",
+  "exvi": "Lúc phỏng vấn cô ấy rất tự nhiên đàng hoàng, để lại ấn tượng tốt.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "斤斤计较",
+  "p": "jīn jīn jì jiào",
+  "hv": "cân cân kế giảo",
+  "vi": "(thành ngữ) tính toán chi li, so đo từng chút",
+  "note": "斤斤 là xét kỹ từng li, 计较 là so đo. Dùng để chê người hay tính toán thiệt hơn chuyện nhỏ, nhất là tiền bạc.",
+  "alt": [
+   "小肚鸡肠",
+   "宽宏大量",
+   "不拘小节"
+  ],
+  "hsk": 6,
+  "ex": "朋友之间不要为了几块钱斤斤计较。",
+  "exp": "Péngyou zhījiān bú yào wèile jǐ kuài qián jīnjīn jìjiào.",
+  "exvi": "Bạn bè với nhau đừng so đo chi li vì mấy đồng bạc.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "患得患失",
+  "p": "huàn dé huàn shī",
+  "hv": "hoạn đắc hoạn thất",
+  "vi": "(thành ngữ) lo được lo mất; quá bận tâm chuyện được hay mất",
+  "note": "Nghĩa đen: chưa được thì lo không được, được rồi lại lo mất. Dùng để chê hoặc khuyên người quá lo lắng thiệt hơn, thiếu thoải mái.",
+  "alt": [
+   "斤斤计较",
+   "瞻前顾后",
+   "泰然处之"
+  ],
+  "hsk": 7,
+  "ex": "谈恋爱不要总是患得患失。",
+  "exp": "Tán liàn'ài búyào zǒngshì huàndéhuànshī.",
+  "exvi": "Yêu đương thì đừng lúc nào cũng lo được lo mất.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "优柔寡断",
+  "p": "yōu róu guǎ duàn",
+  "hv": "ưu nhu quả đoạn",
+  "vi": "(thành ngữ) do dự, thiếu quyết đoán",
+  "note": "优柔 là mềm yếu, 寡断 là ít quyết đoán. Chê người gặp chuyện thì chần chừ mãi không dám quyết.",
+  "alt": [
+   "犹豫不决",
+   "当机立断",
+   "果断"
+  ],
+  "hsk": 6,
+  "ex": "他太优柔寡断了，选个礼物都要想一个小时。",
+  "exp": "Tā tài yōuróu guǎduàn le, xuǎn ge lǐwù dōu yào xiǎng yí ge xiǎoshí.",
+  "exvi": "Anh ấy thiếu quyết đoán quá, chọn món quà thôi cũng nghĩ cả tiếng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "心直口快",
+  "p": "xīn zhí kǒu kuài",
+  "hv": "tâm trực khẩu khoái",
+  "vi": "(thành ngữ) thẳng tính, nghĩ gì nói nấy",
+  "note": "Nghĩa đen: lòng thẳng, miệng nhanh. Trung tính hơi khen: người thật thà, nói thẳng, đôi khi làm người khác phật lòng.",
+  "alt": [
+   "直来直去",
+   "拐弯抹角",
+   "吞吞吐吐"
+  ],
+  "hsk": 6,
+  "ex": "她心直口快，有什么意见都当面说。",
+  "exp": "Tā xīnzhí kǒukuài, yǒu shénme yìjiàn dōu dāngmiàn shuō.",
+  "exvi": "Cô ấy thẳng tính, có ý kiến gì cũng nói thẳng trước mặt.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "拐弯抹角",
+  "p": "guǎi wān mò jiǎo",
+  "hv": "quải loan mạt giác",
+  "vi": "(thành ngữ) nói vòng vo, không nói thẳng",
+  "note": "Nghĩa đen: rẽ khúc quanh, vòng qua góc. Chê cách nói chuyện vòng vo; hay gặp trong câu 别拐弯抹角了.",
+  "alt": [
+   "直截了当",
+   "开门见山",
+   "旁敲侧击"
+  ],
+  "hsk": 6,
+  "ex": "有话直说吧，别拐弯抹角的。",
+  "exp": "Yǒu huà zhí shuō ba, bié guǎiwān mòjiǎo de.",
+  "exvi": "Có gì cứ nói thẳng đi, đừng vòng vo nữa.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "口是心非",
+  "p": "kǒu shì xīn fēi",
+  "hv": "khẩu thị tâm phi",
+  "vi": "(thành ngữ) miệng nói một đằng, bụng nghĩ một nẻo",
+  "note": "Nghĩa đen: miệng nói phải, lòng cho là trái. Chê người không thật lòng; cũng dùng đùa khi ai đó chối điều mình thật ra muốn.",
+  "alt": [
+   "表里如一",
+   "言不由衷",
+   "心口如一"
+  ],
+  "hsk": 6,
+  "ex": "他嘴上说不想去，其实是口是心非。",
+  "exp": "Tā zuǐ shang shuō bù xiǎng qù, qíshí shì kǒushì xīnfēi.",
+  "exvi": "Ngoài miệng anh ấy nói không muốn đi, thật ra là nói một đằng nghĩ một nẻo.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "表里如一",
+  "p": "biǎo lǐ rú yī",
+  "hv": "biểu lý như nhất",
+  "vi": "(thành ngữ) trong ngoài như một, sống thật",
+  "note": "Nghĩa đen: bề ngoài và bên trong giống nhau. Khen người lời nói, việc làm khớp với suy nghĩ thật.",
+  "alt": [
+   "心口如一",
+   "口是心非",
+   "言行一致"
+  ],
+  "hsk": 6,
+  "ex": "他是个表里如一的人，说到就会做到。",
+  "exp": "Tā shì ge biǎolǐ rúyī de rén, shuōdào jiù huì zuòdào.",
+  "exvi": "Anh ấy là người trong ngoài như một, nói được là làm được.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "忘恩负义",
+  "p": "wàng ēn fù yì",
+  "hv": "vong ân phụ nghĩa",
+  "vi": "(thành ngữ) vô ơn bạc nghĩa",
+  "note": "Nghĩa đen: quên ơn, phụ nghĩa. Lời chê nặng dành cho người được giúp rồi quay lưng, thậm chí hại lại.",
+  "alt": [
+   "恩将仇报",
+   "知恩图报",
+   "过河拆桥"
+  ],
+  "hsk": 6,
+  "ex": "别人帮了你这么多，你可不能忘恩负义。",
+  "exp": "Biérén bāngle nǐ zhème duō, nǐ kě bù néng wàng'ēn fùyì.",
+  "exvi": "Người ta giúp bạn nhiều thế, bạn không được vô ơn bạc nghĩa đâu.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "推心置腹",
+  "p": "tuī xīn zhì fù",
+  "hv": "suy tâm trí phúc",
+  "vi": "(thành ngữ) đối xử chân thành, nói chuyện thật lòng",
+  "note": "Nghĩa đen: đặt lòng mình vào bụng người khác. Dùng khi nói về cuộc trò chuyện thẳng thắn, tin tưởng nhau; văn viết hơi trang trọng.",
+  "alt": [
+   "开诚布公",
+   "肝胆相照",
+   "勾心斗角"
+  ],
+  "hsk": 7,
+  "ex": "我们俩推心置腹地谈了一个晚上。",
+  "exp": "Wǒmen liǎ tuīxīn zhìfù de tánle yí ge wǎnshang.",
+  "exvi": "Hai đứa mình tâm sự thật lòng với nhau suốt một buổi tối.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "同甘共苦",
+  "p": "tóng gān gòng kǔ",
+  "hv": "đồng cam cộng khổ",
+  "vi": "(thành ngữ) cùng nhau chia ngọt sẻ bùi",
+  "note": "Nghĩa đen: cùng hưởng ngọt, cùng chịu khổ. Dùng cho vợ chồng, bạn bè, đồng đội gắn bó qua lúc khó khăn; mang ý khen.",
+  "alt": [
+   "患难与共",
+   "风雨同舟",
+   "同舟共济"
+  ],
+  "hsk": 6,
+  "ex": "他们夫妻同甘共苦二十年，感情很深。",
+  "exp": "Tāmen fūqī tónggān gòngkǔ èrshí nián, gǎnqíng hěn shēn.",
+  "exvi": "Vợ chồng họ đồng cam cộng khổ hai mươi năm, tình cảm rất sâu đậm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "志同道合",
+  "p": "zhì tóng dào hé",
+  "hv": "chí đồng đạo hợp",
+  "vi": "(thành ngữ) cùng chí hướng, hợp nhau",
+  "note": "Nghĩa đen: chí hướng giống nhau, con đường hợp nhau. Hay dùng khi nói về bạn bè, đối tác, người cùng làm dự án; trung tính hơi khen.",
+  "alt": [
+   "情投意合",
+   "同道中人",
+   "话不投机"
+  ],
+  "hsk": 6,
+  "ex": "在这个俱乐部里，我认识了很多志同道合的朋友。",
+  "exp": "Zài zhège jùlèbù li, wǒ rènshile hěn duō zhìtóng dàohé de péngyou.",
+  "exvi": "Ở câu lạc bộ này mình quen được nhiều người bạn cùng chí hướng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一见钟情",
+  "p": "yí jiàn zhōng qíng",
+  "hv": "nhất kiến chung tình",
+  "vi": "(thành ngữ) yêu từ cái nhìn đầu tiên",
+  "note": "Nghĩa đen: gặp một lần là dồn hết tình cảm. Rất hay dùng trong khẩu ngữ khi kể chuyện tình yêu.",
+  "alt": [
+   "日久生情",
+   "一见如故",
+   "情投意合"
+  ],
+  "hsk": 5,
+  "ex": "他对她一见钟情，第二天就约她吃饭。",
+  "exp": "Tā duì tā yíjiàn zhōngqíng, dì-èr tiān jiù yuē tā chī fàn.",
+  "exvi": "Anh ấy yêu cô ấy từ cái nhìn đầu tiên, hôm sau đã hẹn cô đi ăn.",
+  "em": "😍"
+ },
+ {
+  "deck": "cy",
+  "h": "白头偕老",
+  "p": "bái tóu xié lǎo",
+  "hv": "bạch đầu giai lão",
+  "vi": "(thành ngữ) sống bên nhau đến đầu bạc răng long",
+  "note": "Nghĩa đen: cùng nhau già đến bạc đầu. Thường dùng làm lời chúc trong đám cưới.",
+  "alt": [
+   "百年好合",
+   "永结同心",
+   "天长地久"
+  ],
+  "hsk": 6,
+  "ex": "祝你们新婚快乐，白头偕老！",
+  "exp": "Zhù nǐmen xīnhūn kuàilè, báitóu xiélǎo!",
+  "exvi": "Chúc hai bạn tân hôn hạnh phúc, sống bên nhau đến đầu bạc răng long!",
+  "em": "💑"
+ },
+ {
+  "deck": "cy",
+  "h": "亲密无间",
+  "p": "qīn mì wú jiàn",
+  "hv": "thân mật vô gian",
+  "vi": "(thành ngữ) thân thiết khăng khít, không chút khoảng cách",
+  "note": "无间 là không có kẽ hở. Dùng tả quan hệ bạn bè, gia đình, đồng đội rất gắn bó; mang ý khen.",
+  "alt": [
+   "形影不离",
+   "情同手足",
+   "貌合神离"
+  ],
+  "hsk": 6,
+  "ex": "她们是亲密无间的好朋友，什么话都说。",
+  "exp": "Tāmen shì qīnmì wújiàn de hǎo péngyou, shénme huà dōu shuō.",
+  "exvi": "Họ là đôi bạn thân khăng khít, chuyện gì cũng kể cho nhau.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一见如故",
+  "p": "yí jiàn rú gù",
+  "hv": "nhất kiến như cố",
+  "vi": "(thành ngữ) mới gặp mà như quen từ lâu",
+  "note": "故 là bạn cũ. Dùng khi hai người mới gặp lần đầu đã rất hợp nhau; khác 一见钟情 là không mang nghĩa tình yêu.",
+  "alt": [
+   "相见恨晚",
+   "一见钟情",
+   "素不相识"
+  ],
+  "hsk": 6,
+  "ex": "我和他第一次见面就一见如故，聊到半夜。",
+  "exp": "Wǒ hé tā dì-yī cì jiànmiàn jiù yíjiàn rúgù, liáodào bànyè.",
+  "exvi": "Mình với anh ấy gặp lần đầu mà như quen từ lâu, nói chuyện đến nửa đêm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "相依为命",
+  "p": "xiāng yī wéi mìng",
+  "hv": "tương y vi mệnh",
+  "vi": "(thành ngữ) nương tựa vào nhau mà sống",
+  "note": "Nghĩa đen: dựa vào nhau làm lẽ sống. Dùng cho những người thân chỉ còn có nhau, hoàn cảnh khó khăn; sắc thái cảm động.",
+  "alt": [
+   "相濡以沫",
+   "患难与共",
+   "同甘共苦"
+  ],
+  "hsk": 7,
+  "ex": "父亲去世后，她和母亲相依为命。",
+  "exp": "Fùqin qùshì hòu, tā hé mǔqin xiāngyī wéimìng.",
+  "exvi": "Sau khi bố mất, cô ấy và mẹ nương tựa vào nhau mà sống.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "心平气和",
+  "p": "xīn píng qì hé",
+  "hv": "tâm bình khí hòa",
+  "vi": "(thành ngữ) bình tĩnh, ôn hòa, không nóng nảy",
+  "note": "Nghĩa đen: lòng yên, khí hòa. Hay dùng khi khuyên nhau nói chuyện bình tĩnh, nhất là lúc có mâu thuẫn.",
+  "alt": [
+   "平心静气",
+   "气急败坏",
+   "火冒三丈"
+  ],
+  "hsk": 6,
+  "ex": "我们坐下来心平气和地谈一谈吧。",
+  "exp": "Wǒmen zuò xiàlai xīnpíng qìhé de tán yi tán ba.",
+  "exvi": "Mình ngồi xuống nói chuyện bình tĩnh với nhau đi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "心花怒放",
+  "p": "xīn huā nù fàng",
+  "hv": "tâm hoa nộ phóng",
+  "vi": "(thành ngữ) vui sướng như mở cờ trong bụng",
+  "note": "Nghĩa đen: hoa trong lòng nở rộ (怒 ở đây là mạnh mẽ, không phải giận). Tả niềm vui rất lớn.",
+  "alt": [
+   "喜出望外",
+   "欣喜若狂",
+   "闷闷不乐"
+  ],
+  "hsk": 6,
+  "ex": "听说自己被录取了，他心花怒放。",
+  "exp": "Tīngshuō zìjǐ bèi lùqǔ le, tā xīnhuā nùfàng.",
+  "exvi": "Nghe tin mình được nhận, anh ấy vui như mở cờ trong bụng.",
+  "em": "😄"
+ },
+ {
+  "deck": "cy",
+  "h": "闷闷不乐",
+  "p": "mèn mèn bú lè",
+  "hv": "muộn muộn bất lạc",
+  "vi": "(thành ngữ) buồn bực, rầu rĩ không vui",
+  "note": "闷 là buồn bực trong lòng. Tả người có tâm sự, ủ rũ, không vui; dùng được cả văn nói và văn viết.",
+  "alt": [
+   "郁郁寡欢",
+   "心花怒放",
+   "兴高采烈"
+  ],
+  "hsk": 6,
+  "ex": "他这几天闷闷不乐，好像有什么心事。",
+  "exp": "Tā zhè jǐ tiān mènmèn búlè, hǎoxiàng yǒu shénme xīnshì.",
+  "exvi": "Mấy hôm nay anh ấy rầu rĩ không vui, hình như có tâm sự gì đó.",
+  "em": "😔"
+ },
+ {
+  "deck": "cy",
+  "h": "心灰意冷",
+  "p": "xīn huī yì lěng",
+  "hv": "tâm hôi ý lãnh",
+  "vi": "(thành ngữ) nản lòng thoái chí, chán nản",
+  "note": "Nghĩa đen: lòng như tro nguội, ý chí lạnh đi. Dùng khi ai đó thất bại nhiều lần, mất hết nhiệt huyết.",
+  "alt": [
+   "灰心丧气",
+   "意气风发",
+   "信心十足"
+  ],
+  "hsk": 6,
+  "ex": "失败了好几次，他有点心灰意冷了。",
+  "exp": "Shībàile hǎo jǐ cì, tā yǒudiǎn xīnhuī yìlěng le.",
+  "exvi": "Thất bại mấy lần, anh ấy hơi nản lòng rồi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "忐忑不安",
+  "p": "tǎn tè bù ān",
+  "hv": "thảm thắc bất an",
+  "vi": "(thành ngữ) thấp thỏm lo âu, bồn chồn",
+  "note": "忐忑 tả tim đập thình thịch. Dùng khi đang chờ kết quả, sắp làm việc quan trọng mà lo lắng.",
+  "alt": [
+   "坐立不安",
+   "提心吊胆",
+   "泰然自若"
+  ],
+  "hsk": 6,
+  "ex": "等成绩的时候，我心里一直忐忑不安。",
+  "exp": "Děng chéngjì de shíhou, wǒ xīnli yìzhí tǎntè bù'ān.",
+  "exvi": "Lúc chờ điểm, trong lòng mình cứ thấp thỏm không yên.",
+  "em": "😰"
+ },
+ {
+  "deck": "cy",
+  "h": "火冒三丈",
+  "p": "huǒ mào sān zhàng",
+  "hv": "hỏa mạo tam trượng",
+  "vi": "(thành ngữ) giận sôi máu, nổi trận lôi đình",
+  "note": "Nghĩa đen: lửa bốc cao ba trượng. Khẩu ngữ, tả cơn giận rất lớn bùng lên ngay.",
+  "alt": [
+   "大发雷霆",
+   "怒气冲冲",
+   "心平气和"
+  ],
+  "hsk": 6,
+  "ex": "看到孩子又在撒谎，妈妈气得火冒三丈。",
+  "exp": "Kàndào háizi yòu zài sāhuǎng, māma qì de huǒmào sānzhàng.",
+  "exvi": "Thấy con lại nói dối, mẹ giận sôi máu.",
+  "em": "😡"
+ },
+ {
+  "deck": "cy",
+  "h": "百感交集",
+  "p": "bǎi gǎn jiāo jí",
+  "hv": "bách cảm giao tập",
+  "vi": "(thành ngữ) trăm mối cảm xúc đan xen",
+  "note": "Nghĩa đen: trăm cảm xúc cùng dồn lại. Dùng khi vừa vui vừa buồn, xúc động khó tả, ví dụ lúc chia tay, đoàn tụ, tốt nghiệp.",
+  "alt": [
+   "感慨万千",
+   "五味杂陈",
+   "无动于衷"
+  ],
+  "hsk": 7,
+  "ex": "回到离开十年的家乡，他心中百感交集。",
+  "exp": "Huídào líkāi shí nián de jiāxiāng, tā xīnzhōng bǎigǎn jiāojí.",
+  "exvi": "Trở về quê hương sau mười năm xa cách, lòng anh ấy trăm mối cảm xúc đan xen.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "刮目相看",
+  "p": "guā mù xiāng kàn",
+  "hv": "quát mục tương khán",
+  "vi": "(thành ngữ) nhìn bằng con mắt khác, phải nể",
+  "note": "Nghĩa đen: dụi mắt mà nhìn lại. Dùng khi ai đó tiến bộ vượt bậc khiến người khác phải đánh giá lại; mang ý khen.",
+  "alt": [
+   "另眼相看",
+   "不屑一顾",
+   "士别三日"
+  ],
+  "hsk": 6,
+  "ex": "他这次比赛拿了第一，让大家刮目相看。",
+  "exp": "Tā zhè cì bǐsài nále dì-yī, ràng dàjiā guāmù xiāngkàn.",
+  "exvi": "Lần thi này anh ấy đứng nhất, khiến mọi người phải nhìn bằng con mắt khác.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "刻骨铭心",
+  "p": "kè gǔ míng xīn",
+  "hv": "khắc cốt minh tâm",
+  "vi": "(thành ngữ) khắc cốt ghi tâm, nhớ mãi không quên",
+  "note": "Nghĩa đen: khắc vào xương, ghi vào tim. Dùng cho kỷ niệm, tình yêu, bài học rất sâu sắc.",
+  "alt": [
+   "铭记在心",
+   "终生难忘",
+   "过眼云烟"
+  ],
+  "hsk": 7,
+  "ex": "那是一段刻骨铭心的爱情。",
+  "exp": "Nà shì yí duàn kègǔ míngxīn de àiqíng.",
+  "exvi": "Đó là một mối tình khắc cốt ghi tâm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "问心无愧",
+  "p": "wèn xīn wú kuì",
+  "hv": "vấn tâm vô quý",
+  "vi": "(thành ngữ) lương tâm thanh thản, không hổ thẹn",
+  "note": "Nghĩa đen: tự hỏi lòng mà không thấy thẹn. Dùng khi mình đã làm hết sức, làm đúng, dù kết quả thế nào.",
+  "alt": [
+   "心安理得",
+   "无愧于心",
+   "做贼心虚"
+  ],
+  "hsk": 7,
+  "ex": "结果怎么样不重要，我已经尽力了，问心无愧。",
+  "exp": "Jiéguǒ zěnmeyàng bú zhòngyào, wǒ yǐjīng jìnlì le, wènxīn wúkuì.",
+  "exvi": "Kết quả thế nào không quan trọng, mình đã cố hết sức, lương tâm thanh thản.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "无地自容",
+  "p": "wú dì zì róng",
+  "hv": "vô địa tự dung",
+  "vi": "(thành ngữ) xấu hổ muốn độn thổ",
+  "note": "Nghĩa đen: không có chỗ đất nào để giấu mình. Tả cảm giác xấu hổ cực độ.",
+  "alt": [
+   "羞愧难当",
+   "面红耳赤",
+   "理直气壮"
+  ],
+  "hsk": 6,
+  "ex": "被老师当众批评，他羞得无地自容。",
+  "exp": "Bèi lǎoshī dāngzhòng pīpíng, tā xiū de wúdì zìróng.",
+  "exvi": "Bị thầy phê bình trước cả lớp, cậu ấy xấu hổ muốn độn thổ.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "若无其事",
+  "p": "ruò wú qí shì",
+  "hv": "nhược vô kỳ sự",
+  "vi": "(thành ngữ) tỉnh bơ, như không có chuyện gì",
+  "note": "Nghĩa đen: như thể không có việc gì. Tả thái độ bình thản, tỉnh bơ, thường khi đáng lẽ phải lo hoặc áy náy.",
+  "alt": [
+   "满不在乎",
+   "泰然自若",
+   "惊慌失措"
+  ],
+  "hsk": 6,
+  "ex": "他打碎了杯子，却若无其事地继续看电视。",
+  "exp": "Tā dǎsuìle bēizi, què ruòwú qíshì de jìxù kàn diànshì.",
+  "exvi": "Nó làm vỡ cái ly mà vẫn tỉnh bơ ngồi xem tivi tiếp.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "心不在焉",
+  "p": "xīn bú zài yān",
+  "hv": "tâm bất tại yên",
+  "vi": "(thành ngữ) đầu óc để đâu đâu, lơ đãng",
+  "note": "Nghĩa đen: lòng không ở đây. Tả người lơ đãng, không tập trung vào việc đang làm hay người đang nói.",
+  "alt": [
+   "魂不守舍",
+   "全神贯注",
+   "聚精会神"
+  ],
+  "hsk": 6,
+  "ex": "他上课的时候心不在焉，老师问什么都不知道。",
+  "exp": "Tā shàngkè de shíhou xīn bú zài yān, lǎoshī wèn shénme dōu bù zhīdào.",
+  "exvi": "Trong giờ học nó cứ lơ đãng, thầy hỏi gì cũng không biết.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "不知所措",
+  "p": "bù zhī suǒ cuò",
+  "hv": "bất tri sở thố",
+  "vi": "(thành ngữ) lúng túng, không biết làm sao",
+  "note": "措 là xử trí. Tả người bối rối, không biết phải làm gì khi gặp chuyện bất ngờ.",
+  "alt": [
+   "手足无措",
+   "手忙脚乱",
+   "从容不迫"
+  ],
+  "hsk": 6,
+  "ex": "突然被叫上台发言，我一时不知所措。",
+  "exp": "Tūrán bèi jiào shàng tái fāyán, wǒ yìshí bù zhī suǒ cuò.",
+  "exvi": "Đột nhiên bị gọi lên phát biểu, mình nhất thời lúng túng không biết làm sao.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "骄傲自满",
+  "p": "jiāo ào zì mǎn",
+  "hv": "kiêu ngạo tự mãn",
+  "vi": "(thành ngữ) kiêu căng tự mãn",
+  "note": "Chê người có chút thành tích đã tự cho là giỏi, không chịu học thêm. Hay dùng khi khuyên răn: 不要骄傲自满.",
+  "alt": [
+   "自高自大",
+   "谦虚谨慎",
+   "虚怀若谷"
+  ],
+  "hsk": 5,
+  "ex": "取得了好成绩也不要骄傲自满。",
+  "exp": "Qǔdéle hǎo chéngjì yě bú yào jiāo'ào zìmǎn.",
+  "exvi": "Đạt thành tích tốt cũng đừng kiêu căng tự mãn.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "谦虚谨慎",
+  "p": "qiān xū jǐn shèn",
+  "hv": "khiêm hư cẩn thận",
+  "vi": "(thành ngữ) khiêm tốn và thận trọng",
+  "note": "Ghép hai từ quen: 谦虚 khiêm tốn, 谨慎 cẩn thận. Dùng để khen hoặc khuyên về thái độ làm việc, văn hơi trang trọng.",
+  "alt": [
+   "虚怀若谷",
+   "骄傲自满",
+   "目中无人"
+  ],
+  "hsk": 5,
+  "ex": "他虽然很有名，但一直谦虚谨慎。",
+  "exp": "Tā suīrán hěn yǒumíng, dàn yìzhí qiānxū jǐnshèn.",
+  "exvi": "Tuy rất nổi tiếng nhưng anh ấy luôn khiêm tốn thận trọng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "才华横溢",
+  "p": "cái huá héng yì",
+  "hv": "tài hoa hoành dật",
+  "vi": "(thành ngữ) tài hoa xuất chúng, tài năng tràn đầy",
+  "note": "横溢 là tràn ra ngoài. Lời khen dành cho người có tài năng nổi bật, nhất là nghệ thuật, văn chương.",
+  "alt": [
+   "多才多艺",
+   "出类拔萃",
+   "才疏学浅"
+  ],
+  "hsk": 7,
+  "ex": "她是一位才华横溢的年轻作家。",
+  "exp": "Tā shì yí wèi cáihuá héngyì de niánqīng zuòjiā.",
+  "exvi": "Cô ấy là một nhà văn trẻ tài hoa xuất chúng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "多才多艺",
+  "p": "duō cái duō yì",
+  "hv": "đa tài đa nghệ",
+  "vi": "(thành ngữ) đa tài đa nghệ, giỏi nhiều thứ",
+  "note": "Khen người biết nhiều tài lẻ: hát, vẽ, chơi nhạc cụ, thể thao. Dễ dùng cả trong giới thiệu bản thân.",
+  "alt": [
+   "才华横溢",
+   "全面发展",
+   "一无所长"
+  ],
+  "hsk": 5,
+  "ex": "我妹妹多才多艺，会唱歌、跳舞，还会画画。",
+  "exp": "Wǒ mèimei duōcái duōyì, huì chànggē, tiàowǔ, hái huì huàhuà.",
+  "exvi": "Em gái mình đa tài lắm, biết hát, nhảy, lại còn biết vẽ.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "有口皆碑",
+  "p": "yǒu kǒu jiē bēi",
+  "hv": "hữu khẩu giai bi",
+  "vi": "(thành ngữ) ai ai cũng khen",
+  "note": "Nghĩa đen: miệng ai cũng như tấm bia ghi công. Dùng khi danh tiếng, phẩm chất của người hay sản phẩm được mọi người khen ngợi.",
+  "alt": [
+   "交口称赞",
+   "赞不绝口",
+   "臭名远扬"
+  ],
+  "hsk": 7,
+  "ex": "这家医院的服务有口皆碑。",
+  "exp": "Zhè jiā yīyuàn de fúwù yǒukǒu jiēbēi.",
+  "exvi": "Dịch vụ của bệnh viện này ai cũng khen.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "吹毛求疵",
+  "p": "chuī máo qiú cī",
+  "hv": "xuy mao cầu tỳ",
+  "vi": "(thành ngữ) bới lông tìm vết",
+  "note": "Nghĩa đen: thổi lông để tìm vết sẹo. Chê người cố tình soi mói lỗi nhỏ nhặt.",
+  "alt": [
+   "鸡蛋里挑骨头",
+   "求全责备",
+   "宽宏大量"
+  ],
+  "hsk": 7,
+  "ex": "他的报告已经很好了，你就别吹毛求疵了。",
+  "exp": "Tā de bàogào yǐjīng hěn hǎo le, nǐ jiù bié chuīmáo qiúcī le.",
+  "exvi": "Báo cáo của cậu ấy đã tốt lắm rồi, bạn đừng bới lông tìm vết nữa.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "说三道四",
+  "p": "shuō sān dào sì",
+  "hv": "thuyết tam đạo tứ",
+  "vi": "(thành ngữ) nói ra nói vào, bàn tán chỉ trỏ",
+  "note": "Nghĩa đen: nói ba nói bốn. Khẩu ngữ, chê việc bàn tán, phán xét chuyện của người khác một cách tùy tiện.",
+  "alt": [
+   "说长道短",
+   "指手画脚",
+   "议论纷纷"
+  ],
+  "hsk": 6,
+  "ex": "别人的家事，我们不要说三道四。",
+  "exp": "Biérén de jiāshì, wǒmen bú yào shuōsān dàosì.",
+  "exvi": "Chuyện nhà người ta, mình đừng nói ra nói vào.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "笑里藏刀",
+  "p": "xiào lǐ cáng dāo",
+  "hv": "tiếu lý tàng đao",
+  "vi": "(thành ngữ) miệng cười mà bụng hiểm, khẩu phật tâm xà",
+  "note": "Nghĩa đen: trong nụ cười giấu con dao. Chê người bề ngoài thân thiện nhưng trong lòng nham hiểm.",
+  "alt": [
+   "口蜜腹剑",
+   "两面三刀",
+   "表里如一"
+  ],
+  "hsk": 7,
+  "ex": "小心那个人，他总是笑里藏刀。",
+  "exp": "Xiǎoxīn nàge rén, tā zǒngshì xiàolǐ cángdāo.",
+  "exvi": "Cẩn thận người đó, anh ta lúc nào cũng miệng cười mà bụng hiểm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "舍己为人",
+  "p": "shě jǐ wèi rén",
+  "hv": "xả kỷ vị nhân",
+  "vi": "(thành ngữ) hy sinh bản thân vì người khác",
+  "note": "Nghĩa đen: bỏ mình vì người. Lời khen trang trọng, hay gặp trong tin tức, văn tuyên dương.",
+  "alt": [
+   "舍己救人",
+   "自私自利",
+   "损人利己"
+  ],
+  "hsk": 6,
+  "ex": "他舍己为人的精神感动了很多人。",
+  "exp": "Tā shějǐ wèirén de jīngshén gǎndòngle hěn duō rén.",
+  "exvi": "Tinh thần hy sinh vì người khác của anh ấy đã làm nhiều người cảm động.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "助人为乐",
+  "p": "zhù rén wéi lè",
+  "hv": "trợ nhân vi lạc",
+  "vi": "(thành ngữ) lấy việc giúp người làm niềm vui",
+  "note": "Nghĩa đen: giúp người làm niềm vui. Lời khen phổ biến, hay dùng ở trường học và tin tức.",
+  "alt": [
+   "乐于助人",
+   "见义勇为",
+   "自私自利"
+  ],
+  "hsk": 5,
+  "ex": "她是个助人为乐的好学生，同学们都喜欢她。",
+  "exp": "Tā shì ge zhùrén wéilè de hǎo xuésheng, tóngxuémen dōu xǐhuan tā.",
+  "exvi": "Cô bé là học sinh tốt hay giúp đỡ người khác, bạn bè ai cũng quý.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "自私自利",
+  "p": "zì sī zì lì",
+  "hv": "tự tư tự lợi",
+  "vi": "(thành ngữ) ích kỷ, chỉ biết lợi cho mình",
+  "note": "Chê người chỉ nghĩ cho lợi ích của bản thân, không quan tâm người khác.",
+  "alt": [
+   "损人利己",
+   "大公无私",
+   "舍己为人"
+  ],
+  "hsk": 5,
+  "ex": "一个自私自利的人很难交到真正的朋友。",
+  "exp": "Yí ge zìsī zìlì de rén hěn nán jiāodào zhēnzhèng de péngyou.",
+  "exvi": "Người ích kỷ rất khó có được bạn bè thật lòng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "沉默寡言",
+  "p": "chén mò guǎ yán",
+  "hv": "trầm mặc quả ngôn",
+  "vi": "(thành ngữ) ít nói, trầm lặng",
+  "note": "寡言 là ít lời. Tả tính cách trầm, ít nói; trung tính, không hẳn là chê.",
+  "alt": [
+   "少言寡语",
+   "能说会道",
+   "滔滔不绝"
+  ],
+  "hsk": 6,
+  "ex": "他平时沉默寡言，但工作非常认真。",
+  "exp": "Tā píngshí chénmò guǎyán, dàn gōngzuò fēicháng rènzhēn.",
+  "exvi": "Bình thường anh ấy ít nói nhưng làm việc rất nghiêm túc.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "能说会道",
+  "p": "néng shuō huì dào",
+  "hv": "năng thuyết hội đạo",
+  "vi": "(thành ngữ) ăn nói khéo léo, giỏi nói",
+  "note": "Tả người giỏi ăn nói, thuyết phục. Thường là khen, nhưng có lúc hơi ý chê là chỉ giỏi nói.",
+  "alt": [
+   "口若悬河",
+   "伶牙俐齿",
+   "沉默寡言"
+  ],
+  "hsk": 6,
+  "ex": "他能说会道，很适合做销售。",
+  "exp": "Tā néngshuō huìdào, hěn shìhé zuò xiāoshòu.",
+  "exvi": "Anh ấy ăn nói khéo léo, rất hợp làm bán hàng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "任劳任怨",
+  "p": "rèn láo rèn yuàn",
+  "hv": "nhậm lao nhậm oán",
+  "vi": "(thành ngữ) chịu khó chịu khổ, không kêu ca",
+  "note": "Nghĩa đen: gánh vất vả, chịu cả lời oán trách. Khen người làm việc chăm chỉ, nhẫn nại, không than phiền.",
+  "alt": [
+   "吃苦耐劳",
+   "兢兢业业",
+   "好吃懒做"
+  ],
+  "hsk": 7,
+  "ex": "妈妈为这个家任劳任怨地付出了很多年。",
+  "exp": "Māma wèi zhège jiā rènláo rènyuàn de fùchūle hěn duō nián.",
+  "exvi": "Mẹ đã chịu thương chịu khó hy sinh cho gia đình này nhiều năm mà không một lời kêu ca.",
+  "em": ""
+ }
+]

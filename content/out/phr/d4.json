@@ -1,0 +1,1073 @@
+[
+ {
+  "deck": "dp",
+  "h": "促进经济发展",
+  "p": "cù jìn jīng jì fā zhǎn",
+  "hv": "xúc tiến kinh tế phát triển",
+  "vi": "thúc đẩy phát triển kinh tế",
+  "note": "促进 đi với danh từ trừu tượng như 发展, 交流, 合作. Người Việt hay dùng 推进 lẫn lộn; 推进 thiên về đẩy một công việc tiến lên (推进改革), còn 促进 là thúc cho tốt lên.",
+  "alt": [
+   "促进交流",
+   "促进合作",
+   "促进消费"
+  ],
+  "hsk": 5,
+  "ex": "旅游业可以促进经济发展。",
+  "exp": "Lǚyóuyè kěyǐ cùjìn jīngjì fāzhǎn.",
+  "exvi": "Ngành du lịch có thể thúc đẩy phát triển kinh tế.",
+  "em": "📈"
+ },
+ {
+  "deck": "dp",
+  "h": "推动改革",
+  "p": "tuī dòng gǎi gé",
+  "hv": "thôi động cải cách",
+  "vi": "thúc đẩy cải cách",
+  "note": "推动 đi với 改革, 发展, 进步, 工作. Hay gặp trong tin tức chính phủ.",
+  "alt": [
+   "推动发展",
+   "推动进步",
+   "推动合作"
+  ],
+  "hsk": 5,
+  "ex": "这些年轻官员一直在推动改革。",
+  "exp": "Zhèxiē niánqīng guānyuán yìzhí zài tuīdòng gǎigé.",
+  "exvi": "Những quan chức trẻ này luôn thúc đẩy cải cách.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "制定政策",
+  "p": "zhì dìng zhèng cè",
+  "hv": "chế định chính sách",
+  "vi": "đưa ra chính sách; xây dựng chính sách",
+  "note": "制定 dùng cho thứ được soạn ra chính thức: 政策, 计划, 法律, 规则. Không nói 做政策.",
+  "alt": [
+   "制定计划",
+   "制定法律",
+   "制定规则"
+  ],
+  "hsk": 5,
+  "ex": "政府制定政策时要听取各方意见。",
+  "exp": "Zhèngfǔ zhìdìng zhèngcè shí yào tīngqǔ gè fāng yìjiàn.",
+  "exvi": "Khi xây dựng chính sách, chính phủ cần lắng nghe ý kiến các bên.",
+  "em": "📜"
+ },
+ {
+  "deck": "dp",
+  "h": "采取措施",
+  "p": "cǎi qǔ cuò shī",
+  "hv": "thải thủ thố thi",
+  "vi": "áp dụng biện pháp; có biện pháp",
+  "note": "措施 gần như luôn đi với 采取. Không nói 用措施 hay 做措施.",
+  "alt": [
+   "采取行动",
+   "采取办法",
+   "采取态度"
+  ],
+  "hsk": 5,
+  "ex": "我们必须马上采取措施。",
+  "exp": "Wǒmen bìxū mǎshàng cǎiqǔ cuòshī.",
+  "exvi": "Chúng ta phải lập tức có biện pháp.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "实施计划",
+  "p": "shí shī jì huà",
+  "hv": "thực thi kế hoạch",
+  "vi": "thực hiện kế hoạch; triển khai kế hoạch",
+  "note": "实施 trang trọng hơn 执行, dùng cho kế hoạch, chính sách, luật đã được ban hành.",
+  "alt": [
+   "实施政策",
+   "实施方案",
+   "实施法律"
+  ],
+  "hsk": 6,
+  "ex": "实施计划之前要先做好调查。",
+  "exp": "Shíshī jìhuà zhīqián yào xiān zuòhǎo diàochá.",
+  "exvi": "Trước khi triển khai kế hoạch cần khảo sát kỹ.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "引起关注",
+  "p": "yǐn qǐ guān zhù",
+  "hv": "dẫn khởi quan chú",
+  "vi": "thu hút sự quan tâm; gây chú ý",
+  "note": "引起 đi với kết quả xảy ra ở người khác: 关注, 重视, 注意, 争论. Hay viết 引起社会关注.",
+  "alt": [
+   "引起重视",
+   "引起注意",
+   "引起争论"
+  ],
+  "hsk": 5,
+  "ex": "这件事很快引起关注，上了新闻。",
+  "exp": "Zhè jiàn shì hěn kuài yǐnqǐ guānzhù, shàngle xīnwén.",
+  "exvi": "Chuyện này nhanh chóng gây chú ý và lên cả bản tin.",
+  "em": "👀"
+ },
+ {
+  "deck": "dp",
+  "h": "产生影响",
+  "p": "chǎn shēng yǐng xiǎng",
+  "hv": "sản sinh ảnh hưởng",
+  "vi": "gây ra ảnh hưởng; tạo ảnh hưởng",
+  "note": "Cấu trúc hay gặp: A对B产生影响. Người Việt hay quên 对 và nói 产生B的影响.",
+  "alt": [
+   "产生作用",
+   "产生兴趣",
+   "产生问题"
+  ],
+  "hsk": 4,
+  "ex": "新政策会对房价产生影响。",
+  "exp": "Xīn zhèngcè huì duì fángjià chǎnshēng yǐngxiǎng.",
+  "exvi": "Chính sách mới sẽ ảnh hưởng đến giá nhà.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "面临挑战",
+  "p": "miàn lín tiǎo zhàn",
+  "hv": "diện lâm khiêu chiến",
+  "vi": "đối mặt với thách thức",
+  "note": "面临 đi với tình huống khó: 挑战, 困难, 危机, 压力. Hay thêm 着: 面临着挑战; không cần giới từ đi kèm.",
+  "alt": [
+   "面临困难",
+   "面临危机",
+   "面临压力"
+  ],
+  "hsk": 5,
+  "ex": "传统行业正面临挑战。",
+  "exp": "Chuántǒng hángyè zhèng miànlín tiǎozhàn.",
+  "exvi": "Các ngành truyền thống đang đối mặt thách thức.",
+  "em": "⚔️"
+ },
+ {
+  "deck": "dp",
+  "h": "缩小差距",
+  "p": "suō xiǎo chā jù",
+  "hv": "súc tiểu sai cự",
+  "vi": "thu hẹp khoảng cách",
+  "note": "差距 đi với 缩小 hoặc 拉大. Không nói 减少差距.",
+  "alt": [
+   "拉大差距",
+   "缩小范围",
+   "缩小规模"
+  ],
+  "hsk": 5,
+  "ex": "政府希望缩小差距，让农村富起来。",
+  "exp": "Zhèngfǔ xīwàng suōxiǎo chājù, ràng nóngcūn fù qǐlai.",
+  "exvi": "Chính phủ muốn thu hẹp khoảng cách, giúp nông thôn giàu lên.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "扩大规模",
+  "p": "kuò dà guī mó",
+  "hv": "khuếch đại quy mô",
+  "vi": "mở rộng quy mô",
+  "note": "扩大 dùng cho phạm vi, quy mô, ảnh hưởng. Với diện tích hay đường xá thì thường dùng 扩建.",
+  "alt": [
+   "扩大影响",
+   "扩大范围",
+   "扩大生产"
+  ],
+  "hsk": 5,
+  "ex": "公司打算明年扩大规模。",
+  "exp": "Gōngsī dǎsuàn míngnián kuòdà guīmó.",
+  "exvi": "Công ty định mở rộng quy mô vào năm sau.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "维护权益",
+  "p": "wéi hù quán yì",
+  "hv": "duy hộ quyền ích",
+  "vi": "bảo vệ quyền lợi",
+  "note": "维护 dùng cho thứ trừu tượng cần giữ gìn: 权益, 和平, 秩序, 利益. Hay gặp cụm 维护消费者权益.",
+  "alt": [
+   "维护和平",
+   "维护利益",
+   "维护秩序"
+  ],
+  "hsk": 6,
+  "ex": "消费者要学会维护权益。",
+  "exp": "Xiāofèizhě yào xuéhuì wéihù quányì.",
+  "exvi": "Người tiêu dùng cần học cách bảo vệ quyền lợi.",
+  "em": "⚖️"
+ },
+ {
+  "deck": "dp",
+  "h": "保护环境",
+  "p": "bǎo hù huán jìng",
+  "hv": "bảo hộ hoàn cảnh",
+  "vi": "bảo vệ môi trường",
+  "note": "环境 ở đây là môi trường, không phải hoàn cảnh sống theo nghĩa tiếng Việt. 保护 dùng cho thứ cụ thể cần che chở.",
+  "alt": [
+   "保护动物",
+   "保护文物",
+   "保护隐私"
+  ],
+  "hsk": 4,
+  "ex": "每个人都应该保护环境。",
+  "exp": "Měi gè rén dōu yīnggāi bǎohù huánjìng.",
+  "exvi": "Mỗi người đều nên bảo vệ môi trường.",
+  "em": "🌱"
+ },
+ {
+  "deck": "dp",
+  "h": "改善条件",
+  "p": "gǎi shàn tiáo jiàn",
+  "hv": "cải thiện điều kiện",
+  "vi": "cải thiện điều kiện",
+  "note": "改善 dùng khi tình trạng vốn chưa tốt: 条件, 关系, 环境, 生活. Không nói 改善水平, nói 提高水平.",
+  "alt": [
+   "改善关系",
+   "改善环境",
+   "改善生活"
+  ],
+  "hsk": 5,
+  "ex": "学校一直在努力改善条件。",
+  "exp": "Xuéxiào yìzhí zài nǔlì gǎishàn tiáojiàn.",
+  "exvi": "Nhà trường luôn cố gắng cải thiện điều kiện.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "降低成本",
+  "p": "jiàng dī chéng běn",
+  "hv": "giáng đê thành bản",
+  "vi": "giảm chi phí; hạ giá thành",
+  "note": "降低 đi với con số, mức độ: 成本, 价格, 风险, 标准. Ngược nghĩa là 提高 hoặc 增加.",
+  "alt": [
+   "降低价格",
+   "降低风险",
+   "降低标准"
+  ],
+  "hsk": 5,
+  "ex": "用新技术可以降低成本。",
+  "exp": "Yòng xīn jìshù kěyǐ jiàngdī chéngběn.",
+  "exvi": "Dùng công nghệ mới có thể giảm chi phí.",
+  "em": "📉"
+ },
+ {
+  "deck": "dp",
+  "h": "加强管理",
+  "p": "jiā qiáng guǎn lǐ",
+  "hv": "gia cường quản lý",
+  "vi": "tăng cường quản lý",
+  "note": "加强 đi với hoạt động hoặc mối quan hệ: 管理, 合作, 交流, 监督. Nói về năng lực cá nhân thì thường dùng 提高能力.",
+  "alt": [
+   "加强合作",
+   "加强交流",
+   "加强监督"
+  ],
+  "hsk": 4,
+  "ex": "食品安全问题说明要加强管理。",
+  "exp": "Shípǐn ānquán wèntí shuōmíng yào jiāqiáng guǎnlǐ.",
+  "exvi": "Vấn đề an toàn thực phẩm cho thấy cần tăng cường quản lý.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "发展经济",
+  "p": "fā zhǎn jīng jì",
+  "hv": "phát triển kinh tế",
+  "vi": "phát triển kinh tế",
+  "note": "发展 vừa là động từ vừa là danh từ: 发展经济 (làm cho kinh tế phát triển), 经济发展 (sự phát triển kinh tế).",
+  "alt": [
+   "发展教育",
+   "发展旅游业"
+  ],
+  "hsk": 4,
+  "ex": "这个地方靠旅游业发展经济。",
+  "exp": "Zhège dìfang kào lǚyóuyè fāzhǎn jīngjì.",
+  "exvi": "Nơi này phát triển kinh tế nhờ ngành du lịch.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "提供服务",
+  "p": "tí gōng fú wù",
+  "hv": "đề cung phục vụ",
+  "vi": "cung cấp dịch vụ",
+  "note": "Cấu trúc 为/给某人提供服务. Không nói 提供给服务.",
+  "alt": [
+   "提供帮助",
+   "提供信息",
+   "提供机会"
+  ],
+  "hsk": 4,
+  "ex": "这家银行为老人上门提供服务。",
+  "exp": "Zhè jiā yínháng wèi lǎorén shàngmén tígōng fúwù.",
+  "exvi": "Ngân hàng này đến tận nhà cung cấp dịch vụ cho người già.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "满足需求",
+  "p": "mǎn zú xū qiú",
+  "hv": "mãn túc nhu cầu",
+  "vi": "đáp ứng nhu cầu",
+  "note": "满足 làm động từ đi với 需求, 要求, 条件. Người Việt hay dùng 回应 cho \"đáp ứng\", nhưng ở đây phải là 满足.",
+  "alt": [
+   "满足要求",
+   "满足需要",
+   "满足条件"
+  ],
+  "hsk": 5,
+  "ex": "现有的医院已经不能满足需求。",
+  "exp": "Xiànyǒu de yīyuàn yǐjīng bù néng mǎnzú xūqiú.",
+  "exvi": "Các bệnh viện hiện có đã không đáp ứng được nhu cầu.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "创造就业机会",
+  "p": "chuàng zào jiù yè jī huì",
+  "hv": "sáng tạo tựu nghiệp cơ hội",
+  "vi": "tạo việc làm; tạo cơ hội việc làm",
+  "note": "Câu quen thuộc trong tin kinh tế. 就业 là có việc làm, khác 工作 ở chỗ dùng cho cả xã hội.",
+  "alt": [
+   "创造财富",
+   "创造条件",
+   "创造价值"
+  ],
+  "hsk": 5,
+  "ex": "这个项目为当地创造就业机会。",
+  "exp": "Zhège xiàngmù wèi dāngdì chuàngzào jiùyè jīhuì.",
+  "exvi": "Dự án này tạo cơ hội việc làm cho địa phương.",
+  "em": "💼"
+ },
+ {
+  "deck": "dp",
+  "h": "增加收入",
+  "p": "zēng jiā shōu rù",
+  "hv": "tăng gia thu nhập",
+  "vi": "tăng thu nhập",
+  "note": "增加 dùng cho số lượng. 提高收入 cũng đúng, nhưng 增加收入 phổ biến hơn khi nói về số tiền.",
+  "alt": [
+   "增加数量",
+   "增加压力",
+   "增加投入"
+  ],
+  "hsk": 4,
+  "ex": "很多农民靠种水果增加收入。",
+  "exp": "Hěn duō nóngmín kào zhòng shuǐguǒ zēngjiā shōurù.",
+  "exvi": "Nhiều nông dân tăng thu nhập nhờ trồng cây ăn quả.",
+  "em": "💰"
+ },
+ {
+  "deck": "dp",
+  "h": "打击犯罪",
+  "p": "dǎ jī fàn zuì",
+  "hv": "đả kích phạm tội",
+  "vi": "trấn áp tội phạm; chống tội phạm",
+  "note": "打击 ở đây là ra tay trấn áp, không phải đả kích (chỉ trích) như tiếng Việt. 打击 còn có nghĩa làm nhụt chí: 受到打击.",
+  "alt": [
+   "打击假货",
+   "预防犯罪"
+  ],
+  "hsk": 6,
+  "ex": "警察正在加大力度打击犯罪。",
+  "exp": "Jǐngchá zhèngzài jiādà lìdù dǎjī fànzuì.",
+  "exvi": "Cảnh sát đang tăng cường trấn áp tội phạm.",
+  "em": "👮"
+ },
+ {
+  "deck": "dp",
+  "h": "应对危机",
+  "p": "yìng duì wēi jī",
+  "hv": "ứng đối nguy cơ",
+  "vi": "ứng phó khủng hoảng",
+  "note": "危机 là khủng hoảng, không phải \"nguy cơ\" theo nghĩa tiếng Việt (nguy cơ là 风险). Đây là lỗi dễ mắc.",
+  "alt": [
+   "应对挑战",
+   "应对变化",
+   "度过危机"
+  ],
+  "hsk": 6,
+  "ex": "各国需要合作应对危机。",
+  "exp": "Gè guó xūyào hézuò yìngduì wēijī.",
+  "exvi": "Các nước cần hợp tác ứng phó khủng hoảng.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "发布新闻",
+  "p": "fā bù xīn wén",
+  "hv": "phát bố tân văn",
+  "vi": "đưa tin; công bố tin tức",
+  "note": "发布 dùng cho thông tin chính thức: 新闻, 消息, 通知, 产品. Hay gặp 新闻发布会 là họp báo.",
+  "alt": [
+   "发布消息",
+   "发布通知",
+   "发布产品"
+  ],
+  "hsk": 5,
+  "ex": "公司今天上午发布新闻说要降价。",
+  "exp": "Gōngsī jīntiān shàngwǔ fābù xīnwén shuō yào jiàngjià.",
+  "exvi": "Sáng nay công ty ra thông cáo nói sẽ giảm giá.",
+  "em": "📰"
+ },
+ {
+  "deck": "dp",
+  "h": "掌握技术",
+  "p": "zhǎng wò jì shù",
+  "hv": "chưởng ác kỹ thuật",
+  "vi": "nắm vững kỹ thuật; làm chủ công nghệ",
+  "note": "掌握 là nắm chắc kiến thức, kỹ năng: 技术, 知识, 方法, 情况. Không nói 了解技术 với nghĩa làm chủ được.",
+  "alt": [
+   "掌握知识",
+   "掌握方法",
+   "掌握情况"
+  ],
+  "hsk": 5,
+  "ex": "年轻工人很快就能掌握技术。",
+  "exp": "Niánqīng gōngrén hěn kuài jiù néng zhǎngwò jìshù.",
+  "exvi": "Công nhân trẻ có thể nhanh chóng nắm vững kỹ thuật.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "开发产品",
+  "p": "kāi fā chǎn pǐn",
+  "hv": "khai phát sản phẩm",
+  "vi": "phát triển sản phẩm",
+  "note": "开发 là tạo ra cái mới hoặc khai thác: 产品, 软件, 市场, 资源. Khác 发展 (phát triển chung, tự lớn lên).",
+  "alt": [
+   "开发软件",
+   "开发市场",
+   "开发资源"
+  ],
+  "hsk": 5,
+  "ex": "他们花了两年开发产品。",
+  "exp": "Tāmen huāle liǎng nián kāifā chǎnpǐn.",
+  "exvi": "Họ mất hai năm để phát triển sản phẩm.",
+  "em": "🛠️"
+ },
+ {
+  "deck": "dp",
+  "h": "投入资金",
+  "p": "tóu rù zī jīn",
+  "hv": "đầu nhập tư kim",
+  "vi": "rót vốn; bỏ tiền vào",
+  "note": "投入 đi với tiền, sức người, thời gian. Cấu trúc 在某方面投入资金.",
+  "alt": [
+   "投入时间",
+   "投入精力",
+   "投入使用"
+  ],
+  "hsk": 6,
+  "ex": "政府在医疗方面投入资金一百亿元。",
+  "exp": "Zhèngfǔ zài yīliáo fāngmiàn tóurù zījīn yìbǎi yì yuán.",
+  "exvi": "Chính phủ rót mười tỷ tệ vốn vào lĩnh vực y tế.",
+  "em": "💵"
+ },
+ {
+  "deck": "dp",
+  "h": "吸引投资",
+  "p": "xī yǐn tóu zī",
+  "hv": "hấp dẫn đầu tư",
+  "vi": "thu hút đầu tư",
+  "note": "吸引 đi với 投资, 游客, 人才, 注意. Hay nói 吸引外资 là thu hút vốn nước ngoài.",
+  "alt": [
+   "吸引游客",
+   "吸引人才",
+   "吸引注意"
+  ],
+  "hsk": 5,
+  "ex": "这个城市用低税收吸引投资。",
+  "exp": "Zhège chéngshì yòng dī shuìshōu xīyǐn tóuzī.",
+  "exvi": "Thành phố này dùng thuế thấp để thu hút đầu tư.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "遵守法律",
+  "p": "zūn shǒu fǎ lǜ",
+  "hv": "tuân thủ pháp luật",
+  "vi": "tuân thủ pháp luật",
+  "note": "遵守 đi với 法律, 规定, 纪律, 时间. Ngược nghĩa là 违反.",
+  "alt": [
+   "遵守规定",
+   "遵守纪律",
+   "遵守交通规则"
+  ],
+  "hsk": 5,
+  "ex": "每个公民都要遵守法律。",
+  "exp": "Měi gè gōngmín dōu yào zūnshǒu fǎlǜ.",
+  "exvi": "Mọi công dân đều phải tuân thủ pháp luật.",
+  "em": "⚖️"
+ },
+ {
+  "deck": "dp",
+  "h": "违反规定",
+  "p": "wéi fǎn guī dìng",
+  "hv": "vi phản quy định",
+  "vi": "vi phạm quy định",
+  "note": "违反 dùng cho quy định, luật, hợp đồng. Không nói 犯规定; 犯 đi với 错误, 罪.",
+  "alt": [
+   "违反法律",
+   "违反合同",
+   "违反纪律"
+  ],
+  "hsk": 5,
+  "ex": "他因为违反规定被罚款了。",
+  "exp": "Tā yīnwèi wéifǎn guīdìng bèi fákuǎn le.",
+  "exvi": "Anh ấy bị phạt tiền vì vi phạm quy định.",
+  "em": "🚫"
+ },
+ {
+  "deck": "dp",
+  "h": "维持秩序",
+  "p": "wéi chí zhì xù",
+  "hv": "duy trì trật tự",
+  "vi": "giữ gìn trật tự",
+  "note": "维持 là giữ cho tình trạng không đổi: 秩序, 生活, 现状. Khác 保持 ở chỗ 维持 hàm ý cần cố gắng mới giữ được.",
+  "alt": [
+   "维持生活",
+   "维持现状",
+   "维护秩序"
+  ],
+  "hsk": 6,
+  "ex": "警察在现场维持秩序。",
+  "exp": "Jǐngchá zài xiànchǎng wéichí zhìxù.",
+  "exvi": "Cảnh sát giữ gìn trật tự tại hiện trường.",
+  "em": "👮"
+ },
+ {
+  "deck": "dp",
+  "h": "保障安全",
+  "p": "bǎo zhàng ān quán",
+  "hv": "bảo chướng an toàn",
+  "vi": "đảm bảo an toàn",
+  "note": "保障 trang trọng, hay đi với 安全, 权利, 供应. Văn nói thường dùng 保证安全.",
+  "alt": [
+   "保障权利",
+   "保障供应",
+   "保证安全"
+  ],
+  "hsk": 6,
+  "ex": "新规定是为了保障安全。",
+  "exp": "Xīn guīdìng shì wèile bǎozhàng ānquán.",
+  "exvi": "Quy định mới nhằm đảm bảo an toàn.",
+  "em": "🛡️"
+ },
+ {
+  "deck": "dp",
+  "h": "调整结构",
+  "p": "tiáo zhěng jié gòu",
+  "hv": "điều chỉnh kết cấu",
+  "vi": "điều chỉnh cơ cấu",
+  "note": "结构 trong kinh tế là cơ cấu, không dịch là kết cấu. Hay gặp 调整产业结构.",
+  "alt": [
+   "调整价格",
+   "调整计划",
+   "调整心态"
+  ],
+  "hsk": 5,
+  "ex": "经济要发展，就必须调整结构。",
+  "exp": "Jīngjì yào fāzhǎn, jiù bìxū tiáozhěng jiégòu.",
+  "exvi": "Muốn kinh tế phát triển thì phải điều chỉnh cơ cấu.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "改变观念",
+  "p": "gǎi biàn guān niàn",
+  "hv": "cải biến quan niệm",
+  "vi": "thay đổi quan niệm; thay đổi tư duy",
+  "note": "观念 là cách nghĩ đã thành nếp, đi với 改变, 更新. Hay nói 传统观念, 消费观念.",
+  "alt": [
+   "改变习惯",
+   "改变看法",
+   "更新观念"
+  ],
+  "hsk": 5,
+  "ex": "要解决这个问题，先要改变观念。",
+  "exp": "Yào jiějué zhège wèntí, xiān yào gǎibiàn guānniàn.",
+  "exvi": "Muốn giải quyết vấn đề này, trước hết phải thay đổi tư duy.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "发挥优势",
+  "p": "fā huī yōu shì",
+  "hv": "phát huy ưu thế",
+  "vi": "phát huy thế mạnh",
+  "note": "发挥 là đem cái sẵn có ra dùng cho hết, đi với 优势, 作用, 水平, 特长, 能力. Hay nói 充分发挥.",
+  "alt": [
+   "发挥特长",
+   "发挥水平",
+   "发挥作用"
+  ],
+  "hsk": 5,
+  "ex": "每个地区都要发挥优势。",
+  "exp": "Měi gè dìqū dōu yào fāhuī yōushì.",
+  "exvi": "Mỗi vùng đều cần phát huy thế mạnh.",
+  "em": "💪"
+ },
+ {
+  "deck": "dp",
+  "h": "克服困难",
+  "p": "kè fú kùn nan",
+  "hv": "khắc phục khốn nan",
+  "vi": "vượt qua khó khăn",
+  "note": "克服 đi với 困难, 缺点, 障碍. Không nói 克服问题; với 问题 dùng 解决.",
+  "alt": [
+   "克服缺点",
+   "克服障碍",
+   "战胜困难"
+  ],
+  "hsk": 4,
+  "ex": "只要大家一起努力，就能克服困难。",
+  "exp": "Zhǐyào dàjiā yìqǐ nǔlì, jiù néng kèfú kùnnan.",
+  "exvi": "Chỉ cần mọi người cùng cố gắng là có thể vượt qua khó khăn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "达成共识",
+  "p": "dá chéng gòng shí",
+  "hv": "đạt thành cộng thức",
+  "vi": "đạt được đồng thuận",
+  "note": "共识 là ý kiến chung, gần như luôn đi với 达成. Hay gặp trong tin ngoại giao.",
+  "alt": [
+   "形成共识",
+   "取得共识",
+   "达成一致"
+  ],
+  "hsk": 6,
+  "ex": "经过讨论，双方终于达成共识。",
+  "exp": "Jīngguò tǎolùn, shuāngfāng zhōngyú dáchéng gòngshí.",
+  "exvi": "Sau khi thảo luận, hai bên cuối cùng đã đạt được đồng thuận.",
+  "em": "🤝"
+ },
+ {
+  "deck": "dp",
+  "h": "达成协议",
+  "p": "dá chéng xié yì",
+  "hv": "đạt thành hiệp nghị",
+  "vi": "đạt được thỏa thuận; ký kết thỏa thuận",
+  "note": "达成 đi với kết quả thương lượng: 协议, 共识, 交易. Không nói 得到协议.",
+  "alt": [
+   "签订协议",
+   "达成交易",
+   "遵守协议"
+  ],
+  "hsk": 5,
+  "ex": "两家公司上周达成协议，决定合作。",
+  "exp": "Liǎng jiā gōngsī shàng zhōu dáchéng xiéyì, juédìng hézuò.",
+  "exvi": "Tuần trước hai công ty đã đạt thỏa thuận và quyết định hợp tác.",
+  "em": "🤝"
+ },
+ {
+  "deck": "dp",
+  "h": "召开会议",
+  "p": "zhào kāi huì yì",
+  "hv": "triệu khai hội nghị",
+  "vi": "tổ chức cuộc họp; triệu tập hội nghị",
+  "note": "召开 dùng cho họp chính thức, quy mô lớn. Họp thường ngày thì nói 开会.",
+  "alt": [
+   "召开大会",
+   "举行会议",
+   "参加会议"
+  ],
+  "hsk": 5,
+  "ex": "市政府明天将召开会议讨论交通问题。",
+  "exp": "Shì zhèngfǔ míngtiān jiāng zhàokāi huìyì tǎolùn jiāotōng wèntí.",
+  "exvi": "Ngày mai chính quyền thành phố sẽ họp bàn về vấn đề giao thông.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "公布结果",
+  "p": "gōng bù jié guǒ",
+  "hv": "công bố kết quả",
+  "vi": "công bố kết quả",
+  "note": "公布 là công khai cho mọi người biết: 结果, 名单, 成绩, 数据.",
+  "alt": [
+   "公布名单",
+   "公布成绩",
+   "公布数据"
+  ],
+  "hsk": 5,
+  "ex": "考试结束一周后公布结果。",
+  "exp": "Kǎoshì jiéshù yì zhōu hòu gōngbù jiéguǒ.",
+  "exvi": "Một tuần sau khi thi xong sẽ công bố kết quả.",
+  "em": "📢"
+ },
+ {
+  "deck": "dp",
+  "h": "进行调查",
+  "p": "jìn xíng diào chá",
+  "hv": "tiến hành điều tra",
+  "vi": "tiến hành điều tra; làm khảo sát",
+  "note": "进行 đi với động từ hai âm tiết chỉ hoạt động chính thức: 调查, 研究, 讨论. Không dùng 进行 với động từ một âm tiết.",
+  "alt": [
+   "进行研究",
+   "进行讨论",
+   "展开调查"
+  ],
+  "hsk": 4,
+  "ex": "警方正在对事故进行调查。",
+  "exp": "Jǐngfāng zhèngzài duì shìgù jìnxíng diàochá.",
+  "exvi": "Cảnh sát đang tiến hành điều tra vụ tai nạn.",
+  "em": "🔍"
+ },
+ {
+  "deck": "dp",
+  "h": "展开讨论",
+  "p": "zhǎn kāi tǎo lùn",
+  "hv": "triển khai thảo luận",
+  "vi": "mở cuộc thảo luận; bàn luận rộng rãi",
+  "note": "展开 nhấn mạnh hoạt động được mở ra trên diện rộng: 讨论, 调查, 竞争.",
+  "alt": [
+   "展开调查",
+   "展开竞争",
+   "展开工作"
+  ],
+  "hsk": 6,
+  "ex": "网友们就这件事展开讨论。",
+  "exp": "Wǎngyǒumen jiù zhè jiàn shì zhǎnkāi tǎolùn.",
+  "exvi": "Cư dân mạng bàn luận sôi nổi về chuyện này.",
+  "em": "💬"
+ },
+ {
+  "deck": "dp",
+  "h": "推广普通话",
+  "p": "tuī guǎng pǔ tōng huà",
+  "hv": "thôi quảng phổ thông thoại",
+  "vi": "phổ biến tiếng phổ thông",
+  "note": "推广 là mở rộng cho nhiều người dùng: 推广普通话, 推广新技术, 推广产品.",
+  "alt": [
+   "推广新技术",
+   "推广产品"
+  ],
+  "hsk": 5,
+  "ex": "学校一直在大力推广普通话。",
+  "exp": "Xuéxiào yìzhí zài dàlì tuīguǎng Pǔtōnghuà.",
+  "exvi": "Nhà trường luôn ra sức phổ biến tiếng phổ thông.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "申请贷款",
+  "p": "shēn qǐng dài kuǎn",
+  "hv": "thân thỉnh thải khoản",
+  "vi": "xin vay vốn; xin vay ngân hàng",
+  "note": "贷款 vừa là động từ vừa là danh từ. Trả khoản vay là 还贷款; vay mua nhà gọi tắt là 房贷.",
+  "alt": [
+   "还贷款",
+   "申请信用卡"
+  ],
+  "hsk": 6,
+  "ex": "他向银行申请贷款买房子。",
+  "exp": "Tā xiàng yínháng shēnqǐng dàikuǎn mǎi fángzi.",
+  "exvi": "Anh ấy xin ngân hàng cho vay để mua nhà.",
+  "em": "🏦"
+ },
+ {
+  "deck": "dp",
+  "h": "消除贫困",
+  "p": "xiāo chú pín kùn",
+  "hv": "tiêu trừ bần khốn",
+  "vi": "xóa đói giảm nghèo; xóa nghèo",
+  "note": "消除 là làm mất hẳn: 贫困, 误会, 影响, 隐患. Văn tin tức cũng hay dùng 脱贫.",
+  "alt": [
+   "消除误会",
+   "消除影响",
+   "摆脱贫困"
+  ],
+  "hsk": 6,
+  "ex": "消除贫困是政府的重要目标。",
+  "exp": "Xiāochú pínkùn shì zhèngfǔ de zhòngyào mùbiāo.",
+  "exvi": "Xóa nghèo là mục tiêu quan trọng của chính phủ.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "引进人才",
+  "p": "yǐn jìn rén cái",
+  "hv": "dẫn tiến nhân tài",
+  "vi": "thu hút nhân tài từ bên ngoài",
+  "note": "引进 là đưa từ bên ngoài vào: 人才, 技术, 设备, 外资.",
+  "alt": [
+   "引进技术",
+   "引进设备",
+   "引进外资"
+  ],
+  "hsk": 6,
+  "ex": "这家公司从国外引进人才。",
+  "exp": "Zhè jiā gōngsī cóng guówài yǐnjìn réncái.",
+  "exvi": "Công ty này thu hút nhân tài từ nước ngoài.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "培养人才",
+  "p": "péi yǎng rén cái",
+  "hv": "bồi dưỡng nhân tài",
+  "vi": "đào tạo nhân tài",
+  "note": "培养 là nuôi dạy lâu dài: 人才, 习惯, 兴趣, 能力. Người Việt hay dùng 训练 nhưng 训练 chỉ là luyện tập kỹ năng ngắn hạn.",
+  "alt": [
+   "培养习惯",
+   "培养兴趣",
+   "培养能力"
+  ],
+  "hsk": 5,
+  "ex": "大学的任务是培养人才。",
+  "exp": "Dàxué de rènwu shì péiyǎng réncái.",
+  "exvi": "Nhiệm vụ của đại học là đào tạo nhân tài.",
+  "em": "🎓"
+ },
+ {
+  "deck": "dp",
+  "h": "落实政策",
+  "p": "luò shí zhèng cè",
+  "hv": "lạc thực chính sách",
+  "vi": "đưa chính sách vào thực tế; thực hiện chính sách",
+  "note": "落实 là làm cho đến nơi đến chốn, hay gặp trong văn bản nhà nước: 落实政策, 落实责任.",
+  "alt": [
+   "落实责任",
+   "落实计划",
+   "执行政策"
+  ],
+  "hsk": 6,
+  "ex": "关键是基层干部要落实政策。",
+  "exp": "Guānjiàn shì jīcéng gànbù yào luòshí zhèngcè.",
+  "exvi": "Điều quan trọng là cán bộ cơ sở phải thực hiện chính sách đến nơi đến chốn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "取得突破",
+  "p": "qǔ dé tū pò",
+  "hv": "thủ đắc đột phá",
+  "vi": "đạt được bước đột phá",
+  "note": "取得 đi với kết quả tốt: 突破, 成就, 成功, 进展. Không nói 取得失败.",
+  "alt": [
+   "取得进展",
+   "取得成功",
+   "实现突破"
+  ],
+  "hsk": 6,
+  "ex": "科学家在这项研究上取得突破。",
+  "exp": "Kēxuéjiā zài zhè xiàng yánjiū shang qǔdé tūpò.",
+  "exvi": "Các nhà khoa học đạt bước đột phá trong nghiên cứu này.",
+  "em": "🚀"
+ },
+ {
+  "deck": "dp",
+  "h": "取得成就",
+  "p": "qǔ dé chéng jiù",
+  "hv": "thủ đắc thành tựu",
+  "vi": "đạt được thành tựu",
+  "note": "成就 thường đi với 取得 hoặc 有. Hay nói 取得巨大成就.",
+  "alt": [
+   "取得成绩",
+   "取得进步",
+   "取得成功"
+  ],
+  "hsk": 5,
+  "ex": "他在科学方面取得成就，获得了大奖。",
+  "exp": "Tā zài kēxué fāngmiàn qǔdé chéngjiù, huòdéle dàjiǎng.",
+  "exvi": "Ông ấy đạt thành tựu trong khoa học và nhận được giải lớn.",
+  "em": "🏆"
+ },
+ {
+  "deck": "dp",
+  "h": "物价上涨",
+  "p": "wù jià shàng zhǎng",
+  "hv": "vật giá thượng trướng",
+  "vi": "giá cả tăng; vật giá leo thang",
+  "note": "涨 đọc zhǎng khi nói giá cả, mực nước tăng. Dùng theo kiểu chủ ngữ + vị ngữ; trái nghĩa là 物价下跌.",
+  "alt": [
+   "房价上涨",
+   "物价下跌"
+  ],
+  "hsk": 5,
+  "ex": "最近物价上涨得很快，生活压力很大。",
+  "exp": "Zuìjìn wùjià shàngzhǎng de hěn kuài, shēnghuó yālì hěn dà.",
+  "exvi": "Dạo này giá cả tăng nhanh, áp lực cuộc sống rất lớn.",
+  "em": "📈"
+ },
+ {
+  "deck": "dp",
+  "h": "保持稳定",
+  "p": "bǎo chí wěn dìng",
+  "hv": "bảo trì ổn định",
+  "vi": "giữ ổn định",
+  "note": "保持 đi với trạng thái tốt cần giữ: 稳定, 联系, 健康, 安静.",
+  "alt": [
+   "保持联系",
+   "保持健康",
+   "保持冷静"
+  ],
+  "hsk": 5,
+  "ex": "今年物价基本保持稳定。",
+  "exp": "Jīnnián wùjià jīběn bǎochí wěndìng.",
+  "exvi": "Năm nay giá cả về cơ bản giữ ổn định.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "减轻负担",
+  "p": "jiǎn qīng fù dān",
+  "hv": "giảm khinh phụ đảm",
+  "vi": "giảm gánh nặng",
+  "note": "负担 là gánh nặng (tiền bạc, công việc, tâm lý), hay đi với 减轻 hoặc 加重: 减轻家庭负担, 减轻学生负担.",
+  "alt": [
+   "加重负担",
+   "减轻压力"
+  ],
+  "hsk": 5,
+  "ex": "新政策可以减轻负担，让老百姓的日子更好过。",
+  "exp": "Xīn zhèngcè kěyǐ jiǎnqīng fùdān, ràng lǎobǎixìng de rìzi gèng hǎoguò.",
+  "exvi": "Chính sách mới có thể giảm gánh nặng, giúp người dân sống dễ thở hơn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "出口产品",
+  "p": "chū kǒu chǎn pǐn",
+  "hv": "xuất khẩu sản phẩm",
+  "vi": "xuất khẩu sản phẩm; hàng xuất khẩu",
+  "note": "出口 là xuất khẩu, trái nghĩa 进口; cụm này vừa là động từ + tân ngữ vừa là danh từ (hàng xuất khẩu). 出口 còn có nghĩa lối ra.",
+  "alt": [
+   "进口产品",
+   "出口商品"
+  ],
+  "hsk": 5,
+  "ex": "这家工厂的出口产品主要卖到欧洲。",
+  "exp": "Zhè jiā gōngchǎng de chūkǒu chǎnpǐn zhǔyào mài dào Ōuzhōu.",
+  "exvi": "Hàng xuất khẩu của nhà máy này chủ yếu bán sang châu Âu.",
+  "em": "🚢"
+ },
+ {
+  "deck": "dp",
+  "h": "刺激消费",
+  "p": "cì jī xiāo fèi",
+  "hv": "thứ kích tiêu phí",
+  "vi": "kích cầu tiêu dùng; kích thích tiêu dùng",
+  "note": "消费 là tiêu dùng, không phải \"tiêu phí\" theo nghĩa lãng phí. 刺激 cũng đi với 经济, 需求.",
+  "alt": [
+   "刺激经济",
+   "扩大消费",
+   "拉动消费"
+  ],
+  "hsk": 6,
+  "ex": "政府发放消费券来刺激消费。",
+  "exp": "Zhèngfǔ fāfàng xiāofèiquàn lái cìjī xiāofèi.",
+  "exvi": "Chính phủ phát phiếu tiêu dùng để kích cầu.",
+  "em": "🛍️"
+ },
+ {
+  "deck": "dp",
+  "h": "推出产品",
+  "p": "tuī chū chǎn pǐn",
+  "hv": "thôi xuất sản phẩm",
+  "vi": "ra mắt sản phẩm; tung ra sản phẩm",
+  "note": "推出 là đưa ra thị trường lần đầu: 产品, 服务, 新政策, 节目.",
+  "alt": [
+   "推出服务",
+   "推出新政策",
+   "开发产品"
+  ],
+  "hsk": 5,
+  "ex": "这家公司每年秋天推出产品。",
+  "exp": "Zhè jiā gōngsī měi nián qiūtiān tuīchū chǎnpǐn.",
+  "exvi": "Công ty này tung ra sản phẩm vào mùa thu hằng năm.",
+  "em": "📱"
+ },
+ {
+  "deck": "dp",
+  "h": "承受压力",
+  "p": "chéng shòu yā lì",
+  "hv": "thừa thụ áp lực",
+  "vi": "chịu áp lực",
+  "note": "承受 đi với 压力, 痛苦, 损失, 考验. Văn nói cũng dùng 受不了压力.",
+  "alt": [
+   "承受痛苦",
+   "承受损失",
+   "面临压力"
+  ],
+  "hsk": 6,
+  "ex": "现在的年轻人要承受压力，工作也不好找。",
+  "exp": "Xiànzài de niánqīngrén yào chéngshòu yālì, gōngzuò yě bù hǎo zhǎo.",
+  "exvi": "Giới trẻ bây giờ phải chịu áp lực, việc làm cũng khó tìm.",
+  "em": "😓"
+ },
+ {
+  "deck": "dp",
+  "h": "预防疾病",
+  "p": "yù fáng jí bìng",
+  "hv": "dự phòng tật bệnh",
+  "vi": "phòng bệnh",
+  "note": "预防 dùng cho việc chưa xảy ra: 疾病, 事故, 犯罪. 疾病 trang trọng hơn 病.",
+  "alt": [
+   "预防事故",
+   "预防犯罪",
+   "治疗疾病"
+  ],
+  "hsk": 5,
+  "ex": "多运动可以预防疾病。",
+  "exp": "Duō yùndòng kěyǐ yùfáng jíbìng.",
+  "exvi": "Vận động nhiều có thể phòng bệnh.",
+  "em": "🩺"
+ },
+ {
+  "deck": "dp",
+  "h": "损害利益",
+  "p": "sǔn hài lì yì",
+  "hv": "tổn hại lợi ích",
+  "vi": "làm tổn hại lợi ích",
+  "note": "损害 dùng cho thứ trừu tượng hoặc sức khỏe: 利益, 健康, 名誉. Với đồ vật cụ thể thì dùng 损坏.",
+  "alt": [
+   "损害健康",
+   "损害名誉",
+   "维护利益"
+  ],
+  "hsk": 6,
+  "ex": "这种做法会损害利益，大家都不同意。",
+  "exp": "Zhè zhǒng zuòfǎ huì sǔnhài lìyì, dàjiā dōu bù tóngyì.",
+  "exvi": "Cách làm này sẽ làm tổn hại lợi ích nên mọi người đều không đồng ý.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "发生事故",
+  "p": "fā shēng shì gù",
+  "hv": "phát sinh sự cố",
+  "vi": "xảy ra tai nạn; xảy ra sự cố",
+  "note": "事故 là tai nạn, sự cố bất ngờ, hay gặp 交通事故. 发生 đi với sự việc xảy ra ngoài ý muốn: 发生事故, 发生火灾.",
+  "alt": [
+   "发生火灾",
+   "交通事故"
+  ],
+  "hsk": 5,
+  "ex": "雨天路滑，很容易发生事故。",
+  "exp": "Yǔtiān lù huá, hěn róngyì fāshēng shìgù.",
+  "exvi": "Trời mưa đường trơn, rất dễ xảy ra tai nạn.",
+  "em": "🚨"
+ },
+ {
+  "deck": "dp",
+  "h": "建立制度",
+  "p": "jiàn lì zhì dù",
+  "hv": "kiến lập chế độ",
+  "vi": "xây dựng quy chế; lập ra cơ chế",
+  "note": "制度 là quy chế, cơ chế vận hành, không chỉ mang nghĩa chế độ chính trị như tiếng Việt. Hay đi với 建立, 完善, 遵守.",
+  "alt": [
+   "完善制度",
+   "建立信任"
+  ],
+  "hsk": 5,
+  "ex": "公司需要建立制度，管理才会更规范。",
+  "exp": "Gōngsī xūyào jiànlì zhìdù, guǎnlǐ cái huì gèng guīfàn.",
+  "exvi": "Công ty cần xây dựng quy chế thì quản lý mới bài bản hơn.",
+  "em": ""
+ }
+]

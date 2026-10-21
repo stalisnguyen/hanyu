@@ -1,0 +1,1022 @@
+[
+ {
+  "deck": "dp",
+  "h": "参加考试",
+  "p": "cān jiā kǎo shì",
+  "hv": "tham gia khảo thí",
+  "vi": "đi thi; dự thi",
+  "note": "参加 đi với sự kiện có tổ chức (考试、比赛、会议). Muốn nói thi môn gì thì dùng 考 + môn, ví dụ 考数学.",
+  "alt": [
+   "参加比赛",
+   "参加会议"
+  ],
+  "hsk": 3,
+  "ex": "他下个月要参加考试，最近很忙。",
+  "exp": "Tā xià ge yuè yào cānjiā kǎoshì, zuìjìn hěn máng.",
+  "exvi": "Tháng sau anh ấy đi thi nên dạo này rất bận.",
+  "em": "📝"
+ },
+ {
+  "deck": "dp",
+  "h": "通过考试",
+  "p": "tōng guò kǎo shì",
+  "hv": "thông quá khảo thí",
+  "vi": "thi đỗ; vượt qua kỳ thi",
+  "note": "通过 ở đây là qua được, đạt yêu cầu. Khẩu ngữ hay nói gọn 考过了, văn viết dùng 通过考试.",
+  "alt": [
+   "通过面试",
+   "通过检查"
+  ],
+  "hsk": 4,
+  "ex": "她终于通过考试了，非常高兴。",
+  "exp": "Tā zhōngyú tōngguò kǎoshì le, fēicháng gāoxìng.",
+  "exvi": "Cuối cùng cô ấy cũng thi đỗ, vui lắm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "复习功课",
+  "p": "fù xí gōng kè",
+  "hv": "phục tập công khóa",
+  "vi": "ôn bài; ôn tập bài vở",
+  "note": "功课 là bài vở nói chung. 复习 là ôn lại bài đã học, còn xem trước bài mới là 预习.",
+  "alt": [
+   "复习课文",
+   "复习生词"
+  ],
+  "hsk": 4,
+  "ex": "考试前一周他每天复习功课。",
+  "exp": "Kǎoshì qián yì zhōu tā měi tiān fùxí gōngkè.",
+  "exvi": "Một tuần trước kỳ thi, ngày nào cậu ấy cũng ôn bài.",
+  "em": "📚"
+ },
+ {
+  "deck": "dp",
+  "h": "准备考试",
+  "p": "zhǔn bèi kǎo shì",
+  "hv": "chuẩn bị khảo thí",
+  "vi": "chuẩn bị thi; ôn thi",
+  "note": "准备 + việc sắp làm. Cũng có thể nói 为考试做准备, nghĩa tương tự nhưng trang trọng hơn.",
+  "alt": [
+   "准备材料",
+   "准备会议"
+  ],
+  "hsk": 2,
+  "ex": "这几天我在图书馆准备考试。",
+  "exp": "Zhè jǐ tiān wǒ zài túshūguǎn zhǔnbèi kǎoshì.",
+  "exvi": "Mấy hôm nay tôi ôn thi ở thư viện.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "取得好成绩",
+  "p": "qǔ dé hǎo chéng jì",
+  "hv": "thủ đắc hảo thành tích",
+  "vi": "đạt kết quả tốt; đạt thành tích tốt",
+  "note": "取得 đi với kết quả tích cực (成绩、进步、成功). Văn chuẩn dùng 取得好成绩 nhiều hơn 得到好成绩.",
+  "alt": [
+   "取得进步",
+   "取得成功"
+  ],
+  "hsk": 4,
+  "ex": "祝你在考试中取得好成绩！",
+  "exp": "Zhù nǐ zài kǎoshì zhōng qǔdé hǎo chéngjì!",
+  "exvi": "Chúc bạn thi đạt kết quả tốt!",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "完成作业",
+  "p": "wán chéng zuò yè",
+  "hv": "hoàn thành tác nghiệp",
+  "vi": "làm xong bài tập",
+  "note": "作业 là bài tập về nhà. Khẩu ngữ hay nói 做完作业.",
+  "alt": [
+   "完成工作",
+   "完成计划"
+  ],
+  "hsk": 3,
+  "ex": "你先完成作业，再去玩儿。",
+  "exp": "Nǐ xiān wánchéng zuòyè, zài qù wánr.",
+  "exvi": "Con làm xong bài tập rồi hẵng đi chơi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "查词典",
+  "p": "chá cí diǎn",
+  "hv": "tra từ điển",
+  "vi": "tra từ điển",
+  "note": "Tra cứu dùng động từ 查. Nói 看词典 thì chỉ là xem, đọc từ điển chứ không nhấn vào việc tra một từ.",
+  "alt": [
+   "查资料",
+   "查地图"
+  ],
+  "hsk": 3,
+  "ex": "遇到不认识的字，可以查词典。",
+  "exp": "Yùdào bú rènshi de zì, kěyǐ chá cídiǎn.",
+  "exvi": "Gặp chữ không biết thì có thể tra từ điển.",
+  "em": "📖"
+ },
+ {
+  "deck": "dp",
+  "h": "练习口语",
+  "p": "liàn xí kǒu yǔ",
+  "hv": "luyện tập khẩu ngữ",
+  "vi": "luyện nói; luyện kỹ năng nói",
+  "note": "口语 là kỹ năng nói. Khẩu ngữ thường rút gọn thành 练口语.",
+  "alt": [
+   "练习听力",
+   "练习写字"
+  ],
+  "hsk": 4,
+  "ex": "我每天和同学练习口语。",
+  "exp": "Wǒ měi tiān hé tóngxué liànxí kǒuyǔ.",
+  "exvi": "Ngày nào tôi cũng luyện nói với bạn cùng lớp.",
+  "em": "🗣️"
+ },
+ {
+  "deck": "dp",
+  "h": "做笔记",
+  "p": "zuò bǐ jì",
+  "hv": "tố bút ký",
+  "vi": "ghi chép (khi học, khi họp)",
+  "note": "Nói 做笔记 hoặc 记笔记 đều được. Cuốn sổ ghi chép là 笔记本, cũng có nghĩa là laptop.",
+  "alt": [
+   "记笔记",
+   "整理笔记"
+  ],
+  "hsk": 4,
+  "ex": "上课的时候要认真做笔记。",
+  "exp": "Shàngkè de shíhou yào rènzhēn zuò bǐjì.",
+  "exvi": "Lúc học trên lớp phải chăm chú ghi chép.",
+  "em": "✍️"
+ },
+ {
+  "deck": "dp",
+  "h": "预习课文",
+  "p": "yù xí kè wén",
+  "hv": "dự tập khóa văn",
+  "vi": "xem trước bài khóa; soạn bài trước",
+  "note": "预习 là đọc trước bài chưa học, ngược với 复习 là ôn bài đã học.",
+  "alt": [
+   "预习生词",
+   "复习课文"
+  ],
+  "hsk": 4,
+  "ex": "明天上课以前，请预习课文。",
+  "exp": "Míngtiān shàngkè yǐqián, qǐng yùxí kèwén.",
+  "exvi": "Trước buổi học ngày mai, các em hãy xem trước bài khóa.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "回答问题",
+  "p": "huí dá wèn tí",
+  "hv": "hồi đáp vấn đề",
+  "vi": "trả lời câu hỏi",
+  "note": "回答 dùng cho câu hỏi. Trả lời tin nhắn, email thì dùng 回 hoặc 回复, không dùng 回答.",
+  "alt": [
+   "提出问题",
+   "讨论问题"
+  ],
+  "hsk": 3,
+  "ex": "老师请他回答问题。",
+  "exp": "Lǎoshī qǐng tā huídá wèntí.",
+  "exvi": "Thầy giáo gọi cậu ấy trả lời câu hỏi.",
+  "em": "🙋"
+ },
+ {
+  "deck": "dp",
+  "h": "收集资料",
+  "p": "shōu jí zī liào",
+  "hv": "thu tập tư liệu",
+  "vi": "thu thập tài liệu; tìm tư liệu",
+  "note": "资料 là tư liệu tham khảo; 材料 thiên về giấy tờ, hồ sơ. 收集 là gom từ nhiều nguồn.",
+  "alt": [
+   "收集信息",
+   "收集意见"
+  ],
+  "hsk": 5,
+  "ex": "写论文以前要先收集资料。",
+  "exp": "Xiě lùnwén yǐqián yào xiān shōují zīliào.",
+  "exvi": "Trước khi viết luận văn phải thu thập tài liệu.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "写论文",
+  "p": "xiě lùn wén",
+  "hv": "tả luận văn",
+  "vi": "viết luận văn; viết bài nghiên cứu",
+  "note": "论文 là luận văn hoặc bài báo khoa học. Luận văn tốt nghiệp là 毕业论文.",
+  "alt": [
+   "发表论文",
+   "修改论文"
+  ],
+  "hsk": 5,
+  "ex": "这个月我一直在写论文，很少出门。",
+  "exp": "Zhège yuè wǒ yìzhí zài xiě lùnwén, hěn shǎo chūmén.",
+  "exvi": "Tháng này tôi toàn ngồi viết luận văn, ít khi ra ngoài.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "申请奖学金",
+  "p": "shēn qǐng jiǎng xué jīn",
+  "hv": "thân thỉnh tưởng học kim",
+  "vi": "xin học bổng; nộp hồ sơ học bổng",
+  "note": "申请 + thứ muốn được cấp (奖学金、签证、工作). Nộp đơn xin cũng là 申请.",
+  "alt": [
+   "申请签证",
+   "申请工作"
+  ],
+  "hsk": 4,
+  "ex": "她打算申请奖学金去中国留学。",
+  "exp": "Tā dǎsuàn shēnqǐng jiǎngxuéjīn qù Zhōngguó liúxué.",
+  "exvi": "Cô ấy định xin học bổng sang Trung Quốc du học.",
+  "em": "🎓"
+ },
+ {
+  "deck": "dp",
+  "h": "打好基础",
+  "p": "dǎ hǎo jī chǔ",
+  "hv": "đả hảo cơ sở",
+  "vi": "xây nền tảng vững; học chắc phần cơ bản",
+  "note": "Ẩn dụ đắp móng nhà. Động từ đi với 基础 là 打, không dùng 做基础.",
+  "alt": [
+   "打基础",
+   "基础知识"
+  ],
+  "hsk": 4,
+  "ex": "学语言，先要打好基础。",
+  "exp": "Xué yǔyán, xiān yào dǎhǎo jīchǔ.",
+  "exvi": "Học ngoại ngữ thì trước hết phải học chắc phần nền tảng.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "掌握语法",
+  "p": "zhǎng wò yǔ fǎ",
+  "hv": "chưởng ác ngữ pháp",
+  "vi": "nắm vững ngữ pháp",
+  "note": "掌握 là nắm vững kiến thức, kỹ năng. 抓住 thì dùng cho cơ hội, không dùng cho kiến thức.",
+  "alt": [
+   "掌握技术",
+   "掌握方法"
+  ],
+  "hsk": 5,
+  "ex": "掌握语法以后，写作会容易很多。",
+  "exp": "Zhǎngwò yǔfǎ yǐhòu, xiězuò huì róngyì hěn duō.",
+  "exvi": "Nắm vững ngữ pháp rồi thì viết sẽ dễ hơn nhiều.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "扩大词汇量",
+  "p": "kuò dà cí huì liàng",
+  "hv": "khuếch đại từ hối lượng",
+  "vi": "mở rộng vốn từ",
+  "note": "词汇量 là vốn từ. Có thể nói 扩大 hoặc 增加词汇量, không nói 提高词汇.",
+  "alt": [
+   "增加词汇量",
+   "扩大范围"
+  ],
+  "hsk": 5,
+  "ex": "多看书可以扩大词汇量。",
+  "exp": "Duō kàn shū kěyǐ kuòdà cíhuìliàng.",
+  "exvi": "Đọc nhiều sách có thể mở rộng vốn từ.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "犯错误",
+  "p": "fàn cuò wù",
+  "hv": "phạm thác ngộ",
+  "vi": "mắc lỗi; phạm sai lầm",
+  "note": "Mắc lỗi dùng động từ 犯, không nói 做错误. Khẩu ngữ hay rút gọn thành 犯错.",
+  "alt": [
+   "犯错",
+   "犯规"
+  ],
+  "hsk": 5,
+  "ex": "每个人都会犯错误，别太难过。",
+  "exp": "Měi ge rén dōu huì fàn cuòwù, bié tài nánguò.",
+  "exvi": "Ai cũng có lúc mắc lỗi, đừng buồn quá.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "改正错误",
+  "p": "gǎi zhèng cuò wù",
+  "hv": "cải chính thác ngộ",
+  "vi": "sửa lỗi; sửa sai",
+  "note": "改正 thường là tự sửa lỗi của mình. Sửa lỗi cho người khác hay dùng 纠正 hoặc 改.",
+  "alt": [
+   "改正缺点",
+   "纠正错误"
+  ],
+  "hsk": 5,
+  "ex": "他很快改正错误，没有再犯。",
+  "exp": "Tā hěn kuài gǎizhèng cuòwù, méiyǒu zài fàn.",
+  "exvi": "Anh ấy sửa sai rất nhanh và không tái phạm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "考试及格",
+  "p": "kǎo shì jí gé",
+  "hv": "khảo thí cập cách",
+  "vi": "thi đạt điểm qua môn",
+  "note": "及格 là đạt mức điểm tối thiểu, thường là 60/100. Trái nghĩa là 不及格, tức là trượt.",
+  "alt": [
+   "考试不及格",
+   "考试通过"
+  ],
+  "hsk": 4,
+  "ex": "只要考试及格，我就满意了。",
+  "exp": "Zhǐyào kǎoshì jígé, wǒ jiù mǎnyì le.",
+  "exvi": "Chỉ cần thi qua môn là tôi hài lòng rồi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "提高水平",
+  "p": "tí gāo shuǐ píng",
+  "hv": "đề cao thủy bình",
+  "vi": "nâng cao trình độ",
+  "note": "Không nói 提高生活, phải nói 提高生活水平. Muốn nói rõ lĩnh vực thì chèn vào giữa: 提高汉语水平.",
+  "alt": [
+   "提高质量",
+   "提高能力"
+  ],
+  "hsk": 3,
+  "ex": "多练习才能提高水平。",
+  "exp": "Duō liànxí cái néng tígāo shuǐpíng.",
+  "exvi": "Luyện tập nhiều mới nâng cao được trình độ.",
+  "em": "📈"
+ },
+ {
+  "deck": "dp",
+  "h": "养成习惯",
+  "p": "yǎng chéng xí guàn",
+  "hv": "dưỡng thành tập quán",
+  "vi": "hình thành thói quen; tập thói quen",
+  "note": "养成 + 习惯 là kết hợp cố định, hay chèn nội dung vào: 养成早起的习惯. Không nói 做成习惯.",
+  "alt": [
+   "改掉习惯",
+   "保持习惯"
+  ],
+  "hsk": 4,
+  "ex": "养成习惯需要时间和耐心。",
+  "exp": "Yǎngchéng xíguàn xūyào shíjiān hé nàixīn.",
+  "exvi": "Hình thành thói quen cần thời gian và sự kiên nhẫn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "主持会议",
+  "p": "zhǔ chí huì yì",
+  "hv": "chủ trì hội nghị",
+  "vi": "chủ trì cuộc họp; điều hành buổi họp",
+  "note": "主持 là điều khiển, dẫn dắt; cũng dùng cho chương trình: 主持节目, người dẫn chương trình là 主持人.",
+  "alt": [
+   "主持节目",
+   "参加会议"
+  ],
+  "hsk": 5,
+  "ex": "经理让我明天主持会议。",
+  "exp": "Jīnglǐ ràng wǒ míngtiān zhǔchí huìyì.",
+  "exvi": "Giám đốc bảo tôi ngày mai chủ trì cuộc họp.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "推迟会议",
+  "p": "tuī chí huì yì",
+  "hv": "thôi trì hội nghị",
+  "vi": "hoãn cuộc họp; dời họp",
+  "note": "推迟 là dời sang thời điểm muộn hơn, hủy hẳn thì dùng 取消. Hay gặp mẫu 推迟到 + thời gian.",
+  "alt": [
+   "推迟时间",
+   "推迟出发"
+  ],
+  "hsk": 4,
+  "ex": "经理生病了，只好推迟会议。",
+  "exp": "Jīnglǐ shēngbìng le, zhǐhǎo tuīchí huìyì.",
+  "exvi": "Giám đốc bị ốm nên đành phải hoãn cuộc họp.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "取消会议",
+  "p": "qǔ xiāo huì yì",
+  "hv": "thủ tiêu hội nghị",
+  "vi": "hủy cuộc họp",
+  "note": "取消 là hủy bỏ (chuyến bay, đơn hàng, cuộc họp). Không dùng 消除, từ này là loại bỏ (ô nhiễm, hiểu lầm).",
+  "alt": [
+   "取消航班",
+   "取消订单"
+  ],
+  "hsk": 4,
+  "ex": "老板临时决定取消会议。",
+  "exp": "Lǎobǎn línshí juédìng qǔxiāo huìyì.",
+  "exvi": "Sếp đột ngột quyết định hủy cuộc họp.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "安排工作",
+  "p": "ān pái gōng zuò",
+  "hv": "an bài công tác",
+  "vi": "sắp xếp công việc; phân công việc",
+  "note": "安排 là sắp xếp, phân công. Mẫu thường gặp: 给某人安排工作.",
+  "alt": [
+   "安排时间",
+   "安排会议"
+  ],
+  "hsk": 4,
+  "ex": "经理每周一给大家安排工作。",
+  "exp": "Jīnglǐ měi zhōu yī gěi dàjiā ānpái gōngzuò.",
+  "exvi": "Thứ Hai hằng tuần giám đốc phân công việc cho mọi người.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "完成任务",
+  "p": "wán chéng rèn wu",
+  "hv": "hoàn thành nhiệm vụ",
+  "vi": "hoàn thành nhiệm vụ; xong việc được giao",
+  "note": "任务 là việc được giao. Giao việc là 布置任务 hoặc 分配任务.",
+  "alt": [
+   "布置任务",
+   "接受任务"
+  ],
+  "hsk": 4,
+  "ex": "我们终于按时完成任务了。",
+  "exp": "Wǒmen zhōngyú ànshí wánchéng rènwu le.",
+  "exvi": "Cuối cùng chúng tôi cũng hoàn thành nhiệm vụ đúng hạn.",
+  "em": "✅"
+ },
+ {
+  "deck": "dp",
+  "h": "交作业",
+  "p": "jiāo zuò yè",
+  "hv": "giao tác nghiệp",
+  "vi": "nộp bài tập",
+  "note": "Nộp bài, nộp báo cáo dùng 交: 交作业, 交报告. 提交 trang trọng hơn, hay dùng trong thông báo.",
+  "alt": [
+   "交报告",
+   "交试卷"
+  ],
+  "hsk": 3,
+  "ex": "明天上课以前一定要交作业。",
+  "exp": "Míngtiān shàngkè yǐqián yídìng yào jiāo zuòyè.",
+  "exvi": "Trước giờ học ngày mai nhất định phải nộp bài tập.",
+  "em": "📝"
+ },
+ {
+  "deck": "dp",
+  "h": "提出建议",
+  "p": "tí chū jiàn yì",
+  "hv": "đề xuất kiến nghị",
+  "vi": "đưa ra đề xuất; góp ý",
+  "note": "Muốn nói đề xuất về việc gì thì dùng 对 + đối tượng + 提出建议. Nghe theo đề xuất là 接受建议.",
+  "alt": [
+   "提出要求",
+   "提出意见"
+  ],
+  "hsk": 4,
+  "ex": "欢迎大家对我们的工作提出建议。",
+  "exp": "Huānyíng dàjiā duì wǒmen de gōngzuò tíchū jiànyì.",
+  "exvi": "Rất mong mọi người góp ý cho công việc của chúng tôi.",
+  "em": "💡"
+ },
+ {
+  "deck": "dp",
+  "h": "接受建议",
+  "p": "jiē shòu jiàn yì",
+  "hv": "tiếp thụ kiến nghị",
+  "vi": "tiếp thu ý kiến; nghe theo đề xuất",
+  "note": "接受 dùng cho thứ trừu tượng (建议、邀请、批评). Nhận đồ vật, thư từ thì dùng 收到 hoặc 接到.",
+  "alt": [
+   "接受邀请",
+   "接受批评"
+  ],
+  "hsk": 4,
+  "ex": "他很愿意接受建议，改进自己的工作。",
+  "exp": "Tā hěn yuànyì jiēshòu jiànyì, gǎijìn zìjǐ de gōngzuò.",
+  "exvi": "Anh ấy rất sẵn lòng tiếp thu góp ý để cải thiện công việc của mình.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "换工作",
+  "p": "huàn gōng zuò",
+  "hv": "hoán công tác",
+  "vi": "đổi việc; chuyển chỗ làm",
+  "note": "换 là đổi cái này sang cái khác: 换工作, 换手机. Nghỉ việc hẳn thì dùng 辞职.",
+  "alt": [
+   "换手机",
+   "换专业"
+  ],
+  "hsk": 3,
+  "ex": "他觉得工资太低，想换工作。",
+  "exp": "Tā juéde gōngzī tài dī, xiǎng huàn gōngzuò.",
+  "exvi": "Anh ấy thấy lương thấp quá nên muốn đổi việc.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "制定计划",
+  "p": "zhì dìng jì huà",
+  "hv": "chế định kế hoạch",
+  "vi": "lập kế hoạch",
+  "note": "制定 là đặt ra, lập ra (kế hoạch, quy định). Khẩu ngữ hay nói 做计划.",
+  "alt": [
+   "制定规则",
+   "制定目标"
+  ],
+  "hsk": 5,
+  "ex": "新学期开始前，我先制定计划。",
+  "exp": "Xīn xuéqī kāishǐ qián, wǒ xiān zhìdìng jìhuà.",
+  "exvi": "Trước khi học kỳ mới bắt đầu, tôi lập kế hoạch trước.",
+  "em": "🗓️"
+ },
+ {
+  "deck": "dp",
+  "h": "实现目标",
+  "p": "shí xiàn mù biāo",
+  "hv": "thực hiện mục tiêu",
+  "vi": "đạt được mục tiêu; hoàn thành mục tiêu",
+  "note": "实现 đi với 目标、梦想、理想. Cũng nói 达到目标, nhưng không nói 实现水平.",
+  "alt": [
+   "实现梦想",
+   "达到目标"
+  ],
+  "hsk": 5,
+  "ex": "只要坚持，就一定能实现目标。",
+  "exp": "Zhǐyào jiānchí, jiù yídìng néng shíxiàn mùbiāo.",
+  "exvi": "Chỉ cần kiên trì thì nhất định sẽ đạt được mục tiêu.",
+  "em": "🎯"
+ },
+ {
+  "deck": "dp",
+  "h": "积累经验",
+  "p": "jī lěi jīng yàn",
+  "hv": "tích lũy kinh nghiệm",
+  "vi": "tích lũy kinh nghiệm",
+  "note": "积累 là gom dần theo thời gian (经验、知识、资金). Không dùng 收集 cho kinh nghiệm.",
+  "alt": [
+   "积累知识",
+   "积累词汇"
+  ],
+  "hsk": 4,
+  "ex": "实习可以帮你积累经验。",
+  "exp": "Shíxí kěyǐ bāng nǐ jīlěi jīngyàn.",
+  "exvi": "Thực tập có thể giúp bạn tích lũy kinh nghiệm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "缺乏经验",
+  "p": "quē fá jīng yàn",
+  "hv": "khuyết phạp kinh nghiệm",
+  "vi": "thiếu kinh nghiệm",
+  "note": "缺乏 trang trọng hơn 没有 hay 缺少, hay gặp trong văn viết và khi nhận xét công việc.",
+  "alt": [
+   "缺乏信心",
+   "缺乏耐心"
+  ],
+  "hsk": 5,
+  "ex": "他刚毕业，还缺乏经验。",
+  "exp": "Tā gāng bìyè, hái quēfá jīngyàn.",
+  "exvi": "Cậu ấy mới tốt nghiệp nên còn thiếu kinh nghiệm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "找工作",
+  "p": "zhǎo gōng zuò",
+  "hv": "trảo công tác",
+  "vi": "tìm việc; kiếm việc làm",
+  "note": "Tìm việc nói chung là 找工作; cách nói trang trọng hơn là 求职 hoặc 申请工作.",
+  "alt": [
+   "找房子",
+   "换工作"
+  ],
+  "hsk": 2,
+  "ex": "大学毕业以后，他开始找工作。",
+  "exp": "Dàxué bìyè yǐhòu, tā kāishǐ zhǎo gōngzuò.",
+  "exvi": "Tốt nghiệp đại học xong, anh ấy bắt đầu tìm việc.",
+  "em": "💼"
+ },
+ {
+  "deck": "dp",
+  "h": "签合同",
+  "p": "qiān hé tong",
+  "hv": "thiêm hợp đồng",
+  "vi": "ký hợp đồng",
+  "note": "合同 đọc hétong, chữ sau thanh nhẹ. Văn trang trọng nói 签订合同; ký tên thì nói 签字 hoặc 签名.",
+  "alt": [
+   "签订合同",
+   "签字"
+  ],
+  "hsk": 5,
+  "ex": "双方下周一正式签合同。",
+  "exp": "Shuāngfāng xià zhōuyī zhèngshì qiān hétong.",
+  "exvi": "Thứ Hai tuần sau hai bên chính thức ký hợp đồng.",
+  "em": "✍️"
+ },
+ {
+  "deck": "dp",
+  "h": "进行谈判",
+  "p": "jìn xíng tán pàn",
+  "hv": "tiến hành đàm phán",
+  "vi": "tiến hành đàm phán; đang thương lượng",
+  "note": "进行 đi với danh động từ hai âm tiết (谈判、讨论、调查), không đi với từ một âm tiết: không nói 进行谈.",
+  "alt": [
+   "进行讨论",
+   "进行调查"
+  ],
+  "hsk": 5,
+  "ex": "两家公司正在进行谈判。",
+  "exp": "Liǎng jiā gōngsī zhèngzài jìnxíng tánpàn.",
+  "exvi": "Hai công ty đang tiến hành đàm phán.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "提高效率",
+  "p": "tí gāo xiào lǜ",
+  "hv": "đề cao hiệu suất",
+  "vi": "nâng cao hiệu suất; làm việc năng suất hơn",
+  "note": "效率 là hiệu suất làm việc. Thường nói đầy đủ là 提高工作效率.",
+  "alt": [
+   "提高质量",
+   "工作效率"
+  ],
+  "hsk": 5,
+  "ex": "用这个软件可以提高效率。",
+  "exp": "Yòng zhège ruǎnjiàn kěyǐ tígāo xiàolǜ.",
+  "exvi": "Dùng phần mềm này có thể làm việc năng suất hơn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "汇报工作",
+  "p": "huì bào gōng zuò",
+  "hv": "hối báo công tác",
+  "vi": "báo cáo công việc (với cấp trên)",
+  "note": "汇报 là báo cáo lên cấp trên, thường theo mẫu 向 + người + 汇报. Báo cáo bằng văn bản là 写报告.",
+  "alt": [
+   "汇报情况",
+   "汇报进度"
+  ],
+  "hsk": 6,
+  "ex": "每周五我要向经理汇报工作。",
+  "exp": "Měi zhōu wǔ wǒ yào xiàng jīnglǐ huìbào gōngzuò.",
+  "exvi": "Thứ Sáu hằng tuần tôi phải báo cáo công việc với giám đốc.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "写报告",
+  "p": "xiě bào gào",
+  "hv": "tả báo cáo",
+  "vi": "viết báo cáo",
+  "note": "写报告 là viết báo cáo; 做报告 là trình bày báo cáo trước người nghe.",
+  "alt": [
+   "交报告",
+   "做报告"
+  ],
+  "hsk": 5,
+  "ex": "他加班写报告到晚上十点。",
+  "exp": "Tā jiābān xiě bàogào dào wǎnshang shí diǎn.",
+  "exvi": "Anh ấy tăng ca viết báo cáo đến mười giờ tối.",
+  "em": "📄"
+ },
+ {
+  "deck": "dp",
+  "h": "发邮件",
+  "p": "fā yóu jiàn",
+  "hv": "phát bưu kiện",
+  "vi": "gửi email",
+  "note": "Gửi email dùng 发, theo mẫu 给某人发邮件. Không nói 送邮件.",
+  "alt": [
+   "回邮件",
+   "收邮件"
+  ],
+  "hsk": 3,
+  "ex": "我已经给客户发邮件了。",
+  "exp": "Wǒ yǐjīng gěi kèhù fā yóujiàn le.",
+  "exvi": "Tôi đã gửi email cho khách hàng rồi.",
+  "em": "📧"
+ },
+ {
+  "deck": "dp",
+  "h": "复印材料",
+  "p": "fù yìn cái liào",
+  "hv": "phục ấn tài liệu",
+  "vi": "photo tài liệu",
+  "note": "复印 là photo, sao chụp; in từ máy tính ra là 打印. Người Việt hay nhầm hai từ này.",
+  "alt": [
+   "打印材料",
+   "准备材料"
+  ],
+  "hsk": 4,
+  "ex": "开会前，请帮我复印材料。",
+  "exp": "Kāihuì qián, qǐng bāng wǒ fùyìn cáiliào.",
+  "exvi": "Trước khi họp, nhờ bạn photo tài liệu giúp tôi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "背生词",
+  "p": "bèi shēng cí",
+  "hv": "bối sinh từ",
+  "vi": "học thuộc từ mới",
+  "note": "背 ở đây đọc bèi, nghĩa là học thuộc lòng: 背生词, 背课文. Nói 记生词 cũng được, nhưng 背 nhấn vào việc học thuộc.",
+  "alt": [
+   "背课文",
+   "记生词"
+  ],
+  "hsk": 4,
+  "ex": "我每天早上花二十分钟背生词。",
+  "exp": "Wǒ měitiān zǎoshang huā èrshí fēnzhōng bèi shēngcí.",
+  "exvi": "Sáng nào mình cũng dành hai mươi phút học thuộc từ mới.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "参加培训",
+  "p": "cān jiā péi xùn",
+  "hv": "tham gia bồi huấn",
+  "vi": "tham gia khóa đào tạo; đi tập huấn",
+  "note": "培训 là đào tạo ngắn hạn cho công việc, khác 培养 là bồi dưỡng lâu dài. Công ty tổ chức đào tạo là 组织培训.",
+  "alt": [
+   "接受培训",
+   "参加会议"
+  ],
+  "hsk": 5,
+  "ex": "新员工要先参加培训才能上岗。",
+  "exp": "Xīn yuángōng yào xiān cānjiā péixùn cái néng shànggǎng.",
+  "exvi": "Nhân viên mới phải tham gia đào tạo trước rồi mới được nhận việc.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "谈生意",
+  "p": "tán shēng yi",
+  "hv": "đàm sinh ý",
+  "vi": "bàn chuyện làm ăn",
+  "note": "生意 đọc shēngyi, chữ sau thanh nhẹ. Làm ăn buôn bán nói chung là 做生意.",
+  "alt": [
+   "做生意",
+   "谈合作"
+  ],
+  "hsk": 5,
+  "ex": "他经常去广州跟客户谈生意。",
+  "exp": "Tā jīngcháng qù Guǎngzhōu gēn kèhù tán shēngyi.",
+  "exvi": "Anh ấy thường đi Quảng Châu bàn chuyện làm ăn với khách hàng.",
+  "em": "🤝"
+ },
+ {
+  "deck": "dp",
+  "h": "扩大市场",
+  "p": "kuò dà shì chǎng",
+  "hv": "khuếch đại thị trường",
+  "vi": "mở rộng thị trường",
+  "note": "扩大 là làm cho lớn rộng hơn (市场、规模、范围). Mở thị trường mới hoàn toàn hay dùng 开拓市场.",
+  "alt": [
+   "开拓市场",
+   "扩大规模"
+  ],
+  "hsk": 5,
+  "ex": "我们需要新产品来扩大市场。",
+  "exp": "Wǒmen xūyào xīn chǎnpǐn lái kuòdà shìchǎng.",
+  "exvi": "Chúng ta cần sản phẩm mới để mở rộng thị trường.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "负责项目",
+  "p": "fù zé xiàng mù",
+  "hv": "phụ trách hạng mục",
+  "vi": "phụ trách dự án",
+  "note": "负责 + mảng việc mình phụ trách. Người phụ trách là 负责人.",
+  "alt": [
+   "负责销售",
+   "负责招聘"
+  ],
+  "hsk": 5,
+  "ex": "我在公司主要负责项目管理。",
+  "exp": "Wǒ zài gōngsī zhǔyào fùzé xiàngmù guǎnlǐ.",
+  "exvi": "Ở công ty tôi chủ yếu phụ trách quản lý dự án.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "联系客户",
+  "p": "lián xì kè hù",
+  "hv": "liên hệ khách hộ",
+  "vi": "liên hệ khách hàng",
+  "note": "联系 dùng trực tiếp với tân ngữ (联系客户) hoặc theo mẫu 跟 + người + 联系.",
+  "alt": [
+   "拜访客户",
+   "服务客户"
+  ],
+  "hsk": 5,
+  "ex": "销售每天都要联系客户。",
+  "exp": "Xiāoshòu měi tiān dōu yào liánxì kèhù.",
+  "exvi": "Nhân viên bán hàng ngày nào cũng phải liên hệ khách hàng.",
+  "em": "📞"
+ },
+ {
+  "deck": "dp",
+  "h": "招聘员工",
+  "p": "zhāo pìn yuán gōng",
+  "hv": "chiêu sính viên công",
+  "vi": "tuyển nhân viên; tuyển dụng",
+  "note": "招聘 là phía công ty tuyển người; phía người đi xin việc thì là 应聘 hoặc 求职.",
+  "alt": [
+   "招聘人才",
+   "培训员工"
+  ],
+  "hsk": 5,
+  "ex": "公司最近在招聘员工。",
+  "exp": "Gōngsī zuìjìn zài zhāopìn yuángōng.",
+  "exvi": "Dạo này công ty đang tuyển nhân viên.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "涨工资",
+  "p": "zhǎng gōng zī",
+  "hv": "trướng công tư",
+  "vi": "tăng lương",
+  "note": "Cách nói khẩu ngữ; trang trọng hơn là 加薪. 涨 ở đây đọc zhǎng.",
+  "alt": [
+   "发工资",
+   "扣工资"
+  ],
+  "hsk": 5,
+  "ex": "听说明年要给大家涨工资。",
+  "exp": "Tīngshuō míngnián yào gěi dàjiā zhǎng gōngzī.",
+  "exvi": "Nghe nói sang năm sẽ tăng lương cho mọi người.",
+  "em": "💰"
+ },
+ {
+  "deck": "dp",
+  "h": "抓住机会",
+  "p": "zhuā zhù jī huì",
+  "hv": "trảo trụ cơ hội",
+  "vi": "nắm bắt cơ hội",
+  "note": "抓住 là nắm chặt, không để tuột. Bỏ lỡ cơ hội là 错过机会.",
+  "alt": [
+   "错过机会",
+   "把握机会"
+  ],
+  "hsk": 4,
+  "ex": "机会难得，你一定要抓住机会。",
+  "exp": "Jīhuì nándé, nǐ yídìng yào zhuāzhù jīhuì.",
+  "exvi": "Cơ hội hiếm có, bạn nhất định phải nắm lấy.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "适应环境",
+  "p": "shì yìng huán jìng",
+  "hv": "thích ứng hoàn cảnh",
+  "vi": "thích nghi với môi trường",
+  "note": "适应 đi thẳng với tân ngữ, không cần giới từ: không nói 适应于环境 trong khẩu ngữ.",
+  "alt": [
+   "适应生活",
+   "适应工作"
+  ],
+  "hsk": 4,
+  "ex": "去国外工作要先适应环境。",
+  "exp": "Qù guówài gōngzuò yào xiān shìyìng huánjìng.",
+  "exvi": "Sang nước ngoài làm việc thì trước hết phải thích nghi với môi trường.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "投简历",
+  "p": "tóu jiǎn lì",
+  "hv": "đầu giản lịch",
+  "vi": "nộp CV; rải hồ sơ xin việc",
+  "note": "Cách nói khẩu ngữ phổ biến khi đi xin việc. 简历 là CV, sơ yếu lý lịch.",
+  "alt": [
+   "写简历",
+   "发简历"
+  ],
+  "hsk": 5,
+  "ex": "毕业前，我开始给公司投简历。",
+  "exp": "Bìyè qián, wǒ kāishǐ gěi gōngsī tóu jiǎnlì.",
+  "exvi": "Trước khi tốt nghiệp, tôi bắt đầu nộp CV cho các công ty.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "参加面试",
+  "p": "cān jiā miàn shì",
+  "hv": "tham gia diện thí",
+  "vi": "đi phỏng vấn; dự phỏng vấn",
+  "note": "面试 là phỏng vấn tuyển dụng hoặc thi vấn đáp. Phỏng vấn của nhà báo là 采访, không phải 面试.",
+  "alt": [
+   "通过面试",
+   "准备面试"
+  ],
+  "hsk": 4,
+  "ex": "明天上午我要去参加面试。",
+  "exp": "Míngtiān shàngwǔ wǒ yào qù cānjiā miànshì.",
+  "exvi": "Sáng mai tôi phải đi phỏng vấn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "提交申请",
+  "p": "tí jiāo shēn qǐng",
+  "hv": "đề giao thân thỉnh",
+  "vi": "nộp đơn; gửi hồ sơ đăng ký",
+  "note": "提交 là nộp lên (đơn, báo cáo, hồ sơ), dùng trong văn bản và thông báo chính thức.",
+  "alt": [
+   "提交报告",
+   "提交材料"
+  ],
+  "hsk": 5,
+  "ex": "请在五号以前提交申请。",
+  "exp": "Qǐng zài wǔ hào yǐqián tíjiāo shēnqǐng.",
+  "exvi": "Vui lòng nộp đơn trước ngày mùng năm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "做决定",
+  "p": "zuò jué dìng",
+  "hv": "tố quyết định",
+  "vi": "ra quyết định; quyết định",
+  "note": "Nói 做决定 hoặc 作出决定 (trang trọng hơn). Quyết tâm là 下决心, không nói 做决心.",
+  "alt": [
+   "下决心",
+   "作出决定"
+  ],
+  "hsk": 3,
+  "ex": "这件事你自己做决定吧。",
+  "exp": "Zhè jiàn shì nǐ zìjǐ zuò juédìng ba.",
+  "exvi": "Việc này bạn tự quyết định đi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "上网课",
+  "p": "shàng wǎng kè",
+  "hv": "thượng võng khóa",
+  "vi": "học online; học trực tuyến",
+  "note": "上课 là từ ly hợp nên chen được loại giờ học vào giữa: 上网课, 上汉语课.",
+  "alt": [
+   "上汉语课",
+   "听网课"
+  ],
+  "hsk": 4,
+  "ex": "这个学期我们大部分时间都在家上网课。",
+  "exp": "Zhège xuéqī wǒmen dà bùfen shíjiān dōu zài jiā shàng wǎngkè.",
+  "exvi": "Học kỳ này phần lớn thời gian tụi mình học online ở nhà.",
+  "em": "💻"
+ },
+ {
+  "deck": "dp",
+  "h": "读研究生",
+  "p": "dú yán jiū shēng",
+  "hv": "độc nghiên cứu sinh",
+  "vi": "học cao học; học sau đại học",
+  "note": "研究生 là học viên sau đại học (thạc sĩ, tiến sĩ), rộng hơn nghiên cứu sinh trong tiếng Việt vốn thường chỉ tiến sĩ. Theo học một bậc dùng 读 hoặc 上: 读大学, 读研究生.",
+  "alt": [
+   "读大学",
+   "考研究生"
+  ],
+  "hsk": 4,
+  "ex": "大学毕业后，她想出国读研究生。",
+  "exp": "Dàxué bìyè hòu, tā xiǎng chūguó dú yánjiūshēng.",
+  "exvi": "Tốt nghiệp đại học xong, cô ấy muốn ra nước ngoài học cao học.",
+  "em": "🎓"
+ },
+ {
+  "deck": "dp",
+  "h": "分配任务",
+  "p": "fēn pèi rèn wu",
+  "hv": "phân phối nhiệm vụ",
+  "vi": "phân công nhiệm vụ; giao việc",
+  "note": "分配 là chia cho từng người: 分配任务, 分配工作. 任务 đọc rènwu, chữ sau thanh nhẹ.",
+  "alt": [
+   "分配工作",
+   "布置任务"
+  ],
+  "hsk": 5,
+  "ex": "组长给每个人分配任务。",
+  "exp": "Zǔzhǎng gěi měi ge rén fēnpèi rènwu.",
+  "exvi": "Tổ trưởng phân công nhiệm vụ cho từng người.",
+  "em": ""
+ }
+]

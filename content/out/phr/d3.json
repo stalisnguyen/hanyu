@@ -1,0 +1,1081 @@
+[
+ {
+  "deck": "dp",
+  "h": "表达感情",
+  "p": "biǎo dá gǎn qíng",
+  "hv": "biểu đạt cảm tình",
+  "vi": "bày tỏ tình cảm",
+  "note": "表达 đi với 感情, 想法, 意见, 观点, nhấn vào việc diễn đạt ra bằng lời hoặc hành động. Lời cảm ơn thì thường dùng 表示感谢.",
+  "alt": [
+   "表达想法",
+   "表达观点",
+   "表达意见"
+  ],
+  "hsk": 4,
+  "ex": "他不太善于用语言表达感情。",
+  "exp": "Tā bú tài shànyú yòng yǔyán biǎodá gǎnqíng.",
+  "exvi": "Anh ấy không giỏi dùng lời nói để bày tỏ tình cảm.",
+  "em": "❤️"
+ },
+ {
+  "deck": "dp",
+  "h": "发表意见",
+  "p": "fā biǎo yì jiàn",
+  "hv": "phát biểu ý kiến",
+  "vi": "nêu ý kiến; phát biểu quan điểm",
+  "note": "发表 dùng cho việc nói ra công khai trước nhiều người. Người Việt hay nói 说意见, nên nói 发表意见 hoặc 提意见.",
+  "alt": [
+   "发表看法",
+   "发表文章",
+   "发表讲话"
+  ],
+  "hsk": 4,
+  "ex": "开会的时候，每个人都可以发表意见。",
+  "exp": "Kāihuì de shíhou, měi gè rén dōu kěyǐ fābiǎo yìjiàn.",
+  "exvi": "Khi họp, mỗi người đều có thể nêu ý kiến.",
+  "em": "🗣️"
+ },
+ {
+  "deck": "dp",
+  "h": "鼓起勇气",
+  "p": "gǔ qǐ yǒng qì",
+  "hv": "cổ khởi dũng khí",
+  "vi": "lấy hết can đảm; lấy dũng khí",
+  "note": "鼓起 là gom hết sức để làm việc mình ngại. Hay theo mẫu 鼓起勇气 + động từ: 鼓起勇气表白.",
+  "alt": [
+   "拿出勇气",
+   "没有勇气"
+  ],
+  "hsk": 5,
+  "ex": "他终于鼓起勇气向她表白了。",
+  "exp": "Tā zhōngyú gǔqǐ yǒngqì xiàng tā biǎobái le.",
+  "exvi": "Cuối cùng anh ấy cũng lấy hết can đảm tỏ tình với cô ấy.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "交换意见",
+  "p": "jiāo huàn yì jiàn",
+  "hv": "giao hoán ý kiến",
+  "vi": "trao đổi ý kiến",
+  "note": "交换 nghĩa gốc là đổi cho nhau, đi với 意见, 看法, 礼物. Hay dùng trong văn phong hơi trang trọng như họp, đàm phán.",
+  "alt": [
+   "交换看法",
+   "交换礼物",
+   "交换联系方式"
+  ],
+  "hsk": 4,
+  "ex": "我们先交换意见，再做决定吧。",
+  "exp": "Wǒmen xiān jiāohuàn yìjiàn, zài zuò juédìng ba.",
+  "exvi": "Chúng ta trao đổi ý kiến trước rồi hãy quyết định nhé.",
+  "em": "🔄"
+ },
+ {
+  "deck": "dp",
+  "h": "保持联系",
+  "p": "bǎo chí lián xì",
+  "hv": "bảo trì liên hệ",
+  "vi": "giữ liên lạc",
+  "note": "Câu chào tạm biệt rất hay dùng: 我们保持联系. Đừng dùng 保留 (giữ lại đồ vật) thay cho 保持.",
+  "alt": [
+   "保持距离",
+   "保持沉默",
+   "保持冷静"
+  ],
+  "hsk": 4,
+  "ex": "毕业以后，我们一直保持联系。",
+  "exp": "Bìyè yǐhòu, wǒmen yìzhí bǎochí liánxì.",
+  "exvi": "Sau khi tốt nghiệp, chúng tôi vẫn luôn giữ liên lạc.",
+  "em": "📱"
+ },
+ {
+  "deck": "dp",
+  "h": "失去联系",
+  "p": "shī qù lián xì",
+  "hv": "thất khứ liên hệ",
+  "vi": "mất liên lạc",
+  "note": "Có thể nói 和某人失去联系 hoặc 跟某人失去了联系. Ngược nghĩa với 保持联系.",
+  "alt": [
+   "失去机会",
+   "失去信心",
+   "失去兴趣"
+  ],
+  "hsk": 4,
+  "ex": "搬家以后，我们就失去联系了。",
+  "exp": "Bānjiā yǐhòu, wǒmen jiù shīqù liánxì le.",
+  "exvi": "Sau khi chuyển nhà, chúng tôi mất liên lạc với nhau.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "建立关系",
+  "p": "jiàn lì guān xi",
+  "hv": "kiến lập quan hệ",
+  "vi": "xây dựng mối quan hệ",
+  "note": "建立 đi với 关系, 信任, 联系, 家庭. Người Việt hay dịch thẳng 建设关系, nhưng 建设 chỉ dùng cho công trình, đất nước.",
+  "alt": [
+   "建立信任",
+   "建立联系",
+   "建立家庭"
+  ],
+  "hsk": 5,
+  "ex": "刚到新公司，要先和同事建立关系。",
+  "exp": "Gāng dào xīn gōngsī, yào xiān hé tóngshì jiànlì guānxi.",
+  "exvi": "Mới đến công ty mới, trước hết phải xây dựng quan hệ với đồng nghiệp.",
+  "em": "🤝"
+ },
+ {
+  "deck": "dp",
+  "h": "改善关系",
+  "p": "gǎi shàn guān xi",
+  "hv": "cải thiện quan hệ",
+  "vi": "cải thiện mối quan hệ",
+  "note": "改善 dùng cho thứ đang chưa tốt: 关系, 环境, 条件, 生活. Không nói 改善水平, nói 提高水平.",
+  "alt": [
+   "改善环境",
+   "改善条件",
+   "改善生活"
+  ],
+  "hsk": 5,
+  "ex": "他们想通过这次旅行改善关系。",
+  "exp": "Tāmen xiǎng tōngguò zhè cì lǚxíng gǎishàn guānxi.",
+  "exvi": "Họ muốn cải thiện quan hệ qua chuyến du lịch này.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "增进感情",
+  "p": "zēng jìn gǎn qíng",
+  "hv": "tăng tiến cảm tình",
+  "vi": "thắt chặt tình cảm",
+  "note": "增进 đi với 感情, 友谊, 了解, mang sắc thái tích cực, hơi trang trọng.",
+  "alt": [
+   "增进友谊",
+   "增进了解",
+   "加深感情"
+  ],
+  "hsk": 5,
+  "ex": "一起做饭可以增进感情。",
+  "exp": "Yìqǐ zuòfàn kěyǐ zēngjìn gǎnqíng.",
+  "exvi": "Cùng nhau nấu ăn có thể thắt chặt tình cảm.",
+  "em": "🥰"
+ },
+ {
+  "deck": "dp",
+  "h": "赢得信任",
+  "p": "yíng dé xìn rèn",
+  "hv": "doanh đắc tín nhiệm",
+  "vi": "giành được sự tin tưởng",
+  "note": "赢得 dùng cho thứ phải cố gắng mới có: 信任, 尊重, 支持, 掌声.",
+  "alt": [
+   "赢得尊重",
+   "赢得支持",
+   "赢得比赛"
+  ],
+  "hsk": 5,
+  "ex": "只有说到做到，才能赢得信任。",
+  "exp": "Zhǐyǒu shuōdào zuòdào, cái néng yíngdé xìnrèn.",
+  "exvi": "Chỉ có nói được làm được mới giành được sự tin tưởng.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "互相信任",
+  "p": "hù xiāng xìn rèn",
+  "hv": "hỗ tương tín nhiệm",
+  "vi": "tin tưởng lẫn nhau",
+  "note": "互相 đứng trước động từ: 互相信任, 互相理解, 互相帮助. Không đặt sau động từ như tiếng Việt (tin nhau).",
+  "alt": [
+   "互相理解",
+   "互相尊重",
+   "互相帮助"
+  ],
+  "hsk": 4,
+  "ex": "夫妻之间应该互相信任。",
+  "exp": "Fūqī zhījiān yīnggāi hùxiāng xìnrèn.",
+  "exvi": "Giữa vợ chồng nên tin tưởng lẫn nhau.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "互相理解",
+  "p": "hù xiāng lǐ jiě",
+  "hv": "hỗ tương lý giải",
+  "vi": "thấu hiểu lẫn nhau",
+  "note": "理解 ở đây là thông cảm, hiểu cho người khác, không chỉ là hiểu nghĩa. Hay đi cùng 互相 hoặc 表示理解.",
+  "alt": [
+   "互相支持",
+   "互相尊重",
+   "表示理解"
+  ],
+  "hsk": 4,
+  "ex": "朋友之间最重要的是互相理解。",
+  "exp": "Péngyou zhījiān zuì zhòngyào de shì hùxiāng lǐjiě.",
+  "exvi": "Giữa bạn bè, quan trọng nhất là thấu hiểu lẫn nhau.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "尊重别人",
+  "p": "zūn zhòng bié rén",
+  "hv": "tôn trọng biệt nhân",
+  "vi": "tôn trọng người khác",
+  "note": "尊重 đi với người hoặc 意见, 选择, 习惯. Không nói 尊敬意见; 尊敬 thường chỉ dùng với người bề trên.",
+  "alt": [
+   "尊重意见",
+   "尊重选择",
+   "尊重习惯"
+  ],
+  "hsk": 4,
+  "ex": "想让别人尊重你，你得先尊重别人。",
+  "exp": "Xiǎng ràng biérén zūnzhòng nǐ, nǐ děi xiān zūnzhòng biérén.",
+  "exvi": "Muốn người khác tôn trọng mình, bạn phải tôn trọng người khác trước.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "原谅别人",
+  "p": "yuán liàng bié rén",
+  "hv": "nguyên lượng biệt nhân",
+  "vi": "tha thứ cho người khác",
+  "note": "原谅 + người, không cần thêm 给. Người Việt hay nói 给他原谅, sai; nói 原谅他.",
+  "alt": [
+   "原谅错误",
+   "请求原谅",
+   "得到原谅"
+  ],
+  "hsk": 4,
+  "ex": "学会原谅别人，自己也会更轻松。",
+  "exp": "Xuéhuì yuánliàng biérén, zìjǐ yě huì gèng qīngsōng.",
+  "exvi": "Học cách tha thứ cho người khác, bản thân cũng sẽ nhẹ nhõm hơn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "关心家人",
+  "p": "guān xīn jiā rén",
+  "hv": "quan tâm gia nhân",
+  "vi": "quan tâm đến người nhà",
+  "note": "关心 là động từ, đi thẳng với tân ngữ: 关心家人. Không cần thêm giới từ hay 到 như khi dịch 'quan tâm đến'.",
+  "alt": [
+   "关心别人",
+   "关心健康",
+   "关心孩子"
+  ],
+  "hsk": 3,
+  "ex": "工作再忙，也要多关心家人。",
+  "exp": "Gōngzuò zài máng, yě yào duō guānxīn jiārén.",
+  "exvi": "Công việc dù bận đến đâu cũng phải quan tâm người nhà nhiều hơn.",
+  "em": "👨‍👩‍👧"
+ },
+ {
+  "deck": "dp",
+  "h": "照顾孩子",
+  "p": "zhào gù hái zi",
+  "hv": "chiếu cố hài tử",
+  "vi": "chăm sóc con cái",
+  "note": "照顾 nghĩa là chăm sóc, không phải 'chiếu cố' theo nghĩa tiếng Việt. Đi với 孩子, 老人, 病人, 自己.",
+  "alt": [
+   "照顾老人",
+   "照顾病人",
+   "照顾好自己"
+  ],
+  "hsk": 3,
+  "ex": "她辞职在家照顾孩子。",
+  "exp": "Tā cízhí zài jiā zhàogù háizi.",
+  "exvi": "Cô ấy nghỉ việc ở nhà chăm con.",
+  "em": "👶"
+ },
+ {
+  "deck": "dp",
+  "h": "陪伴家人",
+  "p": "péi bàn jiā rén",
+  "hv": "bồi bạn gia nhân",
+  "vi": "ở bên gia đình",
+  "note": "陪伴 mang sắc thái tình cảm, lâu dài; khẩu ngữ thường chỉ nói 陪. Ví dụ 陪孩子玩.",
+  "alt": [
+   "陪伴孩子",
+   "陪伴父母",
+   "陪伴左右"
+  ],
+  "hsk": 5,
+  "ex": "周末我想多花点时间陪伴家人。",
+  "exp": "Zhōumò wǒ xiǎng duō huā diǎn shíjiān péibàn jiārén.",
+  "exvi": "Cuối tuần tôi muốn dành nhiều thời gian hơn ở bên gia đình.",
+  "em": "🏠"
+ },
+ {
+  "deck": "dp",
+  "h": "孝顺父母",
+  "p": "xiào shùn fù mǔ",
+  "hv": "hiếu thuận phụ mẫu",
+  "vi": "hiếu thảo với cha mẹ",
+  "note": "孝顺 là động từ, đi thẳng với 父母: 孝顺父母. Cũng dùng làm tính từ: 他很孝顺.",
+  "alt": [
+   "照顾父母",
+   "尊敬父母",
+   "报答父母"
+  ],
+  "hsk": 5,
+  "ex": "他是个孝顺父母的好儿子。",
+  "exp": "Tā shì gè xiàoshùn fùmǔ de hǎo érzi.",
+  "exvi": "Anh ấy là đứa con trai ngoan, hiếu thảo với cha mẹ.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "组成家庭",
+  "p": "zǔ chéng jiā tíng",
+  "hv": "tổ thành gia đình",
+  "vi": "lập gia đình",
+  "note": "Văn phong viết; khẩu ngữ hay nói 成家. Không nói 做家庭.",
+  "alt": [
+   "组成团队",
+   "组成部分",
+   "建立家庭"
+  ],
+  "hsk": 5,
+  "ex": "两个人相爱，结婚后组成家庭。",
+  "exp": "Liǎng gè rén xiāng'ài, jiéhūn hòu zǔchéng jiātíng.",
+  "exvi": "Hai người yêu nhau, sau khi cưới thì lập gia đình.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "承担责任",
+  "p": "chéng dān zé rèn",
+  "hv": "thừa đảm trách nhiệm",
+  "vi": "gánh vác trách nhiệm; chịu trách nhiệm",
+  "note": "责任 đi với 承担, 负. Không nói 拿责任 hay 接责任.",
+  "alt": [
+   "负责任",
+   "承担后果",
+   "承担费用"
+  ],
+  "hsk": 5,
+  "ex": "做错了事就要勇敢地承担责任。",
+  "exp": "Zuòcuòle shì jiù yào yǒnggǎn de chéngdān zérèn.",
+  "exvi": "Làm sai thì phải dũng cảm chịu trách nhiệm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "控制情绪",
+  "p": "kòng zhì qíng xù",
+  "hv": "khống chế tình tự",
+  "vi": "kiềm chế cảm xúc",
+  "note": "情绪 là cảm xúc nhất thời (vui, buồn, giận), khác 感情 là tình cảm giữa người với người. Không nói 控制感情 với nghĩa kiềm chế cơn giận.",
+  "alt": [
+   "控制时间",
+   "控制体重",
+   "稳定情绪"
+  ],
+  "hsk": 5,
+  "ex": "生气的时候要学会控制情绪。",
+  "exp": "Shēngqì de shíhou yào xuéhuì kòngzhì qíngxù.",
+  "exvi": "Khi tức giận phải học cách kiềm chế cảm xúc.",
+  "em": "😤"
+ },
+ {
+  "deck": "dp",
+  "h": "发脾气",
+  "p": "fā pí qi",
+  "hv": "phát tỳ khí",
+  "vi": "nổi nóng, cáu giận",
+  "note": "发脾气 là cụm li hợp: 发了一顿脾气, 对他发脾气. Không nói 发脾气他.",
+  "alt": [
+   "乱发脾气",
+   "脾气很好",
+   "脾气很大"
+  ],
+  "hsk": 4,
+  "ex": "他累的时候很容易发脾气。",
+  "exp": "Tā lèi de shíhou hěn róngyì fā píqi.",
+  "exvi": "Lúc mệt anh ấy rất dễ nổi nóng.",
+  "em": "😠"
+ },
+ {
+  "deck": "dp",
+  "h": "性格开朗",
+  "p": "xìng gé kāi lǎng",
+  "hv": "tính cách khai lãng",
+  "vi": "tính cách vui vẻ, cởi mở",
+  "note": "Mẫu 性格 + tính từ dùng để tả người. 开朗 là sáng sủa, cởi mở, trái nghĩa với 内向.",
+  "alt": [
+   "性格活泼",
+   "性格外向",
+   "性格温柔"
+  ],
+  "hsk": 5,
+  "ex": "她性格开朗，大家都喜欢和她聊天。",
+  "exp": "Tā xìnggé kāilǎng, dàjiā dōu xǐhuan hé tā liáotiān.",
+  "exvi": "Cô ấy tính cách cởi mở, mọi người đều thích trò chuyện với cô ấy.",
+  "em": "😄"
+ },
+ {
+  "deck": "dp",
+  "h": "性格内向",
+  "p": "xìng gé nèi xiàng",
+  "hv": "tính cách nội hướng",
+  "vi": "tính cách hướng nội, ít nói",
+  "note": "内向 trái nghĩa 外向. Không mang nghĩa xấu, chỉ là ít bộc lộ.",
+  "alt": [
+   "性格外向",
+   "性格害羞",
+   "不爱说话"
+  ],
+  "hsk": 5,
+  "ex": "他性格内向，在陌生人面前很少说话。",
+  "exp": "Tā xìnggé nèixiàng, zài mòshēngrén miànqián hěn shǎo shuōhuà.",
+  "exvi": "Anh ấy hướng nội, trước mặt người lạ rất ít nói.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "心情愉快",
+  "p": "xīn qíng yú kuài",
+  "hv": "tâm tình du khoái",
+  "vi": "tâm trạng vui vẻ",
+  "note": "愉快 hơi trang trọng hơn 高兴, hay dùng trong lời chúc: 祝你周末愉快.",
+  "alt": [
+   "心情不好",
+   "心情很差",
+   "旅途愉快"
+  ],
+  "hsk": 4,
+  "ex": "今天天气很好，大家心情愉快。",
+  "exp": "Jīntiān tiānqì hěn hǎo, dàjiā xīnqíng yúkuài.",
+  "exvi": "Hôm nay trời đẹp, ai cũng có tâm trạng vui vẻ.",
+  "em": "😊"
+ },
+ {
+  "deck": "dp",
+  "h": "感到失望",
+  "p": "gǎn dào shī wàng",
+  "hv": "cảm đáo thất vọng",
+  "vi": "cảm thấy thất vọng",
+  "note": "Có thể nói 对某人感到失望. 感到 + tính từ cảm xúc: 感到高兴, 感到孤独.",
+  "alt": [
+   "感到高兴",
+   "感到难过",
+   "令人失望"
+  ],
+  "hsk": 4,
+  "ex": "他又迟到了，我对他感到失望。",
+  "exp": "Tā yòu chídào le, wǒ duì tā gǎndào shīwàng.",
+  "exvi": "Anh ấy lại đến muộn, tôi thấy thất vọng về anh ấy.",
+  "em": "😞"
+ },
+ {
+  "deck": "dp",
+  "h": "感到骄傲",
+  "p": "gǎn dào jiāo ào",
+  "hv": "cảm đáo kiêu ngạo",
+  "vi": "cảm thấy tự hào",
+  "note": "骄傲 có hai nghĩa: tự hào (tốt) và kiêu căng (xấu). 为某人感到骄傲 luôn là nghĩa tốt.",
+  "alt": [
+   "感到自豪",
+   "感到满意",
+   "为你骄傲"
+  ],
+  "hsk": 4,
+  "ex": "父母为女儿的成绩感到骄傲。",
+  "exp": "Fùmǔ wèi nǚ'ér de chéngjì gǎndào jiāo'ào.",
+  "exvi": "Bố mẹ cảm thấy tự hào về thành tích của con gái.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "充满信心",
+  "p": "chōng mǎn xìn xīn",
+  "hv": "sung mãn tín tâm",
+  "vi": "đầy tự tin",
+  "note": "Hay dùng mẫu 对……充满信心. Cũng nói 充满希望, 充满活力.",
+  "alt": [
+   "充满希望",
+   "充满活力",
+   "失去信心"
+  ],
+  "hsk": 4,
+  "ex": "我对这次面试充满信心。",
+  "exp": "Wǒ duì zhè cì miànshì chōngmǎn xìnxīn.",
+  "exvi": "Tôi rất tự tin về buổi phỏng vấn lần này.",
+  "em": "💪"
+ },
+ {
+  "deck": "dp",
+  "h": "表示感谢",
+  "p": "biǎo shì gǎn xiè",
+  "hv": "biểu thị cảm tạ",
+  "vi": "bày tỏ lòng biết ơn",
+  "note": "表示 đi với 感谢, 同意, 歉意, 欢迎. Người Việt hay dùng 表达感谢; vẫn hiểu được nhưng 表示感谢 tự nhiên hơn.",
+  "alt": [
+   "表示欢迎",
+   "表示关心",
+   "表示支持"
+  ],
+  "hsk": 4,
+  "ex": "我想对大家的帮助表示感谢。",
+  "exp": "Wǒ xiǎng duì dàjiā de bāngzhù biǎoshì gǎnxiè.",
+  "exvi": "Tôi muốn bày tỏ lòng biết ơn vì sự giúp đỡ của mọi người.",
+  "em": "🙏"
+ },
+ {
+  "deck": "dp",
+  "h": "表示同意",
+  "p": "biǎo shì tóng yì",
+  "hv": "biểu thị đồng ý",
+  "vi": "tỏ ý đồng ý",
+  "note": "Dùng khi kể lại thái độ của ai đó. Trái nghĩa là 表示反对.",
+  "alt": [
+   "表示反对",
+   "表示理解",
+   "点头同意"
+  ],
+  "hsk": 4,
+  "ex": "听完我的计划，经理点头表示同意。",
+  "exp": "Tīngwán wǒ de jìhuà, jīnglǐ diǎntóu biǎoshì tóngyì.",
+  "exvi": "Nghe xong kế hoạch của tôi, giám đốc gật đầu tỏ ý đồng ý.",
+  "em": "👍"
+ },
+ {
+  "deck": "dp",
+  "h": "表示歉意",
+  "p": "biǎo shì qiàn yì",
+  "hv": "biểu thị khiểm ý",
+  "vi": "bày tỏ lời xin lỗi",
+  "note": "Cách nói trang trọng, hay gặp trong thông báo, email công việc. Khẩu ngữ nói 道歉 hoặc 说对不起.",
+  "alt": [
+   "表示遗憾",
+   "深表歉意",
+   "向他道歉"
+  ],
+  "hsk": 5,
+  "ex": "我们对给您带来的不便表示歉意。",
+  "exp": "Wǒmen duì gěi nín dàilái de búbiàn biǎoshì qiànyì.",
+  "exvi": "Chúng tôi xin lỗi vì sự bất tiện đã gây ra cho quý khách.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "接受道歉",
+  "p": "jiē shòu dào qiàn",
+  "hv": "tiếp thụ đạo khiểm",
+  "vi": "chấp nhận lời xin lỗi",
+  "note": "道歉 là cụm li hợp: 向他道歉, 道个歉. Không nói 道歉他.",
+  "alt": [
+   "接受建议",
+   "接受批评",
+   "接受邀请"
+  ],
+  "hsk": 4,
+  "ex": "他真诚地说了对不起，我接受道歉。",
+  "exp": "Tā zhēnchéng de shuōle duìbuqǐ, wǒ jiēshòu dàoqiàn.",
+  "exvi": "Anh ấy thật lòng nói xin lỗi, tôi chấp nhận lời xin lỗi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "拒绝邀请",
+  "p": "jù jué yāo qǐng",
+  "hv": "cự tuyệt yêu thỉnh",
+  "vi": "từ chối lời mời",
+  "note": "邀请 vừa là động từ vừa là danh từ. Đi với 接受, 拒绝, 收到.",
+  "alt": [
+   "接受邀请",
+   "收到邀请",
+   "拒绝要求"
+  ],
+  "hsk": 4,
+  "ex": "她不想参加聚会，只好拒绝邀请。",
+  "exp": "Tā bù xiǎng cānjiā jùhuì, zhǐhǎo jùjué yāoqǐng.",
+  "exvi": "Cô ấy không muốn dự buổi tụ tập nên đành từ chối lời mời.",
+  "em": "🙅"
+ },
+ {
+  "deck": "dp",
+  "h": "引起误会",
+  "p": "yǐn qǐ wù huì",
+  "hv": "dẫn khởi ngộ hội",
+  "vi": "gây hiểu lầm",
+  "note": "引起 đi với kết quả không mong muốn hoặc sự chú ý: 引起误会, 引起注意, 引起重视.",
+  "alt": [
+   "引起注意",
+   "引起重视",
+   "产生误会"
+  ],
+  "hsk": 4,
+  "ex": "说话不清楚很容易引起误会。",
+  "exp": "Shuōhuà bù qīngchu hěn róngyì yǐnqǐ wùhuì.",
+  "exvi": "Nói không rõ ràng rất dễ gây hiểu lầm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "消除误会",
+  "p": "xiāo chú wù huì",
+  "hv": "tiêu trừ ngộ hội",
+  "vi": "xóa bỏ hiểu lầm",
+  "note": "消除 đi với 误会, 矛盾, 紧张, 担心. Khẩu ngữ hay dùng 解开误会.",
+  "alt": [
+   "解开误会",
+   "消除矛盾",
+   "消除紧张"
+  ],
+  "hsk": 5,
+  "ex": "两人聊了很久，终于消除误会了。",
+  "exp": "Liǎng rén liáole hěn jiǔ, zhōngyú xiāochú wùhuì le.",
+  "exvi": "Hai người nói chuyện rất lâu, cuối cùng đã xóa bỏ được hiểu lầm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "产生矛盾",
+  "p": "chǎn shēng máo dùn",
+  "hv": "sản sinh mâu thuẫn",
+  "vi": "nảy sinh mâu thuẫn",
+  "note": "矛盾 đi với 产生, 有, 解决. Người Việt hay nói 发生矛盾, cũng gặp nhưng 产生矛盾 phổ biến hơn.",
+  "alt": [
+   "产生误会",
+   "产生兴趣",
+   "产生影响"
+  ],
+  "hsk": 5,
+  "ex": "住在一起久了，难免会产生矛盾。",
+  "exp": "Zhù zài yìqǐ jiǔ le, nánmiǎn huì chǎnshēng máodùn.",
+  "exvi": "Sống chung lâu ngày, khó tránh khỏi nảy sinh mâu thuẫn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "解决矛盾",
+  "p": "jiě jué máo dùn",
+  "hv": "giải quyết mâu thuẫn",
+  "vi": "giải quyết mâu thuẫn",
+  "note": "解决 đi với 问题, 矛盾, 困难. Không nói 解决误会, nói 消除误会.",
+  "alt": [
+   "解决问题",
+   "解决困难",
+   "化解矛盾"
+  ],
+  "hsk": 5,
+  "ex": "遇到问题要多沟通，才能解决矛盾。",
+  "exp": "Yùdào wèntí yào duō gōutōng, cái néng jiějué máodùn.",
+  "exvi": "Gặp vấn đề phải trao đổi nhiều thì mới giải quyết được mâu thuẫn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "进行沟通",
+  "p": "jìn xíng gōu tōng",
+  "hv": "tiến hành câu thông",
+  "vi": "tiến hành trao đổi",
+  "note": "进行 + động từ hai âm tiết, văn phong trang trọng. Khẩu ngữ chỉ cần nói 沟通一下.",
+  "alt": [
+   "进行讨论",
+   "进行交流",
+   "进行调查"
+  ],
+  "hsk": 4,
+  "ex": "遇到问题，双方应该及时进行沟通。",
+  "exp": "Yùdào wèntí, shuāngfāng yīnggāi jíshí jìnxíng gōutōng.",
+  "exvi": "Gặp vấn đề, hai bên nên kịp thời trao đổi với nhau.",
+  "em": "💬"
+ },
+ {
+  "deck": "dp",
+  "h": "缺乏沟通",
+  "p": "quē fá gōu tōng",
+  "hv": "khuyết phạp câu thông",
+  "vi": "thiếu giao tiếp, thiếu trao đổi",
+  "note": "缺乏 dùng cho thứ trừu tượng: 沟通, 经验, 信心, 了解. Với đồ vật cụ thể thường dùng 缺 hoặc 没有.",
+  "alt": [
+   "缺乏经验",
+   "缺乏信心",
+   "缺乏了解"
+  ],
+  "hsk": 5,
+  "ex": "很多夫妻吵架是因为缺乏沟通。",
+  "exp": "Hěn duō fūqī chǎojià shì yīnwèi quēfá gōutōng.",
+  "exvi": "Nhiều cặp vợ chồng cãi nhau là do thiếu trao đổi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "说出想法",
+  "p": "shuō chū xiǎng fǎ",
+  "hv": "thuyết xuất tưởng pháp",
+  "vi": "nói ra suy nghĩ",
+  "note": "出 là bổ ngữ xu hướng chỉ việc đưa ra ngoài: 说出, 提出, 写出.",
+  "alt": [
+   "说出真相",
+   "说出心里话",
+   "表达想法"
+  ],
+  "hsk": 3,
+  "ex": "有什么不满意，你就直接说出想法吧。",
+  "exp": "Yǒu shénme bù mǎnyì, nǐ jiù zhíjiē shuōchū xiǎngfǎ ba.",
+  "exvi": "Có gì không hài lòng thì bạn cứ nói thẳng suy nghĩ ra nhé.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "坚持观点",
+  "p": "jiān chí guān diǎn",
+  "hv": "kiên trì quan điểm",
+  "vi": "giữ vững quan điểm",
+  "note": "坚持 ở đây là giữ nguyên, không đổi. Người Việt dễ hiểu nhầm 坚持 chỉ là kiên trì làm việc gì.",
+  "alt": [
+   "坚持原则",
+   "坚持意见",
+   "改变观点"
+  ],
+  "hsk": 5,
+  "ex": "虽然大家都反对，他还是坚持观点。",
+  "exp": "Suīrán dàjiā dōu fǎnduì, tā háishi jiānchí guāndiǎn.",
+  "exvi": "Dù mọi người đều phản đối, anh ấy vẫn giữ vững quan điểm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "改变看法",
+  "p": "gǎi biàn kàn fǎ",
+  "hv": "cải biến khán pháp",
+  "vi": "thay đổi cách nhìn",
+  "note": "看法 là cách nhìn nhận, ý kiến cá nhân. Mẫu 对……的看法: 你对这件事有什么看法?",
+  "alt": [
+   "改变主意",
+   "改变习惯",
+   "发表看法"
+  ],
+  "hsk": 4,
+  "ex": "听了他的解释，我改变看法了。",
+  "exp": "Tīngle tā de jiěshì, wǒ gǎibiàn kànfǎ le.",
+  "exvi": "Nghe anh ấy giải thích xong, tôi đã thay đổi cách nhìn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "说得有道理",
+  "p": "shuō de yǒu dào li",
+  "hv": "thuyết đắc hữu đạo lý",
+  "vi": "nói có lý",
+  "note": "Câu đồng tình rất hay dùng: 你说得有道理. 得 nối động từ với bổ ngữ trình độ, không viết 的.",
+  "alt": [
+   "很有道理",
+   "讲道理",
+   "没有道理"
+  ],
+  "hsk": 4,
+  "ex": "你说得有道理，我们就按你的办法做。",
+  "exp": "Nǐ shuō de yǒu dàoli, wǒmen jiù àn nǐ de bànfǎ zuò.",
+  "exvi": "Bạn nói có lý, chúng ta cứ làm theo cách của bạn.",
+  "em": "👌"
+ },
+ {
+  "deck": "dp",
+  "h": "征求意见",
+  "p": "zhēng qiú yì jiàn",
+  "hv": "trưng cầu ý kiến",
+  "vi": "hỏi ý kiến",
+  "note": "征求 hơi trang trọng, dùng khi chủ động hỏi để tham khảo. Mẫu 征求某人的意见.",
+  "alt": [
+   "听取意见",
+   "征求同意",
+   "提意见"
+  ],
+  "hsk": 5,
+  "ex": "这件事我想先向父母征求意见。",
+  "exp": "Zhè jiàn shì wǒ xiǎng xiān xiàng fùmǔ zhēngqiú yìjiàn.",
+  "exvi": "Chuyện này tôi muốn hỏi ý kiến bố mẹ trước.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "给予鼓励",
+  "p": "jǐ yǔ gǔ lì",
+  "hv": "cấp dữ cổ lệ",
+  "vi": "động viên, khích lệ",
+  "note": "给予 đọc jǐyǔ, không đọc gěiyǔ. Văn viết, đi với danh từ hai âm tiết: 鼓励, 支持, 帮助.",
+  "alt": [
+   "给予支持",
+   "给予帮助",
+   "得到鼓励"
+  ],
+  "hsk": 5,
+  "ex": "孩子进步时，父母要及时给予鼓励。",
+  "exp": "Háizi jìnbù shí, fùmǔ yào jíshí jǐyǔ gǔlì.",
+  "exvi": "Khi con tiến bộ, bố mẹ cần kịp thời động viên.",
+  "em": "👏"
+ },
+ {
+  "deck": "dp",
+  "h": "受到批评",
+  "p": "shòu dào pī píng",
+  "hv": "thụ đáo phê bình",
+  "vi": "bị phê bình, bị chê trách",
+  "note": "受到 đi với 批评, 欢迎, 影响, 表扬. Câu bị động không cần 被.",
+  "alt": [
+   "受到表扬",
+   "受到欢迎",
+   "受到影响"
+  ],
+  "hsk": 4,
+  "ex": "他上班又迟到，受到批评了。",
+  "exp": "Tā shàngbān yòu chídào, shòudào pīpíng le.",
+  "exvi": "Anh ấy lại đi làm muộn nên bị phê bình.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "获得支持",
+  "p": "huò dé zhī chí",
+  "hv": "hoạch đắc chi trì",
+  "vi": "nhận được sự ủng hộ",
+  "note": "获得 đi với thứ trừu tượng tích cực: 支持, 成功, 机会, 奖. Khẩu ngữ hay dùng 得到.",
+  "alt": [
+   "得到支持",
+   "获得成功",
+   "获得机会"
+  ],
+  "hsk": 4,
+  "ex": "他的计划很快就获得支持了。",
+  "exp": "Tā de jìhuà hěn kuài jiù huòdé zhīchí le.",
+  "exvi": "Kế hoạch của anh ấy nhanh chóng nhận được sự ủng hộ.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "分享快乐",
+  "p": "fēn xiǎng kuài lè",
+  "hv": "phân hưởng khoái lạc",
+  "vi": "chia sẻ niềm vui",
+  "note": "分享 dùng cho niềm vui, kinh nghiệm, thông tin. Nỗi buồn thường dùng 分担, không dùng 分享.",
+  "alt": [
+   "分享经验",
+   "分担痛苦",
+   "分享心得"
+  ],
+  "hsk": 4,
+  "ex": "有好消息时，我第一个想和你分享快乐。",
+  "exp": "Yǒu hǎo xiāoxi shí, wǒ dì-yī gè xiǎng hé nǐ fēnxiǎng kuàilè.",
+  "exvi": "Khi có tin vui, người đầu tiên tôi muốn chia sẻ niềm vui là bạn.",
+  "em": "🎉"
+ },
+ {
+  "deck": "dp",
+  "h": "减轻压力",
+  "p": "jiǎn qīng yā lì",
+  "hv": "giảm khinh áp lực",
+  "vi": "giảm áp lực",
+  "note": "压力 đi với 减轻, 缓解, 承受. 减少 thường dùng cho số lượng, nên nói 减轻压力 tự nhiên hơn 减少压力.",
+  "alt": [
+   "缓解压力",
+   "减轻负担",
+   "压力很大"
+  ],
+  "hsk": 4,
+  "ex": "跟朋友聊聊天可以减轻压力。",
+  "exp": "Gēn péngyou liáoliao tiān kěyǐ jiǎnqīng yālì.",
+  "exvi": "Trò chuyện với bạn bè có thể giảm áp lực.",
+  "em": "😌"
+ },
+ {
+  "deck": "dp",
+  "h": "结交朋友",
+  "p": "jié jiāo péng you",
+  "hv": "kết giao bằng hữu",
+  "vi": "kết bạn",
+  "note": "Văn phong viết; khẩu ngữ thường nói 交朋友. Không nói 做朋友 với nghĩa kết thêm bạn mới (做朋友 là làm bạn với một người cụ thể).",
+  "alt": [
+   "交朋友",
+   "做朋友",
+   "认识新朋友"
+  ],
+  "hsk": 5,
+  "ex": "参加社团是结交朋友的好办法。",
+  "exp": "Cānjiā shètuán shì jiéjiāo péngyou de hǎo bànfǎ.",
+  "exvi": "Tham gia câu lạc bộ là cách hay để kết bạn.",
+  "em": "🧑‍🤝‍🧑"
+ },
+ {
+  "deck": "dp",
+  "h": "培养感情",
+  "p": "péi yǎng gǎn qíng",
+  "hv": "bồi dưỡng cảm tình",
+  "vi": "vun đắp tình cảm",
+  "note": "培养 dùng cho thứ cần thời gian nuôi dưỡng: 感情, 习惯, 兴趣, 人才.",
+  "alt": [
+   "培养兴趣",
+   "培养习惯",
+   "增进感情"
+  ],
+  "hsk": 5,
+  "ex": "两个人需要时间慢慢培养感情。",
+  "exp": "Liǎng gè rén xūyào shíjiān mànmàn péiyǎng gǎnqíng.",
+  "exvi": "Hai người cần thời gian để từ từ vun đắp tình cảm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "伤害感情",
+  "p": "shāng hài gǎn qíng",
+  "hv": "thương hại cảm tình",
+  "vi": "làm tổn thương tình cảm",
+  "note": "伤害 trong tiếng Trung là làm tổn thương, không phải thương hại như tiếng Việt. Thương hại là 可怜.",
+  "alt": [
+   "伤害身体",
+   "伤害自尊心",
+   "受到伤害"
+  ],
+  "hsk": 5,
+  "ex": "说话太直接有时会伤害感情。",
+  "exp": "Shuōhuà tài zhíjiē yǒushí huì shānghài gǎnqíng.",
+  "exvi": "Nói quá thẳng đôi khi sẽ làm tổn thương tình cảm.",
+  "em": "💔"
+ },
+ {
+  "deck": "dp",
+  "h": "保守秘密",
+  "p": "bǎo shǒu mì mì",
+  "hv": "bảo thủ bí mật",
+  "vi": "giữ bí mật",
+  "note": "保守 ở đây là giữ kín, khác nghĩa 保守 (bảo thủ) khi làm tính từ. Khẩu ngữ hay nói 保密.",
+  "alt": [
+   "保密",
+   "泄露秘密",
+   "发现秘密"
+  ],
+  "hsk": 5,
+  "ex": "你放心，我一定会保守秘密。",
+  "exp": "Nǐ fàngxīn, wǒ yídìng huì bǎoshǒu mìmì.",
+  "exvi": "Bạn yên tâm, tôi nhất định sẽ giữ bí mật.",
+  "em": "🤫"
+ },
+ {
+  "deck": "dp",
+  "h": "遵守承诺",
+  "p": "zūn shǒu chéng nuò",
+  "hv": "tuân thủ thừa nặc",
+  "vi": "giữ lời hứa",
+  "note": "承诺 trang trọng hơn 诺言. Khẩu ngữ nói 说话算数 hoặc 守信用.",
+  "alt": [
+   "履行承诺",
+   "遵守规定",
+   "做出承诺"
+  ],
+  "hsk": 5,
+  "ex": "一个好朋友应该遵守承诺。",
+  "exp": "Yí gè hǎo péngyou yīnggāi zūnshǒu chéngnuò.",
+  "exvi": "Một người bạn tốt nên giữ lời hứa.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "做出决定",
+  "p": "zuò chū jué dìng",
+  "hv": "tố xuất quyết định",
+  "vi": "đưa ra quyết định",
+  "note": "决定 đi với 做, 做出. Không nói 出决定 hay 拿决定 (拿主意 thì được).",
+  "alt": [
+   "做出选择",
+   "做出贡献",
+   "改变决定"
+  ],
+  "hsk": 4,
+  "ex": "这件事你要自己做出决定。",
+  "exp": "Zhè jiàn shì nǐ yào zìjǐ zuòchū juédìng.",
+  "exvi": "Chuyện này bạn phải tự đưa ra quyết định.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "态度友好",
+  "p": "tài dù yǒu hǎo",
+  "hv": "thái độ hữu hảo",
+  "vi": "thái độ thân thiện",
+  "note": "Mẫu 态度 + tính từ: 态度认真, 态度冷淡. Cũng nói 对人很友好.",
+  "alt": [
+   "态度认真",
+   "态度冷淡",
+   "服务态度"
+  ],
+  "hsk": 4,
+  "ex": "这里的人态度友好，让我觉得很温暖。",
+  "exp": "Zhèlǐ de rén tàidù yǒuhǎo, ràng wǒ juéde hěn wēnnuǎn.",
+  "exvi": "Người ở đây thái độ thân thiện, khiến tôi thấy rất ấm áp.",
+  "em": "😊"
+ },
+ {
+  "deck": "dp",
+  "h": "安慰朋友",
+  "p": "ān wèi péng you",
+  "hv": "an úy bằng hữu",
+  "vi": "an ủi bạn bè",
+  "note": "安慰 + người. Cũng dùng làm danh từ: 给他一些安慰.",
+  "alt": [
+   "安慰别人",
+   "安慰自己",
+   "得到安慰"
+  ],
+  "hsk": 5,
+  "ex": "我不太会安慰朋友，只能陪着她。",
+  "exp": "Wǒ bú tài huì ānwèi péngyou, zhǐ néng péizhe tā.",
+  "exvi": "Mình không giỏi an ủi bạn bè, chỉ biết ở bên cạnh cô ấy.",
+  "em": "🫂"
+ },
+ {
+  "deck": "dp",
+  "h": "感到孤独",
+  "p": "gǎn dào gū dú",
+  "hv": "cảm đáo cô độc",
+  "vi": "cảm thấy cô đơn",
+  "note": "孤独 là cô đơn trong lòng; 寂寞 là buồn vì vắng vẻ, gần nghĩa và hay thay nhau.",
+  "alt": [
+   "感到寂寞",
+   "感到无聊",
+   "感到不安"
+  ],
+  "hsk": 5,
+  "ex": "一个人在国外生活，有时会感到孤独。",
+  "exp": "Yí gè rén zài guówài shēnghuó, yǒushí huì gǎndào gūdú.",
+  "exvi": "Sống một mình ở nước ngoài, đôi khi sẽ cảm thấy cô đơn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "情绪稳定",
+  "p": "qíng xù wěn dìng",
+  "hv": "tình tự ổn định",
+  "vi": "cảm xúc ổn định",
+  "note": "Hay dùng để khen tính cách. Trái nghĩa 情绪激动, 情绪低落.",
+  "alt": [
+   "情绪激动",
+   "情绪低落",
+   "情绪不稳定"
+  ],
+  "hsk": 5,
+  "ex": "他情绪稳定，很少跟别人吵架。",
+  "exp": "Tā qíngxù wěndìng, hěn shǎo gēn biérén chǎojià.",
+  "exvi": "Anh ấy cảm xúc ổn định, rất ít cãi nhau với người khác.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "下结论",
+  "p": "xià jié lùn",
+  "hv": "hạ kết luận",
+  "vi": "đưa ra kết luận",
+  "note": "结论 đi với động từ 下 hoặc 得出. Không dịch thẳng 'đưa ra kết luận' thành 给结论.",
+  "alt": [
+   "得出结论",
+   "下定义",
+   "下决心"
+  ],
+  "hsk": 5,
+  "ex": "事情还没弄清楚，不要急着下结论。",
+  "exp": "Shìqing hái méi nòng qīngchu, bú yào jízhe xià jiélùn.",
+  "exvi": "Sự việc còn chưa rõ, đừng vội kết luận.",
+  "em": ""
+ }
+]
