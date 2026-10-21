@@ -48,9 +48,9 @@
    "接受建议"
   ],
   "hsk": 4,
-  "ex": "他向公司提出了一个很好的建议。",
-  "exp": "Tā xiàng gōngsī tíchūle yí gè hěn hǎo de jiànyì.",
-  "exvi": "Anh ấy đã đưa ra cho công ty một đề xuất rất hay.",
+  "ex": "开会时，他提出建议，把会议时间缩短一半。",
+  "exp": "Kāihuì shí, tā tíchū jiànyì, bǎ huìyì shíjiān suōduǎn yíbàn.",
+  "exvi": "Trong cuộc họp, anh ấy đề xuất rút ngắn thời gian họp đi một nửa.",
   "em": "💡"
  },
  {
@@ -66,8 +66,8 @@
    "交换联系方式"
   ],
   "hsk": 4,
-  "ex": "我们先交换一下意见，再做决定吧。",
-  "exp": "Wǒmen xiān jiāohuàn yíxià yìjiàn, zài zuò juédìng ba.",
+  "ex": "我们先交换意见，再做决定吧。",
+  "exp": "Wǒmen xiān jiāohuàn yìjiàn, zài zuò juédìng ba.",
   "exvi": "Chúng ta trao đổi ý kiến trước rồi hãy quyết định nhé.",
   "em": "🔄"
  },
@@ -102,9 +102,9 @@
    "失去兴趣"
   ],
   "hsk": 4,
-  "ex": "搬家以后，我和他失去了联系。",
-  "exp": "Bānjiā yǐhòu, wǒ hé tā shīqùle liánxì.",
-  "exvi": "Sau khi chuyển nhà, tôi mất liên lạc với anh ấy.",
+  "ex": "搬家以后，我们就失去联系了。",
+  "exp": "Bānjiā yǐhòu, wǒmen jiù shīqù liánxì le.",
+  "exvi": "Sau khi chuyển nhà, chúng tôi mất liên lạc với nhau.",
   "em": ""
  },
  {
@@ -120,9 +120,9 @@
    "建立家庭"
   ],
   "hsk": 5,
-  "ex": "和客户建立良好的关系很重要。",
-  "exp": "Hé kèhù jiànlì liánghǎo de guānxì hěn zhòngyào.",
-  "exvi": "Xây dựng mối quan hệ tốt với khách hàng rất quan trọng.",
+  "ex": "刚到新公司，要先和同事建立关系。",
+  "exp": "Gāng dào xīn gōngsī, yào xiān hé tóngshì jiànlì guānxì.",
+  "exvi": "Mới đến công ty mới, trước hết phải xây dựng quan hệ với đồng nghiệp.",
   "em": "🤝"
  },
  {
@@ -174,9 +174,9 @@
    "赢得比赛"
   ],
   "hsk": 5,
-  "ex": "他用自己的行动赢得了大家的信任。",
-  "exp": "Tā yòng zìjǐ de xíngdòng yíngdéle dàjiā de xìnrèn.",
-  "exvi": "Anh ấy dùng hành động của mình để giành được sự tin tưởng của mọi người.",
+  "ex": "只有说到做到，才能赢得信任。",
+  "exp": "Zhǐyǒu shuōdào zuòdào, cái néng yíngdé xìnrèn.",
+  "exvi": "Chỉ có nói được làm được mới giành được sự tin tưởng.",
   "em": ""
  },
  {
@@ -336,9 +336,9 @@
    "建立家庭"
   ],
   "hsk": 5,
-  "ex": "他们结婚后组成了一个幸福的家庭。",
-  "exp": "Tāmen jiéhūn hòu zǔchéngle yí gè xìngfú de jiātíng.",
-  "exvi": "Sau khi kết hôn, họ lập nên một gia đình hạnh phúc.",
+  "ex": "两个人相爱，结婚后组成家庭。",
+  "exp": "Liǎng gè rén xiāng'ài, jiéhūn hòu zǔchéng jiātíng.",
+  "exvi": "Hai người yêu nhau, sau khi cưới thì lập gia đình.",
   "em": ""
  },
  {
@@ -444,9 +444,9 @@
    "旅途愉快"
   ],
   "hsk": 4,
-  "ex": "天气好的时候，人的心情也很愉快。",
-  "exp": "Tiānqì hǎo de shíhou, rén de xīnqíng yě hěn yúkuài.",
-  "exvi": "Khi trời đẹp, tâm trạng con người cũng rất vui vẻ.",
+  "ex": "今天天气很好，大家心情愉快。",
+  "exp": "Jīntiān tiānqì hěn hǎo, dàjiā xīnqíng yúkuài.",
+  "exvi": "Hôm nay trời đẹp, ai cũng có tâm trạng vui vẻ.",
   "em": "😊"
  },
  {
@@ -588,9 +588,9 @@
    "拒绝要求"
   ],
   "hsk": 4,
-  "ex": "她有事，只好拒绝了朋友的邀请。",
-  "exp": "Tā yǒu shì, zhǐhǎo jùjuéle péngyǒu de yāoqǐng.",
-  "exvi": "Cô ấy có việc nên đành từ chối lời mời của bạn.",
+  "ex": "她不想参加聚会，只好拒绝邀请。",
+  "exp": "Tā bù xiǎng cānjiā jùhuì, zhǐhǎo jùjué yāoqǐng.",
+  "exvi": "Cô ấy không muốn dự buổi tụ tập nên đành từ chối lời mời.",
   "em": "🙅"
  },
  {
@@ -624,8 +624,8 @@
    "消除紧张"
   ],
   "hsk": 5,
-  "ex": "两人聊了很久，终于消除了误会。",
-  "exp": "Liǎng rén liáole hěn jiǔ, zhōngyú xiāochúle wùhuì.",
+  "ex": "两人聊了很久，终于消除误会了。",
+  "exp": "Liǎng rén liáole hěn jiǔ, zhōngyú xiāochú wùhuì le.",
   "exvi": "Hai người nói chuyện rất lâu, cuối cùng đã xóa bỏ được hiểu lầm.",
   "em": ""
  },
@@ -642,9 +642,9 @@
    "产生影响"
   ],
   "hsk": 5,
-  "ex": "因为一点小事，他们之间产生了矛盾。",
-  "exp": "Yīnwèi yìdiǎn xiǎoshì, tāmen zhījiān chǎnshēngle máodùn.",
-  "exvi": "Chỉ vì một chuyện nhỏ mà giữa họ nảy sinh mâu thuẫn.",
+  "ex": "住在一起久了，难免会产生矛盾。",
+  "exp": "Zhù zài yìqǐ jiǔ le, nánmiǎn huì chǎnshēng máodùn.",
+  "exvi": "Sống chung lâu ngày, khó tránh khỏi nảy sinh mâu thuẫn.",
   "em": ""
  },
  {
@@ -750,9 +750,9 @@
    "发表看法"
   ],
   "hsk": 4,
-  "ex": "认识他以后，我改变了对他的看法。",
-  "exp": "Rènshi tā yǐhòu, wǒ gǎibiànle duì tā de kànfǎ.",
-  "exvi": "Sau khi quen anh ấy, tôi đã thay đổi cách nhìn về anh ấy.",
+  "ex": "听了他的解释，我改变看法了。",
+  "exp": "Tīngle tā de jiěshì, wǒ gǎibiàn kànfǎ le.",
+  "exvi": "Nghe anh ấy giải thích xong, tôi đã thay đổi cách nhìn.",
   "em": ""
  },
  {
@@ -786,9 +786,9 @@
    "提意见"
   ],
   "hsk": 5,
-  "ex": "做决定之前，他总是先征求父母的意见。",
-  "exp": "Zuò juédìng zhīqián, tā zǒngshì xiān zhēngqiú fùmǔ de yìjiàn.",
-  "exvi": "Trước khi quyết định, anh ấy luôn hỏi ý kiến bố mẹ trước.",
+  "ex": "这件事我想先向父母征求意见。",
+  "exp": "Zhè jiàn shì wǒ xiǎng xiān xiàng fùmǔ zhēngqiú yìjiàn.",
+  "exvi": "Chuyện này tôi muốn hỏi ý kiến bố mẹ trước.",
   "em": ""
  },
  {
@@ -804,9 +804,9 @@
    "得到鼓励"
   ],
   "hsk": 5,
-  "ex": "老师给予了我很多鼓励和支持。",
-  "exp": "Lǎoshī jǐyǔle wǒ hěn duō gǔlì hé zhīchí.",
-  "exvi": "Thầy giáo đã động viên và ủng hộ tôi rất nhiều.",
+  "ex": "孩子进步时，父母要及时给予鼓励。",
+  "exp": "Háizi jìnbù shí, fùmǔ yào jíshí jǐyǔ gǔlì.",
+  "exvi": "Khi con tiến bộ, bố mẹ cần kịp thời động viên.",
   "em": "👏"
  },
  {
@@ -822,9 +822,9 @@
    "受到影响"
   ],
   "hsk": 4,
-  "ex": "他因为上班迟到受到了批评。",
-  "exp": "Tā yīnwèi shàngbān chídào shòudàole pīpíng.",
-  "exvi": "Anh ấy bị phê bình vì đi làm muộn.",
+  "ex": "他上班又迟到，受到批评了。",
+  "exp": "Tā shàngbān yòu chídào, shòudào pīpíng le.",
+  "exvi": "Anh ấy lại đi làm muộn nên bị phê bình.",
   "em": ""
  },
  {
@@ -840,9 +840,9 @@
    "获得机会"
   ],
   "hsk": 4,
-  "ex": "他的想法获得了全家人的支持。",
-  "exp": "Tā de xiǎngfǎ huòdéle quánjiārén de zhīchí.",
-  "exvi": "Ý tưởng của anh ấy nhận được sự ủng hộ của cả nhà.",
+  "ex": "他的计划很快就获得支持了。",
+  "exp": "Tā de jìhuà hěn kuài jiù huòdé zhīchí le.",
+  "exvi": "Kế hoạch của anh ấy nhanh chóng nhận được sự ủng hộ.",
   "em": ""
  },
  {
@@ -894,9 +894,9 @@
    "认识新朋友"
   ],
   "hsk": 5,
-  "ex": "留学让我结交了很多外国朋友。",
-  "exp": "Liúxué ràng wǒ jiéjiāole hěn duō wàiguó péngyǒu.",
-  "exvi": "Du học giúp tôi kết giao được nhiều bạn nước ngoài.",
+  "ex": "参加社团是结交朋友的好办法。",
+  "exp": "Cānjiā shètuán shì jiéjiāo péngyǒu de hǎo bànfǎ.",
+  "exvi": "Tham gia câu lạc bộ là cách hay để kết bạn.",
   "em": "🧑‍🤝‍🧑"
  },
  {
