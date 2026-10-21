@@ -1,0 +1,852 @@
+[
+ {
+  "deck": "cy",
+  "h": "熟能生巧",
+  "p": "shú néng shēng qiǎo",
+  "hv": "thục năng sinh xảo",
+  "vi": "(thành ngữ) làm nhiều thì quen tay, quen tay thì khéo",
+  "note": "Nghĩa đen: thạo việc thì sinh ra khéo léo. Dùng để khuyên luyện tập đều đặn, gặp cả trong khẩu ngữ lẫn văn viết.",
+  "alt": [
+   "勤学苦练",
+   "多练就熟"
+  ],
+  "hsk": 5,
+  "ex": "写汉字没有捷径，熟能生巧。",
+  "exp": "Xiě Hànzì méiyǒu jiéjìng, shúnéngshēngqiǎo.",
+  "exvi": "Viết chữ Hán không có đường tắt, làm nhiều thì sẽ khéo.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "学以致用",
+  "p": "xué yǐ zhì yòng",
+  "hv": "học dĩ trí dụng",
+  "vi": "(thành ngữ) học để đem ra áp dụng vào thực tế",
+  "note": "Nghĩa đen: học là để dùng. Hay gặp trong văn viết, phát biểu về giáo dục và đào tạo, sắc thái tích cực.",
+  "alt": [
+   "理论联系实际",
+   "学用结合"
+  ],
+  "hsk": 6,
+  "ex": "上大学不只是为了文凭，更要学以致用。",
+  "exp": "Shàng dàxué bù zhǐ shì wèile wénpíng, gèng yào xuéyǐzhìyòng.",
+  "exvi": "Học đại học không chỉ vì tấm bằng, mà còn phải đem cái đã học ra dùng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "温故知新",
+  "p": "wēn gù zhī xīn",
+  "hv": "ôn cố tri tân",
+  "vi": "(thành ngữ) ôn lại cái cũ để hiểu thêm cái mới",
+  "note": "Rút từ câu 温故而知新 trong Luận Ngữ. Dùng khi nói về ôn bài hoặc nhìn lại kinh nghiệm cũ, sắc thái trang trọng.",
+  "alt": [
+   "温故而知新",
+   "复习旧知识"
+  ],
+  "hsk": 6,
+  "ex": "考试前把旧课本拿出来看看，温故知新。",
+  "exp": "Kǎoshì qián bǎ jiù kèběn ná chūlái kànkan, wēngùzhīxīn.",
+  "exvi": "Trước kỳ thi lấy sách cũ ra xem lại, ôn cũ để biết thêm cái mới.",
+  "em": "📖"
+ },
+ {
+  "deck": "cy",
+  "h": "坚持不懈",
+  "p": "jiān chí bú xiè",
+  "hv": "kiên trì bất giải",
+  "vi": "(thành ngữ) kiên trì không lơi lỏng; bền bỉ đến cùng",
+  "note": "懈 là lơi lỏng, chểnh mảng. Dùng để khen sự bền bỉ, rất hay gặp trong văn viết và bài thi.",
+  "alt": [
+   "锲而不舍",
+   "半途而废"
+  ],
+  "hsk": 5,
+  "ex": "只要坚持不懈，你的汉语一定会进步。",
+  "exp": "Zhǐyào jiānchíbúxiè, nǐ de Hànyǔ yídìng huì jìnbù.",
+  "exvi": "Chỉ cần bền bỉ không bỏ, tiếng Trung của bạn chắc chắn sẽ tiến bộ.",
+  "em": "💪"
+ },
+ {
+  "deck": "cy",
+  "h": "百折不挠",
+  "p": "bǎi zhé bù náo",
+  "hv": "bách chiết bất nạo",
+  "vi": "(thành ngữ) thất bại bao nhiêu lần cũng không chịu khuất phục",
+  "note": "Nghĩa đen: bẻ trăm lần cũng không cong. Dùng khen ý chí kiên cường, thường gặp trong văn viết trang trọng.",
+  "alt": [
+   "不屈不挠",
+   "坚韧不拔"
+  ],
+  "hsk": 7,
+  "ex": "他创业失败了三次，仍然百折不挠。",
+  "exp": "Tā chuàngyè shībài le sān cì, réngrán bǎizhébùnáo.",
+  "exvi": "Anh ấy khởi nghiệp thất bại ba lần mà vẫn không chịu khuất phục.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "水滴石穿",
+  "p": "shuǐ dī shí chuān",
+  "hv": "thủy trích thạch xuyên",
+  "vi": "(thành ngữ) nước chảy đá mòn; kiên trì lâu thì việc khó cũng thành",
+  "note": "Nghĩa đen: giọt nước nhỏ mãi làm thủng cả đá. Dùng khuyên kiên nhẫn, giống câu \"nước chảy đá mòn\" của tiếng Việt.",
+  "alt": [
+   "绳锯木断",
+   "铁杵磨成针"
+  ],
+  "hsk": 6,
+  "ex": "每天背十个单词，水滴石穿，一年就是三千多个。",
+  "exp": "Měitiān bèi shí ge dāncí, shuǐdīshíchuān, yì nián jiù shì sānqiān duō ge.",
+  "exvi": "Mỗi ngày học thuộc mười từ, nước chảy đá mòn, một năm là hơn ba nghìn từ.",
+  "em": "💧"
+ },
+ {
+  "deck": "cy",
+  "h": "卧薪尝胆",
+  "p": "wò xīn cháng dǎn",
+  "hv": "ngọa tân thường đảm",
+  "vi": "(thành ngữ) nằm gai nếm mật; chịu khổ nuôi chí để làm lại",
+  "note": "Điển tích Câu Tiễn nước Việt nằm trên củi, nếm mật đắng để không quên nhục mất nước. Dùng khen người chịu khổ lâu dài để vươn lên, văn viết.",
+  "alt": [
+   "发愤图强",
+   "忍辱负重"
+  ],
+  "hsk": 7,
+  "ex": "输了比赛以后，他们卧薪尝胆，第二年拿了冠军。",
+  "exp": "Shū le bǐsài yǐhòu, tāmen wòxīnchángdǎn, dì-èr nián ná le guànjūn.",
+  "exvi": "Sau khi thua trận, họ nằm gai nếm mật, năm sau giành chức vô địch.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "奋发图强",
+  "p": "fèn fā tú qiáng",
+  "hv": "phấn phát đồ cường",
+  "vi": "(thành ngữ) hăng hái vươn lên, quyết tâm làm cho mình mạnh lên",
+  "note": "奋发 là hăng hái, 图强 là mưu cầu lớn mạnh. Dùng trong văn viết và diễn văn, cho cá nhân hoặc cả đất nước.",
+  "alt": [
+   "发愤图强",
+   "自强不息"
+  ],
+  "hsk": 7,
+  "ex": "落榜以后，他奋发图强，第二年考上了名校。",
+  "exp": "Luòbǎng yǐhòu, tā fènfātúqiáng, dì-èr nián kǎoshàng le míngxiào.",
+  "exvi": "Sau khi thi trượt, cậu ấy quyết tâm vươn lên, năm sau đỗ vào trường danh tiếng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "孜孜不倦",
+  "p": "zī zī bú juàn",
+  "hv": "tư tư bất quyện",
+  "vi": "(thành ngữ) chăm chỉ miệt mài không biết mệt",
+  "note": "孜孜 là chăm chỉ không ngừng, 倦 là mệt mỏi. Thường đi với học tập, nghiên cứu; sắc thái khen, văn viết.",
+  "alt": [
+   "废寝忘食",
+   "勤奋好学"
+  ],
+  "hsk": 7,
+  "ex": "王教授七十岁了，还在孜孜不倦地做研究。",
+  "exp": "Wáng jiàoshòu qīshí suì le, hái zài zīzībújuàn de zuò yánjiū.",
+  "exvi": "Giáo sư Vương đã bảy mươi tuổi mà vẫn miệt mài nghiên cứu.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "学无止境",
+  "p": "xué wú zhǐ jìng",
+  "hv": "học vô chỉ cảnh",
+  "vi": "(thành ngữ) việc học không có điểm dừng",
+  "note": "止境 là điểm cuối, giới hạn. Dùng để khuyên học suốt đời, giữ thái độ khiêm tốn; hay gặp trong phát biểu và bài viết.",
+  "alt": [
+   "学海无涯",
+   "活到老学到老"
+  ],
+  "hsk": 6,
+  "ex": "学无止境，工作以后我也一直在上课。",
+  "exp": "Xuéwúzhǐjìng, gōngzuò yǐhòu wǒ yě yìzhí zài shàngkè.",
+  "exvi": "Học không có điểm dừng, đi làm rồi tôi vẫn luôn đi học thêm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "不劳而获",
+  "p": "bù láo ér huò",
+  "hv": "bất lao nhi hoạch",
+  "vi": "(thành ngữ) không làm mà hưởng",
+  "note": "Nghĩa đen: không lao động mà có thu hoạch. Mang nghĩa chê, dùng cả trong khẩu ngữ lẫn văn viết.",
+  "alt": [
+   "坐享其成",
+   "自食其力"
+  ],
+  "hsk": 6,
+  "ex": "世界上没有不劳而获的好事。",
+  "exp": "Shìjiè shang méiyǒu bùláo'érhuò de hǎo shì.",
+  "exvi": "Trên đời không có chuyện tốt nào không làm mà được hưởng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一劳永逸",
+  "p": "yì láo yǒng yì",
+  "hv": "nhất lao vĩnh dật",
+  "vi": "(thành ngữ) làm một lần mà nhàn mãi về sau",
+  "note": "Nghĩa đen: vất vả một lần, thảnh thơi lâu dài. Hay dùng trong câu phủ định: 没有一劳永逸的办法.",
+  "alt": [
+   "一了百了",
+   "一次解决"
+  ],
+  "hsk": 7,
+  "ex": "学语言没有一劳永逸的方法。",
+  "exp": "Xué yǔyán méiyǒu yìláoyǒngyì de fāngfǎ.",
+  "exvi": "Học ngoại ngữ không có cách nào làm một lần là xong mãi mãi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "事半功倍",
+  "p": "shì bàn gōng bèi",
+  "hv": "sự bán công bội",
+  "vi": "(thành ngữ) làm ít mà hiệu quả nhiều",
+  "note": "Nghĩa đen: công sức một nửa, kết quả gấp đôi. Hay dùng khi nói về phương pháp đúng; trái nghĩa là 事倍功半.",
+  "alt": [
+   "事倍功半",
+   "一举两得"
+  ],
+  "hsk": 6,
+  "ex": "方法对了，学习就会事半功倍。",
+  "exp": "Fāngfǎ duì le, xuéxí jiù huì shìbàngōngbèi.",
+  "exvi": "Đúng phương pháp thì học sẽ đỡ công mà hiệu quả gấp đôi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "事倍功半",
+  "p": "shì bèi gōng bàn",
+  "hv": "sự bội công bán",
+  "vi": "(thành ngữ) tốn nhiều công sức mà hiệu quả ít",
+  "note": "Ngược nghĩa với 事半功倍: công gấp đôi, kết quả một nửa. Dùng để chê cách làm sai phương pháp.",
+  "alt": [
+   "事半功倍",
+   "得不偿失"
+  ],
+  "hsk": 6,
+  "ex": "不做计划就开始写，常常事倍功半。",
+  "exp": "Bú zuò jìhuà jiù kāishǐ xiě, chángcháng shìbèigōngbàn.",
+  "exvi": "Không lập kế hoạch mà bắt tay viết luôn thì thường tốn công mà ít hiệu quả.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "功亏一篑",
+  "p": "gōng kuī yí kuì",
+  "hv": "công khuy nhất quỹ",
+  "vi": "(thành ngữ) hỏng việc ở bước cuối; chỉ thiếu chút nữa là thành",
+  "note": "Nghĩa đen: đắp núi chỉ thiếu một sọt đất mà không thành. Dùng để tiếc khi sắp thành công thì thất bại, văn viết.",
+  "alt": [
+   "前功尽弃",
+   "半途而废"
+  ],
+  "hsk": 7,
+  "ex": "最后一分钟丢了球，我们功亏一篑。",
+  "exp": "Zuìhòu yì fēnzhōng diū le qiú, wǒmen gōngkuīyíkuì.",
+  "exvi": "Phút cuối bị thủng lưới, chúng tôi hỏng việc ngay ở bước chót.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "前功尽弃",
+  "p": "qián gōng jìn qì",
+  "hv": "tiền công tận khí",
+  "vi": "(thành ngữ) công sức trước đó đổ sông đổ biển",
+  "note": "Nghĩa đen: công lao trước đây bỏ đi hết. Hay dùng để cảnh báo: nếu bây giờ bỏ cuộc thì 前功尽弃.",
+  "alt": [
+   "功亏一篑",
+   "半途而废"
+  ],
+  "hsk": 7,
+  "ex": "现在放弃的话，就前功尽弃了。",
+  "exp": "Xiànzài fàngqì dehuà, jiù qiángōngjìnqì le.",
+  "exvi": "Nếu bây giờ bỏ cuộc thì công sức trước đó coi như mất hết.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一败涂地",
+  "p": "yí bài tú dì",
+  "hv": "nhất bại đồ địa",
+  "vi": "(thành ngữ) thất bại thảm hại, không gượng dậy nổi",
+  "note": "Nghĩa đen: thua một trận mà máu thịt vương đầy đất. Dùng tả thất bại nặng nề trong kinh doanh, thi đấu.",
+  "alt": [
+   "一蹶不振",
+   "大获全胜"
+  ],
+  "hsk": 7,
+  "ex": "公司扩张太快，结果一败涂地。",
+  "exp": "Gōngsī kuòzhāng tài kuài, jiéguǒ yíbàitúdì.",
+  "exvi": "Công ty mở rộng quá nhanh, kết quả thất bại thảm hại.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "东山再起",
+  "p": "dōng shān zài qǐ",
+  "hv": "đông sơn tái khởi",
+  "vi": "(thành ngữ) gượng dậy làm lại sau thất bại; trở lại vị trí cũ",
+  "note": "Điển tích Tạ An thời Đông Tấn ẩn cư ở núi Đông Sơn rồi lại ra làm quan. Dùng khi ai đó thất bại hoặc mất chức rồi trở lại.",
+  "alt": [
+   "卷土重来",
+   "重整旗鼓"
+  ],
+  "hsk": 7,
+  "ex": "破产以后，他用五年时间东山再起。",
+  "exp": "Pòchǎn yǐhòu, tā yòng wǔ nián shíjiān dōngshānzàiqǐ.",
+  "exvi": "Sau khi phá sản, ông ấy mất năm năm để gây dựng lại.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "大功告成",
+  "p": "dà gōng gào chéng",
+  "hv": "đại công cáo thành",
+  "vi": "(thành ngữ) việc lớn đã hoàn thành",
+  "note": "告成 là báo đã xong. Dùng khi xong một việc quan trọng; trong khẩu ngữ hay nói vui lúc vừa làm xong việc.",
+  "alt": [
+   "顺利完成",
+   "圆满成功"
+  ],
+  "hsk": 6,
+  "ex": "最后一页也翻译好了，大功告成！",
+  "exp": "Zuìhòu yí yè yě fānyì hǎo le, dàgōnggàochéng!",
+  "exvi": "Trang cuối cùng cũng dịch xong rồi, hoàn thành!",
+  "em": "🎉"
+ },
+ {
+  "deck": "cy",
+  "h": "马到成功",
+  "p": "mǎ dào chéng gōng",
+  "hv": "mã đáo thành công",
+  "vi": "(thành ngữ) vừa bắt tay vào đã thành công; lời chúc thành công",
+  "note": "Nghĩa đen: ngựa chiến vừa tới là thắng. Thường dùng làm lời chúc trước khi thi, phỏng vấn, khai trương.",
+  "alt": [
+   "旗开得胜",
+   "一帆风顺"
+  ],
+  "hsk": 5,
+  "ex": "明天面试，祝你马到成功！",
+  "exp": "Míngtiān miànshì, zhù nǐ mǎdàochénggōng!",
+  "exvi": "Mai phỏng vấn, chúc bạn mã đáo thành công!",
+  "em": "🐎"
+ },
+ {
+  "deck": "cy",
+  "h": "名列前茅",
+  "p": "míng liè qián máo",
+  "hv": "danh liệt tiền mao",
+  "vi": "(thành ngữ) đứng trong nhóm đầu",
+  "note": "前茅 vốn là cờ hiệu của toán quân đi đầu thời xưa. Dùng để khen thành tích học tập, thứ hạng.",
+  "alt": [
+   "数一数二",
+   "名落孙山"
+  ],
+  "hsk": 6,
+  "ex": "她每次考试都名列前茅。",
+  "exp": "Tā měi cì kǎoshì dōu mínglièqiánmáo.",
+  "exvi": "Lần thi nào cô ấy cũng đứng trong top đầu.",
+  "em": "🏆"
+ },
+ {
+  "deck": "cy",
+  "h": "出类拔萃",
+  "p": "chū lèi bá cuì",
+  "hv": "xuất loại bạt tụy",
+  "vi": "(thành ngữ) xuất sắc, vượt trội hơn người cùng lứa",
+  "note": "Nghĩa đen: vượt ra khỏi đồng loại, nhô lên khỏi đám đông. Dùng để khen người hoặc thành tích, văn viết.",
+  "alt": [
+   "鹤立鸡群",
+   "脱颖而出"
+  ],
+  "hsk": 7,
+  "ex": "他在同龄人中出类拔萃。",
+  "exp": "Tā zài tónglíngrén zhōng chūlèibácuì.",
+  "exvi": "Trong những người cùng tuổi, anh ấy rất xuất sắc.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一鸣惊人",
+  "p": "yì míng jīng rén",
+  "hv": "nhất minh kinh nhân",
+  "vi": "(thành ngữ) vừa ra tay đã khiến mọi người kinh ngạc",
+  "note": "Điển tích con chim ba năm không kêu, kêu một tiếng là khiến người ta sửng sốt. Dùng cho người vốn bình thường bỗng đạt thành tích lớn.",
+  "alt": [
+   "一举成名",
+   "默默无闻"
+  ],
+  "hsk": 7,
+  "ex": "她的第一部小说就一鸣惊人。",
+  "exp": "Tā de dì-yī bù xiǎoshuō jiù yìmíngjīngrén.",
+  "exvi": "Ngay cuốn tiểu thuyết đầu tay cô ấy đã gây tiếng vang lớn.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "得心应手",
+  "p": "dé xīn yìng shǒu",
+  "hv": "đắc tâm ứng thủ",
+  "vi": "(thành ngữ) làm thuần thục, muốn sao được vậy",
+  "note": "Nghĩa đen: lòng nghĩ đến đâu thì tay làm được đến đó. Dùng khi đã quen việc, sắc thái khen.",
+  "alt": [
+   "游刃有余",
+   "驾轻就熟"
+  ],
+  "hsk": 7,
+  "ex": "做了三年，他用这个软件已经得心应手了。",
+  "exp": "Zuò le sān nián, tā yòng zhège ruǎnjiàn yǐjīng déxīnyìngshǒu le.",
+  "exvi": "Làm ba năm rồi, anh ấy dùng phần mềm này đã rất thành thạo.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "游刃有余",
+  "p": "yóu rèn yǒu yú",
+  "hv": "du nhận hữu dư",
+  "vi": "(thành ngữ) làm việc nhẹ nhàng, dư sức",
+  "note": "Điển tích người đầu bếp mổ bò, lưỡi dao lướt qua khe xương mà vẫn còn dư chỗ. Dùng khen người xử lý việc khó một cách thong thả.",
+  "alt": [
+   "得心应手",
+   "力不从心"
+  ],
+  "hsk": 7,
+  "ex": "她处理客户投诉总是游刃有余。",
+  "exp": "Tā chǔlǐ kèhù tóusù zǒngshì yóurènyǒuyú.",
+  "exvi": "Cô ấy xử lý khiếu nại của khách hàng lúc nào cũng nhẹ nhàng, dư sức.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "尽心尽力",
+  "p": "jìn xīn jìn lì",
+  "hv": "tận tâm tận lực",
+  "vi": "(thành ngữ) dốc hết lòng và sức",
+  "note": "Giống \"tận tâm tận lực\" trong tiếng Việt. Dùng để khen hoặc hứa hẹn về thái độ làm việc, cả khẩu ngữ lẫn văn viết.",
+  "alt": [
+   "全心全意",
+   "竭尽全力"
+  ],
+  "hsk": 5,
+  "ex": "这件事我一定尽心尽力去做。",
+  "exp": "Zhè jiàn shì wǒ yídìng jìnxīnjìnlì qù zuò.",
+  "exvi": "Việc này tôi nhất định sẽ dốc hết sức làm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "任劳任怨",
+  "p": "rèn láo rèn yuàn",
+  "hv": "nhậm lao nhậm oán",
+  "vi": "(thành ngữ) chịu khó chịu khổ, không kêu ca",
+  "note": "Nghĩa đen: chịu được vất vả, chịu được cả lời oán trách. Dùng khen nhân viên hoặc cha mẹ chăm chỉ mà không than phiền.",
+  "alt": [
+   "兢兢业业",
+   "吃苦耐劳"
+  ],
+  "hsk": 7,
+  "ex": "她在公司工作十年，一直任劳任怨。",
+  "exp": "Tā zài gōngsī gōngzuò shí nián, yìzhí rènláorènyuàn.",
+  "exvi": "Chị ấy làm ở công ty mười năm, lúc nào cũng chịu khó không kêu ca.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "埋头苦干",
+  "p": "mái tóu kǔ gàn",
+  "hv": "mai đầu khổ cán",
+  "vi": "(thành ngữ) cắm đầu làm việc chăm chỉ",
+  "note": "Nghĩa đen: cúi đầu làm việc cực nhọc. Thường là lời khen, đôi khi ngầm ý chỉ biết làm mà không nhìn hướng đi.",
+  "alt": [
+   "兢兢业业",
+   "任劳任怨"
+  ],
+  "hsk": 6,
+  "ex": "他每天埋头苦干，很少休息。",
+  "exp": "Tā měitiān máitóukǔgàn, hěn shǎo xiūxi.",
+  "exvi": "Ngày nào anh ấy cũng cắm đầu làm việc, rất ít nghỉ ngơi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "脚踏实地",
+  "p": "jiǎo tà shí dì",
+  "hv": "cước đạp thực địa",
+  "vi": "(thành ngữ) làm việc thực tế, chắc chắn từng bước",
+  "note": "Nghĩa đen: chân đạp trên đất thật. Dùng khuyên làm việc vững vàng; trái nghĩa là 好高骛远.",
+  "alt": [
+   "实事求是",
+   "好高骛远"
+  ],
+  "hsk": 6,
+  "ex": "年轻人要脚踏实地，别总想一夜成名。",
+  "exp": "Niánqīngrén yào jiǎotàshídì, bié zǒng xiǎng yí yè chéngmíng.",
+  "exvi": "Người trẻ phải làm việc thực tế, đừng lúc nào cũng mơ nổi tiếng sau một đêm.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "好高骛远",
+  "p": "hào gāo wù yuǎn",
+  "hv": "hiếu cao vụ viễn",
+  "vi": "(thành ngữ) mơ cao xa, thiếu thực tế",
+  "note": "好 ở đây đọc hào (thích), 骛 là theo đuổi. Mang nghĩa chê người chỉ nhắm mục tiêu quá cao mà không làm từ việc nhỏ.",
+  "alt": [
+   "眼高手低",
+   "脚踏实地"
+  ],
+  "hsk": 7,
+  "ex": "刚毕业就想当经理，有点好高骛远。",
+  "exp": "Gāng bìyè jiù xiǎng dāng jīnglǐ, yǒudiǎn hàogāowùyuǎn.",
+  "exvi": "Vừa tốt nghiệp đã muốn làm quản lý thì hơi viển vông.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "眼高手低",
+  "p": "yǎn gāo shǒu dī",
+  "hv": "nhãn cao thủ đê",
+  "vi": "(thành ngữ) đòi hỏi cao nhưng khả năng làm thì kém",
+  "note": "Nghĩa đen: mắt nhìn cao, tay làm thấp. Dùng để chê, rất hay gặp trong khẩu ngữ khi nói về người mới đi làm.",
+  "alt": [
+   "好高骛远",
+   "志大才疏"
+  ],
+  "hsk": 6,
+  "ex": "他眼高手低，简单的工作都做不好。",
+  "exp": "Tā yǎngāoshǒudī, jiǎndān de gōngzuò dōu zuò bu hǎo.",
+  "exvi": "Anh ta mắt cao tay thấp, việc đơn giản cũng làm không xong.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "笨鸟先飞",
+  "p": "bèn niǎo xiān fēi",
+  "hv": "bổn điểu tiên phi",
+  "vi": "(thành ngữ) chim vụng bay trước; biết mình chậm thì bắt đầu sớm hơn",
+  "note": "Nghĩa đen: con chim vụng về thì cất cánh trước. Thường dùng để tự nói về mình một cách khiêm tốn, khẩu ngữ.",
+  "alt": [
+   "勤能补拙",
+   "早起的鸟儿有虫吃"
+  ],
+  "hsk": 5,
+  "ex": "我基础差，只好笨鸟先飞，每天早到一个小时。",
+  "exp": "Wǒ jīchǔ chà, zhǐhǎo bènniǎoxiānfēi, měitiān zǎo dào yí ge xiǎoshí.",
+  "exvi": "Nền tảng tôi kém nên đành chim vụng bay trước, mỗi ngày đến sớm một tiếng.",
+  "em": "🐦"
+ },
+ {
+  "deck": "cy",
+  "h": "逆水行舟",
+  "p": "nì shuǐ xíng zhōu",
+  "hv": "nghịch thủy hành chu",
+  "vi": "(thành ngữ) học như chèo thuyền ngược nước, không tiến là lùi",
+  "note": "Thường đi trọn câu 学如逆水行舟，不进则退. Dùng để khuyên không được lơ là việc học.",
+  "alt": [
+   "不进则退",
+   "学无止境"
+  ],
+  "hsk": 7,
+  "ex": "学习如逆水行舟，不进则退。",
+  "exp": "Xuéxí rú nìshuǐxíngzhōu, bú jìn zé tuì.",
+  "exvi": "Học như chèo thuyền ngược nước, không tiến ắt sẽ lùi.",
+  "em": "🚣"
+ },
+ {
+  "deck": "cy",
+  "h": "博览群书",
+  "p": "bó lǎn qún shū",
+  "hv": "bác lãm quần thư",
+  "vi": "(thành ngữ) đọc rộng nhiều loại sách",
+  "note": "博 là rộng, 群书 là các loại sách. Dùng khen người học rộng biết nhiều, văn viết.",
+  "alt": [
+   "学富五车",
+   "见多识广"
+  ],
+  "hsk": 7,
+  "ex": "爷爷博览群书，什么问题都知道一点。",
+  "exp": "Yéye bólǎnqúnshū, shénme wèntí dōu zhīdào yìdiǎn.",
+  "exvi": "Ông nội đọc rất rộng, chuyện gì cũng biết một chút.",
+  "em": "📚"
+ },
+ {
+  "deck": "cy",
+  "h": "自暴自弃",
+  "p": "zì bào zì qì",
+  "hv": "tự bạo tự khí",
+  "vi": "(thành ngữ) tự buông xuôi, bỏ mặc bản thân",
+  "note": "暴 là tự làm hại mình, 弃 là bỏ. Dùng để khuyên ai đó đừng buông xuôi sau thất bại.",
+  "alt": [
+   "自强不息",
+   "破罐破摔"
+  ],
+  "hsk": 7,
+  "ex": "一次考试没考好，不要自暴自弃。",
+  "exp": "Yí cì kǎoshì méi kǎo hǎo, búyào zìbàozìqì.",
+  "exvi": "Một lần thi không tốt thì đừng tự buông xuôi.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "知难而退",
+  "p": "zhī nán ér tuì",
+  "hv": "tri nan nhi thoái",
+  "vi": "(thành ngữ) thấy khó thì rút lui",
+  "note": "Ban đầu là biết khó mà lui một cách khôn ngoan, nay thường dùng để chê người gặp khó là bỏ. Trái nghĩa là 迎难而上.",
+  "alt": [
+   "迎难而上",
+   "知难而进"
+  ],
+  "hsk": 7,
+  "ex": "遇到一点困难就知难而退，怎么能成功？",
+  "exp": "Yùdào yìdiǎn kùnnan jiù zhīnán'értuì, zěnme néng chénggōng?",
+  "exvi": "Gặp chút khó khăn đã rút lui thì làm sao thành công được?",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "一蹴而就",
+  "p": "yí cù ér jiù",
+  "hv": "nhất xúc nhi tựu",
+  "vi": "(thành ngữ) bước một bước là xong; thành công ngay lập tức",
+  "note": "蹴 là bước chân. Thường dùng ở câu phủ định: 不可能一蹴而就, nhấn mạnh việc cần thời gian.",
+  "alt": [
+   "一步登天",
+   "循序渐进"
+  ],
+  "hsk": 7,
+  "ex": "学好一门外语不可能一蹴而就。",
+  "exp": "Xuéhǎo yì mén wàiyǔ bù kěnéng yícù'érjiù.",
+  "exvi": "Học giỏi một ngoại ngữ không thể nào một sớm một chiều.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "按部就班",
+  "p": "àn bù jiù bān",
+  "hv": "án bộ tựu ban",
+  "vi": "(thành ngữ) làm theo đúng trình tự, từng bước một",
+  "note": "Nghĩa đen: theo thứ tự bộ, ban mà sắp xếp. Có thể khen là có quy củ, cũng có thể chê nhẹ là rập khuôn.",
+  "alt": [
+   "循序渐进",
+   "有条不紊"
+  ],
+  "hsk": 7,
+  "ex": "别着急，我们按部就班地完成每一步。",
+  "exp": "Bié zháojí, wǒmen ànbùjiùbān de wánchéng měi yí bù.",
+  "exvi": "Đừng vội, chúng ta làm xong từng bước theo đúng trình tự.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "有始有终",
+  "p": "yǒu shǐ yǒu zhōng",
+  "hv": "hữu thủy hữu chung",
+  "vi": "(thành ngữ) có đầu có cuối; làm việc đến nơi đến chốn",
+  "note": "Giống \"có đầu có đuôi\" trong tiếng Việt. Dùng khen người làm việc trọn vẹn; trái nghĩa là 虎头蛇尾.",
+  "alt": [
+   "善始善终",
+   "虎头蛇尾"
+  ],
+  "hsk": 5,
+  "ex": "做事要有始有终，不能做到一半就停。",
+  "exp": "Zuòshì yào yǒushǐyǒuzhōng, bù néng zuò dào yíbàn jiù tíng.",
+  "exvi": "Làm việc phải có đầu có cuối, không được làm nửa chừng rồi dừng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "虎头蛇尾",
+  "p": "hǔ tóu shé wěi",
+  "hv": "hổ đầu xà vĩ",
+  "vi": "(thành ngữ) đầu voi đuôi chuột",
+  "note": "Nghĩa đen: đầu hổ đuôi rắn. Tương đương \"đầu voi đuôi chuột\", dùng để chê việc bắt đầu hoành tráng mà kết thúc qua loa.",
+  "alt": [
+   "有始无终",
+   "有始有终"
+  ],
+  "hsk": 6,
+  "ex": "这个计划开始很热闹，最后虎头蛇尾。",
+  "exp": "Zhège jìhuà kāishǐ hěn rènao, zuìhòu hǔtóushéwěi.",
+  "exvi": "Kế hoạch này lúc đầu rầm rộ, cuối cùng lại đầu voi đuôi chuột.",
+  "em": "🐯"
+ },
+ {
+  "deck": "cy",
+  "h": "敷衍了事",
+  "p": "fū yǎn liǎo shì",
+  "hv": "phu diễn liễu sự",
+  "vi": "(thành ngữ) làm qua loa cho xong chuyện",
+  "note": "敷衍 là làm cho có, 了事 là cho xong việc (了 đọc liǎo). Mang nghĩa chê thái độ làm việc.",
+  "alt": [
+   "马马虎虎",
+   "一丝不苟"
+  ],
+  "hsk": 7,
+  "ex": "老板最讨厌员工敷衍了事。",
+  "exp": "Lǎobǎn zuì tǎoyàn yuángōng fūyǎnliǎoshì.",
+  "exvi": "Sếp ghét nhất là nhân viên làm qua loa cho xong.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "融会贯通",
+  "p": "róng huì guàn tōng",
+  "hv": "dung hội quán thông",
+  "vi": "(thành ngữ) hiểu thấu và liên kết được các kiến thức với nhau",
+  "note": "Nghĩa đen: hòa trộn lại và thông suốt. Dùng khi học đến mức hiểu sâu, vận dụng linh hoạt; văn viết.",
+  "alt": [
+   "举一反三",
+   "囫囵吞枣"
+  ],
+  "hsk": 7,
+  "ex": "只有融会贯通，才能真正用好这些知识。",
+  "exp": "Zhǐyǒu rónghuìguàntōng, cái néng zhēnzhèng yònghǎo zhèxiē zhīshi.",
+  "exvi": "Chỉ khi hiểu thấu và liên kết được thì mới thật sự dùng tốt những kiến thức này.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "大器晚成",
+  "p": "dà qì wǎn chéng",
+  "hv": "đại khí vãn thành",
+  "vi": "(thành ngữ) người tài thường thành đạt muộn",
+  "note": "Nghĩa đen: đồ vật lớn phải làm lâu mới xong. Hay dùng để an ủi, hoặc khen người thành công khi đã lớn tuổi.",
+  "alt": [
+   "厚积薄发",
+   "少年得志"
+  ],
+  "hsk": 7,
+  "ex": "他五十岁才出名，真是大器晚成。",
+  "exp": "Tā wǔshí suì cái chūmíng, zhēn shì dàqìwǎnchéng.",
+  "exvi": "Ông ấy năm mươi tuổi mới nổi tiếng, đúng là người tài thành đạt muộn.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "后来居上",
+  "p": "hòu lái jū shàng",
+  "hv": "hậu lai cư thượng",
+  "vi": "(thành ngữ) người đến sau vượt lên trước",
+  "note": "Nghĩa đen: người đến sau lại đứng trên. Dùng cho người, công ty, đội bóng bắt đầu muộn mà vượt đối thủ; sắc thái khen.",
+  "alt": [
+   "青出于蓝",
+   "后起之秀"
+  ],
+  "hsk": 7,
+  "ex": "这家公司起步晚，却后来居上。",
+  "exp": "Zhè jiā gōngsī qǐbù wǎn, què hòuláijūshàng.",
+  "exvi": "Công ty này khởi đầu muộn nhưng lại vượt lên dẫn trước.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "不遗余力",
+  "p": "bù yí yú lì",
+  "hv": "bất di dư lực",
+  "vi": "(thành ngữ) dốc hết sức, không chừa lại chút sức nào",
+  "note": "遗 là để lại. Hay gặp trong văn viết, tin tức: 不遗余力地支持, 不遗余力地推动.",
+  "alt": [
+   "全力以赴",
+   "竭尽全力"
+  ],
+  "hsk": 7,
+  "ex": "父母不遗余力地支持我出国留学。",
+  "exp": "Fùmǔ bùyíyúlì de zhīchí wǒ chūguó liúxué.",
+  "exvi": "Bố mẹ dốc hết sức ủng hộ tôi ra nước ngoài du học.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "前车之鉴",
+  "p": "qián chē zhī jiàn",
+  "hv": "tiền xa chi giám",
+  "vi": "(thành ngữ) bài học từ thất bại của người đi trước",
+  "note": "Từ câu 前车覆，后车诫: xe trước đổ thì xe sau phải lấy làm gương. Dùng khi rút kinh nghiệm từ sai lầm của người khác.",
+  "alt": [
+   "吸取教训",
+   "亡羊补牢"
+  ],
+  "hsk": 7,
+  "ex": "他的失败是我们的前车之鉴。",
+  "exp": "Tā de shībài shì wǒmen de qiánchēzhījiàn.",
+  "exvi": "Thất bại của anh ấy là bài học cho chúng ta.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "专心致志",
+  "p": "zhuān xīn zhì zhì",
+  "hv": "chuyên tâm trí chí",
+  "vi": "(thành ngữ) dồn hết tâm trí vào một việc",
+  "note": "Nghĩa đen: chuyên lòng, dốc chí. Dùng khen sự tập trung khi học hay làm việc; trái nghĩa là 三心二意.",
+  "alt": [
+   "聚精会神",
+   "三心二意"
+  ],
+  "hsk": 6,
+  "ex": "孩子们正专心致志地做作业。",
+  "exp": "Háizimen zhèng zhuānxīnzhìzhì de zuò zuòyè.",
+  "exvi": "Bọn trẻ đang chăm chú làm bài tập.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "三心二意",
+  "p": "sān xīn èr yì",
+  "hv": "tam tâm nhị ý",
+  "vi": "(thành ngữ) không chuyên tâm, lúc thế này lúc thế khác",
+  "note": "Gần với \"ba lòng hai dạ\" nhưng chủ yếu dùng cho việc học, việc làm thiếu tập trung; khẩu ngữ.",
+  "alt": [
+   "心不在焉",
+   "一心一意"
+  ],
+  "hsk": 5,
+  "ex": "做作业的时候别三心二意，手机先放一边。",
+  "exp": "Zuò zuòyè de shíhou bié sānxīn'èryì, shǒujī xiān fàng yìbiān.",
+  "exvi": "Lúc làm bài tập đừng phân tâm, để điện thoại sang một bên đã.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "白手起家",
+  "p": "bái shǒu qǐ jiā",
+  "hv": "bạch thủ khởi gia",
+  "vi": "(thành ngữ) tay trắng làm nên sự nghiệp",
+  "note": "Nghĩa đen: tay không gây dựng cơ nghiệp. Dùng khen người tự lập mà thành công, rất hay gặp khi nói về doanh nhân.",
+  "alt": [
+   "自力更生",
+   "艰苦创业"
+  ],
+  "hsk": 6,
+  "ex": "他白手起家，开了三家餐厅。",
+  "exp": "Tā báishǒuqǐjiā, kāi le sān jiā cāntīng.",
+  "exvi": "Anh ấy tay trắng làm nên, mở được ba nhà hàng.",
+  "em": ""
+ },
+ {
+  "deck": "cy",
+  "h": "水到渠成",
+  "p": "shuǐ dào qú chéng",
+  "hv": "thủy đáo cừ thành",
+  "vi": "(thành ngữ) điều kiện chín muồi thì việc tự thành",
+  "note": "Nghĩa đen: nước chảy tới đâu thì mương tự thành tới đó. Dùng khi chuẩn bị đủ thì kết quả đến tự nhiên, không cần ép.",
+  "alt": [
+   "顺理成章",
+   "瓜熟蒂落"
+  ],
+  "hsk": 7,
+  "ex": "基础打好了，考高分是水到渠成的事。",
+  "exp": "Jīchǔ dǎhǎo le, kǎo gāofēn shì shuǐdàoqúchéng de shì.",
+  "exvi": "Nền tảng vững rồi thì điểm cao sẽ đến một cách tự nhiên.",
+  "em": ""
+ }
+]

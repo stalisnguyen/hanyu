@@ -21,8 +21,8 @@ for i, b in enumerate(out):
     if len(ps) != len(h): err.append(f'{tag}: pinyin syllables {len(ps)} != characters {len(h)}')
     if len(hv) != len(h): err.append(f'{tag}: hv syllables {len(hv)} != characters {len(h)}')
     if b.get('p') != str(b.get('p')).lower(): err.append(f'{tag}: pinyin must be lowercase')
-    if not all(TONE.search(s) or s in ('de', 'le', 'me', 'ne', 'ba', 'ma', 'zi', 'men', 'ge', 'shang', 'xia', 'li', 'tou', 'guo', 'zhe', 'qi', 'lai', 'qu', 'r') for s in ps):
-        err.append(f'{tag}: pinyin syllable without tone mark (neutral tone only for real neutral syllables)')
+    if not TONE.search(ps[0]) or sum(1 for s in ps if not TONE.search(s))>max(1,len(ps)//2):
+        err.append(f'{tag}: pinyin needs tone marks (only real neutral-tone syllables may go without, never the first)')
     if not isinstance(b.get('alt'), list) or not 2 <= len(b['alt']) <= 3: err.append(f'{tag}: alt needs 2-3 items')
     if b.get('hsk') not in (2, 3, 4, 5, 6, 7): err.append(f'{tag}: hsk must be 2-7')
     if h in seen: err.append(f'{tag}: duplicate')

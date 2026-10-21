@@ -1,0 +1,1022 @@
+[
+ {
+  "deck": "dp",
+  "h": "打扫卫生",
+  "p": "dǎ sǎo wèi shēng",
+  "hv": "đả tảo vệ sinh",
+  "vi": "dọn dẹp vệ sinh; quét dọn nhà cửa",
+  "note": "打扫 đi với nơi chốn hoặc với 卫生: 打扫房间, 打扫卫生. Khẩu ngữ cũng hay nói 搞卫生.",
+  "alt": [
+   "打扫房间",
+   "打扫教室"
+  ],
+  "hsk": 4,
+  "ex": "每个周六我们全家一起打扫卫生。",
+  "exp": "Měi ge zhōuliù wǒmen quánjiā yìqǐ dǎsǎo wèishēng.",
+  "exvi": "Thứ bảy nào cả nhà mình cũng cùng nhau dọn dẹp vệ sinh.",
+  "em": "🧹"
+ },
+ {
+  "deck": "dp",
+  "h": "洗盘子",
+  "p": "xǐ pán zi",
+  "hv": "tẩy bàn tử",
+  "vi": "rửa đĩa",
+  "note": "洗 đi với thứ cần rửa: 洗碗, 洗盘子, 洗杯子. Rửa mặt là 洗脸, gội đầu là 洗头.",
+  "alt": [
+   "洗碗",
+   "洗杯子"
+  ],
+  "hsk": 3,
+  "ex": "吃完饭以后，我负责洗盘子。",
+  "exp": "Chī wán fàn yǐhòu, wǒ fùzé xǐ pánzi.",
+  "exvi": "Ăn cơm xong, mình phụ trách rửa đĩa.",
+  "em": "🍽️"
+ },
+ {
+  "deck": "dp",
+  "h": "做家务",
+  "p": "zuò jiā wù",
+  "hv": "tố gia vụ",
+  "vi": "làm việc nhà",
+  "note": "Viết 做 chứ không viết 作. Khẩu ngữ cũng nói 干家务.",
+  "alt": [
+   "做饭",
+   "做作业"
+  ],
+  "hsk": 4,
+  "ex": "他每天下班回家都帮妻子做家务。",
+  "exp": "Tā měitiān xiàbān huí jiā dōu bāng qīzi zuò jiāwù.",
+  "exvi": "Ngày nào đi làm về anh ấy cũng giúp vợ làm việc nhà.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "倒垃圾",
+  "p": "dào lā jī",
+  "hv": "đảo lạp ngập",
+  "vi": "đổ rác",
+  "note": "倒 ở đây đọc dào (đổ ra), không đọc dǎo (ngã). Cũng nói 扔垃圾.",
+  "alt": [
+   "倒水",
+   "扔垃圾"
+  ],
+  "hsk": 4,
+  "ex": "你出门的时候顺便倒垃圾吧。",
+  "exp": "Nǐ chūmén de shíhou shùnbiàn dào lājī ba.",
+  "exvi": "Lúc ra ngoài bạn tiện tay đổ rác luôn nhé.",
+  "em": "🗑️"
+ },
+ {
+  "deck": "dp",
+  "h": "晒被子",
+  "p": "shài bèi zi",
+  "hv": "sái bị tử",
+  "vi": "phơi chăn",
+  "note": "晒 là phơi dưới nắng: 晒衣服, 晒被子. 晒太阳 là tắm nắng.",
+  "alt": [
+   "晒衣服",
+   "晒太阳"
+  ],
+  "hsk": 5,
+  "ex": "今天太阳很好，我们去阳台晒被子吧。",
+  "exp": "Jīntiān tàiyáng hěn hǎo, wǒmen qù yángtái shài bèizi ba.",
+  "exvi": "Hôm nay nắng đẹp, mình ra ban công phơi chăn đi.",
+  "em": "☀️"
+ },
+ {
+  "deck": "dp",
+  "h": "关空调",
+  "p": "guān kōng tiáo",
+  "hv": "quan không điều",
+  "vi": "tắt điều hòa",
+  "note": "Bật thiết bị dùng 开, tắt dùng 关: 开空调, 关空调. Không dùng 打 hay 灭 với điều hòa.",
+  "alt": [
+   "开空调",
+   "关灯"
+  ],
+  "hsk": 3,
+  "ex": "睡觉前别忘了关空调。",
+  "exp": "Shuìjiào qián bié wàng le guān kōngtiáo.",
+  "exvi": "Trước khi ngủ đừng quên tắt điều hòa.",
+  "em": "❄️"
+ },
+ {
+  "deck": "dp",
+  "h": "打开电视",
+  "p": "dǎ kāi diàn shì",
+  "hv": "đả khai điện thị",
+  "vi": "bật tivi",
+  "note": "打开 dùng cho tivi, máy tính, cửa, sách; tắt là 关上 hoặc 关掉.",
+  "alt": [
+   "打开窗户",
+   "打开电脑"
+  ],
+  "hsk": 3,
+  "ex": "他一回家就打开电视看新闻。",
+  "exp": "Tā yì huí jiā jiù dǎkāi diànshì kàn xīnwén.",
+  "exvi": "Anh ấy vừa về nhà là bật tivi xem thời sự.",
+  "em": "📺"
+ },
+ {
+  "deck": "dp",
+  "h": "换床单",
+  "p": "huàn chuáng dān",
+  "hv": "hoán sàng đơn",
+  "vi": "thay ga giường",
+  "note": "换 là thay cái cũ bằng cái mới. Không nói 改床单, vì 改 là sửa.",
+  "alt": [
+   "换衣服",
+   "换电池"
+  ],
+  "hsk": 4,
+  "ex": "天气热了，我们该换床单了。",
+  "exp": "Tiānqì rè le, wǒmen gāi huàn chuángdān le.",
+  "exvi": "Trời nóng rồi, mình nên thay ga giường thôi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "点外卖",
+  "p": "diǎn wài mài",
+  "hv": "điểm ngoại mại",
+  "vi": "gọi đồ ăn giao tận nơi; đặt đồ ăn online",
+  "note": "点 ở đây là gọi món: 点菜, 点外卖, 点咖啡. Khẩu ngữ cũng nói 叫外卖.",
+  "alt": [
+   "点菜",
+   "叫外卖"
+  ],
+  "hsk": 4,
+  "ex": "今天太累了，不想做饭，点外卖吧。",
+  "exp": "Jīntiān tài lèi le, bù xiǎng zuòfàn, diǎn wàimài ba.",
+  "exvi": "Hôm nay mệt quá, không muốn nấu, gọi đồ ăn ngoài đi.",
+  "em": "🛵"
+ },
+ {
+  "deck": "dp",
+  "h": "做早饭",
+  "p": "zuò zǎo fàn",
+  "hv": "tố tảo phạn",
+  "vi": "nấu bữa sáng",
+  "note": "做饭 là nấu ăn nói chung; nói bữa cụ thể thì dùng 做早饭, 做午饭, 做晚饭.",
+  "alt": [
+   "做午饭",
+   "做晚饭"
+  ],
+  "hsk": 2,
+  "ex": "妈妈每天六点起床给我们做早饭。",
+  "exp": "Māma měitiān liù diǎn qǐchuáng gěi wǒmen zuò zǎofàn.",
+  "exvi": "Mẹ ngày nào cũng dậy lúc sáu giờ nấu bữa sáng cho tụi mình.",
+  "em": "🍳"
+ },
+ {
+  "deck": "dp",
+  "h": "炒鸡蛋",
+  "p": "chǎo jī dàn",
+  "hv": "sao kê đản",
+  "vi": "trứng xào; xào trứng",
+  "note": "炒 là xào, đảo trên chảo. Trứng ốp la là 煎鸡蛋, không phải 炒鸡蛋.",
+  "alt": [
+   "炒菜",
+   "炒饭"
+  ],
+  "hsk": 4,
+  "ex": "我只会做一个菜，就是西红柿炒鸡蛋。",
+  "exp": "Wǒ zhǐ huì zuò yí ge cài, jiù shì xīhóngshì chǎo jīdàn.",
+  "exvi": "Mình chỉ biết nấu đúng một món, là trứng xào cà chua.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "煮米饭",
+  "p": "zhǔ mǐ fàn",
+  "hv": "chử mễ phạn",
+  "vi": "nấu cơm",
+  "note": "煮 là nấu trong nước: 煮米饭, 煮面条, 煮鸡蛋 (trứng luộc).",
+  "alt": [
+   "煮面条",
+   "煮鸡蛋"
+  ],
+  "hsk": 4,
+  "ex": "你先煮米饭，我来炒菜。",
+  "exp": "Nǐ xiān zhǔ mǐfàn, wǒ lái chǎo cài.",
+  "exvi": "Bạn nấu cơm trước, mình xào rau.",
+  "em": "🍚"
+ },
+ {
+  "deck": "dp",
+  "h": "切西红柿",
+  "p": "qiē xī hóng shì",
+  "hv": "thiết tây hồng thị",
+  "vi": "thái cà chua",
+  "note": "切 là cắt bằng dao (thái, cắt lát); cắt bằng kéo thì dùng 剪.",
+  "alt": [
+   "切菜",
+   "切水果"
+  ],
+  "hsk": 3,
+  "ex": "你帮我切西红柿，我去洗菜。",
+  "exp": "Nǐ bāng wǒ qiē xīhóngshì, wǒ qù xǐ cài.",
+  "exvi": "Bạn thái cà chua giúp mình, mình đi rửa rau.",
+  "em": "🍅"
+ },
+ {
+  "deck": "dp",
+  "h": "喝热水",
+  "p": "hē rè shuǐ",
+  "hv": "hát nhiệt thủy",
+  "vi": "uống nước ấm",
+  "note": "Người Trung Quốc hay khuyên 多喝热水 khi ai đó bị ốm. Nước đun sôi để nguội là 凉开水.",
+  "alt": [
+   "喝开水",
+   "多喝水"
+  ],
+  "hsk": 2,
+  "ex": "你感冒了，多喝热水，早点睡。",
+  "exp": "Nǐ gǎnmào le, duō hē rè shuǐ, zǎo diǎn shuì.",
+  "exvi": "Bạn bị cảm rồi, uống nhiều nước ấm, ngủ sớm chút.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "吃夜宵",
+  "p": "chī yè xiāo",
+  "hv": "ngật dạ tiêu",
+  "vi": "ăn khuya",
+  "note": "夜宵 cũng viết là 宵夜; hay nói 出去吃夜宵.",
+  "alt": [
+   "吃早饭",
+   "吃零食"
+  ],
+  "hsk": 5,
+  "ex": "我们加班到十一点，然后一起去吃夜宵。",
+  "exp": "Wǒmen jiābān dào shíyī diǎn, ránhòu yìqǐ qù chī yèxiāo.",
+  "exvi": "Tụi mình tăng ca tới mười một giờ rồi cùng đi ăn khuya.",
+  "em": "🌙"
+ },
+ {
+  "deck": "dp",
+  "h": "打八折",
+  "p": "dǎ bā zhé",
+  "hv": "đả bát chiết",
+  "vi": "giảm giá 20% (trả 80% giá)",
+  "note": "Cách tính ngược với tiếng Việt: 打八折 là trả 80% giá, tức giảm 20%, không phải giảm 80%. Người Việt rất hay nhầm chỗ này.",
+  "alt": [
+   "打折",
+   "打五折"
+  ],
+  "hsk": 4,
+  "ex": "这件衣服现在打八折，只要两百块。",
+  "exp": "Zhè jiàn yīfu xiànzài dǎ bā zhé, zhǐ yào liǎng bǎi kuài.",
+  "exvi": "Cái áo này đang giảm 20%, chỉ còn hai trăm tệ.",
+  "em": "🏷️"
+ },
+ {
+  "deck": "dp",
+  "h": "付现金",
+  "p": "fù xiàn jīn",
+  "hv": "phó hiện kim",
+  "vi": "trả tiền mặt",
+  "note": "付 đi với tiền và phí: 付钱, 付现金, 付房租. Cũng nói 用现金付.",
+  "alt": [
+   "付钱",
+   "付款"
+  ],
+  "hsk": 4,
+  "ex": "这家小店不能刷卡，只能付现金。",
+  "exp": "Zhè jiā xiǎo diàn bù néng shuākǎ, zhǐ néng fù xiànjīn.",
+  "exvi": "Tiệm nhỏ này không quẹt thẻ được, chỉ trả tiền mặt thôi.",
+  "em": "💵"
+ },
+ {
+  "deck": "dp",
+  "h": "刷信用卡",
+  "p": "shuā xìn yòng kǎ",
+  "hv": "xoát tín dụng tạp",
+  "vi": "quẹt thẻ tín dụng",
+  "note": "Quẹt thẻ dùng động từ 刷 (刷卡); quét mã thì mới dùng 扫.",
+  "alt": [
+   "刷卡",
+   "刷银行卡"
+  ],
+  "hsk": 4,
+  "ex": "我没带钱包，可以刷信用卡吗？",
+  "exp": "Wǒ méi dài qiánbāo, kěyǐ shuā xìnyòngkǎ ma?",
+  "exvi": "Mình không mang ví, quẹt thẻ tín dụng được không?",
+  "em": "💳"
+ },
+ {
+  "deck": "dp",
+  "h": "扫码支付",
+  "p": "sǎo mǎ zhī fù",
+  "hv": "tảo mã chi phó",
+  "vi": "quét mã thanh toán",
+  "note": "扫码 là nói tắt của 扫二维码. Ở Trung Quốc hầu hết cửa hàng đều nhận thanh toán qua WeChat hoặc Alipay.",
+  "alt": [
+   "扫码点餐",
+   "手机支付"
+  ],
+  "hsk": 5,
+  "ex": "现在买东西大家都用手机扫码支付。",
+  "exp": "Xiànzài mǎi dōngxi dàjiā dōu yòng shǒujī sǎo mǎ zhīfù.",
+  "exvi": "Bây giờ mua đồ ai cũng quét mã bằng điện thoại để thanh toán.",
+  "em": "📱"
+ },
+ {
+  "deck": "dp",
+  "h": "逛超市",
+  "p": "guàng chāo shì",
+  "hv": "cuống siêu thị",
+  "vi": "đi dạo siêu thị",
+  "note": "逛 là đi dạo, đi xem không vội: 逛街, 逛商场, 逛公园. Không nói 走超市.",
+  "alt": [
+   "逛街",
+   "逛商场"
+  ],
+  "hsk": 4,
+  "ex": "周末我喜欢和妈妈一起逛超市。",
+  "exp": "Zhōumò wǒ xǐhuan hé māma yìqǐ guàng chāoshì.",
+  "exvi": "Cuối tuần mình thích đi siêu thị cùng mẹ.",
+  "em": "🛒"
+ },
+ {
+  "deck": "dp",
+  "h": "网上购物",
+  "p": "wǎng shàng gòu wù",
+  "hv": "võng thượng cấu vật",
+  "vi": "mua sắm trên mạng",
+  "note": "Khẩu ngữ hay nói gọn là 网购 hoặc 在网上买东西.",
+  "alt": [
+   "网上订票",
+   "网上聊天"
+  ],
+  "hsk": 4,
+  "ex": "网上购物很方便，可是有时候质量不好。",
+  "exp": "Wǎngshàng gòuwù hěn fāngbiàn, kěshì yǒu shíhou zhìliàng bù hǎo.",
+  "exvi": "Mua sắm trên mạng rất tiện, nhưng đôi khi chất lượng không tốt.",
+  "em": "🛍️"
+ },
+ {
+  "deck": "dp",
+  "h": "申请退款",
+  "p": "shēn qǐng tuì kuǎn",
+  "hv": "thân thỉnh thoái khoản",
+  "vi": "yêu cầu hoàn tiền",
+  "note": "Trên app mua sắm nút này thường ghi 申请退款; trả hàng là 退货.",
+  "alt": [
+   "申请签证",
+   "申请奖学金"
+  ],
+  "hsk": 5,
+  "ex": "收到的东西坏了，我已经申请退款了。",
+  "exp": "Shōu dào de dōngxi huài le, wǒ yǐjīng shēnqǐng tuìkuǎn le.",
+  "exvi": "Đồ nhận được bị hỏng, mình đã yêu cầu hoàn tiền rồi.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "拿快递",
+  "p": "ná kuài dì",
+  "hv": "nã khoái đệ",
+  "vi": "lấy hàng chuyển phát",
+  "note": "Đi lấy bưu kiện nói 拿快递 hoặc 取快递; gửi hàng là 寄快递.",
+  "alt": [
+   "取快递",
+   "寄快递"
+  ],
+  "hsk": 4,
+  "ex": "我下楼去拿快递，马上回来。",
+  "exp": "Wǒ xià lóu qù ná kuàidì, mǎshàng huílai.",
+  "exvi": "Mình xuống lầu lấy hàng, về ngay.",
+  "em": "📦"
+ },
+ {
+  "deck": "dp",
+  "h": "寄包裹",
+  "p": "jì bāo guǒ",
+  "hv": "ký bao khỏa",
+  "vi": "gửi bưu kiện",
+  "note": "寄 là gửi qua bưu điện hoặc chuyển phát: 寄信, 寄包裹. Đưa tận tay thì dùng 送.",
+  "alt": [
+   "寄信",
+   "寄快递"
+  ],
+  "hsk": 4,
+  "ex": "我要去邮局给家里寄包裹。",
+  "exp": "Wǒ yào qù yóujú gěi jiāli jì bāoguǒ.",
+  "exvi": "Mình phải ra bưu điện gửi bưu kiện về nhà.",
+  "em": "📮"
+ },
+ {
+  "deck": "dp",
+  "h": "赶时间",
+  "p": "gǎn shí jiān",
+  "hv": "cản thời gian",
+  "vi": "đang vội; gấp thời gian",
+  "note": "Hay dùng 我在赶时间 hoặc 不赶时间. Không nói 我很急时间.",
+  "alt": [
+   "赶飞机",
+   "赶火车"
+  ],
+  "hsk": 4,
+  "ex": "不好意思，我在赶时间，下次再聊。",
+  "exp": "Bù hǎoyìsi, wǒ zài gǎn shíjiān, xià cì zài liáo.",
+  "exvi": "Xin lỗi, mình đang vội, lần sau nói chuyện tiếp nhé.",
+  "em": "⏰"
+ },
+ {
+  "deck": "dp",
+  "h": "浪费时间",
+  "p": "làng fèi shí jiān",
+  "hv": "lãng phí thời gian",
+  "vi": "phí thời gian",
+  "note": "浪费 đi với thời gian, tiền, đồ ăn: 浪费时间, 浪费钱, 浪费粮食.",
+  "alt": [
+   "浪费钱",
+   "浪费粮食"
+  ],
+  "hsk": 4,
+  "ex": "别玩手机了，这样太浪费时间了。",
+  "exp": "Bié wán shǒujī le, zhèyàng tài làngfèi shíjiān le.",
+  "exvi": "Đừng chơi điện thoại nữa, như vậy phí thời gian lắm.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "节省时间",
+  "p": "jié shěng shí jiān",
+  "hv": "tiết tỉnh thời gian",
+  "vi": "tiết kiệm thời gian",
+  "note": "Với thời gian nên dùng 节省 hoặc 省时间; 节约 hay đi với nước, điện, tiền.",
+  "alt": [
+   "节省开支",
+   "节省体力"
+  ],
+  "hsk": 4,
+  "ex": "坐地铁上班可以节省时间。",
+  "exp": "Zuò dìtiě shàngbān kěyǐ jiéshěng shíjiān.",
+  "exvi": "Đi tàu điện ngầm đi làm giúp tiết kiệm thời gian.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "约个时间",
+  "p": "yuē ge shí jiān",
+  "hv": "ước cá thời gian",
+  "vi": "hẹn một hôm; hẹn giờ gặp",
+  "note": "约 là hẹn. 约个时间 dùng khi muốn hẹn gặp mà chưa định ngày giờ cụ thể.",
+  "alt": [
+   "约朋友",
+   "约好时间"
+  ],
+  "hsk": 4,
+  "ex": "我们约个时间一起吃饭吧。",
+  "exp": "Wǒmen yuē ge shíjiān yìqǐ chīfàn ba.",
+  "exvi": "Mình hẹn một hôm đi ăn với nhau nhé.",
+  "em": "📅"
+ },
+ {
+  "deck": "dp",
+  "h": "准时出发",
+  "p": "zhǔn shí chū fā",
+  "hv": "chuẩn thời xuất phát",
+  "vi": "khởi hành đúng giờ",
+  "note": "准时 thường đứng trước động từ làm trạng ngữ: 准时出发, 准时上班.",
+  "alt": [
+   "准时到达",
+   "准时上班"
+  ],
+  "hsk": 4,
+  "ex": "明天早上七点准时出发，别迟到。",
+  "exp": "Míngtiān zǎoshang qī diǎn zhǔnshí chūfā, bié chídào.",
+  "exvi": "Sáng mai bảy giờ đúng xuất phát, đừng đến muộn.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "下大雨",
+  "p": "xià dà yǔ",
+  "hv": "hạ đại vũ",
+  "vi": "mưa to",
+  "note": "Trời đang mưa nói 下雨; 有雨 chỉ dùng trong dự báo như 明天有雨.",
+  "alt": [
+   "下雪",
+   "下小雨"
+  ],
+  "hsk": 2,
+  "ex": "外面下大雨了，你等一会儿再走吧。",
+  "exp": "Wàimiàn xià dà yǔ le, nǐ děng yíhuìr zài zǒu ba.",
+  "exvi": "Ngoài trời mưa to rồi, bạn đợi chút rồi hẵng đi.",
+  "em": "🌧️"
+ },
+ {
+  "deck": "dp",
+  "h": "刮大风",
+  "p": "guā dà fēng",
+  "hv": "quát đại phong",
+  "vi": "gió to; nổi gió lớn",
+  "note": "Nói về thời tiết thì gió đi với động từ 刮: 刮风, 刮大风, 刮台风.",
+  "alt": [
+   "刮风",
+   "刮台风"
+  ],
+  "hsk": 3,
+  "ex": "今天刮大风，出门要多穿点儿。",
+  "exp": "Jīntiān guā dà fēng, chūmén yào duō chuān diǎnr.",
+  "exvi": "Hôm nay gió to, ra ngoài nhớ mặc thêm áo.",
+  "em": "🌬️"
+ },
+ {
+  "deck": "dp",
+  "h": "出太阳",
+  "p": "chū tài yáng",
+  "hv": "xuất thái dương",
+  "vi": "có nắng; mặt trời ló ra",
+  "note": "Trời hửng nắng nói 出太阳. 太阳 là mặt trời, 阳光 là ánh nắng.",
+  "alt": [
+   "晒太阳",
+   "阳光很好"
+  ],
+  "hsk": 3,
+  "ex": "雨停了，外面出太阳了。",
+  "exp": "Yǔ tíng le, wàimiàn chū tàiyáng le.",
+  "exvi": "Mưa tạnh rồi, bên ngoài có nắng rồi.",
+  "em": "🌤️"
+ },
+ {
+  "deck": "dp",
+  "h": "带雨伞",
+  "p": "dài yǔ sǎn",
+  "hv": "đái vũ tản",
+  "vi": "mang ô",
+  "note": "Mang theo người dùng 带: 带伞, 带钱, 带钥匙. 拿 là cầm trên tay, người Việt hay dùng nhầm 拿 cho nghĩa mang theo.",
+  "alt": [
+   "带钥匙",
+   "带钱包"
+  ],
+  "hsk": 3,
+  "ex": "天气预报说会下雨，记得带雨伞。",
+  "exp": "Tiānqì yùbào shuō huì xià yǔ, jìde dài yǔsǎn.",
+  "exvi": "Dự báo thời tiết nói sẽ mưa, nhớ mang ô nhé.",
+  "em": "☂️"
+ },
+ {
+  "deck": "dp",
+  "h": "看天气预报",
+  "p": "kàn tiān qì yù bào",
+  "hv": "khán thiên khí dự báo",
+  "vi": "xem dự báo thời tiết",
+  "note": "天气预报 có trật tự ngược với tiếng Việt: 天气 (thời tiết) đứng trước 预报 (dự báo).",
+  "alt": [
+   "听天气预报",
+   "看新闻"
+  ],
+  "hsk": 4,
+  "ex": "出门旅游前，我总是先看天气预报。",
+  "exp": "Chūmén lǚyóu qián, wǒ zǒngshì xiān kàn tiānqì yùbào.",
+  "exvi": "Trước khi đi du lịch, mình luôn xem dự báo thời tiết trước.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "气温下降",
+  "p": "qì wēn xià jiàng",
+  "hv": "khí ôn hạ giáng",
+  "vi": "nhiệt độ giảm",
+  "note": "Dùng theo kiểu chủ ngữ + vị ngữ: 气温下降, 气温升高. Khẩu ngữ gọn hơn là 降温.",
+  "alt": [
+   "气温升高",
+   "降温"
+  ],
+  "hsk": 5,
+  "ex": "这几天气温下降得很快，小心感冒。",
+  "exp": "Zhè jǐ tiān qìwēn xiàjiàng de hěn kuài, xiǎoxīn gǎnmào.",
+  "exvi": "Mấy hôm nay nhiệt độ giảm nhanh, cẩn thận kẻo bị cảm.",
+  "em": "🌡️"
+ },
+ {
+  "deck": "dp",
+  "h": "天气转晴",
+  "p": "tiān qì zhuǎn qíng",
+  "hv": "thiên khí chuyển tình",
+  "vi": "trời chuyển nắng; trời quang lại",
+  "note": "转 là chuyển sang; hay gặp trong dự báo thời tiết: 多云转晴, 阴转小雨.",
+  "alt": [
+   "多云转晴",
+   "晴转多云"
+  ],
+  "hsk": 5,
+  "ex": "下午天气转晴，我们可以去公园。",
+  "exp": "Xiàwǔ tiānqì zhuǎn qíng, wǒmen kěyǐ qù gōngyuán.",
+  "exvi": "Chiều trời quang lại, mình có thể đi công viên.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "睡懒觉",
+  "p": "shuì lǎn jiào",
+  "hv": "thụy lãn giác",
+  "vi": "ngủ nướng",
+  "note": "觉 ở đây đọc jiào. 睡觉 là từ ly hợp nên có thể nói 睡了个懒觉.",
+  "alt": [
+   "睡午觉",
+   "睡个好觉"
+  ],
+  "hsk": 4,
+  "ex": "星期天不用上班，我想睡懒觉。",
+  "exp": "Xīngqītiān bú yòng shàngbān, wǒ xiǎng shuì lǎnjiào.",
+  "exvi": "Chủ nhật không phải đi làm, mình muốn ngủ nướng.",
+  "em": "😴"
+ },
+ {
+  "deck": "dp",
+  "h": "定闹钟",
+  "p": "dìng nào zhōng",
+  "hv": "định náo chung",
+  "vi": "đặt báo thức",
+  "note": "Đặt báo thức nói 定闹钟 hoặc 设闹钟; không nói 放闹钟.",
+  "alt": [
+   "设闹钟",
+   "关闹钟"
+  ],
+  "hsk": 4,
+  "ex": "睡前别忘了定闹钟，明天六点起床。",
+  "exp": "Shuì qián bié wàng le dìng nàozhōng, míngtiān liù diǎn qǐchuáng.",
+  "exvi": "Trước khi ngủ đừng quên đặt báo thức, mai sáu giờ dậy.",
+  "em": "⏰"
+ },
+ {
+  "deck": "dp",
+  "h": "刷牙洗脸",
+  "p": "shuā yá xǐ liǎn",
+  "hv": "xoát nha tẩy kiểm",
+  "vi": "đánh răng rửa mặt",
+  "note": "Đánh răng là 刷牙 (chải răng), không dùng 打.",
+  "alt": [
+   "洗澡",
+   "刷碗"
+  ],
+  "hsk": 3,
+  "ex": "我每天起床后先刷牙洗脸。",
+  "exp": "Wǒ měitiān qǐchuáng hòu xiān shuāyá xǐliǎn.",
+  "exvi": "Ngày nào ngủ dậy mình cũng đánh răng rửa mặt trước.",
+  "em": "🪥"
+ },
+ {
+  "deck": "dp",
+  "h": "洗个澡",
+  "p": "xǐ ge zǎo",
+  "hv": "tẩy cá táo",
+  "vi": "tắm một cái",
+  "note": "洗澡 là từ ly hợp nên chen được 个, 了: 洗个澡, 洗了澡. Không nói 洗澡一下.",
+  "alt": [
+   "洗个热水澡",
+   "洗头"
+  ],
+  "hsk": 3,
+  "ex": "跑完步我想先洗个澡再吃饭。",
+  "exp": "Pǎo wán bù wǒ xiǎng xiān xǐ ge zǎo zài chīfàn.",
+  "exvi": "Chạy bộ xong mình muốn tắm cái đã rồi mới ăn.",
+  "em": "🚿"
+ },
+ {
+  "deck": "dp",
+  "h": "早睡早起",
+  "p": "zǎo shuì zǎo qǐ",
+  "hv": "tảo thụy tảo khởi",
+  "vi": "ngủ sớm dậy sớm",
+  "note": "Cụm cố định, hay dùng khi khuyên giữ sức khỏe; ngược lại là 熬夜 (thức khuya).",
+  "alt": [
+   "早点睡",
+   "熬夜"
+  ],
+  "hsk": 3,
+  "ex": "医生说早睡早起对身体很好。",
+  "exp": "Yīshēng shuō zǎo shuì zǎo qǐ duì shēntǐ hěn hǎo.",
+  "exvi": "Bác sĩ nói ngủ sớm dậy sớm rất tốt cho sức khỏe.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "养宠物",
+  "p": "yǎng chǒng wù",
+  "hv": "dưỡng sủng vật",
+  "vi": "nuôi thú cưng",
+  "note": "养 là nuôi, chăm: 养猫, 养狗, 养花 (trồng hoa trong nhà), 养孩子.",
+  "alt": [
+   "养猫",
+   "养花"
+  ],
+  "hsk": 5,
+  "ex": "我住的公寓不让养宠物。",
+  "exp": "Wǒ zhù de gōngyù bú ràng yǎng chǒngwù.",
+  "exvi": "Căn hộ mình ở không cho nuôi thú cưng.",
+  "em": "🐶"
+ },
+ {
+  "deck": "dp",
+  "h": "饭后散步",
+  "p": "fàn hòu sàn bù",
+  "hv": "phạn hậu tán bộ",
+  "vi": "đi dạo sau bữa ăn",
+  "note": "散步 không mang tân ngữ: không nói 散步公园, phải nói 在公园散步.",
+  "alt": [
+   "去公园散步",
+   "散一会儿步"
+  ],
+  "hsk": 4,
+  "ex": "爷爷每天都有饭后散步的习惯。",
+  "exp": "Yéye měitiān dōu yǒu fàn hòu sànbù de xíguàn.",
+  "exvi": "Ông ngày nào cũng có thói quen đi dạo sau bữa ăn.",
+  "em": "🚶"
+ },
+ {
+  "deck": "dp",
+  "h": "坐地铁",
+  "p": "zuò dì tiě",
+  "hv": "tọa địa thiết",
+  "vi": "đi tàu điện ngầm",
+  "note": "Đi phương tiện công cộng dùng 坐: 坐地铁, 坐公交车. Người Việt hay dịch chữ đi thành 走地铁, như vậy là sai.",
+  "alt": [
+   "坐公交车",
+   "坐出租车"
+  ],
+  "hsk": 2,
+  "ex": "我每天坐地铁上下班。",
+  "exp": "Wǒ měitiān zuò dìtiě shàng xià bān.",
+  "exvi": "Ngày nào mình cũng đi tàu điện ngầm đi làm.",
+  "em": "🚇"
+ },
+ {
+  "deck": "dp",
+  "h": "路上堵车",
+  "p": "lù shang dǔ chē",
+  "hv": "lộ thượng đổ xa",
+  "vi": "kẹt xe trên đường",
+  "note": "堵车 là kẹt xe; câu 路上堵车 rất hay dùng để giải thích lý do đến muộn.",
+  "alt": [
+   "交通拥堵",
+   "高峰期堵车"
+  ],
+  "hsk": 4,
+  "ex": "对不起，路上堵车，我来晚了。",
+  "exp": "Duìbuqǐ, lùshang dǔchē, wǒ lái wǎn le.",
+  "exvi": "Xin lỗi, đường kẹt xe nên mình đến trễ.",
+  "em": "🚗"
+ },
+ {
+  "deck": "dp",
+  "h": "交房租",
+  "p": "jiāo fáng zū",
+  "hv": "giao phòng tô",
+  "vi": "đóng tiền nhà; trả tiền thuê nhà",
+  "note": "Đóng các khoản phí định kỳ dùng 交: 交房租, 交学费, 交电费.",
+  "alt": [
+   "交电费",
+   "交学费"
+  ],
+  "hsk": 4,
+  "ex": "每个月一号我要交房租。",
+  "exp": "Měi ge yuè yī hào wǒ yào jiāo fángzū.",
+  "exvi": "Ngày mùng một hàng tháng mình phải đóng tiền nhà.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "排长队",
+  "p": "pái cháng duì",
+  "hv": "bài trường đội",
+  "vi": "xếp hàng dài",
+  "note": "排队 là từ ly hợp nên chen được 长 hoặc thời lượng: 排长队, 排了半天队.",
+  "alt": [
+   "排队买票",
+   "插队"
+  ],
+  "hsk": 4,
+  "ex": "这家店的面包很有名，每天都要排长队。",
+  "exp": "Zhè jiā diàn de miànbāo hěn yǒumíng, měitiān dōu yào pái cháng duì.",
+  "exvi": "Bánh mì tiệm này nổi tiếng lắm, ngày nào cũng phải xếp hàng dài.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "搬新家",
+  "p": "bān xīn jiā",
+  "hv": "ban tân gia",
+  "vi": "dọn về nhà mới",
+  "note": "搬家 là chuyển nhà; 搬新家 nhấn mạnh chuyển về nhà mới, hay đi với lời chúc 恭喜搬新家.",
+  "alt": [
+   "搬家",
+   "搬东西"
+  ],
+  "hsk": 3,
+  "ex": "下个月我们要搬新家了，欢迎你来玩。",
+  "exp": "Xià ge yuè wǒmen yào bān xīn jiā le, huānyíng nǐ lái wán.",
+  "exvi": "Tháng sau tụi mình dọn về nhà mới, mời bạn đến chơi.",
+  "em": "🏡"
+ },
+ {
+  "deck": "dp",
+  "h": "整理房间",
+  "p": "zhěng lǐ fáng jiān",
+  "hv": "chỉnh lý phòng gian",
+  "vi": "dọn dẹp, sắp xếp phòng",
+  "note": "整理 là sắp xếp cho gọn gàng; 打扫 là quét lau cho sạch.",
+  "alt": [
+   "整理东西",
+   "整理资料"
+  ],
+  "hsk": 4,
+  "ex": "客人快到了，我得赶紧整理房间。",
+  "exp": "Kèrén kuài dào le, wǒ děi gǎnjǐn zhěnglǐ fángjiān.",
+  "exvi": "Khách sắp đến rồi, mình phải mau dọn dẹp phòng.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "修电脑",
+  "p": "xiū diàn nǎo",
+  "hv": "tu điện não",
+  "vi": "sửa máy tính",
+  "note": "Sửa đồ vật dùng 修: 修车, 修手机. Sửa bài, sửa lỗi văn bản thì dùng 改.",
+  "alt": [
+   "修车",
+   "修手机"
+  ],
+  "hsk": 3,
+  "ex": "他很会修电脑，朋友们都找他帮忙。",
+  "exp": "Tā hěn huì xiū diànnǎo, péngyoumen dōu zhǎo tā bāngmáng.",
+  "exvi": "Anh ấy rất giỏi sửa máy tính, bạn bè ai cũng nhờ anh ấy.",
+  "em": "💻"
+ },
+ {
+  "deck": "dp",
+  "h": "订座位",
+  "p": "dìng zuò wèi",
+  "hv": "đính tọa vị",
+  "vi": "đặt chỗ (nhà hàng)",
+  "note": "Đặt trước dùng 订: 订票, 订房间, 订座位.",
+  "alt": [
+   "订票",
+   "订房间"
+  ],
+  "hsk": 4,
+  "ex": "这家餐厅人很多，最好提前订座位。",
+  "exp": "Zhè jiā cāntīng rén hěn duō, zuìhǎo tíqián dìng zuòwèi.",
+  "exvi": "Nhà hàng này đông lắm, tốt nhất nên đặt chỗ trước.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "打包剩菜",
+  "p": "dǎ bāo shèng cài",
+  "hv": "đả bao thặng thái",
+  "vi": "gói đồ ăn thừa mang về",
+  "note": "Ở nhà hàng chỉ cần nói 服务员，打包 là được. 打包 cũng có nghĩa đóng gói hành lý.",
+  "alt": [
+   "打包带走",
+   "打包行李"
+  ],
+  "hsk": 5,
+  "ex": "菜没吃完，我们打包剩菜带回家吧。",
+  "exp": "Cài méi chī wán, wǒmen dǎbāo shèngcài dài huí jiā ba.",
+  "exvi": "Đồ ăn chưa ăn hết, mình gói lại mang về nhà nhé.",
+  "em": "🥡"
+ },
+ {
+  "deck": "dp",
+  "h": "少放辣",
+  "p": "shǎo fàng là",
+  "hv": "thiểu phóng lạt",
+  "vi": "cho ít cay",
+  "note": "Câu dặn khi gọi món; 少 đặt trước động từ 放: 少放辣, 少放盐.",
+  "alt": [
+   "少放盐",
+   "不要放辣"
+  ],
+  "hsk": 4,
+  "ex": "服务员，这个菜少放辣，谢谢。",
+  "exp": "Fúwùyuán, zhège cài shǎo fàng là, xièxie.",
+  "exvi": "Anh chị phục vụ ơi, món này cho ít cay thôi, cảm ơn.",
+  "em": "🌶️"
+ },
+ {
+  "deck": "dp",
+  "h": "买蔬菜水果",
+  "p": "mǎi shū cài shuǐ guǒ",
+  "hv": "mãi sơ thái thủy quả",
+  "vi": "mua rau củ trái cây",
+  "note": "蔬菜 là rau củ nói chung, hơi trang trọng; đi chợ nấu ăn người ta hay nói gọn 买菜.",
+  "alt": [
+   "买菜",
+   "买日用品"
+  ],
+  "hsk": 4,
+  "ex": "我下班后去市场买蔬菜水果。",
+  "exp": "Wǒ xiàbān hòu qù shìchǎng mǎi shūcài shuǐguǒ.",
+  "exvi": "Tan làm mình ra chợ mua rau củ trái cây.",
+  "em": "🥬"
+ },
+ {
+  "deck": "dp",
+  "h": "大小合适",
+  "p": "dà xiǎo hé shì",
+  "hv": "đại tiểu hợp thích",
+  "vi": "vừa cỡ; kích cỡ vừa",
+  "note": "Hay dùng khi thử đồ. 合适 là tính từ (vừa, hợp); 适合 là động từ cần tân ngữ (适合你), người Việt hay lẫn hai từ này.",
+  "alt": [
+   "价钱合适",
+   "时间合适"
+  ],
+  "hsk": 4,
+  "ex": "这双鞋大小合适，颜色也好看。",
+  "exp": "Zhè shuāng xié dàxiǎo héshì, yánsè yě hǎokàn.",
+  "exvi": "Đôi giày này vừa cỡ, màu cũng đẹp.",
+  "em": "👟"
+ },
+ {
+  "deck": "dp",
+  "h": "价格合理",
+  "p": "jià gé hé lǐ",
+  "hv": "giá cách hợp lý",
+  "vi": "giá cả hợp lý",
+  "note": "价格 trang trọng hơn 价钱. Giá cao thấp chuẩn nhất là 价格高, 价格低; còn 贵, 便宜 nên đi với món đồ: 东西很贵.",
+  "alt": [
+   "价格便宜",
+   "价格上涨"
+  ],
+  "hsk": 4,
+  "ex": "这家饭馆的菜好吃，价格合理。",
+  "exp": "Zhè jiā fànguǎn de cài hǎochī, jiàgé hélǐ.",
+  "exvi": "Món ở quán này ngon, giá cả hợp lý.",
+  "em": ""
+ },
+ {
+  "deck": "dp",
+  "h": "过生日",
+  "p": "guò shēng rì",
+  "hv": "quá sinh nhật",
+  "vi": "đón sinh nhật; tổ chức sinh nhật",
+  "note": "Dùng 过 (trải qua): 过生日, 过春节, 过周末. Không nói 做生日.",
+  "alt": [
+   "过春节",
+   "过周末"
+  ],
+  "hsk": 3,
+  "ex": "这个周六我女儿过生日，你来吗？",
+  "exp": "Zhège zhōuliù wǒ nǚ'ér guò shēngrì, nǐ lái ma?",
+  "exvi": "Thứ bảy này con gái mình sinh nhật, bạn tới không?",
+  "em": "🎂"
+ },
+ {
+  "deck": "dp",
+  "h": "请病假",
+  "p": "qǐng bìng jià",
+  "hv": "thỉnh bệnh giả",
+  "vi": "xin nghỉ ốm",
+  "note": "请假 là từ ly hợp: 请病假, 请两天假, 请了假.",
+  "alt": [
+   "请事假",
+   "请两天假"
+  ],
+  "hsk": 4,
+  "ex": "我发烧了，今天要跟老板请病假。",
+  "exp": "Wǒ fāshāo le, jīntiān yào gēn lǎobǎn qǐng bìngjià.",
+  "exvi": "Mình bị sốt, hôm nay phải xin sếp nghỉ ốm.",
+  "em": "🤒"
+ },
+ {
+  "deck": "dp",
+  "h": "按时吃药",
+  "p": "àn shí chī yào",
+  "hv": "án thời ngật dược",
+  "vi": "uống thuốc đúng giờ",
+  "note": "Uống thuốc tiếng Trung dùng 吃药, không dùng 喝药 (trừ thuốc nước, thuốc sắc).",
+  "alt": [
+   "按时吃饭",
+   "按时完成"
+  ],
+  "hsk": 4,
+  "ex": "医生让我每天按时吃药，多休息。",
+  "exp": "Yīshēng ràng wǒ měitiān ànshí chī yào, duō xiūxi.",
+  "exvi": "Bác sĩ dặn mình mỗi ngày uống thuốc đúng giờ, nghỉ ngơi nhiều.",
+  "em": "💊"
+ },
+ {
+  "deck": "dp",
+  "h": "给手机充电",
+  "p": "gěi shǒu jī chōng diàn",
+  "hv": "cấp thủ cơ sung điện",
+  "vi": "sạc điện thoại",
+  "note": "充电 không mang tân ngữ trực tiếp: không nói 充电手机, phải nói 给手机充电.",
+  "alt": [
+   "给电脑充电",
+   "充好电"
+  ],
+  "hsk": 4,
+  "ex": "手机快没电了，我得给手机充电。",
+  "exp": "Shǒujī kuài méi diàn le, wǒ děi gěi shǒujī chōngdiàn.",
+  "exvi": "Điện thoại sắp hết pin, mình phải sạc thôi.",
+  "em": "🔋"
+ }
+]
