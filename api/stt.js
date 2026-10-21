@@ -48,7 +48,7 @@ module.exports = async (req, res) => {
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (!checkKey(req)) return res.status(401).json({ error: 'auth' });
+  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
   const lang = ['en', 'zh', 'vi'].includes(String(req.query && req.query.lang)) ? req.query.lang : 'en';
   try {
     const buf = await rawBody(req);

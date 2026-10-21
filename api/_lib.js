@@ -1,13 +1,24 @@
 // Shared helpers for the serverless functions.
 const crypto = require('crypto');
+const APP = 'hanyu'; // key prefix in Redis
 
-function checkKey(req) {
+const sha = s => crypto.createHash('sha256').update(String(s)).digest();
+
+// The group password (APP_PASSWORD) set in Vercel.
+function isMaster(req) {
   const pass = process.env.APP_PASSWORD || '';
   const got = String(req.headers['x-app-key'] || '');
   if (!pass || !got) return false;
-  const a = crypto.createHash('sha256').update(pass).digest();
-  const b = crypto.createHash('sha256').update(got).digest();
-  return crypto.timingSafeEqual(a, b);
+  return crypto.timingSafeEqual(sha(pass), sha(got));
+}
+
+// Access: the group password, or a personal access key issued when someone redeemed an invite code (api/ref).
+async function checkKey(req) {
+  if (isMaster(req)) return true;
+  const got = String(req.headers['x-app-key'] || '');
+  if (!process.env.APP_PASSWORD || !/^[a-f0-9]{40}$/.test(got)) return false;
+  const db = kv(); if (!db) return false;
+  try { return !!(await db(['EXISTS', APP + ':tok:' + sha(got).toString('hex')])); } catch (e) { return false; }
 }
 
 // Upstash Redis REST (Vercel Marketplace sets KV_REST_API_* or UPSTASH_REDIS_REST_*)
@@ -34,4 +45,4 @@ function userOf(req) {
   return { slug, pin: String(req.headers['x-user-pin'] || '').slice(0, 20) };
 }
 
-module.exports = { checkKey, kv, userOf };
+module.exports = { APP, sha, isMaster, checkKey, kv, userOf };

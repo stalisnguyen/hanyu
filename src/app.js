@@ -149,12 +149,12 @@ async function initPlatform(){
 /* ---- password modal (web mode) ---- */
 function askPassword(wrong){
   return new Promise(res=>{
-    const m=modal(`<h2>Mật khẩu ứng dụng</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mật khẩu của app để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
-      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form>`);
+    const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
+      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false;
     const fin=v=>{if(done)return;done=true;res(v);};
-    $('#pwF',m.el).onsubmit=e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;setKey(v);m.close();fin(true);};
+    $('#pwF',m.el).onsubmit=async e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;if(await refSubmit(v,m)){m.close();fin(true);}};
     const obs=new MutationObserver(()=>{if(!document.body.contains(m.el)){obs.disconnect();fin(false);}});obs.observe(document.body,{childList:true});
     setTimeout(()=>$('#pwI',m.el).focus(),50);
   });

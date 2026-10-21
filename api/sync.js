@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
   const db = kv();
   if (!db) return res.status(503).json({ error: 'no_store' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (!checkKey(req)) return res.status(401).json({ error: 'auth' });
+  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
   const u = userOf(req);
   if (!u) return res.status(400).json({ error: 'need_user' });
   try {
