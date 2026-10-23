@@ -3,7 +3,7 @@
 //   GEMINI_API_KEY     -> Google Gemini (free tier on Flash). Model: GEMINI_MODEL (default gemini-flash-latest)
 //   ANTHROPIC_API_KEY  -> Claude (paid). Models: AI_MODEL_FAST / AI_MODEL_SMART
 // AI_PROVIDER=groq|gemini|anthropic forces one; otherwise the first configured in the order groq, gemini, anthropic.
-const { checkKey, track } = require('./_lib');
+const { deny, track } = require('./_lib');
 
 const MAX_INPUT_CHARS = 60000;
 
@@ -77,7 +77,7 @@ module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  if (await deny(req, res)) return;
   track('ai', req);
   const prov = provider();
   if (!prov) return res.status(503).json({ error: 'no_key' });

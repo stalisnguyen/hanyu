@@ -1,11 +1,11 @@
 // Study-group board: weekly XP, streak and rank of every learner. Group password required.
-const { checkKey, kv } = require('./_lib');
+const { deny, kv } = require('./_lib');
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   const db = kv();
   if (!db) return res.status(503).json({ error: 'no_store' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  if (await deny(req, res)) return;
   try {
     const flat = (await db(['HGETALL', 'hanyu:board'])) || [];
     const list = [];

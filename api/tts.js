@@ -1,6 +1,6 @@
 // Natural Mandarin speech via Azure Speech (neural voices), locked by APP_PASSWORD.
 // Env: AZURE_SPEECH_KEY, AZURE_SPEECH_REGION (e.g. southeastasia), APP_PASSWORD.
-const { checkKey, track } = require('./_lib');
+const { deny, track } = require('./_lib');
 
 const VOICES = { f: 'zh-CN-XiaoxiaoNeural', m: 'zh-CN-YunxiNeural' };
 const escXml = (s) => String(s).replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[c]));
@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
   const key = process.env.AZURE_SPEECH_KEY, region = process.env.AZURE_SPEECH_REGION;
   if (!key || !region) return res.status(503).json({ error: 'no_tts' });
-  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  if (await deny(req, res)) return;
   track('tts', req);
   const body = req.body || {};
   const text = String(body.text || '').slice(0, 1200);

@@ -5,11 +5,11 @@
 //   POST {action:'status'}  (ADMIN_PASSWORD) -> {code, max, used, issued}
 //   POST {action:'check'} -> {ok} whether x-app-key unlocks the app
 //   POST {action:'stats'} (ADMIN_PASSWORD) -> beta numbers, see _stats.js
-//   POST {action:'set', code, max} (ADMIN_PASSWORD) -> same as status. A new code starts a new count.
+//   POST {action:'set', code?, max?, trial?} (ADMIN_PASSWORD) -> same as status. A new code starts a new count.
+//        trial = free days a new Google account gets (0 = off).
 const crypto = require('crypto');
-const { APP, sha, isAdmin, checkKey, kv } = require('./_lib');
+const { APP, sha, isAdmin, checkKey, kv, tooMany, takeInvite, normCode } = require('./_lib');
 const { stats } = require('./_stats');
-const norm = c => String(c || '').trim().toUpperCase().replace(/\s+/g, '');
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
@@ -21,33 +21,28 @@ module.exports = async (req, res) => {
   body = body || {};
   const K = s => APP + ':ref:' + s;
   const status = async () => {
-    const [code, max, issued] = await Promise.all([db(['GET', K('code')]), db(['GET', K('max')]), db(['GET', K('issued')])]);
+    const [code, max, issued, trial, accounts] = await Promise.all([db(['GET', K('code')]), db(['GET', K('max')]), db(['GET', K('issued')]),
+      db(['GET', APP + ':cfg:trial']), db(['SCARD', APP + ':accts'])]);
     const used = code ? +(await db(['GET', K('used:' + code)])) || 0 : 0;
-    return { code: code || '', max: +max || 50, used, issued: +issued || 0 };
+    return { code: code || '', max: +max || 50, used, issued: +issued || 0, trial: +trial || 0, accounts: +accounts || 0 };
   };
   try {
     if (body.action === 'redeem') {
-      const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'x';
-      const rl = APP + ':rl:' + sha(ip).toString('hex').slice(0, 16);
-      const tries = await db(['INCR', rl]);
-      if (tries === 1) await db(['EXPIRE', rl, 3600]);
-      if (tries > 20) return res.status(429).json({ error: 'slow' });
-      const { code, max } = await status();
-      const given = norm(body.code);
-      if (!code || !given || given.length !== code.length ||
-          !crypto.timingSafeEqual(Buffer.from(given), Buffer.from(code))) return res.status(404).json({ error: 'invalid' });
-      const n = await db(['INCR', K('used:' + code)]);
-      if (n > max) { await db(['DECR', K('used:' + code)]); return res.status(410).json({ error: 'full', max }); }
+      if (await tooMany(db, req)) return res.status(429).json({ error: 'slow' });
+      const t = await takeInvite(db, body.code);
+      if (t.full) return res.status(410).json({ error: 'full', max: t.max });
+      if (t.invalid) return res.status(404).json({ error: 'invalid' });
       const token = crypto.randomBytes(20).toString('hex');
-      await db(['SET', APP + ':tok:' + sha(token).toString('hex'), JSON.stringify({ at: Date.now(), code, n })]);
-      await db(['INCR', K('issued')]);
-      return res.status(200).json({ token, n, max });
+      await db(['SET', APP + ':tok:' + sha(token).toString('hex'), JSON.stringify({ at: Date.now(), code: t.code, n: t.n })]);
+      return res.status(200).json({ token, n: t.n, max: t.max });
     }
     if (body.action === 'check') return res.status(200).json({ ok: await checkKey(req) });
     if (!isAdmin(req)) return res.status(403).json({ error: 'admin' });
     if (body.action === 'stats') return res.status(200).json(await stats());
     if (body.action === 'set') {
-      const code = norm(body.code), max = Math.max(1, Math.min(1000, parseInt(body.max, 10) || 50));
+      if (body.trial !== undefined) await db(['SET', APP + ':cfg:trial', String(Math.max(0, Math.min(30, parseInt(body.trial, 10) || 0)))]);
+      if (body.code === undefined) return res.status(200).json(await status());
+      const code = normCode(body.code), max = Math.max(1, Math.min(1000, parseInt(body.max, 10) || 50));
       if (!/^[A-Z0-9-]{4,24}$/.test(code)) return res.status(400).json({ error: 'code' });
       await db(['SET', K('code'), code]);
       await db(['SET', K('max'), String(max)]);

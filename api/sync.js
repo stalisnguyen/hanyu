@@ -4,7 +4,7 @@
 //   GET  -> {data}            PUT {data, summary} -> {ok}
 // The first profile ("stalis") keeps the original key so existing progress is kept.
 const crypto = require('crypto');
-const { checkKey, kv, userOf } = require('./_lib');
+const { deny, kv, userOf } = require('./_lib');
 
 const LEGACY = 'hanyu:progress';
 const MAX_BYTES = 900000;
@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
   const db = kv();
   if (!db) return res.status(503).json({ error: 'no_store' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  if (await deny(req, res)) return;
   const u = userOf(req);
   if (!u) return res.status(400).json({ error: 'need_user' });
   try {

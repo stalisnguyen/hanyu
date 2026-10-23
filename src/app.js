@@ -151,9 +151,11 @@ function askPassword(wrong){
   return new Promise(res=>{
     const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
       <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
+      <div id="gIn"></div><p class="small muted" id="gOr"></p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false;
     const fin=v=>{if(done)return;done=true;res(v);};
+    if(typeof authMount==='function')authMount(m,()=>{m.close();fin(true);});
     $('#pwF',m.el).onsubmit=async e=>{e.preventDefault();const v=$('#pwI',m.el).value.trim();if(!v)return;if(await refSubmit(v,m)){m.close();fin(true);}};
     const obs=new MutationObserver(()=>{if(!document.body.contains(m.el)){obs.disconnect();fin(false);}});obs.observe(document.body,{childList:true});
     setTimeout(()=>$('#pwI',m.el).focus(),50);
@@ -167,6 +169,7 @@ async function api(path,{method='POST',body}={}){
     try{r=await fetch(path,{method,headers:hd,body:body?JSON.stringify(body):undefined});}
     catch(e){throw {code:'network'};}
     if(r.status===401){setKey('');const ok=await askPassword(true);if(!ok)throw {code:'not_granted'};continue;}
+    if(r.status===402){if(path.includes('sync'))throw {code:'inactive'};const ok=await askPassword(false);if(!ok)throw {code:'not_granted'};continue;}
     if(r.status===429)throw {code:'rate_limited'};
     if(r.status===403||(r.status===400&&path.includes('sync'))){const ok=await askPin(r.status===403&&WHO&&WHO.pin);if(!ok)throw {code:'not_granted'};continue;}
     const j=await r.json().catch(()=>({}));
@@ -239,7 +242,7 @@ async function pullRemote(){
       }
     }
     syncState='on'; dirty.add('main');dirty.add('srs'); await pushRemote();
-  }catch(e){console.warn('sync pull',e);syncState=e&&e.code==='not_granted'?'off':'err';}
+  }catch(e){console.warn('sync pull',e);syncState=e&&(e.code==='not_granted'||e.code==='inactive')?'off':'err';}
 }
 let syncTimer=null;
 function scheduleSync(){if(!SYNC||syncState==='off')return;clearTimeout(syncTimer);syncTimer=setTimeout(pushRemote,2500);}
@@ -255,7 +258,7 @@ async function pushRemote(){
       }
     }
     syncState='on';
-  }catch(e){if(e&&e.code==='stale'){await pullRemote();renderSync();return;}console.warn('sync push',e);parts.forEach(p=>dirty.add(p));syncState=e&&e.code==='not_granted'?'off':'err';}
+  }catch(e){if(e&&e.code==='stale'){await pullRemote();renderSync();return;}console.warn('sync push',e);parts.forEach(p=>dirty.add(p));syncState=e&&(e.code==='not_granted'||e.code==='inactive')?'off':'err';}
   renderSync();
 }
 function renderSync(){
