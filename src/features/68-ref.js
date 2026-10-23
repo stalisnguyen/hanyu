@@ -27,7 +27,7 @@ async function refSubmit(v,m){
   if(msg)msg.textContent=REF_T.wrong;return false;
 }
 /* anonymous daily ping for the beta numbers (random id kept on this device, nothing else is sent) */
-(function refPing(){try{const day=new Date(Date.now()+7*36e5).toISOString().slice(0,10);
+(function refPing(){try{if(/^(localhost|127\.)/.test(location.hostname))return;const day=new Date(Date.now()+7*36e5).toISOString().slice(0,10);
   if(localStorage.getItem('hanyu-ping')===day)return;let id=localStorage.getItem('hanyu-did');
   if(!id){id=[...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join('');localStorage.setItem('hanyu-did',id);}
   setTimeout(()=>fetch('api/ping',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({d:id})}).then(r=>{if(r.ok)localStorage.setItem('hanyu-ping',day);}).catch(()=>{}),4000);}catch(e){}})();
