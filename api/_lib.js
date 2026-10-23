@@ -48,4 +48,39 @@ function userOf(req) {
   return { slug, pin: String(req.headers['x-user-pin'] || '').slice(0, 20) };
 }
 
-module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, userOf };
+// Several Redis commands in one request (Upstash REST pipeline). Returns the results in order.
+function kvp() {
+  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
+  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+  if (!url || !token) return null;
+  return async (commands) => {
+    if (!commands.length) return [];
+    const r = await fetch(url.replace(/\/$/, '') + '/pipeline', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json' },
+      body: JSON.stringify(commands),
+    });
+    const j = await r.json();
+    if (!r.ok || !Array.isArray(j)) throw new Error('kv pipeline ' + r.status);
+    return j.map(x => (x && x.error ? null : x && x.result));
+  };
+}
+
+// Calendar day in Vietnam time (UTC+7), e.g. "20261023"; offset in days.
+function vnDay(offset = 0) {
+  const d = new Date(Date.now() + 7 * 3600e3 + offset * 864e5);
+  return d.toISOString().slice(0, 10).replace(/-/g, '');
+}
+const KEEP = 120 * 86400; // usage counters are kept for 120 days
+
+// Count one paid-feature call (ai, stt, tts) for the beta numbers. Never throws.
+async function track(kind, req) {
+  try {
+    const p = kvp(); if (!p) return;
+    const day = vnDay(), who = sha(String(req.headers['x-app-key'] || '')).toString('hex').slice(0, 16);
+    await p([['INCR', APP + ':use:' + kind + ':' + day], ['EXPIRE', APP + ':use:' + kind + ':' + day, KEEP],
+             ['SADD', APP + ':useu:' + day, who], ['EXPIRE', APP + ':useu:' + day, KEEP]]);
+  } catch (e) {}
+}
+
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf };

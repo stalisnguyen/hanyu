@@ -2,7 +2,7 @@
 // Works on every phone: the page records audio (MediaRecorder) and posts the raw bytes here.
 //   POST ?lang=en|zh  body: audio bytes, Content-Type: audio/webm | audio/mp4 | audio/ogg | audio/wav  -> {text}
 //   GET  ?probe=1 -> {ok} (sends one second of silence, no secrets returned)
-const { checkKey } = require('./_lib');
+const { checkKey, track } = require('./_lib');
 
 const MAX = 4 * 1024 * 1024;
 const extOf = (t) => (/mp4|m4a|aac/.test(t) ? 'm4a' : /ogg/.test(t) ? 'ogg' : /wav/.test(t) ? 'wav' : /mpeg|mp3/.test(t) ? 'mp3' : 'webm');
@@ -49,6 +49,7 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
   if (!(await checkKey(req))) return res.status(401).json({ error: 'auth' });
+  track('stt', req);
   const lang = ['en', 'zh', 'vi'].includes(String(req.query && req.query.lang)) ? req.query.lang : 'en';
   try {
     const buf = await rawBody(req);
