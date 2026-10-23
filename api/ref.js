@@ -40,7 +40,7 @@ module.exports = async (req, res) => {
     }
     if (body.action === 'check') return res.status(200).json({ ok: await checkKey(req) });
     if (!(await isOwner(req))) return res.status(403).json({ error: 'admin' });
-    if (body.action === 'stats') return res.status(200).json(await stats());
+    if (body.action === 'stats') return res.status(200).json(await stats({ days: body.days, from: body.from, to: body.to }));
     if (body.action === 'set') {
       if (body.trial !== undefined) await db(['SET', APP + ':cfg:trial', String(Math.max(0, Math.min(30, parseInt(body.trial, 10) || 0)))]);
       if (body.ailimit !== undefined) await db(['SET', APP + ':cfg:ailimit', String(Math.max(1, Math.min(500, parseInt(body.ailimit, 10) || 50)))]);

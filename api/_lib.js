@@ -170,4 +170,4 @@ async function aiQuota(req) {
   } catch (e) { return { ok: true }; }
 }
 
-module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner, aiQuota, betaUntil };
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner, aiQuota, betaUntil, BETA_UNTIL_DEFAULT };

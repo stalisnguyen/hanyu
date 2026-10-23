@@ -1,9 +1,27 @@
 // Beta numbers for the owner, computed from api/ping and the usage counters. Called from api/ref (action 'stats').
 const { APP, kv, kvp, vnDay } = require('./_lib');
 
-async function stats() {
+// Range for the daily series: {days: 1..120} counting back from today, or {from, to} as 'YYYYMMDD' (Vietnam days).
+// Counters are kept for 120 days, so older days are clipped.
+function rangeDays(opt) {
+  opt = opt || {};
+  const today = vnDay(), oldest = vnDay(-119), list = [];
+  const ok = d => /^\d{8}$/.test(String(d || ''));
+  let from = ok(opt.from) ? String(opt.from) : null, to = ok(opt.to) ? String(opt.to) : null;
+  if (from || to) {
+    to = to && to < today ? to : today; from = from && from > oldest ? from : oldest;
+    if (from > to) [from, to] = [to, from];
+    for (let i = 0; i < 120; i++) { const d = vnDay(-i); if (d > to) continue; if (d < from) break; list.push(d); }
+    return list;
+  }
+  const n = Math.max(1, Math.min(120, parseInt(opt.days, 10) || 14));
+  for (let i = 0; i < n; i++) list.push(vnDay(-i));
+  return list;
+}
+
+async function stats(opt) {
   const p = kvp(), db = kv();
-  const days = Array.from({ length: 14 }, (_, i) => vnDay(-i));           // today first
+  const days = rangeDays(opt);                                              // newest first
   const cmds = [];
   for (const d of days) cmds.push(['SCARD', APP + ':dau:' + d], ['SCARD', APP + ':new:' + d], ['SCARD', APP + ':useu:' + d],
     ['GET', APP + ':use:ai:' + d], ['GET', APP + ':use:stt:' + d], ['GET', APP + ':use:tts:' + d]);
@@ -21,10 +39,11 @@ async function stats() {
   });
   const active7 = (r[days.length * 6] || []).length;
   let k = days.length * 6 + 1;
+  const activeRange = (await p([['SUNION', ...days.map(d => APP + ':dau:' + d)]]))[0];
   for (const [n] of cohortCmds) { const size = +r[k] || 0, back = (r[k + 1] || []).length; ret[n][0] += back; ret[n][1] += size; k += 2; }
   // learners with synced progress
   let cursor = '0', learners = 0, guard = 0;
   do { const [nx, keys] = await db(['SCAN', cursor, 'MATCH', APP + ':p:*', 'COUNT', 500]); cursor = String(nx); learners += keys.length; } while (cursor !== '0' && ++guard < 50);
-  return { daily, active7, learners, retention: Object.fromEntries(Object.entries(ret).map(([n, [b, s]]) => [n, { back: b, of: s }])) };
+  return { daily, active7, activeRange: (activeRange || []).length, learners, retention: Object.fromEntries(Object.entries(ret).map(([n, [b, s]]) => [n, { back: b, of: s }])) };
 }
 module.exports = { stats };

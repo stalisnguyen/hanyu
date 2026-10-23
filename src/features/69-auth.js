@@ -106,7 +106,8 @@ function authPanel(el,host){
   const a=acctGet();
   const draw=a=>{
     if(a){p.innerHTML=`<h3>${AUTH_T.title}</h3>${acctFace(a)}<div class="kv"><span>${AUTH_T.access}</span><b>${acctLine(a)}</b></div>
-      <div class="row" style="gap:8px">${a.active?'':`<button class="btn primary sm" id="acCode">${AUTH_T.enterCode}</button>`}<button class="btn ghost sm" id="acOut">${AUTH_T.out}</button></div>`;
+      <div class="row" style="gap:8px">${typeof payBtn==='function'?payBtn(a):''}${a.active?'':`<button class="btn sm" id="acCode">${AUTH_T.enterCode}</button>`}<button class="btn ghost sm" id="acOut">${AUTH_T.out}</button></div>`;
+      const up=$('#acUp',p);if(up)up.onclick=()=>go('upgrade');
       const c=$('#acCode',p);if(c)c.onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.settings(el);}};
       $('#acOut',p).onclick=async()=>{if(!confirm(AUTH_T.outQ))return;await authLogout();toast(AUTH_T.outDone);await initPlatform();VIEWS.settings(el);};
     }else{p.innerHTML=`<h3>${AUTH_T.title}</h3><p class="note">${AUTH_T.why}</p><div id="acG" style="min-height:44px"></div><p class="small" id="acMsg"></p>`;

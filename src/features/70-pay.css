@@ -1,0 +1,6 @@
+.up-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.up-plan{position:relative;display:flex;flex-direction:column;gap:6px}
+.up-plan.best{outline:2px solid var(--accent,#2f5bd3)}
+.up-plan .pill{position:absolute;top:12px;right:12px}
+.up-price{font-size:28px;font-weight:700;line-height:1.1}
+.up-plan .btn{margin-top:auto;align-self:flex-start}

@@ -3719,15 +3719,68 @@ async function refSubmit(v,m){
   if(localStorage.getItem('hanyu-ping')===day)return;let id=localStorage.getItem('hanyu-did');
   if(!id){id=[...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join('');localStorage.setItem('hanyu-did',id);}
   setTimeout(()=>fetch('api/ping',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({d:id})}).then(r=>{if(r.ok)localStorage.setItem('hanyu-ping',day);}).catch(()=>{}),4000);}catch(e){}})();
+Object.assign(REF_T.st,{loading:'Đang tải số liệu...',fail:'Chưa tải được số liệu.',from:'Từ ngày',to:'Đến ngày',apply:'Xem',days:n=>`${n} ngày`,table:'Xem bảng số',inRange:d=>`${d} ngày. Số cạnh mỗi đường: số máy khác nhau đã hoạt động trong khoảng này, số máy mới, số lượt AI.`,ser:{active:'Máy hoạt động',fresh:'Máy mới',ai:'Lượt AI'}});
 function refStatsHTML(t){
   const pct=o=>o.of?Math.round(o.back/o.of*100)+'%':'-', d0=t.daily[0], ai=x=>x.ai+x.stt;
   const sum=k=>t.daily.slice(0,7).reduce((a,x)=>a+(typeof k==='function'?k(x):x[k]),0);
   return `<h3 style="margin-top:14px">${REF_T.st.title}</h3>
-   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px">${[[REF_T.st.today,d0.active],[REF_T.st.week,t.active7],[REF_T.st.fresh7,sum('fresh')],[REF_T.st.learners,t.learners],[REF_T.st.ai7,sum(ai)],[REF_T.st.aiu,d0.aiUsers]].map(([l,v])=>`<div style="background:var(--sunk);border-radius:12px;padding:8px 10px"><div class="small muted">${l}</div><b style="font-size:20px">${v}</b></div>`).join('')}</div>
+   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px">${[[REF_T.st.today,d0.active],[REF_T.st.week,t.active7],[REF_T.st.fresh7,sum('fresh')],[REF_T.st.learners,t.learners],[REF_T.st.ai7,sum(ai)],[REF_T.st.aiu,d0.aiUsers]].map(([l,v])=>`<div class="panel" style="padding:10px"><div class="small muted">${l}</div><b style="font-size:22px">${v}</b></div>`).join('')}</div>
    <p class="small" style="margin:10px 0 4px"><b>${REF_T.st.ret}</b> ${[1,7,30].map(n=>`D${n}: <b>${pct(t.retention[n])}</b> <span class="muted">(${t.retention[n].back}/${t.retention[n].of})</span>`).join(' &nbsp; ')}</p>
    <p class="small muted" style="margin:0 0 8px">${REF_T.st.retNote}</p>
-   <div style="overflow-x:auto"><table class="small" style="width:100%;border-collapse:collapse"><tr class="muted"><th style="text-align:left">${REF_T.st.day}</th><th>${REF_T.st.active}</th><th>${REF_T.st.new}</th><th>AI</th></tr>
-   ${t.daily.map(x=>`<tr><td>${x.day.slice(6)}/${x.day.slice(4,6)}</td><td style="text-align:center">${x.active}</td><td style="text-align:center">${x.fresh}</td><td style="text-align:center">${ai(x)}</td></tr>`).join('')}</table></div>`;
+   <div id="rsBody"></div>`;
+}
+/* daily trend for the chosen range: line chart with hover/tap read-out, quick ranges and a from-to filter */
+const RS_SER=[{k:'active',c:'var(--rs1)'},{k:'fresh',c:'var(--rs2)'},{k:'ai',c:'var(--rs3)'}];
+const rsYmd=d=>d.slice(0,4)+'-'+d.slice(4,6)+'-'+d.slice(6), rsShort=d=>d.slice(6)+'/'+d.slice(4,6);
+function rsChart(box,rows,off){
+  const W=Math.max(300,box.clientWidth||600),H=220,L=34,R=10,T=12,B=26,n=rows.length;
+  const shown=RS_SER.filter(s=>!off[s.k]);
+  const max=Math.max(1,...rows.flatMap(r=>shown.map(s=>r[s.k])));
+  const step=max<=5?1:Math.pow(10,Math.floor(Math.log10(max/4)))*([1,2,5,10].find(m=>max/4<=Math.pow(10,Math.floor(Math.log10(max/4)))*m)||10);
+  const top=Math.ceil(max/step)*step, x=i=>L+(n<2?(W-L-R)/2:i*(W-L-R)/(n-1)), y=v=>T+(H-T-B)*(1-v/top);
+  const ticks=[];for(let v=0;v<=top;v+=step)ticks.push(v);
+  const every=Math.max(1,Math.ceil(n/(W/52)));
+  const svg=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="display:block;touch-action:pan-y" role="img" aria-label="${REF_T.st.title}">
+    ${ticks.map(v=>`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rsg)" stroke-width="1"/><text x="${L-6}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="currentColor" opacity=".6">${v}</text>`).join('')}
+    ${rows.map((r,i)=>(i%every===0&&n-1-i>=every*0.7)||i===n-1?`<text x="${x(i)}" y="${H-8}" text-anchor="${i===n-1&&n>1?'end':'middle'}" font-size="11" fill="currentColor" opacity=".6">${rsShort(r.day)}</text>`:'').join('')}
+    ${shown.map(s=>`<polyline fill="none" stroke="${s.c}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" points="${rows.map((r,i)=>x(i)+','+y(r[s.k])).join(' ')}"/>`+
+      (n<=45?rows.map((r,i)=>`<circle cx="${x(i)}" cy="${y(r[s.k])}" r="2.6" fill="${s.c}"/>`).join(''):'')).join('')}
+    <line id="rsX" x1="0" x2="0" y1="${T}" y2="${H-B}" stroke="currentColor" stroke-opacity=".35" stroke-dasharray="3 3" visibility="hidden"/>
+    <g id="rsDots"></g><rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent" id="rsHit"/></svg>
+    <div id="rsTip" class="rs-tip" hidden></div>`;
+  box.innerHTML=svg;box.dataset.w=W;
+  const hit=$('#rsHit',box),tip=$('#rsTip',box),xl=$('#rsX',box),dots=$('#rsDots',box),sv=$('svg',box);
+  const show=e=>{const rc=sv.getBoundingClientRect(),px=(e.clientX-rc.left)*W/rc.width;
+    const i=Math.max(0,Math.min(n-1,Math.round(n<2?0:(px-L)/((W-L-R)/(n-1))))),r=rows[i];
+    xl.setAttribute('x1',x(i));xl.setAttribute('x2',x(i));xl.setAttribute('visibility','visible');
+    dots.innerHTML=shown.map(s=>`<circle cx="${x(i)}" cy="${y(r[s.k])}" r="4.5" fill="${s.c}" stroke="var(--rsbg)" stroke-width="2"/>`).join('');
+    tip.innerHTML=`<b>${rsShort(r.day)}/${r.day.slice(0,4)}</b>`+RS_SER.map(s=>`<div><i style="background:${s.c}"></i>${REF_T.st.ser[s.k]}: <b>${r[s.k]}</b></div>`).join('');
+    tip.hidden=false;const tw=tip.offsetWidth,left=x(i)*rc.width/W;
+    tip.style.left=Math.max(0,Math.min(rc.width-tw,left+12>rc.width-tw?left-tw-12:left+12))+'px';tip.style.top='8px';};
+  const hide=()=>{tip.hidden=true;xl.setAttribute('visibility','hidden');dots.innerHTML='';};
+  hit.addEventListener('pointermove',show);hit.addEventListener('pointerdown',show);hit.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')hide();});
+}
+async function refStatsLoad(st,range){
+  st.innerHTML=`<p class="small muted">${REF_T.st.loading}</p>`;
+  let t;try{const r=await fetch('api/ref',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify(Object.assign({action:'stats'},range))});if(!r.ok)throw 0;t=await r.json();}
+  catch(e){st.innerHTML=`<p class="small">${REF_T.st.fail}</p>`;return;}
+  st.innerHTML=refStatsHTML(t);
+  const body=$('#rsBody',st), rows=t.daily.slice().reverse().map(x=>({day:x.day,active:x.active,fresh:x.fresh,ai:x.ai+x.stt,aiUsers:x.aiUsers}));
+  const first=rows[0].day,last=rows[rows.length-1].day, tot=k=>rows.reduce((a,r)=>a+r[k],0);
+  const quick=[7,14,30,90];
+  body.innerHTML=`<div class="rs-bar">${quick.map(d=>`<button class="btn sm" data-d="${d}" aria-pressed="${range.days===d}">${REF_T.st.days(d)}</button>`).join('')}
+      <span class="rs-dates"><input type="date" id="rsF" value="${rsYmd(first)}" aria-label="${REF_T.st.from}"><span>-</span><input type="date" id="rsT" value="${rsYmd(last)}" aria-label="${REF_T.st.to}"><button class="btn sm" id="rsGo">${REF_T.st.apply}</button></span></div>
+    <div class="rs-leg">${RS_SER.map(s=>`<button data-k="${s.k}" aria-pressed="true"><i style="background:${s.c}"></i>${REF_T.st.ser[s.k]} <b>${s.k==='active'?t.activeRange:tot(s.k)}</b></button>`).join('')}</div>
+    <div class="rs-chart" id="rsC"></div>
+    <p class="small muted" style="margin:4px 0 8px">${REF_T.st.inRange(rows.length)}</p>
+    <details class="adv"><summary>${REF_T.st.table}</summary><div style="overflow-x:auto"><table class="small" style="width:100%;border-collapse:collapse"><tr class="muted"><th style="text-align:left">${REF_T.st.day}</th><th>${REF_T.st.active}</th><th>${REF_T.st.new}</th><th>AI</th></tr>
+      ${t.daily.map(x=>`<tr><td>${rsShort(x.day)}</td><td style="text-align:center">${x.active}</td><td style="text-align:center">${x.fresh}</td><td style="text-align:center">${x.ai+x.stt}</td></tr>`).join('')}</table></div></details>`;
+  const off={}, c=$('#rsC',body), draw=()=>rsChart(c,rows,off);
+  draw();
+  $$('[data-d]',body).forEach(b=>b.onclick=()=>refStatsLoad(st,{days:+b.dataset.d}));
+  $('#rsGo',body).onclick=()=>{const f=$('#rsF',body).value.replace(/-/g,''),to=$('#rsT',body).value.replace(/-/g,'');if(f&&to)refStatsLoad(st,{from:f,to});};
+  $$('.rs-leg [data-k]',body).forEach(b=>b.onclick=()=>{const k=b.dataset.k;off[k]=!off[k];b.setAttribute('aria-pressed',!off[k]);draw();});
+  let rw;const ro=window.ResizeObserver?new ResizeObserver(()=>{clearTimeout(rw);rw=setTimeout(()=>{if(!document.body.contains(c)){ro.disconnect();return;}if(Math.abs(Math.max(300,c.clientWidth)-(+c.dataset.w||0))>4)draw();},120);}):null;if(ro)ro.observe(c);
 }
 async function refAdmin(el){
   if(!getKey())return;
@@ -3744,8 +3797,7 @@ async function refAdmin(el){
         if(!r.ok){$('#refMsg',box).textContent=REF_T.bad;return;}s=await r.json();const keep=$('#refStats',box);draw();if(keep)box.appendChild(keep);toast(REF_T.saved);}catch(err){$('#refMsg',box).textContent=REF_T.bad;}};
   };
   draw();host.appendChild(box);
-  try{const r=await fetch('api/ref',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({action:'stats'})});
-    if(r.ok){const st=document.createElement('div');st.id='refStats';st.innerHTML=refStatsHTML(await r.json());box.appendChild(st);}}catch(e){}
+  const st=document.createElement('div');st.id='refStats';box.appendChild(st);refStatsLoad(st,{days:30});
 }
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);Promise.resolve(r).then(()=>refAdmin(el));return r;};}
 
@@ -3857,7 +3909,8 @@ function authPanel(el,host){
   const a=acctGet();
   const draw=a=>{
     if(a){p.innerHTML=`<h3>${AUTH_T.title}</h3>${acctFace(a)}<div class="kv"><span>${AUTH_T.access}</span><b>${acctLine(a)}</b></div>
-      <div class="row" style="gap:8px">${a.active?'':`<button class="btn primary sm" id="acCode">${AUTH_T.enterCode}</button>`}<button class="btn ghost sm" id="acOut">${AUTH_T.out}</button></div>`;
+      <div class="row" style="gap:8px">${typeof payBtn==='function'?payBtn(a):''}${a.active?'':`<button class="btn sm" id="acCode">${AUTH_T.enterCode}</button>`}<button class="btn ghost sm" id="acOut">${AUTH_T.out}</button></div>`;
+      const up=$('#acUp',p);if(up)up.onclick=()=>go('upgrade');
       const c=$('#acCode',p);if(c)c.onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.settings(el);}};
       $('#acOut',p).onclick=async()=>{if(!confirm(AUTH_T.outQ))return;await authLogout();toast(AUTH_T.outDone);await initPlatform();VIEWS.settings(el);};
     }else{p.innerHTML=`<h3>${AUTH_T.title}</h3><p class="note">${AUTH_T.why}</p><div id="acG" style="min-height:44px"></div><p class="small" id="acMsg"></p>`;
@@ -3901,6 +3954,119 @@ async function authAdmin(host){
       await initPlatform();go('settings');},300);}}
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);
   Promise.resolve(r).then(()=>{const host=$('.view',el)||el;authPanel(el,host);authAdmin(host);});return r;};}
+
+/* ================= UPGRADE (paid plans, payOS) =================
+   #upgrade: plans for this app, paid by VietQR bank transfer on payOS's checkout page.
+   The plan is tied to the Google account (api/pay.js). After paying, payOS sends the person back to /?pay=done&orderCode=...;
+   the page asks the server to confirm, so access opens even if the webhook is late. */
+const PAY_T={title:"Nâng cấp Stalong",
+  lead:"Gói dùng riêng cho Stalong, gắn với tài khoản Google nên dùng được trên mọi máy. Thanh toán bằng chuyển khoản VietQR qua payOS.",
+  offline:"Thanh toán cần dùng bản online của app.",
+  needSign:"Đăng nhập Google trước nhé. Gói được gắn với tài khoản của bạn.",
+  month:"Gói tháng",
+  year:"Gói năm",
+  perMonth:"30 ngày dùng đầy đủ",
+  buy:"Thanh toán VietQR",
+  opening:"Đang mở payOS...",
+  incl:"Gói gồm những gì",
+  soon:"Thanh toán sẽ mở sớm (trước 15/11). Giá và gói đã hiện ở đây để bạn xem trước.",
+  ownerNote:"Bạn là chủ app nên tài khoản này đã dùng đầy đủ.",
+  pending:"Bạn đã bắt đầu thanh toán trước đó. Nếu đã chuyển khoản mà chưa mở quyền, bấm kiểm tra lại.",
+  check:"Kiểm tra thanh toán",
+  fine:"Gói không tự gia hạn: hết hạn thì bạn chủ động mua tiếp. Hoàn tiền đầy đủ trong 7 ngày kể từ lần thanh toán đầu.",
+  terms:"Điều khoản",
+  notYet:"Chưa thấy thanh toán. Chuyển khoản thường tới trong vòng một phút, bạn thử lại sau ít phút nhé.",
+  checkFail:"Chưa kiểm tra được thanh toán. Thử lại sau ít phút.",
+  createFail:"Chưa mở được trang thanh toán. Thử lại sau ít phút nhé.",
+  cancelled:"Đã hủy thanh toán, bạn chưa bị trừ tiền.",
+  checking:"Đang kiểm tra thanh toán...",
+  upgrade:"Nâng cấp",
+  extend:"Gia hạn",
+  seePlans:"Xem gói trả phí",
+  admTitle:"Doanh thu (payOS)",
+  admReady:"payOS đã kết nối.",
+  admNotReady:"payOS chưa kết nối (cần PAYOS_CLIENT_ID, PAYOS_API_KEY, PAYOS_CHECKSUM_KEY trên Vercel).",
+  admRev:"Tổng doanh thu",
+  admHook:"Đăng ký webhook payOS về app này",
+  admHookFail:"Chưa đăng ký được webhook",
+  perks:["Trợ lý AI giải thích ngữ pháp, chữa câu, luyện hội thoại, 50 lượt mỗi ngày", "Giọng đọc tự nhiên và chấm phát âm khi luyện nói", "Đồng bộ tiến độ trên mọi máy", "Toàn bộ phần học miễn phí vẫn giữ nguyên"],
+  money:n=>Number(n).toLocaleString('vi-VN')+'đ',
+  best:s=>`Tiết kiệm ${s}%`,
+  perYear:m=>`365 ngày, khoảng ${m} mỗi tháng`,
+  thanks:d=>`Đã nhận thanh toán, cảm ơn bạn! Dùng đầy đủ đến hết ${d}.`,
+  admHookOk:u=>`Đã đăng ký webhook: ${u}`};
+const payLast={get(){try{return JSON.parse(localStorage.getItem('hanyu-order')||'null');}catch(e){return null;}},
+  set(v){try{v?localStorage.setItem('hanyu-order',JSON.stringify(v)):localStorage.removeItem('hanyu-order');}catch(e){}}};
+const payMoney=n=>PAY_T.money(n);
+if(typeof UI_ALIAS==='object'&&UI_ALIAS)UI_ALIAS.upgrade='settings';
+async function payPost(action,extra){
+  const r=await fetch('api/pay',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify(Object.assign({action},extra||{}))});
+  return {ok:r.ok,status:r.status,j:await r.json().catch(()=>({}))};
+}
+/* back from payOS: ?pay=done|cancel (payOS adds orderCode, status, ...) */
+let PAY_BACK=null;
+{const q=new URLSearchParams(location.search);
+  if(q.get('pay')){PAY_BACK={kind:q.get('pay'),code:Number(q.get('orderCode'))||((payLast.get()||{}).code)||0,cancel:q.get('cancel')==='true'||q.get('pay')==='cancel'};
+    try{history.replaceState(null,'',location.pathname+'#upgrade');}catch(e){}}}
+async function payCheck(code,quiet){
+  let r;try{r=await payPost('check',{orderCode:code});}catch(e){r={ok:false,j:{}};}
+  if(r.ok&&r.j.paid){acctSet(r.j.acct);payLast.set(null);toast(PAY_T.thanks(authDate(r.j.acct.paidUntil)),6000);return true;}
+  if(!quiet)toast(r.ok?PAY_T.notYet:PAY_T.checkFail,5000);
+  return false;
+}
+VIEWS.upgrade=async el=>{
+  el.innerHTML=`<div class="view up"><div class="panel"><h3>${PAY_T.title}</h3><p class="note">${PAY_T.lead}</p><div id="upAcct"></div></div>
+    <div class="up-plans" id="upPlans"></div><div class="panel" id="upMore"></div></div>`;
+  for(let i=0;i<40&&WEB===null;i++)await new Promise(r=>setTimeout(r,150)); /* first load: wait for api/status */
+  if(!document.body.contains(el)||current!=='upgrade')return;
+  if(!WEB){$('#upAcct',el).innerHTML=`<p class="small">${PAY_T.offline}</p>`;return;}
+  const a=acctGet(), box=$('#upAcct',el);
+  if(!a){box.innerHTML=`<p class="small">${PAY_T.needSign}</p><div id="upG" style="min-height:44px"></div><p class="small" id="upMsg"></p>`;
+    authButton($('#upG',el),async()=>{await initPlatform();if(current==='upgrade')VIEWS.upgrade(el);},e=>{$('#upMsg',el).textContent=e;});}
+  else box.innerHTML=`${acctFace(a)}<div class="kv"><span>${AUTH_T.access}</span><b>${acctLine(a)}</b></div>`;
+  let info={ready:false,plans:{month:{amount:49000,days:30},year:{amount:399000,days:365}}};
+  try{const r=await payPost('info');if(r.ok)info=r.j;}catch(e){}
+  const m=info.plans.month,y=info.plans.year,save=Math.round((1-y.amount/(m.amount*12))*100);
+  const card=(k,p,extra,best)=>`<div class="panel up-plan${best?' best':''}">${best?`<span class="pill">${PAY_T.best(save)}</span>`:''}
+    <h3>${k==='month'?PAY_T.month:PAY_T.year}</h3><div class="up-price">${payMoney(p.amount)}</div><p class="small muted">${extra}</p>
+    <button class="btn ${best?'primary':''}" data-plan="${k}" ${info.ready&&a&&!a.owner?'':'disabled'}>${PAY_T.buy}</button></div>`;
+  $('#upPlans',el).innerHTML=card('month',m,PAY_T.perMonth)+card('year',y,PAY_T.perYear(payMoney(Math.round(y.amount/12/1000)*1000)),true);
+  const last=payLast.get();
+  $('#upMore',el).innerHTML=`<h3>${PAY_T.incl}</h3><ul class="small">${PAY_T.perks.map(x=>`<li>${x}</li>`).join('')}</ul>
+    ${info.ready?'':`<p class="note">${PAY_T.soon}</p>`}${a&&a.owner?`<p class="note">${PAY_T.ownerNote}</p>`:''}
+    ${last&&a?`<p class="small">${PAY_T.pending}</p><button class="btn sm" id="upChk">${PAY_T.check}</button>`:''}
+    <p class="small muted">${PAY_T.fine} <a href="https://stalis-study.vercel.app/terms.html" target="_blank" rel="noopener">${PAY_T.terms}</a></p>`;
+  const c=$('#upChk',el);if(c)c.onclick=async()=>{c.disabled=true;if(await payCheck(last.code))VIEWS.upgrade(el);else c.disabled=false;};
+  $$('[data-plan]',el).forEach(b=>b.onclick=async()=>{
+    b.disabled=true;b.textContent=PAY_T.opening;
+    let r;try{r=await payPost('create',{plan:b.dataset.plan});}catch(e){r={ok:false,j:{}};}
+    if(r.ok&&r.j.checkoutUrl){payLast.set({code:r.j.orderCode,plan:b.dataset.plan,at:Date.now()});location.href=r.j.checkoutUrl;return;}
+    b.disabled=false;b.textContent=PAY_T.buy;toast(r.status===401?PAY_T.needSign:PAY_T.createFail,5000);
+  });
+  if(PAY_BACK&&a){const pb=PAY_BACK;PAY_BACK=null;
+    if(pb.cancel){toast(PAY_T.cancelled,4000);}
+    else if(pb.code){toast(PAY_T.checking,2500);let ok=false;for(let i=0;i<5&&!ok;i++){ok=await payCheck(pb.code,i<4);if(!ok)await new Promise(r=>setTimeout(r,3000));}
+      if(ok&&current==='upgrade')VIEWS.upgrade(el);}}
+};
+/* owner: sales so far and the webhook switch */
+async function payAdmin(host){
+  if(!getKey()||$('#payAdm',host))return;
+  let s;try{const r=await payPost('sales');if(!r.ok)return;s=r.j;}catch(e){return;}
+  if(!document.body.contains(host)||$('#payAdm',host))return;
+  const b=document.createElement('div');b.className='panel';b.id='payAdm';
+  b.innerHTML=`<h3>${PAY_T.admTitle}</h3><p class="small">${s.ready?PAY_T.admReady:PAY_T.admNotReady}</p>
+    <div class="kv"><span>${PAY_T.admRev}</span><b>${payMoney(s.revenue)}</b></div><div class="kv"><span>${PAY_T.month}</span><b>${s.month}</b></div><div class="kv"><span>${PAY_T.year}</span><b>${s.year}</b></div>
+    ${s.ready?`<button class="btn sm" id="payHook">${PAY_T.admHook}</button><p class="small" id="payHookMsg"></p>`:''}`;
+  const h=$('#payHook',b);if(h)h.onclick=async()=>{h.disabled=true;const r=await payPost('hook').catch(()=>({ok:false,j:{}}));h.disabled=false;
+    $('#payHookMsg',b).textContent=r.ok?PAY_T.admHookOk(r.j.url):PAY_T.admHookFail+(r.j.desc?' ('+r.j.desc+')':'');};
+  host.appendChild(b);
+}
+/* the account panel and the password box point to the plans */
+function payBtn(a){return a.owner?'':`<button class="btn ${a.active?'':'primary'} sm" id="acUp">${a.paidUntil>Date.now()?PAY_T.extend:PAY_T.upgrade}</button>`;}
+{const _ap=authPanel;authPanel=function(el,host){_ap(el,host);payAdmin(host);};}
+{const _am=authMount;authMount=function(m,done){_am(m,done);const a=acctGet();
+  if(a&&!a.active&&!$('#upGo',m.el)){const f=$('#pwF',m.el);if(f)f.insertAdjacentHTML('afterend',`<button class="btn sm" id="upGo" style="margin-top:8px">${PAY_T.seePlans}</button>`);
+    const g=$('#upGo',m.el);if(g)g.onclick=()=>{m.close();go('upgrade');};}};}
 
 /* ================= boot ================= */
 async function boot(){
