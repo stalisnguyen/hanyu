@@ -42,7 +42,7 @@ function refStatsHTML(t){
    ${t.daily.map(x=>`<tr><td>${x.day.slice(6)}/${x.day.slice(4,6)}</td><td style="text-align:center">${x.active}</td><td style="text-align:center">${x.fresh}</td><td style="text-align:center">${ai(x)}</td></tr>`).join('')}</table></div>`;
 }
 async function refAdmin(el){
-  if(!getKey()||/^[a-f0-9]{40}$/.test(getKey()))return;
+  if(!getKey())return;
   let s;try{const r=await fetch('api/ref',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({action:'status'})});if(!r.ok)return;s=await r.json();}catch(e){return;}
   const host=$('.view',el)||el; if(!document.body.contains(host)||$('#refAdm',host))return;
   const box=document.createElement('div');box.className='panel';box.id='refAdm';

@@ -111,7 +111,7 @@ function authPanel(el,host){
 }
 /* owner only: how many accounts, and the free trial for new accounts (0 while the beta runs on invite codes) */
 async function authAdmin(host){
-  if(!getKey()||/^[a-f0-9]{40}$/.test(getKey())||$('#acAdm',host))return;
+  if(!getKey()||$('#acAdm',host))return;
   let s;try{const r=await fetch('api/ref',{method:'POST',headers:{'content-type':'application/json','x-app-key':getKey()},body:JSON.stringify({action:'status'})});if(!r.ok)return;s=await r.json();}catch(e){return;}
   if(!document.body.contains(host)||$('#acAdm',host))return;
   const b=document.createElement('div');b.className='panel';b.id='acAdm';

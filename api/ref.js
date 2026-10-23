@@ -2,13 +2,13 @@
 // Each person who redeems it gets a personal access key that works like the group password
 // (AI, sync, voices). The group password itself keeps working for everyone who already has it.
 //   POST {action:'redeem', code}            -> {token, n, max}  | 404 invalid | 410 full | 429 too many tries
-//   POST {action:'status'}  (ADMIN_PASSWORD) -> {code, max, used, issued}
+//   POST {action:'status'}  (owner: ADMIN_PASSWORD or an owner account) -> {code, max, used, issued}
 //   POST {action:'check'} -> {ok} whether x-app-key unlocks the app
 //   POST {action:'stats'} (ADMIN_PASSWORD) -> beta numbers, see _stats.js
 //   POST {action:'set', code?, max?, trial?} (ADMIN_PASSWORD) -> same as status. A new code starts a new count.
 //        trial = free days a new Google account gets (0 = off).
 const crypto = require('crypto');
-const { APP, sha, isAdmin, checkKey, kv, tooMany, takeInvite, normCode } = require('./_lib');
+const { APP, sha, isOwner, checkKey, kv, tooMany, takeInvite, normCode } = require('./_lib');
 const { stats } = require('./_stats');
 
 module.exports = async (req, res) => {
@@ -37,7 +37,7 @@ module.exports = async (req, res) => {
       return res.status(200).json({ token, n: t.n, max: t.max });
     }
     if (body.action === 'check') return res.status(200).json({ ok: await checkKey(req) });
-    if (!isAdmin(req)) return res.status(403).json({ error: 'admin' });
+    if (!(await isOwner(req))) return res.status(403).json({ error: 'admin' });
     if (body.action === 'stats') return res.status(200).json(await stats());
     if (body.action === 'set') {
       if (body.trial !== undefined) await db(['SET', APP + ':cfg:trial', String(Math.max(0, Math.min(30, parseInt(body.trial, 10) || 0)))]);

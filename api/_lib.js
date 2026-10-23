@@ -135,5 +135,11 @@ async function takeInvite(db, given) {
   await db(['INCR', K('issued')]);
   return { n, max, code };
 }
+// The owner: ADMIN_PASSWORD on this request, or a signed-in account marked as owner.
+async function isOwner(req) {
+  if (isAdmin(req)) return true;
+  const k = await keyInfo(req);
+  return !!(k.acct && k.acct.owner);
+}
 
-module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID };
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner };

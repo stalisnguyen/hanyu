@@ -5,12 +5,14 @@
 //   POST {action:'redeem', code}        (x-app-key: account key) -> {acct, n?, max?} | 404 invalid | 410 full | 429
 //        code is the invite code or the group password; either makes the account a beta member.
 //   POST {action:'logout'}              (x-app-key: account key) -> {ok}
+// Signing in on a device that has the owner's ADMIN_PASSWORD (or entering it) marks the account as owner:
+// it can manage invite codes and see the numbers from any device.
 // New accounts get a free trial of <app>:cfg:trial days (0 = off, set by the owner in Settings).
 const crypto = require('crypto');
-const { APP, sha, kv, keyInfo, isActive, getAcct, putAcct, tooMany, takeInvite, GOOGLE_CLIENT_ID } = require('./_lib');
+const { APP, sha, kv, keyInfo, isActive, isAdmin, getAcct, putAcct, tooMany, takeInvite, GOOGLE_CLIENT_ID } = require('./_lib');
 
 const pub = a => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta, trialEnd: a.trialEnd || 0,
-  paidUntil: a.paidUntil || 0, active: isActive(a) });
+  paidUntil: a.paidUntil || 0, active: isActive(a), owner: !!a.owner });
 const same = (x, y) => !!x && !!y && crypto.timingSafeEqual(sha(x), sha(y));
 
 async function verifyGoogle(credential) {
@@ -44,7 +46,8 @@ module.exports = async (req, res) => {
       Object.assign(a, { email: g.email, name: g.name, pic: g.pic, seen: now });
       // carry over what this device already had
       const k = await keyInfo(req);
-      if (k.master && !a.beta) Object.assign(a, { beta: true, via: 'group' });
+      if (isAdmin(req)) Object.assign(a, { beta: true, owner: true, via: a.via || 'admin' });
+      else if (k.master && !a.beta) Object.assign(a, { beta: true, via: 'group' });
       else if (k.state === 'ok' && k.tok && !k.tok.sub && !a.beta) Object.assign(a, { beta: true, via: 'code:' + (k.tok.code || '') });
       if (!isActive(a) && !a.trialEnd) {
         const days = +(await db(['GET', APP + ':cfg:trial'])) || 0;
@@ -65,9 +68,14 @@ module.exports = async (req, res) => {
     const a = k.acct;
     if (body.action === 'me') return res.status(200).json({ acct: pub(a) });
     if (body.action === 'redeem') {
-      if (a.beta) return res.status(200).json({ acct: pub(a) });
       const given = String(body.code || '').trim();
-      if (same(process.env.APP_PASSWORD || '', given) || same(process.env.ADMIN_PASSWORD || '', given)) {
+      if (same(process.env.ADMIN_PASSWORD || '', given)) {
+        Object.assign(a, { beta: true, owner: true, via: a.via || 'admin' });
+        await putAcct(db, k.sub, a);
+        return res.status(200).json({ acct: pub(a) });
+      }
+      if (a.beta) return res.status(200).json({ acct: pub(a) });
+      if (same(process.env.APP_PASSWORD || '', given)) {
         Object.assign(a, { beta: true, via: 'group' });
         await putAcct(db, k.sub, a);
         return res.status(200).json({ acct: pub(a) });
