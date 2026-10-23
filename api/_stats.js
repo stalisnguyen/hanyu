@@ -44,6 +44,8 @@ async function stats(opt) {
   // learners with synced progress
   let cursor = '0', learners = 0, guard = 0;
   do { const [nx, keys] = await db(['SCAN', cursor, 'MATCH', APP + ':p:*', 'COUNT', 500]); cursor = String(nx); learners += keys.length; } while (cursor !== '0' && ++guard < 50);
-  return { daily, active7, activeRange: (activeRange || []).length, learners, retention: Object.fromEntries(Object.entries(ret).map(([n, [b, s]]) => [n, { back: b, of: s }])) };
+  // counting started on 23/10/2026 (deploy of api/ping); later apps record their own first day
+  const since = (await db(['GET', APP + ':since'])) || '20261023';
+  return { since, daily, active7, activeRange: (activeRange || []).length, learners, retention: Object.fromEntries(Object.entries(ret).map(([n, [b, s]]) => [n, { back: b, of: s }])) };
 }
 module.exports = { stats };
