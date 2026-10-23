@@ -47,6 +47,10 @@ async function authPost(action,extra){
 /* Google button in box; onAcct(acct) once the server has accepted the sign-in */
 async function authButton(box,onAcct,onErr){
   try{await loadGIS();}catch(e){box.innerHTML=`<p class="small">${AUTH_T.noGis}</p>`;return;}
+  /* phones and home-screen apps: full-page redirect, because the popup window cannot report back there */
+  const redirect=navigator.standalone===true||matchMedia('(display-mode: standalone)').matches||matchMedia('(pointer: coarse)').matches;
+  if(redirect){google.accounts.id.initialize({client_id:AUTH_CID,auto_select:false,ux_mode:'redirect',login_uri:location.origin+'/api/gauth'});
+    box.innerHTML='';google.accounts.id.renderButton(box,{theme:'outline',size:'large',text:'signin_with',shape:'pill',locale:AUTH_T.loc,width:250});return;}
   google.accounts.id.initialize({client_id:AUTH_CID,auto_select:false,cancel_on_tap_outside:true,callback:async resp=>{
     let r;try{r=await authPost('google',{credential:resp.credential});}catch(e){r={ok:false,j:{}};}
     if(!r.ok||!r.j.token){if(onErr)onErr(r.status===429?AUTH_T.slow:AUTH_T.fail);return;}
@@ -122,5 +126,15 @@ async function authAdmin(host){
       toast(r.ok?AUTH_T.admSaved:REF_T.bad);}catch(err){toast(REF_T.bad);}};
   host.appendChild(b);
 }
+/* one platform start at a time (boot and a sign-in can both ask for it), so the sync PIN box never shows twice */
+{const _ip=initPlatform;let busy=null;initPlatform=async function(){while(busy){try{await busy;}catch(e){}}busy=_ip.apply(this,arguments);try{return await busy;}finally{busy=null;}};}
+/* back from the redirect sign-in: #gauth=<one-time code> (or #gauth-error) */
+{const h=location.hash;
+  if(h==='#gauth-error'){try{history.replaceState(null,'',location.pathname+'#settings');}catch(e){}setTimeout(()=>toast(AUTH_T.fail,5000),1500);}
+  else if(/^#gauth=[a-f0-9]{32}$/.test(h)){const code=h.slice(7);try{history.replaceState(null,'',location.pathname+'#settings');}catch(e){}
+    setTimeout(async()=>{let r;try{r=await authPost('google',{code});}catch(e){r={ok:false,j:{}};}
+      if(!r.ok||!r.j.token){toast(r.status===429?AUTH_T.slow:AUTH_T.fail,5000);return;}
+      setKey(r.j.token);acctSet(r.j.acct);toast(r.j.acct.active?AUTH_T.hi(r.j.acct.name||r.j.acct.email):AUTH_T.signedNeed,4500);
+      await initPlatform();go('settings');},300);}}
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);
   Promise.resolve(r).then(()=>{const host=$('.view',el)||el;authPanel(el,host);authAdmin(host);});return r;};}

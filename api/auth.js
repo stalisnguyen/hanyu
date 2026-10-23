@@ -1,5 +1,6 @@
 // Google sign-in and accounts. The page gets a Google ID token from Google Identity Services and sends it here.
-//   POST {action:'google', credential}  (x-app-key: the key already on this device, optional)
+//   POST {action:'google', credential | code}  (x-app-key: the key already on this device, optional)
+//        code: one-time code from api/gauth.js (redirect sign-in on phones)
 //        -> {token, acct}. A device that already had the group password or an invite key keeps beta access on the account.
 //   POST {action:'me'}                  (x-app-key: account key) -> {acct}
 //   POST {action:'redeem', code}        (x-app-key: account key) -> {acct, n?, max?} | 404 invalid | 410 full | 429
@@ -39,7 +40,9 @@ module.exports = async (req, res) => {
   try {
     if (body.action === 'google') {
       if (await tooMany(db, req)) return res.status(429).json({ error: 'slow' });
-      const g = await verifyGoogle(body.credential);
+      let credential = body.credential;
+      if (!credential && /^[a-f0-9]{32}$/.test(String(body.code || ''))) credential = await db(['GETDEL', APP + ':gauth:' + body.code]);
+      const g = await verifyGoogle(credential);
       if (!g) return res.status(401).json({ error: 'google' });
       const now = Date.now();
       const a = (await getAcct(db, g.sub)) || { at: now };
