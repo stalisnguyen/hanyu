@@ -81,8 +81,14 @@ async function track(kind, req) {
 // Public OAuth client ID of the "Stalis Study Apps" Google project (not a secret).
 const GOOGLE_CLIENT_ID = '764861746953-4nsjobj6ca8cm8tpt5srgo03u18hpjs2.apps.googleusercontent.com';
 const normCode = c => String(c || '').trim().toUpperCase().replace(/\s+/g, '');
-// An account can use AI and sync while it is a beta member (invite code or group password), on trial, or paid.
-const isActive = a => !!a && (!!a.beta || (a.trialEnd || 0) > Date.now() || (a.paidUntil || 0) > Date.now());
+// Beta access (invite code, group password, beta accounts) ends at this moment unless the owner sets another date.
+const BETA_UNTIL_DEFAULT = Date.UTC(2026, 10, 30, 17, 0, 0); // 1 Dec 2026 00:00 Vietnam time, i.e. free through 30 Nov
+async function betaUntil(db) {
+  try { const v = +(await db(['GET', APP + ':cfg:betaUntil'])); return v > 0 ? v : BETA_UNTIL_DEFAULT; } catch (e) { return BETA_UNTIL_DEFAULT; }
+}
+// An account can use AI and sync while it is the owner, a beta member before betaUntil, on trial, or paid.
+const isActive = (a, bu) => !!a && (!!a.owner || (!!a.beta && Date.now() < (bu || BETA_UNTIL_DEFAULT)) ||
+  (a.trialEnd || 0) > Date.now() || (a.paidUntil || 0) > Date.now());
 async function getAcct(db, sub) {
   try { const raw = await db(['GET', APP + ':acct:' + sub]); return raw ? JSON.parse(raw) : null; } catch (e) { return null; }
 }
@@ -90,25 +96,28 @@ async function putAcct(db, sub, a) {
   await db(['SET', APP + ':acct:' + sub, JSON.stringify(a)]);
   await db(['SADD', APP + ':accts', sub]);
 }
-// What the key on this request is: {state:'ok'|'none'|'inactive', master?, tok?, sub?, acct?}
+// What the key on this request is: {state:'ok'|'none'|'inactive', admin?, master?, tok?, sub?, acct?}
 async function keyInfo(req) {
-  if (isMaster(req)) return { state: 'ok', master: true };
+  if (isAdmin(req)) return { state: 'ok', master: true, admin: true };
+  const db = kv();
+  const open = async () => Date.now() < (db ? await betaUntil(db) : BETA_UNTIL_DEFAULT);
+  if (isMaster(req)) return { state: (await open()) ? 'ok' : 'inactive', master: true };
   const got = String(req.headers['x-app-key'] || '');
-  if (!process.env.APP_PASSWORD || !/^[a-f0-9]{40}$/.test(got)) return { state: 'none' };
-  const db = kv(); if (!db) return { state: 'none' };
+  if (!process.env.APP_PASSWORD || !/^[a-f0-9]{40}$/.test(got) || !db) return { state: 'none' };
   try {
     const raw = await db(['GET', APP + ':tok:' + sha(got).toString('hex')]);
     if (!raw) return { state: 'none' };
     let tok = {}; try { tok = JSON.parse(raw) || {}; } catch (e) {}
-    if (!tok.sub) return { state: 'ok', tok };
+    if (!tok.sub) return { state: (await open()) ? 'ok' : 'inactive', tok };
     const acct = await getAcct(db, tok.sub);
     if (!acct) return { state: 'none' };
-    return { state: isActive(acct) ? 'ok' : 'inactive', tok, sub: tok.sub, acct };
+    return { state: isActive(acct, await betaUntil(db)) ? 'ok' : 'inactive', tok, sub: tok.sub, acct };
   } catch (e) { return { state: 'none' }; }
 }
 // Sends 401 (no valid key) or 402 (signed in, but no beta, trial or paid plan) and returns true when access is refused.
 async function deny(req, res) {
   const k = await keyInfo(req);
+  req._k = k;
   if (k.state === 'ok') return false;
   if (k.state === 'inactive') res.status(402).json({ error: 'inactive' });
   else res.status(401).json({ error: 'auth' });
@@ -141,5 +150,24 @@ async function isOwner(req) {
   const k = await keyInfo(req);
   return !!(k.acct && k.acct.owner);
 }
+// Daily AI allowance per person and app (Vietnam day). Owner unlimited. Group-password users count per learner profile.
+const AI_LIMIT_DEFAULT = 50;
+async function aiQuota(req) {
+  const k = req._k || await keyInfo(req);
+  if (k.admin || (k.acct && k.acct.owner)) return { ok: true };
+  const db = kv(); if (!db) return { ok: true };
+  try {
+    const limit = +(await db(['GET', APP + ':cfg:ailimit'])) || AI_LIMIT_DEFAULT;
+    let who;
+    if (k.sub) who = 'a:' + k.sub;
+    else if (k.master) { const u = userOf(req); who = 'g:' + (u ? u.slug : '-'); }
+    else who = 'k:' + sha(String(req.headers['x-app-key'] || '')).toString('hex').slice(0, 16);
+    const key = APP + ':aiq:' + vnDay() + ':' + who;
+    const n = await db(['INCR', key]);
+    if (n === 1) await db(['EXPIRE', key, 2 * 86400]);
+    if (n > limit) return { ok: false, limit };
+    return { ok: true, limit, used: n };
+  } catch (e) { return { ok: true }; }
+}
 
-module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner };
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner, aiQuota, betaUntil };

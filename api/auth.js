@@ -10,10 +10,10 @@
 // it can manage invite codes and see the numbers from any device.
 // New accounts get a free trial of <app>:cfg:trial days (0 = off, set by the owner in Settings).
 const crypto = require('crypto');
-const { APP, sha, kv, keyInfo, isActive, isAdmin, getAcct, putAcct, tooMany, takeInvite, GOOGLE_CLIENT_ID } = require('./_lib');
+const { APP, sha, kv, keyInfo, isActive, betaUntil, isAdmin, getAcct, putAcct, tooMany, takeInvite, GOOGLE_CLIENT_ID } = require('./_lib');
 
-const pub = a => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta, trialEnd: a.trialEnd || 0,
-  paidUntil: a.paidUntil || 0, active: isActive(a), owner: !!a.owner });
+const pub = (a, bu) => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta, betaUntil: bu, trialEnd: a.trialEnd || 0,
+  paidUntil: a.paidUntil || 0, active: isActive(a, bu), owner: !!a.owner });
 const same = (x, y) => !!x && !!y && crypto.timingSafeEqual(sha(x), sha(y));
 
 async function verifyGoogle(credential) {
@@ -38,6 +38,7 @@ module.exports = async (req, res) => {
   if (typeof body === 'string') { try { body = JSON.parse(body); } catch (e) { body = {}; } }
   body = body || {};
   try {
+    const bu = await betaUntil(db);
     if (body.action === 'google') {
       if (await tooMany(db, req)) return res.status(429).json({ error: 'slow' });
       let credential = body.credential;
@@ -52,14 +53,14 @@ module.exports = async (req, res) => {
       if (isAdmin(req)) Object.assign(a, { beta: true, owner: true, via: a.via || 'admin' });
       else if (k.master && !a.beta) Object.assign(a, { beta: true, via: 'group' });
       else if (k.state === 'ok' && k.tok && !k.tok.sub && !a.beta) Object.assign(a, { beta: true, via: 'code:' + (k.tok.code || '') });
-      if (!isActive(a) && !a.trialEnd) {
+      if (!isActive(a, bu) && !a.trialEnd) {
         const days = +(await db(['GET', APP + ':cfg:trial'])) || 0;
         if (days > 0) a.trialEnd = now + days * 864e5;
       }
       await putAcct(db, g.sub, a);
       const token = crypto.randomBytes(20).toString('hex');
       await db(['SET', APP + ':tok:' + sha(token).toString('hex'), JSON.stringify({ at: now, sub: g.sub }), 'EX', 400 * 86400]);
-      return res.status(200).json({ token, acct: pub(a) });
+      return res.status(200).json({ token, acct: pub(a, bu) });
     }
     const k = await keyInfo(req);
     if (body.action === 'logout') {
@@ -69,19 +70,19 @@ module.exports = async (req, res) => {
     }
     if (!k.sub) return res.status(401).json({ error: 'auth' });
     const a = k.acct;
-    if (body.action === 'me') return res.status(200).json({ acct: pub(a) });
+    if (body.action === 'me') return res.status(200).json({ acct: pub(a, bu) });
     if (body.action === 'redeem') {
       const given = String(body.code || '').trim();
       if (same(process.env.ADMIN_PASSWORD || '', given)) {
         Object.assign(a, { beta: true, owner: true, via: a.via || 'admin' });
         await putAcct(db, k.sub, a);
-        return res.status(200).json({ acct: pub(a) });
+        return res.status(200).json({ acct: pub(a, bu) });
       }
-      if (a.beta) return res.status(200).json({ acct: pub(a) });
+      if (a.beta) return res.status(200).json({ acct: pub(a, bu) });
       if (same(process.env.APP_PASSWORD || '', given)) {
         Object.assign(a, { beta: true, via: 'group' });
         await putAcct(db, k.sub, a);
-        return res.status(200).json({ acct: pub(a) });
+        return res.status(200).json({ acct: pub(a, bu) });
       }
       if (await tooMany(db, req)) return res.status(429).json({ error: 'slow' });
       const t = await takeInvite(db, given);
@@ -89,7 +90,7 @@ module.exports = async (req, res) => {
       if (t.invalid) return res.status(404).json({ error: 'invalid' });
       Object.assign(a, { beta: true, via: 'code:' + t.code });
       await putAcct(db, k.sub, a);
-      return res.status(200).json({ acct: pub(a), n: t.n, max: t.max });
+      return res.status(200).json({ acct: pub(a, bu), n: t.n, max: t.max });
     }
     return res.status(400).json({ error: 'action' });
   } catch (e) {

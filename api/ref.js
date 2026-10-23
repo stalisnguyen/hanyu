@@ -6,9 +6,10 @@
 //   POST {action:'check'} -> {ok} whether x-app-key unlocks the app
 //   POST {action:'stats'} (ADMIN_PASSWORD) -> beta numbers, see _stats.js
 //   POST {action:'set', code?, max?, trial?} (ADMIN_PASSWORD) -> same as status. A new code starts a new count.
-//        trial = free days a new Google account gets (0 = off).
+//        trial = free days a new Google account gets (0 = off); ailimit = AI calls per person per day;
+//        betaLast = last free day of the beta, 'YYYY-MM-DD' Vietnam time.
 const crypto = require('crypto');
-const { APP, sha, isOwner, checkKey, kv, tooMany, takeInvite, normCode } = require('./_lib');
+const { APP, sha, isOwner, checkKey, kv, betaUntil, tooMany, takeInvite, normCode } = require('./_lib');
 const { stats } = require('./_stats');
 
 module.exports = async (req, res) => {
@@ -23,8 +24,9 @@ module.exports = async (req, res) => {
   const status = async () => {
     const [code, max, issued, trial, accounts] = await Promise.all([db(['GET', K('code')]), db(['GET', K('max')]), db(['GET', K('issued')]),
       db(['GET', APP + ':cfg:trial']), db(['SCARD', APP + ':accts'])]);
+    const [ailimit, bu] = await Promise.all([db(['GET', APP + ':cfg:ailimit']), betaUntil(db)]);
     const used = code ? +(await db(['GET', K('used:' + code)])) || 0 : 0;
-    return { code: code || '', max: +max || 50, used, issued: +issued || 0, trial: +trial || 0, accounts: +accounts || 0 };
+    return { code: code || '', max: +max || 50, used, issued: +issued || 0, trial: +trial || 0, accounts: +accounts || 0, ailimit: +ailimit || 50, betaUntil: bu };
   };
   try {
     if (body.action === 'redeem') {
@@ -41,6 +43,12 @@ module.exports = async (req, res) => {
     if (body.action === 'stats') return res.status(200).json(await stats());
     if (body.action === 'set') {
       if (body.trial !== undefined) await db(['SET', APP + ':cfg:trial', String(Math.max(0, Math.min(30, parseInt(body.trial, 10) || 0)))]);
+      if (body.ailimit !== undefined) await db(['SET', APP + ':cfg:ailimit', String(Math.max(1, Math.min(500, parseInt(body.ailimit, 10) || 50)))]);
+      if (body.betaLast !== undefined) { // last free day 'YYYY-MM-DD', Vietnam time
+        const m = String(body.betaLast).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+        if (!m) return res.status(400).json({ error: 'date' });
+        await db(['SET', APP + ':cfg:betaUntil', String(Date.UTC(+m[1], +m[2] - 1, +m[3] + 1) - 7 * 3600e3)]);
+      }
       if (body.code === undefined) return res.status(200).json(await status());
       const code = normCode(body.code), max = Math.max(1, Math.min(1000, parseInt(body.max, 10) || 50));
       if (!/^[A-Z0-9-]{4,24}$/.test(code)) return res.status(400).json({ error: 'code' });

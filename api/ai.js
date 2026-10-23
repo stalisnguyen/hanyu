@@ -3,7 +3,7 @@
 //   GEMINI_API_KEY     -> Google Gemini (free tier on Flash). Model: GEMINI_MODEL (default gemini-flash-latest)
 //   ANTHROPIC_API_KEY  -> Claude (paid). Models: AI_MODEL_FAST / AI_MODEL_SMART
 // AI_PROVIDER=groq|gemini|anthropic forces one; otherwise the first configured in the order groq, gemini, anthropic.
-const { deny, track } = require('./_lib');
+const { deny, track, aiQuota } = require('./_lib');
 
 const MAX_INPUT_CHARS = 60000;
 
@@ -96,6 +96,8 @@ module.exports = async (req, res) => {
   if (size > MAX_INPUT_CHARS) return res.status(413).json({ error: 'too_long' });
   if (clean[clean.length - 1].role !== 'user') return res.status(400).json({ error: 'bad_request' });
   const tier = ['quick', 'default', 'complex'].includes(body.tier) ? body.tier : 'default';
+  const q = await aiQuota(req);
+  if (!q.ok) return res.status(429).json({ error: 'daily_limit', limit: q.limit });
 
   try {
     const fn = prov === 'groq' ? callGroq : prov === 'gemini' ? callGemini : callAnthropic;
