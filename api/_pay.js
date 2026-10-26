@@ -41,7 +41,7 @@ async function creditOrder(db, code, amountSeen) {
     if (!a) throw new Error('no account');
     const bu = +(await db(['GET', o.app + ':cfg:betaUntil'])) || BETA_UNTIL_DEFAULT;
     const now = Date.now();
-    const start = Math.max(now, a.paidUntil || 0, a.beta ? bu : 0);
+    const start = Math.max(now, a.paidUntil || 0, bu); // bought during the free beta: the plan starts when the beta ends
     a.paidUntil = start + PLANS[o.plan].days * 864e5;
     a.pays = (a.pays || []).concat([{ code, plan: o.plan, amount: o.amount, at: now }]).slice(-50);
     await db(['SET', key, JSON.stringify(a)]);

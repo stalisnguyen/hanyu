@@ -86,8 +86,8 @@ const BETA_UNTIL_DEFAULT = Date.UTC(2026, 10, 30, 17, 0, 0); // 1 Dec 2026 00:00
 async function betaUntil(db) {
   try { const v = +(await db(['GET', APP + ':cfg:betaUntil'])); return v > 0 ? v : BETA_UNTIL_DEFAULT; } catch (e) { return BETA_UNTIL_DEFAULT; }
 }
-// An account can use AI and sync while it is the owner, a beta member before betaUntil, on trial, or paid.
-const isActive = (a, bu) => !!a && (!!a.owner || (!!a.beta && Date.now() < (bu || BETA_UNTIL_DEFAULT)) ||
+// An account can use the AI tutor while it is the owner, before betaUntil (free beta for every signed-in account), on trial, or paid.
+const isActive = (a, bu) => !!a && (!!a.owner || Date.now() < (bu || BETA_UNTIL_DEFAULT) ||
   (a.trialEnd || 0) > Date.now() || (a.paidUntil || 0) > Date.now());
 async function getAcct(db, sub) {
   try { const raw = await db(['GET', APP + ':acct:' + sub]); return raw ? JSON.parse(raw) : null; } catch (e) { return null; }

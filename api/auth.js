@@ -12,7 +12,7 @@
 const crypto = require('crypto');
 const { APP, sha, kv, keyInfo, isActive, betaUntil, isAdmin, getAcct, putAcct, tooMany, takeInvite, GOOGLE_CLIENT_ID } = require('./_lib');
 
-const pub = (a, bu) => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta, betaUntil: bu, trialEnd: a.trialEnd || 0,
+const pub = (a, bu) => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta || Date.now() < bu, betaUntil: bu, trialEnd: a.trialEnd || 0,
   paidUntil: a.paidUntil || 0, active: isActive(a, bu), owner: !!a.owner });
 const same = (x, y) => !!x && !!y && crypto.timingSafeEqual(sha(x), sha(y));
 

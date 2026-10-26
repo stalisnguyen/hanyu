@@ -6,18 +6,18 @@ const AUTH_T={loc:"vi",
   title:"Tài khoản",
   why:"Đăng nhập bằng Google để lưu tiến độ, học tiếp trên máy khác và giữ quyền dùng trợ lý AI. App chỉ nhận tên, email và ảnh đại diện của bạn.",
   or:"hoặc nhập mã mời",
-  needCode:"Đã đăng nhập, tiến độ của bạn được lưu theo tài khoản. Trợ lý AI cần mã mời: nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
+  needCode:"Tài khoản này chưa có gói đang dùng. Mua gói để tiếp tục dùng trợ lý AI, tiến độ học vẫn được lưu bình thường. Có mã mời thì nhập bên dưới.",
   access:"Quyền dùng",
   owner:"Chủ app, dùng không giới hạn",
   betaEnded:"Đã hết thời gian beta miễn phí",
-  none:"Chưa mở trợ lý AI",
+  none:"Chưa có gói",
   ended:"Hết hạn dùng thử",
   enterCode:"Nhập mã mời",
   out:"Đăng xuất khỏi máy này",
   outQ:"Đăng xuất khỏi máy này? Tiến độ học trên máy vẫn giữ nguyên.",
   outDone:"Đã đăng xuất.",
   unlocked:"Đã mở trợ lý AI cho tài khoản này.",
-  signedNeed:"Đã đăng nhập, tiến độ được lưu theo tài khoản. Nhập mã mời để mở trợ lý AI.",
+  signedNeed:"Đã đăng nhập, tiến độ được lưu theo tài khoản. Trợ lý AI cần gói trả phí.",
   fail:"Đăng nhập chưa được. Thử lại sau ít phút nhé.",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
@@ -42,7 +42,7 @@ const AUTH_T={loc:"vi",
   trial:d=>`Dùng thử đến ${d}`,
   paid:d=>`Đã mua, dùng đến ${d}`,
   admN:n=>`${n} tài khoản đã đăng nhập.`,
-  beta:d=>`Thành viên beta, miễn phí đến hết ${d}`};
+  beta:d=>`Beta miễn phí đến hết ${d}`};
 const AUTH_CID='764861746953-4nsjobj6ca8cm8tpt5srgo03u18hpjs2.apps.googleusercontent.com';
 const acctGet=()=>{try{const a=JSON.parse(localStorage.getItem('hanyu-acct')||'null');return a&&getKey()&&a.k===getKey().slice(0,8)?a:null;}catch(e){return null;}};
 const acctSet=a=>{try{a?localStorage.setItem('hanyu-acct',JSON.stringify(Object.assign({},a,{k:getKey().slice(0,8)}))):localStorage.removeItem('hanyu-acct');}catch(e){}};
@@ -121,7 +121,7 @@ function authPanel(el,host){
   const p=document.createElement('div');p.className='panel';p.id='acctP';
   const a=acctGet();
   const draw=a=>{
-    if(a){p.innerHTML=`<h3>${AUTH_T.title}</h3>${acctFace(a)}<div class="kv"><span>${AUTH_T.access}</span><b>${acctLine(a)}</b></div>
+    if(a){p.innerHTML=`<h3>${AUTH_T.title}</h3>${acctFace(a)}<div class="kv"><span>${AUTH_T.access}</span><b>${acctLine(a)}</b></div>${typeof payHint==='function'?payHint(a):''}
       <div class="row" style="gap:8px">${typeof payBtn==='function'?payBtn(a):''}${a.active?'':`<button class="btn sm" id="acCode">${AUTH_T.enterCode}</button>`}<button class="btn ghost sm" id="acOut">${AUTH_T.out}</button></div>`;
       const up=$('#acUp',p);if(up)up.onclick=()=>go('upgrade');
       const c=$('#acCode',p);if(c)c.onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.settings(el);}};
@@ -131,8 +131,9 @@ function authPanel(el,host){
     }
   };
   draw(a);
-  const key=[...$$('.panel',host)].find(x=>x.querySelector('#stKey,#stChg,#stOut'));
-  host.insertBefore(p,key||null);
+  /* first card in Settings, so the account and the paid plan are easy to find */
+  const first=[...host.children].find(x=>x.classList&&x.classList.contains('panel'));
+  host.insertBefore(p,first||null);
   if(a){[ '#stChg','#stOut','#stKey'].forEach(s=>{const b=$(s,host);if(b)b.remove();});
     authPost('me').then(r=>{if(r.ok){acctSet(r.j.acct);if(document.body.contains(p))draw(acctGet());}else if(r.status===401){setKey('');acctSet(null);VIEWS.settings(el);}}).catch(()=>{});}
 }

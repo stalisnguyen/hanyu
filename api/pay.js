@@ -7,7 +7,7 @@ const { APP, kv, keyInfo, isOwner, isActive, betaUntil } = require('./_lib');
 const { PLANS, ready, cfg, newCode, qrUrl } = require('./_pay');
 
 const origin = req => 'https://' + String(req.headers['x-forwarded-host'] || req.headers.host || '').split(',')[0].trim();
-const pub = (a, bu) => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta, betaUntil: bu, trialEnd: a.trialEnd || 0,
+const pub = (a, bu) => ({ email: a.email, name: a.name || '', pic: a.pic || '', beta: !!a.beta || Date.now() < bu, betaUntil: bu, trialEnd: a.trialEnd || 0,
   paidUntil: a.paidUntil || 0, active: isActive(a, bu), owner: !!a.owner });
 
 module.exports = async (req, res) => {
