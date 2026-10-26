@@ -2,7 +2,7 @@
 //   POST {action:'info'}                    -> {ready, plans}
 //   POST {action:'create', plan} (account)  -> {code, amount, qr, bank, account, name}   plan: 'month' | 'year'
 //   POST {action:'check', code}  (account)  -> {paid, acct}
-//   POST {action:'sales'}        (owner)    -> {ready, revenue, month, year, hook}
+//   POST {action:'sales'}        (owner)    -> {ready, revenue, month, year, hook, keyLen, keyTrimmed}
 const { APP, kv, keyInfo, isOwner, isActive, betaUntil } = require('./_lib');
 const { PLANS, ready, cfg, newCode, qrUrl } = require('./_pay');
 
@@ -23,7 +23,10 @@ module.exports = async (req, res) => {
     if (body.action === 'sales') {
       if (!(await isOwner(req))) return res.status(403).json({ error: 'admin' });
       const [rev, m, y] = await Promise.all([db(['GET', APP + ':rev']), db(['GET', APP + ':sold:month']), db(['GET', APP + ':sold:year'])]);
-      return res.status(200).json({ ready: ready(), revenue: +rev || 0, month: +m || 0, year: +y || 0, hook: origin(req) + '/api/sepayhook' });
+      // keyLen: length of SEPAY_API_KEY only, never the key, so the owner can check it is set in every app
+      const key = String(process.env.SEPAY_API_KEY || '');
+      return res.status(200).json({ ready: ready(), revenue: +rev || 0, month: +m || 0, year: +y || 0, hook: origin(req) + '/api/sepayhook',
+        keyLen: key.length, keyTrimmed: key === key.trim() });
     }
     const k = await keyInfo(req);
     if (!k.sub) return res.status(401).json({ error: 'need_account' });
