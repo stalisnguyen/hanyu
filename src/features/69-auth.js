@@ -4,27 +4,30 @@
    While signed in, an invite code typed in the password box unlocks the account instead of only this device. */
 const AUTH_T={loc:"vi",
   title:"Tài khoản",
-  why:"Đăng nhập bằng Google để giữ quyền dùng trợ lý AI và đồng bộ trên mọi máy, không cần nhập lại mã. App chỉ nhận tên, email và ảnh đại diện của bạn.",
-  or:"hoặc nhập mã mời, mật khẩu nhóm",
-  needCode:"Tài khoản này chưa mở trợ lý AI và đồng bộ. Nhập mã mời (hoặc mật khẩu nhóm) để mở. Chỉ cần nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
+  why:"Đăng nhập bằng Google để lưu tiến độ, học tiếp trên máy khác và giữ quyền dùng trợ lý AI. App chỉ nhận tên, email và ảnh đại diện của bạn.",
+  or:"hoặc nhập mã mời",
+  needCode:"Đã đăng nhập, tiến độ của bạn được lưu theo tài khoản. Trợ lý AI cần mã mời: nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
   access:"Quyền dùng",
   owner:"Chủ app, dùng không giới hạn",
   betaEnded:"Đã hết thời gian beta miễn phí",
-  none:"Chưa mở trợ lý AI và đồng bộ",
+  none:"Chưa mở trợ lý AI",
   ended:"Hết hạn dùng thử",
   enterCode:"Nhập mã mời",
   out:"Đăng xuất khỏi máy này",
   outQ:"Đăng xuất khỏi máy này? Tiến độ học trên máy vẫn giữ nguyên.",
   outDone:"Đã đăng xuất.",
-  unlocked:"Đã mở trợ lý AI và đồng bộ cho tài khoản này.",
-  signedNeed:"Đã đăng nhập. Nhập mã mời để mở trợ lý AI và đồng bộ.",
+  unlocked:"Đã mở trợ lý AI cho tài khoản này.",
+  signedNeed:"Đã đăng nhập, tiến độ được lưu theo tài khoản. Nhập mã mời để mở trợ lý AI.",
   fail:"Đăng nhập chưa được. Thử lại sau ít phút nhé.",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
   nudgeTitle:"Đăng nhập để học liền mạch",
-  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  nudgeText:"Lưu tiến độ theo tài khoản để học tiếp trên mọi máy và mở trợ lý AI. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
   later:"Để sau",
+  inTitle:"Lưu tiến độ của bạn",
+  inText:"Đăng nhập Google để không mất bài đã học khi đổi máy và học tiếp trên điện thoại hay máy tính. Trợ lý AI cũng cần đăng nhập. Chưa muốn thì bấm Để sau, tiến độ vẫn lưu trên máy này.",
+  inSkip:"Để sau, học luôn",
   inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
   inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
   copyLink:"Chép link",
@@ -133,6 +136,13 @@ function authPanel(el,host){
   if(a){[ '#stChg','#stOut','#stKey'].forEach(s=>{const b=$(s,host);if(b)b.remove();});
     authPost('me').then(r=>{if(r.ok){acctSet(r.j.acct);if(document.body.contains(p))draw(acctGet());}else if(r.status===401){setKey('');acctSet(null);VIEWS.settings(el);}}).catch(()=>{});}
 }
+/* onboarding step right after the name: optional Google sign-in (next() continues the intro) */
+function introSignIn(box,next){
+  box.innerHTML=`<div class="cele-mc">${mascot('idea',96)}</div><h2>${AUTH_T.inTitle}</h2><p>${AUTH_T.inText}</p><div id="inG" class="in-g"></div><p class="small" id="inMsg"></p><button class="in-skip" type="button" id="inSkip">${AUTH_T.inSkip}</button>`;
+  $('#inSkip',box).onclick=next;
+  authButton($('#inG',box),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);const nn=$('#acNudge');if(nn)nn.remove();await initPlatform();next();},e=>{$('#inMsg',box).textContent=e;});
+}
+const introAuthWanted=()=>!!(WEB&&WEB.sync)&&!acctGet();
 /* owner only: how many accounts, and the free trial for new accounts (0 while the beta runs on invite codes) */
 async function authAdmin(host){
   if(!getKey()||$('#acAdm',host))return;

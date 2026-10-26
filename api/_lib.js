@@ -170,4 +170,14 @@ async function aiQuota(req) {
   } catch (e) { return { ok: true }; }
 }
 
-module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner, aiQuota, betaUntil, BETA_UNTIL_DEFAULT };
+// Sync and the study board: any signed-in account may use them, paid or not.
+// The group password and invite keys still need beta, trial or a paid plan, as before.
+async function denySync(req, res) {
+  const k = await keyInfo(req);
+  req._k = k;
+  if (k.state === 'ok' || (k.state === 'inactive' && k.sub)) return false;
+  if (k.state === 'inactive') res.status(402).json({ error: 'inactive' });
+  else res.status(401).json({ error: 'auth' });
+  return true;
+}
+module.exports = { APP, sha, isMaster, isAdmin, checkKey, kv, kvp, vnDay, track, userOf, keyInfo, deny, denySync, isActive, getAcct, putAcct, tooMany, takeInvite, normCode, GOOGLE_CLIENT_ID, isOwner, aiQuota, betaUntil, BETA_UNTIL_DEFAULT };

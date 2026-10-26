@@ -774,6 +774,50 @@ a.chip{text-decoration:none;color:inherit;display:inline-flex;align-items:center
 /* phrase decks: usage note on cards and word page */
 .ph-note{background:var(--sunk,rgba(0,0,0,.04));border-radius:10px;padding:8px 10px;line-height:1.5;text-align:left}
 
+:root{--rs1:#3b6fe0;--rs2:#16a34a;--rs3:#e08a00;--rsg:rgba(127,127,127,.18);--rsbg:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--rs1:#7aa2ff;--rs2:#4ade80;--rs3:#fbbf24;--rsbg:#1b1e26}}
+:root[data-theme="dark"]{--rs1:#7aa2ff;--rs2:#4ade80;--rs3:#fbbf24;--rsbg:#1b1e26}
+.rs-bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 10px}
+.rs-dates{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.rs-dates input{width:auto;padding:4px 6px}
+.rs-leg{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.rs-leg button{display:flex;align-items:center;gap:6px;font:inherit;font-size:13px;background:none;border:1px solid var(--rsg);border-radius:999px;padding:4px 10px;color:inherit;cursor:pointer}
+.rs-leg button[aria-pressed="false"]{opacity:.4}
+.rs-leg i,.rs-tip i{display:inline-block;width:10px;height:10px;border-radius:50%}
+.rs-chart{position:relative;width:100%;overflow:hidden}
+.rs-tip{position:absolute;pointer-events:none;background:var(--rsbg);border:1px solid var(--rsg);border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.5;box-shadow:0 4px 16px rgba(0,0,0,.18);white-space:nowrap}
+.rs-tip div{display:flex;align-items:center;gap:6px}
+.rs-bar [aria-pressed="true"]{outline:2px solid var(--rs1);outline-offset:-1px}
+
+.acct-row{display:flex;align-items:center;gap:10px;margin:6px 0}
+.acct-row img{width:38px;height:38px;border-radius:50%;flex:none}
+#gIn{display:flex;justify-content:center;min-height:44px;margin:6px 0}
+#gOr{text-align:center;margin:4px 0 8px}
+#acG iframe,#gIn iframe{color-scheme:light;clip-path:inset(2px 3px round 20px)}
+.ac-nudge{display:block!important}
+.ac-nudge-t p{margin:4px 0 0}
+.ac-nudge .ac-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:10px}
+.ac-nudge #acNG{min-height:40px;display:flex;align-items:center}
+.g-inapp{border:1px dashed var(--line,#ccc);border-radius:12px;padding:10px 12px;text-align:left}.g-inapp p{margin:0 0 6px}
+
+.in-g{display:flex;justify-content:center;min-height:44px;margin:6px 0}
+.in-g .g-inapp{text-align:left}
+.in-skip,.cele-in .in-skip{display:block;width:auto!important;min-width:0!important;background:none!important;border:0!important;box-shadow:none!important;color:inherit!important;margin:6px auto 0;background:none;border:0;color:inherit;font:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px;opacity:.9;padding:10px 14px;cursor:pointer}
+.in-skip:hover{opacity:1}
+
+.up-plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.up-plan{position:relative;display:flex;flex-direction:column;gap:6px}
+.up-plan.best{outline:2px solid var(--accent,#2f5bd3)}
+.up-plan .pill{position:absolute;top:12px;right:12px}
+.up-price{font-size:28px;font-weight:700;line-height:1.1}
+.up-plan .btn{margin-top:auto;align-self:flex-start}
+.pay-box .pay-qr{display:block;width:260px;max-width:100%;height:auto;margin:6px auto;background:#fff;border-radius:12px;padding:6px}
+.pay-box .kv b{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end;word-break:break-all}
+.pay-wait{display:flex;align-items:center;gap:8px}
+.pay-dot{width:10px;height:10px;border-radius:50%;background:var(--accent,#2f5bd3);animation:payPulse 1.2s ease-in-out infinite}
+@keyframes payPulse{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.pay-dot{animation:none}}
+
 </style>
 </head><body>
 <svg hidden xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="i-house" viewBox="0 0 24 24"><svg class="lucide lucide-house" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><svg class="lucide lucide-layers" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/> <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><svg class="lucide lucide-target" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <circle cx="12" cy="12" r="6"/> <circle cx="12" cy="12" r="2"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><svg class="lucide lucide-search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="11" cy="11" r="8"/> <path d="m21 21-4.3-4.3"/></symbol><symbol id="i-user-round" viewBox="0 0 24 24"><svg class="lucide lucide-user-round" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="8" r="5"/> <path d="M20 21a8 8 0 0 0-16 0"/></symbol><symbol id="i-headphones" viewBox="0 0 24 24"><svg class="lucide lucide-headphones" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></symbol><symbol id="i-mic" viewBox="0 0 24 24"><svg class="lucide lucide-mic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/> <path d="M19 10v2a7 7 0 0 1-14 0v-2"/> <line x1="12" x2="12" y1="19" y2="22"/></symbol><symbol id="i-book-open" viewBox="0 0 24 24"><svg class="lucide lucide-book-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14"/> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol><symbol id="i-pen-line" viewBox="0 0 24 24"><svg class="lucide lucide-pen-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 20h9"/> <path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol><symbol id="i-puzzle" viewBox="0 0 24 24"><svg class="lucide lucide-puzzle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"/></symbol><symbol id="i-clipboard-check" viewBox="0 0 24 24"><svg class="lucide lucide-clipboard-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/> <path d="m9 14 2 2 4-4"/></symbol><symbol id="i-book-a" viewBox="0 0 24 24"><svg class="lucide lucide-book-a" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/> <path d="m8 13 4-7 4 7"/> <path d="M9.1 11h5.7"/></symbol><symbol id="i-type" viewBox="0 0 24 24"><svg class="lucide lucide-type" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polyline points="4 7 4 4 20 4 20 7"/> <line x1="9" x2="15" y1="20" y2="20"/> <line x1="12" x2="12" y1="4" y2="20"/></symbol><symbol id="i-audio-waveform" viewBox="0 0 24 24"><svg class="lucide lucide-audio-waveform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2"/></symbol><symbol id="i-shapes" viewBox="0 0 24 24"><svg class="lucide lucide-shapes" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"/> <rect x="3" y="14" width="7" height="7" rx="1"/> <circle cx="17.5" cy="17.5" r="3.5"/></symbol><symbol id="i-landmark" viewBox="0 0 24 24"><svg class="lucide lucide-landmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="3" x2="21" y1="22" y2="22"/> <line x1="6" x2="6" y1="18" y2="11"/> <line x1="10" x2="10" y1="18" y2="11"/> <line x1="14" x2="14" y1="18" y2="11"/> <line x1="18" x2="18" y1="18" y2="11"/> <polygon points="12 2 20 7 4 7"/></symbol><symbol id="i-play" viewBox="0 0 24 24"><svg class="lucide lucide-play" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <polygon points="6 3 20 12 6 21 6 3"/></symbol><symbol id="i-square" viewBox="0 0 24 24"><svg class="lucide lucide-square" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="18" x="3" y="3" rx="2"/></symbol><symbol id="i-volume-2" viewBox="0 0 24 24"><svg class="lucide lucide-volume-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/> <path d="M16 9a5 5 0 0 1 0 6"/> <path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><svg class="lucide lucide-x" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M18 6 6 18"/> <path d="m6 6 12 12"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><svg class="lucide lucide-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M20 6 9 17l-5-5"/></symbol><symbol id="i-flame" viewBox="0 0 24 24"><svg class="lucide lucide-flame" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol><symbol id="i-zap" viewBox="0 0 24 24"><svg class="lucide lucide-zap" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><svg class="lucide lucide-award" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/> <circle cx="12" cy="8" r="6"/></symbol><symbol id="i-a-large-small" viewBox="0 0 24 24"><svg class="lucide lucide-a-large-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M21 14h-5"/> <path d="M16 16v-3.5a2.5 2.5 0 0 1 5 0V16"/> <path d="M4.5 13h6"/> <path d="m3 16 4.5-9 4.5 9"/></symbol><symbol id="i-notebook-pen" viewBox="0 0 24 24"><svg class="lucide lucide-notebook-pen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/> <path d="M2 6h4"/> <path d="M2 10h4"/> <path d="M2 14h4"/> <path d="M2 18h4"/> <path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></symbol><symbol id="i-gamepad-2" viewBox="0 0 24 24"><svg class="lucide lucide-gamepad-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <line x1="6" x2="10" y1="11" y2="11"/> <line x1="8" x2="8" y1="9" y2="13"/> <line x1="15" x2="15.01" y1="12" y2="12"/> <line x1="18" x2="18.01" y1="10" y2="10"/> <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol><symbol id="i-settings" viewBox="0 0 24 24"><svg class="lucide lucide-settings" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/> <circle cx="12" cy="12" r="3"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-right" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m9 18 6-6-6-6"/></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24"><svg class="lucide lucide-chevron-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15 18-6-6 6-6"/></symbol><symbol id="i-lightbulb" viewBox="0 0 24 24"><svg class="lucide lucide-lightbulb" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/> <path d="M9 18h6"/> <path d="M10 22h4"/></symbol><symbol id="i-snail" viewBox="0 0 24 24"><svg class="lucide lucide-snail" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M2 13a6 6 0 1 0 12 0 4 4 0 1 0-8 0 2 2 0 0 0 4 0"/> <circle cx="10" cy="13" r="8"/> <path d="M2 21h12c4.4 0 8-3.6 8-8V7a2 2 0 1 0-4 0v6"/> <path d="M18 3 19.1 5.2"/> <path d="M22 3 20.9 5.2"/></symbol><symbol id="i-rotate-ccw" viewBox="0 0 24 24"><svg class="lucide lucide-rotate-ccw" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/> <path d="M3 3v5h5"/></symbol><symbol id="i-cloud" viewBox="0 0 24 24"><svg class="lucide lucide-cloud" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><svg class="lucide lucide-sparkles" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/> <path d="M20 3v4"/> <path d="M22 5h-4"/> <path d="M4 17v2"/> <path d="M5 18H3"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24"><svg class="lucide lucide-trophy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/> <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/> <path d="M4 22h16"/> <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/> <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/> <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol><symbol id="i-calendar-check" viewBox="0 0 24 24"><svg class="lucide lucide-calendar-check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M8 2v4"/> <path d="M16 2v4"/> <rect width="18" height="18" x="3" y="4" rx="2"/> <path d="M3 10h18"/> <path d="m9 16 2 2 4-4"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><svg class="lucide lucide-clock" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10"/> <polyline points="12 6 12 12 16 14"/></symbol><symbol id="i-repeat" viewBox="0 0 24 24"><svg class="lucide lucide-repeat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m17 2 4 4-4 4"/> <path d="M3 11v-1a4 4 0 0 1 4-4h14"/> <path d="m7 22-4-4 4-4"/> <path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol><symbol id="i-languages" viewBox="0 0 24 24"><svg class="lucide lucide-languages" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m5 8 6 6"/> <path d="m4 14 6-6 2-3"/> <path d="M2 5h12"/> <path d="M7 2h1"/> <path d="m22 22-5-10-5 10"/> <path d="M14 18h6"/></symbol><symbol id="i-users" viewBox="0 0 24 24"><svg class="lucide lucide-users" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/> <circle cx="9" cy="7" r="4"/> <path d="M22 21v-2a4 4 0 0 0-3-3.87"/> <path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol></svg>
@@ -949,9 +993,9 @@ async function initPlatform(){
 function askPassword(wrong){
   return new Promise(res=>{
     const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
+      <p class="note">${wrong?'Mã chưa đúng. Kiểm tra lại nhé.':'Đăng nhập Google để lưu tiến độ, học tiếp trên máy khác và dùng trợ lý AI. Có mã mời thì nhập ở dưới.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
-      <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
+      <form id="pwF" class="row"><input type="text" id="pwI" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Mã mời" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false;
     const fin=v=>{if(done)return;done=true;res(v);};
     if(typeof authMount==='function')authMount(m,()=>{m.close();fin(true);});
@@ -3467,7 +3511,7 @@ VIEWS.settings=el=>{
    <div class="panel"><h3>Hiển thị và âm thanh</h3><div class="tg-list">${uiToggleHTML(true)}</div></div>
    <div class="panel"><h3>Đồng bộ và trợ lý AI</h3>
      <div class="kv"><span>Đồng bộ tiến độ</span><b>${syTxt}</b></div><div class="kv"><span>Trợ lý AI</span><b>${aiTxt}</b></div>
-     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời hoặc mật khẩu nhóm</button>':''}
+     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời</button>':''}
      ${WEB&&getKey()?'<div class="row" style="gap:8px"><button class="btn sm" id="stChg">Đổi mật khẩu hoặc mã trên máy này</button><button class="btn ghost sm" id="stOut">Xóa mật khẩu khỏi máy này</button></div>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Bản web dùng trợ lý AI nguồn mở qua Groq và đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel (APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN). Giọng đọc tự nhiên cho câu: AZURE_SPEECH_KEY và AZURE_SPEECH_REGION (tùy chọn).</p></details></div>
    <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Tiểu Long</button></div>
@@ -3549,16 +3593,16 @@ function uiIntro(force){
   if(!force&&store.get('hanyu-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, chỗ cả nhóm cùng học tiếng Trung. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, nơi học tiếng Trung mỗi ngày, từ chữ Hán đến nghe nói. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}, mình là Tiểu Long 小龙</h2><p>${WHO&&WHO.slug==='stalis'?'Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.':'Rất vui được học cùng bạn trên <b>Stalong 思龙</b>.'}</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
       <div class="hats">${[0,1,3,5,7].map(i=>mascotSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',100)}</div><h2>Mỗi ngày học bao lâu?</h2><div class="row" style="justify-content:center">${[15,30,45,60].map(n=>`<button class="chip big" data-mn="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
       <h2 style="margin-top:12px">Bạn đã học tiếng Trung chưa?</h2><div class="in-opts"><button class="btn" data-lv="new">Mới bắt đầu</button><button class="btn" data-lv="some">Đã học một ít (xếp lớp 10 phút)</button></div>`;},
   ];
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
-  const draw=()=>{box.innerHTML=steps[i]();
-    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+  const draw=()=>{if(i==='g'){introSignIn(box,()=>{i=1;draw();});return;}box.innerHTML=steps[i]();
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}
+      await setProfile(n,'');m.el.classList.remove('locked');i=typeof introAuthWanted==='function'&&introAuthWanted()?'g':1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('hanyu-intro',1);m.close();}};
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-lv]',box).forEach(b=>b.onclick=()=>{store.set('hanyu-intro',1);m.close();if(b.dataset.lv==='some')go('placement');else{const c=plCfg();c.target=Math.max(c.target,4);plApply();touch('main');go('study');}});};
@@ -3583,7 +3627,7 @@ drawCard=function(){
 {const _m=VIEWS.mistakes;VIEWS.mistakes=el=>{_m(el);const e=$('.empty',el);if(e)e.outerHTML=mcSay('ok','Chưa có lỗi nào. Câu nào bạn trả lời sai sẽ được lưu ở đây để ôn lại.',72);};}
 
 /* ================= PROFILES + STUDY GROUP (Bạn học) =================
-   Each learner: name + slug + personal PIN (web sync). Group password (APP_PASSWORD) is shared.
+   Each learner: name + slug + the account they sign in with (web sync). Older devices may still hold a group password + PIN.
    Board: api/board returns everyone's weekly XP, streak and rank. */
 function uiName(){return WHO&&WHO.name?WHO.name:'bạn';}
 function uiMonday(){const t=today();return ymd(t-((new Date(t).getDay()+6)%7)*DAY);}
@@ -3614,26 +3658,27 @@ async function setProfile(name,pin){
   if(first&&!saved){store.set(PKEY(),P);}           // fresh device: keep what was done before naming
   else{P=Object.assign(structuredClone(DEFAULT),saved||{});P.settings=Object.assign({},DEFAULT.settings,P.settings||{});}
   queue=[];dirty=new Set();applySettings();
-  if(WEB&&WEB.sync&&!getKey()){const ok=await askPassword(false);if(ok){await initPlatform();route();return true;}}
   if(SYNC==='web'&&getKey()){await pullRemote();renderSync();}
   route();return true;
 }
 function profileForm(fresh){
-  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Stalis" value="${fresh?'':esc(WHO?WHO.name:'')}"></label>
-    <label class="pf-l">Mã PIN riêng (4 đến 6 số)<input type="password" inputmode="numeric" id="pfP" maxlength="6" placeholder="Để giữ tiến độ của riêng bạn"></label>
-    <p class="pf-n">Dùng tên và PIN này trên máy khác là mở lại đúng tiến độ của bạn.</p></div>`;
+  return `<div class="pf"><label class="pf-l">Tên của bạn<input type="text" id="pfN" maxlength="30" placeholder="Ví dụ: Minh Anh" value="${fresh?'':esc(WHO?WHO.name:'')}"></label></div>`;
 }
 function switchProfile(){
-  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên và PIN của mình. Tiến độ của từng người lưu riêng.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
-  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim(),p=$('#pfP',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}m.close();await setProfile(n,p);toast('Chào '+n+'!');};
+  const a=typeof acctGet==='function'&&acctGet();
+  if(a){const m=modal(`<h2>Đổi người học</h2><p class="note">Máy này đang đăng nhập bằng <b>${esc(a.email||a.name||'')}</b>. Để người khác học trên máy này, đăng xuất rồi nhập tên người đó. Họ đăng nhập Google của họ để giữ tiến độ riêng.</p><div class="row"><button class="btn primary" id="pfOut">Đăng xuất và đổi người</button><button class="btn ghost" id="pfNo">Thôi</button></div>`);
+    $('#pfNo',m.el).onclick=()=>m.close();
+    $('#pfOut',m.el).onclick=async()=>{m.close();await authLogout();await initPlatform();switchProfile();};return;}
+  const m=modal(`<h2>Đổi người học</h2><p class="note">Máy dùng chung thì mỗi người nhập tên của mình, tiến độ của từng người lưu riêng trên máy này. Đăng nhập Google để học tiếp trên máy khác.</p>${profileForm(true)}<div class="row"><button class="btn primary" id="pfGo">Vào học</button></div>`);
+  $('#pfGo',m.el).onclick=async()=>{const n=$('#pfN',m.el).value.trim();if(!slugOf(n)){toast('Nhập tên trước nhé.');return;}m.close();await setProfile(n,'');toast('Chào '+n+'!');};
 }
 
 /* ---------- Bạn học view ---------- */
-let BOARD=null, BOARD_AT=0;
+let BOARD=null, BOARD_AT=0, BOARD_ME='';
 async function boardLoad(force){
   if(!WEB||!WEB.sync||!getKey())return null;
   if(!force&&BOARD&&Date.now()-BOARD_AT<60000)return BOARD;
-  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_AT=Date.now();}catch(e){return BOARD;}
+  try{const j=await api('api/board',{method:'GET'});BOARD=(j.list||[]);BOARD_ME=j.me||'';BOARD_AT=Date.now();}catch(e){return BOARD;}
   return BOARD;
 }
 function boardRows(list){
@@ -3644,7 +3689,7 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')&&!IN_ARTIFACT?location.origin:'https://hanyu-ecru.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> cho bạn bè.</li><li>Họ mở link, nhập tên và đăng nhập Google.</li><li>Học xong bài đầu tiên là tên họ hiện trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(IN_ARTIFACT||!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học chạy trên bản web. Mở Stalong trên web để học cùng nhau nhé.',64)}${invite}</div>`;bindInv();return;}
@@ -3652,7 +3697,7 @@ VIEWS.friends=async el=>{
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
-  const me=WHO?WHO.slug:'';
+  const me=BOARD_ME||(WHO?WHO.slug:'');
   el.innerHTML=`<div class="view">
     <div class="spread"><h2>Tuần này</h2><span class="note">Xếp theo XP từ thứ Hai</span></div>
     ${list.length?`<div class="board">${list.map((x,i)=>`<div class="bd-row ${x.slug===me?'me':''}"><span class="bd-pos num">${i+1}</span><span class="bd-mc">${mascotSVG(x.today?'hi':'zzz',48,x.rank||0)}</span>
@@ -3663,7 +3708,7 @@ VIEWS.friends=async el=>{
     ${invite}</div>`;
   bindInv();
   function bindInv(){
-    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Học tiếng Trung cùng mình trên Stalong 思龙 nhé: ${link}\nMở link, nhập tên và đặt mã PIN riêng. Mật khẩu nhóm mình gửi riêng.`;
+    const c=$('#frCopy');if(c)c.onclick=()=>{const t=`Học tiếng Trung cùng mình trên Stalong 思龙 nhé: ${link}\nMở link, nhập tên và đăng nhập Google là xong.`;
       (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast('Đã sao chép lời mời.')).catch(()=>toast(t,6000));};
     const s=$('#frSw');if(s)s.onclick=switchProfile;
   }
@@ -3672,7 +3717,7 @@ VIEWS.friends=async el=>{
 async function uiFriendsCard(){
   const side=$('.hm-side');if(!side)return;
   const list=await boardLoad(false);if(!list||list.length<2||current!=='home')return;
-  const rows=boardRows(list).slice(0,3),me=WHO?WHO.slug:'';
+  const rows=boardRows(list).slice(0,3),me=BOARD_ME||(WHO?WHO.slug:'');
   if(!side.isConnected||$('#hmFr'))return;
   side.insertAdjacentHTML('beforeend',`<button class="panel fr-mini" id="hmFr"><span class="label">Bạn học tuần này</span>${rows.map((x,i)=>`<span class="fr-r ${x.slug===me?'me':''}"><span class="num">${i+1}</span><span class="fr-mc">${mascotSVG('calm',30,x.rank||0)}</span><b>${esc(x.name)}</b><span class="num muted">${x.wxp} XP</span></span>`).join('')}</button>`);
   const fr=$('#hmFr',side);if(fr)fr.onclick=()=>go('friends');
@@ -3690,7 +3735,7 @@ function uiSyncBanner(){
    New people unlock AI and sync with a shared invite code (limited places, see api/ref.js) instead of the group password.
    The password box accepts either: an invite code is exchanged for a personal access key, anything else is kept as the password.
    Whoever holds the group password sees an admin panel in Settings to set the code and the number of places. */
-const REF_T={wrong:'Mã mời hoặc mật khẩu chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
+const REF_T={wrong:'Mã mời chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
   st:{title:'Số liệu beta',today:'Hoạt động hôm nay',week:'Hoạt động 7 ngày',fresh7:'Máy mới 7 ngày',learners:'Người có tiến độ đồng bộ',ai7:'Lượt AI 7 ngày',aiu:'Người dùng AI hôm nay',ret:'Quay lại sau',retNote:'Tính theo máy, không theo người: một người dùng hai máy được tính là hai. Số trong ngoặc là số máy quay lại trên số máy mới của các ngày đủ tuổi.',day:'Ngày',active:'Hoạt động',new:'Mới'},
   ok:(n,m)=>`Đã mở khóa. Bạn là người thứ ${n}/${m} dùng mã này.`,full:m=>`Mã này đã đủ ${m} người. Bạn nhắn người chia sẻ để xin mã mới nhé.`,slow:'Bạn thử nhiều lần quá. Đợi một lúc rồi nhập lại.',
   title:'Mã mời cho người mới',note:'Người mới nhập mã này thay cho mật khẩu nhóm. Mỗi người nhận một khóa riêng, mã tự khóa khi đủ số suất. Người đang dùng mật khẩu nhóm không bị ảnh hưởng. Đổi sang mã mới thì bắt đầu đếm lại từ 0.',
@@ -3809,27 +3854,30 @@ async function refAdmin(el){
    While signed in, an invite code typed in the password box unlocks the account instead of only this device. */
 const AUTH_T={loc:"vi",
   title:"Tài khoản",
-  why:"Đăng nhập bằng Google để giữ quyền dùng trợ lý AI và đồng bộ trên mọi máy, không cần nhập lại mã. App chỉ nhận tên, email và ảnh đại diện của bạn.",
-  or:"hoặc nhập mã mời, mật khẩu nhóm",
-  needCode:"Tài khoản này chưa mở trợ lý AI và đồng bộ. Nhập mã mời (hoặc mật khẩu nhóm) để mở. Chỉ cần nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
+  why:"Đăng nhập bằng Google để lưu tiến độ, học tiếp trên máy khác và giữ quyền dùng trợ lý AI. App chỉ nhận tên, email và ảnh đại diện của bạn.",
+  or:"hoặc nhập mã mời",
+  needCode:"Đã đăng nhập, tiến độ của bạn được lưu theo tài khoản. Trợ lý AI cần mã mời: nhập một lần, sau đó đăng nhập ở máy nào cũng dùng được.",
   access:"Quyền dùng",
   owner:"Chủ app, dùng không giới hạn",
   betaEnded:"Đã hết thời gian beta miễn phí",
-  none:"Chưa mở trợ lý AI và đồng bộ",
+  none:"Chưa mở trợ lý AI",
   ended:"Hết hạn dùng thử",
   enterCode:"Nhập mã mời",
   out:"Đăng xuất khỏi máy này",
   outQ:"Đăng xuất khỏi máy này? Tiến độ học trên máy vẫn giữ nguyên.",
   outDone:"Đã đăng xuất.",
-  unlocked:"Đã mở trợ lý AI và đồng bộ cho tài khoản này.",
-  signedNeed:"Đã đăng nhập. Nhập mã mời để mở trợ lý AI và đồng bộ.",
+  unlocked:"Đã mở trợ lý AI cho tài khoản này.",
+  signedNeed:"Đã đăng nhập, tiến độ được lưu theo tài khoản. Nhập mã mời để mở trợ lý AI.",
   fail:"Đăng nhập chưa được. Thử lại sau ít phút nhé.",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
   nudgeTitle:"Đăng nhập để học liền mạch",
-  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  nudgeText:"Lưu tiến độ theo tài khoản để học tiếp trên mọi máy và mở trợ lý AI. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
   later:"Để sau",
+  inTitle:"Lưu tiến độ của bạn",
+  inText:"Đăng nhập Google để không mất bài đã học khi đổi máy và học tiếp trên điện thoại hay máy tính. Trợ lý AI cũng cần đăng nhập. Chưa muốn thì bấm Để sau, tiến độ vẫn lưu trên máy này.",
+  inSkip:"Để sau, học luôn",
   inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
   inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
   copyLink:"Chép link",
@@ -3938,6 +3986,13 @@ function authPanel(el,host){
   if(a){[ '#stChg','#stOut','#stKey'].forEach(s=>{const b=$(s,host);if(b)b.remove();});
     authPost('me').then(r=>{if(r.ok){acctSet(r.j.acct);if(document.body.contains(p))draw(acctGet());}else if(r.status===401){setKey('');acctSet(null);VIEWS.settings(el);}}).catch(()=>{});}
 }
+/* onboarding step right after the name: optional Google sign-in (next() continues the intro) */
+function introSignIn(box,next){
+  box.innerHTML=`<div class="cele-mc">${mascot('idea',96)}</div><h2>${AUTH_T.inTitle}</h2><p>${AUTH_T.inText}</p><div id="inG" class="in-g"></div><p class="small" id="inMsg"></p><button class="in-skip" type="button" id="inSkip">${AUTH_T.inSkip}</button>`;
+  $('#inSkip',box).onclick=next;
+  authButton($('#inG',box),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);const nn=$('#acNudge');if(nn)nn.remove();await initPlatform();next();},e=>{$('#inMsg',box).textContent=e;});
+}
+const introAuthWanted=()=>!!(WEB&&WEB.sync)&&!acctGet();
 /* owner only: how many accounts, and the free trial for new accounts (0 while the beta runs on invite codes) */
 async function authAdmin(host){
   if(!getKey()||$('#acAdm',host))return;

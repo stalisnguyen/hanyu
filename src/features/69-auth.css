@@ -8,3 +8,8 @@
 .ac-nudge .ac-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:10px}
 .ac-nudge #acNG{min-height:40px;display:flex;align-items:center}
 .g-inapp{border:1px dashed var(--line,#ccc);border-radius:12px;padding:10px 12px;text-align:left}.g-inapp p{margin:0 0 6px}
+
+.in-g{display:flex;justify-content:center;min-height:44px;margin:6px 0}
+.in-g .g-inapp{text-align:left}
+.in-skip,.cele-in .in-skip{display:block;width:auto!important;min-width:0!important;background:none!important;border:0!important;box-shadow:none!important;color:inherit!important;margin:6px auto 0;background:none;border:0;color:inherit;font:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px;opacity:.9;padding:10px 14px;cursor:pointer}
+.in-skip:hover{opacity:1}

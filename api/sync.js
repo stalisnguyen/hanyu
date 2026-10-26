@@ -1,10 +1,10 @@
-// Per-learner progress in Upstash Redis, locked by APP_PASSWORD (shared by the study group)
-// plus a personal PIN per learner so friends cannot overwrite each other.
+// Per-learner progress in Upstash Redis. Signed-in accounts: one profile per account.
+// Older group password / invite keys: name plus a personal PIN so friends cannot overwrite each other.
 //   headers: x-app-key (group password), x-user (profile slug), x-user-pin (personal PIN)
 //   GET  -> {data}            PUT {data, summary} -> {ok}
 // The first profile ("stalis") keeps the original key so existing progress is kept.
 const crypto = require('crypto');
-const { deny, kv, userOf } = require('./_lib');
+const { denySync, kv, userOf, getAcct, putAcct } = require('./_lib');
 
 const LEGACY = 'hanyu:progress';
 const MAX_BYTES = 900000;
@@ -22,17 +22,45 @@ async function checkPin(db, slug, pin) {
   return true;
 }
 
+// Which saved profile this request reads and writes.
+// Group password or invite key: the name (x-user) plus a personal PIN, as before.
+// Signed-in account: one profile per account, no PIN. On its first sync a learner who already
+// synced with name + PIN brings that profile along (the device still sends both); everyone else
+// gets a new profile tied to the account. Returns the slug, or 400 / 403.
+async function profileSlug(db, req, u) {
+  const k = req._k || {};
+  if (!k.sub) {
+    if (!u) return 400;
+    return (await checkPin(db, u.slug, u.pin)) ? u.slug : 403;
+  }
+  const a = (await getAcct(db, k.sub)) || {};
+  if (a.slug) return a.slug;
+  let slug = null;
+  if (u && u.pin) {
+    const stored = await db(['GET', 'hanyu:pin:' + u.slug]);
+    if (stored) {
+      const x = Buffer.from(stored), y = Buffer.from(hash(u.pin));
+      if (x.length === y.length && crypto.timingSafeEqual(x, y)) slug = u.slug;
+    }
+  }
+  if (!slug) slug = 'g-' + crypto.createHash('sha256').update('hanyu:acct:' + k.sub).digest('hex').slice(0, 16);
+  a.slug = slug;
+  await putAcct(db, k.sub, a);
+  return slug;
+}
+
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   const db = kv();
   if (!db) return res.status(503).json({ error: 'no_store' });
   if (!process.env.APP_PASSWORD) return res.status(503).json({ error: 'no_password' });
-  if (await deny(req, res)) return;
+  if (await denySync(req, res)) return;
   const u = userOf(req);
-  if (!u) return res.status(400).json({ error: 'need_user' });
   try {
-    if (!(await checkPin(db, u.slug, u.pin))) return res.status(403).json({ error: 'pin' });
-    const KEY = keyOf(u.slug);
+    const slug = await profileSlug(db, req, u);
+    if (slug === 400) return res.status(400).json({ error: 'need_user' });
+    if (slug === 403) return res.status(403).json({ error: 'pin' });
+    const KEY = keyOf(slug);
     if (req.method === 'GET') {
       const raw = await db(['GET', KEY]);
       return res.status(200).json({ data: raw ? JSON.parse(raw) : null });
@@ -51,13 +79,13 @@ module.exports = async (req, res) => {
       const s = req.body.summary;
       if (s && typeof s === 'object') {
         const clean = {
-          name: String(s.name || u.slug).slice(0, 30),
+          name: String(s.name || slug).slice(0, 30),
           wxp: Math.max(0, Math.min(1e6, +s.wxp || 0)), xp: Math.max(0, Math.min(1e7, +s.xp || 0)),
           streak: Math.max(0, Math.min(5000, +s.streak || 0)), rank: Math.max(0, Math.min(7, +s.rank || 0)),
           known: Math.max(0, Math.min(20000, +s.known || 0)), today: Math.max(0, Math.min(1e5, +s.today || 0)),
           week: String(s.week || '').slice(0, 10), upd: Date.now(),
         };
-        await db(['HSET', 'hanyu:board', u.slug, JSON.stringify(clean)]);
+        await db(['HSET', 'hanyu:board', slug, JSON.stringify(clean)]);
       }
       return res.status(200).json({ ok: true });
     }

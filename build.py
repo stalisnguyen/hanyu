@@ -1,6 +1,7 @@
 """Build the two outputs from src/:
 - app.html   : body-only page for the claude.ai artifact (the artifact wraps it in a document skeleton)
 - index.html : full HTML document for static hosting (Vercel)
+src/features/*.css are appended to src/app.css.
 Run: python3 build.py
 """
 from pathlib import Path
@@ -8,6 +9,7 @@ from pathlib import Path
 root = Path(__file__).parent
 shell = (root / "src/shell.html").read_text(encoding="utf-8")
 css = (root / "src/app.css").read_text(encoding="utf-8")
+css += "".join("\n" + f.read_text(encoding="utf-8") for f in sorted((root / "src/features").glob("*.css")))
 js = (root / "src/app.js").read_text(encoding="utf-8")
 # feature modules are inserted inside the app closure, right before boot
 feats = "".join((f.read_text(encoding="utf-8") + "\n") for f in sorted((root / "src/features").glob("*.js")))

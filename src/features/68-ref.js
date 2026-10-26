@@ -2,7 +2,7 @@
    New people unlock AI and sync with a shared invite code (limited places, see api/ref.js) instead of the group password.
    The password box accepts either: an invite code is exchanged for a personal access key, anything else is kept as the password.
    Whoever holds the group password sees an admin panel in Settings to set the code and the number of places. */
-const REF_T={wrong:'Mã mời hoặc mật khẩu chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
+const REF_T={wrong:'Mã mời chưa đúng. Nếu bạn nhận mã từ bài viết, có thể mã chưa mở hoặc đã đổi. Nhắn người chia sẻ để xin mã mới nhé.',
   st:{title:'Số liệu beta',today:'Hoạt động hôm nay',week:'Hoạt động 7 ngày',fresh7:'Máy mới 7 ngày',learners:'Người có tiến độ đồng bộ',ai7:'Lượt AI 7 ngày',aiu:'Người dùng AI hôm nay',ret:'Quay lại sau',retNote:'Tính theo máy, không theo người: một người dùng hai máy được tính là hai. Số trong ngoặc là số máy quay lại trên số máy mới của các ngày đủ tuổi.',day:'Ngày',active:'Hoạt động',new:'Mới'},
   ok:(n,m)=>`Đã mở khóa. Bạn là người thứ ${n}/${m} dùng mã này.`,full:m=>`Mã này đã đủ ${m} người. Bạn nhắn người chia sẻ để xin mã mới nhé.`,slow:'Bạn thử nhiều lần quá. Đợi một lúc rồi nhập lại.',
   title:'Mã mời cho người mới',note:'Người mới nhập mã này thay cho mật khẩu nhóm. Mỗi người nhận một khóa riêng, mã tự khóa khi đủ số suất. Người đang dùng mật khẩu nhóm không bị ảnh hưởng. Đổi sang mã mới thì bắt đầu đếm lại từ 0.',

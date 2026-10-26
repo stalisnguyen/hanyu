@@ -176,7 +176,7 @@ VIEWS.settings=el=>{
    <div class="panel"><h3>Hiển thị và âm thanh</h3><div class="tg-list">${uiToggleHTML(true)}</div></div>
    <div class="panel"><h3>Đồng bộ và trợ lý AI</h3>
      <div class="kv"><span>Đồng bộ tiến độ</span><b>${syTxt}</b></div><div class="kv"><span>Trợ lý AI</span><b>${aiTxt}</b></div>
-     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời hoặc mật khẩu nhóm</button>':''}
+     ${WEB&&(!getKey()||syncState==='off')?'<button class="btn primary sm" id="stKey" style="align-self:flex-start">Nhập mã mời</button>':''}
      ${WEB&&getKey()?'<div class="row" style="gap:8px"><button class="btn sm" id="stChg">Đổi mật khẩu hoặc mã trên máy này</button><button class="btn ghost sm" id="stOut">Xóa mật khẩu khỏi máy này</button></div>':''}
      <details class="adv"><summary>Nâng cao</summary><p class="note">Bản web dùng trợ lý AI nguồn mở qua Groq và đồng bộ qua Upstash Redis, cấu hình bằng biến môi trường trên Vercel (APP_PASSWORD, GROQ_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN). Giọng đọc tự nhiên cho câu: AZURE_SPEECH_KEY và AZURE_SPEECH_REGION (tùy chọn).</p></details></div>
    <div class="panel"><h3>Khác</h3><div class="row"><button class="btn sm" id="stRep">Báo lỗi đã ghi</button><button class="btn sm" id="stHi">Gặp lại Tiểu Long</button></div>
@@ -258,16 +258,16 @@ function uiIntro(force){
   if(!force&&store.get('hanyu-intro',0)&&WHO)return;
   const fresh=Object.keys(P.srs).length<5, noName=!WHO;
   const steps=[
-    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, chỗ cả nhóm cùng học tiếng Trung. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
+    ()=>`<div class="cele-mc">${mascot('hi',120)}</div><h2>Chào bạn, mình là Tiểu Long 小龙</h2><p>Đây là <b>Stalong 思龙</b>, nơi học tiếng Trung mỗi ngày, từ chữ Hán đến nghe nói. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.</p>${profileForm(true)}<button class="btn cele-btn" id="inName">Tiếp</button>`,
     ()=>`<div class="cele-mc">${mascot('hi',130)}</div><h2>Chào ${esc(uiName())}, mình là Tiểu Long 小龙</h2><p>${WHO&&WHO.slug==='stalis'?'Đây là <b>Stalong 思龙</b>, sổ học tiếng Trung của riêng bạn. 思 là nhớ, 龙 là rồng: một chú rồng nhớ chữ giỏi.':'Rất vui được học cùng bạn trên <b>Stalong 思龙</b>.'}</p><p class="small" style="opacity:.9">Mình lớn lên theo danh hiệu của bạn, từ Đồng sinh đến Trạng nguyên. Mỗi lần lên hạng, mình được đội mũ mới.</p>
       <div class="hats">${[0,1,3,5,7].map(i=>mascotSVG('calm',52,i)).join('')}</div><button class="btn cele-btn" id="inNext">${fresh?'Tiếp':'Học thôi'}</button>`,
     ()=>{const c=plCfg();return `<div class="cele-mc">${mascot('idea',100)}</div><h2>Mỗi ngày học bao lâu?</h2><div class="row" style="justify-content:center">${[15,30,45,60].map(n=>`<button class="chip big" data-mn="${n}" aria-pressed="${c.minutes===n}">${n} phút</button>`).join('')}</div>
       <h2 style="margin-top:12px">Bạn đã học tiếng Trung chưa?</h2><div class="in-opts"><button class="btn" data-lv="new">Mới bắt đầu</button><button class="btn" data-lv="some">Đã học một ít (xếp lớp 10 phút)</button></div>`;},
   ];
   let i=noName?0:1; const m=uiCele('','intro'+(noName?' locked':''));const box=$('.cele-in',m.el);
-  const draw=()=>{box.innerHTML=steps[i]();
-    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim(),p=$('#pfP',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}if(p&&p.length<4){toast('PIN cần 4 đến 6 số.');return;}
-      await setProfile(n,p);m.el.classList.remove('locked');i=1;draw();};
+  const draw=()=>{if(i==='g'){introSignIn(box,()=>{i=1;draw();});return;}box.innerHTML=steps[i]();
+    const nm=$('#inName',box);if(nm)nm.onclick=async()=>{const n=$('#pfN',box).value.trim();if(!slugOf(n)){toast('Nhập tên của bạn trước nhé.');return;}
+      await setProfile(n,'');m.el.classList.remove('locked');i=typeof introAuthWanted==='function'&&introAuthWanted()?'g':1;draw();};
     const n=$('#inNext',box);if(n)n.onclick=()=>{if(fresh&&i===1){i=2;draw();}else{store.set('hanyu-intro',1);m.close();}};
     $$('[data-mn]',box).forEach(b=>b.onclick=()=>{plCfg().minutes=+b.dataset.mn;plApply();touch('main');$$('[data-mn]',box).forEach(x=>x.setAttribute('aria-pressed',x===b));});
     $$('[data-lv]',box).forEach(b=>b.onclick=()=>{store.set('hanyu-intro',1);m.close();if(b.dataset.lv==='some')go('placement');else{const c=plCfg();c.target=Math.max(c.target,4);plApply();touch('main');go('study');}});};
