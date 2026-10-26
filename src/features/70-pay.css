@@ -4,3 +4,9 @@
 .up-plan .pill{position:absolute;top:12px;right:12px}
 .up-price{font-size:28px;font-weight:700;line-height:1.1}
 .up-plan .btn{margin-top:auto;align-self:flex-start}
+.pay-box .pay-qr{display:block;width:260px;max-width:100%;height:auto;margin:6px auto;background:#fff;border-radius:12px;padding:6px}
+.pay-box .kv b{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end;word-break:break-all}
+.pay-wait{display:flex;align-items:center;gap:8px}
+.pay-dot{width:10px;height:10px;border-radius:50%;background:var(--accent,#2f5bd3);animation:payPulse 1.2s ease-in-out infinite}
+@keyframes payPulse{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.pay-dot{animation:none}}
