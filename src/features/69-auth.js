@@ -22,6 +22,13 @@ const AUTH_T={loc:"vi",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
+  nudgeTitle:"Đăng nhập để học liền mạch",
+  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  later:"Để sau",
+  inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
+  inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
+  copyLink:"Chép link",
+  linkCopied:"Đã chép link. Dán vào Safari hoặc Chrome nhé.",
   adm:"Tài khoản Google",
   admTrial:"Số ngày dùng thử cho tài khoản mới (0 = tắt, để 0 trong giai đoạn beta)",
   admLimit:"Lượt AI mỗi người mỗi ngày",
@@ -49,7 +56,13 @@ async function authPost(action,extra){
   return {ok:r.ok,status:r.status,j:await r.json().catch(()=>({}))};
 }
 /* Google button in box; onAcct(acct) once the server has accepted the sign-in */
+/* Facebook, Messenger, Instagram, Zalo, Line... open links in their own browser, where Google refuses to sign in */
+const authInApp=()=>/FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Zalo|Line\/|MicroMessenger|TikTok|musical_ly|BytedanceWebview/i.test(navigator.userAgent||'');
+function authInAppHTML(){return `<div class="g-inapp"><p class="small"><b>${AUTH_T.inAppTitle}</b></p><p class="small">${AUTH_T.inAppSteps}</p>
+  <button class="btn sm" type="button" data-cplink>${AUTH_T.copyLink}</button></div>`;}
 async function authButton(box,onAcct,onErr){
+  if(authInApp()){box.innerHTML=authInAppHTML();const b=$('[data-cplink]',box);if(b)b.onclick=()=>{const u=location.origin+location.pathname;
+    try{navigator.clipboard.writeText(u);toast(AUTH_T.linkCopied);}catch(e){prompt('',u);}};return;}
   try{await loadGIS();}catch(e){box.innerHTML=`<p class="small">${AUTH_T.noGis}</p>`;return;}
   /* phones and home-screen apps: full-page redirect, because the popup window cannot report back there */
   const redirect=navigator.standalone===true||matchMedia('(display-mode: standalone)').matches||matchMedia('(pointer: coarse)').matches;
@@ -149,5 +162,19 @@ async function authAdmin(host){
       if(!r.ok||!r.j.token){toast(r.status===429?AUTH_T.slow:AUTH_T.fail,5000);return;}
       setKey(r.j.token);acctSet(r.j.acct);toast(r.j.acct.active?AUTH_T.hi(r.j.acct.name||r.j.acct.email):AUTH_T.signedNeed,4500);
       await initPlatform();go('settings');},300);}}
+/* Home: a gentle invitation to sign in (not required for the free parts). "Later" hides it for 7 days. */
+function authNudge(el){
+  if(!WEB||acctGet()||!document.body.contains(el))return;
+  const host=$('.view',el)||el;if($('#acNudge',host))return;
+  let until=0;try{until=+localStorage.getItem('hanyu-nudge')||0;}catch(e){}
+  if(Date.now()<until)return;
+  const p=document.createElement('div');p.className='panel ac-nudge';p.id='acNudge';
+  p.innerHTML=`<div class="ac-nudge-t"><b>${AUTH_T.nudgeTitle}</b><p class="small">${AUTH_T.nudgeText}</p></div><div class="ac-row"><div id="acNG"></div><button class="btn ghost sm" type="button" id="acNL">${AUTH_T.later}</button></div>`;
+  host.insertBefore(p,host.firstChild);
+  $('#acNL',p).onclick=()=>{try{localStorage.setItem('hanyu-nudge',String(Date.now()+7*864e5));}catch(e){}p.remove();};
+  authButton($('#acNG',p),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);p.remove();await initPlatform();if(current==='home')route();},e=>toast(e,4000));
+}
+{const _home=VIEWS.home;VIEWS.home=function(el){const r=_home.apply(this,arguments);
+  Promise.resolve(r).then(async()=>{for(let i=0;i<40&&WEB===null;i++)await new Promise(z=>setTimeout(z,150));authNudge(el);});return r;};}
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);
   Promise.resolve(r).then(()=>{const host=$('.view',el)||el;authPanel(el,host);authAdmin(host);});return r;};}

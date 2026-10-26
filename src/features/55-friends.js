@@ -60,11 +60,11 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')&&!IN_ARTIFACT?location.origin:'https://hanyu-ecru.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(IN_ARTIFACT||!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học chạy trên bản web. Mở Stalong trên web để học cùng nhau nhé.',64)}${invite}</div>`;bindInv();return;}
-  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Nhập mật khẩu nhóm để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>${invite}</div>`;
+  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Đăng nhập Google (hoặc nhập mã mời) để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Đăng nhập hoặc nhập mã</button>${invite}</div>`;
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
@@ -98,6 +98,6 @@ async function uiFriendsCard(){
 function uiSyncBanner(){
   if(!WEB||!WEB.sync||getKey()||current!=='home'||$('#syBan'))return;
   const v=$('#view .view');if(!v)return;
-  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Nhập mật khẩu nhóm để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Nhập mật khẩu nhóm</button></div></div>`);
+  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Đăng nhập Google (hoặc nhập mã mời) để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Đăng nhập hoặc nhập mã</button></div></div>`);
   $('#syGo').onclick=async()=>{if(await askPassword(false)){await initPlatform();route();toast(syncState==='on'?'Đã đồng bộ.':'Chưa đồng bộ được, thử lại sau.');}};
 }

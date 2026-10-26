@@ -3,3 +3,8 @@
 #gIn{display:flex;justify-content:center;min-height:44px;margin:6px 0}
 #gOr{text-align:center;margin:4px 0 8px}
 #acG iframe,#gIn iframe{color-scheme:light;clip-path:inset(2px 3px round 20px)}
+.ac-nudge{display:block!important}
+.ac-nudge-t p{margin:4px 0 0}
+.ac-nudge .ac-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:10px}
+.ac-nudge #acNG{min-height:40px;display:flex;align-items:center}
+.g-inapp{border:1px dashed var(--line,#ccc);border-radius:12px;padding:10px 12px;text-align:left}.g-inapp p{margin:0 0 6px}

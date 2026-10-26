@@ -149,8 +149,8 @@ async function initPlatform(){
 /* ---- password modal (web mode) ---- */
 function askPassword(wrong){
   return new Promise(res=>{
-    const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
+    const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false;
@@ -1002,7 +1002,7 @@ function setupMic(){
   const b=$('#cMic'),hint=$('#micHint'),live=$('#live');if(!b)return;
   const noVoice=msg=>{b.disabled=true;hint.innerHTML=msg;chat.mode='text';$('#textbar').hidden=false;$('#cKb').setAttribute('aria-pressed','true');};
   if(IN_ARTIFACT){noVoice('Trong khung chat của Claude không dùng được micro. Mở <a href="https://hanyu-ecru.vercel.app/#speak" target="_blank" rel="noopener">bản web</a> để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
-  if(!canListen()){noVoice('Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng (Tôi -> Cài đặt) và cho phép micro, hoặc gõ phím bên dưới.');return;}
+  if(!canListen()){noVoice('Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro, hoặc gõ phím bên dưới.');return;}
   let rec=null,sent=false;
   const idle='Bấm micro rồi nói tiếng Trung. Nói xong app tự gửi.';
   b.onclick=()=>{
@@ -1219,7 +1219,7 @@ function drawShadow(){
   b.innerHTML=`<div class="han" style="font-size:26px;line-height:1.8">${P.settings.py?rubyHTML(c.zh):colorText(c.zh)}</div><div class="muted">${esc(c.vi)}</div>
     <div class="row"><button class="btn" id="shPlay"><svg class="i"><use href="#i-play"/></svg> Nghe mẫu</button><button class="btn" id="shSlow">Nghe chậm</button>
     ${SR?'<button class="btn primary" id="shRec"><svg class="i"><use href="#i-mic"/></svg> Nói</button>':''}${canRec?'<button class="btn" id="shSelf">⏺ Thu giọng mình</button>':''}<button class="btn ghost" id="shNext">Câu khác</button></div>
-    <div id="shRes"></div>${!SR?'<p class="note">Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng (Tôi -> Cài đặt) và cho phép micro để được chấm tự động.</p>':''}`;
+    <div id="shRes"></div>${!SR?'<p class="note">Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro để được chấm tự động.</p>':''}`;
   $('#shPlay').onclick=()=>say(c.zh);$('#shSlow').onclick=()=>say(c.zh,{rate:0.55});
   $('#shNext').onclick=()=>{SP.cur=null;drawShadow();};
   if(SR)$('#shRec').onclick=()=>{
@@ -1232,7 +1232,7 @@ function drawShadow(){
       const r=compareZh(c.zh,heard);
       $('#shRes').innerHTML=`<div class="q ${r.pct>=80?'r-ok':'r-bad'}"><div class="han" style="font-size:24px">${markHTML(r)}</div><div class="small muted">Máy nghe được: <span class="han">${esc(heard)}</span></div><b>${r.pct}% rõ</b> ${r.pct>=90?'Rất tốt.':r.pct>=70?'Khá. Luyện thêm các chữ màu đỏ.':'Nghe mẫu chậm rồi đọc lại từng cụm.'}</div>`;
       window.__award&&window.__award('speak',1);}});
-    if(!SP.rec){$('#shRes').innerHTML='<p class="note">Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng và cho phép micro.</p>';return;}
+    if(!SP.rec){$('#shRes').innerHTML='<p class="note">Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro.</p>';return;}
     btn.innerHTML=SP.rec.whisper?'<svg class="i"><use href="#i-square"/></svg> Đang ghi, bấm để dừng':'<svg class="i"><use href="#i-square"/></svg> Đang nghe...';
   };
   if(canRec)$('#shSelf').onclick=async()=>{

@@ -948,8 +948,8 @@ async function initPlatform(){
 /* ---- password modal (web mode) ---- */
 function askPassword(wrong){
   return new Promise(res=>{
-    const m=modal(`<h2>Mã mời hoặc mật khẩu nhóm</h2>
-      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Nhập mã mời hoặc mật khẩu nhóm để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
+    const m=modal(`<h2>Đăng nhập để mở AI và đồng bộ</h2>
+      <p class="note">${wrong?'Mật khẩu chưa đúng. Nhập lại.':'Đăng nhập Google rồi nhập mã mời (hoặc mật khẩu nhóm) để mở trợ lý AI và đồng bộ tiến độ giữa các máy. Chỉ cần nhập một lần trên mỗi máy.'}</p>
       <div id="gIn"></div><p class="small muted" id="gOr"></p>
       <form id="pwF" class="row"><input type="password" id="pwI" autocomplete="current-password" placeholder="Mã mời hoặc mật khẩu" style="flex:1 1 200px"><button class="btn primary" type="submit">Mở khóa</button></form><p class="small" id="pwMsg" style="color:var(--bad,#c33)"></p>`);
     let done=false;
@@ -1801,7 +1801,7 @@ function setupMic(){
   const b=$('#cMic'),hint=$('#micHint'),live=$('#live');if(!b)return;
   const noVoice=msg=>{b.disabled=true;hint.innerHTML=msg;chat.mode='text';$('#textbar').hidden=false;$('#cKb').setAttribute('aria-pressed','true');};
   if(IN_ARTIFACT){noVoice('Trong khung chat của Claude không dùng được micro. Mở <a href="https://hanyu-ecru.vercel.app/#speak" target="_blank" rel="noopener">bản web</a> để nói bằng giọng. Tạm thời gõ phím bên dưới.');return;}
-  if(!canListen()){noVoice('Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng (Tôi -> Cài đặt) và cho phép micro, hoặc gõ phím bên dưới.');return;}
+  if(!canListen()){noVoice('Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro, hoặc gõ phím bên dưới.');return;}
   let rec=null,sent=false;
   const idle='Bấm micro rồi nói tiếng Trung. Nói xong app tự gửi.';
   b.onclick=()=>{
@@ -2018,7 +2018,7 @@ function drawShadow(){
   b.innerHTML=`<div class="han" style="font-size:26px;line-height:1.8">${P.settings.py?rubyHTML(c.zh):colorText(c.zh)}</div><div class="muted">${esc(c.vi)}</div>
     <div class="row"><button class="btn" id="shPlay"><svg class="i"><use href="#i-play"/></svg> Nghe mẫu</button><button class="btn" id="shSlow">Nghe chậm</button>
     ${SR?'<button class="btn primary" id="shRec"><svg class="i"><use href="#i-mic"/></svg> Nói</button>':''}${canRec?'<button class="btn" id="shSelf">⏺ Thu giọng mình</button>':''}<button class="btn ghost" id="shNext">Câu khác</button></div>
-    <div id="shRes"></div>${!SR?'<p class="note">Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng (Tôi -> Cài đặt) và cho phép micro để được chấm tự động.</p>':''}`;
+    <div id="shRes"></div>${!SR?'<p class="note">Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro để được chấm tự động.</p>':''}`;
   $('#shPlay').onclick=()=>say(c.zh);$('#shSlow').onclick=()=>say(c.zh,{rate:0.55});
   $('#shNext').onclick=()=>{SP.cur=null;drawShadow();};
   if(SR)$('#shRec').onclick=()=>{
@@ -2031,7 +2031,7 @@ function drawShadow(){
       const r=compareZh(c.zh,heard);
       $('#shRes').innerHTML=`<div class="q ${r.pct>=80?'r-ok':'r-bad'}"><div class="han" style="font-size:24px">${markHTML(r)}</div><div class="small muted">Máy nghe được: <span class="han">${esc(heard)}</span></div><b>${r.pct}% rõ</b> ${r.pct>=90?'Rất tốt.':r.pct>=70?'Khá. Luyện thêm các chữ màu đỏ.':'Nghe mẫu chậm rồi đọc lại từng cụm.'}</div>`;
       window.__award&&window.__award('speak',1);}});
-    if(!SP.rec){$('#shRes').innerHTML='<p class="note">Máy này chưa ghi âm được. Nhập mật khẩu ứng dụng và cho phép micro.</p>';return;}
+    if(!SP.rec){$('#shRes').innerHTML='<p class="note">Máy này chưa ghi âm được. Đăng nhập ở Tôi -> Cài đặt và cho phép micro.</p>';return;}
     btn.innerHTML=SP.rec.whisper?'<svg class="i"><use href="#i-square"/></svg> Đang ghi, bấm để dừng':'<svg class="i"><use href="#i-square"/></svg> Đang nghe...';
   };
   if(canRec)$('#shSelf').onclick=async()=>{
@@ -3455,8 +3455,8 @@ function uiAaSheet(){
 }
 VIEWS.settings=el=>{
   const c=plCfg();
-  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần nhập mật khẩu':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
-  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần mật khẩu)':'Chỉ lưu trên máy này';
+  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần đăng nhập':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
+  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần đăng nhập)':'Chỉ lưu trên máy này';
   el.innerHTML=`<div class="view set">
    <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0">Mục tiêu <b>HSK ${lvN(c.target)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
@@ -3644,11 +3644,11 @@ function boardRows(list){
 VIEWS.friends=async el=>{
   const link=location.origin&&location.protocol.startsWith('http')&&!IN_ARTIFACT?location.origin:'https://hanyu-ecru.vercel.app';
   const invite=`<div class="panel"><h3>Mời người thân cùng học</h3>
-    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mật khẩu nhóm (mật khẩu bạn đang dùng để mở trợ lý AI).</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
+    <ol class="inv"><li>Gửi link <b>${esc(link.replace(/^https?:\/\//,''))}</b> và mã mời (hoặc mật khẩu nhóm). Họ đăng nhập Google rồi nhập mã một lần.</li><li>Họ mở link, Tiểu Long hỏi tên, họ đặt một mã PIN riêng.</li><li>Nhập mật khẩu nhóm một lần là có đồng bộ, trợ lý AI và có mặt trên bảng này.</li></ol>
     <div class="row"><button class="btn sm" id="frCopy">${ic('repeat')} Sao chép lời mời</button><button class="btn ghost sm" id="frSw">Đổi người học trên máy này</button></div></div>`;
   if(IN_ARTIFACT||!WEB||!WEB.sync){
     el.innerHTML=`<div class="view">${mcSay('idea','Bảng bạn học chạy trên bản web. Mở Stalong trên web để học cùng nhau nhé.',64)}${invite}</div>`;bindInv();return;}
-  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Nhập mật khẩu nhóm để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Nhập mật khẩu nhóm</button>${invite}</div>`;
+  if(!getKey()){el.innerHTML=`<div class="view">${mcSay('hi','Đăng nhập Google (hoặc nhập mã mời) để xem cả nhóm đang học thế nào.',64)}<button class="btn primary" id="frKey" style="align-self:flex-start">Đăng nhập hoặc nhập mã</button>${invite}</div>`;
     $('#frKey').onclick=async()=>{if(await askPassword(false)){await initPlatform();VIEWS.friends(el);}};bindInv();return;}
   el.innerHTML='<div class="view"><p class="note">Đang tải bảng...</p></div>';
   const list=boardRows((await boardLoad(true))||[]);
@@ -3682,7 +3682,7 @@ async function uiFriendsCard(){
 function uiSyncBanner(){
   if(!WEB||!WEB.sync||getKey()||current!=='home'||$('#syBan'))return;
   const v=$('#view .view');if(!v)return;
-  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Nhập mật khẩu nhóm để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Nhập mật khẩu nhóm</button></div></div>`);
+  v.insertAdjacentHTML('afterbegin',`<div class="vbanner" id="syBan">${mcSay('idea','Máy này chưa đồng bộ, tiến độ chỉ lưu tại đây. Đăng nhập Google (hoặc nhập mã mời) để mở tiến độ của bạn từ máy khác.',48)}<div class="row"><button class="btn primary sm" id="syGo">Đăng nhập hoặc nhập mã</button></div></div>`);
   $('#syGo').onclick=async()=>{if(await askPassword(false)){await initPlatform();route();toast(syncState==='on'?'Đã đồng bộ.':'Chưa đồng bộ được, thử lại sau.');}};
 }
 
@@ -3827,6 +3827,13 @@ const AUTH_T={loc:"vi",
   slow:"Bạn thử nhiều lần quá. Đợi một lúc rồi thử lại.",
   again:"Phiên đăng nhập đã hết. Đóng hộp này rồi đăng nhập lại nhé.",
   noGis:"Không tải được nút đăng nhập Google. Kiểm tra mạng hoặc trình chặn quảng cáo rồi tải lại trang.",
+  nudgeTitle:"Đăng nhập để học liền mạch",
+  nudgeText:"Lưu quyền dùng trợ lý AI và đồng bộ tiến độ trên mọi máy. Phần học miễn phí vẫn dùng được khi chưa đăng nhập.",
+  later:"Để sau",
+  inAppTitle:"Đăng nhập Google không chạy trong trình duyệt của Facebook, Messenger hay Zalo.",
+  inAppSteps:"Bấm dấu ba chấm ở góc màn hình, chọn \"Mở bằng trình duyệt\" (hoặc Safari, Chrome), rồi đăng nhập ở đó. Hoặc chép link và dán vào trình duyệt.",
+  copyLink:"Chép link",
+  linkCopied:"Đã chép link. Dán vào Safari hoặc Chrome nhé.",
   adm:"Tài khoản Google",
   admTrial:"Số ngày dùng thử cho tài khoản mới (0 = tắt, để 0 trong giai đoạn beta)",
   admLimit:"Lượt AI mỗi người mỗi ngày",
@@ -3854,7 +3861,13 @@ async function authPost(action,extra){
   return {ok:r.ok,status:r.status,j:await r.json().catch(()=>({}))};
 }
 /* Google button in box; onAcct(acct) once the server has accepted the sign-in */
+/* Facebook, Messenger, Instagram, Zalo, Line... open links in their own browser, where Google refuses to sign in */
+const authInApp=()=>/FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Zalo|Line\/|MicroMessenger|TikTok|musical_ly|BytedanceWebview/i.test(navigator.userAgent||'');
+function authInAppHTML(){return `<div class="g-inapp"><p class="small"><b>${AUTH_T.inAppTitle}</b></p><p class="small">${AUTH_T.inAppSteps}</p>
+  <button class="btn sm" type="button" data-cplink>${AUTH_T.copyLink}</button></div>`;}
 async function authButton(box,onAcct,onErr){
+  if(authInApp()){box.innerHTML=authInAppHTML();const b=$('[data-cplink]',box);if(b)b.onclick=()=>{const u=location.origin+location.pathname;
+    try{navigator.clipboard.writeText(u);toast(AUTH_T.linkCopied);}catch(e){prompt('',u);}};return;}
   try{await loadGIS();}catch(e){box.innerHTML=`<p class="small">${AUTH_T.noGis}</p>`;return;}
   /* phones and home-screen apps: full-page redirect, because the popup window cannot report back there */
   const redirect=navigator.standalone===true||matchMedia('(display-mode: standalone)').matches||matchMedia('(pointer: coarse)').matches;
@@ -3954,6 +3967,20 @@ async function authAdmin(host){
       if(!r.ok||!r.j.token){toast(r.status===429?AUTH_T.slow:AUTH_T.fail,5000);return;}
       setKey(r.j.token);acctSet(r.j.acct);toast(r.j.acct.active?AUTH_T.hi(r.j.acct.name||r.j.acct.email):AUTH_T.signedNeed,4500);
       await initPlatform();go('settings');},300);}}
+/* Home: a gentle invitation to sign in (not required for the free parts). "Later" hides it for 7 days. */
+function authNudge(el){
+  if(!WEB||acctGet()||!document.body.contains(el))return;
+  const host=$('.view',el)||el;if($('#acNudge',host))return;
+  let until=0;try{until=+localStorage.getItem('hanyu-nudge')||0;}catch(e){}
+  if(Date.now()<until)return;
+  const p=document.createElement('div');p.className='panel ac-nudge';p.id='acNudge';
+  p.innerHTML=`<div class="ac-nudge-t"><b>${AUTH_T.nudgeTitle}</b><p class="small">${AUTH_T.nudgeText}</p></div><div class="ac-row"><div id="acNG"></div><button class="btn ghost sm" type="button" id="acNL">${AUTH_T.later}</button></div>`;
+  host.insertBefore(p,host.firstChild);
+  $('#acNL',p).onclick=()=>{try{localStorage.setItem('hanyu-nudge',String(Date.now()+7*864e5));}catch(e){}p.remove();};
+  authButton($('#acNG',p),async acct=>{toast(acct.active?AUTH_T.hi(acct.name||acct.email):AUTH_T.signedNeed,4000);p.remove();await initPlatform();if(current==='home')route();},e=>toast(e,4000));
+}
+{const _home=VIEWS.home;VIEWS.home=function(el){const r=_home.apply(this,arguments);
+  Promise.resolve(r).then(async()=>{for(let i=0;i<40&&WEB===null;i++)await new Promise(z=>setTimeout(z,150));authNudge(el);});return r;};}
 {const _set=VIEWS.settings;VIEWS.settings=function(el){const r=_set.apply(this,arguments);
   Promise.resolve(r).then(()=>{const host=$('.view',el)||el;authPanel(el,host);authAdmin(host);});return r;};}
 

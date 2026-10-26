@@ -164,8 +164,8 @@ function uiAaSheet(){
 }
 VIEWS.settings=el=>{
   const c=plCfg();
-  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần nhập mật khẩu':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
-  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần mật khẩu)':'Chỉ lưu trên máy này';
+  const aiTxt=AI?'Đang bật':WEB?(WEB.ai?'Cần đăng nhập':'Chưa cấu hình trên máy chủ'):IN_ARTIFACT?'Đang tải':'Không kết nối được máy chủ';
+  const syTxt=syncState==='on'?'Đã đồng bộ':syncState==='err'?'Lỗi đồng bộ, đang lưu trên máy':syncState==='off'?'Chưa bật (cần đăng nhập)':'Chỉ lưu trên máy này';
   el.innerHTML=`<div class="view set">
    <div class="panel"><div class="spread"><h3>Người học</h3><button class="btn sm" id="stWho">Đổi người học</button></div><div class="kv"><span>Đang học với tên</span><b>${esc(uiName())}</b></div></div>
    <div class="panel"><h3>Lộ trình</h3><p class="small" style="margin:0">Mục tiêu <b>HSK ${lvN(c.target)}</b>, <b>${c.minutes} phút</b> mỗi ngày, ${P.settings.newPerDay} từ mới mỗi ngày.</p>
