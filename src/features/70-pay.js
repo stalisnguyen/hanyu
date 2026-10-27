@@ -94,6 +94,7 @@ VIEWS.upgrade=async el=>{
   for(let i=0;i<40&&WEB===null;i++)await new Promise(r=>setTimeout(r,150)); /* first load: wait for api/status */
   if(!document.body.contains(el)||current!=='upgrade')return;
   if(!WEB){$('#upAcct',el).innerHTML=`<p class="small">${PAY_T.offline}</p>`;return;}
+  if(acctGet()){try{const r=await authPost('me');if(r.ok)acctSet(r.j.acct);}catch(e){}if(!document.body.contains(el)||current!=='upgrade')return;}
   const a=acctGet(), box=$('#upAcct',el);
   if(!a){box.innerHTML=`<p class="small">${PAY_T.needSign}</p><div id="upG" style="min-height:44px"></div><p class="small" id="upMsg"></p>`;
     authButton($('#upG',el),async()=>{await initPlatform();if(current==='upgrade')VIEWS.upgrade(el);},e=>{$('#upMsg',el).textContent=e;});}

@@ -14,3 +14,5 @@
 .in-g .g-inapp{text-align:left}
 .in-skip,.cele-in .in-skip{display:block;width:auto!important;min-width:0!important;background:none!important;border:0!important;box-shadow:none!important;color:inherit!important;margin:6px auto 0;background:none;border:0;color:inherit;font:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px;opacity:.9;padding:10px 14px;cursor:pointer}
 .in-skip:hover{opacity:1}
+/* the home sign-in card replaces the older 'progress only on this device' banner */
+.view:has(#acNudge) #syBan,.view:has(#acNudge) .vbanner:has(#hmSync){display:none}
