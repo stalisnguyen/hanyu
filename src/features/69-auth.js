@@ -64,6 +64,7 @@ const authInApp=()=>/FBAN|FBAV|FB_IAB|FBIOS|Messenger|Instagram|Zalo|Line\/|Micr
 function authInAppHTML(){return `<div class="g-inapp"><p class="small"><b>${AUTH_T.inAppTitle}</b></p><p class="small">${AUTH_T.inAppSteps}</p>
   <button class="btn sm" type="button" data-cplink>${AUTH_T.copyLink}</button></div>`;}
 async function authButton(box,onAcct,onErr){
+  if(box)box.classList.add('g-host');
   if(authInApp()){box.innerHTML=authInAppHTML();const b=$('[data-cplink]',box);if(b)b.onclick=()=>{const u=location.origin+location.pathname;
     try{navigator.clipboard.writeText(u);toast(AUTH_T.linkCopied);}catch(e){prompt('',u);}};return;}
   try{await loadGIS();}catch(e){box.innerHTML=`<p class="small">${AUTH_T.noGis}</p>`;return;}
